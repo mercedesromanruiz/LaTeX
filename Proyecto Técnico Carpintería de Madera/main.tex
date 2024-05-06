@@ -1,0 +1,82 @@
+\documentclass[11pt]{report}
+\usepackage{graphicx}
+\usepackage[spanish]{babel}
+\usepackage[letterpaper,top = 2cm, bottom = 2cm, left = 3cm, right = 1.5cm, marginparwidth = 1.75cm]{geometry}
+\usepackage{subfiles}
+\usepackage{subcaption}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{pdfpages}
+\usepackage{tableof}
+\usepackage{float}
+
+
+% Definición de las variables generales del proyecto, se cambian aquí y aparecen los cambios en tos sitios :)
+\def\TituloProyecto{Proyecto de diseño de nave industrial para uso como carpintería de madera}
+\def\Autora{Mercedes Román Ruiz}
+\def\Autor{Javier Galiani Luna}
+\def\Asignatura{Oficina Técnica}
+\def\Facultad{Escuela de Ingenierías Industriales}
+\def\Grado{Grado en Ingeniería Electrónica Industrial}
+\def\Solicitante{Rafael Guzmán Sepúlveda}
+\def\Fecha{Diciembre 2023}
+
+% Aquí vamos a ir poniendo apuntes generales sobre todo de Latex
+% poniendo latex() en matlab te saca el formato matemático en latex :)
+
+%\pagestyle{fancy}
+%\fancyhead{}
+%\fancyfoot{}
+%\fancyfoot[R]{Página \thepage \hspace{1} de \pageref{(LastPage)}}
+
+\setlength{\parindent}{0cm}
+
+\begin{document}
+% Cambio de algunos detalles de funciones propias de latex
+\renewcommand\thesection{\arabic{section}}
+\renewcommand{\baselinestretch}{1.5}
+\renewcommand{\listtablename}{Índice de tablas}
+\renewcommand{\tablename}{Tabla}
+
+
+\begin{titlepage}
+    \centering
+    \includegraphics[width=0.5\textwidth]{Imagenes/Logo UMA.jpg}\par
+    \vspace{1cm}
+    {\bfseries\LARGE \Facultad \par}
+    \vspace{0.5cm}
+    {\scshape\Large \Grado \par}
+    \vspace{3cm}
+    {\itshape\Huge \TituloProyecto \par}
+    \vfill
+    {\Large Solicitante: \par}
+    {\Large \Solicitante \par}
+    \vspace{1cm}
+    {\Large Autores: \par}
+    {\Large \Autora \par}
+    {\Large \Autor \par}
+    \vfill
+    {\Large \Fecha\par}
+\end{titlepage}
+
+\subfile{Documentos basicos/Indice General}
+
+\addcontentsline{toc}{part}{Memoria}
+\subfile{Documentos basicos/Memoria}
+
+\addcontentsline{toc}{part}{Anexos}
+\subfile{Documentos basicos/Anexos}
+
+\addcontentsline{toc}{part}{Planos}
+\subfile{Documentos basicos/Planos}
+
+\addcontentsline{toc}{part}{Pliego de Condiciones}
+\subfile{Documentos basicos/Pliego de Condiciones}
+
+\addcontentsline{toc}{part}{Estado de Mediciones}
+\subfile{Documentos basicos/Estado de Mediciones}
+
+\addcontentsline{toc}{part}{Presupuesto}
+\subfile{Documentos basicos/Presupuesto}
+
+\end{document}

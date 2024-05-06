@@ -1,0 +1,66 @@
+% --------------------- COPYRIGHT --------------------
+
+% Plantilla realizada por: Mercedes Román Ruiz
+% Contacto: mercedesromanruiz@gmail.com
+
+% ----------------------------------------------------
+
+\documentclass[11pt]{report}
+
+\usepackage[spanish]{babel} % Definir el idioma del documento
+\usepackage[letterpaper,top = 2cm, bottom = 2cm, left = 3cm, right = 1.5cm, marginparwidth = 1.75cm]{geometry} % Especificar los márgenes según la norma
+\usepackage{pdfpages} % Añadir PDFs y que te cuente las páginas para el documento
+\usepackage{subfiles} % Tener subdocumentos (hay más opciones)
+\usepackage{tableof} % Se utiliza para los indices de los subdocumentos
+\usepackage{float} % Para usar lo de 'H'
+
+\def\TituloProyecto{Título del Proyecto Técnico}
+\def\Autor{Nombre y Apellidos}
+\def\Solicitante{Nombre y Apellidos}
+\def\Fecha{Mes AAAA}
+
+% ---------------------------- LOS TRUQUITOS -------------------------------------------------
+% Si se incluye [H] la tabla, grafica o imagen en el sitio en el que se está escribiendo, sin importar las sugerencias de LaTeX
+% --------------------------------------------------------------------------------------------
+
+\begin{document}
+
+\renewcommand\thesection{\arabic{section}}
+\renewcommand{\baselinestretch}{1.5}
+\renewcommand{\listtablename}{Índice de tablas} % Si no se hace esto, aparece como 'Indice de Cuadros'
+\renewcommand{\tablename}{Tabla} % Si no se hace esto, aparece como 'Cuadro'
+
+\begin{titlepage}
+    \centering
+    \includegraphics[width=0.25\linewidth]{LogoEjemplo.png} \par
+    \vspace{3 cm}
+    {\itshape\Huge \TituloProyecto \par}
+    \vfill
+    {\Large Solicitante:  \Solicitante \par}
+    \vspace{0.5cm}
+    {\Large Autor:  \Autor \par}
+    \vspace{1.5cm}
+    {\Large \Fecha \par}
+\end{titlepage}
+
+\subfile{Documentos Basicos/Indice General}
+
+\addcontentsline{toc}{part}{Memoria}
+\subfile{Documentos Basicos/Memoria}
+
+\addcontentsline{toc}{part}{Anexos}
+\subfile{Documentos Basicos/Anexos}
+
+\addcontentsline{toc}{part}{Planos}
+\subfile{Documentos Basicos/Planos}
+
+\addcontentsline{toc}{part}{Pliego de Condiciones}
+\subfile{Documentos Basicos/Pliego de Condiciones}
+
+\addcontentsline{toc}{part}{Estado de Mediciones}
+\subfile{Documentos Basicos/Estado de Mediciones}
+
+\addcontentsline{toc}{part}{Presupuesto}
+\subfile{Documentos Basicos/Presupuesto}
+
+\end{document}

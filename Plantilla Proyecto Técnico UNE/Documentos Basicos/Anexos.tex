@@ -1,0 +1,35 @@
+\documentclass[main]{subfiles}
+
+\begin{document}
+\newpage
+\thispagestyle{empty}
+\begin{center}
+    \centering
+    \includegraphics[width=0.25\linewidth]{LogoEjemplo.png} \par
+    \vspace{3 cm}
+    {\scshape\Huge Anexos \par}
+    \vspace{1.5cm}
+    {\itshape\Huge \TituloProyecto \par}
+    \vfill
+    {\Large Solicitante:  \Solicitante \par}
+    \vspace{0.5cm}
+    {\Large Autor:  \Autor \par}
+    \vspace{1.5cm}
+    {\Large \Fecha \par}
+\end{center}
+
+% El documento básico Anexos se iniciará con un índice que hará referencia a cada uno de los documentos, a sus capítulos y apartados que los componen, con el fin de facilitar su utilización.
+\chapter*{Índice de Anexos:}
+\tableof{Anexos}
+\newpage
+\toftagstart{Anexos}
+
+% Está formado por los documentos que desarrollan, justifican o aclaran apartados específicos de la memoria u otros documentos básicos del Proyecto. Este documento contendrá los anexos necesarios.
+
+% ----------------------- EJEMPLO ADJUNTAR ANEXOS ------------------------------------
+%\addcontentsline{toc}{chapter}{Anexo I: Fontanería}
+%\subfile{Anexos/Anexo I Instalacion de Fontaneria}
+% ------------------------------------------------------------------------------------
+
+\toftagstop{Anexos}
+\end{document}

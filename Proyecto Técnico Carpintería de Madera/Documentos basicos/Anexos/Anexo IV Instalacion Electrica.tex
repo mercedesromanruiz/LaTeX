@@ -1,0 +1,376 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+\newpage
+\thispagestyle{empty}
+\begin{center}
+    {\includegraphics[width=0.5\textwidth]{Imagenes/Logo UMA.jpg}\par}
+    \vspace{1cm}
+    {\bfseries\LARGE \Facultad \par}
+    \vspace{0.5cm}
+    {\scshape\Large \Grado \par}
+    \vspace{1cm}
+    {\scshape\Huge Anexo IV \par}
+    \vspace{0.5cm}
+    {\scshape\Huge Diseño de Instalación Eléctrica de Baja Tensión \par}
+    \vspace{1.5cm}
+    {\itshape\Large \TituloProyecto \par}
+    \vfill
+    {\Large Solicitante: \par}
+    {\Large \Solicitante  \par}
+    \vspace{1cm}
+    {\Large Autores: \par}
+    {\Large \Autora \par}
+    {\Large \Autor \par}
+    \vfill
+    {\Large \Fecha \par}
+\end{center}
+
+\newpage
+
+\section{Introducción}
+
+
+
+Se realiza en este anexo el desarrollo de la instalación eléctrica de la carpintería de madera del proyecto final de la asignatura Oficina Técnica. 
+
+
+\section{Criterios de comprobación de los conductores}
+
+A la hora de garantizar que tanto los conductores empleados, como su aislamiento, son seguros se han seguido los siguientes criterios:
+
+\subsection{Criterio de la intensidad máxima admisible}
+
+Se debe de cumplir que la intensidad circulante por un conductor sea menor que la intensidad máxima.  
+
+Si se va a alimentar un motor, se debe de multiplicar la intensidad obtenida por un factor de 1.25 A.
+
+Para el cálculo de dicho criterio se debe de emplear tanto en monofásica como en trifásica.
+
+\subsubsection{Monofásica}
+
+\begin{equation}
+    I = \frac{P}{V\cdot Cos(\psi) \cdot  c_1}
+\end{equation}
+
+Donde:
+
+\begin{itemize}
+    \item I: Intensidad máxima en Amperios
+    \item P: Potencia demandada en Watios
+    \item V: Voltaje circulante en Voltios
+    \item Cos($\psi)$: Coseno del ángulo que forman el fasor de intensidad y el fasor de tensión en fase.
+    \item $c_1$: Coeficiente de corrección, relativo a agrupamiento de cables, temperatura...
+\end{itemize}
+
+\subsubsection{Trifásica}
+
+\begin{equation}
+    I = \frac{P}{\sqrt{3}\cdot V\cdot Cos(\psi) \cdot c_1}
+\end{equation}
+
+\begin{itemize}
+    \item I: Intensidad máxima en Amperios
+    \item P: Potencia demandada en Watios
+    \item V: Voltaje circulante en Voltios
+    \item Cos($\psi)$: Coseno del ángulo que forman el fasor de intensidad y el fasor de tensión en fase.
+    \item $c_1$: Coeficiente de corrección, relativo a agrupamiento de cables, temperatura...
+\end{itemize}
+
+\subsection{Criterio de la máxima caída de tensión}
+
+Para asegurar que el voltaje requerido es el obtenido, se debe de tener en cuenta la caída de tensión a lo largo del conductor.
+
+Existen dos formulas empleadas en el cálculo de la máxima caída de tensión, la única diferencia entre ambas expresiones es el empleo de la reactancia como parametro a tener en cuenta. 
+
+Para secciones menores a 25 $mm^2$ no se ha tenido en cuenta la reactancia.
+
+\subsubsection{Monofásica}
+
+Teniendo en cuenta la reactancia:
+
+\begin{equation}
+    S = \frac{2\cdot L\cdot I\cdot Cos(\psi)}{\gamma\cdot (\Delta U-2\cdot 10^{-3} \cdot  x/n \cdot  L\cdot  I \cdot  Sen(\psi) )}
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item S: Sección obtenida en $mm^2$ 
+    \item L: Longitud del conductor en m
+    \item I: Intensidad circulante en A
+    \item $\gamma$: Conductividad del conductor en $m/(\Omega\cdot mm^2)$
+    \item $\Delta $U: Caída de tensión máxima en V
+    \item x: Reactancia de la línea en $\Omega/km$
+    \item n: número de conductores por fase
+    \item Cos($\psi)$: Coseno del ángulo que forman el fasor de intensidad y el fasor de tensión en fase.
+\end{itemize}
+
+Asumiendo una reactancia nula, la expresión se simplifica quedando:
+
+\begin{equation}
+    S = \frac{2\cdot L\cdot I\cdot Cos(\psi)}{\gamma\cdot \Delta U}
+\end{equation}
+
+\subsubsection{Trifásica}
+
+Teniendo en cuenta la reactancia 
+
+\begin{equation}
+    S = \frac{\sqrt{3}\cdot L\cdot I\cdot Cos(\psi)}{\gamma\cdot (\Delta U-1.732\cdot 10^{-3} \cdot  x/n \cdot  L\cdot  I \cdot  Sen(\psi) )}
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item S: Sección obtenida en $mm^2$ 
+    \item L: Longitud del conductor en m
+    \item I: Intensidad circulante en A
+    \item $\gamma$: Conductividad del conductor en $m/(\Omega\cdot mm^2)$
+    \item $\Delta $U: Caída de tensión máxima en V
+    \item x: Reactancia de la línea en $\Omega/km$
+    \item n: número de conductores por fase
+    \item Cos($\psi)$: Coseno del ángulo que forman el fasor de intensidad y el fasor de tensión en fase.
+\end{itemize}
+
+Asumiendo una reactancia nula, la expresión se simplifica quedando:
+
+\begin{equation}
+    S = \frac{\sqrt{3}\cdot L\cdot I\cdot Cos(\psi)}{\gamma\cdot \Delta U}
+\end{equation}
+
+\subsection{Criterio de la intensidad máxima de cortocircuito}
+
+Dicho criterio es necesario en caso de un cortocircuito, el dispositivo de protección sea capaz de cortar la corriente circulante en el menor tiempo posible. 
+
+La formula seguida es la siguiente:
+
+\begin{equation}
+    I_{cc} = \frac{k\cdot S}{\sqrt{t}}
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item $I_{cc}$: Corriente de cortocircuito en A
+    \item k: Constante que depende del conductor y su aislamiento
+    \item S: Sección de los conductores en $mm^2$
+    \item t: Tiempo del cortocircuito en segundos
+\end{itemize}
+
+
+\section{Sección, aislamiento, montaje y protección de los conductores}
+
+En base a los criterios anteriormente dichos, es posible obtener la sección del conductor, así como el aislamiento que recubre a este y las protecciones necesarias para garantizar la seguridad en la instalación eléctrica. 
+
+Para conocer la sección, aislamiento, el tipo de montaje y la protección de los conductores se ha dividido en circuitos más pequeños la instalación. 
+
+\subsection{Planta de producción}
+
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|c|c|c}
+        Circuito & Corriente & Uso & Potencia [W]  \\ \hline
+        Combinada 5 operaciones 1 & Trifásica & Máquina & 4000 \\
+        Combinada 5 operaciones 2 & Trifásica & Máquina & 4000 \\
+         CNC grande & Trifásica & Máquina & 22000 \\
+        CNC pequeña 1 & Monofásica & Máquina & 2200 \\
+        CNC pequeña 2 & Monofásica & Máquina & 2200 \\
+        Grupo de aspiración & Trifásica & Máquina & 11000 \\
+        Briquetadora & Trifásica & Máquina & 11000 \\
+         Lijadora & Trifásica & Máquina & 12000 \\
+        Seccionadora vertical & Trifásica & Máquina & 3000 \\
+        Iluminación & Monofásica & Luminarias & 3225.6 \\
+        Tomas de corriente & Monofásica & General & 800 \\
+    \end{tabular}
+    \caption{Subcircuitos en el taller} 
+\end{table}
+
+Se han agrupado por subcircuitos para poder simplificar el proceso. Todos los subcircuitos mencionados su conductor es cobre, además de su montaje ser 'Cables Multipolares en bandejas perforadas' las cuales pueden ir tanto de forma vertical como de forma horizontal.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|c|c|c|c}
+        Circuito & Corriente circulante [A] & Sección [$mm^2$] & Tipo de Aislante & Coeficiente\\ \hline
+        
+        CNC grande & 46.615 & 10 & PVC3 & 1 \\
+        CNC pequeña 1 & 20.17 & 2.5 & PVC2 & 0.88 \\
+        CNC pequeña 2 & 20.17 & 2.5 & PVC2 & 0.88 \\
+        Combinada 5 operaciones 1 & 11.27 & 2.5 & PVC3 & 0.8 \\
+        Combinada 5 operaciones 2 & 11.27 & 2.5 & PVC3 & 0.8 \\
+        Grupo de aspiración & 31.8 & 6 & PVC3 & 0.78 \\
+        Briquetadora & 31.8 & 6 & PVC3 & 0.78 \\
+        Lijadora & 34.7 & 6 & PVC3 & 0.78 \\
+        Seccionadora Vertical & 8.67 & 1.5 & PVC3 & 0.78 
+       
+    \end{tabular}
+    \caption{Información Intensidad, sección, aislante y coeficientes.}
+\end{table}
+
+La columna de coeficiente es producto de emplear una bandeja perforada en la que reposan varios conductores. Dicho coeficiente ya ha sido empleado en los cálculos previos, además de a la intensidad obtenida se ha multiplicado por 1.25 en caso de ser para alimentar a un motor eléctrico.
+
+A continuación se exponen qué subcircuitos y el motivo de estos coeficientes:
+
+\begin{itemize}
+    \item CNC grande: Coeficiente 1. Un único cable multipolar.
+    \item CNC pequeña 1 y 2: Coeficiente 0.88. 2 cables multipolares monofásicos.
+    \item Combinada de 5 operaciones 1 y 2: Coeficiente 0.8. 2 cables multipolares trifásicos.
+    \item Grupo de aspiración, briquetadora, lijadora y seccionadora vertical: Coeficiente 0.78. 4 cables multipolares trifásicos.
+\end{itemize}
+
+\subsection{Zona de exposición}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|c|c|c}
+        Circuito & Corriente & Uso & Potencia [W]  \\ \hline
+        Iluminación & Monofásica & Luminarias & 235.2\\
+        Tomas de corriente  & Monofásica & General & 300 \\
+    \end{tabular}
+    \caption{Circuitos en la zona de exposición} 
+
+Para la zona de exposición, se tiene un conductor, empotrado en pared y suelo. El conductor es de cobre, aislado con PVC2 y con una sección de 1.5 $mm^2$.
+
+
+\end{table}
+
+\subsection{Oficina}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|c|c|c}
+        Circuito & Corriente & Uso & Potencia [W]  \\ \hline
+        Iluminación & Monofásica & Luminarias & 73.2 \\
+        Tomas de corriente  & Monofásica & General & 300 \\
+
+    \end{tabular}
+    \caption{Circuitos en la oficina} 
+\end{table}
+
+Para la oficina, se tiene un conductor, empotrado en pared y suelo. El conductor es de cobre, aislado con PVC2 y con una sección de 1.5 $mm^2$.
+
+
+\subsection{Almacén}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|c|c|c}
+        Circuito & Corriente & Uso & Potencia [W]  \\ \hline
+        Iluminación & Monofásica & Luminarias & 196 \\
+        Bomba & Monofásica & ACS & 1800 \\
+        Tomas de corriente  & Monofásica & General & 300 \\
+
+    \end{tabular}
+    \caption{Circuitos en el almacén} 
+\end{table}
+
+Para el almacén, se tiene un conductor, empotrado en pared y suelo. El conductor es de cobre, aislado con PVC2 y con una sección de 2.5 $mm^2$.
+
+\subsection{Baños}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|c|c|c}
+        Circuito & Corriente & Uso & Potencia [W]  \\ \hline
+        Iluminación & Monofásica & Luminarias & 84 \\
+
+    \end{tabular}
+    \caption{Circuitos en los baños} 
+\end{table}
+
+Para el baño, se tiene un conductor, empotrado en pared y suelo. El conductor es de cobre, aislado con PVC2 y con una sección de 1.5 $mm^2$.
+
+
+\subsection{Vestuarios}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|c|c|c}
+        Circuito & Corriente & Uso & Potencia [W]  \\ \hline
+        Iluminación & Monofásica & Luminarias & 142.5 \\
+        Calentador & Monofásica & ACS  & 2400 \\
+        Tomas de corriente  & Monofásica & General & 300 \\
+        
+    \end{tabular}
+    \caption{Circuitos en los vestuarios y zona de descanso} 
+\end{table}
+
+Para el vestuario y la zona de descanso, se tiene un conductor, empotrado en pared y suelo. El conductor es de cobre, aislado con PVC2 y con una sección de 4 $mm^2$.
+
+
+\section{Protecciones}
+
+Para el cálculo de protecciones, se decide emplear magnetotermico y diferencial. Para ello, se tiene que tener en cuenta lo siguiente:
+
+\begin{equation}
+    I de trabajo < I nominal < I maxima admisible
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item I de trabajo: Intensidad de trabajo
+    \item I nominal: Intensidad a la que el magnetotermico corta la corriente.
+    \item I máxima admisible: Máxima intensidad circulante por el conductor.
+\end{itemize}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|c|c|c}
+    Subcircuito & I de trabajo [A] & I nominal [A] & I máx admisible  \\ \hline
+    CNC grande & 49.61 & 50 & 52 \\
+    CNC pequeña 1 & 20.17 & 25 & 26 \\
+    CNC pequeña 2 & 20.17 & 25 & 26 \\
+    Combinada de 5 operaciones 1 & 11.27 & 20 & 21 \\
+    Combinada de 5 operaciones 2 & 11.27 & 20 & 21 \\
+    Grupo de aspiración & 31.8 & 35 & 37 \\
+    Briquetadora & 31.8 & 35 & 37 \\
+    Lijadora & 34.7 & 35 & 37 \\
+    Seccionadora vertical & 8.67 & 10 & 16 \\
+    Zona de exposición & 3.45 & 6 & 15.5 \\ 
+    Oficina & 2.4 & 6 & 15.5 \\
+    Almacén & 14.84 & 16 & 20 \\
+    Baños & 0.84 & 6 & 15.5 \\
+    Vestuarios & 18.35 & 20 & 26 \\    
+    \end{tabular}
+    \caption{Protecciones}
+\end{table}
+
+
+\section{Potencia total de la instalación}
+
+Para la potencia total de la instalación se ha de tener en cuenta el coeficiente de simultaneidad, el cual se ha obtenido, del Real Decreto 842/2002 y siempre realizándolo al alza. Tomando el coeficiente dado en el Real Decreto como mínimo.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|c}
+    Tipo de circuito & Coeficiente de simultaneidad \\
+    Luminarias & 1 \\
+    Máquina & 1 \\
+    Tomas de corriente & 0.6 \\
+    ACS & 0.85 \\
+    \end{tabular}
+    \caption{Coeficientes de simultaneidad}
+\end{table}
+
+Aplicando estos coeficientes, el resultado de la potencia total es de: 79646.5 W o 79,6465 kW.
+
+La acometida se realiza con un conductor de aluminio, trifásico, a 400 V, con un aislante XLPE3 de sección 120 $mm^2$
+
+\subsection{Caja general de protección}
+
+La caja general de protección se situa en la fachada exterior del edificio. La acometida se realiza mediante instalación subterránea y se sitúa a una altura de 1.5 m. 
+
+En la caja general de protecciones se instalan 4 fusibles de 200 A. 
+
+\subsection{Línea general de alimentación}
+
+Partiendo de de la Caja general de protección surge la línea general de alimentación.
+
+Los conductores, de cobre, son de 95 mm y aislante XLPE3, además de no propagador de incendios y con emisión de humos y opacidad reducida. Estos van en el interior de tubos cuyo diametro exterior es de 140 mm.
+
+\subsection{Contadores}
+
+Tras la línea general de alimentación se instala los contadores. 
+
+Dichos contadores es necesario que el cable tenga una sección de 6 $mm^2$. Debido a que por una sección de 6 $mm^2$, la intensidad máxima circulante es de 32 A, es necesario un total de 7 cables para poder conducir la energía equivalente. Estos cables también son XLPE3, no propagadores de incendios y con emisión de humos y opacidad reducida.
+
+Se decide colocar el contador, dentro de la nave, en la oficina. 
+
+\end{document}

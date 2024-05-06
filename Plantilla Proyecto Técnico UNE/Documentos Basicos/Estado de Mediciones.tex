@@ -1,0 +1,31 @@
+\documentclass[main]{subfiles}
+
+\begin{document}
+\newpage
+\thispagestyle{empty}
+\begin{center}
+    \centering
+    \includegraphics[width=0.25\linewidth]{LogoEjemplo.png} \par
+    \vspace{3 cm}
+    {\scshape\Huge Estado de Mediciones \par}
+    \vspace{1.5cm}
+    {\itshape\Huge \TituloProyecto \par}
+    \vfill
+    {\Large Solicitante:  \Solicitante \par}
+    \vspace{0.5cm}
+    {\Large Autor:  \Autor \par}
+    \vspace{1.5cm}
+    {\Large \Fecha \par}
+\end{center}
+
+% El Estado de Mediciones se iniciará con un índice que hará referencia a cada uno de los documentos, a sus capítulos y apartados que los componen, con el fin de facilitar su utilización.
+
+\chapter*{Índice de Estado de Mediciones:}
+\tableof{Mediciones}
+\newpage
+\toftagstart{Mediciones}
+
+% Contendrá un listado completo de las partidas de obra que configuran la totalidad del Proyecto. Se subdivirá en distintos apartados o subapartados, correspondientes a las partes más significativas del objeto del Proyecto. Servirá de base para la realización del Presupuesto.
+
+\toftagstop{Mediciones}
+\end{document}

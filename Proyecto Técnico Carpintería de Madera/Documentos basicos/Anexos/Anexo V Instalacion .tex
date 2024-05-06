@@ -1,0 +1,102 @@
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+\newpage
+\thispagestyle{empty}
+\begin{center}
+    {\includegraphics[width=0.5\textwidth]{Imagenes/Logo UMA.jpg}\par}
+    \vspace{1cm}
+    {\bfseries\LARGE \Facultad \par}
+    \vspace{0.5cm}
+    {\scshape\Large \Grado \par}
+    \vspace{1.5cm}
+    {\scshape\Huge Anexo V \par}
+    \vspace{1.5cm}
+    {\scshape\Huge Diseño de Instalación de seguridad contra Incendios \par}
+    \vspace{0.5cm}
+    {\itshape\Large \TituloProyecto \par}
+    \vfill
+    {\Large Solicitante: \par}
+    {\Large \Solicitante  \par}
+    \vspace{1cm}
+    {\Large Autores: \par}
+    {\Large \Autora \par}
+    {\Large \Autor \par}
+    \vfill
+    {\Large \Fecha \par}
+\end{center}
+
+
+\newpage
+
+\section{Introducción}
+
+Realización del diseñe de la instalación de seguridad contra incendios en la nave industrial, cuyo uso es el de carpintería de madera.
+
+Para su desarrollo se ha empleado el 'Reglamento de seguridad contra incendios en los establecimientos industriales'.
+
+\section{Caracterización del establecimiento industrial}
+
+En el propio edificio, además de realizarse actividades propias a la carpintería (Corte, pulido, barnizado...) se tiene un almacén, una oficina, baños, zona de exposición, vestuario y zona de descanso.
+
+Existen 5 tipos de configuraciones para edificios industriales:
+
+\begin{itemize}
+    \item Tipo A: El establecimiento ocupa parcialmente un edificio. En este puede haber otros establecimientos, industriales o no.
+    \item Tipo B: El establecimiento ocupa totalmente un edificio. Este está adosado o a una distancia inferior a 3 metros de otro u otros edificios, industriales o no.
+    \item Tipo C: El establecimiento ocupa totalmente un edificio, o varios. Está a una distancia mayor de 3 metros de otros edificios y no tiene mercancías combustibles o elementos susceptibles de propagar el incendio.
+    \item Tipo D: El establecimiento ocupa un espacio abierto, que puede estar cubierto pero algunas de las fachadas carece de cerramiento lateral
+    \item Tipo E: El establecimiento ocupa un espacio abierto, que puede estar parcialmente cubierto y algunas de sus fachadas en la parte cubierta carece de cerramiento lateral.
+\end{itemize}
+
+En este caso, la nave industrial está adosada a otras naves industriales y por tanto, su categoría es la B. 
+
+\section{Caracterización por el nivel de riesgo intrínseco}
+
+Para la caracterización del nivel de riesgo, se puede evaluar la carga de fuego, ponderada y corregida en función de su actividad.
+
+Para una actividad de producción, transformación, reparación o cualquier actividad distinta al almacenamiento:
+\begin{equation}
+    Q_s = \frac{\sum_{1}^{i} \cdot q_{si} \cdot S_i \cdot C_i}{A} \cdot R_a
+\end{equation}
+
+Donde:
+
+\begin{itemize}
+    \item $Q_s$: densidad de carga de fuego, ponderada y corregida, del sector o área de incendio, en MJ/m2
+    \item $q_{si}$: densidad de carga de fuego de cada zona con proceso diferente según los distintos procesos que se realizan, en MJ/m2
+    \item $S_i$: superficie de cada zona con proceso diferente y densidad de carga de fuego diferente, en $m^2$
+    \item $C_i$: Coeficiente adimensional que pondera el grado de peligrosidad (por la combustibilidad) de cada uno de los combustibles (i) que existen en el sector de incendio
+    \item $R_a$: Coeficiente adimensional que corrige el grado de peligrosidad (por la activación) inherente a la actividad industrial que se desarrolla en el sector de incendio, producción, montaje, transformación, reparación, almacenamiento, etc
+    \item A: superficie construida del sector de incendio o superficie ocupada del área de incendio, en $m^2$
+    
+\end{itemize}
+
+Para actividades de almacenamiento:
+
+\begin{equation}
+    Q_s = \frac{\sum_{1}^{i} \cdot q_{vi} \cdot C_i \cdot h_i \cdot s_i }{A} \cdot R_a
+\end{equation}
+
+Donde:
+
+\begin{itemize}
+    \item $q_{vi}$: Carga de fuego, aportada por cada $m^3$ de cada zona con diferente tipo de almacenamiento (i) existente en la zona del incendio.
+    \item $h_i$: Altura del almacenamiento de cada uno de los combustibles (i) en metros
+    \item $s_i$: Superficie ocupada en planta por cada zona con diferente tipo de almacenamiento (i) existente en el sector de incendio en $m^2$
+    \item $Q_s$, $C_i$, $Ra$ y A tienen el mismo significado.
+\end{itemize}
+
+Por tanto, es necesario calcular el riesgo intrínseco total de la carpintería. Para ello, es necesario calcular la carga de fuego, ponderada y corregida, con las ecuaciones anteriormente escritas.
+
+
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|c|c|c|c|c|c}
+    Actividad & Area [$m^2$] & $q_s$ [MJ/$m^2$] & $C_i$ & Ra & Qs $Q_s$ [MJ/$m^2$]
+    \end{tabular}
+    \caption{Calculo del riesgo intrínseco del edificio para la fabricación}
+\end{table}
+
+
+\end{document}
