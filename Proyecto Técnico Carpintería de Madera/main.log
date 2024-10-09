@@ -1,0 +1,1590 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.9)  9 OCT 2024 23:20
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/merce/Documents/GitHub/LaTeX/Proyecto Técnico Carpintería de Madera/main.tex"
+(c:/Users/merce/Documents/GitHub/LaTeX/Proyecto Técnico Carpintería de Madera/main.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-09-10>
+(c:/texlive/2024/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2024/02/08 v1.4n Standard LaTeX document class
+(c:/texlive/2024/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count194
+\c@chapter=\count195
+\c@section=\count196
+\c@subsection=\count197
+\c@subsubsection=\count198
+\c@paragraph=\count199
+\c@subparagraph=\count266
+\c@figure=\count267
+\c@table=\count268
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+) (c:/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/10/05 v24.11 The Babel package
+\babel@savecnt=\count269
+\U@D=\dimen144
+\l@unhyphenated=\language89
+ (c:/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count270
+ (c:/texlive/2024/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks18
+\es@quotdepth=\count271
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+)) (c:/texlive/2024/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+) (c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count272
+\Gm@cntv=\count273
+\c@Gm@tempcnt=\count274
+\Gm@bindingoffset=\dimen145
+\Gm@wd@mp=\dimen146
+\Gm@odd@mp=\dimen147
+\Gm@even@mp=\dimen148
+\Gm@layoutwidth=\dimen149
+\Gm@layoutheight=\dimen150
+\Gm@layouthoffset=\dimen151
+\Gm@layoutvoffset=\dimen152
+\Gm@dimlist=\toks19
+) (c:/texlive/2024/texmf-dist/tex/latex/subfiles/subfiles.sty
+Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
+ (c:/texlive/2024/texmf-dist/tex/latex/import/import.sty
+Package: import 2020/04/01  v 6.2
+)) (c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+ (c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen153
+\captionmargin=\dimen154
+\caption@leftmargin=\dimen155
+\caption@rightmargin=\dimen156
+\caption@width=\dimen157
+\caption@indent=\dimen158
+\caption@parindent=\dimen159
+\caption@hangindent=\dimen160
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count275
+\c@continuedfloat=\count276
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count277
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count278
+) (c:/texlive/2024/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2024/07/07 v2.1c lastpage: 2.09 or 2e? (HMM)
+ (c:/texlive/2024/texmf-dist/tex/latex/lastpage/lastpage2e.sty
+Package: lastpage2e 2024/07/07 v2.1c Decide which 2e lastpage version to use (HMM)
+ (c:/texlive/2024/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
+Package: lastpagemodern 2024-07-07 v2.1c Refers to last page's name (HMM; JPG)
+\c@lastpagecount=\count279
+) 
+)) (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip51
+\f@nch@O@elh=\skip52
+\f@nch@O@erh=\skip53
+\f@nch@O@olh=\skip54
+\f@nch@O@orh=\skip55
+\f@nch@O@elf=\skip56
+\f@nch@O@erf=\skip57
+\f@nch@O@olf=\skip58
+\f@nch@O@orf=\skip59
+) (c:/texlive/2024/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2024/08/20 v0.6b Insert pages of external PDF documents (AM)
+ (c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count280
+\calc@Bcount=\count281
+\calc@Adimen=\dimen161
+\calc@Bdimen=\dimen162
+\calc@Askip=\skip60
+\calc@Bskip=\skip61
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count282
+\calc@Cskip=\skip62
+) (c:/texlive/2024/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen163
+\ESO@tempdimb=\dimen164
+ (c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+))
+\AM@pagewidth=\dimen165
+\AM@pageheight=\dimen166
+\AM@fboxrule=\dimen167
+ (c:/texlive/2024/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2024/08/20 v0.6b Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count283
+\AM@pagebox=\box52
+\AM@global@opts=\toks20
+\AM@pagecnt=\count284
+\AM@toc@title=\toks21
+\AM@lof@heading=\toks22
+\c@AM@survey=\count285
+\AM@templatesizebox=\box53
+) (c:/texlive/2024/texmf-dist/tex/latex/tableof/tableof.sty
+Package: tableof 2024/09/17 v1.4d Tables of tagged contents (JFB)
+ (c:/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\tof@toctoks=\toks23
+) (c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count286
+\float@exts=\toks24
+\float@box=\box54
+\@float@everytoks=\toks25
+\@floatcapt=\box55
+) (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count287
+\l__pdf_internal_box=\box56
+) (./main.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+ (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count288
+\scratchdimen=\dimen168
+\scratchbox=\box57
+\nofMPsegments=\count289
+\nofMParguments=\count290
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count291
+\MPscratchDim=\dimen169
+\MPnumerator=\count292
+\makeMPintoPDFobject=\count293
+\everyMPtoPDFconversion=\toks27
+) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Info: Redefining \. on input line 34.
+LaTeX Info: Redefining \% on input line 34.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 486.25761pt, 42.67912pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=486.25761pt
+* \textheight=681.15898pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=49.79231pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+(c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+\tof@tf=\read3
+<Imagenes/Logo UMA.jpg, id=1, 1778.645pt x 948.54375pt>
+File: Imagenes/Logo UMA.jpg Graphic file (type jpg)
+<use Imagenes/Logo UMA.jpg>
+Package pdftex.def Info: Imagenes/Logo UMA.jpg  used on input line 44.
+(pdftex.def)             Requested size: 243.1288pt x 129.65445pt.
+
+
+[1
+
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Imagenes/Logo UMA.jpg>] (./Documentos basicos/Indice General.tex
+File: Imagenes/Logo UMA.jpg Graphic file (type jpg)
+<use Imagenes/Logo UMA.jpg>
+Package pdftex.def Info: Imagenes/Logo UMA.jpg  used on input line 7.
+(pdftex.def)             Requested size: 243.1288pt x 129.65445pt.
+
+
+[1] (./main.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 6.
+
+
+[2
+
+]
+
+[3]
+
+[4])
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+) (./Documentos basicos/Memoria.tex
+
+[5]
+File: Imagenes/Logo UMA.jpg Graphic file (type jpg)
+<use Imagenes/Logo UMA.jpg>
+Package pdftex.def Info: Imagenes/Logo UMA.jpg  used on input line 7.
+(pdftex.def)             Requested size: 243.1288pt x 129.65445pt.
+
+
+[6]
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
+
+
+[7
+
+]
+
+[8{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+[9]
+
+[10]
+
+[11]
+
+[12]
+
+[13]
+
+[14]
+<Imagenes/Combinada5Operaciones.png, id=61, 3011.25pt x 1835.85875pt>
+File: Imagenes/Combinada5Operaciones.png Graphic file (type png)
+<use Imagenes/Combinada5Operaciones.png>
+Package pdftex.def Info: Imagenes/Combinada5Operaciones.png  used on input line 268.
+(pdftex.def)             Requested size: 243.1288pt x 148.21631pt.
+<Imagenes/CNCGrande.png, id=63, 1144.275pt x 745.78625pt>
+File: Imagenes/CNCGrande.png Graphic file (type png)
+<use Imagenes/CNCGrande.png>
+Package pdftex.def Info: Imagenes/CNCGrande.png  used on input line 276.
+(pdftex.def)             Requested size: 243.1288pt x 158.45187pt.
+<Imagenes/CNCPequena.png, id=64, 3011.25pt x 2192.19pt>
+File: Imagenes/CNCPequena.png Graphic file (type png)
+<use Imagenes/CNCPequena.png>
+Package pdftex.def Info: Imagenes/CNCPequena.png  used on input line 284.
+(pdftex.def)             Requested size: 243.1288pt x 176.98439pt.
+
+
+[15 <./Imagenes/Combinada5Operaciones.png> <./Imagenes/CNCGrande.png>]
+<Imagenes/Lijadora.png, id=70, 692.5875pt x 451.6875pt>
+File: Imagenes/Lijadora.png Graphic file (type png)
+<use Imagenes/Lijadora.png>
+Package pdftex.def Info: Imagenes/Lijadora.png  used on input line 292.
+(pdftex.def)             Requested size: 243.1288pt x 158.56165pt.
+<Imagenes/SeccionadoraVertical.png, id=71, 3011.25pt x 2257.43375pt>
+File: Imagenes/SeccionadoraVertical.png Graphic file (type png)
+<use Imagenes/SeccionadoraVertical.png>
+Package pdftex.def Info: Imagenes/SeccionadoraVertical.png  used on input line 300.
+(pdftex.def)             Requested size: 243.1288pt x 182.25177pt.
+
+
+[16 <./Imagenes/CNCPequena.png> <./Imagenes/Lijadora.png>]
+<Imagenes/Briquetadora.png, id=77, 849.1725pt x 582.175pt>
+File: Imagenes/Briquetadora.png Graphic file (type png)
+<use Imagenes/Briquetadora.png>
+Package pdftex.def Info: Imagenes/Briquetadora.png  used on input line 309.
+(pdftex.def)             Requested size: 243.1288pt x 166.68556pt.
+<Imagenes/MesaTrabajo.png, id=78, 849.1725pt x 582.175pt>
+File: Imagenes/MesaTrabajo.png Graphic file (type png)
+<use Imagenes/MesaTrabajo.png>
+Package pdftex.def Info: Imagenes/MesaTrabajo.png  used on input line 318.
+(pdftex.def)             Requested size: 243.1288pt x 166.68556pt.
+
+
+[17 <./Imagenes/SeccionadoraVertical.png> <./Imagenes/Briquetadora.png>]
+<Imagenes/GrupoAspiracion.png, id=84, 461.725pt x 392.46625pt>
+File: Imagenes/GrupoAspiracion.png Graphic file (type png)
+<use Imagenes/GrupoAspiracion.png>
+Package pdftex.def Info: Imagenes/GrupoAspiracion.png  used on input line 325.
+(pdftex.def)             Requested size: 243.1288pt x 206.65869pt.
+
+
+[18 <./Imagenes/MesaTrabajo.png> <./Imagenes/GrupoAspiracion.png>]
+
+[19]
+
+[20]
+
+[21]
+
+[22]
+
+[23]
+<Imagenes/Lista de luminarias.png, id=108, 895.09406pt x 511.9125pt>
+File: Imagenes/Lista de luminarias.png Graphic file (type png)
+<use Imagenes/Lista de luminarias.png>
+Package pdftex.def Info: Imagenes/Lista de luminarias.png  used on input line 564.
+(pdftex.def)             Requested size: 364.6932pt x 208.57321pt.
+
+
+[24]
+
+[25 <./Imagenes/Lista de luminarias.png>]
+
+[26]
+<Imagenes/Planificacion.png, id=120, 2670.97874pt x 2116.90875pt>
+File: Imagenes/Planificacion.png Graphic file (type png)
+<use Imagenes/Planificacion.png>
+Package pdftex.def Info: Imagenes/Planificacion.png  used on input line 647.
+(pdftex.def)             Requested size: 486.25761pt x 385.38782pt.
+
+
+[27]) (./Documentos basicos/Anexos.tex
+
+[28 <./Imagenes/Planificacion.png>]
+File: Imagenes/Logo UMA.jpg Graphic file (type jpg)
+<use Imagenes/Logo UMA.jpg>
+Package pdftex.def Info: Imagenes/Logo UMA.jpg  used on input line 7.
+(pdftex.def)             Requested size: 243.1288pt x 129.65445pt.
+
+
+[29]
+LaTeX Info: Redefining \. on input line 29.
+LaTeX Info: Redefining \% on input line 29.
+
+
+[30
+
+]
+
+[31] (./Documentos basicos/Anexos/Anexo I Instalacion de Fontaneria.tex
+File: Imagenes/Logo UMA.jpg Graphic file (type jpg)
+<use Imagenes/Logo UMA.jpg>
+Package pdftex.def Info: Imagenes/Logo UMA.jpg  used on input line 6.
+(pdftex.def)             Requested size: 243.1288pt x 129.65445pt.
+
+
+[32]
+
+[33]
+
+[34]
+
+[35]
+
+[36]
+
+[37]
+
+[38]
+<Imagenes/DepositoAuxiliarAgua.png, id=164, 1150.2975pt x 572.89032pt>
+File: Imagenes/DepositoAuxiliarAgua.png Graphic file (type png)
+<use Imagenes/DepositoAuxiliarAgua.png>
+Package pdftex.def Info: Imagenes/DepositoAuxiliarAgua.png  used on input line 243.
+(pdftex.def)             Requested size: 243.1288pt x 121.07977pt.
+<Imagenes/BombaAgua.png, id=165, 1154.81438pt x 663.98062pt>
+File: Imagenes/BombaAgua.png Graphic file (type png)
+<use Imagenes/BombaAgua.png>
+Package pdftex.def Info: Imagenes/BombaAgua.png  used on input line 262.
+(pdftex.def)             Requested size: 243.1288pt x 139.78452pt.
+
+
+[39 <./Imagenes/DepositoAuxiliarAgua.png>]
+<Imagenes/Vaso de Expansion.png, id=170, 1160.83687pt x 541.27219pt>
+File: Imagenes/Vaso de Expansion.png Graphic file (type png)
+<use Imagenes/Vaso de Expansion.png>
+Package pdftex.def Info: Imagenes/Vaso de Expansion.png  used on input line 280.
+(pdftex.def)             Requested size: 243.1288pt x 113.36491pt.
+
+
+[40 <./Imagenes/BombaAgua.png> <./Imagenes/Vaso de Expansion.png>]
+<Imagenes/Termo.png, id=176, 902.6222pt x 640.64343pt>
+File: Imagenes/Termo.png Graphic file (type png)
+<use Imagenes/Termo.png>
+Package pdftex.def Info: Imagenes/Termo.png  used on input line 297.
+(pdftex.def)             Requested size: 243.1288pt x 172.5557pt.
+) (./Documentos basicos/Anexos/Anexo II Saneamiento.tex
+
+[41 <./Imagenes/Termo.png>]
+File: Imagenes/Logo UMA.jpg Graphic file (type jpg)
+<use Imagenes/Logo UMA.jpg>
+Package pdftex.def Info: Imagenes/Logo UMA.jpg  used on input line 6.
+(pdftex.def)             Requested size: 243.1288pt x 129.65445pt.
+
+
+[42]
+<Imagenes/detalleisoyetas.png, id=185, 648.92438pt x 271.0125pt>
+File: Imagenes/detalleisoyetas.png Graphic file (type png)
+<use Imagenes/detalleisoyetas.png>
+Package pdftex.def Info: Imagenes/detalleisoyetas.png  used on input line 58.
+(pdftex.def)             Requested size: 486.25761pt x 203.08104pt.
+
+
+[43 <./Imagenes/detalleisoyetas.png>]
+
+[44]
+
+[45]
+
+[46]
+
+[47]) (./Documentos basicos/Anexos/Anexo III Iluminacion.tex
+
+[48]
+File: Imagenes/Logo UMA.jpg Graphic file (type jpg)
+<use Imagenes/Logo UMA.jpg>
+Package pdftex.def Info: Imagenes/Logo UMA.jpg  used on input line 6.
+(pdftex.def)             Requested size: 243.1288pt x 129.65445pt.
+
+
+[49]
+
+[50]
+File: Imagenes/Lista de luminarias.png Graphic file (type png)
+<use Imagenes/Lista de luminarias.png>
+Package pdftex.def Info: Imagenes/Lista de luminarias.png  used on input line 80.
+(pdftex.def)             Requested size: 364.6932pt x 208.57321pt.
+<Imagenes/Iluminacion Planta Produccion.png, id=212, 804.00375pt x 470.50781pt>
+File: Imagenes/Iluminacion Planta Produccion.png Graphic file (type png)
+<use Imagenes/Iluminacion Planta Produccion.png>
+Package pdftex.def Info: Imagenes/Iluminacion Planta Produccion.png  used on input line 87.
+(pdftex.def)             Requested size: 243.1288pt x 142.28058pt.
+
+
+[51]
+<Imagenes/Resultados Iluminacion Planta de Produccion.png, id=216, 925.95938pt x 597.73312pt>
+File: Imagenes/Resultados Iluminacion Planta de Produccion.png Graphic file (type png)
+<use Imagenes/Resultados Iluminacion Planta de Produccion.png>
+Package pdftex.def Info: Imagenes/Resultados Iluminacion Planta de Produccion.png  used on input line 93.
+(pdftex.def)             Requested size: 364.6932pt x 235.4225pt.
+<Imagenes/Iluminacion Bano Femenino.png, id=217, 646.66594pt x 569.87906pt>
+File: Imagenes/Iluminacion Bano Femenino.png Graphic file (type png)
+<use Imagenes/Iluminacion Bano Femenino.png>
+Package pdftex.def Info: Imagenes/Iluminacion Bano Femenino.png  used on input line 100.
+(pdftex.def)             Requested size: 243.1288pt x 214.26064pt.
+
+
+[52 <./Imagenes/Iluminacion Planta Produccion.png> <./Imagenes/Resultados Iluminacion Planta de Produccion.png>]
+<Imagenes/Resultados Iluminacion Bano Femenino.png, id=223, 755.82375pt x 408.02437pt>
+File: Imagenes/Resultados Iluminacion Bano Femenino.png Graphic file (type png)
+<use Imagenes/Resultados Iluminacion Bano Femenino.png>
+Package pdftex.def Info: Imagenes/Resultados Iluminacion Bano Femenino.png  used on input line 106.
+(pdftex.def)             Requested size: 364.6932pt x 196.87675pt.
+<Imagenes/Iluminacion Bano Masculino.png, id=224, 3213.00375pt x 2970.09625pt>
+File: Imagenes/Iluminacion Bano Masculino.png Graphic file (type png)
+<use Imagenes/Iluminacion Bano Masculino.png>
+Package pdftex.def Info: Imagenes/Iluminacion Bano Masculino.png  used on input line 113.
+(pdftex.def)             Requested size: 243.1288pt x 224.74168pt.
+
+
+[53 <./Imagenes/Iluminacion Bano Femenino.png> <./Imagenes/Resultados Iluminacion Bano Femenino.png>]
+<Imagenes/Resultados Iluminacion Bano Masculino.png, id=230, 753.5653pt x 410.2828pt>
+File: Imagenes/Resultados Iluminacion Bano Masculino.png Graphic file (type png)
+<use Imagenes/Resultados Iluminacion Bano Masculino.png>
+Package pdftex.def Info: Imagenes/Resultados Iluminacion Bano Masculino.png  used on input line 119.
+(pdftex.def)             Requested size: 364.6932pt x 198.55495pt.
+<Imagenes/Iluminacion Bano Minusvalidos.png, id=231, 3213.00375pt x 2117.9125pt>
+File: Imagenes/Iluminacion Bano Minusvalidos.png Graphic file (type png)
+<use Imagenes/Iluminacion Bano Minusvalidos.png>
+Package pdftex.def Info: Imagenes/Iluminacion Bano Minusvalidos.png  used on input line 126.
+(pdftex.def)             Requested size: 243.1288pt x 160.25851pt.
+
+
+[54 <./Imagenes/Iluminacion Bano Masculino.png> <./Imagenes/Resultados Iluminacion Bano Masculino.png>]
+<Imagenes/Resultados Iluminacion Bano Minusvalidos.png, id=238, 749.80125pt x 411.03563pt>
+File: Imagenes/Resultados Iluminacion Bano Minusvalidos.png Graphic file (type png)
+<use Imagenes/Resultados Iluminacion Bano Minusvalidos.png>
+Package pdftex.def Info: Imagenes/Resultados Iluminacion Bano Minusvalidos.png  used on input line 132.
+(pdftex.def)             Requested size: 364.6932pt x 199.92278pt.
+<Imagenes/Iluminacion Zona Exposicion.png, id=239, 3213.00375pt x 3213.00375pt>
+File: Imagenes/Iluminacion Zona Exposicion.png Graphic file (type png)
+<use Imagenes/Iluminacion Zona Exposicion.png>
+Package pdftex.def Info: Imagenes/Iluminacion Zona Exposicion.png  used on input line 139.
+(pdftex.def)             Requested size: 243.1288pt x 243.12204pt.
+
+
+[55 <./Imagenes/Iluminacion Bano Minusvalidos.png> <./Imagenes/Resultados Iluminacion Bano Minusvalidos.png>]
+<Imagenes/Resultados Iluminacion Zona Exposicion.png, id=245, 746.79pt x 405.76593pt>
+File: Imagenes/Resultados Iluminacion Zona Exposicion.png Graphic file (type png)
+<use Imagenes/Resultados Iluminacion Zona Exposicion.png>
+Package pdftex.def Info: Imagenes/Resultados Iluminacion Zona Exposicion.png  used on input line 145.
+(pdftex.def)             Requested size: 364.6932pt x 198.15218pt.
+<Imagenes/Iluminacion Oficina.png, id=246, 3213.00375pt x 2218.2875pt>
+File: Imagenes/Iluminacion Oficina.png Graphic file (type png)
+<use Imagenes/Iluminacion Oficina.png>
+Package pdftex.def Info: Imagenes/Iluminacion Oficina.png  used on input line 152.
+(pdftex.def)             Requested size: 243.1288pt x 167.85371pt.
+
+
+[56 <./Imagenes/Iluminacion Zona Exposicion.png> <./Imagenes/Resultados Iluminacion Zona Exposicion.png>]
+<Imagenes/Resultados Iluminacion Oficina.png, id=252, 746.79pt x 487.06969pt>
+File: Imagenes/Resultados Iluminacion Oficina.png Graphic file (type png)
+<use Imagenes/Resultados Iluminacion Oficina.png>
+Package pdftex.def Info: Imagenes/Resultados Iluminacion Oficina.png  used on input line 158.
+(pdftex.def)             Requested size: 364.6932pt x 237.85612pt.
+<Imagenes/Iluminacion Almacen.png, id=253, 564.60938pt x 610.53094pt>
+File: Imagenes/Iluminacion Almacen.png Graphic file (type png)
+<use Imagenes/Iluminacion Almacen.png>
+Package pdftex.def Info: Imagenes/Iluminacion Almacen.png  used on input line 165.
+(pdftex.def)             Requested size: 243.1288pt x 262.90514pt.
+
+
+[57 <./Imagenes/Iluminacion Oficina.png> <./Imagenes/Resultados Iluminacion Oficina.png>]
+<Imagenes/Resultados Iluminacion Almacen.png, id=259, 749.80125pt x 400.49625pt>
+File: Imagenes/Resultados Iluminacion Almacen.png Graphic file (type png)
+<use Imagenes/Resultados Iluminacion Almacen.png>
+Package pdftex.def Info: Imagenes/Resultados Iluminacion Almacen.png  used on input line 171.
+(pdftex.def)             Requested size: 364.6932pt x 194.79655pt.
+<Imagenes/Iluminacion Vestuario Femenino.png, id=260, 3213.00375pt x 2786.41pt>
+File: Imagenes/Iluminacion Vestuario Femenino.png Graphic file (type png)
+<use Imagenes/Iluminacion Vestuario Femenino.png>
+Package pdftex.def Info: Imagenes/Iluminacion Vestuario Femenino.png  used on input line 178.
+(pdftex.def)             Requested size: 243.1288pt x 210.84248pt.
+
+
+[58 <./Imagenes/Iluminacion Almacen.png> <./Imagenes/Resultados Iluminacion Almacen.png>]
+<Imagenes/Resultados Iluminacion Vestuario Femenino.png, id=266, 757.32938pt x 409.53pt>
+File: Imagenes/Resultados Iluminacion Vestuario Femenino.png Graphic file (type png)
+<use Imagenes/Resultados Iluminacion Vestuario Femenino.png>
+Package pdftex.def Info: Imagenes/Resultados Iluminacion Vestuario Femenino.png  used on input line 184.
+(pdftex.def)             Requested size: 364.6932pt x 197.20955pt.
+<Imagenes/Iluminacion Vestuario Masculino.png, id=267, 3213.00375pt x 2786.41pt>
+File: Imagenes/Iluminacion Vestuario Masculino.png Graphic file (type png)
+<use Imagenes/Iluminacion Vestuario Masculino.png>
+Package pdftex.def Info: Imagenes/Iluminacion Vestuario Masculino.png  used on input line 191.
+(pdftex.def)             Requested size: 243.1288pt x 210.84248pt.
+
+
+[59 <./Imagenes/Iluminacion Vestuario Femenino.png> <./Imagenes/Resultados Iluminacion Vestuario Femenino.png>]
+<Imagenes/Resultados Iluminacion Vestuario Masculino.png, id=273, 750.55406pt x 408.02437pt>
+File: Imagenes/Resultados Iluminacion Vestuario Masculino.png Graphic file (type png)
+<use Imagenes/Resultados Iluminacion Vestuario Masculino.png>
+Package pdftex.def Info: Imagenes/Resultados Iluminacion Vestuario Masculino.png  used on input line 197.
+(pdftex.def)             Requested size: 364.6932pt x 198.25891pt.
+<Imagenes/Iluminacion Zona Descanso.png, id=274, 3213.00375pt x 3213.00375pt>
+File: Imagenes/Iluminacion Zona Descanso.png Graphic file (type png)
+<use Imagenes/Iluminacion Zona Descanso.png>
+Package pdftex.def Info: Imagenes/Iluminacion Zona Descanso.png  used on input line 204.
+(pdftex.def)             Requested size: 243.1288pt x 243.12204pt.
+
+
+[60 <./Imagenes/Iluminacion Vestuario Masculino.png> <./Imagenes/Resultados Iluminacion Vestuario Masculino.png>]
+<Imagenes/Resultados Iluminacion Zona Descanso.png, id=281, 767.11594pt x 412.54124pt>
+File: Imagenes/Resultados Iluminacion Zona Descanso.png Graphic file (type png)
+<use Imagenes/Resultados Iluminacion Zona Descanso.png>
+Package pdftex.def Info: Imagenes/Resultados Iluminacion Zona Descanso.png  used on input line 210.
+(pdftex.def)             Requested size: 364.6932pt x 196.12909pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - CoreLine Downlight gen5.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Otros/Philips - CoreLine Downlight gen5.pdf, id=282, 597.51233pt x 845.0471pt>
+File: Otros/Philips - CoreLine Downlight gen5.pdf Graphic file (type pdf)
+<use Otros/Philips - CoreLine Downlight gen5.pdf>
+Package pdftex.def Info: Otros/Philips - CoreLine Downlight gen5.pdf  used on input line 217.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - CoreLine Downlight gen5.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: Otros/Philips - CoreLine Downlight gen5.pdf Graphic file (type pdf)
+<use Otros/Philips - CoreLine Downlight gen5.pdf>
+Package pdftex.def Info: Otros/Philips - CoreLine Downlight gen5.pdf  used on input line 217.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - CoreLine Downlight gen5.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - CoreLine Downlight gen5.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Otros/Philips - CoreLine Downlight gen5.pdf, id=285, page=1, 597.51233pt x 845.0471pt>
+File: Otros/Philips - CoreLine Downlight gen5.pdf Graphic file (type pdf)
+<use Otros/Philips - CoreLine Downlight gen5.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - CoreLine Downlight gen5.pdf , page1 used on input line 217.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: Otros/Philips - CoreLine Downlight gen5.pdf Graphic file (type pdf)
+<use Otros/Philips - CoreLine Downlight gen5.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - CoreLine Downlight gen5.pdf , page1 used on input line 217.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+
+
+[61 <./Imagenes/Iluminacion Zona Descanso.png> <./Imagenes/Resultados Iluminacion Zona Descanso.png>]
+File: Otros/Philips - CoreLine Downlight gen5.pdf Graphic file (type pdf)
+<use Otros/Philips - CoreLine Downlight gen5.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - CoreLine Downlight gen5.pdf , page1 used on input line 217.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+File: Otros/Philips - CoreLine Downlight gen5.pdf Graphic file (type pdf)
+<use Otros/Philips - CoreLine Downlight gen5.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - CoreLine Downlight gen5.pdf , page1 used on input line 217.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+
+
+File: Otros/Philips - CoreLine Downlight gen5.pdf Graphic file (type pdf)
+<use Otros/Philips - CoreLine Downlight gen5.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - CoreLine Downlight gen5.pdf , page1 used on input line 217.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+[62
+
+ <./Otros/Philips - CoreLine Downlight gen5.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - RC132V G5 All-in PSU W60L60.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Otros/Philips - RC132V G5 All-in PSU W60L60.pdf, id=325, 597.51233pt x 845.0471pt>
+File: Otros/Philips - RC132V G5 All-in PSU W60L60.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V G5 All-in PSU W60L60.pdf>
+Package pdftex.def Info: Otros/Philips - RC132V G5 All-in PSU W60L60.pdf  used on input line 221.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - RC132V G5 All-in PSU W60L60.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: Otros/Philips - RC132V G5 All-in PSU W60L60.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V G5 All-in PSU W60L60.pdf>
+Package pdftex.def Info: Otros/Philips - RC132V G5 All-in PSU W60L60.pdf  used on input line 221.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - RC132V G5 All-in PSU W60L60.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - RC132V G5 All-in PSU W60L60.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Otros/Philips - RC132V G5 All-in PSU W60L60.pdf, id=328, page=1, 597.51233pt x 845.0471pt>
+File: Otros/Philips - RC132V G5 All-in PSU W60L60.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V G5 All-in PSU W60L60.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - RC132V G5 All-in PSU W60L60.pdf , page1 used on input line 221.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: Otros/Philips - RC132V G5 All-in PSU W60L60.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V G5 All-in PSU W60L60.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - RC132V G5 All-in PSU W60L60.pdf , page1 used on input line 221.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+File: Otros/Philips - RC132V G5 All-in PSU W60L60.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V G5 All-in PSU W60L60.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - RC132V G5 All-in PSU W60L60.pdf , page1 used on input line 221.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+File: Otros/Philips - RC132V G5 All-in PSU W60L60.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V G5 All-in PSU W60L60.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - RC132V G5 All-in PSU W60L60.pdf , page1 used on input line 221.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+
+
+File: Otros/Philips - RC132V G5 All-in PSU W60L60.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V G5 All-in PSU W60L60.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - RC132V G5 All-in PSU W60L60.pdf , page1 used on input line 221.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+[63
+
+ <./Otros/Philips - RC132V G5 All-in PSU W60L60.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - RC132V G5 PSU W30L120.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Otros/Philips - RC132V G5 PSU W30L120.pdf, id=363, 597.51233pt x 845.0471pt>
+File: Otros/Philips - RC132V G5 PSU W30L120.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V G5 PSU W30L120.pdf>
+Package pdftex.def Info: Otros/Philips - RC132V G5 PSU W30L120.pdf  used on input line 225.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - RC132V G5 PSU W30L120.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: Otros/Philips - RC132V G5 PSU W30L120.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V G5 PSU W30L120.pdf>
+Package pdftex.def Info: Otros/Philips - RC132V G5 PSU W30L120.pdf  used on input line 225.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - RC132V G5 PSU W30L120.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - RC132V G5 PSU W30L120.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Otros/Philips - RC132V G5 PSU W30L120.pdf, id=366, page=1, 597.51233pt x 845.0471pt>
+File: Otros/Philips - RC132V G5 PSU W30L120.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V G5 PSU W30L120.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - RC132V G5 PSU W30L120.pdf , page1 used on input line 225.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: Otros/Philips - RC132V G5 PSU W30L120.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V G5 PSU W30L120.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - RC132V G5 PSU W30L120.pdf , page1 used on input line 225.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+File: Otros/Philips - RC132V G5 PSU W30L120.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V G5 PSU W30L120.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - RC132V G5 PSU W30L120.pdf , page1 used on input line 225.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+File: Otros/Philips - RC132V G5 PSU W30L120.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V G5 PSU W30L120.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - RC132V G5 PSU W30L120.pdf , page1 used on input line 225.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+
+
+File: Otros/Philips - RC132V G5 PSU W30L120.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V G5 PSU W30L120.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - RC132V G5 PSU W30L120.pdf , page1 used on input line 225.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+[64
+
+ <./Otros/Philips - RC132V G5 PSU W30L120.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - RC132V SIA W60L60.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Otros/Philips - RC132V SIA W60L60.pdf, id=401, 597.51233pt x 845.0471pt>
+File: Otros/Philips - RC132V SIA W60L60.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V SIA W60L60.pdf>
+Package pdftex.def Info: Otros/Philips - RC132V SIA W60L60.pdf  used on input line 229.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - RC132V SIA W60L60.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: Otros/Philips - RC132V SIA W60L60.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V SIA W60L60.pdf>
+Package pdftex.def Info: Otros/Philips - RC132V SIA W60L60.pdf  used on input line 229.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - RC132V SIA W60L60.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - RC132V SIA W60L60.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Otros/Philips - RC132V SIA W60L60.pdf, id=404, page=1, 597.51233pt x 845.0471pt>
+File: Otros/Philips - RC132V SIA W60L60.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V SIA W60L60.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - RC132V SIA W60L60.pdf , page1 used on input line 229.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: Otros/Philips - RC132V SIA W60L60.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V SIA W60L60.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - RC132V SIA W60L60.pdf , page1 used on input line 229.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+File: Otros/Philips - RC132V SIA W60L60.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V SIA W60L60.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - RC132V SIA W60L60.pdf , page1 used on input line 229.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+File: Otros/Philips - RC132V SIA W60L60.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V SIA W60L60.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - RC132V SIA W60L60.pdf , page1 used on input line 229.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+
+
+File: Otros/Philips - RC132V SIA W60L60.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V SIA W60L60.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - RC132V SIA W60L60.pdf , page1 used on input line 229.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+[65
+
+ <./Otros/Philips - RC132V SIA W60L60.pdf>]
+File: Otros/Philips - RC132V SIA W60L60.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V SIA W60L60.pdf>
+Package pdftex.def Info: Otros/Philips - RC132V SIA W60L60.pdf  used on input line 233.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - RC132V SIA W60L60.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: Otros/Philips - RC132V SIA W60L60.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V SIA W60L60.pdf>
+Package pdftex.def Info: Otros/Philips - RC132V SIA W60L60.pdf  used on input line 233.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - RC132V SIA W60L60.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: Otros/Philips - RC132V SIA W60L60.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V SIA W60L60.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - RC132V SIA W60L60.pdf , page1 used on input line 233.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: Otros/Philips - RC132V SIA W60L60.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V SIA W60L60.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - RC132V SIA W60L60.pdf , page1 used on input line 233.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+File: Otros/Philips - RC132V SIA W60L60.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V SIA W60L60.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - RC132V SIA W60L60.pdf , page1 used on input line 233.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+File: Otros/Philips - RC132V SIA W60L60.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V SIA W60L60.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - RC132V SIA W60L60.pdf , page1 used on input line 233.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+
+
+File: Otros/Philips - RC132V SIA W60L60.pdf Graphic file (type pdf)
+<use Otros/Philips - RC132V SIA W60L60.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - RC132V SIA W60L60.pdf , page1 used on input line 233.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+[66
+
+]
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - TRUE CIRCLE.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Otros/Philips - TRUE CIRCLE.pdf, id=445, 597.51233pt x 845.0471pt>
+File: Otros/Philips - TRUE CIRCLE.pdf Graphic file (type pdf)
+<use Otros/Philips - TRUE CIRCLE.pdf>
+Package pdftex.def Info: Otros/Philips - TRUE CIRCLE.pdf  used on input line 237.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - TRUE CIRCLE.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: Otros/Philips - TRUE CIRCLE.pdf Graphic file (type pdf)
+<use Otros/Philips - TRUE CIRCLE.pdf>
+Package pdftex.def Info: Otros/Philips - TRUE CIRCLE.pdf  used on input line 237.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - TRUE CIRCLE.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Otros/Philips - TRUE CIRCLE.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Otros/Philips - TRUE CIRCLE.pdf, id=448, page=1, 597.51233pt x 845.0471pt>
+File: Otros/Philips - TRUE CIRCLE.pdf Graphic file (type pdf)
+<use Otros/Philips - TRUE CIRCLE.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - TRUE CIRCLE.pdf , page1 used on input line 237.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: Otros/Philips - TRUE CIRCLE.pdf Graphic file (type pdf)
+<use Otros/Philips - TRUE CIRCLE.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - TRUE CIRCLE.pdf , page1 used on input line 237.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+File: Otros/Philips - TRUE CIRCLE.pdf Graphic file (type pdf)
+<use Otros/Philips - TRUE CIRCLE.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - TRUE CIRCLE.pdf , page1 used on input line 237.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+File: Otros/Philips - TRUE CIRCLE.pdf Graphic file (type pdf)
+<use Otros/Philips - TRUE CIRCLE.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - TRUE CIRCLE.pdf , page1 used on input line 237.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+
+
+File: Otros/Philips - TRUE CIRCLE.pdf Graphic file (type pdf)
+<use Otros/Philips - TRUE CIRCLE.pdf, page 1>
+Package pdftex.def Info: Otros/Philips - TRUE CIRCLE.pdf , page1 used on input line 237.
+(pdftex.def)             Requested size: 562.12665pt x 795.00201pt.
+[67
+
+ <./Otros/Philips - TRUE CIRCLE.pdf>]) (./Documentos basicos/Anexos/Anexo IV Instalacion Electrica.tex
+File: Imagenes/Logo UMA.jpg Graphic file (type jpg)
+<use Imagenes/Logo UMA.jpg>
+Package pdftex.def Info: Imagenes/Logo UMA.jpg  used on input line 6.
+(pdftex.def)             Requested size: 243.1288pt x 129.65445pt.
+
+
+[68]
+
+[69]
+
+[70]
+
+[71]
+Overfull \hbox (19.5397pt too wide) in paragraph at lines 190--204
+ [][] 
+ []
+
+
+
+[72]
+
+[73]
+
+[74]
+
+[75])) (./Documentos basicos/Planos.tex
+
+[76]
+File: Imagenes/Logo UMA.jpg Graphic file (type jpg)
+<use Imagenes/Logo UMA.jpg>
+Package pdftex.def Info: Imagenes/Logo UMA.jpg  used on input line 7.
+(pdftex.def)             Requested size: 243.1288pt x 129.65445pt.
+
+
+[77]
+LaTeX Info: Redefining \. on input line 29.
+LaTeX Info: Redefining \% on input line 29.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano Situacion.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Documentos basicos/Planos/Plano Situacion.pdf, id=515, 845.07724pt x 1194.98447pt>
+File: Documentos basicos/Planos/Plano Situacion.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Situacion.pdf>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Situacion.pdf  used on input line 36.
+(pdftex.def)             Requested size: 845.07518pt x 1194.98155pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano Situacion.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: Documentos basicos/Planos/Plano Situacion.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Situacion.pdf>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Situacion.pdf  used on input line 36.
+(pdftex.def)             Requested size: 845.07518pt x 1194.98155pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano Situacion.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano Situacion.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Documentos basicos/Planos/Plano Situacion.pdf, id=518, page=1, 845.07724pt x 1194.98447pt>
+File: Documentos basicos/Planos/Plano Situacion.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Situacion.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Situacion.pdf , page1 used on input line 36.
+(pdftex.def)             Requested size: 845.07518pt x 1194.98155pt.
+File: Documentos basicos/Planos/Plano Situacion.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Situacion.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Situacion.pdf , page1 used on input line 36.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+
+
+[78
+
+]
+File: Documentos basicos/Planos/Plano Situacion.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Situacion.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Situacion.pdf , page1 used on input line 36.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+File: Documentos basicos/Planos/Plano Situacion.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Situacion.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Situacion.pdf , page1 used on input line 36.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+
+
+File: Documentos basicos/Planos/Plano Situacion.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Situacion.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Situacion.pdf , page1 used on input line 36.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+[79
+
+ <./Documentos basicos/Planos/Plano Situacion.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano Emplazamiento.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Documentos basicos/Planos/Plano Emplazamiento.pdf, id=535, 845.07724pt x 1194.98447pt>
+File: Documentos basicos/Planos/Plano Emplazamiento.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Emplazamiento.pdf>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Emplazamiento.pdf  used on input line 41.
+(pdftex.def)             Requested size: 845.07518pt x 1194.98155pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano Emplazamiento.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: Documentos basicos/Planos/Plano Emplazamiento.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Emplazamiento.pdf>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Emplazamiento.pdf  used on input line 41.
+(pdftex.def)             Requested size: 845.07518pt x 1194.98155pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano Emplazamiento.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano Emplazamiento.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Documentos basicos/Planos/Plano Emplazamiento.pdf, id=538, page=1, 845.07724pt x 1194.98447pt>
+File: Documentos basicos/Planos/Plano Emplazamiento.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Emplazamiento.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Emplazamiento.pdf , page1 used on input line 41.
+(pdftex.def)             Requested size: 845.07518pt x 1194.98155pt.
+File: Documentos basicos/Planos/Plano Emplazamiento.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Emplazamiento.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Emplazamiento.pdf , page1 used on input line 41.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+File: Documentos basicos/Planos/Plano Emplazamiento.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Emplazamiento.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Emplazamiento.pdf , page1 used on input line 41.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+File: Documentos basicos/Planos/Plano Emplazamiento.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Emplazamiento.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Emplazamiento.pdf , page1 used on input line 41.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+
+
+File: Documentos basicos/Planos/Plano Emplazamiento.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Emplazamiento.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Emplazamiento.pdf , page1 used on input line 41.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+[80
+
+ <./Documentos basicos/Planos/Plano Emplazamiento.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano General de Distribucion.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Documentos basicos/Planos/Plano General de Distribucion.pdf, id=551, 845.07724pt x 1194.98447pt>
+File: Documentos basicos/Planos/Plano General de Distribucion.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano General de Distribucion.pdf>
+Package pdftex.def Info: Documentos basicos/Planos/Plano General de Distribucion.pdf  used on input line 46.
+(pdftex.def)             Requested size: 845.07518pt x 1194.98155pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano General de Distribucion.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: Documentos basicos/Planos/Plano General de Distribucion.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano General de Distribucion.pdf>
+Package pdftex.def Info: Documentos basicos/Planos/Plano General de Distribucion.pdf  used on input line 46.
+(pdftex.def)             Requested size: 845.07518pt x 1194.98155pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano General de Distribucion.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano General de Distribucion.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Documentos basicos/Planos/Plano General de Distribucion.pdf, id=554, page=1, 845.07724pt x 1194.98447pt>
+File: Documentos basicos/Planos/Plano General de Distribucion.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano General de Distribucion.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano General de Distribucion.pdf , page1 used on input line 46.
+(pdftex.def)             Requested size: 845.07518pt x 1194.98155pt.
+File: Documentos basicos/Planos/Plano General de Distribucion.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano General de Distribucion.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano General de Distribucion.pdf , page1 used on input line 46.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+File: Documentos basicos/Planos/Plano General de Distribucion.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano General de Distribucion.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano General de Distribucion.pdf , page1 used on input line 46.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+File: Documentos basicos/Planos/Plano General de Distribucion.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano General de Distribucion.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano General de Distribucion.pdf , page1 used on input line 46.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+
+
+File: Documentos basicos/Planos/Plano General de Distribucion.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano General de Distribucion.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano General de Distribucion.pdf , page1 used on input line 46.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+[81
+
+ <./Documentos basicos/Planos/Plano General de Distribucion.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano Fontaneria.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Documentos basicos/Planos/Plano Fontaneria.pdf, id=567, 597.55246pt x 845.07724pt>
+File: Documentos basicos/Planos/Plano Fontaneria.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Fontaneria.pdf>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Fontaneria.pdf  used on input line 51.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano Fontaneria.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: Documentos basicos/Planos/Plano Fontaneria.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Fontaneria.pdf>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Fontaneria.pdf  used on input line 51.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano Fontaneria.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano Fontaneria.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Documentos basicos/Planos/Plano Fontaneria.pdf, id=570, page=1, 597.55246pt x 845.07724pt>
+File: Documentos basicos/Planos/Plano Fontaneria.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Fontaneria.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Fontaneria.pdf , page1 used on input line 51.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+File: Documentos basicos/Planos/Plano Fontaneria.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Fontaneria.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Fontaneria.pdf , page1 used on input line 51.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: Documentos basicos/Planos/Plano Fontaneria.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Fontaneria.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Fontaneria.pdf , page1 used on input line 51.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: Documentos basicos/Planos/Plano Fontaneria.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Fontaneria.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Fontaneria.pdf , page1 used on input line 51.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+
+
+File: Documentos basicos/Planos/Plano Fontaneria.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Fontaneria.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Fontaneria.pdf , page1 used on input line 51.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+[82
+
+ <./Documentos basicos/Planos/Plano Fontaneria.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano Luminarias.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Documentos basicos/Planos/Plano Luminarias.pdf, id=583, 845.07724pt x 1194.98447pt>
+File: Documentos basicos/Planos/Plano Luminarias.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Luminarias.pdf>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Luminarias.pdf  used on input line 60.
+(pdftex.def)             Requested size: 845.07518pt x 1194.98155pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano Luminarias.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: Documentos basicos/Planos/Plano Luminarias.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Luminarias.pdf>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Luminarias.pdf  used on input line 60.
+(pdftex.def)             Requested size: 845.07518pt x 1194.98155pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano Luminarias.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano Luminarias.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Documentos basicos/Planos/Plano Luminarias.pdf, id=586, page=1, 845.07724pt x 1194.98447pt>
+File: Documentos basicos/Planos/Plano Luminarias.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Luminarias.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Luminarias.pdf , page1 used on input line 60.
+(pdftex.def)             Requested size: 845.07518pt x 1194.98155pt.
+File: Documentos basicos/Planos/Plano Luminarias.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Luminarias.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Luminarias.pdf , page1 used on input line 60.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+File: Documentos basicos/Planos/Plano Luminarias.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Luminarias.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Luminarias.pdf , page1 used on input line 60.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+File: Documentos basicos/Planos/Plano Luminarias.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Luminarias.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Luminarias.pdf , page1 used on input line 60.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+
+
+File: Documentos basicos/Planos/Plano Luminarias.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Luminarias.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Luminarias.pdf , page1 used on input line 60.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+[83
+
+ <./Documentos basicos/Planos/Plano Luminarias.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano Iluminacion.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Documentos basicos/Planos/Plano Iluminacion.pdf, id=599, 845.07724pt x 1194.98447pt>
+File: Documentos basicos/Planos/Plano Iluminacion.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Iluminacion.pdf>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Iluminacion.pdf  used on input line 65.
+(pdftex.def)             Requested size: 845.07518pt x 1194.98155pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano Iluminacion.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: Documentos basicos/Planos/Plano Iluminacion.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Iluminacion.pdf>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Iluminacion.pdf  used on input line 65.
+(pdftex.def)             Requested size: 845.07518pt x 1194.98155pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano Iluminacion.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Plano Iluminacion.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Documentos basicos/Planos/Plano Iluminacion.pdf, id=602, page=1, 845.07724pt x 1194.98447pt>
+File: Documentos basicos/Planos/Plano Iluminacion.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Iluminacion.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Iluminacion.pdf , page1 used on input line 65.
+(pdftex.def)             Requested size: 845.07518pt x 1194.98155pt.
+File: Documentos basicos/Planos/Plano Iluminacion.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Iluminacion.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Iluminacion.pdf , page1 used on input line 65.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+File: Documentos basicos/Planos/Plano Iluminacion.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Iluminacion.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Iluminacion.pdf , page1 used on input line 65.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+File: Documentos basicos/Planos/Plano Iluminacion.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Iluminacion.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Iluminacion.pdf , page1 used on input line 65.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+
+
+File: Documentos basicos/Planos/Plano Iluminacion.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Plano Iluminacion.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Plano Iluminacion.pdf , page1 used on input line 65.
+(pdftex.def)             Requested size: 562.65274pt x 795.62111pt.
+[84
+
+ <./Documentos basicos/Planos/Plano Iluminacion.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Unifilar1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Documentos basicos/Planos/Unifilar1.pdf, id=616, 597.55246pt x 845.07724pt>
+File: Documentos basicos/Planos/Unifilar1.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Unifilar1.pdf>
+Package pdftex.def Info: Documentos basicos/Planos/Unifilar1.pdf  used on input line 72.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Unifilar1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: Documentos basicos/Planos/Unifilar1.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Unifilar1.pdf>
+Package pdftex.def Info: Documentos basicos/Planos/Unifilar1.pdf  used on input line 72.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Unifilar1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Unifilar1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Documentos basicos/Planos/Unifilar1.pdf, id=619, page=1, 597.55246pt x 845.07724pt>
+File: Documentos basicos/Planos/Unifilar1.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Unifilar1.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Unifilar1.pdf , page1 used on input line 72.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+File: Documentos basicos/Planos/Unifilar1.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Unifilar1.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Unifilar1.pdf , page1 used on input line 72.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: Documentos basicos/Planos/Unifilar1.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Unifilar1.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Unifilar1.pdf , page1 used on input line 72.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: Documentos basicos/Planos/Unifilar1.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Unifilar1.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Unifilar1.pdf , page1 used on input line 72.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+
+
+File: Documentos basicos/Planos/Unifilar1.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Unifilar1.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Unifilar1.pdf , page1 used on input line 72.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+[85
+
+ <./Documentos basicos/Planos/Unifilar1.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Unifilar2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Documentos basicos/Planos/Unifilar2.pdf, id=632, 597.55246pt x 845.07724pt>
+File: Documentos basicos/Planos/Unifilar2.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Unifilar2.pdf>
+Package pdftex.def Info: Documentos basicos/Planos/Unifilar2.pdf  used on input line 76.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Unifilar2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: Documentos basicos/Planos/Unifilar2.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Unifilar2.pdf>
+Package pdftex.def Info: Documentos basicos/Planos/Unifilar2.pdf  used on input line 76.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Unifilar2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Unifilar2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Documentos basicos/Planos/Unifilar2.pdf, id=635, page=1, 597.55246pt x 845.07724pt>
+File: Documentos basicos/Planos/Unifilar2.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Unifilar2.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Unifilar2.pdf , page1 used on input line 76.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+File: Documentos basicos/Planos/Unifilar2.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Unifilar2.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Unifilar2.pdf , page1 used on input line 76.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: Documentos basicos/Planos/Unifilar2.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Unifilar2.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Unifilar2.pdf , page1 used on input line 76.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: Documentos basicos/Planos/Unifilar2.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Unifilar2.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Unifilar2.pdf , page1 used on input line 76.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+
+
+File: Documentos basicos/Planos/Unifilar2.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Unifilar2.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Unifilar2.pdf , page1 used on input line 76.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+[86
+
+ <./Documentos basicos/Planos/Unifilar2.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Unifilar3.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Documentos basicos/Planos/Unifilar3.pdf, id=648, 597.55246pt x 845.07724pt>
+File: Documentos basicos/Planos/Unifilar3.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Unifilar3.pdf>
+Package pdftex.def Info: Documentos basicos/Planos/Unifilar3.pdf  used on input line 80.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Unifilar3.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: Documentos basicos/Planos/Unifilar3.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Unifilar3.pdf>
+Package pdftex.def Info: Documentos basicos/Planos/Unifilar3.pdf  used on input line 80.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Unifilar3.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./Documentos basicos/Planos/Unifilar3.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Documentos basicos/Planos/Unifilar3.pdf, id=651, page=1, 597.55246pt x 845.07724pt>
+File: Documentos basicos/Planos/Unifilar3.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Unifilar3.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Unifilar3.pdf , page1 used on input line 80.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+File: Documentos basicos/Planos/Unifilar3.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Unifilar3.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Unifilar3.pdf , page1 used on input line 80.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: Documentos basicos/Planos/Unifilar3.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Unifilar3.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Unifilar3.pdf , page1 used on input line 80.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+File: Documentos basicos/Planos/Unifilar3.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Unifilar3.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Unifilar3.pdf , page1 used on input line 80.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+
+
+File: Documentos basicos/Planos/Unifilar3.pdf Graphic file (type pdf)
+<use Documentos basicos/Planos/Unifilar3.pdf, page 1>
+Package pdftex.def Info: Documentos basicos/Planos/Unifilar3.pdf , page1 used on input line 80.
+(pdftex.def)             Requested size: 562.1644pt x 795.03036pt.
+[87
+
+ <./Documentos basicos/Planos/Unifilar3.pdf>]) (./Documentos basicos/Pliego de Condiciones.tex
+File: Imagenes/Logo UMA.jpg Graphic file (type jpg)
+<use Imagenes/Logo UMA.jpg>
+Package pdftex.def Info: Imagenes/Logo UMA.jpg  used on input line 7.
+(pdftex.def)             Requested size: 243.1288pt x 129.65445pt.
+
+
+[88]
+LaTeX Info: Redefining \. on input line 29.
+LaTeX Info: Redefining \% on input line 29.
+
+
+[89
+
+]
+
+[90]
+
+[91]
+
+[92]
+
+[93]
+
+[94]
+
+[95]
+
+[96]
+
+[97]
+
+[98]
+
+[99]
+
+[100]
+
+[101]
+
+[102]
+
+[103]
+
+[104]
+
+[105]
+
+[106]
+
+[107]
+
+[108]) (./Documentos basicos/Estado de Mediciones.tex
+
+[109]
+File: Imagenes/Logo UMA.jpg Graphic file (type jpg)
+<use Imagenes/Logo UMA.jpg>
+Package pdftex.def Info: Imagenes/Logo UMA.jpg  used on input line 7.
+(pdftex.def)             Requested size: 243.1288pt x 129.65445pt.
+
+
+[110]
+LaTeX Info: Redefining \. on input line 30.
+LaTeX Info: Redefining \% on input line 30.
+
+
+[111
+
+]
+
+[112]
+
+[113]
+
+[114]
+Underfull \hbox (badness 1033) in paragraph at lines 168--168
+\OT1/cmr/m/n/10.95 supply unit (On/Off), 2000 lm, 19.5 W, 102 lm/W, 3000 K,
+ []
+
+
+
+[115]
+Overfull \vbox (277.75652pt too high) has occurred while \output is active []
+
+
+
+[116]) (./Documentos basicos/Presupuesto.tex
+
+[117]
+File: Imagenes/Logo UMA.jpg Graphic file (type jpg)
+<use Imagenes/Logo UMA.jpg>
+Package pdftex.def Info: Imagenes/Logo UMA.jpg  used on input line 8.
+(pdftex.def)             Requested size: 243.1288pt x 129.65445pt.
+
+
+[118]
+LaTeX Info: Redefining \. on input line 31.
+LaTeX Info: Redefining \% on input line 31.
+
+
+[119
+
+]
+Underfull \hbox (badness 1168) in paragraph at lines 72--72
+[]\OT1/cmr/m/n/10.95 Compresor port^^Satil el^^Sectri-co 2
+ []
+
+
+
+[120]
+Underfull \hbox (badness 1210) in paragraph at lines 114--114
+[]\OT1/cmr/m/n/10.95 Tubo de po-li-eti-leno re-ti-cu-la-do
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 115--115
+[]\OT1/cmr/m/n/10.95 Tubo de po-li-eti-leno re-ti-cu-la-do
+ []
+
+
+
+[121]
+
+[122]
+
+[123]
+
+[124]
+Underfull \hbox (badness 4072) in paragraph at lines 258--258
+\OT1/cmr/m/n/10.95 nea-mien-to en-te-rra-do sin pre-
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 258--258
+\OT1/cmr/m/n/10.95 si^^Son,serie SN-4, ri-gi-dez anu-lar
+ []
+
+
+
+[125]
+Underfull \hbox (badness 1163) in paragraph at lines 301--301
+\OT1/cmr/m/n/10.95 es-pe-sor, seg^^Sun UNE-EN 1329-
+ []
+
+
+
+[126]
+
+[127]
+
+[128]
+Underfull \hbox (badness 4072) in paragraph at lines 403--403
+\OT1/cmr/m/n/10.95 nea-mien-to en-te-rra-do sin pre-
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 403--403
+\OT1/cmr/m/n/10.95 si^^Son,serie SN-4, ri-gi-dez anu-lar
+ []
+
+
+
+[129])
+
+[130] 
+enddocument/afterlastpage: lastpage setting LastPage.
+(./main.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+)
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-09-10>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 7315 strings out of 473578
+ 140732 string characters out of 5732242
+ 568934 words of memory out of 5000000
+ 30038 multiletter control sequences out of 15000+600000
+ 565523 words of font info for 60 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 70i,17n,92p,1567b,581s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on main.pdf (131 pages, 26406440 bytes).
+PDF statistics:
+ 879 PDF objects out of 1000 (max. 8388607)
+ 471 compressed objects within 5 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 471 words of extra memory for PDF output out of 10000 (max. 10000000)
+
