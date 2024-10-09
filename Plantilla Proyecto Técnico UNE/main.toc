@@ -1,0 +1,37 @@
+\babel@toc {spanish}{}\relax 
+\@ifundefined {tof@begin}{\global \let \tof@begin \relax \global \let \tof@finish \@empty \global \let \tof@starttags \@gobble \global \let \tof@stoptags \@gobble \global \let \tof@tagthis \@gobble \global \let \tof@untagthis \@gobble }\relax 
+\tof@begin 
+\contentsline {part}{Memoria}{2}{}%
+\tof@starttags {Memoria}
+\contentsline {section}{\numberline {1}Objeto}{5}{}%
+\contentsline {section}{\numberline {2}Alcance}{5}{}%
+\contentsline {section}{\numberline {3}Antecedentes}{5}{}%
+\contentsline {section}{\numberline {4}Normas y referencias}{5}{}%
+\contentsline {subsection}{\numberline {4.1}Disposiciones legales y normas aplicadas}{5}{}%
+\contentsline {subsection}{\numberline {4.2}Bibliografía}{5}{}%
+\contentsline {subsection}{\numberline {4.3}Programas de cálculo}{5}{}%
+\contentsline {subsection}{\numberline {4.4}Plan de gestión de la calidad aplicado durante la redacción del Proyecto}{5}{}%
+\contentsline {subsection}{\numberline {4.5}Otras referencias}{5}{}%
+\contentsline {section}{\numberline {5}Definiciones y abreviaturas}{5}{}%
+\contentsline {section}{\numberline {6}Requisitos de diseño}{5}{}%
+\contentsline {section}{\numberline {7}Análisis de soluciones}{5}{}%
+\contentsline {section}{\numberline {8}Resultados finales}{5}{}%
+\contentsline {section}{\numberline {9}Planificación}{5}{}%
+\contentsline {section}{\numberline {10}Orden de prioridad entre los documentos básicos}{5}{}%
+\tof@stoptags {Memoria}
+\contentsline {part}{Anexos}{5}{}%
+\tof@starttags {Anexos}
+\tof@stoptags {Anexos}
+\contentsline {part}{Planos}{8}{}%
+\tof@starttags {Planos}
+\tof@stoptags {Planos}
+\contentsline {part}{Pliego de Condiciones}{9}{}%
+\tof@starttags {Pliego}
+\tof@stoptags {Pliego}
+\contentsline {part}{Estado de Mediciones}{11}{}%
+\tof@starttags {Mediciones}
+\tof@stoptags {Mediciones}
+\contentsline {part}{Presupuesto}{14}{}%
+\tof@starttags {Presupuesto}
+\tof@stoptags {Presupuesto}
+\tof@finish 
