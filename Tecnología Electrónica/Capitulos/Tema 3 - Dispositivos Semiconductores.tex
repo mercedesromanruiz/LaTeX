@@ -1,0 +1,50 @@
+\chapter{Dispositivos Semiconductores}
+
+\section{Dispositivos Optoelectrónicos}
+
+Los dispositivos optoelectrónicos son aquellos que son sensibles a la luz, transformando la energía eléctrica en energía lumínica o viceversa. Diferenciamos:
+
+\begin{itemize}
+    \item Dispositivos electroluminiscentes: emiten luz cuando son sometidos a un campo eléctrico (diodos LED, iRED,...)
+    \item Dispositivos fotosensibles: transforman la energía lumínica en eléctrica (fotodiodos, fototransistores, células fotovoltaicas...)
+\end{itemize}
+
+El espectro luminoso que el ojo humano es capaz de percibir está comprendido entre una longitud de onda de 400 nm hassta 700 nm.
+
+\subsection{Diodos LED}
+
+Los diodos LED funcionan en base al principio de inyección luminiscente. A través de una unión pn polarizada en directa existe un movimiento de portadores mayoritarios, que se desplazan entre ambas regiones y dan lugares a procesos de recombinación. En los diodos LED, algunos de estos procesos de recombinación pueden producir la emisión de fotones (recombinaciones radiantes). No todas las recombinaciones son radiantes y la probabilidad de que se dé una recombinación de este tipo depende de la estructura de bandas del semiconductor, la falta de defectos en la red cristalina, etc.
+
+\subsubsection{Encapsulados}
+\begin{itemize}
+    \item Encapsulado plástico con patillas largas para montaje tradicional through-hole
+    \item Encapsulado plástico para montaje superficial (SMT Top LED)
+\end{itemize}
+
+\subsubsection{Proceso de fabricación LED SMT}
+\begin{enumerate}
+    \item Proceso de colocación del dado (die) de semiconductor
+    \begin{enumerate}
+        \item Fijación del dado
+        \item Curado
+        \item Wire bonding
+        \item Encapsulado epoxy
+        \item Curado epoxy
+    \end{enumerate}
+    \item Cortado y conformado de patillas
+    \item Test eléctrico
+    \item Test óptico
+    \item Embandado y empaquetado
+\end{enumerate}
+
+\subsubsection{Consideraciones de diseño con diodos LED}
+
+\begin{itemize}
+    \item Resistencia térmica unión-ambiente. La temperatura en la unión es la suma de la ambiente y la potencia disipada por la resistencia térmica unión-ambiente.
+    \item Cálculo de la potencia máxima. Producto de la corriente máxima directa por la tensión directa.
+    \item Limitación de corriente. El LED funciona por corriente, y tiene mecanismos para limitarla. Generalmente es una resistencia en serie, de valor:
+    \begin{equation}
+        R = \frac{V_{cc} - V_f}{I_{pico}}
+    \end{equation}
+    \item Intensidad lumínica. Intensidad a 25ºC para unas condiciones de funcionamiento.
+\end{itemize}

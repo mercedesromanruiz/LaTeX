@@ -1,0 +1,103 @@
+\chapter{Introducción.}
+\section{Espacios vectoriales.}
+Un espacio vectorial $E$ es una estructura algebraica creada a partir de un conjunto no vacío, una ley de composición interna definida para los elementos del conjunto, adición, $+$, con las siguientes propiedades - grupo conmutativo- 
+\[ x + y = y + x \]
+\[ (x + y) + z = x + (y + z) \]
+\[ x + \o = x \]
+y una ley de composición externa, producto por un escalar, $\cdot$, definida entre dicho conjunto y otro conjunto con estructura de cuerpo, $K$, con las siguientes propiedades,
+\[ 1 \cdot x = x, 0 \cdot x = \o \]
+\[ \alpha(\beta x) = (\alpha \beta)x \]
+\[ (\alpha + \beta) x = \alpha x + \beta x \]
+\[ \alpha \cdot \o = \o \]
+válidas cualesquiera que sean $x, y, z$ en $E$ y $\alpha, \beta$ en $K$.
+
+A $\o$ se le denomina elemento neutro, o nulo, y a $-x$ el opuesto de $x$. Es usual denominar vectores a los elementos de $E$ y escalares a los de $K$.
+
+\subsection{Espacios vectoriales con estructuras adicionales.}
+\subsubsection{Espacios normados y espacios métricos.}
+La idea detrás de una norma es poder medir vectores y calcular distancias.
+
+Si un espacio vectorial $E$ sobre $K$ ($\mathbb{R}$ o $\mathbb{C}$) se define como norma vectorial como una aplicación $\| \cdot \|:E \rightarrow \mathbb{R}$ que verifica
+\[ \|v\| = 0 \rightarrow v = 0\ \text{y} \ x \neq 0 \rightarrow \|x\| > 0 \]
+\[ \|\alpha v\| = |\alpha| \|v\| \text{ para } \alpha \in K \text{ y } v \in E \]
+\[ \|u + v\| \leq \|u\| + \|v\| \ \forall u,v \in E \]
+se dice que $E$ es un espacio vectorial normado.
+
+En un espacio vectorial normado se cumple que $\|u\| - \|y\| \leq \|x - y \|$ para cualesquiera dos vectores $v$ e $y$.
+
+Demostración. $\|x\| - \|y\| = \|x - y + y\| - \|y\| \leq \|x - y\| + \|y\| - \|y\| = \|x - y\|$
+
+En un espacio vectorial normado se define la distancia entre dos elementos $u$ y $v$ mediante
+\[ d(u,v) = \|u-v\| \]
+
+Esta definición convierte a cualquier espacio vectorial normado en un espacio métrico.
+
+En el espacio vectorial $K^n$, para $1 \leq p \leq \infty$, se tiene la familia de normas
+\[ \|x\|_p = \sqrt[p]{|x_1|^p+...+|x_n|^p} \]
+denominadas normas p de Hölder - por Otto Hölder, Alemania 1859-1937 -.
+
+Casos particulares lo constituyen las correspondientes a $p = 1$ y $p = 2$.
+\[ \|x\|_1 = \sum_{i=1}^{n}{|x_i|} \]
+\[ \|x_2\| = \sqrt{|x_1|^2 + ... + |x_n|^2}. \]
+Esta última es una vez más la norma euclídea en $\mathbb{R}^n$. Toma su nombre de Euclides de Alejandría, Grecia, 325-2655 s.C.
+
+También en $K^n$ es una norma la dada por 
+\[ \|x\|_\infty = \max_{1\leq i \leq n}{|x_i|} \]
+Esta norma también se conoce como norma infinito o norma del supremo.
+
+Estas normas cumplen, cualquiera que sea $x \in K^n$, que 
+\[ \|x_n\|_\infty \leq \|x\|_2 \leq \|x\|_1 \leq n \|x\|_\infty \]
+
+\paragraph{Convergencia.}
+Se dice que en un espacio vectorial normado una sucesión infinita de vectores ${x_n}$ converge a un vector $x$ si la sucesión ${\|x - x_n\|}$ converge a cero. En este caso se escribe como $x_n \rightarrow x$.
+
+\paragraph{Continuidad.}
+Una transformación $T$ de un espacio vectorial normado en otro $Y$ también normado se dice continua en el punto $x_0 \in X$ si y sólo si $x_n \rightarrow x_0$ implica que $T(x_n \rightarrow T(x_0))$.
+
+\section{Computer Arithmetic.}
+When a real number $x$ is approximated by another number $x^*$, the error is $x - x^*$. The absolute error is
+\[ |x - x^*| \]
+and the relative error is 
+\[ |\frac{x - x^*}{x}| \]
+
+% ----- DIMENSIÓN FINITA -----
+
+\section{Matrices}
+Una matriz es una formación rectangular de números reales o complejos ordenados en $m$ filas y $n$ columnas
+\begin{equation*}
+    \begin{bmatrix}
+        a_{11} & a_{12} & ... & a_{1n}\\
+        a_{21} & a_{22} & ... & a_{2n}\\
+        ... & ... & ... & ... \\
+        a_{m1} & a_{m2} & ... & a_{mn}
+    \end{bmatrix}
+\end{equation*} 
+El conjunto de todas las matrices de números reales o complejos se designa, respectivamente, $\mathbb{R}^{m \times n}$ o $\mathbb{C}^{m \times n}$. Si $m = n$ la matriz es cuadrada y de orden $n$. Un vector columna es también una matriz $\mathbb{R}^{m \times 1}$, que se escribe $\mathbb{R}^m$.
+
+\subsection{Normas de matrices}
+Para toda norma matricial es posible construir una norma vectorial consistente. Recíprocamente, a toda norma vectorial sobre $\mathbb{R}^n$ se le puede asociar una norma matricial consistente. Una norma matricial consistente con una cierta norma vectorial $\|\cdot\|$ se construye mediante la definición
+\[ \|A\| = \sup_{0 \neq x \in \mathbb{R}^n} \frac{\|Ax\|}{\|x\|} \]
+Esta norma matricial se dice inducida por la norma vectorial.
+
+La norma matricial inducida por la norma euclídea de $\mathbb{R}^n$ es la norma espectral:
+\[ \|A\|_2 = \sup_{0 \neq x \in \mathbb{R}^n} [\frac{x^T A^T Ax}{x^T x}]^{1/2} = \sqrt{\lambda_{max}(A^TA)} = \sigma_{max}(A) \]
+donde $\lambda$ designa un valor propio de $A$ y $\sigma$ un valor singular.
+
+Las normas matriciales inducidas más usadas son
+\[ \|A\|_1 = \max_{1 \leq j \leq n} \sum_{i = 1}^m |a_{ij}|\]
+\[ \|A\|_2 = \max_{1 \leq i \leq m} \sum_{j = 1}^m |a_{ij}|\]
+
+% ----- Aplicación Lineal ------
+
+% ----- Producto de Matrices -----
+
+% ------ Norma Lp -----
+
+Un espacio de Lebesgue, por Henrí Léon Lebesgue, Francia 1875-1941, es el espacio vectorial de las funciones al cuadrado integrables en $\Omega \subset \mathbb{R}^n$, es decir,
+\[ L^2(\Omega) = {f: \Omega  \rightarrow \mathbb{R} |\int_\Omega |f|^2 < \infty} \]
+El número 2 se refiere a la potencia del integrando.
+
+%\section{Tipos de errores.}
+%\section{Aritmética finita.}
+%\section{Buen condicionamiento.}
+%\section{Estabilidad numérica.}
