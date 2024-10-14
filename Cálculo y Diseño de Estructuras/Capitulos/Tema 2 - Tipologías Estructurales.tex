@@ -778,18 +778,188 @@ siendo:
     \includegraphics[width=1\linewidth]{Imagenes/Presion caracteristica en zapatas rigidas.png}
 \end{figure}
 
+\noindent \underline{Hundimiento. P. Característica en Z. Flexibles.}
+Coeficiente de balasto, $k$, rigidez por unidad de superficie.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 0.75 \linewidth]{Imagenes/Coeficiente de balasto.png}
+\end{figure}
+
+\noindent \underline{Seguridad a desplazamiento}
+
+\begin{equation}
+    \gamma_t = \frac{Fuerza\ de\ rozamiento}{Fuerza\ horizontal} > 1.5
+\end{equation}
+
+Siendo $F_R = (N + P) tg(\frac{2}{3}\phi)$ para arenas, y $F_R = a \cdot b \frac{c}{2}$ para Arcillas.
+
+\noindent \underline{Seguridad al vuelco}
+
+\begin{equation}
+     \gamma_-t = \frac{\sum Mom.estabilizadores}{\sum Mom.vuelco} > 1.5
+\end{equation}
+
+Siendo $\gamma_t = \frac{(N + P) \frac{a}{2}}{M + V \cdot h} > 1.5$
+
+En general en el equilibrio no se considera la colaboración de empuje pasivo, solvo que se pueda garantizar que el terreno que lo produce estará siempre presente.
+
+
+\noindent \underline{Estabilidad global.}
+
+Un edificio podrá fallar globalmente, sin que se produzcan antes otros fallos locales, cuando se forme una superficie de rotura continua (superficie de deslizamiento) que englobe una parte o toda la cimentación, y en la que los esfuerzos de corte alcancen el valor de la resistencia al corte del terreno.
+
+Este tipo de rotura es típico en cimientos próximos a la coronación de taludes de excavación o relleno, o en medias laderas, particularmente si éstas presentan una estabilidad natural precaria.
+
+\noindent \underline{Métodos de cálculo $\rightarrow$ Equilibrio límite.}
+
+\noindent \underline{Capacidad estructural del cimiento.}
+
+El método de las bielas en zapatas rígidas permite determinar el armado de las zapatas.
+
+\[N_{1d} = \frac{N_d}{2} + \frac{M_d}{a/2}\]
+\[F_1 = \frac{N_d}{b} + \frac{6M_d}{b^2}\]
+\[N_{2d} = \frac{N_d}{2} - \frac{M_d}{a/2}\]
+\[F_2 = \frac{N_d}{b}\]
+\[R_{1d} = \frac{N_d}{b} \frac{b}{2} + \frac{6M_d}{b^2} \frac{b}{4} = \frac{N_d}{2} + \frac{3M_d}{2b}\]
+\[x_1 = \frac{\frac{N_d}{2} + \frac{4M_d}{b}}{\frac{N_d}{2} + \frac{3M_d}{2b}} \frac{b}{4}\]
+
+\begin{equation}
+    T_d = \frac{R_{1d}}{0.85d} (x_1 - 0.25a) = A_s f_{yd}
+\end{equation}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 0.75 \linewidth]{Imagenes/Capacidad estructural del cimiento.png}
+\end{figure}
+
+
 \subsection{Cimentaciones Profundas.}
 
 \subsubsection{Tipologías.}
+Por la forma de transmitir la carga.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 1 \linewidth]{Imagenes/Cimentaciones profundas - Tipologias.png}
+\end{figure}
 
 \subsubsection{Estados límite de servicio.}
+Los estados límite de servicio en las cimentaciones profundas están asociados a los movimientos:
+\begin{itemize}
+    \item Asientos
+    \item desplazamientos transversales
+\end{itemize}
+Las limitaciones al movimiento son las mismas que para cimentaciones superficiales.
 
-\subsubsection{Estados límite últimos. Carga de hundimiento. Efecto grupo.}
+Temas importantes a considerar:
+\begin{itemize}
+    \item La influencia de la resistencia del terreno y su deformabilidad. Interacción suelo estructura.
+    \item Los pilotes suelen ejecutarse en grupos con un mismo encepado. Es necesario considerar el efecto de grupo o influencia de la proximidad de varios pilotes.
+    \item Si algún movimiento se considera crítico deben realizarse pruebas de campo.
+\end{itemize}
+
+%\subsubsection{Estados límite últimos. Carga de hundimiento. Efecto grupo.}
+\subsubsection{Estado límite últimos.}
+\begin{itemize}
+    \item Hundimiento: la carga vertical sobre la cabeza del pilote supera la resistencia del terreno.
+    \item Rotura por arrancamiento: Los pilotes pueden diseñarse para soportar cargas de tracción en su cabeza. Si las caragas exceden la resistencia al arrancamiento, el pilote se desconecta del terreno y se considera un modo de fallo.
+    \item Rotura horizontal del terreno bajo cargas del pilote.
+    \item Estabilidad global: similar a cimentaciones directas con superficies de fallo más profundas o que corten los pilotes.
+    \item Capacidad estructural del pilote: daño estructural sobre el pilote, se comprueba según las consideraciones y normativas relativas a cada material.
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width = 0.75 \linewidth]{Imagenes/Cimentaciones profundas - estado limite ultimos.png}
+    \end{figure}
+
+    \item Carga de hundimiento $R_{ck}$
+    \[R_{ck} = R_{pk} + R_{fk}\]
+    \[R_{pk} = q_p \cdot A_p\]
+    \[R_{pk} = \int_0^L{\tau_f p_f dz}\]
+    Siendo:
+    \begin{itemize}
+        \item $q_p$: resistencia unitaria por punta
+        \item $A_p$: área de la punta
+        \item $\tau_f$: resistencia unitaria por fuste
+        \item $p_f$: perímetro del pilote
+        \item $z$: profundidad
+    \end{itemize}
+    \item Efecto grupo $R_{ckg}$ depende de la separación entre pilotes $S$ y su diámetro $D$.
+    \[R_{ckg} = \nu \cdot n \cdot R_{ck}\]
+    Siendo:
+    \begin{itemize}
+        \item $n$: número de pilotes del grupo
+        \item $\nu$: coeficiente de eficiencia
+        \begin{itemize}
+            \item $\nu = 0.7$ cuando $S=D$
+            \item $\nu = 1.0$ cuando $S \geq 3 \cdot D$
+            \item Interpolar en situaciones intermedias.
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Esfuerzos sobre los pilotes.}
+
+\begin{itemize}
+    \item Acciones de la estructura y reparto en los pilotes (unión encepado rígido - pilote articulado)
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width = 1 \linewidth]{Imagenes/Cimentaciones profundas - esfuerzos sobre pilotes.png}
+    \end{figure}
+    \item Empujes horizontales causados por sobrecargas.
+    \item Rozamiento negativo. El rozamiento negativo se produce cuando el asiento del terreno circundante al pilote es mayor que el del propio pilote. En esta situación, el pilote soporta, además de la carga que le transmite la estructura, parte del peso del terreno.
+\end{itemize}
 
 \subsection{Estructuras de contención. Muros.}
-
 \subsubsection{Tipologías.}
+Pantallas: son elementos de contención de tierras que se emplean para realizar excavaciones verticales en aquellos casos en los que el terreno, los edificios u otras estructuras cimentadas en las inmediaciones de la excavación, no serían estables sin sujeción. Suelen asociarse a elementos flexibles.
+
+Muros: elementos de contención destinados a establecer y mantener una diferencia de niveles en el terreno con una pendiente de transmisión superior a lo que permitiría la resistencia del mismo.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 1 \linewidth]{Imagenes/Estructuras de contencion - Muros.png}
+\end{figure}
 
 \subsubsection{Estados límite de servicio.}
+Movimientos o deformaciones de la estructura de contención o de sus elementos de sujeción que puedan causar el colapso o afectar a la apariencia o al uso eficiente de la estructura, de las estructuras cercanas o de los servicios próximos.
+
+Infiltración de agua no admisible a través o por debajo del elemento de contención. Típicos problemas en el que el agua infiltrada: lavado de finos, sifonamiento.
+
+Afección a la situación del agua freática en el entorno con repercusión sobre edificios o bienes.
+
+\subsubsection{Empujes}
+Empuje activo: el elemento de contención gira o se desplaza hacia el exterior bajo las presiones del relleno o la deformación de su cimentación hasta alcanzar unas condiciones de empuje mínimo.
+
+Empuje pasivo: cuando el elemento de contención es comprimido contra el terreno por las cargas transmitidas por una estructura u otro efecto similar hasta alcanzar unas condiciones de máximo empuje.
+
+Empuje en reposo: cuando se produce un estado intermedio que es el correspondiente al estado tensional inicial en el terreno.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 0.75 \linewidth]{Imagenes/Estructuras de contencion - Estados de empuje.png}
+\end{figure}
+
+\noindent \underline{Caracterización del rozamiento en el trasdós.}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 1 \linewidth]{Imagenes/Estructuras de contencion - caracterizacion del rozamiento en el trasdos.png}
+\end{figure}
+
+\noindent \underline{Empujes debidos a sobrecargas.}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = 1 \linewidth]{Imagenes/Estructuras de contencion - Empujes debidos a sobrecargas.png}
+\end{figure}
 
 \subsubsection{Estados límite últimos.}
+Las comprobaciones son similares a las realizadas para zapatas, teniendo en cuenta las distribuciones de presiones y fuerzas a las que se ve sometido el muro en cada caso particular.
+\begin{itemize}
+    \item hundimiento
+    \item deslizamientovuelco
+    \item estabilidad global
+    \item capacidad estructural del muro
+\end{itemize}

@@ -1,0 +1,931 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.9)  11 OCT 2024 20:48
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/merce/Documents/GitHub/LaTeX/Fuentes de Energ√≠a/main.tex"
+(c:/Users/merce/Documents/GitHub/LaTeX/Fuentes de Energ√≠a/main.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-09-10>
+(c:/texlive/2024/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2024/02/08 v1.4n Standard LaTeX document class
+(c:/texlive/2024/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count194
+\c@chapter=\count195
+\c@section=\count196
+\c@subsection=\count197
+\c@subsubsection=\count198
+\c@paragraph=\count199
+\c@subparagraph=\count266
+\c@figure=\count267
+\c@table=\count268
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (c:/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/10/05 v24.11 The Babel package
+\babel@savecnt=\count269
+\U@D=\dimen142
+\l@unhyphenated=\language89
+ (c:/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count270
+ (c:/texlive/2024/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks17
+\es@quotdepth=\count271
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+)) (c:/texlive/2024/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen143
+\Gin@req@width=\dimen144
+) (c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count272
+\Gm@cntv=\count273
+\c@Gm@tempcnt=\count274
+\Gm@bindingoffset=\dimen145
+\Gm@wd@mp=\dimen146
+\Gm@odd@mp=\dimen147
+\Gm@even@mp=\dimen148
+\Gm@layoutwidth=\dimen149
+\Gm@layoutheight=\dimen150
+\Gm@layouthoffset=\dimen151
+\Gm@layoutvoffset=\dimen152
+\Gm@dimlist=\toks19
+) (c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count275
+\float@exts=\toks20
+\float@box=\box52
+\@float@everytoks=\toks21
+\@floatcapt=\box53
+) (c:/texlive/2024/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language90
+LaTeX Info: Redefining \_ on input line 43.
+) (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip51
+\f@nch@O@elh=\skip52
+\f@nch@O@erh=\skip53
+\f@nch@O@olh=\skip54
+\f@nch@O@orh=\skip55
+\f@nch@O@elf=\skip56
+\f@nch@O@erf=\skip57
+\f@nch@O@olf=\skip58
+\f@nch@O@orf=\skip59
+) (c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen153
+\captionmargin=\dimen154
+\caption@leftmargin=\dimen155
+\caption@rightmargin=\dimen156
+\caption@width=\dimen157
+\caption@indent=\dimen158
+\caption@parindent=\dimen159
+\caption@hangindent=\dimen160
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count276
+\c@continuedfloat=\count277
+Package caption Info: float package is loaded.
+) (c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count278
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count279
+) (c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+ (c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count280
+)
+\csq@reset=\count281
+\csq@gtype=\count282
+\csq@glevel=\count283
+\csq@qlevel=\count284
+\csq@maxlvl=\count285
+\csq@tshold=\count286
+\csq@ltx@everypar=\toks22
+ (c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)) (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
+ (c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count287
+ (c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count288
+\c@listtotal=\count289
+\c@listcount=\count290
+\c@liststart=\count291
+\c@liststop=\count292
+\c@citecount=\count293
+\c@citetotal=\count294
+\c@multicitecount=\count295
+\c@multicitetotal=\count296
+\c@instcount=\count297
+\c@maxnames=\count298
+\c@minnames=\count299
+\c@maxitems=\count300
+\c@minitems=\count301
+\c@citecounter=\count302
+\c@maxcitecounter=\count303
+\c@savedcitecounter=\count304
+\c@uniquelist=\count305
+\c@uniquename=\count306
+\c@refsection=\count307
+\c@refsegment=\count308
+\c@maxextratitle=\count309
+\c@maxextratitleyear=\count310
+\c@maxextraname=\count311
+\c@maxextradate=\count312
+\c@maxextraalpha=\count313
+\c@abbrvpenalty=\count314
+\c@highnamepenalty=\count315
+\c@lownamepenalty=\count316
+\c@maxparens=\count317
+\c@parenlevel=\count318
+\blx@tempcnta=\count319
+\blx@tempcntb=\count320
+\blx@tempcntc=\count321
+\c@blx@maxsection=\count322
+\blx@maxsegment@0=\count323
+\blx@notetype=\count324
+\blx@parenlevel@text=\count325
+\blx@parenlevel@foot=\count326
+\blx@sectionciteorder@0=\count327
+\blx@sectionciteorderinternal@0=\count328
+\blx@entrysetcounter=\count329
+\blx@biblioinstance=\count330
+\labelnumberwidth=\skip60
+\labelalphawidth=\skip61
+\biblabelsep=\skip62
+\bibitemsep=\skip63
+\bibnamesep=\skip64
+\bibinitsep=\skip65
+\bibparsep=\skip66
+\bibhang=\skip67
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language91
+\c@mincomprange=\count331
+\c@maxcomprange=\count332
+\c@mincompwidth=\count333
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count334
+\c@savedafterword=\count335
+\c@annotator=\count336
+\c@savedannotator=\count337
+\c@author=\count338
+\c@savedauthor=\count339
+\c@bookauthor=\count340
+\c@savedbookauthor=\count341
+\c@commentator=\count342
+\c@savedcommentator=\count343
+\c@editor=\count344
+\c@savededitor=\count345
+\c@editora=\count346
+\c@savededitora=\count347
+\c@editorb=\count348
+\c@savededitorb=\count349
+\c@editorc=\count350
+\c@savededitorc=\count351
+\c@foreword=\count352
+\c@savedforeword=\count353
+\c@holder=\count354
+\c@savedholder=\count355
+\c@introduction=\count356
+\c@savedintroduction=\count357
+\c@namea=\count358
+\c@savednamea=\count359
+\c@nameb=\count360
+\c@savednameb=\count361
+\c@namec=\count362
+\c@savednamec=\count363
+\c@translator=\count364
+\c@savedtranslator=\count365
+\c@shortauthor=\count366
+\c@savedshortauthor=\count367
+\c@shorteditor=\count368
+\c@savedshorteditor=\count369
+\c@labelname=\count370
+\c@savedlabelname=\count371
+\c@institution=\count372
+\c@savedinstitution=\count373
+\c@lista=\count374
+\c@savedlista=\count375
+\c@listb=\count376
+\c@savedlistb=\count377
+\c@listc=\count378
+\c@savedlistc=\count379
+\c@listd=\count380
+\c@savedlistd=\count381
+\c@liste=\count382
+\c@savedliste=\count383
+\c@listf=\count384
+\c@savedlistf=\count385
+\c@location=\count386
+\c@savedlocation=\count387
+\c@organization=\count388
+\c@savedorganization=\count389
+\c@origlocation=\count390
+\c@savedoriglocation=\count391
+\c@origpublisher=\count392
+\c@savedorigpublisher=\count393
+\c@publisher=\count394
+\c@savedpublisher=\count395
+\c@language=\count396
+\c@savedlanguage=\count397
+\c@origlanguage=\count398
+\c@savedoriglanguage=\count399
+\c@pageref=\count400
+\c@savedpageref=\count401
+\shorthandwidth=\skip68
+\shortjournalwidth=\skip69
+\shortserieswidth=\skip70
+\shorttitlewidth=\skip71
+\shortauthorwidth=\skip72
+\shorteditorwidth=\skip73
+\locallabelnumberwidth=\skip74
+\locallabelalphawidth=\skip75
+\localshorthandwidth=\skip76
+\localshortjournalwidth=\skip77
+\localshortserieswidth=\skip78
+\localshorttitlewidth=\skip79
+\localshortauthorwidth=\skip80
+\localshorteditorwidth=\skip81
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+\c@textcitecount=\count402
+\c@textcitetotal=\count403
+\c@textcitemaxnames=\count404
+\c@biburlbigbreakpenalty=\count405
+\c@biburlbreakpenalty=\count406
+\c@biburlnumpenalty=\count407
+\c@biburlucpenalty=\count408
+\c@biburllcpenalty=\count409
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count410
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count411
+\c@bbx:relatedtotal=\count412
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+ (c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-09-10 L3 programming layer (loader) 
+ (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count413
+\l__pdf_internal_box=\box54
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2024-09-10 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'spanish'.
+ (./main.aux (./Capitulos/Tema 1 - Introduccion.aux)
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
+ (./Capitulos/Tema 2 - Energia nuclear de fision.aux) (./Capitulos/Tema 3 - Energia nuclear de fusion.aux) (./Capitulos/Tema 4 - Energia eolica.aux) (./Capitulos/Tema 5 - Energia solar.aux) (./Capitulos/Tema 6 - Energia hidraulica.aux) (./Capitulos/Tema 7 - Combustibles fosiles.aux) (./Capitulos/Tema 8 - Aprovechamiento energetico de biomasa y residuos.aux) (./Capitulos/Tema 9 - Aspectos ambientales.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Info: Redefining \. on input line 20.
+LaTeX Info: Redefining \% on input line 20.
+ (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count414
+\scratchdimen=\dimen161
+\scratchbox=\box55
+\nofMPsegments=\count415
+\nofMParguments=\count416
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count417
+\MPscratchDim=\dimen162
+\MPnumerator=\count418
+\makeMPintoPDFobject=\count419
+\everyMPtoPDFconversion=\toks24
+) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside asymmetric 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-45.43198pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=48.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidetrue
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+Package biblatex Info: Trying to load language 'spanish'...
+Package biblatex Info: ... file 'spanish.lbx' found.
+(c:/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+File: spanish.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl)
+Package biblatex Info: Reference section=0 on input line 20.
+Package biblatex Info: Reference segment=0 on input line 20.
+ (./Documentos/Cuerpo.tex
+\openout2 = `"Capitulos/Tema 1 - Introduccion.aux"'.
+
+ (./Capitulos/Tema 1 - Introduccion.tex
+Cap\'{\i }tulo 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 9.
+
+Underfull \hbox (badness 6268) in paragraph at lines 21--22
+[]\OT1/cmr/m/n/10 La po-ten-cia to-tal me-dia re-ci-bi-da de la
+ []
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 21--22
+\OT1/cmr/m/n/10 irra-dia-ci^^Son so-lar es de $175[]000\OML/cmm/m/it/10 TW$\OT1/cmr/m/n/10 . La po-ten-cia
+ []
+
+<Imagenes/Flujos de energia terrestres.png, id=1, 479.54156pt x 426.84468pt>
+File: Imagenes/Flujos de energia terrestres.png Graphic file (type png)
+<use Imagenes/Flujos de energia terrestres.png>
+Package pdftex.def Info: Imagenes/Flujos de energia terrestres.png  used on input line 25.
+(pdftex.def)             Requested size: 236.84843pt x 210.82307pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Imagenes/Exergia.png, id=3, 724.95844pt x 393.72093pt>
+File: Imagenes/Exergia.png Graphic file (type png)
+<use Imagenes/Exergia.png>
+Package pdftex.def Info: Imagenes/Exergia.png  used on input line 33.
+(pdftex.def)             Requested size: 236.84843pt x 128.63065pt.
+
+
+
+Underfull \hbox (badness 3668) in paragraph at lines 40--41
+\OT1/cmr/m/n/10 cu-brir. Nues-tra so-cie-dad crea o in-ven-ta nue-vas
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+
+ <./Imagenes/Flujos de energia terrestres.png> <./Imagenes/Exergia.png>]
+Underfull \hbox (badness 2134) in paragraph at lines 42--43
+[]\OT1/cmr/m/n/10 La pro-duc-ci^^Son de es-tos bie-nes y ser-vi-cios
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 42--43
+\OT1/cmr/m/n/10 ne-ce-si-ta to-mar los me-dios ne-ce-sa-rios de nues-tro
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 42--43
+\OT1/cmr/m/n/10 ne-ce-si-da-des y acer-car-los a las ^^Sareas don-de ser^^San
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 42--43
+\OT1/cmr/m/n/10 uti-li-za-dos. Y pa-ra rea-li-zar to-do es-to ne-ce-si-ta-mos
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 58--59
+[]\OT1/cmr/m/n/10 El cre-ci-mien-to econ^^Somi-co de un pa^^S^^Ps est^^Sa
+ []
+
+
+Underfull \hbox (badness 7851) in paragraph at lines 63--64
+[]\OT1/cmr/m/n/10 La Tie-rra es un sis-te-ma en equi-li-brio,
+ []
+
+
+Underfull \hbox (badness 3713) in paragraph at lines 63--64
+\OT1/cmr/m/n/10 por lo que to-da la energ^^S^^Pa que en-tra por la
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 67--68
+\OT1/cmr/m/n/10 ins-tan-cia la tem-pe-ra-tu-ra de equi-li-brio. Es-tas
+ []
+
+
+
+
+Underfull \hbox (badness 4872) in paragraph at lines 73--74
+[]\OT1/cmr/m/n/10 El ba-lan-ce del CO2 es muy sen-si-ble a
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 73--74
+\OT1/cmr/m/n/10 las ac-ti-vi-da-des hu-ma-nas. Las pro-pie-da-des ^^Sopti-cas
+ []
+
+
+Underfull \hbox (badness 4779) in paragraph at lines 73--74
+\OT1/cmr/m/n/10 de su com-po-si-ci^^Son (emi-sio-nes de Ga-ses Efec-to
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 75.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 75.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 75.
+
+Underfull \hbox (badness 5203) in paragraph at lines 75--75
+[]\OT1/cmr/bx/n/12 Calentamiento glo-bal por $\OML/cmm/m/it/12 CO[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]\OT1/cmr/bx/n/12 Objetivos de De-sa-rro-llo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+[]\OT1/cmr/m/n/10 ?`Por qu^^Se ``Energ^^S^^Pa sos-te-ni-ble y no
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 83--84
+\OT1/cmr/m/n/10 de vi-da, al tiem-po que afec-tan los eco-sis-te-mas
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 83--84
+\OT1/cmr/m/n/10 y con-tri-bu-yen al cam-bio clim^^Sati-co. Por lo tan-to,
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 83--84
+\OT1/cmr/m/n/10 la energ^^S^^Pa sos-te-ni-ble pue-de ser un mo-tor en la
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 83--84
+\OT1/cmr/m/n/10 re-si-lien-cia, cre-ci-mien-to econ^^Somi-co y sos-te-ni-bi-li-dad
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 83--84
+\OT1/cmr/m/n/10 a trav^^Ses de una se-rie de in-ter-ven-cio-nes pol^^S^^Pti-cas,
+ []
+
+
+Underfull \hbox (badness 6575) in paragraph at lines 83--84
+\OT1/cmr/m/n/10 pro-duc-tos y ser-vi-cios de energ^^S^^Pa sos-te-ni-ble, y
+ []
+
+
+Underfull \hbox (badness 5189) in paragraph at lines 86--87
+[]\OT1/cmr/m/n/10 7.1 De aqu^^S^^P a 2030, ga-ran-ti-zar el ac-ce-so
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 87.
+LaTeX Info: Redefining \% on input line 87.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[2]
+Underfull \hbox (badness 6412) in paragraph at lines 89--90
+\OT1/cmr/m/n/10 in-ter-na-cio-nal pa-ra fa-ci-li-tar el ac-ce-so a la
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 89--90
+\OT1/cmr/m/n/10 in-ves-ti-ga-ci^^Son y la tec-no-log^^S^^Pa re-la-ti-vas a la
+ []
+
+
+Underfull \hbox (badness 6016) in paragraph at lines 89--90
+\OT1/cmr/m/n/10 y pro-mo-ver la in-ver-si^^Son en in-fra-es-truc-tu-ra
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 108--109
+\OT1/cmr/m/n/10 pro-ce-so de trans-for-ma-ci^^Son pa-ra ser uti-li-za-da
+ []
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 132.
+
+
+LaTeX Warning: Command \texteuro invalid in math mode on input line 132.
+
+Missing character: There is no ø in font cmr10!
+
+Underfull \hbox (badness 7944) in paragraph at lines 138--139
+[]\OT1/cmr/m/n/10 tonCO2/PIB(M\TS1/cmr/m/n/10 ø\OT1/cmr/m/n/10 ): com-bi-na-ci^^Son de los dos
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 140--141
+[]\OT1/cmr/m/n/10 PIB per c^^Sapi-ta: in-di-ca-dor de la ``sa-lud''
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 148.
+LaTeX Info: Redefining \% on input line 148.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[3{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Underfull \hbox (badness 1215) in paragraph at lines 156--157
+[]\OT1/cmr/m/n/10 Fuente de energ^^S^^Pa no re-no-va-ble: la energ^^S^^Pa
+ []
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+[]\OT1/cmr/m/n/10 La des-car-bo-ni-za-ci^^Son, in-clui-das las energ^^S^^Pas
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 188--188
+[]\OT1/cmr/bx/n/12 Tecnolog^^S^^Pas, Pol^^S^^Pti-cas y Mei-das
+ []
+
+
+Underfull \hbox (badness 2591) in paragraph at lines 200--201
+[]\OT1/cmr/m/n/10 Uso de la energ^^S^^Pa y nor-mas so-bre las
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
+[]\OT1/cmr/m/n/10 Equipo obli-ga-to-rio, nor-mas so-bre
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 208--209
+[]\OT1/cmr/m/n/10 Investigaci^^Son - De-sa-rro-llo y De-mos-tra-ci^^Son de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
+[]\OT1/cmr/bx/n/12 Tecnolog^^S^^Pas pa-ra re-du-cir las
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+[]\OT1/cmr/m/n/10 Descarbonizaci^^Son de ga-ses de es-ca-pe y
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 219.
+LaTeX Info: Redefining \% on input line 219.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[4])
+
+
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[5
+
+]
+\openout2 = `"Capitulos/Tema 2 - Energia nuclear de fision.aux"'.
+
+ (./Capitulos/Tema 2 - Energia nuclear de fision.tex)
+\openout2 = `"Capitulos/Tema 3 - Energia nuclear de fusion.aux"'.
+
+ (./Capitulos/Tema 3 - Energia nuclear de fusion.tex)
+\openout2 = `"Capitulos/Tema 4 - Energia eolica.aux"'.
+
+ (./Capitulos/Tema 4 - Energia eolica.tex)
+\openout2 = `"Capitulos/Tema 5 - Energia solar.aux"'.
+
+ (./Capitulos/Tema 5 - Energia solar.tex
+
+
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[6
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
+Cap\'{\i }tulo 2.
+
+Underfull \hbox (badness 1484) in paragraph at lines 3--4
+[]\OT1/cmr/m/n/10 Del Sol lle-ga a la su-per-fi-cie te-rres-tre una
+ []
+
+
+Underfull \hbox (badness 1975) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 po-ten-cia equi-va-len-te a la pro-du-ci-da por $\OMS/cmsy/m/n/10 ^^X \OT1/cmr/m/n/10 100$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+[]\OT1/cmr/m/n/10 Solar Ter-mo-el^^Sectri-ca: ge-ne-ra-ci^^Son de
+ []
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 21--22
+\OT1/cmr/m/n/10 elec-tri-ci-dad a par-tir del ca-lor ge-ne-ra-do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+[]\OT1/cmr/m/n/10 Fotovoltaica: apro-ve-cha al-gu-nos fo-to-nes
+ []
+
+
+Underfull \hbox (badness 5189) in paragraph at lines 23--24
+\OT1/cmr/m/n/10 su-fi-cien-te-men-te energ^^Seti-cos pa-ra crear pa-res
+ []
+
+
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 35--36
+[]\OT1/cmr/m/n/10 Transformaci^^Son en me-dia tem-pe-ra-tu-ra $(90 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 35--36
+\OT1/cmr/m/n/10 400[]\OML/cmm/m/it/10 C\OT1/cmr/m/n/10 )$: Uso in-dus-trial. Bajo-medio ^^S^^Pndi-ce de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+\OT1/cmr/m/n/10 Cen-tra-les ter-mo-el^^Sectri-cas. Al-to ^^S^^Pndi-ce de
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 58--9
+[]\OT1/cmr/m/n/10 La im-por-tan-cia del pro-duc-to
+ []
+
+
+
+[7]
+\openout2 = `"Capitulos/Tema 6 - Energia hidraulica.aux"'.
+
+ (./Capitulos/Tema 6 - Energia hidraulica.tex)
+\openout2 = `"Capitulos/Tema 7 - Combustibles fosiles.aux"'.
+
+ (./Capitulos/Tema 7 - Combustibles fosiles.tex)
+\openout2 = `"Capitulos/Tema 8 - Aprovechamiento energetico de biomasa y residuos.aux"'.
+
+ (./Capitulos/Tema 8 - Aprovechamiento energetico de biomasa y residuos.tex)
+\openout2 = `"Capitulos/Tema 9 - Aspectos ambientales.aux"'.
+
+ (./Capitulos/Tema 9 - Aspectos ambientales.tex))
+
+LaTeX Warning: Empty bibliography on input line 51.
+
+(./main.aux (./Capitulos/Tema 1 - Introduccion.aux)
+LaTeX Info: Redefining \sptext on input line 10.
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
+ (./Capitulos/Tema 2 - Energia nuclear de fision.aux) (./Capitulos/Tema 3 - Energia nuclear de fusion.aux) (./Capitulos/Tema 4 - Energia eolica.aux) (./Capitulos/Tema 5 - Energia solar.aux) (./Capitulos/Tema 6 - Energia hidraulica.aux) (./Capitulos/Tema 7 - Combustibles fosiles.aux) (./Capitulos/Tema 8 - Aprovechamiento energetico de biomasa y residuos.aux) (./Capitulos/Tema 9 - Aspectos ambientales.aux))
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-09-10>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 13725 strings out of 473578
+ 263903 string characters out of 5732242
+ 1123772 words of memory out of 5000000
+ 36452 multiletter control sequences out of 15000+600000
+ 563273 words of font info for 53 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 66i,11n,81p,971b,1823s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (7 pages, 805098 bytes).
+PDF statistics:
+ 99 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+

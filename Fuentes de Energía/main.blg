@@ -1,0 +1,14 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'main.blg'
+[265] biber-MSWIN64:340> INFO - === 
+[377] Biber.pm:420> INFO - Reading 'main.bcf'
+[489] Biber.pm:991> INFO - Using all citekeys in bib section 0
+[514] Biber.pm:4463> INFO - Processing section 0
+[550] Biber.pm:4654> INFO - Looking for bibtex file 'bibliografia.bib' for section 0
+[558] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[558] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[558] Biber.pm:4283> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[561] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[561] bbl.pm:779> INFO - Output to main.bbl
+[561] Biber.pm:131> WARN - Data source 'bibliografia.bib' is empty, ignoring
+[562] Biber.pm:133> INFO - WARNINGS: 1
