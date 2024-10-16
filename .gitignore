@@ -6,3 +6,5 @@
 *.log
 *.xml
 *.gz
+*.blg
+*.fbd_latexmk
