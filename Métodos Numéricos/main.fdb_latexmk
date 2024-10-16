@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1729008549.51678 "main.bcf" "main.bbl" "main" 1729019905.73 0
+["biber main"] 1729074526.8426 "main.bcf" "main.bbl" "main" 1729074535.40156 0
   "bibliografia.bib" 1728666098 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "main.bcf" 1729019905 108559 77b0be42f22062413c5cf405d9b14f86 "pdflatex"
+  "main.bcf" 1729074535 108559 77b0be42f22062413c5cf405d9b14f86 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1729019904.23655 "c:/Users/merce/Documents/GitHub/LaTeX/Métodos Numéricos/main.tex" "main.pdf" "main" 1729019905.73068 0
-  "Capitulos/Tema 1.aux" 1729019905 5115 e9488bea15daed9e9d613027b4f48742 "pdflatex"
+["pdflatex"] 1729074534.07827 "c:/Users/merce/Documents/GitHub/LaTeX/Métodos Numéricos/main.tex" "main.pdf" "main" 1729074535.40223 0
+  "Capitulos/Tema 1.aux" 1729074535 5115 e9488bea15daed9e9d613027b4f48742 "pdflatex"
   "Capitulos/Tema 1.tex" 1729019903 12793 5b0056608d3c0ca08180244de22164cd ""
   "Documentos/Cuerpo.tex" 1729019455 55 2c04528c89ffdc3f3662f884f08c3677 ""
   "c:/Users/merce/Documents/GitHub/LaTeX/Métodos Numéricos/main.tex" 1729019135 1625 6944276a9fbf724ab25aa267450c10e1 ""
@@ -99,9 +99,9 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1728505921 5520473 0a78405a99dc248928f6ec2cb7e7998e ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1728506292 3326004 fdcc47d26ba8be16a57e12fc02c7b8d1 ""
   "c:/texlive/2024/texmf.cnf" 1728505891 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1729019905 420 cd0839b8ce1935e97626f130d0698010 "pdflatex"
-  "main.bbl" 1729008551 486 76d65a242ec496c9b4361af646ff12cb "biber main"
-  "main.run.xml" 1729019905 2307 460a780959737ea20721317a8b4bfa2a "pdflatex"
+  "main.aux" 1729074535 420 cd0839b8ce1935e97626f130d0698010 "pdflatex"
+  "main.bbl" 1729074532 486 76d65a242ec496c9b4361af646ff12cb "biber main"
+  "main.run.xml" 1729074535 2307 460a780959737ea20721317a8b4bfa2a "pdflatex"
   "main.tex" 1729019135 1625 6944276a9fbf724ab25aa267450c10e1 ""
   (generated)
   "Capitulos/Tema 1.aux"
