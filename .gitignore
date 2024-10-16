@@ -1,0 +1,9 @@
+# Logs
+*.aux
+*.bbl
+*.bcf
+*.fbd_latexmlc
+*.fls
+*.log
+*.xml
+*.gz
