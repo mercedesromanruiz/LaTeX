@@ -163,4 +163,160 @@ where the symbol $\| \cdot \|$, when applied to a matrix, denotes the induced ma
 
 In view of (\ref{equation 2.7}), the quantity $\| G'(d) \|$ is an approximation of $K_{abs}(d)$ and is sometimes called first order absolute condition number. This latter represents the limit of the Lipschitz constant of $G$ as the perturbation on the data tends to zero.
 
-Such a number does not always provide a sound estimate of the condition number $K_{abs}(d)$. This happends, for instance, when $G'$ vanishes at a point whilst $G$ is nonnull in a neightborhood of the same point.
+Such a number does not always provide a sound estimate of the condition number $K_{abs}(d)$. This happends, for instance, when $G'$ vanishes at a point whilst $G$ is nonnull in a neightborhood of the same point. For example, take $x = G(d) = cos(d) - 1$ for $d \in (- \pi / 2, \pi / 2)$, we have $G'(0) = 0$ while $K_{abs}(0) = 2/\pi$.
+
+\section{Stability of Numerical Methods}
+We shall henceforth suppose the problem (\ref{problem}) to be well posed. A numerical method for the approximate solution of (\ref{problem}) will consist, in general, of a sequence of approximate problems
+\begin{equation}
+    F_n (x_n, d_n) = 0 \quad n \geqq
+    \label{equation 2.12}
+\end{equation}
+depending on a certain parameter $n$ (to be defined case by case). The understood expectation is that $x_n \rightarrow x$ as $n \rightarrow \infty$, i.e. that the numerical solution converges to the exact solution. For that, it is necessary that $d_n \rightarrow d$ and that $F_n$ approximates $F$, as $n \rightarrow \infty$. Precisely, if the datum $d$ of problem (\ref{problem}) is admissible for $F_n$, we say that (\ref{equation 2.12}) is consistent if 
+\begin{equation}
+    F_n(x,d) = F_n (x,d) - F(x,d) \rightarrow 0 \text{ for } n \rightarrow \infty
+    \label{equation 2.13}
+\end{equation}
+where $x$ is the solution to problem (\ref{problem}) corresponding to the datum $d$.
+
+A method is said to be strongly consistent if $F_n(x,d) = 0$ for any value of $n$ and not only for $n \rightarrow \infty$.
+
+In some cases problem (\ref{equation 2.12}) could take the following form
+\begin{equation}
+    F_n (x_n, x_{n-1}, ..., x_{n-q}, d_n) = 0 \quad n \geq q
+    \label{equation 2.14}
+\end{equation}
+where $x_0, x_1, ..., x_{q-1}$ are given. In such case, the property of strong consistency becomes $F_n(x, x, ..., x, d) = 0$ for all $n \geq q$.
+
+Recalling what has been previously state about problem (\ref{problem}), in order for the numerical method to be well posed (or stable) we require that for any fixed $n$, there exists a unique solution $x_n$ corresponding to the datum $d_n$, that $x_n$ depends continuously on the data. More precisly, let $d_n$ be an arbitrary element of $D_n$, wehre $D_n$ is the set of all admissible data for (\ref{equation 2.12}). Let $\delta d_n$ be a perturbation admissible in the sense that $d_n + \delta d_n \in D_n$, and let $\delta x_n$ denote the corresponding perturbation on the solution, that is 
+\[F_n(x_n + \delta x_nn, d_n + \delta d_n) = 0\]
+Then we require that
+\begin{multline}
+    \exists \eta_0 = \eta_0 (d_n) < 0, \exists K_0 = K_0 (d_n) \text{ such that } \\
+    \text{if } \| \delta d_n \| \leq \eta_0 \text{ then } \| \delta x_n \| \leq K_0 \| \delta d_n \|
+    \label{equation 2.16}
+\end{multline}
+As done in (\ref{equation 2.4}), we introduce for each problem in the sequence (\ref{equation 2.12}) the quantities
+\begin{multline}
+    K_n (d_n) = \sup\{\frac{\| \delta x_n\| / \| x_n \|}{ \| \delta d_n \| / \| d_n \|}, \delta d_n \neq 0, d_n + \delta d_n \in D_n\}, \\
+    K_{abs, n}(d_n) = \sup\{\frac{\| \delta x_n \|}{ \| \delta d_n \|}, \delta d_n \neq 0, d_n + \delta d_n \in D_n\}
+    \label{equation 2.17}
+\end{multline}
+The numerical method is sait to be well condition if $K_n(d_n)$ is ``small'' for any admissible datum $d_n$, ill conditioned otherwise. As in (\ref{equation 2.6}), let us consider the case where, for each $n$, the functional relation (\ref{equation 2.12}) defines a mapping $G_n$ between the sets of the numerical data and the solutions
+\begin{equation}
+    x_n = G_n(d_n), \text{ that is } F_n (G_n(d_n) d_n) = 0
+    \label{equation 2.18}
+\end{equation}
+Assuing that $G_n$ is differentiable, we can obtain from (\ref{equation 2.17})
+\begin{equation}
+    K_n(d_n) \approx \| G'_n (d_n) \| \frac{ \|d_n \|}{\|G_n(d_n) \|}, \quad K_{abs,n} \approx \|G'_n(d_n) \|
+    \label{equation 2.19}
+\end{equation}
+We observe that, in the case where the sets of admissible data in problems (\ref{problem}) and (\ref{equation 2.12}) coincide, we can use in (\ref{equation 2.16}) and (\ref{equation 2.17}) the quantity $d$ instead of $d_n$. In such case, we can define the relative and absolute asymptotic condition number corresponding to the datum $d$ as follows
+\[K^{num}(d) = \lim_{k \rightarrow \infty} \sup_{n \geq k} K_n(d)\] 
+\[\quad K_{abs}^{num}(d) = \lim_{k \rightarrow \infty} \sup_{n \geq k} K_{abs, n}(d) \]
+
+The final foal of numerical approximation is, of course, to build, through numerical problems of type (\ref{equation 2.12}), solutions $x_n$ that ``get closer'' to the solution of problem (\ref{problem}) as much as $n$ gets larger. This concept is made precise in the next definition.
+
+\begin{definition}
+    The numerical method (\ref{equation 2.12}) is convergent iff 
+    \begin{multline}
+        \forall \epsilon > 0 \exists n_0 = n_0 (\epsilon), \exists \delta = \delta (n_0, \epsilon) > 0 \text{ such that} \\
+        \forall n > n_0(\epsilon), \forall \delta d_n : \|\delta d_n\| \leq \delta  \rightarrow \| x(d) - x_n(d + \delta d_n) \| \leq \epsilon
+        \label{equation 2.20}
+    \end{multline}
+    where $d$ is na admissible datum for the problem (\ref{problem}), $x(d)$ is the corresponding solution and $x_n(d + \delta d_n)$ is the solution of the numerical problem (\ref{equation 2.12}) with datum $d + \delta d_n$.
+\end{definition}
+
+To verify the implication (\ref{equation 2.20}) it suffices to check that under the same assumptions 
+\begin{equation}
+    \| x(d + \delta d_n) - x_n(d + \delta d_n) \| \leq \frac{\epsilon}{2}
+    \label{equation 2.21}
+\end{equation}
+Indeed, thanks to (\ref{equation(2.3)}) we have 
+\begin{multline*}
+    \| x(d) - x_n (d + \delta d_n) \| \leq \| x(d) - x(d + \delta d_n) \| \\
+    + \| x(d + \delta d_n) - x_n (d + \delta d_n) \| \leq K_0 \| \delta d_n \| + \frac{\epsilon}{2}
+\end{multline*}
+Choosing $\delta = min\{ \eta_0, \epsilon / (2 K_0)\}$ one obtains (\ref{equation 2.20}).
+
+Measures of the convergence of $x_n$ to $x$ are given by the absolute error or the relative error, respectively defined as
+\begin{equation}
+    E(x_n) = |x - x_n|, \quad E_{rel}(x_n) = \frac{|x - x_n|}{|x|} (\text{ if } x ,\neq 0)
+    \label{equation 2.22}
+\end{equation}
+In the cases where $x$ and $x_n$ are matrix or vector quantities, in addition to the definitions in (\ref{equation 2.22}) it is sometimes useful to introduce the relative error by component defined as
+\begin{equation}
+    E_{rel}^c(x_n) = \max_{i,j} \frac{|x - x_n|_{ij}}{|x_{ij}|}
+    \label{equation 2.23}
+\end{equation}
+
+\subsection{Relations between Stability and Convergence}
+The concepts of stability and convergence are strongly connected.
+
+First of all, if problem (\ref{problem}) is well posed, a necessary condition in order for the numerical problem (\ref{equation 2.12}) to be convergent is that it is stable.
+
+Let us thus assume that the method is convergent, that is, (\ref{equation 2.20}) holds for an arbitrary $\epsilon >0 $. We have 
+\begin{multline}
+    \| \delta x_n \| = \| x_n(d + \delta d_n) - x_n(d) \| \leq \| x_n(d) - x(d) \| \\
+    + \| x(d) - x(d + \delta d_n) \| + \| x(d + \delta d_n) - x_n (d + \delta d_n) \| \\
+    \leq K(\delta (n_0, \epsilon), d) \| \delta d_n \| + \epsilon
+    \label{equation 2.24}
+\end{multline}
+having used (\ref{equation(2.3)}) and (\ref{equation 2.21}) twice. Choosing now $\delta d_n$, suchh that $\| \delta d_n \| \leq \eta_0$, we deduce that $\| \delta d_n \| \leq \eta_0$, we deduce that $\| \delta x_n \| / \| \delta d_n \|$ can be bounced by $K_0 = K(\delta (n_0 , \epsilon), d) + 1$, provided that $\epsilon \leq \| \delta d_n \|$, so that the method is stable. Thus, we are interested in stable numerical methods since only these can e convergent.
+
+The stability of a numerical method becomes a sufficient condition for the numerical problem (\ref{equation 2.12}) to converge if this latter is also consistent with problem (\ref{problem}). Indeed, under these assumptions we have
+\[ \|x(d + \delta d_n) - x_n(d + \delta d_n)\| \leq \| x(d + \delta d_n) - x(d) \| \]
+\[ + \| x(d) - x_n(d) \| + \| x_n(d) - x_n(d + \delta d_n)\| \]
+
+Thanks to (\ref{equation(2.3)}), the first term at right-hand side can be bounded by $ \| \delta d_n \|$. A similar bound holds fot the third term, due to the stability property (\ref{equation 2.16}). Finally, concerning the remaining term, if $F_n$ is differentiable with respect to the variable $x$, an expansion in a Taylor series gives
+\[F_n(x(d), d) - F_n(x_n(d), d) = \frac{\partial F_n}{\partial x}|_{(x, d)}(x(d) - x_n(d))  \]
+for a suitable $x$ ``between'' $x(d)$ and $x_n(d)$. Assuming also that $\partial f_n / \partial x$ is invertible, we get
+\begin{equation}
+    x(d) - x_n(d) = (\frac{\partial F_n}{\partial x})^{-1}_{|(x, d)} [F_n(x(d), d) - F_n(x_n(d), d)]
+    \label{equation 2.25}
+\end{equation}
+
+On the other hand, replacing $F_n(x_n(d), d)$ with $F_n(x(d), d)$ and passing to the norms, we find
+\[ \| x(d) - x_n(d) \| \leq \| (\frac{\partial F_n}{\partial x})^{-1}_{|(x,d)} \| \| F_n(x(d),d) - F(x(d), d)\| \]
+
+Thanks to (\ref{equation 2.13}) we can thus conclude that $\|x(d) - x_n(d)\| \rightarrow 0$ for $n \rightarrow \infty$. The result that has just been proved, although stated in qualitative terms, is a milestone in numerical analysis, knows as equivalence theorem (or LaxRichtmyer theorem): ``for a consistent numerical method, stability is equivalent to convergence''.
+
+\section{Sources of Error in Computational Models}
+
+Whenever the numerical problem (\ref{equation 2.12}) is an approximation to the mathematical problem (\ref{problem}) and this latter is in turn a model of a physical problem, we shall say that (\ref{equation 2.12}) is a computational model for PP.
+
+In this process the global error, denoted by $e$, is expressed by the difference between the actually computed solution, $\hat{x}_n$, and the physical solution, $x_{ph}$, of which $x$ provides a model. The global error $e$ of the mathematical model, given by $x - x_{ph}$, and the error $e_c$ of the computational model, $\hat{x}_n - x$, that is $e = e_m + e_c$.
+
+The error $e_m$ will in turn take into account the error of the mathematical model in strict sense and the error on the data. In the same way, $e_c$ turns out o be the combination of the numerical discretization error $e_n = x_n - x$, the error $e_a$ introduced by the numerical algorithm and the roundoff error introduced by the computer during the actial solution of problem (\ref{equation 2.12}).
+
+In general, we can thus outline the following sources of error:
+\begin{enumerate}
+    \item error due to the model, that can be controlled by a proper choice of the mathematical model;
+    \item errors in the data, taht can be reduced by enhacing the accuracy in the measurement of the data themself;
+    \item truncation error, arisisng form havind replaced in the numerical model limits by operations that involve a finite number of steps;
+    \item rounding errors.
+\end{enumerate}
+
+The error at the items 3. and 4. give rise to the computational error. A numerical method will thus be convergent if this error can be made aritrarily small by increasing the computational effort. Of course, convrgence is the primary, albeit nor unique, goal of a numerical method, the others being accuracy, reliability and efficiencyy.
+
+Accuracy meand that the errors are small with respect to a fiex tolerance. It is usually quantified by the order of infinitesimal of the error $e_n$ with respect to the discretization characteristic parameter. By the way, we notice that machine precision does not limit, on theoretical grounds, the accuracy.
+
+Reliability means it is likely that the global error can be gauranteed to be below a certain tolerance. Of course, a numerical model can be considered to be reliable only if suitably tested, that is,successfully applied to several test cases.
+
+Efficiency means that the computational complexity that is needed to control the error is as small as possible.
+
+By algorithm we mean a directive that indicates, through elementary operations, all the passages that are needed to solve a specific problem. An algorithm can in turn contain sub-algorithms and must have the feature of terminating after a finite number of elemnetary operations. As a consequence,the executor of the algorithm must find within the algorithm itseld all the instructions to completely solve the problem at hand.
+
+Finally, the complexity of an algorithm is a measure of its executing time. Calculating the complexity of an algorithm is therefore a part of the analysis of the efficiency of a numerical method. Since several algorithms, with different complexities, can be employed to solve the same problem $P$, it is useful to introduce the concept of complexity of a problem, this latter meaning the complecity of the algorithm that has a minimum complexity among those solving $P$. The complexity of a problem is typically measured by a parameter directly associated with $P$.
+
+\section{Machine Representation of Numbers}
+
+
+\section{Ejercicios}
+(1) Se considera la siguiente sucesión definida por recursión
+\[x_0 = 1 \quad x_1 = \frac{1}{5} \quad x_{n+1} = \frac{36}{5} x_n - \frac{7}{5} x_{n-1}\]
+Esta sucesión tiene como solución $x_n = \frac{1}{5^n}$. Utilizar Matlab para calcular $\frac{1}{5^n}$ utilizando la sucesión recusiva del principio, para $n \leq 32$. Hacer el estudio del error absoluto y  relativo.
+
+(2) Repetir el ejercicio anterior tomando $x_0 = 2$ y $x_1 = \frac{36}{5}$, teniendo en cuenta que la solución es ahora $x_n = \frac{1}{5^n} + 7^n$.
+
+(3) Compara los resultados de los ejercicios 1 y 2 y dar una explicación formal de lo que está sucediendo.
