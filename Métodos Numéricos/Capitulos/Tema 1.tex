@@ -310,7 +310,28 @@ By algorithm we mean a directive that indicates, through elementary operations, 
 Finally, the complexity of an algorithm is a measure of its executing time. Calculating the complexity of an algorithm is therefore a part of the analysis of the efficiency of a numerical method. Since several algorithms, with different complexities, can be employed to solve the same problem $P$, it is useful to introduce the concept of complexity of a problem, this latter meaning the complecity of the algorithm that has a minimum complexity among those solving $P$. The complexity of a problem is typically measured by a parameter directly associated with $P$.
 
 \section{Machine Representation of Numbers}
+Any machine operation is affected by rounding error or roundoff. They are due to the fact that on a computer only a finite subset of the set of teal numbers can be represented.
 
+\subsection{The Positional System}
+Let a base $\beta \in \mathbb{N}$ be fixed with $\beta \geq 2$, and let $x$ be a real number with a finite number of digits $x_k$ with $0 \leq x_k < \beta$ for $k = -m,...,n$. The notation (conventionally adopted)
+\begin{equation}
+    x_\beta = (-1)^s [x_n x_{n-1}...x_1x_0x_{-1}x_{-2}...x_{-m}, x_n \neq 0]
+    \label{equation 2.26}
+\end{equation}
+is called the positional representation of $x$ with respect to the base $\beta$. The point between $x_0$ and $x_{-1}$ is called decimal point if the base is 10, binary point if the base is 2, while $s$ depends on the sign of $x$ ($s=0$ if $x$ is positive, $1$ if negative). Relation (\ref{equation 2.26}) actually means
+\[ x_\beta = (-1)^s \left( \sum_{k=-m}^{n} x_k \beta^k \right)\]
+
+Any real number can be approximated by numbers having a finite representation. Indeed, having fixed the base $\beta$, the followin property holds
+\[ \forall \epsilon > 0, \forall x_\beta \in \mathbb{R}, \exists y_\beta \in \mathbb{R} \text{ such that } |y_\beta - x_\beta| < \epsilon\]
+where $y_\beta$ has finite positional representation.
+
+In fact, given the positive number $x_\beta = x_n x_{n-1}...x_1x_0x_{-1}x_{-2}...x_{-m}...$ with the number of digits, finite or infinite, for any $r \geq 1$ one can build two numbers
+\[x_\beta^{(l)} = \sum_{k = 0}^{r-1} x_{x-k} \beta^{n-k}, x_\beta^{(u)} = x_\beta^{(l)} = \beta^{n-r+1}\]
+having $r$ digits, such that $x_\beta^{(l)} < x_\beta < x_\beta^{(u)}$ and $x_\beta^{(u)} - x_\beta^{(l)} = \beta^{n-r+1}$. If $r$ is chosen in such a way that $\beta^{n-r+1} < \epsilon$, then taking $y_\beta$ equal to $x_\beta^{(l)}$ or $x_\beta^{(u)}$ yields the desired inequality. This result legitimates the computer representation of real numbers (and thus by a finite number of digits). 
+
+Although theoretically speaking all the bases are equivalent, in the computational practice three are the bases generally employed, base 2 in binary, base 10 or decimal and base 16 or hexadecimal. In what follows, we will assume that $\beta$ is an even integer.
+
+To simplify notations, we shall write $x$ instead of $x_\beta$, leaving the base $\beta$ understood.
 
 \section{Ejercicios}
 (1) Se considera la siguiente sucesión definida por recursión

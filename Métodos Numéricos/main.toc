@@ -9,4 +9,5 @@
 \contentsline {subsection}{\numberline {5.1}Relations between Stability and Convergence}{8}{}%
 \contentsline {section}{\numberline {6}Sources of Error in Computational Models}{9}{}%
 \contentsline {section}{\numberline {7}Machine Representation of Numbers}{10}{}%
+\contentsline {subsection}{\numberline {7.1}The Positional System}{10}{}%
 \contentsline {section}{\numberline {8}Ejercicios}{10}{}%
