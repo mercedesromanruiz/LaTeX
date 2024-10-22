@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber main"] 1729240543.28395 "main.bcf" "main.bbl" "main" 1729246024.9231 0
-  "main.bcf" 1729246024 108089 8a48a6aa5fcce992829732adb8d1498d "pdflatex"
+["biber main"] 1729240543.28395 "main.bcf" "main.bbl" "main" 1729593211.44473 0
+  "main.bcf" 1729593210 108089 8a48a6aa5fcce992829732adb8d1498d "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1729246019.21184 "c:/Users/merce/Documents/GitHub/LaTeX/Cálculo y Diseño de Estructuras/main.tex" "main.pdf" "main" 1729246024.92401 0
+["pdflatex"] 1729593194.88965 "c:/Users/merce/Documents/GitHub/LaTeX/Cálculo y Diseño de Estructuras/main.tex" "main.pdf" "main" 1729593211.44599 0
   "Capitulos/Tema 1 - Introduccion y objetivos.tex" 1728665992 12291 5dcbd8188fa0c30b4ff3605408c95bf4 ""
   "Capitulos/Tema 2 - Tipologías Estructurales.tex" 1728673404 60443 80d8ede4fb442dc6fa78a58b5ee87a9e ""
-  "Capitulos/Tema 3 - Materiales.tex" 1729246018 7515 2cdefb4858c3edcc995142756c3f540b ""
+  "Capitulos/Tema 3 - Materiales.tex" 1729260433 7515 2cdefb4858c3edcc995142756c3f540b ""
   "Documentos/Cuerpo.tex" 1729241238 146 1a63dbb18eddd50f2310bf921ca9f1f1 ""
   "Imagenes/Aproximacion probabilistica.png" 1728665992 50958 12f6a30dfb0467d5abd4a8f2f9d6a42f ""
   "Imagenes/Capacidad estructural del cimiento.png" 1728672367 16670 e2d0e74cfd17f72f4a697347ff8f3e79 ""
@@ -74,7 +74,7 @@
   "Imagenes/Viga en voladizo seccion rectangular - Cortante.png" 1728665993 40545 00f04f71b8f83e4cfe3207b4186da5d0 ""
   "Imagenes/Viga en voladizo seccion rectangular - flexion.png" 1728665993 55993 400610569b1b579b1b1b45243db87b6b ""
   "Imagenes/Zapatas rigidas y flexibles.png" 1728665994 35648 e9ad19bc9ef8bf914c5f8a6f1ae96f5c ""
-  "c:/Users/merce/Documents/GitHub/LaTeX/Cálculo y Diseño de Estructuras/main.tex" 1728666995 1345 4a85a1e44ebaaf6c81ce78b6f2a8a19d ""
+  "c:/Users/merce/Documents/GitHub/LaTeX/Cálculo y Diseño de Estructuras/main.tex" 1729593191 1400 b487b9e71fe304a992ad92639446b8cb ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1728495121 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1728496372 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1728495879 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -149,10 +149,10 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1728505921 5520473 0a78405a99dc248928f6ec2cb7e7998e ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1728506292 3326004 fdcc47d26ba8be16a57e12fc02c7b8d1 ""
   "c:/texlive/2024/texmf.cnf" 1728505891 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1729246024 19524 af4f3c33e9b2b8ffc04ad3b6937be0d7 "pdflatex"
+  "main.aux" 1729593210 19524 af4f3c33e9b2b8ffc04ad3b6937be0d7 "pdflatex"
   "main.bbl" 1729240557 486 76d65a242ec496c9b4361af646ff12cb "biber main"
-  "main.run.xml" 1729246024 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
-  "main.tex" 1728666995 1345 4a85a1e44ebaaf6c81ce78b6f2a8a19d ""
+  "main.run.xml" 1729593210 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
+  "main.tex" 1729593191 1400 b487b9e71fe304a992ad92639446b8cb ""
   (generated)
   "main.aux"
   "main.bcf"
