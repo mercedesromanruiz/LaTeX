@@ -1,0 +1,157 @@
+\documentclass[12pt]{report}
+\usepackage[spanish]{babel} % Definir el idioma del documento
+\usepackage[letterpaper,top = 2cm, bottom = 2cm, left = 2cm, right = 2cm, marginparwidth = 1.75cm]{geometry} % Especificar los márgenes según la norma
+\usepackage{pdfpages} % Añadir PDFs y que te cuente las páginas para el documento
+\usepackage{subfiles} % Tener subdocumentos (hay más opciones)
+\usepackage{tableof} % Se utiliza para los indices de los subdocumentos
+\usepackage{float} % Para usar lo de 'H'
+\usepackage{fancyhdr}
+
+\def\TituloProyecto{Estudio del Recurso Eólico en Tarifa}
+\def\Autor{Mercedes Román Ruiz}
+\def\Asignatura{Fuentes de Energía}
+\def\Curso{2024 - 25}
+\def\Fecha{Diciembre 2024}
+
+% ---------------------------- LOS TRUQUITOS -------------------------------------------------
+% Si se incluye [H] la tabla, grafica o imagen en el sitio en el que se está escribiendo, sin importar las sugerencias de LaTeX
+% --------------------------------------------------------------------------------------------
+
+\begin{document}
+\sloppy 
+\setlength{\parindent}{30pt}
+\setlength{\parskip}{6pt}
+\renewcommand\thesection{\arabic{section}}
+\renewcommand{\baselinestretch}{1.5}
+\renewcommand{\listtablename}{Índice de tablas} % Si no se hace esto, aparece como 'Indice de Cuadros'
+\renewcommand{\tablename}{Tabla} % Si no se hace esto, aparece como 'Cuadro'
+
+\fancyhead{}
+\fancyfoot{}
+\pagestyle{fancy}
+\chead[\rightmark]{\leftmark}
+\fancypagestyle{plain}{%
+    \cfoot{ }%
+    \renewcommand{\headrulewidth}{0pt}
+    \fancyhf{ }%
+}
+
+\fancyfoot[LE,RO]{\thepage}
+
+\begin{titlepage}
+    \centering
+    \includegraphics[width=0.5\linewidth]{Imagenes/Logo UPM.png} \par
+    \vspace{3 cm}
+    {\itshape\huge Informe Técnico \par}
+    \vspace{0.5cm}
+    {\Huge \textbf{\TituloProyecto} \par}
+    \vfill
+    {\Large \Asignatura \  \Curso \par}
+    \vspace{0.5cm}
+    {\Large \Fecha \par}
+\end{titlepage}
+
+\tableofcontents
+\pagebreak
+
+% FUNCIÖN DE DISTRIBUCIÓN
+
+\section{Introducción}
+% Una primera sección denominada "1. Introducción". En dos o tres párrafos se contesta a las preguntas: ¿cuál es el objetivo del informe? y ¿cómo se ha elaborado el informe?
+
+\section{Análisis preliminar de los datos de viento}
+% Una segunda sección con los resultados del análisis preliminar de los datos de viento en la ubicación seleccionada. "2. Análisis preliminar de los datos de viento". Esta sección incluirá el análisis preliminar de los datos eólicos discutiendo su calidad.
+
+% ----------------------------------------------------------------------------------------------
+
+% Describir las magnitudes de interés, sus unidadees y la frecuencia de muestreo
+
+Para realizar el estudio eólico se trabajará con las velocidades del viento y su dirección, medidas a $10\ m$ y a $50\ m$.
+
+% Evaluar cuantitativamente la cantidad de datos erróneos para cada año del periodo seleccionado
+
+% Discutir la calidad de los datos e indicar que periodos son relevantes para el estudio eólico de la ubicación. Seleccionar el año más reciente que tenga una buena calidad de datos.
+
+
+\section{Estudio estadístico del recurso eólico en la ubicación}
+% Después una sección con el estudio estadístico del recurso eólico. "3. Estudio estadístico del recurso eólico en la ubicación". El análisis se competará con las figuras más relevantes que se mencionan en la rúbrica. Cada figura debe ser descrita en el texto y acompañada de una pequeña discusión sobre el resultado.
+
+% ----------------------------------------------------------------------------------------------
+
+% Análisis estadístico anual de los datos recopilados en los últimos 4 años con momentos estadísticos (velocidad media y varianza). Para ello se evalúan los momentos estadísticos por año, y se representará en una gráfica la media y varianza en función del año.
+
+% Análisis estadístico estacional de los datos recopilados en los últimos 4 años con momentos estadísticos (velocidad media y varianza). Para ello se evalúan los momentos estadísticos por meses, y se representará en una gráfica la media y varianza en función de los meses.
+
+% Análisis estadístico estacional distingueindo periodo diurno y nocturno de los datos recopilados en los últimos 4 años con momentos estadísticos (velocidad media y varianza). Para ello se evalúan los momentos estadísticos por meses, distinguiendo los periodos diurnos (10:00 - 18:00) y nocturnos (22:00 - 06:00), y se representará en una gráfica la media y varianza en función de los meses.
+
+% Obtener los histogramas de velocidades para cada año. Representar los histogramas en una sola figura identificando cada año en la leyenda. Discutir los resultados teniendo en cuenta la calidad de los datos. Seleccionar el año más reciente que tenga una buena calidad de datos.
+
+% Realizar la rosa de los vientos del año seleccionado anteriormente, se valorará que se combine con frecuencia de velocidades en cada dirección (tres tramos de velocidades).
+
+% Calcular el perfil de velocidades con la altura hasta 200 m para la ubicación elegida teniendo en cuenta la oleografía del terreno. Usar la velocidad media del año seleccionado suponinedo que fue medida a 10 m.
+
+El perfil de velocidades con la altura ($h$) se define con la ecuación:
+\begin{equation}
+    v(h) = v_{ref} \frac{ln \left( \frac{h}{z_0} \right)}{ln \left( \frac{h_{ref}}{z_0} \right)}
+\end{equation}
+Donde $z_0$ es la logitud de rugosidad tabulada en la Tabla \ref{Tabla: Clase y longitud de rugosidad.}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{l l p{13cm}}
+        \hline
+        Clase & $z_0(m)$ & Tipo de paisaje \\
+        \hline
+        0 & 0.0002 & Superficies de agua: mares y lagos \\
+        0.5 & 0.0024 & Terreno abierto con superficie lisa, p. hormigón, pistas de aeropuerto,hierba cortada, etc. \\
+        \hline
+    \end{tabular}
+    
+    \caption{Clase y longitud de rugosidad para los distintos paisajes según \textit{European Wind Atlas}}
+    \label{Tabla: Clase y longitud de rugosidad.}
+\end{table}
+
+\section{Potencia y energía del aerogenerador en la ubicación}
+% A continuación, la sección de cálculo de potencia y energía donde se presentan los resultados de la densidad de energía, la energía media y factor de carga del aerogenerador. "4. Potencia y energía del aerogenerador en la ubicación".
+
+% ----------------------------------------------------------------------------------------------
+
+% Del año representativo, obtener el histograma de velocidades teniendo en cuenta la altura del buje del aerogenerador. Representar el histograma y la frecuencia acumulada.
+
+% Ajustar la distribución de Weibull al histograma de velocidades discutiendo la bondad del ajuste.
+
+% Calcular y representar la curva de densidad de Weibull a partir de los parámetros ajustados en el rango de velocidades adecuado. Comparar el resultado con el histograma de velocidades del año representativo.
+
+% Calcular y representar la curva de energía proporcionada por el aerogenerador para cada intervalo de velocidades, usando la función de densidad de Weibull del apartado anterior, y la curva de potencia proporcionada en la Tabla 2. Evaluar la energía anual producida, y el factor de carga. Discutir los valores.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{r r r r}
+        \hline
+        $v(m/s)$ & $P(kW)$ & $v(m/s)$ & $P(kW)$ \\
+        \hline
+        1 & 0 & 16 & 850 \\
+        2 & 0 & 17 & 850 \\
+        3 & 10 & 18 & 850 \\
+        4 & 33 & 19 & 850 \\
+        5 & 86 & 20 & 850 \\
+        6 & 160 & 21 & 0 \\
+        7 & 262 & 22 & 0 \\
+        8 & 398 & 23 & 0 \\
+        9 & 568 & 24 & 0 \\
+        10 & 732 & 25 & 0 \\
+        11 & 836 & 26 & 0 \\
+        12 & 847 & 27 & 0 \\
+        13 & 850 & 28 & 0 \\
+        14 & 850 & 29 & 0 \\
+        15 & 850 & 30 & 0 \\
+        \hline
+    \end{tabular}
+    \caption{Curva de potencia de un aerogenerador genérico con $850 kW$ de potencia nominal.}
+    \label{Tabla: Curva de potencia}
+\end{table}
+
+\section{Conclusiones}
+% Por último, la sección conclusiones, "5. Conclusiones". Discusión en 2 o 3 párrafos de las conclusiones más relevantes del análisis de los datos eólicos para la ubicación elegida que han permitido el cumplimiento de los objetivos. Discusión justificada de la viabilidad de un parque eólico en la ubicación.
+
+\end{document}
