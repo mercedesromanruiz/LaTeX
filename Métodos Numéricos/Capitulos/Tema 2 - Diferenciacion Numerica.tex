@@ -1,0 +1,65 @@
+\chapter{Diferenciación Numérica}
+We have already seen one way to approximate the derivative of a function $f$:
+\begin{equation}
+    f'(x) = \frac{f(x + h) - f(x)}{h}
+    \label{Eq: (9.1)}
+\end{equation}
+for some small number $h$. To determine the accuracy of this approximation, we use Taylor's theorem, assuming that $f \in C^2$: 
+\[ f(x + h) = f(x) + h f'(x) + \frac{h^2}{2} f''(\xi) \quad \xi \in [x, x+h] \rightarrow \]
+\[ f'(x) = \frac{f(x + h) - f(x)}{h} - \frac{h}{2} f''(\xi)\]
+
+The term $\frac{h}{2} f''(\xi)$ is called the truncation error, or, the discretization error, and the approximation is said to be first-order accurate since the truncation error is $O(h)$.
+
+However, roundoff also plays a role in the evaluation of the finite difference quotient (\ref{Eq: (9.1)}). For example, if $h$ is so small that $x + h$ is rounded to $x$, then the computed difference quotient will be 0. More generally, even if the only error made is in rounding the values $f(x + h)$ and $f(x)$, then the computed difference quotient will be
+\[ \frac{f(x + h) (1 + \delta_1) - f(x) (1 + \delta_2)}{h} = \]
+\[ = \frac{f(x + mh) - f(x)}{h} + \frac{\delta_1 f(x + h) - \delta_2 f(x)}{h}\]
+
+Since each $|\delta_i|$ is less than the machine precision $\epsilon$, this implies that the rounding error is less than or equal to 
+\[ \frac{\epsilon(|f(x)| + |f(x + h)|)}{h} \] 
+
+Since the truncation error is proportional to $h$ and the rounding error is proportionalto $1/h$, the best accuracu is achieved when these two quantities are approximately equal. Ignoring the constants $|f''(\xi)/2|$ and ($|f(x)| + |f(x + h)|$), this means that
+\[h \approx \frac{\epsilon}{h} \rightarrow h \approx \sqrt{\epsilon}\]
+and in this case the error (truncation error or rounding error) is about $\sqrt{\epsilon}$. Thus, with formula (\ref{Eq: (9.1)}), we can approximate a derivative to only about the square root of the machine precision.
+
+Another way to approimate the derivative is to use a centered-difference formula:
+\begin{equation}
+    f'(x) = \frac{f(x + h) - f(x - h)}{2h}
+    \label{Eq: (9.2)}
+\end{equation}
+
+We can again determine the truncation error by using the Taylor's theorem. Expanding $f(x + h)$ and $f(x - h)$ about the point $x$, we find
+\[ f(x + h) = f(x) + h f'(x) + \frac{h^2}{2} f''(x) + \frac{h^3}{6} f'''(\xi) \]
+\[ \xi \in [x, x+h] \]
+\[ f(x - h) = f(x) - h f'(x) + \frac{h^2}{2} f''(x) - \frac{h^3}{6} f'''(\eta) \]
+\[ \eta \in [x-h, x] \]
+
+Substracting the two equations and solving for $f'(x)$ gives
+\[ f'(x) = \frac{f(x + h) - f(x - h)}{2h} - \frac{h^2}{12} (f'''(\xi) + f'''(\eta)) \]
+Thus the truncation error is $O(h^2)$, and this difference formula is second-order accurate.
+
+To study the effects of roundoff, we again make the simplyfying assumption that the only roundoff that occurs is in rounding the values $f(x + h)$ and $f(x - h)$. The the computed difference quotient is
+\[ \frac{f(x + h) (1 + \delta_1) - f(x - h)(1 + \delta_2)}{2h} = \]
+\[ = \frac{f(x + h) - f(x - h)}{2h} + \frac{\delta_1 f(x + h) - \delta_2 f(x - h)}{2h} \]
+and the roundoff term $(\delta_1 f(x + h) - \delta_2 f(x - h)) / 2h$ is bounded in absolute value by $\epsilon (\delta_1 f(x + h) - \delta_2 f(x - h)) / (2h)$. Once again ignoring constant terms involving $f$ and its derivatives, the greatest accuracy is now achieved when
+\[ h^2 \approx \frac{\epsilon}{h} \rightarrow h \approx \epsilon^{1/3} \]
+and the error (truncation error or rounding error) is $\epsilon^{2/3}$. With this formula we can obtain greater accuracy, to about the $2/3$ power of the machine precision.
+
+One can approimate higher derivatives similarly. To derive a second-order-accurate approximation to the second derivative, we again use Taylor's theorem:
+\[ f(x + h)  = f(x) + h f'(x) + \frac{h^2}{2!} f''(x) + \frac{h^3}{3!} f'''(x) + \frac{h^4}{4!} f''''(\xi) \]
+\[ \xi \in [x, x+h] \]
+\[ f(x - h) = f(x) - h f'(x) + \frac{h^2}{2!} f''(x) - \frac{h^3}{3!} f'''(x) + \frac{h^4}{4!} f''''(\eta) \]
+\[ \eta \in [x - h, x] \]
+
+Adding this two equations gives
+\[ f(x + h) + f(x - h) = 2 f(x) + h^2 f''(x) + \frac{h^4}{12} f''''(v) \]
+\[ v \in [\eta, \xi] \]
+
+Solving for $f''(x)$, we obtain the formula
+\[ f''(x) = \frac{f(x + h) - 2 f(x) + f(x - h)}{h^2} - \frac{h^2}{12} f''''(v)\]
+
+Using the approximation
+\begin{equation}
+    f''(x) = \frac{f(x + h) - 2 f(x) + f(x - h)}{h^2}
+    \label{Eq: (9.3)}
+\end{equation}
+the truncation error is $O(h^2)$. Note, however that a similar rounding error analysis predicts rounding error of size $\epsilon / h^2$, so the smallest total error occurs when $h$ is about $\epsilon^{1/4}$ and then the truncation error and the rounding error are each abour $\sqrt{\epsilon}$. With machine precision $\epsilon \approx 10^{-16}$, this means that $h$ should not be taken to be less than about $10^{-4}$. Evaluation of standard finite difference quotients for higher derivatives is even more sensitive to the effects of roundoff.

@@ -11,3 +11,4 @@
 \contentsline {section}{\numberline {7}Machine Representation of Numbers}{10}{}%
 \contentsline {subsection}{\numberline {7.1}The Positional System}{10}{}%
 \contentsline {section}{\numberline {8}Ejercicios}{10}{}%
+\contentsline {chapter}{\numberline {2}Diferenciación Numérica}{11}{}%

@@ -1,15 +1,17 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1729184160.70005 -1
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1730141004.69982 -1
   "bibliografia.bib" 1729098507 139 40edeffc770fffee82a56a886a533e8b ""
-  "main.bcf" 1729184160 108559 77b0be42f22062413c5cf405d9b14f86 "pdflatex"
+  "main.bcf" 1730141004 108559 77b0be42f22062413c5cf405d9b14f86 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1729184157.92317 "c:/Users/merce/Documents/GitHub/LaTeX/Métodos Numéricos/main.tex" "main.pdf" "main" 1729184160.70088 0
-  "Capitulos/Tema 1.aux" 1729184160 6423 24ce56c8a5de25fcf0ddfc8e4c1ca822 "pdflatex"
-  "Capitulos/Tema 1.tex" 1729184157 28732 cb37497a07381eb646cb5827d6f0e470 ""
-  "Documentos/Cuerpo.tex" 1729019455 55 2c04528c89ffdc3f3662f884f08c3677 ""
+["pdflatex"] 1730141003.20144 "c:/Users/merce/Documents/GitHub/LaTeX/Métodos Numéricos/main.tex" "main.pdf" "main" 1730141004.70049 0
+  "Capitulos/Tema 1 - Introduccion.aux" 1730141004 6438 ad6ebf5ba93ac78950f0f91d23b49ba8 "pdflatex"
+  "Capitulos/Tema 1 - Introduccion.tex" 1729184157 28732 cb37497a07381eb646cb5827d6f0e470 ""
+  "Capitulos/Tema 2 - Diferenciacion Numerica.aux" 1730141004 4292 033bf4c0f0a080e6bdb1137d1caef9e9 "pdflatex"
+  "Capitulos/Tema 2 - Diferenciacion Numerica.tex" 1730141002 4993 d25b9425acd779cc4bb5e8bb38aca8b5 ""
+  "Documentos/Cuerpo.tex" 1730138524 124 5fc347c8ffdb5c1ff1447ffe9aece6a7 ""
   "Documentos/Indices.tex" 1728666099 16 f84fe46f1a4fbd3ea00e9cc12e2be653 ""
   "Documentos/Portada.tex" 1728666099 10 676977e11cff1677a86cbcad9020a957 ""
   "c:/Users/merce/Documents/GitHub/LaTeX/Métodos Numéricos/main.tex" 1729099101 1607 19eb8d3bb74b182e3d1d833b9ec584f6 ""
@@ -116,13 +118,14 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1728505921 5520473 0a78405a99dc248928f6ec2cb7e7998e ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1728506292 3326004 fdcc47d26ba8be16a57e12fc02c7b8d1 ""
   "c:/texlive/2024/texmf.cnf" 1728505891 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1729184160 465 ca3855da79b6a4bb4ceafaed7dac8ee9 "pdflatex"
+  "main.aux" 1730141004 536 30e1f1167dbdb91f0af88bbb5c6ec8d0 "pdflatex"
   "main.bbl" 1729098515 1863 b7dc0d63dc70e4241975fd505c12b215 "biber main"
-  "main.run.xml" 1729184160 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
+  "main.run.xml" 1730141004 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
   "main.tex" 1729099101 1607 19eb8d3bb74b182e3d1d833b9ec584f6 ""
-  "main.toc" 1729184160 923 011f52071584b9e507209003f752f3d3 "pdflatex"
+  "main.toc" 1730141004 996 14bfce3dac39d3626a7b4de3be5389c7 "pdflatex"
   (generated)
-  "Capitulos/Tema 1.aux"
+  "Capitulos/Tema 1 - Introduccion.aux"
+  "Capitulos/Tema 2 - Diferenciacion Numerica.aux"
   "main.aux"
   "main.bcf"
   "main.log"
