@@ -1,17 +1,19 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1730141004.69982 -1
-  "bibliografia.bib" 1729098507 139 40edeffc770fffee82a56a886a533e8b ""
-  "main.bcf" 1730141004 108559 77b0be42f22062413c5cf405d9b14f86 "pdflatex"
+["biber main"] 1730228538.33259 "main.bcf" "main.bbl" "main" 1730230844.47457 0
+  "bibliografia.bib" 1730228537 411 8d731b27edb80ee770103a64d2a473d8 ""
+  "main.bcf" 1730230844 108559 77b0be42f22062413c5cf405d9b14f86 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1730141003.20144 "c:/Users/merce/Documents/GitHub/LaTeX/Métodos Numéricos/main.tex" "main.pdf" "main" 1730141004.70049 0
-  "Capitulos/Tema 1 - Introduccion.aux" 1730141004 6438 ad6ebf5ba93ac78950f0f91d23b49ba8 "pdflatex"
+["pdflatex"] 1730230842.96991 "c:/Users/merce/Documents/GitHub/LaTeX/Métodos Numéricos/main.tex" "main.pdf" "main" 1730230844.4755 0
+  "Capitulos/Tema 1 - Introduccion.aux" 1730230844 6438 ad6ebf5ba93ac78950f0f91d23b49ba8 "pdflatex"
   "Capitulos/Tema 1 - Introduccion.tex" 1729184157 28732 cb37497a07381eb646cb5827d6f0e470 ""
-  "Capitulos/Tema 2 - Diferenciacion Numerica.aux" 1730141004 4292 033bf4c0f0a080e6bdb1137d1caef9e9 "pdflatex"
-  "Capitulos/Tema 2 - Diferenciacion Numerica.tex" 1730141002 4993 d25b9425acd779cc4bb5e8bb38aca8b5 ""
-  "Documentos/Cuerpo.tex" 1730138524 124 5fc347c8ffdb5c1ff1447ffe9aece6a7 ""
+  "Capitulos/Tema 2 - Diferenciacion Numerica.aux" 1730230844 5316 8c253c4d6c60260e4f26ca9cedc32f6e "pdflatex"
+  "Capitulos/Tema 2 - Diferenciacion Numerica.tex" 1730226484 7552 3e6232aea8117e9b63f953916b9ecd76 ""
+  "Capitulos/Tema 3 - Numero de Condicion de una Matriz.aux" 1730230844 4455 8dbd3eb0b1a1422d3702bc11e8770349 "pdflatex"
+  "Capitulos/Tema 3 - Numero de Condicion de una Matriz.tex" 1730230840 3349 dd886f2bd04acafc9f4859f43ce29477 ""
+  "Documentos/Cuerpo.tex" 1730227621 188 609851dacb3a28f3a2cf687a9cd3f8f9 ""
   "Documentos/Indices.tex" 1728666099 16 f84fe46f1a4fbd3ea00e9cc12e2be653 ""
   "Documentos/Portada.tex" 1728666099 10 676977e11cff1677a86cbcad9020a957 ""
   "c:/Users/merce/Documents/GitHub/LaTeX/Métodos Numéricos/main.tex" 1729099101 1607 19eb8d3bb74b182e3d1d833b9ec584f6 ""
@@ -118,14 +120,15 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1728505921 5520473 0a78405a99dc248928f6ec2cb7e7998e ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1728506292 3326004 fdcc47d26ba8be16a57e12fc02c7b8d1 ""
   "c:/texlive/2024/texmf.cnf" 1728505891 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1730141004 536 30e1f1167dbdb91f0af88bbb5c6ec8d0 "pdflatex"
-  "main.bbl" 1729098515 1863 b7dc0d63dc70e4241975fd505c12b215 "biber main"
-  "main.run.xml" 1730141004 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
+  "main.aux" 1730230844 736 cbfea04a1953cedd8f50752f579ab4c6 "pdflatex"
+  "main.bbl" 1730228540 4238 c970ce514ed26dc2bfdc0013a1c1f0d4 "biber main"
+  "main.run.xml" 1730230844 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
   "main.tex" 1729099101 1607 19eb8d3bb74b182e3d1d833b9ec584f6 ""
-  "main.toc" 1730141004 996 14bfce3dac39d3626a7b4de3be5389c7 "pdflatex"
+  "main.toc" 1730230844 1794 9a79920dcb9c6fcae80eba7c797ca9b4 "pdflatex"
   (generated)
   "Capitulos/Tema 1 - Introduccion.aux"
   "Capitulos/Tema 2 - Diferenciacion Numerica.aux"
+  "Capitulos/Tema 3 - Numero de Condicion de una Matriz.aux"
   "main.aux"
   "main.bcf"
   "main.log"

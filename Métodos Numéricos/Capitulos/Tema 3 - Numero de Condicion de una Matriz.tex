@@ -1,0 +1,65 @@
+\chapter{Número de Condición de una Matriz}
+\section{Matrix Norms}
+\begin{definition}
+    A matrix norm is a mapping $\|\cdot\|: \mathbb{R}^{m \times n} \rightarrow \mathbb{R}$ such that:
+    \begin{enumerate}
+        \item $\|A\| \geq 0 \forall A \in \mathbb{R}^{m \times n}$ and $\|A\| = 0$ if and only if $A = 0$;
+        \item $\|\alpha A\| = |\alpha| \|A\| \forall \alpha \in \mathbb{R}, \forall A \in \mathbb{R}^{m \times n}$ (homogeneity);
+        \item $\| A + B\| \leq \|A\| + \|B\| \forall A, B \in \mathbb{R}^{m \times n}$ (triangular inequality).
+    \end{enumerate}
+\end{definition}
+
+Unless otherwise specified we shall employ the same symbol $\|\cdot\|$, to denote matrix norms and vector norms.
+
+We can better characterize the matriz norms by introducing the concepts of compatible norm and norm induced by a vector norm.
+
+\begin{definition}
+    We say that a matrix norm $\|\cdot\|$ is compatible or consistent with a vector norm $\|\cdot\|$ if 
+    \begin{equation}
+        \|Ax\| \leq \|A\| \|x\|, \quad \forall x \in \mathbb{R}^n
+        \label{Eq: (1.16)}
+    \end{equation}
+    More generally, given three norms, all denoted by $\|\cdot\|$, albeit defined on $\mathbb{R}^m$, $\mathbb{R}^n$ and $\mathbb{R}^{m \times n}$, respectively, we say that they are consistent if $\forall x \in \mathbb{R}^n$, $Ax = y \in \mathbb{R}^m$, $A \in \mathbb{R}^{m \times n}$, we hace that $\|y\| \leq \|A\| \|x\|$
+\end{definition}
+
+In order to single out matrix norms of practical interest, the followinf property is in general required
+
+\begin{definition}
+    We say that a matriz norm $\| \cdot \|$ is sub-multiplicative if $\forall A \in \mathbb{R}^{m \times n}$, $\forall B \in \mathbb{R}^{m \times q}$
+    \begin{equation}
+        \| A B\| \leq \|A\| \|B\|
+        \label{Eq: (1.17)}
+    \end{equation}
+\end{definition}
+
+This property is not satisfied by any matrix norm. For example, the norm $ \|A\|_\Delta = \max{|a_ij|}$ for $i = 1, ..., n$, $j = 1, ..., m$ does nor satisfy (\ref{Eq: (1.17)}) if applied to the matrices
+\[ A = B = \begin{bmatrix}
+    1 & 1 \\
+    1 & 1
+\end{bmatrix} \]
+since $2 = \|AB\|_\Delta < \|A\|_\Delta \|B\|_\Delta = 1$.
+
+Notice that, given a certain sub-multiplicative matrix norm $\|\cdot\|_\alpha$, there always exists a consistent vector norm. For instance, given any fixed vector $y \neq 0$ in $\mathbb{C}^n$, it suffices to define the consistent vector norm as
+\[ \|x\| = \| x y^H \|_\alpha \quad x \in \mathbb{C}^n\]
+
+As a consequence, in the case of sub-multiplicative matrix norms it is no longer necessary to explicitly specify the vector norm with respect to the matrix norm is consistent.
+
+In view of the definition of a natural norm, we recall the following theorem.
+
+\begin{theorem}
+    Let $\| \cdot \|$ be a vector norm. The function
+    \begin{equation}
+        \| A \| = \sup_{x \neq 0}{\frac{\| Ax \|}{\|x\|}}
+        \label{Eq: (1.19)}
+    \end{equation}
+    is a matrix norm called induced matrix norm or natural matrix norm.
+\end{theorem}
+
+\begin{proof}
+    We start by noticing that (\ref{Eq: (1.19)}) is equivalent to 
+    \begin{equation}
+        \|A\| = \sup_{\|x\| = 1}{\|Ax\|}
+        \label{Eq: (1.20)}
+    \end{equation}
+    Indeed, one can define for any $x \neq 0 $ the unit vector $u = x / \|x\|$
+\end{proof}
