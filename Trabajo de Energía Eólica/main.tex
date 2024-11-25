@@ -64,11 +64,15 @@
 
 % Describir las magnitudes de interés, sus unidadees y la frecuencia de muestreo
 
-Para realizar el estudio eólico se trabajará con las velocidades del viento y su dirección, medidas a $10\ m$ y a $50\ m$.
+Para realizar el estudio eólico se trabajará con las velocidades del viento y su dirección, medidas a $10\ m$ y a $50\ m$. Dichos datos fueron muestreados cada hora, y tienen unidades de $m/s$ y $^\circ$ respectivamente.
 
 % Evaluar cuantitativamente la cantidad de datos erróneos para cada año del periodo seleccionado
 
+Se decide utilizar los datos que abarcan desde el 1 de Enero de 2020 hasta el 31 de Diciembre de 2023. Tal y como indica la página web utilizada para importar los datos, aquellos datos que sean erróneos tendrán un valor de `-999'. 
+
 % Discutir la calidad de los datos e indicar que periodos son relevantes para el estudio eólico de la ubicación. Seleccionar el año más reciente que tenga una buena calidad de datos.
+
+Filtrando y limpiando, se encuentran 72 datos erróneos en este periodo seleccionado. Contando con un total de 8784 datos para el año 2020 y 8760 para los años 2021, 2022 y 2023. Debido a que el número de datos erróneos por año es de 24, lo que equivale a la pérdida de datos de un sólo día en el año. Se considera que esta pérdida no es relevante para el estudio, y se decide utilizar el año 2023 como el año más reciente con una buena calidad de datos.
 
 
 \section{Estudio estadístico del recurso eólico en la ubicación}
