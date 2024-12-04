@@ -45,13 +45,19 @@
 \begin{titlepage}
     \centering
     \includegraphics[width=0.5\linewidth]{Imagenes/Logo UPM.png} \par
+    \vspace{1cm}
+    {\bfseries\LARGE Escuela Técnica Superior de Ingenieros Industriales \par}
+    \vspace{0.5cm}
+    {\scshape\Large Máster en Ingeniería Industrial \par}
     \vspace{3 cm}
     {\itshape\huge Informe Técnico \par}
     \vspace{0.5cm}
     {\Huge \textbf{\TituloProyecto} \par}
     \vfill
-    {\Large \Asignatura \  \Curso \par}
+    {\Large Autora: Mercedes Román Ruiz \par}
     \vspace{0.5cm}
+    %{\Large \Asignatura \  \Curso \par}
+    %\vspace{0.5cm}
     {\Large \Fecha \par}
 \end{titlepage}
 
@@ -61,11 +67,11 @@
 \section{Introducción}
 % Una primera sección denominada "1. Introducción". En dos o tres párrafos se contesta a las preguntas: ¿cuál es el objetivo del informe? y ¿cómo se ha elaborado el informe?
 
-Este informe se enmarca en la asignatura Fuentes de Energía del Máster en Ingeniería Industrial, formando parte de la evaluación continua de la asignatura. Para su desarrollo, se selecciona un emplazamiento a analizar y se realizará un estudio de la viabilidad de un parque eólico en la ubicación seleccionada.
+Este informe se enmarca en la asignatura Fuentes de Energía del Máster en Ingeniería Industrial, formando parte de la evaluación continua de la asignatura. Para su desarrollo, se selecciona un emplazamiento a analizar para luego realizar un estudio de la viabilidad de un parque eólico en la ubicación seleccionada.
 
-Para la realización de este trabajo se utilizarán los datos reales existentes a lo largo de todo el mundo. Haciendo uso de la base de datos climatológicos de NASA Prediction of Worldwide Energy Resorces \cite{NASA2024}
+Para la elaboración de este trabajo se utilizarán los datos reales existentes a lo largo de todo el mundo. Haciendo uso de la base de datos climatológicos de NASA Prediction of Worldwide Energy Resorces \cite{NASA2024}
 
-Se decide realizar el estudio en un punto con coordenadas: 36.0014, -5.6096; situado en la Isla de Tarifa, también conocida como Isla de Las Palomas.
+Se decide estudiar un punto con coordenadas: 36.0014, -5.6096; situado en la Isla de Tarifa, también conocida como Isla de Las Palomas.
 
 \section{Análisis preliminar de los datos de viento}
 % Una segunda sección con los resultados del análisis preliminar de los datos de viento en la ubicación seleccionada. "2. Análisis preliminar de los datos de viento". Esta sección incluirá el análisis preliminar de los datos eólicos discutiendo su calidad.
@@ -74,17 +80,17 @@ Se decide realizar el estudio en un punto con coordenadas: 36.0014, -5.6096; sit
 
 % Describir las magnitudes de interés, sus unidadees y la frecuencia de muestreo
 
-Para realizar el estudio eólico se trabajará con las velocidades del viento y su dirección, medidas a $10\ m$. Dichos datos fueron muestreados cada hora, y tienen unidades de $m/s$ y $^\circ$ respectivamente.
+En el estudio eólico se va a trabajar con las velocidades del viento y su dirección, medidas a $10\ m$. Dichos datos fueron muestreados cada hora, y tienen unidades de $m/s$ y $^\circ$ respectivamente.
 
 % Evaluar cuantitativamente la cantidad de datos erróneos para cada año del periodo seleccionado
 
-Para tener una muestra significativa se va a analizar un periodo 4 años, abarcando desde el 1 de Enero de 2020 hasta el 31 de Diciembre de 2023. Tal y como indica la página web utilizada para importar los datos, aquellos datos que por error cometido o falta de medición no se encuentren tendrán un valor de `-999'.
+Con el objetivo de tener una muestra significativa se va a analizar un periodo de 4 años, abarcando desde el 1 de Enero de 2020 hasta el 31 de Diciembre de 2023. Tal y como se indica en la base de datos utilizada, aquellos datos que por error cometido o falta de medición no se encuentren tendrán un valor de `-999'.
 
 Cabe destacar que el año 2020 fue un año bisiesto y por ende tuvo 366 días, con lo que cuenta con 24 mediciones más en comparación con los otros años que abarca el estudio.
 
 % Discutir la calidad de los datos e indicar que periodos son relevantes para el estudio eólico de la ubicación. Seleccionar el año más reciente que tenga una buena calidad de datos.
 
-Esta base de datos no muestra información sobre la calidad de las mediciones por lo que se suponen válidas. Se decide utilizar como año representativo el año 2023.
+Esta base de datos no muestra información sobre la calidad de las mediciones por lo que se suponen que estos son válidos. Se decide utilizar como año representativo el año 2023.
 
 
 \section{Estudio estadístico del recurso eólico en la ubicación}
@@ -95,7 +101,7 @@ Esta base de datos no muestra información sobre la calidad de las mediciones po
 \subsection{Análisis estadístico anual}
 % Análisis estadístico anual de los datos recopilados en los últimos 4 años con momentos estadísticos (velocidad media y varianza). Para ello se evalúan los momentos estadísticos por año, y se representará en una gráfica la media y varianza en función del año.
 
-Se comienza con un análisis anual de los datos recopilados, representando en la figura \ref{fig: Analisis estadistico anual} la velocidad media y varianza de cada año.
+Se comienza con un análisis anual de los datos recopilados, representando en la figura \ref{fig: Analisis estadistico anual} la velocidad media y varianza de cada año de la tabla \ref{tab: Velocidad media y varianza por año}.
 
 \begin{table}[h]
     \centering
@@ -120,12 +126,12 @@ Se comienza con un análisis anual de los datos recopilados, representando en la
     \label{fig: Analisis estadistico anual}
 \end{figure}
 
-Se observa que la velocidad media se mantiene estable con valores entre $[4.5046,\ 4.7081]\ m/s$ en los años estudiados.
+La velocidad media se mantiene estable con valores entre $[4.5046,\ 4.7081]\ m/s$ en los años estudiados.
 
 \subsection{Análisis estadístico estacional}
 % Análisis estadístico estacional de los datos recopilados en los últimos 4 años con momentos estadísticos (velocidad media y varianza). Para ello se evalúan los momentos estadísticos por meses, y se representará en una gráfica la media y varianza en función de los meses.
 
-Se profundiza el análisis estadístico de los datos recopilados realizando un estudio de la velocidad media y varianza por meses.
+El análisis estadístico de los datos continua realizando un estudio de la velocidad media y varianza por meses. Dichos resultados se muestran en la tabla \ref{tab: Velocidad media y varianza por mes} y se grafican en la figura \ref{fig: Analisis estadistico mensual}.
 
 \begin{table}[h]
     \centering
@@ -158,11 +164,11 @@ Se profundiza el análisis estadístico de los datos recopilados realizando un e
     \label{fig: Analisis estadistico mensual}
 \end{figure}
 
-Como se observa en la figura \ref{fig: Analisis estadistico mensual}, tanto la velocidad media como la varianza tienen su máximo en en el mes de Febrero, y su mínimo en Agosto. Notándose así el cambio de estación de invierno a verano.
+Como se observa en la figura \ref{fig: Analisis estadistico mensual}, tanto la velocidad media como la varianza tienen su máximo en en el mes de Febrero, y su mínimo en Agosto. Haciéndose notar así el cambio de estación de invierno a verano.
 
 \subsection{Análisis estadístico estacional por periodo}
 % Análisis estadístico estacional distingueindo periodo diurno y nocturno de los datos recopilados en los últimos 4 años con momentos estadísticos (velocidad media y varianza). Para ello se evalúan los momentos estadísticos por meses, distinguiendo los periodos diurnos (10:00 - 18:00) y nocturnos (22:00 - 06:00), y se representará en una gráfica la media y varianza en función de los meses.
-Al análisis estadístico estacional anterior se le añade la distinción entre periodos diurnos (10:00 - 18:00) y nocturnos (22:00 - 06:00).
+Al análisis estadístico estacional anterior se le añade la distinción entre periodos diurnos (10:00 - 18:00) y nocturnos (22:00 - 06:00). Obteniéndose los resultados de la tabla \ref{tab: Velocidad media y varianza por mes (periodo diurno y nocturno)}.
 
 \begin{table}[h]
     \centering
@@ -197,12 +203,10 @@ Al análisis estadístico estacional anterior se le añade la distinción entre 
     \label{fig: Analisis estadistico mensual por periodo}
 \end{figure}
 
-En la figura \ref{fig: Analisis estadistico mensual por periodo} se observa que las velocidades medias diurnas y nocturnas mantienen una tendencia general similar, con valores más altos durante los meses de invierno, y con mínimos en los meses de verano. Asimismo, la varianza diurna presenta valores más altos en comparación con la nocturna, lo que sugiere una mayor fluctuacion en las velocidades del viento durante el día. Este comportamiento indica que los patrones de viento no sólo varian con el mes, sino que también según la franja horaria, siendo más pronunciados los cambios en periodos diurnos.
+En la figura \ref{fig: Analisis estadistico mensual por periodo} puede verse que las velocidades medias diurnas y nocturnas mantienen una tendencia general similar, con valores más altos durante los meses de invierno, y con mínimos en los meses de verano. Asimismo, la varianza diurna presenta valores más altos en comparación con la nocturna, lo que sugiere una mayor fluctuacion en las velocidades del viento durante el día. Este comportamiento indica que los patrones de viento no sólo varian con el mes, sino que también según la franja horaria, siendo más pronunciados los cambios en periodos diurnos.
 
 \subsection{Histograma de velocidades}
 % Obtener los histogramas de velocidades para cada año. Representar los histogramas en una sola figura identificando cada año en la leyenda. Discutir los resultados teniendo en cuenta la calidad de los datos. Seleccionar el año más reciente que tenga una buena calidad de datos.
-
-En esta subsección se presenta el histograma apilado con frecuencia normalizada de las velocidades por año.
 
 \begin{figure}[h]
     \centering
@@ -235,7 +239,7 @@ El perfil de velocidades con la altura ($h$) se define con la ecuación:
     v(h) = v_{ref} \frac{ln \left( \frac{h}{z_0} \right)}{ln \left( \frac{h_{ref}}{z_0} \right)}
     \label{eq: Perfil de Velocidades}
 \end{equation}
-Donde $z_0$ es la logitud de rugosidad tabulada en la Tabla \ref{Tabla: Clase y longitud de rugosidad.} incluida en el anexo, y en este caso, sería el valor que corresponde a ``Tierra agrícola abierta sin vallas ni setos; tal vez algunos edificios separados y colinas muy suave'' con  $z_0 = 0.03$. Tomando una altura de referencia, $h_{ref} = 10\ m$, y como velocidad la velocidad media en ese año (2023), $v_{ref} = 4.5046\ m/s$. 
+Donde $z_0$ es la logitud de rugosidad tabulada en la Tabla \ref{Tabla: Clase y longitud de rugosidad.} incluida en el anexo, y en este caso, sería el valor que corresponde a ``Tierra agrícola abierta sin vallas ni setos; tal vez algunos edificios separados y colinas muy suave'' con  $z_0 = 0.03$. Tomando una altura de referencia, $h_{ref} = 10\ m$, y como velocidad de referencia la velocidad media en ese año (2023), $v_{ref} = 4.5046\ m/s$. 
 
 Aplicando la ecuación \ref{eq: Perfil de Velocidades} se obtiene el perfil de velocidades mostrado en la figura \ref{fig: Perfil de Velocidades}, alcanzando los $6.83\ m/s$ a $200\ m$ de altura.
 
@@ -251,7 +255,8 @@ Aplicando la ecuación \ref{eq: Perfil de Velocidades} se obtiene el perfil de v
 
 % ----------------------------------------------------------------------------------------------
 
-\subsubsection{Histograma de velocidades a la altura del buje}
+\subsection{Histograma de velocidades a la altura del buje}
+
 % Del año representativo, obtener el histograma de velocidades teniendo en cuenta la altura del buje del aerogenerador. Representar el histograma y la frecuencia acumulada.
 
 Teniendo una altura del buje del aerogenerador de $80\ m$, se obtiene el histograma de velocidades para el año 2023 mostrado en la figura \ref{fig: Histograma de velocidades Buje} y un histograma de frecuencia acumulada (figura \ref{fig: Histograma de velocidades Frecuencia Acumulada Buje}).
@@ -285,7 +290,7 @@ Por otro lado, el histograma de frecuencia acumulada de la figura \ref{fig: Hist
 Los datos de la velocidad del viento se pueden ajustar a una distribución conocida como es la distribución de Weibull. La función de densidad de probabilidad de Weibull viene dada por la ecuación \ref{eq: Funcion de Densidad de Probabilidad de Weibull}.
 
 \begin{equation}
-    f(x) = \left\{ \frac{k}{C} \left( \frac{x}{C} \right)^{k - 1} e^{(x/C)^k} \quad x \geq 0 \atop 0 \quad x < 0 \right.
+    f(x) = \left\{ \frac{k}{C} \left( \frac{x}{C} \right)^{k - 1} e^{-(x/C)^k} \quad x \geq 0 \atop 0 \quad x < 0 \right.
     \label{eq: Funcion de Densidad de Probabilidad de Weibull}
 \end{equation}
 
@@ -298,7 +303,7 @@ Asímismo, la función de probabilidad acumulada viene dada por la ecuación \re
 
 La distribución de Weibull depende de los parámetros $k$ y $c$, que pueden estimarse mediante un ajuste de mínimos cuadrados a la distribución de datos que tenemos.
 
-Se recomienda hace este cálculo aplicando el siguiente cambio de variables, siendo $x_i$ las velocidades medidas y $F_i$ la frecuencia acumulada normalizada para cierto $x_i$:
+Se recomienda hacer este cálculo aplicando el siguiente cambio de variables, siendo $x_i$ las velocidades medidas y $F_i$ la frecuencia acumulada normalizada para cierto $x_i$:
 \begin{gather*}
     p_i = ln(x_i) \\
     q_i = ln(- ln(1 - F_i)) \\
@@ -313,7 +318,7 @@ Sustituyendo los cambios de variables obtenemos la ecuación lineal \ref{eq: Fun
     \label{eq: Funcion de Probabilidad Acumulada de Weibull Cambios de Variable}
 \end{equation}
 
-El ajuste realizado se muestra en la figura \ref{fig: Ajuste de la distribución de Weibull}. Obteniendo los valores $k = 2.0498$ y $C = 5.0642$, con un coeficiente de determinación $R^2 = 0.9917$, lo que indica que el ajuste es bueno.
+El ajuste realizado se muestra en la figura \ref{fig: Ajuste de la distribución de Weibull}, a partir del cual se obtienen los valores $k = 2.0498$ y $C = 6.877$, con un coeficiente de determinación $R^2 = 0.9917$, lo que indica que el ajuste es bueno.
 
 \begin{figure}[h]
     \centering
@@ -340,8 +345,24 @@ Una vez calculados los parámetros $k$ y $C$, podemos representar la curva de de
 
 A partir de los datos sobre la potencia del aerogenerador expuestos en la tabla \ref{Tabla: Curva de potencia} del anexo, y la curva de densidad de Weibull previamente calculada, se calcula y representa la curva de energía proporcionada por el aerogenerador en la figura \ref{fig: Curva de energia proporcionada por el aerogenerador}.
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = 0.5 \textwidth]{Imagenes/Curva de Energia.png}
+    \caption{Comparación de energía proporcionada por el aerogenerador.}
+    \label{fig: Curva de energia proporcionada por el aerogenerador}
+\end{figure}
+
+Se obtiene que el aerogenerador proporciona una energía de $5265\ MWh$ al año, que para un aerogenerador de $850\ kW$ de potencia nominal supone un factor de carga de $0.7071$.
+
+
 \section{Conclusiones}
 % Por último, la sección conclusiones, "5. Conclusiones". Discusión en 2 o 3 párrafos de las conclusiones más relevantes del análisis de los datos eólicos para la ubicación elegida que han permitido el cumplimiento de los objetivos. Discusión justificada de la viabilidad de un parque eólico en la ubicación.
+
+Tras el análisis estadístico del recurso eólico en la Isla de Tarifa y el cálculo de la energía generada por un aerogenerador de $850\ kW$ de potencia nominal, se concluye que la ubicación es altamente favorable para la instalación de un parque eólico. Los datos del año 2023 fueron ajustados a una distribución de Weibull, obteniendo un coeficiente de determinación $R^2 = 0.9917$, lo que confirma la calidad de los datos y respalda la validez del estudio.
+
+Se obtuvo un factor de carga de $0.7071$, lo que indica que el emplazamiento es excelente para un parque eólico. Aunque en 2023 aproximadamente el $50\%$ de las velocidades registradas fueron inferiores a $10\ m/s$, se ha observado un incremento en las velocidades superiores en los últimos años, lo que sugiere un posible aumento en la generación futura de energía.
+
+El parque eólico de Tahivilla (Tarifa), respalda esta conclusión. Dicho parque está en proceso de modernización para incrementar su capacidad de $78.4\ MW$ a $84.4\ MW$. Sin embargo, aunque el análisis técnico es favorable, la construcción de un parque eólico en la Isla de Tarifa no sería posible debido a las restricciones impuestas por la declaración del Parque Nacional del Estrecho de Gibraltar en 2003, que supone la protección de la isla y de sus aguas más inmediatas.
 
 %\section{Bibliografía}
 \printbibliography % Imprime la bibliografía
@@ -362,6 +383,8 @@ A partir de los datos sobre la potencia del aerogenerador expuestos en la tabla 
     \vspace{1.5cm}
     {\itshape\Large Estudio del Recurso Eólico en Tarifa \par}
     \vfill
+    {\Large Autora: Mercedes Román Ruiz \par}
+    \vspace{0.5cm}
     {\Large \Fecha \par}
 \end{center}
 
@@ -371,7 +394,7 @@ A partir de los datos sobre la potencia del aerogenerador expuestos en la tabla 
     \centering
     \label{Tabla: Clase y longitud de rugosidad.}
     \caption{Clase y longitud de rugosidad para los distintos paisajes según \textit{European Wind Atlas}}
-    \begin{tabular}{l l p{13cm}}
+    \begin{tabular}{|l|l|p{13cm}|}
         \hline
         Clase & $z_0(m)$ & Tipo de paisaje \\
         \hline
@@ -391,26 +414,41 @@ A partir de los datos sobre la potencia del aerogenerador expuestos en la tabla 
 \begin{table}[H]
     \centering
     \label{Tabla: Curva de potencia}
-    \caption{Curva de potencia de un aerogenerador genérico con $850 kW$ de potencia nominal.}
-    \begin{tabular}{r r r r}
+    \caption{Potencia de un aerogenerador genérico con $850 kW$ de potencia nominal.}
+    \begin{tabular}{|r | r|}
         \hline
-        $v(m/s)$ & $P(kW)$ & $v(m/s)$ & $P(kW)$ \\
+        $v(m/s)$ & $P(kW)$ \\
         \hline
-        1 & 0 & 16 & 850 \\
-        2 & 0 & 17 & 850 \\
-        3 & 10 & 18 & 850 \\
-        4 & 33 & 19 & 850 \\
-        5 & 86 & 20 & 850 \\
-        6 & 160 & 21 & 0 \\
-        7 & 262 & 22 & 0 \\
-        8 & 398 & 23 & 0 \\
-        9 & 568 & 24 & 0 \\
-        10 & 732 & 25 & 0 \\
-        11 & 836 & 26 & 0 \\
-        12 & 847 & 27 & 0 \\
-        13 & 850 & 28 & 0 \\
-        14 & 850 & 29 & 0 \\
-        15 & 850 & 30 & 0 \\
+        1 & 0 \\
+        2 & 0 \\
+        3 & 10 \\ 
+        4 & 33 \\
+        5 & 86 \\
+        6 & 160 \\
+        7 & 262 \\ 
+        8 & 398 \\
+        9 & 568 \\
+        10 & 732 \\ 
+        11 & 836 \\
+        12 & 847 \\
+        13 & 850 \\
+        14 & 850 \\
+        15 & 850 \\
+        16 & 850 \\
+        17 & 850 \\
+        18 & 850 \\
+        19 & 850 \\
+        20 & 850 \\
+        21 & 0 \\
+        22 & 0 \\
+        23 & 0 \\
+        24 & 0 \\
+        25 & 0 \\
+        26 & 0 \\
+        27 & 0 \\
+        28 & 0 \\
+        29 & 0 \\
+        30 & 0 \\
         \hline
     \end{tabular}
 \end{table}

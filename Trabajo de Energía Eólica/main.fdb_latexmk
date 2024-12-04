@@ -1,24 +1,25 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1733081477.54001 -1
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1733304089.66506 -1
   "bibliografia.bib" 1732651474 226 9e30f69c9ff5ea491e3a2203820199d3 ""
-  "main.bcf" 1733081477 108555 315ca02b99f83032d483b459d963df03 "pdflatex"
+  "main.bcf" 1733304089 108555 315ca02b99f83032d483b459d963df03 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1733081475.88102 "c:/Users/merce/Documents/GitHub/LaTeX/Trabajo de Energía Eólica/main.tex" "main.pdf" "main" 1733081477.54074 0
-  "Imagenes/Ajuste de Distribucion de Weibull.png" 1733079598 19139 247ff790b75aae2d0b413f496c8040a3 ""
-  "Imagenes/Ajuste de Weibull y Histograma de Velocidades.png" 1733080202 22872 5406fad23665e120ba9b6d6b690a2779 ""
+["pdflatex"] 1733304087.88732 "c:/Users/merce/Documents/GitHub/LaTeX/Trabajo de Energía Eólica/main.tex" "main.pdf" "main" 1733304089.66599 0
+  "Imagenes/Ajuste de Distribucion de Weibull.png" 1733162074 15321 044ff08e6243dbd00d430f5ee5f51794 ""
+  "Imagenes/Ajuste de Weibull y Histograma de Velocidades.png" 1733162131 21242 6890782b43b4c8f506f6028591d8e62d ""
+  "Imagenes/Curva de Energia.png" 1733162158 21529 a791577a5dee25da1c60f5a1f3ed9b19 ""
   "Imagenes/Grafica de Media y Varianza por Año.png" 1732660985 18119 5636b0a61df3df070745f3beb98b81f8 ""
   "Imagenes/Grafica de Media y Varianza por Mes Periodo Diurno y Nocturno.png" 1732904001 36125 b80a5456ae9bb02fd308da165c974306 ""
   "Imagenes/Grafica de Media y Varianza por Mes.png" 1732662767 25157 cc96aee3e3ac2e28c956a34e56b29ae9 ""
-  "Imagenes/Histograma Apilado de Velocidades.png" 1732989138 15594 198ea4f0f007b89473e85aba3f4df806 ""
-  "Imagenes/Histograma de Velocidades Buje Frec Acumulada.png" 1733073872 15018 60e5dc54ecfc120fbe887c31ec3fb3e2 ""
-  "Imagenes/Histograma de Velocidades Buje.png" 1732997934 15864 89fc51eb552a4cee55c4e001fdff778f ""
+  "Imagenes/Histograma Apilado de Velocidades.png" 1733155888 16623 9adea799e4f9159bc7266fbad35da400 ""
+  "Imagenes/Histograma de Velocidades Buje Frec Acumulada.png" 1733155955 18519 adb312f4680e73bb2afe44edbff4cbd8 ""
+  "Imagenes/Histograma de Velocidades Buje.png" 1733155925 16486 b3dd05a8b4f0221ab04d7d9ee7f50cf5 ""
   "Imagenes/Logo UPM.png" 1729707102 60335 95249f0d22bcc785dab48aa85cdfed2a ""
   "Imagenes/Perfil de Velocidades.png" 1732995419 18991 a7e93aced0a42630c81a391a42b91e96 ""
-  "Imagenes/Rosa de los Vientos.png" 1732994629 29347 4f83771dd8091d893cf97f8b51eef870 ""
-  "c:/Users/merce/Documents/GitHub/LaTeX/Trabajo de Energía Eólica/main.tex" 1733081475 23716 b95221376d06dfb7a0fc30f664e6e824 ""
+  "Imagenes/Rosa de los Vientos.png" 1733248274 30540 4bfff726d3a08c50ee2c6c965036e13d ""
+  "c:/Users/merce/Documents/GitHub/LaTeX/Trabajo de Energía Eólica/main.tex" 1733304086 26179 7c18f58418b2da3b477d1b37d831fe3b ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1728495835 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1728496372 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1728501385 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -127,11 +128,11 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1728505921 5520473 0a78405a99dc248928f6ec2cb7e7998e ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1728506292 3326004 fdcc47d26ba8be16a57e12fc02c7b8d1 ""
   "c:/texlive/2024/texmf.cnf" 1728505891 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1733081477 6486 7fe73fe1c3e62036fcce8ef1d66475eb "pdflatex"
+  "main.aux" 1733304089 6721 217e818c5ad96ae7ea59fd58162e3b25 "pdflatex"
   "main.bbl" 1732651546 1777 cf997011fc2f2fd753d6abae5a01551f "biber main"
-  "main.run.xml" 1733081477 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
-  "main.tex" 1733081475 23716 b95221376d06dfb7a0fc30f664e6e824 ""
-  "main.toc" 1733081477 1688 8229aeeed91c7c7740d7f321e6f2db75 "pdflatex"
+  "main.run.xml" 1733304089 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
+  "main.tex" 1733304086 26179 7c18f58418b2da3b477d1b37d831fe3b ""
+  "main.toc" 1733304089 1685 f5021244c071c38a5e155cdf086db4a5 "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"
