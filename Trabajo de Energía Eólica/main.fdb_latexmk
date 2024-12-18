@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1733304089.66506 -1
+["biber main"] 1733852869.77364 "main.bcf" "main.bbl" "main" 1733852940.76502 0
   "bibliografia.bib" 1732651474 226 9e30f69c9ff5ea491e3a2203820199d3 ""
-  "main.bcf" 1733304089 108555 315ca02b99f83032d483b459d963df03 "pdflatex"
+  "main.bcf" 1733852940 108555 315ca02b99f83032d483b459d963df03 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1733304087.88732 "c:/Users/merce/Documents/GitHub/LaTeX/Trabajo de Energía Eólica/main.tex" "main.pdf" "main" 1733304089.66599 0
+["pdflatex"] 1733852939.05561 "c:/Users/merce/Documents/GitHub/LaTeX/Trabajo de Energía Eólica/main.tex" "main.pdf" "main" 1733852940.76575 0
   "Imagenes/Ajuste de Distribucion de Weibull.png" 1733162074 15321 044ff08e6243dbd00d430f5ee5f51794 ""
   "Imagenes/Ajuste de Weibull y Histograma de Velocidades.png" 1733162131 21242 6890782b43b4c8f506f6028591d8e62d ""
   "Imagenes/Curva de Energia.png" 1733162158 21529 a791577a5dee25da1c60f5a1f3ed9b19 ""
@@ -19,7 +19,7 @@
   "Imagenes/Logo UPM.png" 1729707102 60335 95249f0d22bcc785dab48aa85cdfed2a ""
   "Imagenes/Perfil de Velocidades.png" 1732995419 18991 a7e93aced0a42630c81a391a42b91e96 ""
   "Imagenes/Rosa de los Vientos.png" 1733248274 30540 4bfff726d3a08c50ee2c6c965036e13d ""
-  "c:/Users/merce/Documents/GitHub/LaTeX/Trabajo de Energía Eólica/main.tex" 1733304086 26179 7c18f58418b2da3b477d1b37d831fe3b ""
+  "c:/Users/merce/Documents/GitHub/LaTeX/Trabajo de Energía Eólica/main.tex" 1733852936 26179 7c18f58418b2da3b477d1b37d831fe3b ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1728495835 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1728496372 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1728501385 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -128,11 +128,11 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1728505921 5520473 0a78405a99dc248928f6ec2cb7e7998e ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1728506292 3326004 fdcc47d26ba8be16a57e12fc02c7b8d1 ""
   "c:/texlive/2024/texmf.cnf" 1728505891 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1733304089 6721 217e818c5ad96ae7ea59fd58162e3b25 "pdflatex"
-  "main.bbl" 1732651546 1777 cf997011fc2f2fd753d6abae5a01551f "biber main"
-  "main.run.xml" 1733304089 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
-  "main.tex" 1733304086 26179 7c18f58418b2da3b477d1b37d831fe3b ""
-  "main.toc" 1733304089 1685 f5021244c071c38a5e155cdf086db4a5 "pdflatex"
+  "main.aux" 1733852940 6721 217e818c5ad96ae7ea59fd58162e3b25 "pdflatex"
+  "main.bbl" 1733852917 1777 cf997011fc2f2fd753d6abae5a01551f "biber main"
+  "main.run.xml" 1733852940 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
+  "main.tex" 1733852936 26179 7c18f58418b2da3b477d1b37d831fe3b ""
+  "main.toc" 1733852940 1685 f5021244c071c38a5e155cdf086db4a5 "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

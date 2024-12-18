@@ -1,0 +1,437 @@
+\chapter{Métodos para Ecuaciones Diferenciales Ordinarias}
+
+En este capítulo estudiamos problemas de la forma
+\begin{align}
+    \label{eq: Greenbaum 11.1}
+    y'(t) &= f(t, y(t)), \quad t \geq t_0 \notag \\
+    y(t_0) &\equiv y_0 
+\end{align}
+donde la variable independiente $t$ normalmente representa tiempo, $y \equiv y(t)$ es la función desconocida que buscamos, y $y_0$ es un valor inicial conocido. Esto se llama problema del valor inicial (PVI) para la ecuación diferencial ordinaria (EDO) $y' = f(t, y)$.
+
+\section{Existencia y unicidad de las soluciones}
+
+Al estudiar cuestiones sobre la existencia y unicidad de soluciones para la ecuación \ref{eq: Greenbaum 11.1}, consideramos que la función del lado derecho es una función de dos varibales independientes $t$ y $y$, y hacemos suposiciones sobre su comportamiento como función de cada una de estas variables. El siguiente teorema proporciona condiciones suficientes para que el problema de valor inicial tenga una solución localmente.
+
+\begin{theorem}
+    Si $f$ es continua en un rectángulo $R$ centrado en $(t_0, y_0)$, 
+    \[ R = {(t, y): |t - t_0| \leq \alpha, |y - y_0| \leq \beta} \]
+    entonces el PVI \ref{eq: Greenbaum 11.1} tiene una solución $y(t)$ para $|t - t_0|\leq min(\alpha, \beta/M)$, donde $M = max_R|f(t, y)|$.
+\end{theorem}
+
+Aunque exista una solución, esta puede no ser única. El siguiente teorema proporciona condiciones suficientes para la existencia y unicidad locales.
+
+\begin{theorem}
+    Si $f$ y $\frac{\partial f}{\partial y}$ son continuas en el rectángulo $R$, entonces el problema de valor inicial tiene una única solución $y(t)$ para $|t- t_0| \leq min(\alpha, \beta/M)$ donde $M = max_R|f(t, y)|$.
+\end{theorem}
+
+\subsection{Teoría elemental de problemas de valor inicial}
+
+\begin{definition}
+    Se dice que una función $f(t,y)$  satisface la condición de Lipschitz en la variable $y$ en un conjunto $D \subset \mathbb{R}^n$ si existe una constante $L > 0$ con
+    \[ |f(t, y_1) - f(t, y_2)| \leq L |y_1 - y_2| \]
+    siempre que $(t, y_1)$ y $(t, y_2)$ estén en $D$. La constante $L$ recibe el nombre de constante de Lipschitz para $f$.
+\end{definition}
+
+\begin{definition}
+    Se dice que un conjunto $D \subset \mathbb{R}^n$ es convexo siempre que $(t_1, y_1)$ y $(t_2, y_2)$ pertenezcan a $D$, entonces $((1 - \lambda)t_1 + \lambda t_2, (1 - \lambda)t_1 + \lambda t_2)$ también pertenece a $D$ para cada $\lambda$ en $[0,1]$.
+\end{definition}
+
+\begin{theorem}
+    Suponga que $f(t, y)$ se define sobre un conjunto convexo $D \subset \mathbb{R}^n$. Si existe una constante $L > 0$ con
+    \begin{equation}
+        \left| \frac{\partial f}{\partial y} (t,y) \right| \leq L, \text{ para todo } (t, y) \in D
+    \end{equation}
+    entonces $f$ satisface la condición de Lipschitz en $D$ en la variable y con constante $L$ de Lipschitz.
+\end{theorem}
+
+\begin{definition}
+    El problema de valor inicial
+    \begin{equation}
+        \label{eq: PVI Original}
+        \frac{dy}{dt} = f(t, y), \quad a \leq t \leq b, \quad y(a) = \alpha
+    \end{equation}
+    se dice que es un problema bien planteado si:
+    \begin{itemize}
+        \item Existe una única solución $y(t)$
+        \item Existen constantes $\epsilon > 0$ y $k > 0$, tales que para cualquier $\epsilon$ en $(0, \epsilon_0)$, siempre que $\delta(t)$ es continua con $|\delta (t)| < \epsilon$ para toda $t$ en $[a, b]$, y cuando $|\delta_0| < \epsilon $, el problema de valor inicial
+        \begin{equation}
+            \label{eq: PVI Perturbado}
+            \frac{dz}{dt} = f(t, z) + \delta (t), \quad a \leq t \leq b, \quad z(a) = \alpha + \delta_0
+        \end{equation}
+        tiene una única solución $z(t)$ que satisface
+        \[ |z(t) - y(t)| < k \epsilon \text{ para toda } t \in [a, b]\]
+    \end{itemize}
+\end{definition}
+
+El problema especificado por la ecuación \ref{eq: PVI Perturbado} recibe el nombre de problema perturbado relacionado con el problema original en la ecuación \ref{eq: PVI Original}. Suponge la posibilidad de un error introducido en la declaración de la ecuación diferencial, así como un error $\partial_0$ presente en la condición inicial.
+
+\begin{theorem}
+    Suponga que $D = {(t, y=) | a \leq t \leq b \text{ y } -\infty < y < \infty} $. Si $f$ es continua y satisface la condición de Lipschitz en la variable $y$ sobre el conjunto $D$, entonces el problema de valor inicial 
+    \[ \frac{dy}{dt} = f(t,y), a \leq t \leq b, y(a) = \alpha\]
+    está bien planteado.
+\end{theorem}
+
+\section{Métodos de un paso}
+
+Suponiendo que el problema de valor inicial \ref{eq: Greenbaum 11.1} estébien planteado, aproximaremos su solución en el tiempo $T$ dividiendo el intervalo $[t_0, T]$ en pequeños subintervalos y reemplazando la derivada temporal sobre cada subintervalo por un cociente de diferencias finitas.
+
+Sea $t_0, t_1, ..., T_N$ los puntos finales de los subintervalos (llamados nodos o puntos de malla), donde $t_N = T$, y sea la solución aproximada en el tiempo $t_j$ denotada como $y_j$. Un método de un paso es aquel en el que la solución aproximada en el tiempo $t_{k + 1}$ se determina a partir de la solución en el tiempo $t_k$
+ 
+\subsection{Método de Euler}
+El método de Euler es la técnica de aproximación más básica para resolver problemas de valor inicial.
+
+El objetivo del método de Euler es obtener aproximaciones para el problema de valor inicial bien planteado
+\begin{equation}
+    \label{eq: PVI Bien Planteado}
+    \frac{dy}{dt} = f(t,y), \quad a \leq t \leq b, \quad y(a) = \alpha
+\end{equation}
+
+No se obtendrá una aproximación continua a la solución $y(t)$; en su lugarm las aproximaciones para $y$ se generarán en varios valores, llamados puntos de malla, en el intervalo $[a, b]$. Una vez que se obtiene la solución aproximada en los puntos, la solución aproximada en otros puntos en el intervalo se puede encontrar a través de interpolación.
+
+Primero estipulamos que los puntos de malla estén igualmente expaciados a lo largo del intervalo $[a, b]$. Esta condición se garantiza al seleccionar un entero positivo $N$, al establecer $h = (b - a) / N$, y seleccionar los puntos de malla
+\[t_i = a +  i h, \quad \forall i = 0, 1, 2, ..., N\]
+La distancia común entre los puntos $h = t_{i + 1} - t_i$ recibe el nombre de tamaño de paso.
+
+Usaremos el teorema de Taylor para deducir el método de Euler. Suponga que $y(t)$, la única solución para \ref{eq: PVI Bien Planteado}, tiene dos derivadas continuas en $[a, b]$, de tal forma que cada $i = 0, 1, 2, ..., N - 1$
+\[ y (t_{i + 1}) = y(t_i) + (t_{i+1} - t_i) y'(t_i) + \frac{(t_{i + 1} - t_i)^2}{2} y''(\xi_i) \]
+para algún número $\xi_i$ en $(t_i, t_{i + 1})$. Puesto que $h = t_{i + 1} - t_i$, tenemos
+\[ y(t_{i + 1}) = y(t_i) + h y'(t_i) + \frac{h^2}{2} y''(\xi_i)\]
+y ya que $y(t)$ satisface la ecuació diferencial \ref{eq: PVI Bien Planteado},
+\begin{equation}
+    y(t_{i + 1}) = y(t_i) + h f(t_i, y(t_i)) + \frac{h^2}{2} y''(\xi_i)
+\end{equation}
+
+El método de Euler construye $w_i \approx y(t_i)$, para cada $i = 1, 2, ..., N$, al borrar el término restante. Por lo tanto, el método de Euler es
+\[ w_0 = \alpha \]
+\begin{equation}
+    \label{eq: Ecuacion de diferencia Metodo de Euler}
+    w_{i + 1} = w_i + h f(t_i, w_i), \quad \forall i = 0, 1, ..., N - 1
+\end{equation}
+
+La ecuación \ref{eq: Ecuacion de diferencia Metodo de Euler} recibe el nombre de ecuación de diferencia relacionada con el método de Euler.
+
+\subsubsection{Cotas del error para el método de Euler}
+A pesar de que el método de Euler no es por completo apropiado para garantizar su uso en la práctica, es suficientemente básico para analizar el error producido a partir de esta aplicación.
+
+Para derivar una cota del error para el método de Euler, necesitamos dos lemas de cálculo.
+
+\begin{lemma}
+    Para toda $x \geq -1$ y cualquier $m$ positiva, tenemos $ 0 \leq (1 + x)^m \leq e^{mx} $
+\end{lemma}
+
+\begin{lemma}
+    Si $s$ y $t$ son números reales positivos, ${a_i}_{i = 0}^k$ es una sucesión que satisface $a_0 \geq -t/s$, y
+    \begin{eqnarray}
+        a_{i + 1} \leq (1 + s) a_i + t, \quad \forall i = 0, 1, 2, ..., k-1
+    \end{eqnarray}
+    entonces
+    \[ a_{i + 1} \leq e^{(i + 1)s} \left( a_0 + \frac{t}{s} \right) - \frac{t}{s} \]
+\end{lemma}
+
+\begin{theorem}
+    \label{teo: Teorema 5.9}
+    Suponga que $f$ es continua y satisface la condición de Lipschitz con constante $L$ en 
+    \[ D = {(t, y) | a \leq t \leq b \text{ y } - \infty < y < \infty} \]
+    y que existe una constante $M$ con
+    \[ |y''(t) | \leq M, \quad \forall t \in [a, b] \]
+    donde $y(t)$ denota la única solución para el problema de valor inicial
+    \[ y' = f(t, y), \quad a \leq t \leq b, \quad y(a) = \alpha \]
+    Sean $w_0, w_1,..., w_N $ las aproximaciones generadas por el método de Euler para un entero positivo $N$. Entonces, para cada $i = 0, 1, 2,..., N$
+    \begin{equation}
+        |y(t_i) - w_i| \leq \frac{hM}{2L} \left[ e^{L(t_i - a)} - 1 \right]
+    \end{equation}
+\end{theorem}
+
+La principal importancia de la fórmula de la cota de error determinada en el teorema \ref{teo: Teorema 5.9} es que la cota depende linealmente del tamaño de paso $h$. Por consiguiente, disminuir el tamaño de paso debería proporcionar mayor precisión para las aproximaciones en la misma medida.
+
+Olvidado en el resultado del teorema \ref{teo: Teorema 5.9} está el efecto que el error de redondeo representa en la selección del tamaño de paso. Conforme $h$ se vuelve más pequeño, se necesitan más cálculos y se espera más error de redondeo. Entonces, en la actualidad, la forma de la ecuación de diferencia
+\[ w_0 = \alpha \]
+\[ w_{i + 1} = w_i + h f(t_i, w_i), \quad \forall i = 0, 1, ..., N - 1 \]
+no se utiliza para calcular la aproximación a la solución $y_i$ en un punto de malla $t_i$. En su lugar, usamos una ecuación de la forma
+\[ u_0 = \alpha + \delta_0 \]
+\begin{equation}
+    \label{eq: Burden 5.11}
+    u_{i + 1} = u_i + h f(t_i, y_i) + \delta_{i + 1}, \quad \forall i = 0, 1, ..., N - 1
+\end{equation}
+donde $\delta_i$ denota el error de redondeo asociado con $u_i$.
+
+\begin{theorem}
+    Si $y(t)$ denota la única solución para el problema de valor inicial
+    \begin{equation}
+        \label{eq: Burden 5.12}
+        y' = f(t,y), \quad a \leq t \leq b, \quad y(a) = \alpha
+    \end{equation}
+    y $u_0, u_1, ..., u_N$ son las aproximaciones obtenidas de la ecuación \ref{eq: Burden 5.11}. Si $|\delta_i| < \delta$ para cada $i = 0, 1, ..., N$ y la hipótesis del teorema \ref{teo: Teorema 5.9} son aplicables a la ecuación \ref{eq: Burden 5.12}, entonces
+    \begin{equation}
+        \label{eq: Burden 5.13}
+        |y(t_i - u_i)| \leq \frac{1}{L} \left( \frac{hM}{2} + \frac{\delta}{h} \right) \left[ e^{L(t_i - a)} - 1 \right] + |\delta_0| e^{L(t_i - a)}
+    \end{equation}
+    para cada $i = 0, 1, ..., N$.
+\end{theorem}
+
+La cota de error \ref{eq: Burden 5.13} ya no es lineal en $h$. De hecho, puesto que 
+\[ \lim_{h \rightarrow 0} \left( \frac{hM}{2} + \frac{\delta}{h} \right) = \infty \]
+se esperaría que el error se vuelva más grande para los valores suficientemente pequeños de $h$. El cálculo se puede usar para determinar una cota inferior para el tamaño de paso $h$. Si $E(h) = (hM/2) + (\delta / h)$ implica que $E'(h) = (M/2) - (\delta / h^2)$:
+\begin{itemize}
+    \item Si $h < \sqrt{2\delta / M}$, entonces $E'(h) < 0$ y $E(h)$ disminuye.
+    \item Si $h > \sqrt{2\delta / M}$, entonces $E'(h) > 0$ y $E(h)$ aumenta.
+\end{itemize}
+El valor mínimo de $E(h)$ se presenta cuando
+\begin{equation}
+    h = \sqrt{\frac{2\delta}{M}}
+\end{equation}
+
+La disminución de $h$ más allá de este valor tiende a incrementar el error total en la aproximación. Por lo general, sin embargo, el valor de $\delta$ es suficientemente pequeño para que esta cota inferior para $h$ no afecte la operación del método de Euler.
+
+\subsection{Método del medio punto}
+
+El método del punto medio se define tomando un medio paso con el método de Euler para aproximar la solución en el tiempo $t_{k + 1/2} \equiv (t_k + t_{k + 1})/2$, y luego tomando un paso completo utilizando el valor de la solución en $t_{k + 1/2}$ y la solución aproximada $y_{k + 1/2}$:
+\begin{equation}
+    \label{eq: Greenbaum 11.14}
+    y_{k + 1/2} = y_k + \frac{h}{2} f(t_k, y_k)
+\end{equation}
+\begin{equation}
+    \label{eq: Greenbaum 11.15}
+    y_{k + 1} = y_k + h f(t_{k + 1/2}, y_{k + 1/2})
+\end{equation}
+
+Para determinar el error de truncamiento local de este método, expandimos la solución exacta en una serie de Taylor alrededor de $t_{k + 1/2} = t_k + h/2$:
+\resizebox{0.5 \textwidth}{!}{$y(t_{k + 1}) = y(t_{k + 1/2}) + \frac{h}{2} f(t_{k + 1/2}, y(t_{k + 1/2})) + \frac{(h/2)^2}{2} y''(t_{k + 1/2}) + O(h^3)$}
+\resizebox{0.5 \textwidth}{!}{$y(t_k = y(t_{k + 1/2})) - \frac{h}{2}f(t_{k + 1/2}, y(t_{k + 1/2})) + \frac{(h/2)^2}{2} y''(t_{k + 1/2}) + O(h^3)$}
+
+Restando estas dos ecuaciones se obtiene
+\[y(t_{k + 1}) - y(t_k) = h f(t_{k + 1/2}, y(t_{k + 1/2})) + O(h^3)\]
+
+Ahora, expandiendo $y_(t_{k + 1/2})$ alrededor de $t_k$ se obtiene:
+\[ y(t_{k + 1/2}) = y(t_k) + \frac{h}{2} f(t_k, y(t_k)) + O(h^2) \]
+
+Y al hacer esta sustitución, tenemos:
+
+\begin{multline}
+    \label{eq: Greenbaum 11.16}
+    y(t_{k + 1}) - y(t_k) = \\
+    = h f(t_{k  + 1/2}, y(t_k) + \frac{h}{2} f(t_k, y(t_k)) + O(h^2)) + O(h^3) = \\
+    hf(t_{k + 1/2}, y(t_k) + \frac{h}{2} f(t_k, y(t_k))) + O(h^3)
+\end{multline}
+donde la segunda igualdad se sigue porque $f$ es Lipschitz en su segundo argumento, de modo que $hf(t, y + O(h^2)) = hf(t,y) + O(h^3)$. Dado que a partir de \ref{eq: Greenbaum 11.14} y \ref{eq: Greenbaum 11.15}, la solución aproximada satiface:
+\[ y_{k + 1} = y_k + hf(t_{k + 1/2}, y_k + \frac{h}{2} f(t_k, y_k)) \]
+o, de manera equivalente 
+\[ \frac{y_{k + 1} - y_k}{h} = f(t_{k + 1/2}, y_k + \frac{h}{2} f(t_k, y_k)) \]
+y, a partir de \ref{eq: Greenbaum 11.16}, la solución exacta satisface:
+\resizebox{0.5 \textwidth}{!}{$\frac{y(t_{k + 1}) - y(t_k)}{h} = f(t_{k + 1/2}, y(t_k) + \frac{h}{2} f(t_k, y(t_k))) + O(h^2)$}
+el error de truncamiento local en el método del punto medio es $O(h^2)$; es decir, el método es de precisión de segundo orden.
+
+\subsection{Métodos basados en fórmulas de cuadratura}
+
+Integrando la ecuación diferencial \ref{eq: Greenbaum 11.1} de $t$ a $t + h$ obtenemos
+\begin{equation}
+    \label{eq: Greenbaum 11.17}
+    y(t + h) = y(t) + \int_{t}^{t + h} f(s, y(s)) ds
+\end{equation}
+
+La integral al lado derecho de la ecuación puede aproximarse con cualquier fórmula de cuadratura vista anteriormente. Por ejemplo, usando la regla del trapecio para aproximar la integral,
+\[ \int_{t}^{t + h} f(s, y(s)) ds = \frac{h}{2}[f(t, y(t)) + f(t + h, y(t + h))] + O(h^3) \]
+conduce al método del trapecio para resolver el PVI \ref{eq: Greenbaum 11.1},
+\begin{equation}
+    \label{eq: Greenbaum 11.18}
+    y_{k + 1} = y_k + \frac{h}{2}[f(t_k, y_k) + f(t_{k + 1}, y_{k + 1})]
+\end{equation}
+
+Esto se llama un método implícito, ya que el nuevo valor $y_{k + 1}$ aparece en ambos lados de la ecuación. Para determinar $y_{k + 1}$, se debe resolver una ecuación no lineal. Dado que el error en la aproximación de la regla del trapecio para la integral es $O(h^3)$, el error de truncamiento local para este método es $O(h^2)$.
+
+Para evitar resolver la ecuación no lineal en el método del trapecio, se puede utilizar el método de Heun, que primero estima $y_{k + 1}$ utilizando el método de Euler y luego usa esta estimación en el lado derecho de \ref{eq: Greenbaum 11.18}:
+\[ \tilde{y}_{k + 1} = y_k + h f(t_k, y_k) \]
+\[ y_{k + 1} = y_k + \frac{h}{2} [f(t_k, y_k) + f(t_{k + 1}, \tilde{y}_{k + 1})] \]
+
+El método de Heun sigue una línea cuya pendiente es el promedio de la pendiente de la curva solución en $(t_k, y_k)$ y la pendiente de la curva solución en $(t_{k + 1}, \tilde{y}_{k + 1})$, donde $\tilde{y}_{k + 1}$ es el resultado de un paso con el método de Euler.
+
+\subsection{Método de Runge - Kutta}
+Los métodos Runge-Kutta tienen el error de truncamiento local de orden superior a los métodos de Taylor, pero eliminan la necesidad de calcular y evaluar las derivadas de $f(t,y)$.
+
+\begin{theorem}
+    Suponga que $f(t,y)$ y todas sus derivadas parciales de orden menor o igual a $n + 1$ son continuas en $D = {(t, y) | a \leq t \leq b, c \leq y \leq d}$ y si $(t_0, y_0) \in D$. Para cada $(t, y) \in D$, existe $\xi$ entre $t$ y $t_0$ y $\mu$ entre $y$ y $y_0$ con
+    \[ f(t, y) = P_n(t, y) + R_n(t, y) \] 
+    donde
+    \begin{multline*}
+        P_n(t,y) = f(t_0, y_0) + \bigg[ (t - t_0)\frac{\partial f}{\partial t}(t_0, y_0) + (y - y_0)\frac{\partial f}{\partial y}(t_0, y_0) \bigg] \\
+        + \bigg[ \frac{(t - t_0)^2}{2} \frac{\partial^2 f}{\partial t^2}(t_0, y_0) + (t - t_0)(y - y_0) \frac{\partial^2 f}{\partial t \partial y}(t_0, y_0) \\
+        + \frac{(y - y_0)^2}{2} \frac{\partial^2 f}{\partial y^2}(t_0, y_0) \bigg] + \dots \\
+        + \frac{1}{n!} \sum_{j = 0}^{n} \binom{n}{j} (t - t_0)^{n - j} (y - y_0)^j \frac{\partial^n f}{\partial t^{n - j} \partial y^j}(t_0, y_0).
+    \end{multline*}   
+    y \par
+    \resizebox{0.5 \textwidth}{!}{$ R_n(t,y) = \frac{1}{(n + 1)!} \sum_{j = 0}^{n + 1} \binom{n + 1}{j} (t - t_0)^{n + 1 - j}(y - y_0)^j \frac{\partial^{n + 1}f}{\partial t^{n + 1 - j} \partial y^j} (\xi, \mu) $ }
+\end{theorem}
+
+La función $P_n(t, y)$ recibe el nombre del emésimo polinomio de Taylor en dos variables para la función $f$ cerca de $(t_0, y_0)$, y $R_n(t, y)$ es el término restante asociado con $P_n(t, y)$.
+
+\subsubsection{Métodos de Runge-Kutta de orden 2}
+
+El primer paso para deducir un método Runge-Kutta es determinar los valores para $a_i, \alpha_1, \beta_1$ con la propiedad de que $a_1 f(t `\alpha_1, y + \beta_1)$ se aproxima a 
+\[ T^{(2)}(t, y) = f(t, y) + \frac{h}{2} f'(t, y) \]
+con error no mayor a $O(h^2)$, que es igual al orden del error de truncamiento local para el método de Taylor de orden 2. Ya que 
+\[ f'(t, y) = \frac{df}{dt}(t, y) = \frac{\partial f}{\partial t} (t, y) + \frac{\partial f}{\partial y} (t, y) \cdot y'(t)\]
+\[ y'(t) = f(t, y)\]
+tenemos
+\begin{equation}
+    \label{eq: Burden 5.18}
+    T^{(2)}(t, y) = f(t, y) + \frac{h}{2} \frac{\partial f}{\partial t} (t, y) + \frac{h}{2} \frac{\partial f}{\partial y} (t, y) \cdot f(t, y)
+\end{equation}
+
+Al expandir $f(t + \alpha_1, y + \beta_1)$ en su polinomio de Taylor de grado 1, cerca de $(t, y)$ obtenemos
+\begin{multline}
+    \label{eq: Burden 5.19}
+    \alpha_1 f(t + \alpha_1, y + \beta_1) = \alpha_1 f(t, y) + a_1 \alpha_1 \frac{\partial f}{\partial t} (t, y) \\
+    + a_1 \beta_1 \frac{\partial f}{\partial y} (t, y) + a_1 \cdot R_1 (t + \alpha_1, y + \beta_1)
+\end{multline}
+donde 
+\begin{equation}
+    \label{eq: Burden 5.20}
+    \resizebox{0.5\textwidth}{!}{
+        $ R_1(t + \alpha_1, y + \beta_1) = \frac{\alpha_1^2}{2} \frac{\partial^2 f}{\partial t^2} (\xi, \mu) + \alpha_1 \beta_1 \frac{\partial^2 f}{\partial t \partial y} (\xi, \mu) + \frac{\beta_1^2}{2} \frac{\partial^2 f}{\partial y^2} (\xi, \mu) $
+    }
+\end{equation}
+para algunas $\xi$ entre $t$ y $t + \alpha_1$ y $\mu$ entre $y$ y $y + \beta_1$.
+
+Al ajustar los coeficientes de $f$f y sus derivadas en las ecuaciones \ref{eq: Burden 5.18} y \ref{eq: Burden 5.19} obtenemos las tres ecuaciones
+\[f(t, y): a_1 = 1\]
+\[\frac{\partial f}{\partial t} (t, y): a_1 \alpha_1 = \frac{h}{2}\]
+\[\frac{\partial f}{\partial y}(t, y): a_1 \beta_1 = \frac{h}{2}f(t, y)\]
+
+Los parámetos son por tanto: $a_1 = 1$, $\alpha_1 = \frac{h}{2}$ y $\beta_1 = \frac{h}{2}f(t, y)$; por lo que 
+\resizebox{0.5 \textwidth}{!}{$T^{(2)}(t, y) = f \left( t + \frac{h}{2}, y + \frac{h}{2} f(t, y) \right) - R_1 \left( t + \frac{h}{2}, y + \frac{h}{2}f(t, y) \right)$}
+
+y, a partir de la ecuación \ref{eq: Burden 5.20}
+\begin{multline*}
+    R_1 \left( t + \frac{h}{2}, y + \frac{h}{2}f(t, y) \right) = \frac{h^2}{8} \frac{\partial^2 f}{\partial t^2} (\xi, \mu) + \\
+    \frac{h^2}{4} f(t, y) \frac{\partial^2 f}{\partial t \partial y} (\xi, \mu) + \frac{h^2}{8}(f(t, y))^2 \frac{\partial^2 f}{\partial y^2} (\xi, \mu)
+\end{multline*}
+
+Si todas las derivadas parciales de segundo orden de $f$ están acotadas, entonces
+\[ R_1 \left( t + \frac{h}{2}, y + \frac{h}{2} f(t, y) \right) \]
+es $O(h^2)$. En consecuencia, el orden de error para este nuevo método es igual al del método de Taylor de orden 2.
+
+El método de ecuación de diferencia que resulta de reemplazar $T^{(2)}(t, y)$ en el método de Taylor de orden 2 por $f(t + (h/2), y + (h/2)f(t,y))$ es un método Runge-Kutta específico, conocido como método de punto medio.
+
+\subsubsection{Método de punto medio}
+\[ w_0 = \alpha \]
+\[ w_{i + 1} = w_i + h f(t_i, w_i), \quad \forall i = 0, 1, ..., N - 1 \]
+
+Solamente se encuentran tres parámetros en $a_1 f(t + \alpha_1, y + \beta_1)$, y todos son necesarios para ajustar $T^{(2)}$. Por lo que se requiere una forma más complicada para satisfaces las condiciones para cualquier de los métodos de Taylor de orden superior.
+
+La forma de cuatro parámetros más adecuada para aproximar
+\[ T^{(3)} (t, y) = f(t, y) + \frac{h}{2} f'(t,y) + \frac{h}{6} f''(t, y) \]
+es
+\begin{equation}
+    \label{eq: Burden 5.21}
+    a_1 f(t, y) + a_2 f(t + \alpha_2, y + \delta_2 f(t, y))
+\end{equation}
+e incluso con esto, no hay suficiente flexibilidad para ajustar el término
+\[ \frac{h^2}{6} \left[ \frac{\partial f}{\partial y} (t, y) \right]^2 f(t, y) \]
+lo cual resulta en la expansión de $(h^2/6) f''(t, y)$. Por consiguiente, lo mejor que se puede obtener al usar \ref{eq: Burden 5.21} son métodos con error de truncamiento local $O(h^2)$.
+
+Sin embargo, el hecho de que \ref{eq: Burden 5.21} tenga cuatro parámetos proporciona una flexibilidad en su elección, por lo que se puede derivar una serie de métodos $O(h^2)$. Uno de los más importantes es el método modificado de Euler, que corresponde a seleccionar $a_1 = a_2 = \frac{1}{2}$ y $\alpha_2 = \delta_2 = h$. Éste tiene la siguiente forma de ecuación de diferencia.
+
+\subsubsection{Méotodo modificado de Euler}
+\[ w_0 = \alpha \]
+\[ w_{i + 1} = w_i + \frac{h}{2} \left[ f(t_i, w_i) + f(t_{i + 1}, w_i + hf(t_i, w_i)) \right]\]
+\[ \quad \forall i = 0, 1, ..., N - 1 \]
+
+\subsubsection{Métodos de Runge-Kutta de orden superior}
+El término $T^{(3)}(t, y)$ se puede aproximar con error $O(h^3)$ mediante una expresión de la forma
+\[ f(t + \alpha_1, y + \delta_1 f(t + \alpha 2, y + \delta_2 f(t, y))) \]
+relacionada con cuatro parámetros y el álgebra implicada en la determinaciónd de $\alpha_1$, $\delta_1$, $\alpha_2$ y $\delta_2$ es bastante tediosa. El método $O(h^3)$ más común es el de Heun, dado por 
+\[ w_0 = \alpha \]
+\resizebox{0.5 \textwidth}{!}{$w_{i + 1} = w_i + \frac{h}{4} \left[ f(t_i, w_i) + 3 \left( f \left( t_i + \frac{2h}{3}, w_i + \frac{2h}{3} f \left( t_i + \frac{h}{3}, w_i + \frac{h}{3} f(t_i, w_i) \right) \right) \right) \right]$}
+\[ \quad \forall i = 0, 1, ..., N - 1 \]
+
+En general, los métodos de Runge-Kutta de orden 3 no se usan. El método Runge-Kutta que se usa de manera común es de orden 4 en forma de ecuación de diferencia, dado como sigue.
+
+\subsubsection{Runge-Kutta de orden 4}
+
+\[w_0 = \alpha\]
+\[k_1 = hf(t_i, y_i)\]
+\[k_2 = hf\left( t_i + \frac{h}{2}, w_i + \frac{1}{2} k_1 \right)\]
+\[k_3 = hf \left( t_i + \frac{h}{2}, w_i + \frac{1}{2} k_2 \right)\]
+\[k_4 = h f(t_{i + 1}, w_i + k_3)\]
+\[w_{i + 1} = w_i + \frac{1}{6} (k_1 + 2 k_2 + 2 k_3 + k_4)\]
+para cada $i = 0, 1, ..., N-1$. Este método tiene error de truncamiento local $O(h^4)$, siempre y cuando la solución $y(t)$ tenga cinco derivadas continuas. Introducimos en el método la notación $k_1$, $k_2$, $k_3$ y $k_4$ para eliminar la necesidad de anidado sucesivo en la segunda variable de $f(t, y)$.
+
+\subsection{Analisis de métodos de un paso}
+
+Un método general explícito de un solo paso se puede escribir de la forma:
+\begin{equation}
+    \label{eq: Greenbaum 11.24}
+    y_{k + 1} = y_k + h \psi(t_k, y_k, h)
+\end{equation}
+\begin{itemize}
+    \item Método de Euler
+    \[ y_{k + 1} = y_k + h f(t_k, y_k) \rightarrow \psi(t, y, h) = f(t, y) \]
+    \item Método de Heun
+    \[ y_{k + 1} = y_k + \frac{h}{2} [f(t_k, y_k) + f(t_{k + 1}, y_k + h f(t_k, y_k))] \rightarrow \]
+    \[ \psi(t, y, h) = \frac{1}{2} [f(t, y) + f(t + h, y + h f(t, y))] \]
+    \item Método del Medio Punto
+    \[ y_{k + 1} = y_k + h f(t_{k + 1/2}, y_k + \frac{h}{2} f(t_k, y_k)) \rightarrow \]
+    \[ \psi(t, y, h) = f(t + \frac{h}{2}, y + \frac{h}{2} f(t, y)) \]
+\end{itemize}
+
+\begin{definition}
+    El método de un paso \ref{eq: Greenbaum 11.24} es consistente si $\lim_{h \rightarrow 0} \psi (t, y, h) = f(t, y)$
+\end{definition}
+
+\begin{definition}
+    El método de un paso \ref{eq: Greenbaum 11.24} es estable si existe una constante $K$ y un tamaño de paso $h_0 > 0$ tal que la diferencia entre las dos soluciones $y_n$ y $\tilde{y}_n$ con valores iniciales $y_0$ y $\tilde{y}_0$, respectivamente, satiface
+    \[ |y_n - \tilde{y}_n| \leq K |y_0 - \tilde{y}_0| \]
+    para $h \leq h_0$ y $nh \leq T - t_0$
+\end{definition}
+
+\begin{definition}
+    El error de truncamiento es 
+    \[ \tau(t, h) = \frac{y(t + h) - y(t)}{h} - \psi(t, y(t), h) \]
+\end{definition}
+
+Hemos visto que para el método de Euler, el error local de truncamiento es $O(h)$ y para el método de Heun y el método del medio punto el error local de truncamiento es $O(h^2)$
+
+\begin{theorem}
+    Si un método de un paso de la forma \ref{eq: Greenbaum 11.24} es estable y consistente y $|\tau(t, h)| \leq Ch^p$, entonces el error global está acotado por 
+    \[ \max_{k: t_0 + kh \leq T} |y_k - y(t_k)| \leq Ch^p \frac{e^{L(T - t_0)} - 1}{L} + e^{L(T - t_0)} |y_0 - y(t_0)|\]
+    donde $L$ es la constante de Lipschitz de $\psi$.
+\end{theorem}
+
+\begin{definition}
+    El método de un paso \ref{eq: Greenbaum 11.24} es convergente si, para todo PVI bien planteado, $\max_{k: t_k \in [t_o, T]} |y(t_k) - y_k| \rightarrow 0$ con $y_0 \rightarrow y(t_0)$ y $h \rightarrow 0$
+\end{definition}
+
+\section{Ecuaciones Stiff}
+Hasta ahora, nos hemos enfocado en lo que ocurre en el límite cuando \( h \to 0 \). Para que un método sea útil, ciertamente debe converger a la solución exacta conforme \( h \to 0 \). Sin embargo, en la práctica, utilizamos un tamaño de paso \( h \) fijo y no nulo, o al menos existe un límite inferior para \( h \) basado en el tiempo permitido para el cálculo y, posiblemente, en la precisión de la máquina, ya que, por debajo de cierto punto, los errores de redondeo comenzarán a causar inexactitudes. Por lo tanto, nos gustaría entender cómo se comportan los diferentes métodos con un tamaño de paso \( h \) fijo. Esto, por supuesto, dependerá del problema, pero deseamos usar métodos que proporcionen resultados razonables con un tamaño de paso \( h \) fijo para la mayor cantidad posible de clases de problemas.
+
+\subsection{Estabilidad Absoluta}
+Para analizar el comportamiento de un método con un tamaño de paso \( h \) particular, se podría considerar una ecuación de prueba muy simple:
+\begin{equation}
+    \label{eq: Greenbaum 11.41}
+    y' = \lambda y
+\end{equation}
+donde \( \lambda \) es una constante compleja. La solución es \( y(t) = e^{\lambda t} y(0) \). Ejemplos de soluciones se muestran en la figura 11.9 para los casos en que la parte real de \( \lambda \) es mayor que 0, igual a 0 y menor que 0. Nótese que \( y(t) \to 0 \) cuando \( t \to \infty \) si y solo si \( \text{Re}(\lambda) < 0 \), donde \( \text{Re}(\cdot) \) denota la parte real.
+
+\begin{definition}
+    La región de estabilidad absoluta de un método es el conjunto de todos los números \( h\lambda \in \mathbb{C} \) tales que \( y_k \to 0 \) cuando \( k \to \infty \), al aplicar el método a la ecuación de prueba \ref{eq: Greenbaum 11.41} usando un tamaño de paso \( h \).
+\end{definition}
+
+\begin{definition}
+    Un método es \( A \)-estable si su región de estabilidad absoluta contiene todo el semiplano izquierdo.
+\end{definition}
+
+\subsection{Métodos de Runge–Kutta Implícitos (IRK)}
+
+Otra clase de métodos útiles para ecuaciones rígidas son los métodos de Runge–Kutta implícitos (IRK). Estos tienen la forma:
+\begin{equation}
+    \xi_j = y_k + h \sum_{i=1}^{v} a_{ij} f(t_k + c_i h, \xi_i) \quad j = 1, \dots, v
+\end{equation}
+\begin{equation}
+    y_{k + 1} = y_k + h \sum_{j=1}^{v} b_j f(t_k + c_j h, \xi_j), 
+\end{equation}
+donde los valores \( a_{ij} \), \( b_j \) y \( c_j \) pueden elegirse arbitrariamente, pero para garantizar la consistencia se requiere que:
+\[\sum_{i = 1}^{v} a_{ji} = c_j, \quad j = 1,..., v\]
+
+Se puede demostrar que para cada \( \nu \geq 1 \), existe un único método IRK de orden \( 2\nu \), y este es \( A \)-estable. El método IRK de orden \( 2\nu \) se obtiene tomando los valores \( c_1, \dots, c_\nu \) como las raíces del \( \nu \)-ésimo polinomio ortogonal en \([0, 1]\). 
+
+El método IRK de orden 2 (\( \nu = 1 \)) es el método del trapecio \ref{eq: Greenbaum 11.18}. El método IRK de orden 4 (\( \nu = 2 \)) tiene \( c_1 = 1/2 - \sqrt{3} / 6\) y \( c_2 = 1/2 + \sqrt{3} / 6\) como las raíces del segundo polinomio ortogonal en \([0, 1]\), y los demás parámetros se derivan para garantizar la precisión de cuarto orden.

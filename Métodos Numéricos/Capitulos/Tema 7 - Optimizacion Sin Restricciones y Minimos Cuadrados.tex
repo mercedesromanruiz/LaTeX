@@ -1,0 +1,109 @@
+\chapter{Optimización Sin Restricciones y Mínimos Cuadrados}
+\section{Optimización Sin Restricciones}
+
+El punto $x^* \in \mathbb{R}^n$ es un minimizador global de f, mientras que $x^*$ es un minimizador local de $f$ si existe $R > 0$ tal que
+\[ f(x^*) \leq f(x), \quad \forall x \in B (x^*; R) \]
+A lo largo de esta sección, siempre asumiremos que $f \in C^1(\mathbb{R}^n)$. Denotaremos por
+\[ \nabla f(x) = \left( \frac{\partial f}{\partial x_1} (x), ..., \frac{\partial f}{\partial x_n} (x) \right)^T \]
+el gradiente de $f$ en un punto $x$. Si $d$ es un vector distinto de cero en $\mathbb{R}^n$ entonces la derivada direccional de $f$ respecto a $d$ es
+\[ \frac{\partial f}{\partial d}(x) = \lim_{\alpha \rightarrow \infty} \frac{f(x + \alpha f) - f(x)}{\alpha} \]
+y satisface
+\[ \frac{\partial f(x)}{\partial d} = \nabla f(x)^T d \]
+
+Además, denotando por $(x, x + \alpha d)$ el segmento en $\mathbb{R}^n$ que une los puntos $x$ y $x + \alpha d$, con $\alpha \in \mathbb{R}$, la expansión de Taylor asegura que existe un $\xi \in (x, x + \alpha d)$ tal que
+\begin{equation}
+    \label{eq: Quarteroni 7.20}
+    f(x + \alpha d) - f(x) = \alpha \nabla f(\xi)^T d
+\end{equation}
+
+Si $f \in C^2(\mathbb{R}^n)$, denotaremos por $H(x)$ (o $\nabla^2 f(x)$) la matriz Hessiana de $f$ evaluada en un punto $x$, cuyos elementos son
+\[ h_{ij} = \frac{\partial^2 f(x)}{\partial x_i \partial x_j}, \quad i, j = 1, ..., n \]
+
+En tal caso, se puede demostrar que, si $d \neq 0$, existe la derivada direccional de segundo orden y tenemos 
+\[ \frac{\partial^2 f}{\partial d^2} (x) = d^T H(x) d \]
+
+Para un $\xi$ adecuado en $(x, x + d)$, también tenemos
+\[ f(x + d) - f(x) = \nabla f(x)^T d + \frac{1}{2} d^T H(\xi) d \]
+
+\begin{property}
+    Sea $x^* \in \mathbb{R}^n$ un minimizador local de $f$ y supongamos que $f \in C^1(B(x^*; R))$ para un $R > 0$ adecuado. Entonces $\nabla f(x^*) = 0$. Además, si $f \in C^2(B(x^*; R))$, entonces $h(x^*)$ es semidefinida positiva. Por el contrario, si $\nabla f(x^*) = 0$ y $H(x^*)$ es definida positiva, entonces $x^*$ es un minimizador local de $f$ en $B(x^*; R)$.
+\end{property}
+
+Un punto $x^*$ tal que $\nabla f(x^*) = 0$ se dice que es un punto crítico de $f$. Esta condición es necesaria para que se cumpla la optimalidad. Sin embargo, esta condición también se vuelve suficiente si $f$ es una función convexa en $\mathbb{R}^n$, es decir, tal que para todo $x, y \in \mathbb{R}^n$ y para cualquier $\alpha \in [0, 1]$,
+\begin{equation}
+    \label{eq: Quarteroni 7.21}
+    f[\alpha x + (1 - \alpha) y] \leq \alpha f(x) + (1 - \alpha)f(y)
+\end{equation}
+
+\subsection{Métodos de descenso}
+Dado un vector inicial $x^{(0)} \in \mathbb{R}^n$, calcular para $k \geq 0$ hasta la convergencia
+\begin{equation}
+    \label{eq: Quarteroni 7.25}
+    x^{(k + 1)} = x^{(k)} + \alpha_k d^{(k)}
+\end{equation}
+donde $d(k)$ es una dirección elegida de manera apropiada y $\alpha_k$ es un parámetro positivo (llamado tamaño de paso) que mide el paso a lo largo de la dirección $d(k)$. Esta dirección $d(k)$ es una dirección de descenso si
+
+\begin{equation}
+    \label{eq: Quarteroni 7.26}
+    \begin{aligned}
+        d^{(k)} \nabla f(x^{(k)}) &< 0 \quad \text{si} \quad \nabla f(x^{(k)}) \neq 0, \\
+        d^{(k)} &= 0 \quad \text{si} \quad \nabla f(x^{(k)}) = 0.
+    \end{aligned}
+\end{equation}
+
+Un método de descenso es un método como \ref{eq: Quarteroni 7.25}, en el que los vectores $d(k)$ son direcciones de descenso.
+
+Si $d_k \in \mathbb{R}^n$ es una dirección de descenso, entonces existe $\alpha_k > 0$, suficientemente pequeña, tal que
+\begin{equation}
+    \label{eq: Quarteroni 7.27}
+    f(x^{(k)} + \alpha_k d^{(k)}) < f(x^{(k)}) 
+\end{equation}
+siempre que $f$ sea diferenciable de manera continua. De hecho, tomando en \ref{eq: Quarteroni 7.20} $\xi = x^{(k)} + \vartheta \alpha_k d^{(k)}$ con $\vartheta \in (0, 1)$, y empleando la continuidad de $\bigtriangledown f$ obtenemos
+\begin{equation}
+    \label{eq: Quarteroni 7.28}
+    f(x^{(k)} + \alpha_k d^{(k)}) - f(x^{(k)}) = \alpha_k \bigtriangledown f(x^{(k)})^T d^{(k)} + \epsilon
+\end{equation}
+donde $\epsilon$ tiende a cero cuando $\alpha_k$ tiende a cero. Como consecuencia, si $\alpha_k > 0$ es suficientemente pequeño, el signo del lado izquierdo de \ref{eq: Quarteroni 7.28} coincide con el signo de $\bigtriangledown f(x^{(k)})^T d^{(k)}$, de modo que \ref{eq: Quarteroni 7.27} se satisface si $d^{(k)}$ es una dirección de descenso. 
+
+Diferentes elecciones de $d^{(k)}$ corresponden a diferentes métodos. En particular, recordamos los siguientes:
+\begin{itemize}
+    \item El método de Newton, en el que
+    \[ d^{(k)} = - H^{-1} (x^{(k)}) \bigtriangledown f(x^{(k)}) \]
+    siempre que $H$ sea definida positiva dentro de un vecindario suficientemente grande del punto $x^*$.
+    \item Métodos de Newton inexactos, en lo que
+    \[ d^{(k)} = - B_k^{-1} \bigtriangledown f(x^{(k)}) \]
+    donde $B_k$ es una aproximación adecuada de $H(x^{(k)})$.
+    \item El método del gradiente o método del máximo descenso, que corresponde a establecer $ d^{(k)} = - \bigtriangledown f(x^{(k)}) $. Este método es, por lo tanto, un método de Newton inexacto, en el que $B_k = I$. También puede considerearse un método tipo gradiente, ya que $d^{(k)^T} \bigtriangledown f(x^{(k)}) = - \| \bigtriangledown f(x^{(k)}) \|^2_2$
+    \item El método del gradiente conjugado, para el cual
+    \[ d^{(k)} = - \bigtriangledown f(x^{(k)}) + \beta_k d^{(k-1)}\]
+    donde $\beta_k$ es un escalar que se selecciona adecuadamente de manera que las direcciones $d^{(k)}$ resulten ser mutuamente ortogonales con respecto a un producto escalar adecuado.
+\end{itemize}
+
+Un método para calcular $\alpha_k$ consiste en resolver el siguiente problema de minimización en una dimensión:
+\begin{equation}
+    \label{eq: Quarteroni 7.29}
+    \text{enc. } \alpha \text{ tal que } \phi(\alpha) = f(x^{(k)} + \alpha d^{(k)}) \text{ sea minimizado}
+\end{equation}
+En tal caso, tenemos el siguiente resultado.
+
+\begin{theorem}
+    Considerando el método de descenso \ref{eq: Quarteroni 7.25}, si en el paso genérico \( k \), el parámetro \( \alpha_k \) se establece igual a la solución exacta de \ref{eq: Quarteroni 7.29}, entonces se cumple la siguiente propiedad de ortogonalidad:
+\[ \nabla f(x^{(k+1)})^T d^{(k)} = 0 \]
+\end{theorem}
+
+\subsection{Técnicas de búsqueda en línea}
+
+Los métodos con los que vamos a tratar en esta sección son técnicas iterativas que terminan tan pronto como se satisface algún criterio de detención basado en la precisión de \( \alpha_k \).
+
+La experiencia práctica revela que no es necesario resolver con precisión el problema (7.29) para desarrollar métodos eficientes. En cambio, es crucial imponer alguna limitación sobre las longitudes de paso (y, por lo tanto, sobre los valores admisibles para \( \alpha_k \)). De hecho, sin introducir ninguna limitación, una solicitud razonable sobre \( \alpha_k \) sería que el nuevo iterado \( x^{(k+1)} \) cumpla la desigualdad
+
+\begin{equation}
+    \label{eq: Quarteroni 7.30}
+    f(x^{(k+1)}) < f(x^{(k)})
+\end{equation}
+donde \( x^{(k)} \) y \( d^{(k)} \) se han fijado. Con este propósito, el procedimiento basado en comenzar con un valor (suficientemente grande) de la longitud de paso \( \alpha_k \) y reducir este valor a la mitad hasta que se cumpla \ref{eq: Quarteroni 7.30}, puede dar lugar a resultados completamente erróneos.
+
+
+
+\subsection{Métodos tipo Newton para la minimización de funciones}
+

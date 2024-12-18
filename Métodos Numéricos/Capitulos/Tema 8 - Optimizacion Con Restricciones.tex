@@ -1,0 +1,178 @@
+\chapter{Optimización Con Restricciones}
+
+\section{Introducción}
+
+El caso más simple de optimización con restricciones se puede formular de la siguiente manera. Dada una función $f: \mathbb{R}^n \rightarrow R$,
+\begin{equation}
+    \label{eq: Quarteroni 7.47}
+    minimize \quad f(x), \quad \text{ con } x \in \Omega \subset \mathbb{R}^n
+\end{equation}
+Más precisamente, se dice que un punto $x^*$ es un minimizador global en $\Omega$ si satisface \ref{eq: Quarteroni 7.47}, mientras que es un minimizador local si $\exists R > 0 $ tal que
+\[ f(x^*) \leq f(x), \quad \forall x \in B(x^*; R) \subset \Omega \]
+
+La existencia de soluciones para el problema \ref{eq: Quarteroni 7.47} está, por ejemplo, asegurada por el Teorema de Weiertrass, en el caso en que $f$ sea continua y $\Omega$ sea un conjunto cerrado y acotado. Bajo la suposición de que $\Omega$ es un conjunto convexo, se cumplen las siguientes condiciones de optimalidad.
+
+\begin{property}
+    Sea $\Omega \subset \mathbb{R}^n$ y $f \in C^1(B(x^*; R))$, para una $R > 0$ adecuado. Entonces:
+    \begin{enumerate}
+        \item Si $x^*$ es un minimizador local de $f$, entonces:
+        \begin{equation}
+            \bigtriangledown f(x^*)^T(x - x^*) \geq 0, \quad \forall x \in \Omega
+        \end{equation}
+        \item Además, si $f$ es convexa en $\Omega$, entonces $x^*$ es un minimizador global de $f$.
+    \end{enumerate}
+\end{property}
+
+\begin{property}
+    Sea $\Omega \subset \mathbb{R}^n$ un conjunto cerrado y convexo, y sea $f$ una función fuertemente convexa en $\Omega$. Entonces, existe un único minimizador local $x^* \in \Omega$
+\end{property}
+
+Un caso notable de \ref{eq: Quarteroni 7.47} es el siguiente problema: dada $f: \mathbb{R}^n \rightarrow \mathbb{R}$
+\begin{equation}
+    \label{eq: Quarteroni 7.50}
+    minimize \quad f(x), \text{ bajo la restricción de que } h(x) = 0
+\end{equation}
+donde $h: \mathbb{R}^n \rightarrow \mathbb{R}$, con $m \leq n$, es una función dada con componentes $h_1, ..., h_m$. Los analogos de los puntos críticos en el problema \ref{eq: Quarteroni 7.50} se denominan puntos regulares.
+
+\begin{definition}
+    Un punto $x^* \in \mathbb{R}^n$, tal que $h(x^*) = 0$, se dice que es regular si los vectores de la matriz Jacobiana $J_h(x^*)$ son linealmente independientes, asumiendo que $h_i \in C^2(B(x^*; R))$, para un $R > 0$ adecuado y $i = 1,..., m$
+\end{definition}
+
+Nuestro objetivo ahora es convertir el problema \ref{eq: Quarteroni 7.50} en un problema de minimización sin restricciones. % de la forma (7.2), al cual se pueden aplicar los métodos introducidos en la seccion 7.2
+
+Por ese motivo, introducimos la función del Lagrangiano $\mathcal{L} : \mathbb{R}^n \times \mathbb{R^m} \rightarrow \mathbb{R}$
+\[ \mathcal{L}(x, \lambda) = f(x) + \lambda^T h(x) \]
+donde el vector $\lambda$ se conoce como multiplicador de Lagrange. Además, denotemos por $J_\mathcal{L}$ la matriz Jacobiana asociada a $\mathcal{L}$, pero donde las derivadas parciales se toman únicamente con respecto a las variables $x_1, ..., x_n$.
+
+\begin{property}
+    Sea $x^*$ un minimizador local para \ref{eq: Quarteroni 7.50} y suponiendo que, para un $R > 0$ adecuado, $f, h_i \in C^1(B(x^*; R))$, para $i = 1,...,m$. Entonces, existe un vector único $\lambda^* \in \mathbb{R}^m$ tal que $J_\mathcal{L} (c^*, \lambda^*) = 0$.
+
+    Por el contrario, supongamos que $x^* \in \mathbb{R}^n$ satisface $h(x^*) = 0$ y que, para un $R > 0$ adecuado y $i = 1, ..., m$, $f, h_i \in X^2(B(x^*; R))$. Sea $H_\mathcal{L}$ la matriz de entradas $\frac{\partial^2 \mathcal{L}}{\partial x_i \partial x_j}$ para $i, j = 1,..., n$. Si existe un vector $\lambda^* \in \mathbb{R}^m$ tal que $J_\mathcal{L}(x^*, \lambda^*) = 0$ y 
+    \[ z^T H_\mathcal{L}(x^*, \lambda^*) z > 0 \quad \forall z \neq 0, \quad \text{con } \bigtriangledown h(x^*)^T z = 0\]
+    entonces $x^*$ es un minimizador estricto local de \ref{eq: Quarteroni 7.50}.
+\end{property}
+
+La última clase de problemas que vamos a tratar incluye el caso en el que también están presentes restricciones de desigualdad, es decir: dado $f: \mathbb{R}^n \rightarrow \mathbb{R}$,
+\begin{equation}
+    \label{eq: Quarteroni 7.51}
+    minimize f(x), \text{ bajo la restricción } h(x) = 0 \text{ y } g(x) \leq 0
+\end{equation}
+donde $h: \mathbb{R}^n \rightarrow \mathbb{R}^m$, con $m \leq n$, y $g: \mathbb{R}^n \rightarrow \mathbb{R}^r$ son dos funciones dadas. Se entiende que $g(x) \leq 0$ significa que $g_i(x) \leq 0$ para $i = 1, ..., r$. Las restricciones de desigualdad generan una complicación formal adicional con respecto al caso examinado previamente, pero no impiden convertir la solución de \ref{eq: Quarteroni 7.51} en la minimización de una función Lagangiana adecuada.
+
+\begin{definition}
+    Supongamos que $h_i, g_j \in C^1(B(x^*; R))$ para un $R > 0$ adecuado,  con $i = 1, ..., m$ y $j = 1, ..., r$, y denotemos por $J(x^*)$ el conjunto de índices $j$ tales que $g_j (x^*) = 0$. Un punto $x^* \in \mathbb{R}^n$ tal que $h(x^*) = 0$ y $g(x^*) \leq 0$ se dice que es regular si los vectores columna de la matriz Jacobiana $J_h(x^*)$ junto con los vectores $\bigtriangledown g_j (x^*), j \in \mathcal{J}(x^*)$, forman un conjunto de vectores linealmente independientes.
+\end{definition}
+
+\section{Condiciones necesarias de Kuhn-Tucker para la programación no lineal}
+
+En esta sección recordamos algunos resultados, conocidos como las condiciones de Kuhn-Tucker, que aseguran en general la existencia de una solución local para el problema de programación no lineal. Bajo suposiciones adecuadad, también garantizan la existencia de una solución global. A lo largo de esta sección suponemos que un problema de minimización siempre se puede reformular como un problema de maximización.
+
+Consideremos el problema general de programación no lineal:
+\begin{align}
+    \label{eq: Quarteroni 7.52}
+    \text{dada } f: \mathbb{R}^n \rightarrow \mathbb{R} \notag \\ 
+    maximize \quad f(x), \text{ sujeto a } \notag \\
+    g_i(x) \leq b_i, \quad i = 1, ..., l \notag \\
+    g_i(x) \geq b_i, \quad i = l + 1, ..., k \\
+    g_i(x) = b_i, i = k + 1, ..., m \notag \\
+    x \geq 0 \notag 
+\end{align}
+
+Un vector $x$ que satisface las restricciones anteriores se llama una solución factible de \ref{eq: Quarteroni 7.52} y el conjunto de las soluciones factibles se llama la región factible. Suponemos en adelante que $f, g_i \in C^1(\mathbb{R}^n)$, con $i = 1,...,m$ y definimos conjuntos $I_= = {i: g_i(x^*) = b_i}$, $I_\neq = {i: g_i(x^*) \neq b_i}$, $J_= = {i: x_i^* = 0}$, $J_> = {i: x_i^* > 0}$, denotando por $x^*$ un maximizador local de $f$. Asociamos con \ref{eq: Quarteroni 7.52} el siguiente Lagrangiano
+\[ \mathcal{L}(x, \lambda) = f(x) + \sum_{i = 1}^{m} \lambda_i [b_i - g_i(x)] - \sum_{i = m + 1}^{m+ n} \lambda_i x_{i - m} \]
+
+\begin{property}
+    Si $f$ tiene un máximo local restringido en el punto $x = x^*$, es necesario que el vector $\lambda^* \in \mathbb{R}^{m + 1}$ exista tal que (primera condición de Kuhn-Tucker):
+    \[ \triangledown _x \mathcal{L}(x^*, \lambda^*) \leq 0 \]
+    donde se cumple igualdad estricta para componente $i \in J_>$. Además (segunda condición de Kuhn-Tucker):
+    \[ \triangledown_x \mathcal{L} (x^*, \lambda^*)^T x^* = 0 \]
+    La tercera condición de Kuhn-Tucker requiere que:
+    \begin{align*}
+        & \triangledown_\lambda \mathcal{L}(x^*, \lambda^*) \geq 0 \quad i = 1,...l \\
+        & \triangledown_\lambda \mathcal{L}(x^*, \lambda^*) \leq 0 \quad i = l + 1,...k \\
+        & \triangledown_\lambda \mathcal{L}(x^*, \lambda^*) = 0 \quad i = k + 1,...m
+    \end{align*}
+    Además (cuarta condición de Kuhn-Tucker):
+    \[ \triangledown _x \mathcal{L}(x^*, \lambda^*)^T x^* =  0 \]
+\end{property}
+
+\begin{property}
+    Supongamos que la función \( f \) en \ref{eq: Quarteroni 7.52} es una función cóncava (es decir, \( -f \) es convexa) en la región factible. Supongamos también que el punto \( (x^*, \lambda^*) \) satisface todas las condiciones necesarias de Kuhn-Tucker y que las funciones \( g_i \) para las cuales \( \lambda^*_i > 0 \) son convexas, mientras que aquellas para las cuales \( \lambda^*_i < 0 \) son cóncavas. Entonces, \( f(x^*) \) es el máximo global restringido de \( f \) para el problema \ref{eq: Quarteroni 7.52}.
+\end{property}
+
+\section{Método del Penalti}
+
+La idea básica de este método es eliminar, parcial o completamente, las restricciones para transformar el problema restringido en uno no restringido. Este nuevo problema se caracteriza por la presencia de un parámetro que proporciona una medida de la precisión con la que se impone efectivamente la restricción.
+
+Consideremos el problema restringido \ref{eq: Quarteroni 7.50}, suponiendo que buscamos la solución \( x^* \) únicamente en \( \Omega \subset \mathbb{R}^n \). Supongamos que dicho problema admite al menos una solución en \( \Omega \) y lo escribimos en la siguiente forma penalizada:
+\begin{equation}
+    \label{eq: Quarteroni 7.53}
+    minimize \quad \mathcal{L}_\alpha(x) \quad \text{ para } x \in \Omega
+\end{equation}
+donde
+\[ \mathcal{L}_\alpha(x) = f(x) + \frac{1}{2} \alpha \| h(x) \|_2^2 \]
+
+La función \( \mathcal{L}_\alpha : \mathbb{R}^n \to \mathbb{R} \) se llama el Lagrangiano penalizado, y \( \alpha \) se llama el parámetro de penalización. Es claro que si la restricción se satisficiera exactamente, entonces minimizar \( f \) sería equivalente a minimizar \( \mathcal{L}_\alpha \).
+
+El método de penalización es una técnica iterativa para resolver \ref{eq: Quarteroni 7.53}.
+
+Para $k = 0, 1,...$, hasta la convergencia, se debe resolver la secuancia de problemas:
+\begin{equation}
+    \label{eq: Quarteroni 7.54}
+    minimize \quad \mathcal{L}_{\alpha_k}(x) \quad \text{ con } x \in \Omega
+\end{equation}
+donde ${\alpha_k}$ es una secuencia monótamente creciente de parámetros de penalización positivos, tal que $\alpha_k \rightarrow \infty$ cuando $k \rightarrow \infty$.
+
+Como consecuencia, después de elegir $\alpha_k$, en cada paso del proceso de penalizaciónd ebemos resolver un problema de minimización con respecto a la variable $x$, lo que da lugar a una seguencia de valores $x_k^*$, soluciones de \ref{eq: Quarteroni 7.54}. Al hacer esto, la función objetivo $\mathcal{L}_{\alpha_k} (x)$ tiende a infinito, a menos que $h(x)$ sea igual a cero.
+
+Los problemas de minimización pueden ser resueltos luego mediante uno de los métodos introducidos en el capítulo anterior. La siguiente propiedad garantiza la convergencia del método de penalización en la forma \ref{eq: Quarteroni 7.53}.
+
+\begin{property}
+    Supongamos que $f: \mathbb{R^n} \rightarrow \mathbb{R}$ y $h: \mathbb{R}^n \rightarrow \mathbb{R}^m$, con $m \leq n$, son funciones continuas en un conjunto cerrado $\Omega \subset \mathbb{R}^n$ y supongamos que la secuencia de parámetros de penalización $\alpha_k > 0$ es monótamente divergente. Finalmente, sea $x_k^*$ el minimizador global del problema \ref{eq: Quarteroni 7.54} en el paso $k$. Entonces, al tomar el límite cuando $k \rightarrow \infty$, la secuencia $x_k^*$ converge a $x^*$, que es un minimizador global de $f$ en $\Omega$ y satisface la restricción $h(x^*) = 0$.
+\end{property}
+
+En cuanto a la selección de parámetros $\alpha_k$, se puede demostrar que valores grandes de $\alpha_k$ hacen que el problema de minimización \ref{eq: Quarteroni 7.54} esté mal condicionado, lo que hace que su solución sea bastante costosa, a menos que la suposición inicial esté particularmente cerca de $x^*$. Por otro lado, la secuencia $\alpha_k$ no debe crecer demasiado lentamente, ya que esto afectaría negativamente la convergencia global del método.
+
+Una elección que se hace comúnmente en la práctica es seleccionar un valor no demasiado grande $\alpha_0$ y luego establecer $\alpha_k = \beta \alpha_{k - 1}$ para $k > 0$ donde $\beta$ es un número entero entre 4 y 10.
+
+\section{Método de los multiplicadores de Lagrange}
+
+Una variante del método de penalización hace uso de la función Lagrangiana aumentada $\mathcal{G}_\alpha : \mathbb{R}^n \times \mathbb{R}^m \rightarrow \mathbb{R}$ dada por
+\begin{equation}
+    \label{eq: Quarteroni 7.55}
+    \mathcal{G}_\alpha (x, \lambda) = f(x) + \lambda^T h(x) + \frac{1}{2} \alpha \| h(x) \|_2^2
+\end{equation}
+donde $\lambda \in \mathbb{R}^m$ es un multiplicador de Lagrange. Claramente, si $x^*$ es una solución del problema \ref{eq: Quarteroni 7.50}, entonces también será solución de \ref{eq: Quarteroni 7.55}, pero con la ventaja, respecto a \ref{eq: Quarteroni 7.53}, de disponeer de un grado de libertad adicional $\lambda$. El método de penalización aplicado a \ref{eq: Quarteroni 7.55} se formula de la siguiente manera: para $k = 0,1...$, hasta la convergencia, resolver la secuencia de problemas
+\begin{equation}
+    \label{eq: Quarteroni 7.56}
+    minimize \quad \mathcal{G}_{\alpha_k} (x, \lambda_k) \text{ para } x \in \Omega
+\end{equation}
+donde ${\alpha_k}$ es una secuencia acotada de vectores desconocidos en $\mathbb{R}^m$, y los parámetros $\alpha_k$ se definen como antes.
+
+En cuanto a la elección de los multiplicadores, la secuencia de vectores $\lambda_k$ se asigna típicamente mediante la siguiente fórmula:
+\[ \lambda_{k + 1} = \lambda_k + \alpha_k h (x^{(k)}) \]
+donde $\lambda_0$ es un valor dado, mientras que la secuencia de $\alpha_k$ puede establecerse a priori o modificarse durante la ejecución.
+
+En lo que respecta a las propiedades de convergencia del método de los multiplicadores de Lagrange, se cumple el siguiente resultado local.
+
+\begin{property}
+    Supongamos que $x^*$ es un minimizador local estricto regular del problema \ref{eq: Quarteroni 7.50} y que:
+    \begin{enumerate}
+        \item $f, h_i \in C^2 (B (x^*; R))$ con $i = 1,..., m$ y para un $R > 0$ adecuado.
+        \item El par $(x^*, \lambda^*)$ satisface $z^T H_{\mathcal{G}_0} (x^*, \lambda^*) z > 0$, $\forall z \neq 0$ tal que $J_h(x^*)^T z = 0$
+        \item Existe un $\overline{\alpha} > 0$ tal que $H_{\mathcal{G}_{\overline{\alpha}}} (x^*, \lambda^*) > 0$
+    \end{enumerate}
+
+    Entonces, existen tres escalares positivos $\delta$, $\gamma$ y $M$ tal que, para cualquier par $(\lambda, \alpha) \in V = \{ (\lambda, \alpha) \in \mathbb{R}^{m + 1} : \|\lambda - \lambda^*\|_2 < \delta \alpha, \alpha \geq \overline{\alpha} \}$, el problema
+    \[ minimize \quad \mathcal{G}_\alpha (x, \lambda), \text{ para } x \in B(x^*; \gamma) \]
+    admite una solución única $x(\lambda, \alpha)$, diferenciable con respecto a sus argumentos. Además, para todo $(\lambda, \alpha) \in V$
+    \[ \| x(\lambda, \alpha) - x^* \|_2 \leq M \| \lambda - \lambda^* \|_2 \]
+\end{property}
+
+Bajo suposiciones adicionales se puede demostrar que el método de los multiplicadores de Lagrange converge. Además, si $\alpha_k \rightarrow \infty$ cuando $k \rightarrow \infty$, entonces
+\[ \lim_{k \rightarrow \infty} \frac{\| \lambda_{k + 1} - \lambda^* \|_2}{\| \lambda_k - \lambda^* \|_2} = 0 \]
+y la convergencia del método es más que lineal.
+
+En el caso en que la secuencia $\alpha_k$ tenga una cota superior, el método converge linealmente.
+
+Finalmente, cabe señalar que, a diferencia del método de penalización, ya no es necesario que la secuencia $\alpha_k$ tienda a infinito. Esto, a su vez, limita el mal condicionamiento del problema \ref{eq: Quarteroni 7.56} a medida que $\alpha_k$ crece. Otra ventaja se refiere a la tasa de convergencia del método, que resulta ser independiente de la tasa de crecimiento del parámetro de penalización en el caso de la técnica de los multiplicadores de Lagrange. Esto, por supuesto, implica una reducción considerable del coste computacional.
