@@ -435,3 +435,38 @@ donde los valores \( a_{ij} \), \( b_j \) y \( c_j \) pueden elegirse arbitraria
 Se puede demostrar que para cada \( \nu \geq 1 \), existe un único método IRK de orden \( 2\nu \), y este es \( A \)-estable. El método IRK de orden \( 2\nu \) se obtiene tomando los valores \( c_1, \dots, c_\nu \) como las raíces del \( \nu \)-ésimo polinomio ortogonal en \([0, 1]\). 
 
 El método IRK de orden 2 (\( \nu = 1 \)) es el método del trapecio \ref{eq: Greenbaum 11.18}. El método IRK de orden 4 (\( \nu = 2 \)) tiene \( c_1 = 1/2 - \sqrt{3} / 6\) y \( c_2 = 1/2 + \sqrt{3} / 6\) como las raíces del segundo polinomio ortogonal en \([0, 1]\), y los demás parámetros se derivan para garantizar la precisión de cuarto orden.
+
+\section*{Ejercicios}
+\noindent (1) Probar que los siguientes problemas de valor inicial están bien planteados:
+
+a) $y' = -ty + 4t/y \quad 0 \leq t \leq 1 \quad y(0) = 1$
+
+b) $y' = t^2 y + 1 \quad 0 \leq t \leq 1 \quad y(0) = 1$
+
+c) $y' = t - y \quad 0 \leq t \leq 1 \quad y(0) = 1$
+
+d) $y' = ty \quad 0 \leq t \leq 1 \quad y(0) = 1$
+
+\noindent (2) Consultar la entrada List of Runge-Kutta methods en Wikipedia y escirbir el método de Runge-Kutta para varias tablas de Butcher.
+
+\noindent (3) Utilizar el método de Euler y los métodos de Runge-Kutta de orden 2 y orden 4 vistos en clase para aproximar la solución de los siguientes PVI:
+
+a) $y' = (y/t)^2 + y/t \quad 1 \leq t \leq 1.2 \quad y(1) = 1$
+
+b) $y' = sin t + e^{-t} \quad 0 \leq t \leq 1 \quad y(0) = 0$
+
+c) $y' = \frac{1}{t} (y^2 + y) \quad 0 \leq t \leq 3 \quad y(1) = -2$
+
+d) $y' = t^2 \quad 0 \leq t \leq 2 \quad y(0) = 0$
+
+Además, aproximar las soluciones, en cada caso, con el comando ode45 de Matlab y decidir que método es más preciso.
+
+\noindent (4) Utilizar los métodos de Runge-Kutta de orden 2 y 4 vistos para resolver los siguiente problemas de valor inicial:
+
+a) $t^2 y'' - 2 t y' + 2y = t^3 lnt \quad 1 \leq t \leq 2 \quad y(1) = 1 \quad y'(1) = 0$
+
+b) $y''' + 2 y'' - y ' - 2y = e^t \quad 0 \leq t \leq 3 \quad y(0) = 1 \quad y'(0) = 2 \quad y''(0) = 0$
+
+\noindent (5) Probar que el método de Runge-Kutta de orden 4 es estable mostando que cuando se escribe de la forma 
+\[ y_{k + 1} = y_k + \psi (t_k, y_k, h) \]
+entonces $\psi$ satisface la condición de Lipschitz para $y$.

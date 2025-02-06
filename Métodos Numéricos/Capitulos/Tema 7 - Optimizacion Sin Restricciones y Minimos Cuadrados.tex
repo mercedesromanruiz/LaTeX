@@ -96,14 +96,152 @@ En tal caso, tenemos el siguiente resultado.
 Los métodos con los que vamos a tratar en esta sección son técnicas iterativas que terminan tan pronto como se satisface algún criterio de detención basado en la precisión de \( \alpha_k \).
 
 La experiencia práctica revela que no es necesario resolver con precisión el problema (7.29) para desarrollar métodos eficientes. En cambio, es crucial imponer alguna limitación sobre las longitudes de paso (y, por lo tanto, sobre los valores admisibles para \( \alpha_k \)). De hecho, sin introducir ninguna limitación, una solicitud razonable sobre \( \alpha_k \) sería que el nuevo iterado \( x^{(k+1)} \) cumpla la desigualdad
-
 \begin{equation}
     \label{eq: Quarteroni 7.30}
     f(x^{(k+1)}) < f(x^{(k)})
 \end{equation}
 donde \( x^{(k)} \) y \( d^{(k)} \) se han fijado. Con este propósito, el procedimiento basado en comenzar con un valor (suficientemente grande) de la longitud de paso \( \alpha_k \) y reducir este valor a la mitad hasta que se cumpla \ref{eq: Quarteroni 7.30}, puede dar lugar a resultados completamente erróneos.
 
+Criterios más estrictos que \ref{eq: Quarteroni 7.30} deberían adoptarse en la elección de los posibles valores para \( \alpha_k \). Con este fin, observamos que surgen dos tipos de dificultades con los ejemplos anteriores: una tasa de descenso lenta de la secuencia y el uso de tamaños de paso pequeños.
 
+La primera dificultad puede superarse exigiendo que:
+\begin{multline}
+    \label{eq: Quarteroni 7.31}
+    0 \geq v_M (x^{(k + 1)}) = \frac{1}{\alpha_k} \left[ f(x^{(k)}) - f(x^{(k)} + \alpha_k d^{(k)}) \right] \\
+    \geq - \sigma \bigtriangledown f(x^{(k)})^T d^{(k)}
+\end{multline}
+con \( \sigma \in (0, \frac{1}{2}) \). Esto equivale a exigir que la tasa de descenso promedio \( v_M \) de \( f \) a lo largo de \( d^{(k)} \), evaluada en \( x^{(k+1)} \), sea al menos igual a una fracción dada de la tasa de descenso inicial en \( x^{(k)} \). Para evitar la generación de tamaños de paso demasiado pequeños, requerimos que la tasa de descenso en la dirección \( d^{(k)} \) en \( x^{(k+1)} \) no sea menor que una fracción dada de la tasa de descenso en \( x^{(k)} \).  
+\begin{equation}
+    \label{eq: Quarteroni 7.32}
+    \left| \bigtriangledown f(x^{(k) + \alpha_k d^{(k)}})^T d^{(k)} \right| \leq \beta \left| \bigtriangledown f(x^{(k)})^T d^{(k)} \right|
+\end{equation}
+con \( \beta \in (\sigma, 1) \) de manera que también satisfaga \ref{eq: Quarteroni 7.31}. En la práctica computacional, \( \sigma \in [10^{-5}, 10^{-1}] \) y \( \beta \in [10^{-1}, \frac{1}{2}] \) son elecciones habituales. A veces, \ref{eq: Quarteroni 7.32} se reemplaza por la condición más suave  
+\begin{equation}
+    \label{eq: Quarteroni 7.33}
+    \bigtriangledown f(x^{(k)} + \alpha_k d^{(k)})^T d^{(k)} \geq \beta \bigtriangledown f(c^{(k)})^T d({(k)})
+\end{equation}
+
+La siguiente propiedad garantiza que, bajo suposiciones adecuadas, es posible encontrar valores de $\alpha_k$ que satisfagan \ref{eq: Quarteroni 7.31} - \ref{eq: Quarteroni 7.32} o \ref{eq: Quarteroni 7.31} - \ref{eq: Quarteroni 7.33}.
+
+\begin{property}
+    SUponga que $f(x) \geq M$ para cualquier $x \in \mathbb{R}^n$. Entonces existe un intervalo $I = [c, C]$ para el método de descenso, con $0 < c < C$, tal que $\forall \alpha_k \in I$, \ref{eq: Quarteroni 7.31}, \ref{eq: Quarteroni 7.32} (o \ref{eq: Quarteroni 7.31} - \ref{eq: Quarteroni 7.33}) se satisfacen, con $\sigma \in \left( 0, \frac{1}{2} \right)$ y $\beta \in \left( \sigma, 1 \right)$.
+\end{property}
+
+Bajo la restricción de cumplir las condiciones \ref{eq: Quarteroni 7.31} y \ref{eq: Quarteroni 7.32}, existen varias opciones para $\alpha_k$. Entre las estrategias más actuales, recordamos aquí las técnicas de retroceso (backtraking): fijando $\sigma \in \left( 0, \frac{1}{2} \right)$, se comienza con $\alpha_k = 1$ y luego se sigue reduciendo su valor mediante un factor de escala adecuado $p \in (0, 1)$ (paso de retroceso) hasta que satisfaga \ref{eq: Quarteroni 7.31}.
+
+Otras estrategias comúnmente utilizadas son las desarrolladas por Armijo y Goldstein. Ambas utilizan \( \sigma \in (0, \frac{1}{2}) \). En la fórmula de Armijo, se toma \( \alpha_k = \beta^{m_k} \bar{\alpha} \), donde \( \beta \in (0, 1) \), \( \bar{\alpha} > 0 \) y \( m_k \) es el primer entero no negativo tal que se satisface \ref{eq: Quarteroni 7.31}. En la fórmula de Goldstein, el parámetro \( \alpha_k \) se determina de manera que
+\begin{equation}
+    \sigma \leq \frac{f(x^{(k)} + \alpha_k d^{(k)}) - f(x^{(k)})}{\alpha_k \bigtriangledown f(x^{(k)})^T d^{(k)}} \leq 1 - \sigma
+\end{equation}
 
 \subsection{Métodos tipo Newton para la minimización de funciones}
+Otro ejemplo de método de descenso lo proporciona el método de Newotn, que se diferencia de su versión para sistemas no lineales en que ahora no se aplica $f$, sino su gradiente.
 
+Usando la notación de la sección 7.1.1, el método de Newton para la minimización de funciones consiste en calcular, dado $x^{(0)} \in \mathbb{R}^n$, para $k = 0, 1, ...$, hasta la convergencia:
+\begin{align}
+    \label{eq: Quarteroni 7.40}
+    & d^{(k)} = - H_k^{-1} \bigtriangledown f(x^{(k)}) \notag \\
+    & x^{(k + 1)} = x^{(k)} + d^{(k)}
+\end{align}
+donde se ha establecido $H_k = H(x^{(k)})$. El método se puede derivar truncando la expansión de Taylor de $f(x^{(k)})$ hasta el segundo orden:
+\begin{equation}
+    \label{eq: Quarteroni 7.41}
+    f(x^{(k)} + p) \approx f(x^{(k)}) + \bigtriangledown f(x^{(k)})^T p + \frac{1}{2} p^T H_k p
+\end{equation}
+Seleccionando $p$ en \ref{eq: Quarteroni 7.41} de tal manera que el nuevo vector $x^{(k + 1)} = x^{(k)} + p$ satisfaga $\bigtriangledown f(x^{(k+1)}) = 0$, obtenemos el método \ref{eq: Quarteroni 7.40}, que así converge en un paso si $f$ es cuadrática.
+
+\subsection{Método de Quasi-Newton}
+En la iteración genérica \( k \)-ésima, un método cuasi-Newton para la minimización de funciones realiza los siguientes pasos:
+
+\begin{enumerate}
+    \item Calcular la matriz Hessiana \( H_k \), o una aproximación adecuada \( B_k \);
+    \item Encontrar una dirección de descenso \( d^{(k)} \) (no necesariamente coincidente con la dirección proporcionada por el método de Newton), utilizando \( H_k \) o \( B_k \);
+    \item Calcular el parámetro de aceleración \( \alpha_k \);
+    \item Actualizar la solución, estableciendo \( x^{(k+1)} = x^{(k)} + \alpha_k d^{(k)} \), según un criterio de convergencia global.
+\end{enumerate}
+
+En el caso particular en que \( d^{(k)} = -H_k^{-1} \nabla f(x^{(k)}) \), el esquema resultante se denomina método de Newton amortiguado.
+
+\section{Problemas de Mínimos Cuadrados}
+Hemos discutido la resolución de un sistema no singular $Ax = b$ de $n$ ecuaciones lineales con $n$ incógnitas. Tal sistema tiene una solución única. Supongamos, por otro lado, que hay más ecuaciones que incógnitas. Entonces, el sistema probablemente no tenga solución. En su lugar, podríamos desear encontrar una solución aproximada $x$ que satisfaga $Ax \approx b$.
+
+Esto se llama un problema de mínimos cuadrados, y corresponde a minimizar el cuadrado de la norma 2 del residuo, $\| b - Ax \|_2^2$, en un sistema sobredeterminado.
+
+Sea $A$ una matriz de $m \times n$ con $m > n$ y $b$ un vector dado de dimensión $m$. Buscamos un vector $x$ de dimensión $n$ tal que $Ax \approx b$. Más precisamente, elegimos $x$ para minimizar el cuadrado de la norma del residuo,
+\begin{equation}
+    \label{eq: Greenbaum 7.13}
+    \| b - Ax \|_2^2 = \sum_{i = 1}^{m} \left( b_i - \sum_{j = 1}^{n} a_{ij} x_j \right)
+\end{equation}
+Este es el problema de mínimos cuadrados que se abordará en esta sección y discutiremos dos enfoques diferentes.
+
+\subsection{Las Ecuaciones Normales}
+Una forma de determinal el valor de $x$ que logra el mínimo en \ref{eq: Greenbaum 7.13} es derivar con respectoa a cada componente $x_k$ y establecer estas derivadas igual a 0. Dado que esta es una función cuadrática, el punto donde estas derivadas parciales sean 0 será, de hecho, el mínimo. Al derivar, encontramos:
+\[ \frac{\partial}{\partial x_k}(\|b - Ax\|_2^2) = \sum_{i=1}^{m} 2 \left( b_j - \sum_{j = 1}^{n} a_{ij} x_j \right) (-a_{ik}) \]
+y estableciendo estas derivadas igual a 0 para $k = 1,...,n$ da:
+\[ \sum_{i = 1}^{m} a_{ik} \left( \sum_{j = 1}^{n} a_{ij} x_j \right) \equiv \sum_{i = 1}^{m} a_{ik}(Ax)_i = \sum_{i = 1}^{m} a_{ik} b_i \]
+De manera equivalente, podemos escribir $\sum_{i = 1}^{m} (A^T)_{ki} (Ax)_i = \sum_{i=1}^{m} (A^T)_{ki} b_i$, $k = 1,...,n$ o,
+\begin{equation}
+    \label{eq: Greenbaum 7.14}
+    A^TAx = A^Tb
+\end{equation}
+El sistema \ref{eq: Greenbaum 7.14} se llama las ecuaciones normales.
+
+\subsection{Descomposición QR}
+El problema de mínimos cuadrados puede abordarse de una manera diferente. Deseamos encontrar un vector $x$ tal que $Ax = b_*$, donde $b_*$ es el vector más cercano $b$ (en la norma 2) en el rango de $A$. Esto es equivalente a minimizar $\| b - Ax \|_2$ ya que, por la definición de $b_*$, se cumple que $\|b - b_*\|_2 \leq \|b - Ay\|_2$ para todo $y$.
+
+Tal vez recuerdes de álgebra lineal que el vector más cercano a un vector dado, desde un subespacio, es la proyección ortogonal de ese vector sobre el subespacio.
+
+Si $q_1, ..., q_k$ forman una base ortonormal para el subespacio, entonces la proyección ortogonal de $b$ sobre el subespacio es $\sum_{j = 1}^{k} \langle b, q_j \rangle q_j$. Supongamos que las columnas de $A$ son linealmente independientes, de modo que el rango de $A$ (que es el espacio generado por sus columnas) tiene dimensión $n$. Entonces el vector más cercano a $b$ en $range(A)$ es
+\[ b_* = \sum_{j = 1}^{n} \langle b, q_j \rangle q_j \]
+donde $q_1, ..., q_k$ forman una base ortonormal para $range(A)$. Sea $Q$ la matriz $m \times n$ cuyas columnas son los vectores ortonormales $q_1, ..., q_n$. Entonces, $Q^TQ = I_{m \times n}$ y la fórmula para $b_*$ puede escribirse de manera compacta como
+\[ b_* = Q (Q^Tb) \]
+ya que $Q(Q^T b) = \sum_{j = 1}^{n} q_j (Q^T b)_j = \sum_{j = 1}^{n} q_j (q_j^T b) = \sum_{j = 1}^{n} q_j \langle b, q_j \rangle$.
+
+También recordarás de álgebra lineal  que, dado un conjuunto de vectores linealmente independientes, como las columnas de $A$, se puede construir un conjunto ortonormal que abarque el mismo espacio utilizando el algoritmo de Gram-Schmidt:
+
+Dado un conjunto linealmente independiente $v_1, v_2,...$, e define $q_1 = \frac{v_1}{\|v_1\|}$, y para $j = 2, 3,...$,
+\begin{itemize}
+    \item $\tilde{q}_j = v_j - \sum_{i = 1}^{j -1} \langle v_j, q_i \rangle q_i$
+    \item $q_j = \frac{\tilde{q}_j}{\| \tilde{q}_j \|}$
+\end{itemize}
+
+Cabe señalar que si $v_1, v_2,..., v_n$ son las columnas de $A$, entonces el algoritmo de Gram-Schmidt puede interpretarse como una factorización de la matriz $A$ de tamaño $m \times n$ en la forma $A = QR$, donde $Q = (q_1, ..., q_n)$ es una matriz $m \times n$ con columnas ortonormales y $R$ es una matriz triangular superior de tamaño $n \times n$. Para ver esto, se pueden escribir las ecuaciones del algoritmo de Gram-Schmidt en la forma
+\[ v_1 = r_{11} q_1, \quad r_{11} = \|v_1\| \]
+\[ v_j = r_{jj} q_j + \sum_{i = 1}^{j - 1} r_{ij} q_i, \quad r_{jj} = \| \tilde{q}_j \|, \quad r_{ij} = \langle v_j, q_i \rangle \]
+\[ j = 2,...,n \]
+
+Estas ecuaciones pueden escribirse utilizando matrices como
+
+\[ (v_1,..., v_n) = (q_1, ..., q_n) \begin{pmatrix}
+    r_{11} & r_{12} & \dots & r_{1n} \\
+           & r_{22} & \dots & r_{2n} \\
+           &        & \ddots & \vdots \\
+           &        &       & r_{nm}
+\end{pmatrix} \]
+
+Así, si $v_1,..., v_n$ son las columnas de $A$, entonces hemos escrito $A$ en la forma $A = QR$. Esto se llama la descomposición QR reducida de $A$.
+
+Habiendo factorizado $A$ en la forma $QR$, el problema de los mínimos cuadrados se conbierte en $QRx = b_* = Q Q^T b$. Sabemos que este conjunto de ecuaciones tiene una solución, ya que $b_* = Q Q^T b$ está en el rango de $A$. Por lo tanto, si multiplicamos ambos lador por $Q^T$, la ecuación resultante tendrá la misma solución. Dado que $Q^T Q = I$, nos queda el sistema triangular superior $Rx = Q^T b$.
+
+\section*{Ejercicios}
+\noindent (1) Utilizar el método de Newton y del máximo descenso para encontrar los extremos de las siguientes funciones:
+
+a) $f(x, y) = -ln(1 - x - y) - lnx - lny$
+
+b) $f(x) = 7x - lnx$
+
+c) $f(x, y) = (a - x)^2 + b(y - x^2)^2$, dando distintos valores $a$ y $b$. Dibujar juntas las curvas de nivel y la solución aproximada de cada iteración.
+
+\noindent Encontrar el polinomio de grado 10 que mejor ajusta la función $b(t) = cos(4t)$ con 50 nodos equispaciados en $[0, 1]$. Determinar la matriz $A$ de Vandermonde y el vector $b$ del problema y determinar los coeficientes del polinomio de las siguientes maneras:
+
+a) resolviendo las ecuaciones normales del problema;
+
+b) utilizando la descomposición QR.
+
+Dibujar los datos y la solución en una misma gráfica. Calcular el error mínimo cometido en el ajuste.
+
+\noindent (3) Encontrar la elipse $x^3 + By^2 + Cxy + Dx + Ey + F = 0$ que mejor ajusta los puntos del plano (0, 2), (2, 1), (1, -1), (-1, -2), (-3, 1), (-1, -1). Después, dibujar los datos y la solución en una misma gráfica. Calcular el error mínimo cometido en el ajuste.
+
+\noindent (4) Se considera dos vectores de datos, u = [0.132, 0.322, 0.511, 0.701, 0.891, 1.081, 1.27, 1.46, 1.65, 1.839, 2.029, 2.219] y v = [0.1, 0.258, 0.543, 0.506, 0.606, 0.622, 0.569, 0.453, 0.438, 0.316, 0.29, 0.195]. Se pide ajustar la función de Weibull $W(u, \alpha, \beta) = \alpha \cdot \beta \cdot u^{\beta - 1} \cdot e^{\alpha \cdot u^\beta}$ con el Método de Gauss-Newton tomando como puntos de inicio de las iteraciones $\alpha = 0.8$ y $\beta = 1$. Después, dibujar los datos y la solución en una misma gráfica. Calcular el error mínimo cometido en el ajuste.
+
+\noindent (5) Se consideran los datos $(x, y)$: (-2, 0.5), (-1, 1), (0, 2), (1, 4). Ajustar la función $f(t, x, y) = e^{x + ty}$ a estos datos con el Método de Gauss-Newton. Después, dibujar los datos y la solución en una misma gráfica. Calcular el error mínimo cometido en el ajuste.

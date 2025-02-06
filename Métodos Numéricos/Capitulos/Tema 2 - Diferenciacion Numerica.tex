@@ -1,69 +1,70 @@
 \chapter{Diferenciación Numérica}
-\section{Numerical Differentiation}
-We have already seen one way to approximate the derivative of a function $f$:
+
+\section{Diferenciación Numérica}
+Ya hemos visto una forma de aproximar la derivada de una función $f$:
 \begin{equation}
     f'(x) = \frac{f(x + h) - f(x)}{h}
     \label{Eq: (9.1)}
 \end{equation}
-for some small number $h$. To determine the accuracy of this approximation, we use Taylor's theorem, assuming that $f \in C^2$: 
+para algún número pequeño $h$. Para determinar la precisión de esta aproximación, utilizamos el teorema de Taylor, asumiendo que $f \in C^2$: 
 \[ f(x + h) = f(x) + h f'(x) + \frac{h^2}{2} f''(\xi) \quad \xi \in [x, x+h] \rightarrow \]
 \[ f'(x) = \frac{f(x + h) - f(x)}{h} - \frac{h}{2} f''(\xi)\]
 
-The term $\frac{h}{2} f''(\xi)$ is called the truncation error, or, the discretization error, and the approximation is said to be first-order accurate since the truncation error is $O(h)$.
+El término $\frac{h}{2} f''(\xi)$ se llama error de truncamiento, o error de discretización, y se dice que la aproximación es de primer orden ya que el error de truncamiento es $O(h)$.
 
-However, roundoff also plays a role in the evaluation of the finite difference quotient (\ref{Eq: (9.1)}). For example, if $h$ is so small that $x + h$ is rounded to $x$, then the computed difference quotient will be 0. More generally, even if the only error made is in rounding the values $f(x + h)$ and $f(x)$, then the computed difference quotient will be
+Sin embargo, el redondeo también juega un papel en la evaluación del cociente de diferencias finitas (\ref{Eq: (9.1)}). Por ejemplo, si $h$ es tan pequeño que $x + h$ se redondea a $x$, entonces el cociente de diferencia calculado será 0. Más generalmente, incluso si el único error que se comete es en el redondeo de los valores $f(x + h)$ y $f(x)$, el cociente de diferencia calculado será
 \[ \frac{f(x + h) (1 + \delta_1) - f(x) (1 + \delta_2)}{h} = \]
 \[ = \frac{f(x + mh) - f(x)}{h} + \frac{\delta_1 f(x + h) - \delta_2 f(x)}{h}\]
 
-Since each $|\delta_i|$ is less than the machine precision $\epsilon$, this implies that the rounding error is less than or equal to 
+Dado que cada $|\delta_i|$ es menor que la precisión de la máquina $\epsilon$, esto implica que el error de redondeo es menor o igual a
 \[ \frac{\epsilon(|f(x)| + |f(x + h)|)}{h} \] 
 
-Since the truncation error is proportional to $h$ and the rounding error is proportionalto $1/h$, the best accuracu is achieved when these two quantities are approximately equal. Ignoring the constants $|f''(\xi)/2|$ and ($|f(x)| + |f(x + h)|$), this means that
-\[h \approx \frac{\epsilon}{h} \rightarrow h \approx \sqrt{\epsilon}\]
-and in this case the error (truncation error or rounding error) is about $\sqrt{\epsilon}$. Thus, with formula (\ref{Eq: (9.1)}), we can approximate a derivative to only about the square root of the machine precision.
+Dado que el error de truncamiento es proporcional a $h$ y el error de redondeo es proporcional a $1/h$, la mejor precisión se alcanza cuando estas dos cantidades son aproximadamente iguales. Ignorando las constantes $|f''(\xi)/2|$ y ($|f(x)| + |f(x + h)|$), esto significa que
+\[ h \approx \frac{\epsilon}{h} \rightarrow h \approx \sqrt{\epsilon}\]
+y en este caso el error (error de truncamiento o error de redondeo) es aproximadamente $\sqrt{\epsilon}$. Así, con la fórmula (\ref{Eq: (9.1)}), podemos aproximar una derivada solo a aproximadamente la raíz cuadrada de la precisión de la máquina.
 
-Another way to approimate the derivative is to use a centered-difference formula:
+Otra forma de aproximar la derivada es utilizar una fórmula de diferencia centrada:
 \begin{equation}
     f'(x) = \frac{f(x + h) - f(x - h)}{2h}
     \label{Eq: (9.2)}
 \end{equation}
 
-We can again determine the truncation error by using the Taylor's theorem. Expanding $f(x + h)$ and $f(x - h)$ about the point $x$, we find
+Podemos nuevamente determinar el error de truncamiento utilizando el teorema de Taylor. Expandiendo $f(x + h)$ y $f(x - h)$ alrededor del punto $x$, encontramos
 \[ f(x + h) = f(x) + h f'(x) + \frac{h^2}{2} f''(x) + \frac{h^3}{6} f'''(\xi) \]
 \[ \xi \in [x, x+h] \]
 \[ f(x - h) = f(x) - h f'(x) + \frac{h^2}{2} f''(x) - \frac{h^3}{6} f'''(\eta) \]
 \[ \eta \in [x-h, x] \]
 
-Substracting the two equations and solving for $f'(x)$ gives
+Restando las dos ecuaciones y resolviendo para $f'(x)$ se obtiene
 \[ f'(x) = \frac{f(x + h) - f(x - h)}{2h} - \frac{h^2}{12} (f'''(\xi) + f'''(\eta)) \]
-Thus the truncation error is $O(h^2)$, and this difference formula is second-order accurate.
+Por lo tanto, el error de truncamiento es $O(h^2)$, y esta fórmula de diferencia es de segundo orden.
 
-To study the effects of roundoff, we again make the simplyfying assumption that the only roundoff that occurs is in rounding the values $f(x + h)$ and $f(x - h)$. The the computed difference quotient is
+Para estudiar los efectos del redondeo, nuevamente hacemos la suposición simplificadora de que el único redondeo que ocurre es en el redondeo de los valores $f(x + h)$ y $f(x - h)$. Entonces, el cociente de diferencia calculado es
 \[ \frac{f(x + h) (1 + \delta_1) - f(x - h)(1 + \delta_2)}{2h} = \]
 \[ = \frac{f(x + h) - f(x - h)}{2h} + \frac{\delta_1 f(x + h) - \delta_2 f(x - h)}{2h} \]
-and the roundoff term $(\delta_1 f(x + h) - \delta_2 f(x - h)) / 2h$ is bounded in absolute value by $\epsilon (\delta_1 f(x + h) - \delta_2 f(x - h)) / (2h)$. Once again ignoring constant terms involving $f$ and its derivatives, the greatest accuracy is now achieved when
+y el término de redondeo $(\delta_1 f(x + h) - \delta_2 f(x - h)) / 2h$ está acotado en valor absoluto por $\epsilon (\delta_1 f(x + h) - \delta_2 f(x - h)) / (2h)$. Nuevamente, ignorando los términos constantes que involucran a $f$ y sus derivadas, la mayor precisión se logra cuando
 \[ h^2 \approx \frac{\epsilon}{h} \rightarrow h \approx \epsilon^{1/3} \]
-and the error (truncation error or rounding error) is $\epsilon^{2/3}$. With this formula we can obtain greater accuracy, to about the $2/3$ power of the machine precision.
+y el error (error de truncamiento o error de redondeo) es $\epsilon^{2/3}$. Con esta fórmula, podemos obtener mayor precisión, hasta aproximadamente la potencia $2/3$ de la precisión de la máquina.
 
-One can approimate higher derivatives similarly. To derive a second-order-accurate approximation to the second derivative, we again use Taylor's theorem:
+Se puede aproximar derivadas de orden superior de manera similar. Para derivar una aproximación de segundo orden a la segunda derivada, nuevamente utilizamos el teorema de Taylor:
 \[ f(x + h)  = f(x) + h f'(x) + \frac{h^2}{2!} f''(x) + \frac{h^3}{3!} f'''(x) + \frac{h^4}{4!} f''''(\xi) \]
 \[ \xi \in [x, x+h] \]
 \[ f(x - h) = f(x) - h f'(x) + \frac{h^2}{2!} f''(x) - \frac{h^3}{3!} f'''(x) + \frac{h^4}{4!} f''''(\eta) \]
 \[ \eta \in [x - h, x] \]
 
-Adding this two equations gives
+Sumando estas dos ecuaciones se obtiene
 \[ f(x + h) + f(x - h) = 2 f(x) + h^2 f''(x) + \frac{h^4}{12} f''''(v) \]
 \[ v \in [\eta, \xi] \]
 
-Solving for $f''(x)$, we obtain the formula
+Resolviendo para $f''(x)$, obtenemos la fórmula
 \[ f''(x) = \frac{f(x + h) - 2 f(x) + f(x - h)}{h^2} - \frac{h^2}{12} f''''(v)\]
 
-Using the approximation
+Usando la aproximación
 \begin{equation}
     f''(x) = \frac{f(x + h) - 2 f(x) + f(x - h)}{h^2}
     \label{Eq: (9.3)}
 \end{equation}
-the truncation error is $O(h^2)$. Note, however that a similar rounding error analysis predicts rounding error of size $\epsilon / h^2$, so the smallest total error occurs when $h$ is about $\epsilon^{1/4}$ and then the truncation error and the rounding error are each abour $\sqrt{\epsilon}$. With machine precision $\epsilon \approx 10^{-16}$, this means that $h$ should not be taken to be less than about $10^{-4}$. Evaluation of standard finite difference quotients for higher derivatives is even more sensitive to the effects of roundoff.
+el error de truncamiento es $O(h^2)$. Sin embargo, note que un análisis similar del error de redondeo predice un error de redondeo de tamaño $\epsilon / h^2$, por lo que el menor error total ocurre cuando $h$ es aproximadamente $\epsilon^{1/4}$ y luego el error de truncamiento y el error de redondeo son cada uno aproximadamente $\sqrt{\epsilon}$. Con una precisión de máquina $\epsilon \approx 10^{-16}$, esto significa que $h$ no debe ser tomado como menor que aproximadamente $10^{-4}$. La evaluación de cocientes estándar de diferencias finitas para derivadas de orden superior es aún más sensible a los efectos del redondeo.
 
 \subsection{Formulas de tres puntos}
 \subsubsection{Fórmula de tres puntos hacia delante}
@@ -81,30 +82,46 @@ the truncation error is $O(h^2)$. Note, however that a similar rounding error an
     f'(x) = \frac{-f(x - h) + f(x + h)}{2h} - O(h^2)
 \end{equation}
 
-\subsection{Five-Point Formulas}
-One commo five-point formula is used to determine approximations for the derivative at the midpoint.
+\subsection{Fórmulas de Cinco Puntos}
+Una fórmula común de cinco puntos se utiliza para determinar aproximaciones de la derivada en el punto medio.
 
-\subsubsection{Five-Point Midpoint Formula}
+\subsubsection{Fórmula de Cinco Puntos en el Punto Medio}
 \begin{multline}
-    f'(x) = \frac{1}{12h} [ f(x -2h) - 8f(x -h) + 8 f(x + h) \\
+    f'(x) = \frac{1}{12h} [ f(x - 2h) - 8f(x - h) + 8 f(x + h) \\
     - f(x + 2h) ] + O(h^4)
 \end{multline}
 
-\subsubsection{Five-Point Endpoint Formula}
+\subsubsection{Fórmula de Cinco Puntos en el Extremo}
 \begin{multline}
     f'(x) = \frac{1}{12h} [ -25f(x) + 48 f(x + h) - 36 f(x + 2h) \\
     + 16 f(x + 3h) - 3 f(x + 4h) ] + O(h^4)
 \end{multline}
 
-\subsection{Round-Off Error Instability}
-It is particularly important to pay attention to round-off when approximating derivatives. To illustrate the situation, let us examine the three-point midpoint formula,
-\[ f'(x_0) = \frac{1}{2h} [f(x_0 + h) - f(x_0 -h)] - \frac{h^2}{6} f^{(3)}(\xi_1) \]
-more closely. Suppose that in evaluating $f(x_0 + h)$ and $f(x_0 - h)$ we encounter round-off errors $e(x_0 + h)$ and $e(x_0 - h)$. Then our computations actually use the values $\tilde{f}(x_0 + h)$ and $\tilde{f}(x_0 - h)$, which are related to the true values $f(x_0 + h)$ and $f(x_0 - h)$ by $ f(x_0 + h) = \tilde{f}(x_0 + h) + e(x_0 + h) $ and $ f(x_0 - h) = \tilde{f}(x_0 - h) + e(x_0 - h) $.
+\subsection{Inestabilidad del Error de Redondeo}
+Es particularmente importante prestar atención al error de redondeo al aproximar derivadas. Para ilustrar esta situación, examinemos más de cerca la fórmula de tres puntos en el punto medio,
+\[ f'(x_0) = \frac{1}{2h} [f(x_0 + h) - f(x_0 - h)] - \frac{h^2}{6} f^{(3)}(\xi_1) \]
+Supongamos que al evaluar $f(x_0 + h)$ y $f(x_0 - h)$ encontramos errores de redondeo $e(x_0 + h)$ y $e(x_0 - h)$. Entonces, nuestros cálculos realmente utilizan los valores $\tilde{f}(x_0 + h)$ y $\tilde{f}(x_0 - h)$, que están relacionados con los valores verdaderos $f(x_0 + h)$ y $f(x_0 - h)$ por $ f(x_0 + h) = \tilde{f}(x_0 + h) + e(x_0 + h) $ y $ f(x_0 - h) = \tilde{f}(x_0 - h) + e(x_0 - h) $.
 
-The total error in the approximation,
+El error total en la aproximación,
 \[ f'(x_0) - \frac{\tilde{f}(x_0 + h) - \tilde{f}(x_0 - h)}{2h} = \]
 \[ = \frac{e(x_0 + h) - e (x_0 - h)}{2h} - \frac{h^2}{6} f^{(3)}(\xi_1)\]
-is due bot to round-off error, the first part, and to truncation error. If we assume that the round-off errors $e(x_0 \pm h)$ are bounded by some number $\epsilon > 0$ and that the third derivative of $f$ is bounded by a number $M > 0$, then 
+es debido tanto al error de redondeo, la primera parte, como al error de truncamiento. Si asumimos que los errores de redondeo $e(x_0 \pm h)$ están acotados por un número $\epsilon > 0$ y que la tercera derivada de $f$ está acotada por un número $M > 0$, entonces 
 \[ \left| f'(x_0) - \frac{\tilde{f}(x_0 + h) - \tilde{f}(x_0 - h)}{2h} \right| \leq \frac{\epsilon}{h} + \frac{h^2}{6}M\]
 
-To reduce the truncation error, $h^2 M/6$, we need to reduce $h$. But $h$ is reduced, the round-off error $\epsilon/h$ grows. In practice, then, it is seldom advantageous to let $h$ be too small, because in that case the round-off error will dominate the calculations.
+Para reducir el error de truncamiento, $h^2 M/6$, necesitamos reducir $h$. Pero al reducir $h$, el error de redondeo $\epsilon/h$ crece. En la práctica, por lo tanto, rara vez es ventajoso hacer que $h$ sea demasiado pequeño, porque en ese caso el error de redondeo dominará los cálculos.
+
+\section*{Ejercicios}
+\noindent (1) Reproducir todos los ejemplos del Greenbaum sección 9.1
+
+\noindent (2) Utilziar el Teorema de Taylor para hallar la siguiente fórmula de diferenciación numérica, dejando indicado el orden del error de truncamiento del problema.
+\[ f'(x) \approx \frac{1}{2h} (-3f(x) + 4f(x + h) - f(x + 2h)) \]
+\noindent (3) Para la fórmula de aproximación de la derivada segunda
+\[ f''(x) \approx \frac{f(x + h) - 2f(x) + f(x -h)}{h^2} \]
+determinar el tamño de paso $h$, en función de $\epsilon_M$ a partir del cual el error cometido al aproximar $f''$ vuelve a crecer. Determinar el orden de ese error en función de $\epsilon_M$.
+
+\noindent (4) Utilizar el Teorema de Taylor para hallar la siguiente fórmula de diferenciación numérica, dejando indicado el orden del error de truncamiento del problema.
+\[ f'''(x) \approx \frac{f(x + 2h) - f(x + h) + 2f(x - h) - f(x - 2h)}{2h^3} \]
+
+\noindent (5) Utilizar el Teorema de Taylor para determinar los coeficientes $A, B, C$ y $D$ de la fórmula
+\[ f''(x) \approx \frac{Af(x + 3h) + Bf(x + 2h) + Cf(x + h) + Df(x)}{h^2} \]
+e indicar el orden del error de truncamiento.

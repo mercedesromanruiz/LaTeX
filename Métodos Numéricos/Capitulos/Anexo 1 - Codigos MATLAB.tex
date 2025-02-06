@@ -1,0 +1,387 @@
+\onecolumn
+\chapter*{Códigos MATLAB}
+\section*{Raíces de Ecuaciones y Sistemas No Lineales}
+
+\begin{lstlisting}[caption={Método de la Bisección}, language = Matlab, label = {cod: Método de la Bisección}]
+clear all;
+% Datos
+syms x;
+f = @(x) exp(x) - sin(x);       % Funcion
+a = -4; b = -3;                 % Intervalo [a, b]
+N = 100;                        % Numero maximo de iteraciones
+tol = 10^-6;                    % Tolerancia
+
+u = f(a);
+v = f(b);
+e = b - a;
+
+for i = 1 : N
+    e = e/2;
+    c = a + e;
+    w = f(c);
+    if abs(e) < tol
+        break;
+    end
+    if sign(w) ~= sign(u)
+        b = c;
+        v = w;
+    else
+        a = c;
+        u = w;
+    end
+    fprintf(['i: ', num2str(i), ' c:' , num2str(c), ' f(c):', num2str(f(c)), '\n'])
+end
+\end{lstlisting}
+
+\begin{lstlisting}[caption={Iteración de Punto Fijo}, language = Matlab, label = {cod: Iteración de Punto Fijo}]
+    clear all;
+    % Datos
+    syms x;
+    f = @(x) cos(x) - x;    % Funcion
+    g = @(x) cos(x);        % Despejamos x de la funcion
+    p0 = pi / 4;            % Aproximacion inicial p0
+    tol = 10e-3;            % Tolerancia
+    N = 100;                % Numero maximo de iteraciones
+    
+    % Algoritmo
+    for i = 1 : N
+        p = g(p0);
+        if abs(p - p0) < tol
+            round(p, 4)
+            break;
+        end
+        p0 = p;
+    end
+\end{lstlisting}
+
+\begin{lstlisting}[caption={Método de Newton}, language = Matlab, label = {cod: Método de Newton}]
+    clear all;
+    % Datos
+    syms x;
+    f = @(x) cos(x) - x;    % Funcion
+    p0 = 0.5;               % Aproximacion inicial p0
+    tol = 10e-3;            % Tolerancia
+    N = 100;                % Numero maximo de iteraciones
+    
+    % Algoritmo
+    for i = 1 : N
+        p = p0 - f(p0) / subs(diff(f, x), p0);
+        if abs(p - p0) < tol
+            round(p, 4)     % El procedimiento fue exitoso
+            break;
+        end
+        p0 = p;
+    end
+\end{lstlisting}
+
+\begin{lstlisting}[caption={Método de la Secante}, language = Matlab, label = {cod: Método de la Secante}]
+    clear all;
+    % Datos
+    syms x;
+    f = @(x) cos(x) - x;    % Funcion
+    p0 = 0.5;               % Aproximacion inicial p0
+    p1 = pi / 4;            % Aproximacion inicial p1
+    tol = 10e-3;            % Tolerancia
+    N = 100;                % Numero maximo de iteraciones
+    
+    % Algoritmo
+    q0 = f(p0);
+    q1 = f(p1);
+    for i = 1 : N
+        p = p1 - q1 * (p1 - p0) / (q1 - q0);
+        if abs(p - p1) < tol
+            round(p, 4)     % El procedimiento fue exitoso
+            break;
+        end
+        p0 = p1;
+        q0 = q1;
+        p1 = p;
+        q1 = f(p);
+    end
+\end{lstlisting}
+
+\begin{lstlisting}[caption={Método de la Posición Falsa}, language = Matlab, label = {cod: Método de la Posición Falsa}]
+    clear all;
+    % Datos
+    syms x;
+    f = @(x) cos(x) - x;    % Funcion
+    p0 = 0.5;               % Aproximacion inicial p0
+    p1 = pi / 4;            % Aproximacion inicial p1
+    tol = 10e-3;            % Tolerancia
+    N = 100;                % Numero maximo de iteraciones
+    
+    % Algoritmo
+    q0 = f(p0);
+    q1 = f(p1);
+    for i = 1 : N
+        p = p1 - q1 * (p1 - p0) / (q1 - q0);
+        if abs(p - p1) < tol
+            round(p, 4)     % El procedimiento fue exitoso
+            break;
+        end
+        q = f(p);
+        if q * q1 < 0
+            p0 = p1;
+            q0 = q1;
+        end
+        p1 = p;
+        q1 = q;
+    end
+\end{lstlisting}
+
+\begin{lstlisting}[caption={Método de Newton para Sistemas}, language = Matlab, label = {cod: Método de Newton para Sistemas}]
+    clear all;
+    format long;
+    % Datos
+    syms x1 x2 x3;
+    f = [3*x1 - cos(x2 * x3) - 1/2;
+         x1^2 - 81*(x2 + 0.1)^2 + sin(x3) + 1.06;
+         exp(-x1*x2) + 20*x3 + (10*pi - 3) / 3];
+    x0 = [0.1; 0.1; -0.1];                              % Aproximacion inicial
+    N = 100;
+    tol = 10e-5;
+    j = jacobian(f);
+    
+    % Algoritmo
+    x = x0;
+    y = [];
+    for i = 1 : 100
+        F = subs(f, [x1, x2, x3], [x(1), x(2), x(3)]);
+        J = subs(j, [x1, x2, x3], [x(1), x(2), x(3)]);
+        y = -J\F;
+        y = round(y, 10);       % Si esto no se pone puede que se quede colgado el bucle
+        if norm(y) < tol
+            break;
+        end
+        x = x + y;
+    end
+    
+    x
+\end{lstlisting}
+
+\section*{Optimización Con Restricciones}
+
+\begin{lstlisting}[caption={Método del Penalty}, language = Matlab]
+    syms x y a
+    F(x,y) = 100 * (y - x^2)^2 + (1 - x)^2;           % Funcion
+    f = matlabFunction(F, 'Vars', [x,y]);
+    
+    H(x,y) = (x + 0.5)^2 + (y + 0.5)^2 - 0.25;        % Restricciones
+    h = matlabFunction(H, 'Vars', [x,y]);
+    
+    L(x,y,a) = F(x,y) + a/2 * (H(x,y)^2);             % Lagrangiano penalizado
+    
+    gL = gradient(L, [x,y]);
+    gl = matlabFunction(gL, 'Vars', [x,y,a]);
+    
+    hL = hessian(L, [x,y]);
+    hl = matlabFunction(hL, 'Vars', [x,y,a]);
+    
+    z = [1; 1];                                       % Punto de Inicio
+    x = z(1); y = z(2);
+    a = 0.3;                                          % Factor de Penalizacion Inicial NO MUY GRANDE
+    b = 4;                                            % Tiene que estar entre 4 y 10
+    
+    nit = 0; grad = [0;0]; Hess = zeros(2); solx = []; soly = [];
+    V = [h(x,y) 0];
+    M = max(V);
+    tol = 1e-8;
+    while M > tol
+        rho = 0.1; beta = 0.5;
+        maxit = 100;
+        for i = 1 : maxit
+            grad = gl(x,y,a);
+            Hess = hl(x,y,a);
+            d = -Hess\grad;
+            if abs(d' * grad) < tol
+                break;
+            end
+            alpha = 1; 
+            for k = 1 : 50   
+                znew = z + alpha * d;
+                xnew = znew(1);
+                ynew = znew(2);
+                Lznew = L(xnew, ynew, a);
+                if Lznew < L(x, y, a) + alpha * rho * grad' * d
+                    break;
+                else 
+                    alpha = alpha * beta;
+                end
+            end
+            z = z + alpha * d;
+            x = z(1); y = z(2);
+        end
+    
+        nit = nit + 1;
+        solx(nit) = x;
+        soly(nit) = y;
+        V = [h(x, y) 0];
+        M = max(V);
+        a = a * b;
+    end
+    
+    u = -2.048 : 0.1 : 2.048; 
+    v = -2.048 : 0.1 : 2.048;
+    [A, B] = meshgrid(u, v);
+    
+    figure;
+    hold on
+    contour(A, B, f(A,B))
+    fimplicit(h,[-2.048 2.048])
+    plot(solx,soly,'*')
+    hold off
+\end{lstlisting}
+
+\begin{lstlisting}[caption={Método del Lagrangiano Aumentado}, language = Matlab]
+    clear all;
+    syms x y a l;
+    F(x,y) = 100 * (y - x^2)^2 + (1 - x)^2;           % Funcion
+    f = matlabFunction(F, 'Vars', [x,y]);
+    
+    H(x,y) = (x + 0.5)^2 + (y + 0.5)^2 - 0.25;        % Restricciones
+    h = matlabFunction(H, 'Vars', [x,y]);
+    
+    L(x,y,l,a) = F(x,y) - l * H(x,y) + 1/2 * a * (H(x,y)^2);             % Lagrangiano aumentado
+    
+    gL = gradient(L, [x,y]);
+    gl = matlabFunction(gL, 'Vars', [x,y,l,a]);
+    
+    hL = hessian(L, [x,y]);
+    hl = matlabFunction(hL, 'Vars', [x,y,l,a]);
+    
+    z = [4; 2];                                       % Punto de Inicio
+    x = z(1); y = z(2);
+    a = 0.3;                                          % Factor de Penalizacion Inicial NO MUY GRANDE
+    b = 4;                                            % Tiene que estar entre 4 y 10
+    l0 = 15;                                          % Primera Iteracion Multiplicador de Lagrange
+    
+    nit = 0; grad = [0;0]; Hess = zeros(2); solx = []; soly = [];
+    V = [h(x,y) 0];
+    M = max(V);
+    tol = 1e-8;
+    while M > tol
+        l0 = l0 - a * h(x,y);
+        rho = 0.1; beta = 0.5;
+        maxit = 100;
+        for i = 1 : maxit
+            grad = gl(x,y,l0,a);
+            Hess = hl(x,y,l0,a);
+            d = -Hess\grad;
+            if abs(d' * grad) < tol
+                break;
+            end
+            alpha = 1; 
+            for k = 1 : 50   
+                znew = z + alpha * d;
+                xnew = znew(1);
+                ynew = znew(2);
+                Lznew = L(xnew, ynew, l0, a);
+                if Lznew < L(x, y, l0, a) + alpha * rho * grad' * d
+                    break;
+                else 
+                    alpha = alpha * beta;
+                end
+            end
+            z = z + alpha * d;
+            x = z(1); y = z(2);
+        end
+    
+        nit = nit + 1;
+        solx(nit) = x;
+        soly(nit) = y;
+        V = [h(x, y) 0];
+        M = max(V);
+        a = a * b;
+    end
+    
+    u = -2.048 : 0.1 : 2.048; 
+    v = -2.048 : 0.1 : 2.048;
+    [A, B] = meshgrid(u, v);
+    
+    figure;
+    hold on
+    contour(A, B, f(A,B))
+    fimplicit(h,[-2.048 2.048])
+    plot(solx,soly,'*')
+    hold off
+\end{lstlisting}
+
+\section*{Métodos Para Ecuaciones Diferenciales Ordinarias}
+\begin{lstlisting}[caption={Método de Euler}, language = Matlab]
+    clear all;
+    format long;
+    
+    syms t y;
+    f = @(t, y) y - t^2 + 1;            % y' = y - t^2 + 1
+    a = 0;   b = 2;                     % 0 <= t <= 2
+    N = 10;                             % Numero Maximo de Iteraciones
+    alpha = 0.5;                        % y(0) = 0.5    Condicion Inicial
+    
+    h = (b - a)/N;
+    t = a;
+    w = alpha;
+    
+    for i = 1 : N
+        w = w + h * f(t, w);
+        t = a + i * h;
+    end
+    
+    t = zeros(1, N + 1);    t(1) = a;
+    w = zeros(1, N + 1);    w(1) = alpha;
+    
+    for i = 1 : N
+        w(i + 1) = w(i) + h * f(t(i), w(i));
+        t(i + 1) = a + i * h;
+    end
+    
+    y = (t + 1).^2 - 0.5 * exp(t);      % Valores Exactos  
+    error = abs(y - w);                 % Error Cometido
+    
+    figure;
+    plot(t, y, 'b-', 'DisplayName', 'Valores Exactos: y');
+    hold on;
+    plot(t, w, 'r--', 'DisplayName', 'Aproximacion: w');
+    title('PVI : Metodo de Euler');
+    xlabel('t');
+    ylabel('w | y')
+    legend('show')
+    hold off;
+\end{lstlisting}
+
+\begin{lstlisting}[caption={Método de Runge-Kutta (orden 4)}, language = Matlab]
+    clear all;
+    format long;
+    
+    syms t y;
+    f = @(t, y) y - t^2 + 1;        % Funcion
+    a = 0;   b = 2;                 % Intervalo [a, b]
+    alpha = 0.5;                    % Condicion inicial y(a) = alpha
+    N = 10;                         % Numero de Iteraciones
+    
+    h = (b - a) / N;
+    t = zeros(1, N + 1);        t = a;
+    w = zeros(1, N + 1);        w = alpha;
+    
+    for i = 1 : N
+        K1 = h * f(t(i), w(i));
+        K2 = h * f(t(i) + h/2, w(i) + K1/2);
+        K3 = h * f(t(i) + h/2, w(i) + K2/2);
+        K4 = h * f(t(i) + h, w(i) + K3);
+    
+        w(i + 1) = w(i) + (K1 + 2 * K2 + 2 * K3 + K4)/6;
+        t(i + 1) = a + i * h;
+    end
+    
+    y = (t + 1).^2 - 0.5 * exp(t);      % Valores Exactos  
+    error = abs(y - w);                 % Error Cometido
+    
+    figure;
+    plot(t, y, 'b-', 'DisplayName', 'Valores Exactos: y');
+    hold on;
+    plot(t, w, 'r--', 'DisplayName', 'Aproximacion: w');
+    title('PVI : Metodo de Runge-Kutta (orden 4)');
+    xlabel('t');
+    ylabel('w | y')
+    legend('show')
+    hold off;
+\end{lstlisting}

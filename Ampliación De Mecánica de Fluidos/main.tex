@@ -31,34 +31,30 @@
 \usepackage{listings}
 \usepackage{xcolor}
 
-\definecolor{codegreen}{rgb}{0,0.6,0}
-\definecolor{codegray}{rgb}{0.5,0.5,0.5}
-\definecolor{codepurple}{rgb}{0.58,0,0.82}
-\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
-
-\lstdefinestyle{mystyle}{
-  captionpos=t,
-  backgroundcolor=\color{backcolour},   commentstyle=\color{codegreen},
-  keywordstyle=\color{magenta},
-  numberstyle=\tiny\color{codegray},
-  stringstyle=\color{codepurple},
-  basicstyle=\ttfamily\footnotesize,
-  breakatwhitespace=false,         
-  breaklines=true,                                     
-  keepspaces=true,                 
-  numbers=left,                    
-  numbersep=5pt,                  
-  showspaces=false,                
-  showstringspaces=false,
-  showtabs=false,                  
-  tabsize=2
+\lstdefinestyle{Matlab-LiveScript}{
+    language=Matlab,
+    backgroundcolor=\color{white},        % Fondo blanco
+    basicstyle=\ttfamily\footnotesize,     % Estilo básico
+    keywordstyle=\color{blue},             % Palabras clave en azul
+    commentstyle=\color{green},            % Comentarios en verde
+    stringstyle=\color{red},               % Cadenas en rojo
+    identifierstyle=\color{black},         % Identificadores en negro
+    procnamekeys={def,class},              % Resaltar funciones como def
+    numbers=none,                          % Sin numeración de líneas
+    numbersep=5pt,                         % Separación de números de línea
+    breaklines=true,                       % Romper líneas largas
+    showstringspaces=false,                % No mostrar espacios en cadenas
+    escapeinside={\%*}{*)},                % Para insertar código de LaTeX dentro de código
+    moredelim=**[is][\color{orange}]{@}{@}, % Resaltar simbolos @ (para funciones anónimas)
+    columns=flexible,                      % Ajustar las columnas
+    keepspaces=true,                       % Mantener espacios
+    frame=single,                          % Añadir marco alrededor del código
+    rulecolor=\color{black},               % Color de la línea del marco
+    upquote=true                           % Comillas invertidas
 }
-  
-\lstset{style=mystyle}
-\renewcommand{\lstlistingname}{Código} % Cambia "Listing" por "Code"
 
 
-\title{Métodos Numéricos}
+\title{Ampliación de Mecánica de Fluidos}
 \author{Mercedes Román Ruiz}
 \date{\today}
 
@@ -84,16 +80,16 @@
 
 \fancyfoot[LE,RO]{\thepage}
 
-\input{Documentos/Portada}
+%\input{Documentos/Portada}
 
 %\input{Documentos/Dedicatoria}
 
-\input{Documentos/Indices}
+%\input{Documentos/Indices}
 
 \input{Documentos/Cuerpo}
 
-\onecolumn
-\nocite{*}
-\printbibliography
+%\onecolumn
+%\nocite{*}
+%\printbibliography
 
 \end{document}

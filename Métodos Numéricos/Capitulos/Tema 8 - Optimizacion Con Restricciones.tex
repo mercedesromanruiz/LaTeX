@@ -176,3 +176,20 @@ y la convergencia del método es más que lineal.
 En el caso en que la secuencia $\alpha_k$ tenga una cota superior, el método converge linealmente.
 
 Finalmente, cabe señalar que, a diferencia del método de penalización, ya no es necesario que la secuencia $\alpha_k$ tienda a infinito. Esto, a su vez, limita el mal condicionamiento del problema \ref{eq: Quarteroni 7.56} a medida que $\alpha_k$ crece. Otra ventaja se refiere a la tasa de convergencia del método, que resulta ser independiente de la tasa de crecimiento del parámetro de penalización en el caso de la técnica de los multiplicadores de Lagrange. Esto, por supuesto, implica una reducción considerable del coste computacional.
+
+\section*{Ejercicios}
+\noindent (1) Un dado de 6 caras tiene la probabilidad $p_k$ de sacar el número $k$, con $k \in \{ 1, 2, 3, 4, 5, 6 \}$ donde $p_k \geq 0$ para todo $k$ y $p_1 + p_2 + p_3 + p_4 + p_5 + p_6 = 1$. La entropía de la distribución de probabilidad $p = (p_1, p_2, ...p_6)$ se define como $f(p) = - \sum_{i = 1}^{6} p_k ln p_k$. Encontrar la distribución $p$ que maximiza la entropía. Observación: entropía máxima implica menos contenido de información.
+
+\noindent (2) La probabilidad de que un sistema físico o químico esté en un estado $k$ es $p_k$ y la energía de ese estado es $E_k$. Si las energías $E_i$ están fijas, la naturaleza tiende a minimizar la energía libre $f(p_1,...p_n) = - \sum_{i = 1}^{n} (p_1 ln(p_i) - E_i p_i)$. Encontrar la distribución de probabilidad $p_1, \sum_{i = 1}^{n} p_1 = 1$, que minimiza la energía libre. Observación: está distribución se llama distribución de Gibbs.
+
+\noindent (3) Utilizar el método del Penalty y del Lagrangiano aumentado para aproximar el mínimo de la función
+\[ f(x,y) = (1 - x)^2 + 100 (y - x^2)^2 \]
+restringida a:
+
+a) $x + y - 2 = 0 \quad (x - 1)^3 - y + 1 = 0$
+
+b) $x^2 + y^2 = 2$
+
+\noindent (4) Utilizar el método del Penalty y del Lagrangiano aumentado para aproximar el mínimo de la función
+\[ f(x, y) = 4x^2 - 2.1 x^4 + \frac{1}{3}x^6 + xy - 4y^2 + 4y^4 \]
+sujeto a: $-sin(4\pi x) + 2 sin^2(2 \pi y) = 1.5$

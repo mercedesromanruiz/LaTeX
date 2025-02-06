@@ -1,152 +1,263 @@
 \chapter{Número de Condición de una Matriz}
-\section{Matrix Norms}
+
+\section{Normas de Matrices}
 \begin{definition}
-    A matrix norm is a mapping $\|\cdot\|: \mathbb{R}^{m \times n} \rightarrow \mathbb{R}$ such that:
+    Una norma de matriz es una función $\|\cdot\|: \mathbb{R}^{m \times n} \rightarrow \mathbb{R}$ tal que:
     \begin{enumerate}
-        \item $\|A\| \geq 0 \forall A \in \mathbb{R}^{m \times n}$ and $\|A\| = 0$ if and only if $A = 0$;
-        \item $\|\alpha A\| = |\alpha| \|A\| \forall \alpha \in \mathbb{R}, \forall A \in \mathbb{R}^{m \times n}$ (homogeneity);
-        \item $\| A + B\| \leq \|A\| + \|B\| \forall A, B \in \mathbb{R}^{m \times n}$ (triangular inequality).
+        \item $\|A\| \geq 0 \forall A \in \mathbb{R}^{m \times n}$ y $\|A\| = 0$ si y solo si $A = 0$;
+        \item $\|\alpha A\| = |\alpha| \|A\| \forall \alpha \in \mathbb{R}, \forall A \in \mathbb{R}^{m \times n}$ (homogeneidad);
+        \item $\| A + B\| \leq \|A\| + \|B\| \forall A, B \in \mathbb{R}^{m \times n}$ (desigualdad triangular).
     \end{enumerate}
     \label{Def: 1.19}
 \end{definition}
 
-Unless otherwise specified we shall employ the same symbol $\|\cdot\|$, to denote matrix norms and vector norms.
+A menos que se indique lo contrario, utilizaremos el mismo símbolo $\|\cdot\|$ para denotar normas de matrices y normas de vectores.
 
-We can better characterize the matriz norms by introducing the concepts of compatible norm and norm induced by a vector norm.
+Podemos caracterizar mejor las normas de matrices introduciendo los conceptos de norma compatible y norma inducida por una norma de vector.
 
 \begin{definition}
-    We say that a matrix norm $\|\cdot\|$ is compatible or consistent with a vector norm $\|\cdot\|$ if 
+    Decimos que una norma de matriz $\|\cdot\|$ es compatible o consistente con una norma de vector $\|\cdot\|$ si
     \begin{equation}
         \|Ax\| \leq \|A\| \|x\|, \quad \forall x \in \mathbb{R}^n
         \label{Eq: (1.16)}
     \end{equation}
-    More generally, given three norms, all denoted by $\|\cdot\|$, albeit defined on $\mathbb{R}^m$, $\mathbb{R}^n$ and $\mathbb{R}^{m \times n}$, respectively, we say that they are consistent if $\forall x \in \mathbb{R}^n$, $Ax = y \in \mathbb{R}^m$, $A \in \mathbb{R}^{m \times n}$, we hace that $\|y\| \leq \|A\| \|x\|$
+    Más generalmente, dado tres normas, todas denotadas por $\|\cdot\|$, aunque definidas en $\mathbb{R}^m$, $\mathbb{R}^n$ y $\mathbb{R}^{m \times n}$, respectivamente, decimos que son consistentes si $\forall x \in \mathbb{R}^n$, $Ax = y \in \mathbb{R}^m$, $A \in \mathbb{R}^{m \times n}$, tenemos que $\|y\| \leq \|A\| \|x\|$
 \end{definition}
 
-In order to single out matrix norms of practical interest, the followinf property is in general required
+Para identificar las normas de matrices de interés práctico, generalmente se requiere la siguiente propiedad:
 
 \begin{definition}
-    We say that a matriz norm $\| \cdot \|$ is sub-multiplicative if $\forall A \in \mathbb{R}^{m \times n}$, $\forall B \in \mathbb{R}^{m \times q}$
+    Decimos que una norma de matriz $\| \cdot \|$ es sub-multiplicativa si $\forall A \in \mathbb{R}^{m \times n}$, $\forall B \in \mathbb{R}^{m \times q}$
     \begin{equation}
-        \| A B\| \leq \|A\| \|B\|
+        \| A B\| \leq \|A\| \cdot \|B\|
         \label{Eq: (1.17)}
     \end{equation}
 \end{definition}
 
-This property is not satisfied by any matrix norm. For example, the norm $ \|A\|_\Delta = \max{|a_ij|}$ for $i = 1, ..., n$, $j = 1, ..., m$ does nor satisfy (\ref{Eq: (1.17)}) if applied to the matrices
+Esta propiedad no es satisfecha por todas las normas de matrices. Por ejemplo, la norma $ \|A\|_\Delta = \max{|a_ij|}$ para $i = 1, ..., n$, $j = 1, ..., m$ no satisface (\ref{Eq: (1.17)}) si se aplica a las matrices
 \[ A = B = \begin{bmatrix}
     1 & 1 \\
     1 & 1
 \end{bmatrix} \]
-since $2 = \|AB\|_\Delta < \|A\|_\Delta \|B\|_\Delta = 1$.
+ya que $2 = \|AB\|_\Delta < \|A\|_\Delta \|B\|_\Delta = 1$.
 
-Notice that, given a certain sub-multiplicative matrix norm $\|\cdot\|_\alpha$, there always exists a consistent vector norm. For instance, given any fixed vector $y \neq 0$ in $\mathbb{C}^n$, it suffices to define the consistent vector norm as
+Observa que, dada una norma de matriz sub-multiplicativa $\|\cdot\|_\alpha$, siempre existe una norma de vector consistente. Por ejemplo, dado cualquier vector fijo $y \neq 0$ en $\mathbb{C}^n$, basta definir la norma de vector consistente como
 \[ \|x\| = \| x y^H \|_\alpha \quad x \in \mathbb{C}^n\]
 
-As a consequence, in the case of sub-multiplicative matrix norms it is no longer necessary to explicitly specify the vector norm with respect to the matrix norm is consistent.
+Como consecuencia, en el caso de normas de matrices sub-multiplicativas ya no es necesario especificar explícitamente la norma de vector con respecto a la cual la norma de matriz es consistente.
 
-In view of the definition of a natural norm, we recall the following theorem.
+En vista de la definición de una norma natural, recordamos el siguiente teorema.
 
 \begin{theorem}
-    Let $\| \cdot \|$ be a vector norm. The function
+    Sea $\| \cdot \|$ una norma de vector. La función
     \begin{equation}
         \| A \| = \sup_{x \neq 0}{\frac{\| Ax \|}{\|x\|}}
         \label{Eq: (1.19)}
     \end{equation}
-    is a matrix norm called induced matrix norm or natural matrix norm.
+    es una norma de matriz llamada norma de matriz inducida o norma natural de matriz.
     \label{Theorem: 1.1}
 \end{theorem}
 
 \begin{proof}
-    We start by noticing that (\ref{Eq: (1.19)}) is equivalent to 
+    Comenzamos observando que (\ref{Eq: (1.19)}) es equivalente a
     \begin{equation}
         \|A\| = \sup_{\|x\| = 1}{\|Ax\|}
         \label{Eq: (1.20)}
     \end{equation}
-    Indeed, one can define for any $x \neq 0 $ the unit vector $u = x / \|x\|$, so that (\ref{Eq: (1.19)}) becomes
+    De hecho, se puede definir para cualquier $x \neq 0$ el vector unitario $u = x / \|x\|$, de modo que (\ref{Eq: (1.19)}) se convierte en
     \[ \|A\| = \sup_{\|u\| = 1}{\|Au\|} = \|Aw\| \quad \|w\| = 1 \]
-    This being taken as given, let us check that (\ref{Eq: (1.19)}) (or, equivalently, (\ref{Eq: (1.20)})) is actually a norm, making direct use of Definition \ref{Def: 1.19}
+    Dicho esto, comprobemos que (\ref{Eq: (1.19)}) (o, de manera equivalente, (\ref{Eq: (1.20)})) es realmente una norma, haciendo uso directo de la Definición \ref{Def: 1.19}
     \begin{enumerate}
-        \item If $\|Ax\| \geq 0$, then it follows that $\|A\| =  \sup_{\|x\| = 1}{\|Ax\| \geq 0}$. Moreover
+        \item Si $\|Ax\| \geq 0$, entonces se sigue que $\|A\| =  \sup_{\|x\| = 1}{\|Ax\| \geq 0}$. Además
         \[ \|A\| = \sup_{\|x \neq 0}{\frac{\|Ax\|}{\|x\|}} = 0 \Leftrightarrow \|Ax\| = 0 \forall x \neq 0\]
-        and $Ax = 0 \forall x \neq 0$ if and only if $A = 0$; therefore $\|A\| = 0 \Leftrightarrow A = 0$.
-        \item Given a scalar $\alpha$
+        y $Ax = 0 \forall x \neq 0$ si y solo si $A = 0$; por lo tanto, $\|A\| = 0 \Leftrightarrow A = 0$.
+        \item Dado un escalar $\alpha$
         \[ \|\alpha A\| = \sup_{\|x\|=1}{\|\alpha A x\|} = |\alpha| \sup_{\|x\| = 1} {\|Ax\|} = |\alpha| \|A\| \]
-        \item Finally, triangular inequality holds. Indeed, by definition of suupremum, if $x \neq 0$ then 
-        \[ \frac{\|Ax\|}{\|x\|} \leq \|A\| \Rightarrow \|Ax\| \leq \|A\| \|x\|\]
-        so that, taking $x$ with unit norm, one gets 
-        \[ \|(A + B)x\| = \leq \|Ax\| + \|Bx\| \leq  \|A\| + \|B\| \]
-        from which it follows that $\|A+B\| = \sup_{\|x\|= 1}{\|(A+ B) x\|} \leq \|A\| + \|B\|$
+        \item Finalmente, se cumple la desigualdad triangular. De hecho, por definición de supremo, si $x \neq 0$ entonces
+        \[ \frac{\|Ax\|}{\|x\|} \leq \|A\| \Rightarrow \|Ax\| \leq \|A\| \|x\| \]
+        de modo que, al tomar $x$ con norma unidad, obtenemos
+        \[ \|(A + B)x\| \leq \|Ax\| + \|Bx\| \leq  \|A\| + \|B\| \]
+        de donde se sigue que $\|A+B\| = \sup_{\|x\|= 1}{\|(A+ B) x\|} \leq \|A\| + \|B\|$
     \end{enumerate}
 \end{proof}
 
-Relevant instances of induces matrix norms are the so-called p-norms defined as 
-\[\|A\|_p = \sup_{x \neq 0}{\frac{\|Ax\||_p}{\|x\|_p}}\]
+Instancias relevantes de normas de matrices inducidas son las llamadas normas p definidas como
+\[\|A\|_p = \sup_{x \neq 0}{\frac{\|Ax\|_p}{\|x\|_p}}\]
 
-The 1-nrom and the infinity norm are easily computable since
+La norma 1 y la norma infinito son fácilmente computables, ya que
 \[ \|A\|_1 = \max_{j = 1,...,n}{\sum_{i = 1}^{m}{|a_{ij}|}}, \quad \|A\|_\infty = \max_{i=1,...,m}{\sum_{j = 1}^{n}{|a_{ij}|}} \]
-and they are called the column sum norm and the row sum norm, respectively.
+y se les llama la norma de la suma de columnas y la norma de la suma de filas, respectivamente.
 
-Moreover, we have $\|A\|_1 = \|A^T\|_\infty$ and, if A is self-adjoint or real symetric, $\|A\|_1 = \|A\|_\infty$.
+Además, tenemos $\|A\|_1 = \|A^T\|_\infty$ y, si $A$ es autoadjunto o simétrico real, $\|A\|_1 = \|A\|_\infty$.
 
-A special discussion is deserved by the 2-norm or spectral norm for which the following theorem holds.
+Una discusión especial merece la norma 2 o norma espectral, para la cual se cumple el siguiente teorema.
 
 \begin{theorem}
-    Let $\sigma_1(A)$ be the largest sigular value of A. Then
+    Sea $\sigma_1(A)$ el mayor valor singular de $A$. Entonces
     \begin{equation}
         \|A\|_2 = \sqrt{\rho (A^H A)} = \sqrt{\rho (A A^H)} = \sigma_1 (A)
         \label{Eq: (1.21)}
     \end{equation}
-    In particular, if A is hermitian (or real symmetric), then
+    En particular, si $A$ es hermítica (o simétrica real), entonces
     \begin{equation}
         \|A\|_2 = \rho(A)
         \label{Eq: (1.22)}
     \end{equation}
-    while, if $A$ is unitary, $\|A\|_2 = 1$.
+    mientras que, si $A$ es unitaria, $\|A\|_2 = 1$.
 \end{theorem}
 
 \begin{proof}
-    Since $A^H A$ is hermitian, there exists an unitary matrix $U$ such that
-    \[ U^H A^H A U = diag(\mu_1,...,\mu_n) \]
-    where $\mu_i$, are the (positive) eigenvalues of $A^H A$. Let $y = U^H x$, then
+    Dado que $A^H A$ es hermítica, existe una matriz unitaria $U$ tal que
+    \[ U^H A^H A U = \text{diag}(\mu_1,...,\mu_n) \]
+    donde $\mu_i$ son los valores propios (positivos) de $A^H A$. Sea $y = U^H x$, entonces
     \[ \|A\|_2 = \sup_{x \neq 0}\sqrt{\frac{(A^H A x, x)}{(x, x)}} = \sup_{y \neq 0}\sqrt{\frac{(U^H A^H A Uy, y)}{(y,y)}} \]
     \[ = \sup_{y \neq 0}\sqrt{\sum_{i = 1}^{n} \mu_i |y_i|^2 / \sum_{i = 1}^{n}}|y_i|^2 = \sqrt{\max_{i = 1,...,n} |\mu_i| } \]
-    from which (\ref{Eq: (1.21)}) follows, thanks to % --------------
+    de donde sigue (\ref{Eq: (1.21)}), gracias a % --------------
 
-    If $A$ is hermitian, the same considerations as above apply directly to $A$. Finally if $A$ is unitary, we have
+    Si $A$ es hermítica, las mismas consideraciones anteriores se aplican directamente a $A$. Finalmente, si $A$ es unitaria, tenemos
     \[ \|Ax\|_2^2 = (Ax, Ax) = (x, A^H Ax) = \|x\|_2^2 \]
-    so that $\|A\|_2 = 1$.
+    de modo que $\|A\|_2 = 1$.
 \end{proof}
 
-As a consequence, the computation of $\|A\|_2$ is much more extensive thant that of $\|A\|_\infty$ or $\|A\|_1$. However, if only an estimate of $\|A\|_2$ is required, the following relations can be profitably employed in the case of square matrices
+Como consecuencia, el cálculo de $\|A\|_2$ es mucho más extenso que el de $\|A\|_\infty$ o $\|A\|_1$. Sin embargo, si solo se requiere una estimación de $\|A\|_2$, se pueden emplear con provecho las siguientes relaciones en el caso de matrices cuadradas
 \[ \max_{i,j}{|a_{ij}|} \leq \|A\|_2 \leq n \max_{i,j}{a_{ij}} \]
 \[ \frac{1}{\sqrt{n}} \|A\|_\infty \leq \|A\|_2 \leq \sqrt{n} \|A\|_\infty \]
 \[ \frac{1}{\sqrt{n}} \|A\|_1 \leq \|A\|_2 \leq \sqrt{n} \|A\|_1 \]
 \[ \|A\|_2 \leq \sqrt{\|A\|_1 \|A\|_\infty} \]
-Moreover, if $A$ is normal then $\|A\|_2 \leq \|A\|_p$ for any $n$ and all $ p \geq 2 $.
+Además, si $A$ es normal, entonces $\|A\|_2 \leq \|A\|_p$ para cualquier $n$ y todo $ p \geq 2 $.
 
 \begin{theorem}
-    Let $ \||\cdot|\| $ be a matrix norm induced by a vector norm $\| \cdot \|$. Then, the following relations hold:
+    Sea $ \||\cdot|\| $ una norma de matriz inducida por una norma de vector $\| \cdot \|$. Entonces, se cumplen las siguientes relaciones:
     \begin{enumerate}
-        \item $ \|Ax\| \leq \||A|\|  \|x\| $, that is $ \||\cdot|\| $ is a norm compatible with $\|\cdot\|$;
+        \item $ \|Ax\| \leq \||A|\|  \|x\| $, es decir, $ \||\cdot|\| $ es una norma compatible con $\|\cdot\|$;
         \item $\||I|\| = 1 $
-        \item $\||AB|\| \leq \||A|\| \||B|\|$, that is, $ \||\cdot|\| $ is sub-multiplicative.
+        \item $\||AB|\| \leq \||A|\| \||B|\|$, es decir, $ \||\cdot|\| $ es submultiplicativa.
     \end{enumerate}
 \end{theorem}
 
 \begin{proof}
-    Part 1 of the theorem is already contained in the proof of Theorem \ref{Theorem: 1.1}, while part 2 follows from the fact that $ \||I|\| = \sup_{x \neq 0}{\|Ix\| / \|x\|} = 1 $. Part 3 is simple to check. 
+    La parte 1 del teorema ya está contenida en la prueba del Teorema \ref{Theorem: 1.1}, mientras que la parte 2 sigue del hecho de que $ \||I|\| = \sup_{x \neq 0}{\|Ix\| / \|x\|} = 1 $. La parte 3 es fácil de verificar.
 \end{proof}
 
-Notice that the p-norms are sub-multiplicative. Moreover, we remark that the sub-multiplicativity property by itself would only allow us to conclude that $\||I|\| \geq 1$. Indeed, $\||I|\| = \||I \cdot I|\| \leq \||I|\|^2$.
+Notemos que las normas p son submultiplicativas. Además, hacemos notar que la propiedad de submultiplicatividad por sí sola solo nos permitiría concluir que $\||I|\| \geq 1$. De hecho, $\||I|\| = \||I \cdot I|\| \leq \||I|\|^2$.
 
-\section{Stability Analysis of Linear Systems}
+\section{Análisis de Estabilidad de Sistemas Lineales}
 
-\subsection{The Condition Number of a Matrix}
+\subsection{El Número de Condición de una Matriz}
 
-The condition number of a matrix $A \in \mathbb{C}^{m \times n}$ is defined as
+El número de condición de una matriz $A \in \mathbb{C}^{m \times n}$ se define como
 \begin{equation}
     K(A) = \|A\| \|A^{-1}\|
     \label{Eq: (3.4)}
 \end{equation}
-where $\|\cdot\|$ is an induced matrix norm. 
+donde $\|\cdot\|$ es una norma de matriz inducida. En general, $K(A)$ depende de la elección de la norma; esto quedará claro al introducir un subíndice en la notación, por ejemplo, $K_\infty(A) = \|A\|_\infty \|A^{-1}\|_\infty$. Más generalmente, $K_p(A)$ denotará el número de condiciónd e $A$ en la norma $p$.
+
+Comencemos notando que $K(A) \geq 1$, ya que
+\[ 1 = \|A A^{-1}\| \leq \|A\| \|A^{-1}\| = K(A) \]
+
+Además, $K(A^{-1}) = K(A)$ y $\forall \alpha \in \mathbb{C}$ con $\alpha \neq 0$, $K(\alpha A) = K(A)$. Finalmente, si $A$ es ortogonal, $K_2(A) = 1$ ya que $\|A\|_2 = \sqrt{\rho (A^T A)} = \sqrt{\rho I} = 1$ y $A^{-1} = A^T$. El número de condición de una matriz singular se establece como infinito.
+
+\begin{remark}
+Define la distancia relativa de $A \in \mathbb{C}^{m \times n}$ con respecto al conjunto de matrices singulares en la norma $p$ como
+\[ dist_p(A) = min\left\{ \frac{\|\delta A\|_p}{\|A\|_p} : A + \delta A \text{ es singular} \right\} \]
+Entonces, se puede demostrar que
+\begin{equation}
+    \label{eq: Quarteroni 3.6}
+    dist_p(A) = \frac{1}{K_p(A)}
+\end{equation}
+La ecuación \ref{eq: Quarteroni 3.6} sugiere que una matriz $A$ con un número de condición alto puede comportarse como una matriz singular de la forma $A + \delta A$. En otras palabras, las perturbaciones nulas en el lado derecho no necesariamente producen cambios no nulos en la solución, ya que, si $A + \delta A$ es singular, el sistema homogéneo $(A + \delta A) z = 0$ ya no admite solo la solución nula. Observe que si se cumple la siguiente condición:
+\begin{equation}
+    \label{eq: Quarteroni 3.7}
+    \|A^{-1}\|_p \|\delta A\|_p < 1
+\end{equation}
+entonces la matriz $A + \delta A$ es no singular.
+\end{remark}
+
+\section{Condicioneamiento de Sistemas Lineales}
+El problema de resolver $Ax = b$ involucra, como entrada, una matriz $A$ y un vector $b$ en el término derecho, mientras que la salida es un vector $x$. Para medir el cambio en la salida debido a un pequeño cambio en la entrada, debemos discutir las normas de vecotres y matrices.
+
+\subsection{Normas}
+\begin{definition}
+Una norma para vectores es una función $\|\cdot\|$ que satisface, para todos los vecotres $v, w$ de dimensión $n$:
+\begin{enumerate}
+    \item $\|v\| > 0$, con igualdad si y solo si $v = 0$
+    \item $\| \alpha v \| = |\alpha| \|v\|$ para cualquier escalar $\alpha$
+    \item $\|v + w\| \leq \|v\| + \|w\|$ (desigualdad triangular)
+\end{enumerate}
+
+La norma de vectores más utilizada en $\mathbb{R}^n$ es la norma-2 o norma euclidiana:
+\[ \|v\|_2 = \sqrt{\sum_{i = 1}^{n} |v_i|^2} \]
+Otras normas frecuentemente empleadas son:
+\begin{itemize}
+    \item Norma-$\infty$:
+    \[ \|v\|_\infty = \max_{1 \leq i \leq n} |v_i| \]
+    \item Norma-1:
+    \[ \|v\|_1 = \sum_{i = 1}^{n} |v_i| \]
+\end{itemize}
+
+Más generalmente, se puede demostrar que para cualquier $p \geq 1$ (sin necesidad de que $p$ sea un entero), la norma-p, definida por:
+\[ \|v\|_p = \left( \sum_{i = 1}^{n}|v_i|^p \right)^{1/p} \]
+es una norma. Usualmente trabajaremso con la norma-1, la norma-2 o la norma-$\infty$. De estas, solo la norma-2 proviene de un producto interno; es decir,
+\[ \|v\|_2 = \langle v, v \rangle^2, \text{ donde } \langle x, y \rangle = \sum_{i = 1}^{n} x_iy_i\]
+\end{definition}
+
+\subsection{Sensibilidad de las Soluciones de Sistemas Lineales}
+Considere el siguiente sistema lineal:
+\[ \begin{pmatrix}
+    1           &   \frac{1}{2} &   \dots   & \frac{1}{n} \\
+    \frac{1}{2} &   \frac{1}{3} &   \dots   & \frac{1}{n+1} \\
+    \vdots      &   \vdots      &   \ddots  &   \vdots \\
+    \frac{1}{n} &   \frac{1}{n+1}   &    \dots  & \frac{1}{2n+-1}
+\end{pmatrix} x = b \]
+Esta matriz es conocida como una matriz de Hilbert, y se sabe que es notoriamente mal condicionada.
+
+Supongamos, entonces, que $\hat{b}$ es un vector tal que, en cierta norma, $\|b - \hat{b}\|$ es pequeño. Sea $x$ la solución del sistema lineal $Ax = b$, y sea $\hat{x}$ la solución del sistema lineal $A \hat{x} = \hat{b}$. Restando estas dos ecuaciones, entontramos que $A(x - \hat{x}) = b - \hat{b}$, o, $x - \hat{x} = A^{-1} (b - \hat{b})$. Tomando normas en cada lado se obtiene la desigualdad
+\begin{equation}
+    \label{eq: Greenbaum 7.8}
+    \| x - \hat{x} \| \leq \| A^{-1} \| \cdot \| b - \hat{b} \|
+\end{equation}
+
+El factor $\| A^{-1} \|$ puede considerarse como un número de condición absoluto para este problema, sin embargo, suele ser el error relativo, en lugar del error absoluto, el que resulta de interés; en este caso, nos gustaría relacionar $\frac{\| x - \hat{x} \|}{\|x\|}$ con $\frac{\| b - \hat{b} \|}{\| b \|}$. Dividiendo cada lado de \ref{eq: Greenbaum 7.8}, encontramos
+\[ \frac{\| x - \hat{x} \|}{\| x \|} \leq \| A^{-1} \| \cdot \frac{\| b - \hat{b} \|}{\| x \|}  = \| A^{-1} \| \cdot \frac{\| b - \hat{b} \|}{\|b\|} \cdot \frac{\|b\|}{\|x\|}\]
+
+Dado que $\frac{\|b\|}{\|x\|} = \frac{\|Ax\|}{\|x\|}$, se sigue que
+\begin{equation}
+    \label{eq: Greenbaum 7.9}
+    \frac{\| x - \hat{x} \|}{\|x\|} \leq \| A^{-1} \| \cdot \|A\| \cdot \frac{\| b - \hat{b}\|}{\|b\|}
+\end{equation}
+El número $\|A\| \cdot \|A^{-1}\|$ sirve como una especie de número de condición relativo para el problema de resolver $Ax = b$.
+
+\begin{definition}
+El número $\kappa (A) = \|A\| \cdot \|A^{-1}\|$ se llama el número de condición de la matriz no singular $A$.
+\end{definition}
+
+\begin{theorem}
+Sea $A$ una matriz no singular $n \times n$, $b$ un vector dado de $n$-dimensiones, y $x$ que satisface $Ax = b$. Sea $A + E$ otra matriz no singular de $n \times n$ y $\hat{x}$ otro vector de $n$-dimensiones, y sea $\hat{x}$ que satisface $(A + E)\hat{x} = b$. Entonces,
+\begin{equation}
+    \label{eq: Greenbaum 7.10}
+    \frac{\| x - \hat{x}\|}{\|x\|} \leq \left( \| (A + E)^{-1} \| \cdot \|A\| \right) \left( \frac{\|b - \hat{b}\|}{\|b\|} + \frac{\|E\|}{\|A\|} \right)
+\end{equation}
+Si $\|E\|$ es suficientemente pequeño tal que $\|A^{-1}\| \cdot \|E\| < 1$, entonces
+\begin{equation}
+    \label{eq: Greenbaum 7.11}
+    \frac{\| x - \hat{x}\|}{\|x\|} \leq \frac{\kappa(A)}{1 - \kappa(A) \|E\| / \|A\|} \cdot \left( \frac{\|b - \hat{b}\|}{\|b\|} + \frac{\|E\|}{\|A\|} \right)
+\end{equation}
+\end{theorem}
+
+\section*{Ejercicios}
+\noindent (1) Sea
+\[ \| \cdot \|: M_{n \times m} \rightarrow (\mathbb{R}) \]
+la aplicación definida por
+\[ \|A\| = max\{ |a_{ij}|: i = 1,..., n, j = 1,..., m \} \]
+Se piede probar que $\| \cdot \|$ es una norma pero que no está inducida por una norma vectorial (Quarteroni pág. 22).
+
+\noindent (2) Dado $\gamma \geq 0$, se considera la matriz
+\[ A = \begin{pmatrix}
+    1 & \gamma \\
+    0 &    1
+\end{pmatrix} \]
+Comprobar que
+\[ K_\infty (A) = K_1 (A) = (a + \gamma )^2 \]
+Ahora, se considera el sistema $Ax = b$ donde $x = (1 - \gamma, 1)^T$ es la solución del sistema. Para $\gamma = 101$ y $\gamma = 0.01$ calcular $K_\infty (A)$ y $K_{rel}(b)$ (con norma infinito) y decidir si el problema está bien o mal condicionado.
+
+\noindent (3) Utilizar interpolación de Vandermonde para aproximar la función $f(x) = cos(kx)$, con $k = 10, 20, 30,..., 100$. Variar el grado del polinomio interpolador para apreciar la inestabilidad. Calcular el número de condición de las matrices de Vandermonde obtenidas, evaluar en los nodos y hacer la gráfica del error.

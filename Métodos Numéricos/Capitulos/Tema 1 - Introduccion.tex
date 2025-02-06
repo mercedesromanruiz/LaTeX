@@ -1,39 +1,39 @@
 \chapter{Introducción}
-\section{Vector Spaces}
+\section{Espacios Vectoriales}
 \begin{definition}
-    A vector space eover the numeric field $K$ ($K = \mathbb{R}$ or $K = \mathbb{C}$) is a nonempty set $V$, whose elements are called vector and in which two operations are defined, called addition and scalar multiplication, that enjoy the following properties:
+    Un espacio vectorial sobre el campo num\'erico $K$ ($K = \mathbb{R}$ o $K = \mathbb{C}$) es un conjunto no vacío $V$, cuyos elementos se llaman vectores y en el cual se definen dos operaciones, denominadas suma y multiplicaci\'on por escalares, que cumplen las siguientes propiedades:
     \begin{enumerate}
-        \item addition is commutative and associative;
-        \item there exists an element $0 \in V$ (the zero vector or null vector) such that $v + 0 = v$ for each $v \in V$
-        \item $0 \cdot v = 0$, $1 \cdot v = v$, for each $v \in V$, where 0 and 1 are respectively the zero and the unity of $K$;
-        \item for each element $v \in V$ there exists its opposite, $-v$, in $V$ such that $v + (-v) = 0$;
-        \item the following distributive properties hold
+        \item la suma es conmutativa y asociativa;
+        \item existe un elemento $0 \in V$ (el vector cero o vector nulo) tal que $v + 0 = v$ para cada $v \in V$;
+        \item $0 \cdot v = 0$, $1 \cdot v = v$, para cada $v \in V$, donde 0 y 1 son respectivamente el cero y la unidad de $K$;
+        \item para cada elemento $v \in V$ existe su opuesto, $-v$, en $V$ tal que $v + (-v) = 0$;
+        \item se cumplen las siguientes propiedades distributivas:
         \[\forall \alpha \in K, \forall v,w \in V, \alpha(v + w) = \alpha v + \alpha w\]
         \[\forall \alpha , \beta \in K, \forall v \in V, (\alpha + \beta)v = \alpha v + \beta v\]
-        \item the following associative property holds
+        \item se cumple la siguiente propiedad asociativa:
         \[\forall \alpha , \beta \in K, \forall v \in V, (\alpha \beta)v = \alpha (\beta v)\]
     \end{enumerate}
 \end{definition}
 
 \begin{definition}
-    We say that a nonempty part $W$ of $V$ is a vector subspace of $V$ if $W$ is a vector space over $K$.
+    Decimos que una parte no vac\'ia $W$ de $V$ es un subespacio vectorial de $V$ si $W$ es un espacio vectorial sobre $K$.
 \end{definition}
 
 \begin{definition}
-    A system of vector ${v_1, ..., v_n}$ of a vector space $V$ is called linearly independent if the relation
+    Un sistema de vectores ${v_1, ..., v_n}$ de un espacio vectorial $V$ se llama linealmente independiente si la relaci\'on
     \[\alpha_1 v_1 + \alpha_2 v_2 +...+ \alpha_m v_m = 0\]
-    with $\alpha_1, \alpha_2, ..., \alpha_m \in K$ implies that $\alpha_1 = \alpha_2 = ...= \alpha_m = 0$. Otherwise, the system will be called linearly dependent.
+    con $\alpha_1, \alpha_2, ..., \alpha_m \in K$ implica que $\alpha_1 = \alpha_2 = ...= \alpha_m = 0$. En caso contrario, el sistema se llamar\'a linealmente dependiente.
 \end{definition}
 
-We call a basis of $V$ any system of linearly independent generator of $V$. If ${u_1, ..., u_n}$ is a basis of $V$, the expression $v = v_1 u_1 + ... + v_n u_n$ is called the decomposition of $v$ with respect to the basis and the scalars $v_1, ..., v_n \in K$ are the components of $v$ with respect to the given basis. Moreover, the following pro holds.
+Llamamos base de $V$ a cualquier sistema generador linealmente independiente de $V$. Si ${u_1, ..., u_n}$ es una base de $V$, la expresi\'on $v = v_1 u_1 + ... + v_n u_n$ se llama la descomposici\'on de $v$ con respecto a la base y los escalares $v_1, ..., v_n \in K$ son los componentes de $v$ con respecto a la base dada. Adem\'as, se cumple la siguiente propiedad.
 
 \begin{property}
-    Let $V$ be a vector space which admits a basis of $n$ vectors. Then every system of linearly independent vector of $V$ hast at most $n$ elements and any other basis of $V$ has $n$ elements. The number $n$ is called the dimension of $V$ and we write $dim(V) = n$.
-    If, instead, for any $n$ there always exist $n$ linearly independent vectors of $V$, the vector space is called infinite dimensional.
+    Sea $V$ un espacio vectorial que admite una base de $n$ vectores. Entonces, todo sistema de vectores linealmente independientes de $V$ tiene como m\'aximo $n$ elementos y cualquier otra base de $V$ tiene $n$ elementos. El n\'umero $n$ se llama la dimensi\'on de $V$ y escribimos $\dim(V) = n$.
+    Si, en cambio, para cualquier $n$ siempre existen $n$ vectores linealmente independientes en $V$, el espacio vectorial se llama de dimensi\'on infinita.
 \end{property}
 
 \section{Matrices}
-Let $m$ and $n$ be two positive integers. We call a matrix having $m$ rows and $n$ columns, or a matrix $m \times n$, or a matrix $(m, n)$, with elements in $K$, a set of $mn$ scalars $a_{ij} \in K$, with $i = 1,...,m$ and $j = 1,...,n$, represented in the following rectangular array
+Sean $m$ y $n$ dos enteros positivos. Llamamos matriz de $m$ filas y $n$ columnas, o una matriz $m \times n$, o una matriz $(m, n)$, con elementos en $K$, a un conjunto de $mn$ escalares $a_{ij} \in K$, con $i = 1,...,m$ y $j = 1,...,n$, representada en el siguiente arreglo rectangular
 \begin{equation}
     A = \begin{bmatrix}
         a_{11} & a_{12} & \cdots & a_{1n} \\
@@ -43,301 +43,215 @@ Let $m$ and $n$ be two positive integers. We call a matrix having $m$ rows and $
         \end{bmatrix}
     \label{matrices}
 \end{equation}
-When $K = \mathbb{R}$ or $K = \mathbb{C}$ we shall respectively write $A \in \mathbb{R}^{m \times n}$ or $A \in \mathbb{C}^{m \times n}$, to explicitly outline the numerical fields which the elements of $A$ belong to. Capital letters will be used to denote the matrices, while the lower case letters corresponding to those upper case letters will denote the matrix entries.
+Cuando $K = \mathbb{R}$ o $K = \mathbb{C}$, escribiremos respectivamente $A \in \mathbb{R}^{m \times n}$ o $A \in \mathbb{C}^{m \times n}$, para detallar explícitamente los campos numéricos a los que pertenecen los elementos de $A$. Usaremos letras mayúsculas para denotar las matrices, mientras que las letras minúsculas correspondientes a esas letras mayúsculas denotarán las entradas de la matriz.
 
-We shall abbreviate (\ref{matrices}) as $A = (a_ij)$ with $i = 1,...,m$ and $j = 1,...,n$. The index $i$ is called row index, while $j$ is the column index. The set $(a_{i1}, a_{i2}, ..., a_{in})$ is called the i-th row of $A$; likewise, $(a_{1j}, a_{2j}, ..., a_{mj})$ is the j-th column of $A$.
+Abreviaremos (\ref{matrices}) como $A = (a_{ij})$ con $i = 1,...,m$ y $j = 1,...,n$. El índice $i$ se llama índice de fila, mientras que $j$ es el índice de columna. El conjunto $(a_{i1}, a_{i2}, ..., a_{in})$ se llama la i-ésima fila de $A$; igualmente, $(a_{1j}, a_{2j}, ..., a_{mj})$ es la j-ésima columna de $A$.
 
-If $n = m$ the matrix is called squared or having order $n$ and the set of the entries $(a_{11}, a_{22}, ..., a_{nn})$ is called its main diagonal.
+Si $n = m$, la matriz se llama cuadrada o de orden $n$, y el conjunto de las entradas $(a_{11}, a_{22}, ..., a_{nn})$ se llama su diagonal principal.
 
-A matrix having one row or one column is called a row vector or column vector respectively. Unless otherwise specified, we shall always assume that a vector is a column vector. In the case $n = m = 1$, the matrix will simply denote a scalar of $K$.
+Una matriz que tenga una fila o una columna se llama vector fila o vector columna, respectivamente. A menos que se especifique lo contrario, siempre asumiremos que un vector es un vector columna. En el caso $n = m = 1$, la matriz simplemente denotará un escalar de $K$.
 
 \begin{definition}
-    Let $A$ be a matrix $m  \times n$. Let $1 \leq i_1 < i_2 < ... < i_k \leq m$ and $1 \leq j_1 < j_2 < ... < j_l \leq n$ two sets of contiguous indexes. The matrix $S(k \times l)$ of entries $s_{pq} = a_{i_p j_q}$ with $p = 1, ..., k$, $q = 1, ..., l$ is called a submatrix of $A$. If $k = l$ and $i_r = j_r$ for $r = 1, ..., k$, $S$ is called a principal submatrix of $A$.
+    Sea $A$ una matriz $m \times n$. Sean $1 \leq i_1 < i_2 < ... < i_k \leq m$ y $1 \leq j_1 < j_2 < ... < j_l \leq n$ dos conjuntos de índices contiguos. La matriz $S(k \times l)$ de entradas $s_{pq} = a_{i_p j_q}$ con $p = 1, ..., k$, $q = 1, ..., l$ se llama submatriz de $A$. Si $k = l$ y $i_r = j_r$ para $r = 1, ..., k$, $S$ se llama submatriz principal de $A$.
 \end{definition}
 
 \begin{definition}
-    A matrix $A(m \times n)$ is called block partitioned or said to be partitioned into submatrices if 
-    \[A = \begin{bmatrix}
+    Una matriz $A(m \times n)$ se llama particionada en bloques o se dice que está particionada en submatrices si
+    \[
+    A = \begin{bmatrix}
         A_{11} & A_{12} & \cdots & A_{1l} \\
         A_{21} & A_{22} & \cdots & A_{2l} \\
         \vdots & \vdots & \ddots & \vdots \\
         A_{k1} & A_{k2} & \cdots & A_{kl}
-    \end{bmatrix}\]
-    where $A_{ij}$ are submatrices of $A$.
+    \end{bmatrix}
+    \]
+    donde $A_{ij}$ son submatrices de $A$.
 \end{definition}
 
-\section{Operations with Matrices}
-\subsection{Matrices and Linear Mappings}
+
+\section{Operaciones con matrices}
+\subsection{Matrices y transformaciones lineales}
 \begin{definition}
-    A linear map for $\mathbb{C}^n$ into $\mathbb{C}^m$ is a function $f: \mathbb{C}^n \rightarrow \mathbb{C}^m$ such that $f(\alpha x + \beta y) = \alpha f(x) + \beta f(y)$, $\forall \alpha , \beta \in K$ and $\forall x, y \in \mathbb{C}^n$.
+    Una transformación lineal para $\mathbb{C}^n$ en $\mathbb{C}^m$ es una función $f: \mathbb{C}^n \rightarrow \mathbb{C}^m$ tal que $f(\alpha x + \beta y) = \alpha f(x) + \beta f(y)$, $\forall \alpha , \beta \in K$ y $\forall x, y \in \mathbb{C}^n$.
 \end{definition}
 
-The following result links matrices and linear maps.
+El siguiente resultado vincula matrices y transformaciones lineales.
 
 \begin{property}
-    Let $f: \mathbb{C}^n \rightarrow \mathbb{C}^m$ be a linear map. Then, ther exists a unique matrix $A_f \in \mathbb{C}^{m \times n}$ such that
+    Sea $f: \mathbb{C}^n \rightarrow \mathbb{C}^m$ una transformación lineal. Entonces, existe una matriz única $A_f \in \mathbb{C}^{m \times n}$ tal que
     \begin{equation}
         f(x) = A_f x \quad \forall x \in \mathbb{C}^n
         \label{Matrices and Linear Mappings}
     \end{equation}
-    Conversely, if $A_f \in \mathbb{C}^{m \times n}$ then the function defined in (\ref{Matrices and Linear Mappings}) is a linear map from $\mathbb{C}^n$ into $\mathbb{C}^m$.
+    Inversamente, si $A_f \in \mathbb{C}^{m \times n}$, entonces la función definida en (\ref{Matrices and Linear Mappings}) es una transformación lineal de $\mathbb{C}^n$ en $\mathbb{C}^m$.
 \end{property}
 
-\section{Well-posedness and Condition Number of a Problem}
-Consider the following problem: find $x$ such that
+\section{Bien planteamiento y número de condición de un problema}
+Consideremos el siguiente problema: encontrar $x$ tal que
 \begin{equation}
     F(x, d) = 0
     \label{problem}
 \end{equation}
-where $d$ is the set of data which the solution depends on and $F$ is the functional relation between $x$ and $d$. According to the kind of problem that is represented in (\ref{problem}), the variables $x$ and $d$ may be real numbers, vectors or functions. Typically, (\ref{problem}) is called a direct problem if $F$ and $d$ are given and $x$ is unknown, inverse problem if $F$ and $x$n are known and $d$ is the unknown, identigication problem when $x$ and $d$ are given while the functional relation $F$ is the unknown.
+donde $d$ es el conjunto de datos del cual depende la solución y $F$ es la relación funcional entre $x$ y $d$. Según el tipo de problema representado en (\ref{problem}), las variables $x$ y $d$ pueden ser números reales, vectores o funciones. Típicamente, (\ref{problem}) se llama un problema directo si $F$ y $d$ están dados y $x$ es desconocido, un problema inverso si $F$ y $x$ son conocidos y $d$ es el desconocido, y un problema de identificación cuando $x$ y $d$ están dados mientras que la relación funcional $F$ es desconocida.
 
-Problem (\ref{problem}) is well posed if it admits a unique solution $x$ which depends with continuaity on the data. We shall use the terms well posed and stable in an interchanging manner and we sall deal hecenforth only with well-posed problems.
+El problema (\ref{problem}) está bien planteado si admite una solución única $x$ que depende continuamente de los datos. Usaremos los términos bien planteado y estable de manera intercambiable y a partir de ahora solo trataremos problemas bien planteados.
 
-A problem which does not enjoy the property above is called ill posed or unstable and before undertaking its numerical solution it has to be regularized, that is, it must be suitably transformed into a well-posed problem. Indeed, it is not appropriate to pretend the numerical method can cure the pathologies of an instrinsically ill-posed problem.
+Un problema que no goza de la propiedad anterior se llama mal planteado o inestable y antes de abordar su solución numérica debe ser regularizado, es decir, debe transformarse adecuadamente en un problema bien planteado. De hecho, no es adecuado pretender que el método numérico pueda curar las patologías de un problema intrínsecamente mal planteado.
 
-Let $D$ be the set of admissible data, i.e. the set of the values of $d$ in correspondance of which problem (\ref{problem}) admits a unique solution. Continuous dependence on the data means that small perturbations on the data $d$ of $D$ yield ``small'' changes in the solution $x$. Precisely, led $d \in D$ and denote by $\delta d$ a perturbation admissible in the sense that $d + \delta d \in D$ and by $\delta x$ the corresponding change in the solution, in such a way that
+Sea $D$ el conjunto de datos admisibles, es decir, el conjunto de los valores de $d$ en correspondencia con los cuales el problema (\ref{problem}) admite una solución única. La dependencia continua de los datos significa que pequeñas perturbaciones en los datos $d$ de $D$ producen "pequeños" cambios en la solución $x$. Precisamente, sea $d \in D$ y denotemos por $\delta d$ una perturbación admisible en el sentido de que $d + \delta d \in D$ y por $\delta x$ el cambio correspondiente en la solución, de manera que
 \begin{equation}
     F(x + \delta x, d + \delta d) = 0
     \label{equation 2.2}
 \end{equation}
-Then, we require that
+Entonces, requerimos que
 \begin{multline}
-    \exists \eta_0 =\eta_0(d) > 0, \quad \exists K_0 = K_0 (d) \text{ such that if } \\
-     \| \delta d \| \leq \eta_0 \text{ then } \| \delta x \| \leq K_0 \| \delta d \|
+    \exists \eta_0 =\eta_0(d) > 0, \quad \exists K_0 = K_0 (d) \text{ tal que si } \\
+     \| \delta d \| \leq \eta_0 \text{ entonces } \| \delta x \| \leq K_0 \| \delta d \|
      \label{equation(2.3)}
 \end{multline}
 
-The norms used fot the data and for the solution may not coincide, whenever $d$ and $x$ represent variables of different kinds.
+Las normas usadas para los datos y para la solución pueden no coincidir, siempre que $d$ y $x$ representen variables de diferentes tipos.
 
 \begin{remark}
-    The property of continuous dependence on the data could have been stated in the following alternative way, which is more akin to the classical form of Analysis $\forall \epsilon > 0\ \exists \delta = \delta (\epsilon)$ such that if $\| \delta d \| \leq \delta$ then $\| \delta x \| \leq \epsilon$.
+    La propiedad de dependencia continua de los datos podría haberse expresado de la siguiente manera alternativa, que es más parecida a la forma clásica del Análisis $\forall \epsilon > 0\ \exists \delta = \delta (\epsilon)$ tal que si $\| \delta d \| \leq \delta$ entonces $\| \delta x \| \leq \epsilon$.
     
-    The form (\ref{equation(2.3)}) is however more suitable to express in the following the concept of numerical stability, that is, the property that small perturbations on the data yield perturbations of the same order on the solution.
+    La forma (\ref{equation(2.3)}) es, sin embargo, más adecuada para expresar en lo siguiente el concepto de estabilidad numérica, es decir, la propiedad de que pequeñas perturbaciones en los datos producen perturbaciones del mismo orden en la solución.
 \end{remark}
 
-With the aim of making the stability analysis more quantitative, we introduce the following definition.
+Con el objetivo de hacer que el análisis de estabilidad sea más cuantitativo, introducimos la siguiente definición.
 
 \begin{definition}
-    For problem (\ref{problem}) we define the relative condition number to be
+    Para el problema (\ref{problem}) definimos el número de condición relativo como
     \begin{equation}
-        K(d) = sup\{ \frac{\| \delta x \| / \| x \|}{\| \delta d \| / \|d \|}, \delta d \neq 0, d + \delta d \in D \}
+        K(d) = \sup\{ \frac{\| \delta x \| / \| x \|}{\| \delta d \| / \|d \|}, \delta d \neq 0, d + \delta d \in D \}
         \label{equation 2.4}
     \end{equation}
-    Whenever $d = 0$ or $x = 0$, it is necessary to introduce the absolute condition number, given by
+    Siempre que $d = 0$ o $x = 0$, es necesario introducir el número de condición absoluto, dado por
     \begin{equation}
-        K_{abs}(d) = sup \{ \frac{ \| \delta x \|}{ \| \delta d \|}, \delta d \neq 0, d + \delta d \in D \}
+        K_{abs}(d) = \sup \{ \frac{ \| \delta x \|}{ \| \delta d \|}, \delta d \neq 0, d + \delta d \in D \}
         \label{equation 2.5}
     \end{equation}
 \end{definition}
 
-Problem (\ref{problem}) is called ill-conditioned if  $K(d)$ is ``big'' for any admissible datum $d$.
+El problema (\ref{problem}) se llama mal condicionado si  $K(d)$ es "grande" para cualquier dato admisible $d$.
 
-The property of a problem of being well-conditioned is independent of the numerical method that is being used to solve it. In fact, it is possible to generate stable as well as unstable numerical schemes for solving well-conditioned problems. The concept of stability  for an algorithm or for a numerical method is analogous to that used for problem (\ref{problem}) and will be made precise in the next section.
+La propiedad de que un problema esté bien condicionado es independiente del método numérico que se use para resolverlo. De hecho, es posible generar esquemas numéricos estables e inestables para resolver problemas bien condicionados. El concepto de estabilidad para un algoritmo o para un método numérico es análogo al utilizado para el problema (\ref{problem}) y se hará preciso en la siguiente sección.
 
 \begin{remark}
-    (Ill-posed problems) Even in the case in which the condition number does not exist (formally, it is infinite), it is not necessarily true that the problem is ill-posed. In fact there exist well posed problems for which the condition number is infinite, but suuch that they can be reformulated in equivalente problems with a finite condition number.
+    (Problemas mal planteados) Incluso en el caso en que el número de condición no exista (formalmente, sea infinito), no necesariamente es cierto que el problema esté mal planteado. De hecho, existen problemas bien planteados para los cuales el número de condición es infinito, pero que pueden ser reformulados en problemas equivalentes con un número de condición finito.
 \end{remark}
 
-If problem (\ref{problem}) admits a unique solution, then there necessarily exists a mappin $G$, that we call resolvent, between the sets of the data and of the solutions, such that
+Si el problema (\ref{problem}) admite una solución única, entonces necesariamente existe una aplicación $G$, que llamamos resolvente, entre los conjuntos de los datos y las soluciones, tal que
 \begin{equation}
-    x = G(d) \text{, that is } F(G(d), d) = 0
+    x = G(d) \text{, es decir } F(G(d), d) = 0
     \label{equation 2.6}
 \end{equation}
-According to this definition, (\ref{equation 2.2}) yields $x + \delta x = G(d + \delta d)$. Assuming that $G$ is differentiable in $d$ and denoting formally by $G'(d)$ its derivative with respect to $d$ (if $G: \mathbb{R}^n \rightarrow \mathbb{R}^m, G'(d)$ will be the Jacobian matrix of $G$ evaluated at the vector $d$), a Taylor's expansion of $G$ truncated at first order ensures that 
-\[G(d + \delta d) - G(d) n= G'(d) \delta d + o(\| \delta d \|) \quad \text{for } \delta d \rightarrow 0 \]
-wheere $\| \cdot \|$ is a suitable vector norm and $o(\cdot)$ is the classical infinitesimal symbol denoting an infinitesimal term of higher order with respect to its argument. Neglecting the infinitesimal of higher order with respect to $\| \|delta d \|$, from (\ref{equation 2.4}) and (\ref{equation 2.5}) we respectively deduce that
+Según esta definición, (\ref{equation 2.2}) da lugar a $x + \delta x = G(d + \delta d)$. Suponiendo que $G$ sea diferenciable en $d$ y denotando formalmente por $G'(d)$ su derivada con respecto a $d$ (si $G: \mathbb{R}^n \rightarrow \mathbb{R}^m$, $G'(d)$ será la matriz jacobiana de $G$ evaluada en el vector $d$), una expansión de Taylor de $G$ truncada en primer orden asegura que 
+\[G(d + \delta d) - G(d) = G'(d) \delta d + o(\| \delta d \|) \quad \text{para } \delta d \rightarrow 0 \]
+donde $\| \cdot \|$ es una norma vectorial adecuada y $o(\cdot)$ es el símbolo clásico de infinitesimal que denota un término infinitesimal de orden superior con respecto a su argumento. Despreciando el infinitesimal de orden superior con respecto a $\| \delta d \|$, de (\ref{equation 2.4}) y (\ref{equation 2.5}) deducimos respectivamente que
 \begin{equation}
     K(d) \approx \| G'(d) \| \frac{\| d \|}{\| G(d) \|}, \quad K_{abs}(d) \approx \| G'(d) \|
     \label{equation 2.7}
 \end{equation}
-where the symbol $\| \cdot \|$, when applied to a matrix, denotes the induced matrix norm (\ref{equation 1.19}) associated with the vector norm introduced above. The estimates in (\ref{equation 2.7}) are of great practical usefulness in the analysis of problems in the form (\ref{equation 2.6}).
+donde el símbolo $\| \cdot \|$, cuando se aplica a una matriz, denota la norma de matriz inducida (\ref{equation 1.19}) asociada con la norma vectorial introducida anteriormente. Las estimaciones en (\ref{equation 2.7}) son de gran utilidad para realizar análisis cualitativos sobre la condición de un problema.
 
-\begin{theorem}
-    Let $\| \cdot \|$ be a vector norm. The function
-    \begin{equation}
-        \| A \| = \sup_{x \neq 0} \frac{\| A x \|}{\|x \|}
-        \label{equation 1.19}
-    \end{equation}
-    is a matrix norm called induced matrix norm or natural matrix norm.
-\end{theorem}
+\subsection{Relaciones entre Estabilidad y Convergencia}
+Los conceptos de estabilidad y convergencia están fuertemente conectados.
 
-In view of (\ref{equation 2.7}), the quantity $\| G'(d) \|$ is an approximation of $K_{abs}(d)$ and is sometimes called first order absolute condition number. This latter represents the limit of the Lipschitz constant of $G$ as the perturbation on the data tends to zero.
+En primer lugar, si el problema (\ref{problem}) está bien planteado, una condición necesaria para que el problema numérico (\ref{equation 2.12}) sea convergente es que sea estable.
 
-Such a number does not always provide a sound estimate of the condition number $K_{abs}(d)$. This happends, for instance, when $G'$ vanishes at a point whilst $G$ is nonnull in a neightborhood of the same point. For example, take $x = G(d) = cos(d) - 1$ for $d \in (- \pi / 2, \pi / 2)$, we have $G'(0) = 0$ while $K_{abs}(0) = 2/\pi$.
-
-\section{Stability of Numerical Methods}
-We shall henceforth suppose the problem (\ref{problem}) to be well posed. A numerical method for the approximate solution of (\ref{problem}) will consist, in general, of a sequence of approximate problems
-\begin{equation}
-    F_n (x_n, d_n) = 0 \quad n \geqq
-    \label{equation 2.12}
-\end{equation}
-depending on a certain parameter $n$ (to be defined case by case). The understood expectation is that $x_n \rightarrow x$ as $n \rightarrow \infty$, i.e. that the numerical solution converges to the exact solution. For that, it is necessary that $d_n \rightarrow d$ and that $F_n$ approximates $F$, as $n \rightarrow \infty$. Precisely, if the datum $d$ of problem (\ref{problem}) is admissible for $F_n$, we say that (\ref{equation 2.12}) is consistent if 
-\begin{equation}
-    F_n(x,d) = F_n (x,d) - F(x,d) \rightarrow 0 \text{ for } n \rightarrow \infty
-    \label{equation 2.13}
-\end{equation}
-where $x$ is the solution to problem (\ref{problem}) corresponding to the datum $d$.
-
-A method is said to be strongly consistent if $F_n(x,d) = 0$ for any value of $n$ and not only for $n \rightarrow \infty$.
-
-In some cases problem (\ref{equation 2.12}) could take the following form
-\begin{equation}
-    F_n (x_n, x_{n-1}, ..., x_{n-q}, d_n) = 0 \quad n \geq q
-    \label{equation 2.14}
-\end{equation}
-where $x_0, x_1, ..., x_{q-1}$ are given. In such case, the property of strong consistency becomes $F_n(x, x, ..., x, d) = 0$ for all $n \geq q$.
-
-Recalling what has been previously state about problem (\ref{problem}), in order for the numerical method to be well posed (or stable) we require that for any fixed $n$, there exists a unique solution $x_n$ corresponding to the datum $d_n$, that $x_n$ depends continuously on the data. More precisly, let $d_n$ be an arbitrary element of $D_n$, wehre $D_n$ is the set of all admissible data for (\ref{equation 2.12}). Let $\delta d_n$ be a perturbation admissible in the sense that $d_n + \delta d_n \in D_n$, and let $\delta x_n$ denote the corresponding perturbation on the solution, that is 
-\[F_n(x_n + \delta x_nn, d_n + \delta d_n) = 0\]
-Then we require that
-\begin{multline}
-    \exists \eta_0 = \eta_0 (d_n) < 0, \exists K_0 = K_0 (d_n) \text{ such that } \\
-    \text{if } \| \delta d_n \| \leq \eta_0 \text{ then } \| \delta x_n \| \leq K_0 \| \delta d_n \|
-    \label{equation 2.16}
-\end{multline}
-As done in (\ref{equation 2.4}), we introduce for each problem in the sequence (\ref{equation 2.12}) the quantities
-\begin{multline}
-    K_n (d_n) = \sup\{\frac{\| \delta x_n\| / \| x_n \|}{ \| \delta d_n \| / \| d_n \|}, \delta d_n \neq 0, d_n + \delta d_n \in D_n\}, \\
-    K_{abs, n}(d_n) = \sup\{\frac{\| \delta x_n \|}{ \| \delta d_n \|}, \delta d_n \neq 0, d_n + \delta d_n \in D_n\}
-    \label{equation 2.17}
-\end{multline}
-The numerical method is sait to be well condition if $K_n(d_n)$ is ``small'' for any admissible datum $d_n$, ill conditioned otherwise. As in (\ref{equation 2.6}), let us consider the case where, for each $n$, the functional relation (\ref{equation 2.12}) defines a mapping $G_n$ between the sets of the numerical data and the solutions
-\begin{equation}
-    x_n = G_n(d_n), \text{ that is } F_n (G_n(d_n) d_n) = 0
-    \label{equation 2.18}
-\end{equation}
-Assuing that $G_n$ is differentiable, we can obtain from (\ref{equation 2.17})
-\begin{equation}
-    K_n(d_n) \approx \| G'_n (d_n) \| \frac{ \|d_n \|}{\|G_n(d_n) \|}, \quad K_{abs,n} \approx \|G'_n(d_n) \|
-    \label{equation 2.19}
-\end{equation}
-We observe that, in the case where the sets of admissible data in problems (\ref{problem}) and (\ref{equation 2.12}) coincide, we can use in (\ref{equation 2.16}) and (\ref{equation 2.17}) the quantity $d$ instead of $d_n$. In such case, we can define the relative and absolute asymptotic condition number corresponding to the datum $d$ as follows
-\[K^{num}(d) = \lim_{k \rightarrow \infty} \sup_{n \geq k} K_n(d)\] 
-\[\quad K_{abs}^{num}(d) = \lim_{k \rightarrow \infty} \sup_{n \geq k} K_{abs, n}(d) \]
-
-The final foal of numerical approximation is, of course, to build, through numerical problems of type (\ref{equation 2.12}), solutions $x_n$ that ``get closer'' to the solution of problem (\ref{problem}) as much as $n$ gets larger. This concept is made precise in the next definition.
-
-\begin{definition}
-    The numerical method (\ref{equation 2.12}) is convergent iff 
-    \begin{multline}
-        \forall \epsilon > 0 \exists n_0 = n_0 (\epsilon), \exists \delta = \delta (n_0, \epsilon) > 0 \text{ such that} \\
-        \forall n > n_0(\epsilon), \forall \delta d_n : \|\delta d_n\| \leq \delta  \rightarrow \| x(d) - x_n(d + \delta d_n) \| \leq \epsilon
-        \label{equation 2.20}
-    \end{multline}
-    where $d$ is na admissible datum for the problem (\ref{problem}), $x(d)$ is the corresponding solution and $x_n(d + \delta d_n)$ is the solution of the numerical problem (\ref{equation 2.12}) with datum $d + \delta d_n$.
-\end{definition}
-
-To verify the implication (\ref{equation 2.20}) it suffices to check that under the same assumptions 
-\begin{equation}
-    \| x(d + \delta d_n) - x_n(d + \delta d_n) \| \leq \frac{\epsilon}{2}
-    \label{equation 2.21}
-\end{equation}
-Indeed, thanks to (\ref{equation(2.3)}) we have 
-\begin{multline*}
-    \| x(d) - x_n (d + \delta d_n) \| \leq \| x(d) - x(d + \delta d_n) \| \\
-    + \| x(d + \delta d_n) - x_n (d + \delta d_n) \| \leq K_0 \| \delta d_n \| + \frac{\epsilon}{2}
-\end{multline*}
-Choosing $\delta = min\{ \eta_0, \epsilon / (2 K_0)\}$ one obtains (\ref{equation 2.20}).
-
-Measures of the convergence of $x_n$ to $x$ are given by the absolute error or the relative error, respectively defined as
-\begin{equation}
-    E(x_n) = |x - x_n|, \quad E_{rel}(x_n) = \frac{|x - x_n|}{|x|} (\text{ if } x ,\neq 0)
-    \label{equation 2.22}
-\end{equation}
-In the cases where $x$ and $x_n$ are matrix or vector quantities, in addition to the definitions in (\ref{equation 2.22}) it is sometimes useful to introduce the relative error by component defined as
-\begin{equation}
-    E_{rel}^c(x_n) = \max_{i,j} \frac{|x - x_n|_{ij}}{|x_{ij}|}
-    \label{equation 2.23}
-\end{equation}
-
-\subsection{Relations between Stability and Convergence}
-The concepts of stability and convergence are strongly connected.
-
-First of all, if problem (\ref{problem}) is well posed, a necessary condition in order for the numerical problem (\ref{equation 2.12}) to be convergent is that it is stable.
-
-Let us thus assume that the method is convergent, that is, (\ref{equation 2.20}) holds for an arbitrary $\epsilon >0 $. We have 
+Supongamos entonces que el método es convergente, es decir, que (\ref{equation 2.20}) se cumple para un $\epsilon > 0$. Tenemos
 \begin{multline}
     \| \delta x_n \| = \| x_n(d + \delta d_n) - x_n(d) \| \leq \| x_n(d) - x(d) \| \\
     + \| x(d) - x(d + \delta d_n) \| + \| x(d + \delta d_n) - x_n (d + \delta d_n) \| \\
     \leq K(\delta (n_0, \epsilon), d) \| \delta d_n \| + \epsilon
     \label{equation 2.24}
 \end{multline}
-having used (\ref{equation(2.3)}) and (\ref{equation 2.21}) twice. Choosing now $\delta d_n$, suchh that $\| \delta d_n \| \leq \eta_0$, we deduce that $\| \delta d_n \| \leq \eta_0$, we deduce that $\| \delta x_n \| / \| \delta d_n \|$ can be bounced by $K_0 = K(\delta (n_0 , \epsilon), d) + 1$, provided that $\epsilon \leq \| \delta d_n \|$, so that the method is stable. Thus, we are interested in stable numerical methods since only these can e convergent.
+habiendo utilizado (\ref{equation(2.3)}) y (\ref{equation 2.21}) dos veces. Ahora, eligiendo $\delta d_n$ tal que $\| \delta d_n \| \leq \eta_0$, deducimos que $\| \delta d_n \| \leq \eta_0$, lo que nos lleva a que $\| \delta x_n \| / \| \delta d_n \|$ puede ser acotado por $K_0 = K(\delta (n_0 , \epsilon), d) + 1$, siempre que $\epsilon \leq \| \delta d_n \|$, de modo que el método es estable. Así, nos interesan los métodos numéricos estables, ya que solo estos pueden ser convergentes.
 
-The stability of a numerical method becomes a sufficient condition for the numerical problem (\ref{equation 2.12}) to converge if this latter is also consistent with problem (\ref{problem}). Indeed, under these assumptions we have
-\[ \|x(d + \delta d_n) - x_n(d + \delta d_n)\| \leq \| x(d + \delta d_n) - x(d) \| \]
-\[ + \| x(d) - x_n(d) \| + \| x_n(d) - x_n(d + \delta d_n)\| \]
+La estabilidad de un método numérico se convierte en una condición suficiente para que el problema numérico (\ref{equation 2.12}) converja si este último también es consistente con el problema (\ref{problem}). De hecho, bajo estas suposiciones, tenemos
+\[
+\|x(d + \delta d_n) - x_n(d + \delta d_n)\| \leq \| x(d + \delta d_n) - x(d) \|
+\]
+\[
++ \| x(d) - x_n(d) \| + \| x_n(d) - x_n(d + \delta d_n)\|
+\]
 
-Thanks to (\ref{equation(2.3)}), the first term at right-hand side can be bounded by $ \| \delta d_n \|$. A similar bound holds fot the third term, due to the stability property (\ref{equation 2.16}). Finally, concerning the remaining term, if $F_n$ is differentiable with respect to the variable $x$, an expansion in a Taylor series gives
-\[F_n(x(d), d) - F_n(x_n(d), d) = \frac{\partial F_n}{\partial x}|_{(x, d)}(x(d) - x_n(d))  \]
-for a suitable $x$ ``between'' $x(d)$ and $x_n(d)$. Assuming also that $\partial f_n / \partial x$ is invertible, we get
+Gracias a (\ref{equation(2.3)}), el primer término en el lado derecho puede ser acotado por $\| \delta d_n \|$. Un límite similar se aplica al tercer término, debido a la propiedad de estabilidad (\ref{equation 2.16}). Finalmente, respecto al término restante, si $F_n$ es diferenciable con respecto a la variable $x$, una expansión en serie de Taylor da
+\[
+F_n(x(d), d) - F_n(x_n(d), d) = \frac{\partial F_n}{\partial x}|_{(x, d)}(x(d) - x_n(d))
+\]
+para un adecuado $x$ "entre" $x(d)$ y $x_n(d)$. Suponiendo además que $\partial f_n / \partial x$ es invertible, obtenemos
 \begin{equation}
-    x(d) - x_n(d) = (\frac{\partial F_n}{\partial x})^{-1}_{|(x, d)} [F_n(x(d), d) - F_n(x_n(d), d)]
+    x(d) - x_n(d) = \left( \frac{\partial F_n}{\partial x} \right)^{-1}_{|(x, d)} [F_n(x(d), d) - F_n(x_n(d), d)]
     \label{equation 2.25}
 \end{equation}
 
-On the other hand, replacing $F_n(x_n(d), d)$ with $F_n(x(d), d)$ and passing to the norms, we find
-\[ \| x(d) - x_n(d) \| \leq \| (\frac{\partial F_n}{\partial x})^{-1}_{|(x,d)} \| \| F_n(x(d),d) - F(x(d), d)\| \]
+Por otro lado, al reemplazar $F_n(x_n(d), d)$ por $F_n(x(d), d)$ y pasar a las normas, encontramos
+\[
+\| x(d) - x_n(d) \| \leq \| \left( \frac{\partial F_n}{\partial x} \right)^{-1}_{|(x,d)} \| \| F_n(x(d),d) - F(x(d), d)\|
+\]
 
-Thanks to (\ref{equation 2.13}) we can thus conclude that $\|x(d) - x_n(d)\| \rightarrow 0$ for $n \rightarrow \infty$. The result that has just been proved, although stated in qualitative terms, is a milestone in numerical analysis, knows as equivalence theorem (or LaxRichtmyer theorem): ``for a consistent numerical method, stability is equivalent to convergence''.
+Gracias a (\ref{equation 2.13}) podemos concluir que $\|x(d) - x_n(d)\| \rightarrow 0$ cuando $n \rightarrow \infty$. El resultado que acabamos de demostrar, aunque expresado en términos cualitativos, es un hito en el análisis numérico, conocido como el teorema de equivalencia (o teorema de Lax-Richtmyer): "para un método numérico consistente, la estabilidad es equivalente a la convergencia".
 
-\section{Sources of Error in Computational Models}
+\section{Fuentes de Error en Modelos Computacionales}
 
-Whenever the numerical problem (\ref{equation 2.12}) is an approximation to the mathematical problem (\ref{problem}) and this latter is in turn a model of a physical problem, we shall say that (\ref{equation 2.12}) is a computational model for PP.
+Siempre que el problema numérico (\ref{equation 2.12}) sea una aproximación al problema matemático (\ref{problem}) y este último sea a su vez un modelo de un problema físico, diremos que (\ref{equation 2.12}) es un modelo computacional para el PP.
 
-In this process the global error, denoted by $e$, is expressed by the difference between the actually computed solution, $\hat{x}_n$, and the physical solution, $x_{ph}$, of which $x$ provides a model. The global error $e$ of the mathematical model, given by $x - x_{ph}$, and the error $e_c$ of the computational model, $\hat{x}_n - x$, that is $e = e_m + e_c$.
+En este proceso, el error global, denotado por $e$, se expresa como la diferencia entre la solución realmente computada, $\hat{x}_n$, y la solución física, $x_{ph}$, de la cual $x$ proporciona un modelo. El error global $e$ del modelo matemático, dado por $x - x_{ph}$, y el error $e_c$ del modelo computacional, $\hat{x}_n - x$, es decir, $e = e_m + e_c$.
 
-The error $e_m$ will in turn take into account the error of the mathematical model in strict sense and the error on the data. In the same way, $e_c$ turns out o be the combination of the numerical discretization error $e_n = x_n - x$, the error $e_a$ introduced by the numerical algorithm and the roundoff error introduced by the computer during the actial solution of problem (\ref{equation 2.12}).
+El error $e_m$ tendrá en cuenta el error del modelo matemático en sentido estricto y el error en los datos. De manera similar, $e_c$ resulta ser la combinación del error de discretización numérica $e_n = x_n - x$, el error $e_a$ introducido por el algoritmo numérico y el error de redondeo introducido por la computadora durante la solución del problema (\ref{equation 2.12}).
 
-In general, we can thus outline the following sources of error:
+En general, podemos esbozar las siguientes fuentes de error:
 \begin{enumerate}
-    \item error due to the model, that can be controlled by a proper choice of the mathematical model;
-    \item errors in the data, taht can be reduced by enhacing the accuracy in the measurement of the data themself;
-    \item truncation error, arisisng form havind replaced in the numerical model limits by operations that involve a finite number of steps;
-    \item rounding errors.
+    \item Error debido al modelo, que puede ser controlado mediante una adecuada elección del modelo matemático;
+    \item Errores en los datos, que pueden reducirse mejorando la precisión en la medición de los propios datos;
+    \item Error de truncamiento, que surge al haber reemplazado en el modelo numérico límites por operaciones que involucran un número finito de pasos;
+    \item Errores de redondeo.
 \end{enumerate}
 
-The error at the items 3. and 4. give rise to the computational error. A numerical method will thus be convergent if this error can be made aritrarily small by increasing the computational effort. Of course, convrgence is the primary, albeit nor unique, goal of a numerical method, the others being accuracy, reliability and efficiencyy.
+El error de los ítems 3 y 4 da lugar al error computacional. Un método numérico será convergente si este error puede hacerse arbitrariamente pequeño al aumentar el esfuerzo computacional. Por supuesto, la convergencia es el objetivo principal, aunque no único, de un método numérico, siendo los otros la precisión, la fiabilidad y la eficiencia.
 
-Accuracy meand that the errors are small with respect to a fiex tolerance. It is usually quantified by the order of infinitesimal of the error $e_n$ with respect to the discretization characteristic parameter. By the way, we notice that machine precision does not limit, on theoretical grounds, the accuracy.
+La precisión significa que los errores son pequeños respecto a una tolerancia fija. Usualmente, se cuantifica por el orden de infinitesimal del error $e_n$ con respecto al parámetro característico de discretización. Por cierto, cabe señalar que la precisión de la máquina no limita, en términos teóricos, la precisión.
 
-Reliability means it is likely that the global error can be gauranteed to be below a certain tolerance. Of course, a numerical model can be considered to be reliable only if suitably tested, that is,successfully applied to several test cases.
+La fiabilidad significa que es probable que el error global se garantice por debajo de una cierta tolerancia. Por supuesto, un modelo numérico solo puede considerarse confiable si ha sido adecuadamente probado, es decir, aplicado con éxito a varios casos de prueba.
 
-Efficiency means that the computational complexity that is needed to control the error is as small as possible.
+La eficiencia significa que la complejidad computacional necesaria para controlar el error sea lo más pequeña posible.
 
-By algorithm we mean a directive that indicates, through elementary operations, all the passages that are needed to solve a specific problem. An algorithm can in turn contain sub-algorithms and must have the feature of terminating after a finite number of elemnetary operations. As a consequence,the executor of the algorithm must find within the algorithm itseld all the instructions to completely solve the problem at hand.
+Por algoritmo entendemos una directiva que indica, a través de operaciones elementales, todos los pasos necesarios para resolver un problema específico. Un algoritmo puede, a su vez, contener sub-algoritmos y debe tener la característica de terminar después de un número finito de operaciones elementales. Como consecuencia, el ejecutor del algoritmo debe encontrar dentro del algoritmo mismo todas las instrucciones para resolver completamente el problema planteado.
 
-Finally, the complexity of an algorithm is a measure of its executing time. Calculating the complexity of an algorithm is therefore a part of the analysis of the efficiency of a numerical method. Since several algorithms, with different complexities, can be employed to solve the same problem $P$, it is useful to introduce the concept of complexity of a problem, this latter meaning the complecity of the algorithm that has a minimum complexity among those solving $P$. The complexity of a problem is typically measured by a parameter directly associated with $P$.
+Finalmente, la complejidad de un algoritmo es una medida de su tiempo de ejecución. Calcular la complejidad de un algoritmo es, por lo tanto, parte del análisis de la eficiencia de un método numérico. Dado que se pueden emplear varios algoritmos con diferentes complejidades para resolver el mismo problema $P$, es útil introducir el concepto de complejidad de un problema, que significa la complejidad del algoritmo que tiene la mínima complejidad entre los que resuelven $P$. La complejidad de un problema se mide típicamente mediante un parámetro directamente asociado con $P$.
 
-\section{Machine Representation of Numbers}
-Any machine operation is affected by rounding error or roundoff. They are due to the fact that on a computer only a finite subset of the set of teal numbers can be represented.
+\section{Representación en Computadora de Números}
+Cualquier operación en una máquina está afectada por errores de redondeo o redondeo. Esto se debe al hecho de que en una computadora solo se puede representar un subconjunto finito del conjunto de números reales.
 
-\subsection{The Positional System}
-Let a base $\beta \in \mathbb{N}$ be fixed with $\beta \geq 2$, and let $x$ be a real number with a finite number of digits $x_k$ with $0 \leq x_k < \beta$ for $k = -m,...,n$. The notation (conventionally adopted)
+\subsection{El Sistema Posicional}
+Sea una base $\beta \in \mathbb{N}$ fijada con $\beta \geq 2$, y sea $x$ un número real con un número finito de dígitos $x_k$ con $0 \leq x_k < \beta$ para $k = -m,...,n$. La notación (convencionalmente adoptada)
 \begin{equation}
     x_\beta = (-1)^s [x_n x_{n-1}...x_1x_0x_{-1}x_{-2}...x_{-m}, x_n \neq 0]
     \label{equation 2.26}
 \end{equation}
-is called the positional representation of $x$ with respect to the base $\beta$. The point between $x_0$ and $x_{-1}$ is called decimal point if the base is 10, binary point if the base is 2, while $s$ depends on the sign of $x$ ($s=0$ if $x$ is positive, $1$ if negative). Relation (\ref{equation 2.26}) actually means
+se llama la representación posicional de $x$ con respecto a la base $\beta$. El punto entre $x_0$ y $x_{-1}$ se llama punto decimal si la base es 10, punto binario si la base es 2, mientras que $s$ depende del signo de $x$ ($s=0$ si $x$ es positivo, $1$ si es negativo). La relación (\ref{equation 2.26}) significa en realidad
 \[ x_\beta = (-1)^s \left( \sum_{k=-m}^{n} x_k \beta^k \right)\]
 
-Any real number can be approximated by numbers having a finite representation. Indeed, having fixed the base $\beta$, the followin property holds
-\[ \forall \epsilon > 0, \forall x_\beta \in \mathbb{R}, \exists y_\beta \in \mathbb{R} \text{ such that } |y_\beta - x_\beta| < \epsilon\]
-where $y_\beta$ has finite positional representation.
+Cualquier número real puede ser aproximado por números que tengan una representación finita. De hecho, al haber fijado la base $\beta$, se cumple la siguiente propiedad
+\[ \forall \epsilon > 0, \forall x_\beta \in \mathbb{R}, \exists y_\beta \in \mathbb{R} \text{ tal que } |y_\beta - x_\beta| < \epsilon\]
+donde $y_\beta$ tiene una representación posicional finita.
 
-In fact, given the positive number $x_\beta = x_n x_{n-1}...x_1x_0x_{-1}x_{-2}...x_{-m}...$ with the number of digits, finite or infinite, for any $r \geq 1$ one can build two numbers
+De hecho, dado el número positivo $x_\beta = x_n x_{n-1}...x_1x_0x_{-1}x_{-2}...x_{-m}...$ con el número de dígitos, finitos o infinitos, para cualquier $r \geq 1$ se pueden construir dos números
 \[x_\beta^{(l)} = \sum_{k = 0}^{r-1} x_{x-k} \beta^{n-k}, x_\beta^{(u)} = x_\beta^{(l)} = \beta^{n-r+1}\]
-having $r$ digits, such that $x_\beta^{(l)} < x_\beta < x_\beta^{(u)}$ and $x_\beta^{(u)} - x_\beta^{(l)} = \beta^{n-r+1}$. If $r$ is chosen in such a way that $\beta^{n-r+1} < \epsilon$, then taking $y_\beta$ equal to $x_\beta^{(l)}$ or $x_\beta^{(u)}$ yields the desired inequality. This result legitimates the computer representation of real numbers (and thus by a finite number of digits). 
+que tienen $r$ dígitos, tales que $x_\beta^{(l)} < x_\beta < x_\beta^{(u)}$ y $x_\beta^{(u)} - x_\beta^{(l)} = \beta^{n-r+1}$. Si se elige $r$ de manera que $\beta^{n-r+1} < \epsilon$, entonces tomando $y_\beta$ igual a $x_\beta^{(l)}$ o $x_\beta^{(u)}$ se obtiene la desigualdad deseada. Este resultado legitima la representación computacional de los números reales (y por lo tanto de un número finito de dígitos).
 
-Although theoretically speaking all the bases are equivalent, in the computational practice three are the bases generally employed, base 2 in binary, base 10 or decimal and base 16 or hexadecimal. In what follows, we will assume that $\beta$ is an even integer.
+Aunque teóricamente hablando todas las bases son equivalentes, en la práctica computacional se emplean generalmente tres bases: la base 2 en binario, la base 10 o decimal y la base 16 o hexadecimal. En lo que sigue, supondremos que $\beta$ es un número entero par.
 
-To simplify notations, we shall write $x$ instead of $x_\beta$, leaving the base $\beta$ understood.
+Para simplificar las notaciones, escribiremos $x$ en lugar de $x_\beta$, dejando la base $\beta$ entendida.
 
-\section{Ejercicios}
-(1) Se considera la siguiente sucesión definida por recursión
+
+\section*{Ejercicios}
+\noindent (1) Se considera la siguiente sucesión definida por recursión
 \[x_0 = 1 \quad x_1 = \frac{1}{5} \quad x_{n+1} = \frac{36}{5} x_n - \frac{7}{5} x_{n-1}\]
 Esta sucesión tiene como solución $x_n = \frac{1}{5^n}$. Utilizar Matlab para calcular $\frac{1}{5^n}$ utilizando la sucesión recusiva del principio, para $n \leq 32$. Hacer el estudio del error absoluto y  relativo.
 
-(2) Repetir el ejercicio anterior tomando $x_0 = 2$ y $x_1 = \frac{36}{5}$, teniendo en cuenta que la solución es ahora $x_n = \frac{1}{5^n} + 7^n$.
+\noindent (2) Repetir el ejercicio anterior tomando $x_0 = 2$ y $x_1 = \frac{36}{5}$, teniendo en cuenta que la solución es ahora $x_n = \frac{1}{5^n} + 7^n$.
 
-(3) Compara los resultados de los ejercicios 1 y 2 y dar una explicación formal de lo que está sucediendo.
+\noindent (3) Compara los resultados de los ejercicios 1 y 2 y dar una explicación formal de lo que está sucediendo.
