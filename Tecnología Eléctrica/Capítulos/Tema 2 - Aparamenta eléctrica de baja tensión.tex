@@ -1,0 +1,148 @@
+\chapter{Aparamenta eléctrica de baja tensión}
+
+Objetivo: Estudiar los principales componentes presentes en instalaciones eléctricas, especialmente en baja tensión (BT).
+
+Definición. Aparamnenta eléctrica: Conjunto de dispositivos empleados para la conexión y desconexión de circuitos eléctricos
+
+UNE EN 60947: ``Término general aplicable a los dispositivos de conexión y a su combinación con los dispositivos de mando, de medida, de protección y de regulación asociados a ellos, así como los conjuntos de tales dispositivos con las conexiones, los accesorios, los envolventes y los soportes correspondientes.''
+
+\section{Condiciones de funcionamiento}
+Un circito eléctrico se puede maniobrar estando en las siguientes condiciones:
+\begin{itemize}
+    \item Vacío. Es decir, sin cargas conectadas, por lo que la corriente se corta (al abrir) o se establece (al cerrar) es nula ($I = 0$). La tensión del circuito es la nominal ($U \approx U_N$).
+    \item Funcionamiento normal. $U = U_N$; $I = I_N$ Hay cargas conectadas y la corriente que se corta o se presenta en el circuito (al abrir o cerrar) es igual o menor que la corriente nominal del circuito. Se denomina corriente nominal a la máxima que puede circular permanentemente por el circuito, sin producir calentamientos excesivos ni ningún problema de otro tipo.
+    \item Funcionamiento en carga anormal. Al efectuar la maniobra la corriente que se conecta o desconecta es superior a la nominal. La presencia de corrientes anormales puede ser debida al exceso de carga, al funcionamiento defectuoso de alguna de las cargas alimentadas por el circuito o a averías en el propio circuito. Estas corrientes anormales pueden ser:
+    \begin{itemize}
+        \item Sobrecargas, que son corriente cuyo valor es algo superior al nominal ($I_N < I < 10 \cdot I_N$)
+        \item Cortocircuitos, corrientes de valor muy superior al nominal ($I_N \geq 10 \cdot I_N$) originadas por averías graves en las cargas o en los cables de la instalación; normalmente son fallos de aislamieento.
+    \end{itemize}
+\end{itemize}
+
+\section{Tipos de aparamenta}
+\begin{enumerate}
+    \item Interruptor en carga
+    \begin{itemize}
+        \item Establece e interrumpe corrientes nominales
+        \item Soporta (pero no corta) corrientes de cortocircuito durante un tiempo limiitado
+        \item Función de maniobra, no de protección
+    \end{itemize}
+    \item Interruptor automático
+    \begin{itemize}
+        \item Establece, soporta e interrumpe corrientes de cortocircuito
+        \item Posibilidad de rearme
+        \item Funsión de protección de la instalación frente a sobreintensidades
+    \end{itemize}
+    \item Fusible
+    \begin{itemize}
+        \item Interrumpe corrientes anormales (hasta cortocircuito)
+        \item Acompañado (siempre) de otro elemento (generalmente, interruptor)
+        \item Uso único (reemplazo del elemento fusible)
+        \item Funsión de protección frente a sobreintensidades
+    \end{itemize}
+    \item Interruptor Diferencial
+    \begin{itemize}
+        \item Actúa frente a corrientes de fuga
+        \item Habitualmente, interrumple corrientes del orden de la nominal, pero pueden ser superiores (cortocircuitos débiles)
+        \item Van acompañados de otros elementos de protección (interruptores automáticos)
+        \item Puede ser de disparo directo (interruptor) o indirecto (relé)
+        \item Función de protección de personas frente a contactos indirectos
+    \end{itemize}
+\end{enumerate}
+
+\section{Arco eléctrico}
+En la mayor parte de los dispositivos estudiados en este capítulo, la apertura o cierre del circuito en el que están instalados se realiza por la separación o unión de unas piezas metálicas de gran conductividad llamadas contactos.
+
+Cuando un aparato corta o establece una corriente aparece un arco eléctrico entre sus contactos. En general, se presenta un arco eléctrico entre dos partes conductoras con niveles de tensión diferentes, separadas por un medio aislante, cuando el valor del campo eléctrico en algún punto del aislante supera a su rigidez dieléctrica, entonces se ioniza el medio aislante produciéndose el arco.
+
+En el arco se disipa una gran cantidad de energía, se alcanzan altas temperaturas y se volatilizan partes pequeñas del material de los contactos. Desde el punto de vista eléctrico, el arco se comporta como una resistencia de valor variable.
+
+Un aparato eléctrico que conecta o desconecta circuitos debe eliminar (extinguir) muy rápidamente el arco eléctrico que se presenta para evitar que la energía liberada lo deteriore. Realmente, los arcos más problemáticos se producen durante la apertura de los contactos. Durante el cierre el arco se extingue por sí mismo, produciéndose arcos adicionales en el caso de que haya rebotes de los contactos tras el primer cierre.
+
+Si el circuito es de corriente continua, el aparato debe dispone de los medios para extinguir (apagar) el arco. Si el aparato es de corriente alterna, cuando la corriente pasa por cero el arco se extingue, pero el medio está ionizado y a alta temperatura, debido a la energía disipada, por lo que el aparato debe disponer de los medios para evitar que el arco se reencienda tras los primeros pasos por cero de la corriente.
+
+\section{Características aparamenta}
+\begin{itemize}
+    \item Valores nominales
+    \item Poder de corte
+    \item Poder de cierre
+    \item Consideraciones prácticas
+    \begin{itemize}
+        \item Número de maniobras
+        \item Accionamiento a distancia/automático
+        \item Aislamiento visible
+        \item Mantenimiento, coste, contaminación, etc.
+    \end{itemize}
+\end{itemize}
+
+\section{Interruptor automátiico}
+\subsection{Elementos constructivos}
+\begin{itemize}
+    \item Juego de contactos
+    \begin{itemize}
+        \item Principales: conducen la corriente en posición de cerrado
+        \item De arco: establecen y soportan el arco eléctrico
+    \end{itemize}
+    \item Cámara de extinción
+    \item Medio de corte
+    \begin{itemize}
+        \item Aire
+        \item Vacío
+        \item $SF_6$
+    \end{itemize}
+    \item Mecanismo.
+    Permite el movimiento relativo de los contactos. Proporciona la presión adecuada sobre los contactos cerrados. Acumula (y libera) energía mecánica (habitualmente muelles) para permitir una apartura rápida en caso de disparo.
+    \item Disparadores
+    \begin{itemize}
+        \item Directos
+        \begin{itemize}
+            \item Tiempo inverso (térmicos)
+            \item Retardo independiente (magnéticos)
+        \end{itemize}
+        \item Indirectos
+        \item Secundarios
+    \end{itemize}
+\end{itemize}
+
+\subsection{Características}
+\begin{itemize}
+    \item Número de polos
+    \item Número y tipo de Disparadores
+    \item Tensiones asignadas
+    \item Intensidad asignada
+    \item Poder de corte
+    \item Curva característica de disparo
+    \item Categoría de empleo (A o B)
+    \item Intensidad de corta duración admisible
+    \item Curva $I^2t$
+    \item Limitación de corriente
+\end{itemize}
+
+\subsection{Pequeños Interruptores Automáticos (PIA)}
+\begin{itemize}
+    \item Corte en Aire
+    \item Baja tensión ($U_N < 440 V$)
+    \item Potencia limitada ($I_N < 125 A$)
+    \item Poder de corte limitado ($I_{cc} < 25 kA$)
+    \item Uso para personal no cualificado, sin requerir mantenimiento
+\end{itemize}
+
+\subsubsection{Interruptos Control de Potencia}
+
+\section{Fusibles}
+\subsection{Principio de funcionamiento}
+Los fusibles funcionan por fusión del elemento conductor.
+
+Tiempo de funcionamiento ($t_{fun}$): desde que se produce el fallo (empieza a circular la corriente que provoca la fusión)  hasta que se extingue el arco
+\begin{itemize}
+    \item Tiempo de fusión ($t_f$): desde el inicio de la falta hasta que se abre el circuito y se inicia el arco
+    \item Tiempo de arco ($t_a$): desde el inicio del arco hasta su extinción
+\end{itemize}
+
+\subsection{Partes}
+
+\subsection{Características}
+\subsubsection{Curva tiempo-corriente}
+\subsubsection{Denominación}
+\subsubsection{Fusibles limitadores}
+
+\subsection{Selectividad}
