@@ -1,19 +1,19 @@
 # Fdb version 4
-["biber main"] 1746396405.05164 "main.bcf" "main.bbl" "main" 1746549556.7092 0
+["biber main"] 1746396405.05164 "main.bcf" "main.bbl" "main" 1746551000.17802 0
   "bibliografia.bib" 1746396404 1240 73717c88e90c14756cbab7a5e4e1bff3 ""
-  "main.bcf" 1746549556 108629 c302075e19e15c0c7e4c437e03564023 "pdflatex"
+  "main.bcf" 1746550999 108629 c302075e19e15c0c7e4c437e03564023 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1746549554.13724 "c:/Users/merce/Documents/GitHub/LaTeX/Trabajo Ampliación de Mecánica/main.tex" "main.pdf" "main" 1746549556.70993 0
+["pdflatex"] 1746550997.27998 "c:/Users/merce/Documents/GitHub/LaTeX/Trabajo Ampliación de Mecánica/main.tex" "main.pdf" "main" 1746551000.17887 0
   "Imagenes/A line rolling along a catenary.png" 1746452848 39989 3db027c3518353cd6d5d928b6a96b376 ""
   "Imagenes/A square rolls smoothly along linked catenaries.png" 1746454405 204904 2e71e68e84d80d4ae704a04246fa8f96 ""
   "Imagenes/Cody Dock Sketch.png" 1745950859 461076 d0c8c61f2bd9727778771df88d8020e4 ""
   "Imagenes/Logo UPM.png" 1729707102 60335 95249f0d22bcc785dab48aa85cdfed2a ""
   "Imagenes/Puente de Cody Docks.jpg" 1745924144 117797 e33c806fda3c3ddb510a85967b778f3c ""
   "Imagenes/Square Wheel Tricycle.png" 1745951179 557509 5776bb0ce8fdb0bb64b59e6d5ee7783f ""
-  "c:/Users/merce/Documents/GitHub/LaTeX/Trabajo Ampliación de Mecánica/main.tex" 1746549550 15069 9b076f19e9d2828c0c1e6ce9484e5b45 ""
+  "c:/Users/merce/Documents/GitHub/LaTeX/Trabajo Ampliación de Mecánica/main.tex" 1746550992 14231 de88b529048d2de18e886926047e6fcd ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1728495835 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1728496372 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1728501385 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -29,6 +29,7 @@
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1728493485 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1728493485 36281 c355509802a035cadc5f15869451dcee ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1728493485 35752 024fb6c41858982481f6968b5fc26508 ""
+  "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1728493485 31809 8670ca339bf94e56da1fc21c80635e2a ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1728493485 32762 7fee39e011c23b3589931effd97b9702 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1728493485 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1728493485 32716 08e384dc442464e7285e891af9f45947 ""
@@ -110,11 +111,11 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1728505921 5520473 0a78405a99dc248928f6ec2cb7e7998e ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1728506292 3326004 fdcc47d26ba8be16a57e12fc02c7b8d1 ""
   "c:/texlive/2024/texmf.cnf" 1728505891 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1746549556 4387 1777c2ed74d04ad54bc994bb20a61af5 "pdflatex"
+  "main.aux" 1746550999 3733 f9abc3b242de6faa167a16e67569ab7f "pdflatex"
   "main.bbl" 1746396417 6964 42ffece4fdfb7529be91f284e3ca12c1 "biber main"
-  "main.run.xml" 1746549556 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
-  "main.tex" 1746549550 15069 9b076f19e9d2828c0c1e6ce9484e5b45 ""
-  "main.toc" 1746549556 1750 5849db6b7ca5cc42e8bc022c9fc9db9c "pdflatex"
+  "main.run.xml" 1746550999 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
+  "main.tex" 1746550992 14231 de88b529048d2de18e886926047e6fcd ""
+  "main.toc" 1746550999 1426 a005dc2137679b0072646873f3e342f3 "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

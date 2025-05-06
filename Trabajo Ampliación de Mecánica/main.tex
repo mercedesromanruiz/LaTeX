@@ -43,13 +43,9 @@
 
 \tableofcontents
 
-\section{Introducción}
+\section{El Innovador Puente Rodante de Cody Dock: Una Solución Urbana Sostenible}
 
-El Puente Rodante de Cody Dock, diseñado por Thomas Randall-Page, constituye un avance significativo en la ingeniería de puentes móviles, destacando por su innovador sistema de rodadura completa. Concebido como una solución ingeniosa para las limitaciones espaciales y presupuestarias propias del entorno urbano de Londres, este puente logra rotar sobre sí mismo para permitir el paso de embarcaciones, prescindiendo de la necesidad de motores eléctricos o sistemas hidráulicos. Esta característica lo distingue de los diseños convencionales y subraya su eficiencia en contextos urbanos densos.
-
-La singularidad del diseño del Puente de Cody Dock radica en su fundamentación en principios matemáticos establecidos. En 1849, James Clerk Maxwell descubrió que una línea recta rueda suavemente sobre una catenaria invertida. Posteriormente, en 1960, G. Robison extendió esta idea al demostrar que un cuadrado puede rodar suavemente sobre una secuencia de catenarias truncadas y unidas. Para visualizar y demostrar este concepto, Stan Wagon construyó un triciclo de tamaño completo en 1997, alcanzando una gran repercusión mediática (Fig. \ref{fig: Ripley's Belive It or Not}). Estos descubrimientos teóricos proporcionaron la base para que Randall-Page concibiera el Puente de Cody Dock como una plataforma unida a dos grandes cuadrados, permitiendo que la estructura complete una rotación suave hasta una posición invertida. 
-
-Los puentes móviles tradicionales, tales como los levadizos o basculantes, frecuentemente imponen exigencias significativas en términos de espacio, tanto vertical como horizontal, para su operación. Además, estos diseños suelen requerir la implementación de sistemas mecánicos complejos, lo que se traduce en costes elevados tanto en la fase de construcción como en el mantenimiento a largo plazo. En entornos urbanos consolidados, donde el espacio es un recurso escaso y valioso, estas soluciones pueden resultar poco prácticas. El Puente Rodante de Cody Dock emerge como una alternativa eficaz y eficiente, ofreciendo una solución que minimiza la ocupación de espacio y que, gracias a su diseño innovador, facilita la apertura del paso fluvial mediante una rotación manual controlada del cuerpo del puente.
+El Puente Rodante de Cody Dock (Figura \ref{fig: Dibujo de Cody Dock}), diseñado por Thomas Randall-Page, representa una solución de ingeniería notable para superar las limitaciones espaciales y presupuestarias comunes en entornos urbanos densos como Londres. Su principal innovación radica en un sistema de rodadura completa que permite la rotación del puente sobre sí mismo para facilitar el paso de embarcaciones, eliminando la necesidad de los complejos y costosos sistemas eléctricos o hidráulicos presentes en los puentes móviles convencionales. Esta característica distintiva subraya su eficiencia y adaptabilidad en contextos urbanos consolidados.
 
 \begin{figure}[h]
     \centering
@@ -58,6 +54,10 @@ Los puentes móviles tradicionales, tales como los levadizos o basculantes, frec
     \label{fig: Dibujo de Cody Dock}
 \end{figure}
 
+\section{Fundamentos Teóricos: Del Descubrimiento de Maxwell a la Aplicación de Robison}
+
+La singularidad del diseño del Puente de Cody Dock no es casualidad, sino que se basa en principios matemáticos bien establecidos. En 1849, James Clerk Maxwell realizó un descubrimiento fundamental al demostrar que una línea recta puede rodar suavemente sobre una catenaria invertida. Posteriormente, en 1960, G. Robison extendió esta idea al probar que un cuadrado también puede rodar suavemente sobre una secuencia de catenarias truncadas y unidas. Para hacer tangible esta teoría, Stan Wagon construyó en 1997 un triciclo funcional con ruedas cuadradas, un logro que capturó la atención mediática (Fig. \ref{fig: Ripley's Belive It or Not}). Estos hallazgos teóricos sentaron las bases para que Randall-Page concibiera el Puente de Cody Dock como una plataforma unida a dos grandes estructuras cuadradas, permitiendo una rotación fluida hasta alcanzar una posición invertida.
+
 \begin{figure}[h]
     \centering
     \includegraphics[width = 0.5 \textwidth]{Imagenes/Square Wheel Tricycle.png}
@@ -65,29 +65,26 @@ Los puentes móviles tradicionales, tales como los levadizos o basculantes, frec
     \label{fig: Ripley's Belive It or Not}
 \end{figure}
 
-\section{Teoría del Rodamiento de Curvas}
 
-En su artículo \textit{``On the Theory of Rolling Curves''}, presentado a la Royal Society of Edinburgh en 1849, James Clerk Maxwell exploró las propiedades geométricas de las curvas generadas por el rodamiento de una curva sobre otra, sentando las bases para aplicaciones posteriores como el puente de Cody Dock. 
+\subsection{La Teoría del Rodamiento de Curvas de Maxwell}
 
-Cuando la rueda es un círculo perfecto ($r(\theta) = 1$), su movimiento describe una relación simple: la posición horizontal sigue $x(\theta) = \theta + \frac{\pi}{2}$ mientras rueda sobre una carretera plana ($y = -1$). Sin embargo, Maxwell analizó un caso más intrigante: una rueda constituida por una línea recta infinita ($x = -1$) con centro de masa en el origen $(0,0)$. En sus propias palabras: 
+En su influyente artículo \textit{``On the Theory of Rolling Curves''}, presentado a la Royal Society of Edinburgh, Maxwell exploró las propiedades geométricas de las curvas generadas por el rodamiento de una curva sobre otra. Este trabajo seminal proporcionó el marco teórico para aplicaciones futuras, incluyendo el diseño del puente de Cody Dock.
 
-\begin{quote}
-``La línea recta cuya ecuación es $r = a \sec \theta$, rodando sobre una catenaria cuyo parámetro es $a$, traza una línea cuya distancia desde el vértice es $a$''.
-\end{quote}
+Mientras que el movimiento de una rueda circular perfecta ($r(\theta) = 1$) rodando sobre una superficie plana ($y = -1$) describe una trayectoria sencilla ($x(\theta) = \theta + \frac{\pi}{2}$), Maxwell se centró en un caso más complejo: una línea recta infinita ($x = -1$) con su centro de masa en el origen $(0,0)$. Su análisis reveló que dicha línea, definida en coordenadas polares como $r = a \sec \theta$, al rodar sobre una catenaria con parámetro $a$, traza una línea cuya distancia desde el vértice es también $a$.
 
-El término \textit{``traza''} aquí se refiere al lugar geométrico del origen (centro de masa) a medida que la línea rueda. Para una línea horizontal expresada en coordenadas polares como $r = -\csc \theta$ (con $-\pi < \theta < 0$), la forma de la carretera se obtiene integrando:
+Aplicando este principio a una línea horizontal ($r = -\csc \theta$ para $-\pi < \theta < 0$), la forma de la carretera sobre la que rueda se determina mediante la integración:
 
 \[
 x(\theta) = \int_{-\pi/2}^{\theta} -\csc t \, dt = \ln\left(-\cot\left(\frac{\theta}{2}\right)\right).
 \]
 
-Esta expresión paramétrica puede transformarse a la forma explícita $y = f(x)$. Primero, al invertir la relación se obtiene $\theta = -2 \tan^{-1}(e^{-x})$. Sustituyendo en la ecuación de la carretera, $y = -\csc \theta$, se revela la identidad fundamental:
+La transformación de esta expresión paramétrica a su forma explícita ($y = f(x)$) se logra invirtiendo la relación para obtener $\theta = -2 \arctan(e^{-x})$ y sustituyéndola en la ecuación de la carretera ($y = -\csc \theta$), lo que revela la identidad fundamental de la catenaria invertida:
 
 \[
-y = -\cosh x,
+y = -\cosh x.
 \]
 
-que corresponde exactamente a una catenaria invertida. La figura \ref{fig: A line rolling along a catenary} muestra la línea rodando. Este resultado, aunque elegante, no incluyó en su momento la posibilidad de truncar la línea recta para crear ruedas poligonales, una idea que surgiría un siglo después con los trabajos de Robison y su aplicación en el puente de Cody Dock.
+La Figura \ref{fig: A line rolling along a catenary} ilustra este elegante concepto. Sin embargo, el trabajo inicial de Maxwell no consideró la posibilidad de truncar la línea recta para crear ruedas poligonales, una extensión crucial que sería desarrollada posteriormente por Robison.
 
 \begin{figure}[h]
     \centering
@@ -96,13 +93,13 @@ que corresponde exactamente a una catenaria invertida. La figura \ref{fig: A lin
     \label{fig: A line rolling along a catenary}
 \end{figure}
 
-\section{Una rueda cuadrada}
+\subsection{La Extensión de Robison: La Rueda Cuadrada y su Aplicación}
 
-En 1960, Robinson redescubrió el resultado de Maxwell y lo extendió para diseñar una rueda de forma cuadrada. Su idea innovadora consistió en truncar la catenaria en los puntos donde su pendiente es $\pm 1$. En dichos puntos, la catenaria forma un ángulo de $45^\circ$ con la vertical, lo que permite que, al colocar una copia truncada de la catenaria junto a otra, se genere una cúspide de $90^\circ$ que encaja perfectamente con la esquina de un cuadrado (Figura \ref{fig: A square rolls smoothly along linked catenaries}).
+En 1960, Robison retomó el descubrimiento de Maxwell y lo extendió de manera ingeniosa para diseñar una rueda de forma cuadrada. Su idea clave consistió en truncar la catenaria en los puntos donde su pendiente es $\pm 1$. En estos puntos, la catenaria forma un ángulo de $45^\circ$ con la vertical, permitiendo que la unión de dos copias truncadas genere una cúspide de $90^\circ$, ideal para encajar con la esquina de un cuadrado (Figura \ref{fig: A square rolls smoothly along linked catenaries}).
 
-Como la derivada de $\cosh x$ es $\sinh x$, las cúspides ocurren cuando $x = \pm \sinh^{-1}(1)$, es decir, aproximadamente en $\pm 0.88$. De este modo, el cuadrado puede rodar sobre esta carretera manteniendo su centro de masa a una altura constante. Esto implica que el movimiento no realiza trabajo contra la gravedad y, en esencia, es dinámicamente equivalente al de un círculo rodando sobre una superficie plana.
+Dado que la derivada de $\cosh x$ es $\sinh x$, las cúspides se producen en $x = \pm \operatorname{arsinh}(1) \approx \pm 0.88$. Esta configuración permite que el cuadrado ruede sobre esta carretera manteniendo su centro de masa a una altura constante, lo que implica un movimiento dinámicamente equivalente al de un círculo rodando sobre una superficie plana, sin trabajo neto contra la gravedad.
 
-Este modelo permite construir tanto la carretera como una rueda cuadrada que se desplace de manera sorprendentemente suave. Un aspecto técnico relevante es que la relación entre $x$ (posición horizontal) y $\theta$ (parámetro angular) no es lineal. En consecuencia, si se aplica una velocidad angular constante al cuadrado, el avance horizontal no será uniforme. Sin embargo, dicha relación es lo suficientemente cercana a la linealidad como para que esta variación no resulte perceptible en la práctica.
+Este modelo teórico no solo permite diseñar la forma de la carretera, sino también la rueda cuadrada que se desplaza con una sorprendente suavidad. Aunque la relación entre la posición horizontal ($x$) y el parámetro angular ($\theta$) no es estrictamente lineal, la desviación de la linealidad es lo suficientemente pequeña como para que no sea perceptible en la práctica si se aplica una velocidad angular constante al cuadrado.
 
 \begin{figure}[h]
     \centering
@@ -111,75 +108,57 @@ Este modelo permite construir tanto la carretera como una rueda cuadrada que se 
     \label{fig: A square rolls smoothly along linked catenaries}
 \end{figure}
 
-\section{Las Matemáticas del Puente de Cody Dock}
+\section{Diseño y Funcionamiento del Puente de Cody Dock}
 
-El puente de Cody Dock utiliiza dientes y pasadores para guiar la estructura rodante de acero, y para que estos encajen, los ángulos rectos deben ser eliminados. Esto se logra redondeando las esquinas de la manera más natural: usando cuartos de círculo.
+El diseño del Puente de Cody Dock se inspira directamente en estos principios teóricos. Para guiar la estructura rodante de acero de manera precisa, se utilizan dientes y pasadores. La necesidad de un encaje perfecto implica la eliminación de los ángulos rectos, lo cual se logra mediante el redondeo de las esquinas utilizando cuartos de círculo, una solución geométrica natural.
 
-Consideremos una rueda de radio $1$, con centro de masa en el origen $(0, 0)$ y centro geométrico en $(0, y_0)$, donde $y_0 \leq -1$. Dado que el origen está fuera del círculo, no es posible describir toda la rueda en forma polar. En su lugar, se representa paramétricamente como $g(t) = (g_1(t), g_2(t))$. Por tanto, la parametrización de la carretera sobre la que rodará es:
+\subsection{Geometría y Mecanismo de Rodadura}
 
-\[ x(t) = \int_{0}^{t}{\frac{g_1(s) g_2'(s) - g_1'(s) g_2(s)}{\sqrt{g_1(s)^2 + g_2(s)^2}}} \]
+La estructura principal del puente consiste en una sección tubular circular de acero, construida con perfiles huecos soldados. El radio de curvatura del puente coincide exactamente con el de los rieles de soporte, asegurando una rotación suave alrededor de un eje horizontal. La geometría fue cuidadosamente optimizada para mantener el centro de masas de la estructura dentro del radio de rodadura, lo que facilita su operación manual.
+
+El puente gira sobre dos rieles semicirculares mediante un sistema de engranajes y manivelas, prescindiendo de sistemas electrónicos o motores. Para minimizar el esfuerzo necesario para la rotación, se incorporaron contrapesos y se logró un equilibrado estructural preciso.
+
+\subsection{Las Matemáticas de las Esquinas Redondeadas}
+
+Para las esquinas redondeadas del puente, se considera una rueda circular de radio $1$, con su centro de masa en el origen $(0, 0)$ y su centro geométrico en $(0, y_0)$, donde $y_0 \leq -1$. La parametrización de la carretera sobre la que rueda esta sección se describe mediante las siguientes ecuaciones:
+
+\[ x(t) = \int_{0}^{t}{\frac{g_1(s) g_2'(s) - g_1'(s) g_2(s)}{\sqrt{g_1(s)^2 + g_2(s)^2}}} \, ds \]
 \[ y(t) = - \sqrt{g_1(t)^2 + g_2(t)^2} \]
 
-Para nuestra rueda circular, $g(t) = (sin t, y_0 - \cos t)$, lo que lleva a:
+Donde la rueda circular se parametriza como $g(t) = (\sin t, y_0 - \cos t)$, lo que lleva a:
 
-\[ x(t) = \int_{0}^{t}\frac{1 - y_0 \cos s}{\sqrt{1 + y_0^2 - 2 y_0 \cos s}} \]
+\[ x(t) = \int_{0}^{t}\frac{1 - y_0 \cos s}{\sqrt{1 + y_0^2 - 2 y_0 \cos s}} \, ds \]
 \[ y(t) = - \sqrt{1 + y_0^2 - 2 y_0 \cos t} \]
 
-Para evaluar esta integral, se realiza un cambio de variable $s = \frac{\pi}{2} - u$, convirtiendo cosenos en senos. Tras una seria de manipulaciones algebraicas y el uso de integrales elípticas $E$ y $F$, se obtiene la solución:
+La evaluación de la integral de $x(t)$ involucra un cambio de variable y el uso de integrales elípticas de Legendre ($E$ y $F$), resultando en:
 
-\[ x(t) = (1 - y_0) E \left( \frac{t}{2} | - \frac{4y_0}{(1 - y_0)^2} \right) + (1 + y_0) F \left( \frac{t}{2} | - \frac{4 y_0}{(1 - y_0)^2} \right) \]
+\begin{equation*}
+    \resizebox{0.5 \textwidth}{!}{$x(t) = (1 - y_0) E \left( \frac{t}{2} \Big| - \frac{4y_0}{(1 - y_0)^2} \right) + (1 + y_0) F \left( \frac{t}{2} \Big| - \frac{4 y_0}{(1 - y_0)^2} \right)$}
+\end{equation*}
 
 \[ y(t) = - \sqrt{1 + y_0^2 - 2 y_0 \cos t} \]
 
-La carretera resultante es una secuencia de bucles. Aunque esto imposibilita construir un modelo físico completo, el puente solo requiere una pequeña porción de esta estructura para las esquinas redondeadas.
+La carretera resultante es una secuencia de bucles. Aunque la construcción física completa de esta curva es inviable, el diseño del puente solo requiere una porción específica para las esquinas redondeadas. La carretera final del puente es una combinación de segmentos de catenarias ($y = - \cosh x$) para las secciones rectas y segmentos derivados de estos bucles para las esquinas redondeadas. Un enfoque simplificado, basado principalmente en la integral elíptica $E$, fue crucial para el diseño práctico.
 
-Para el puente, la carretera es una curva compuesta que combina segmenteos de catenarias ($y = - \cosh x)$ para las rectas y segmentos de los bucles para las esquinas redondeadas. Un enfoque simplificado permite calcular esta curva usando solo la integral elíptica $E$, lo que fue crucial para el diseño final.
+\section{Contexto Urbano, Histórico y Comunitario}
 
-\section{Contexto Urbano e Histórico}
-Cody Dock se ubica en el East London, a lo largo del río Lea, una zona industrial en transformación hacia un espacio comunitario y ecológico. El área requería una conexión peatonal permanente y, al mismo tiempo, permitir el paso ocasional de embarcaciones por el canal. La intervención se enmarca en un proceso de regeneración urbana, con fuerte participación ciudadana y financiación colectiva. El diseño debía cumplir con criterios de bajo impacto, mantenimiento mínimo y alta fiabilidad.
+Cody Dock, ubicado en el East London a lo largo del río Lea, se encuentra en una antigua zona industrial en proceso de revitalización hacia un espacio comunitario y ecológico. La necesidad de una conexión peatonal permanente que a su vez permitiera el paso ocasional de embarcaciones por el canal impulsó este proyecto. Enmarcado en un proceso de regeneración urbana con una fuerte participación ciudadana y financiación colectiva, el diseño del puente debía cumplir con criterios de bajo impacto ambiental, mantenimiento mínimo y alta fiabilidad. La activa inclusión de la comunidad local en las fases de diseño y construcción, con voluntarios colaborando incluso en la operación diaria, fortaleció el sentido de pertenencia y el cuidado de esta infraestructura urbana.
 
-\section{Principios de Funcionamiento y Diseño}
-\subsection{Geometría estructural}
-La estructura está formada por una sección tubular circular de acero, construida mediante perfiles huecos soldados. El radio de curvatura del puente coincide con el de los rieles de soporte, generando una rotación suave sobre un eje horizontal. La geometría fue cuidadosamente optimizada para mantener el centro de masas dentro del radio de rodadura, facilitando la operación manual.
+\section{Análisis Mecánico, Estructural y de Sostenibilidad}
 
-\subsection{Mecanismo de rodadura}
-El puente gira sobre dos rieles semicirculares mediante un sistema de engranajes y manivelas, sin necesidad de sistemas electrónicos ni motores. El momento necesario para la rotación se reduce mediante contrapesos y equilibrado estructural.
+Desde una perspectiva mecánica y estructural, el puente puede analizarse como un cilindro hueco sometido a cargas distribuidas por su peso propio y la carga peatonal. Los modelos de elementos finitos confirmaron su capacidad para resistir las cargas máximas tanto en posición horizontal como durante la rotación. Se identificaron puntos críticos de concentración de tensiones en las áreas de apoyo sobre los rieles y en las uniones estructurales, los cuales fueron reforzados con conectores soldados y cartelas triangulares para optimizar la distribución de las cargas.
 
-\section{Análisis Mecánico y Estructural}
-\subsection{Modelo simplificado}
-La estructra puede analizarse como un cilindro hueco sometido a cargas distribuidas por peso propio y carga peatonal. Usando modelos de elementos finitos se verificó que la estructura resiste adecuadamente las fases de carga máxima en posición horizontal y durante la rotación.
+La sostenibilidad fue un principio rector en el diseño y la construcción. La operación manual del puente elimina el consumo energético asociado a sistemas motorizados. Se priorizó el uso de acero estructural S275, conocido por su resistencia, soldabilidad y durabilidad, así como madera reciclada tratada para el tablero. El proceso de montaje modular, con prefabricación en taller y ensamblaje in situ, minimizó la necesidad de maquinaria pesada y redujo el impacto ambiental. Además, el diseño busca un mantenimiento mínimo, realizable por personal no especializado.
 
-\subsection{Momentos y esfuerzos}
-Se identificaron puntos críticos de concentración de tensiones en las zonas de apoyo sobre los rieles y en las uniones de los eleemntos estructurales. Se utilizaron conectores soldados con refuerzos triangulares para distribuir las cargas.
+\section{Limitaciones, Consideraciones Técnicas y Potencial de Replicabilidad}
 
-\section{Materiales y Construcción}
-\subsection{Material principal}
-El puente está fabricado principalmente en acero estructural S275, que presenta buena resistencia mecánica, soldabilidad y comportamiento a fatiga. El tablero es de madera reciclada, tratada con compuestos impermeabilizantes.
+A pesar de sus numerosas ventajas, el sistema presenta ciertas limitaciones. No es adecuado para tráfico rodado pesado y requiere inspecciones periódicas para prevenir la corrosión del acero. La operación manual podría no ser viable para personas con discapacidad o en condiciones climáticas extremas. Por ello, su uso se recomienda principalmente para zonas peatonales, vías verdes y entornos urbanos con bajo tráfico.
 
-\subsection{Proceso de montaje}
-Los componentes estructurales fueron prefabricados en taller y transportados al sitio para su ensamblaje. El sistema modular permitió una construcción rápida con mínima maquinaria pesada. La cimentación se realizó con bloques de hormigón armado, donde se fijaron los rieeles de rodadura.
-
-\section{Análisis de Sostenibilidad}
-La solución propuesta destaca por su bajo consumo energético durante la operación, ya que es completamente manual. Además se emplearon materiales reciclados y se redujo el impacto ambiental durante la construccuón. El mantenimiento es mínimo y puede ser realizado por personal no especializado.
-
-\section{Participación Comunitaria}
-Uno de los aspectos más destacados del proyecto fue la inclusión de la comunidad local tanto en la fase de diseño como en la construcción. Voluntarios colaboraron en el montaje del puente, y actualmente participan en su operación diaria. Esto fortalece el sentido de pertenencia y el cuidado de equipamiento urbano.
-
-\section{Limitaciones y Consideraciones Técnias}
-Entre las limitaciones del sistema destacan:
-\begin{itemize}
-    \item No es apto para tráfico rodado pesado.
-    \item Requiere inspecciones periódicas para prevenir la corrosión del acero.
-    \item La operación manual puede no ser viable en caso de discapacidad o climas extremos.
-\end{itemize}
-
-Se recomienda su uso principalmente para zonas peatonales, vías verdes y entornos urbanos con bajo tráfico.
-
-\section{Potencial de Replicabilidad}
-El diseño puede adaptarse a otras localizaciones modificando su escala, materiales o modo de operación. Su bajo coste y simplicidad constructiva lo convierten en una opción viable para proyectos de regeneración urbana o de movilidad sostenible.
+No obstante, el diseño del Puente Rodante de Cody Dock posee un significativo potencial de replicabilidad. Su escala, los materiales empleados y el modo de operación pueden adaptarse a diferentes localizaciones. Su bajo coste y la relativa simplicidad de su construcción lo convierten en una opción viable para proyectos de regeneración urbana o iniciativas de movilidad sostenible en diversos contextos.
 
 \section{Conclusión}
-El Puente Rodante de Cody Dock ejemplifica una aproximación innovadora al diseño de infraestructuras urbanas móviles. Combinando principios básicos de la mecánica clásica con objetivos sociales y medioambientales, constituye una referencia para futuras intervenciones de ingeniería con enfoque comunitario y sostenible.
+
+El Puente Rodante de Cody Dock representa una innovadora convergencia de principios de la mecánica clásica y objetivos de sostenibilidad y participación comunitaria en el diseño de infraestructuras urbanas móviles. Su concepción y ejecución lo erigen como un ejemplo inspirador para futuras intervenciones de ingeniería que buscan soluciones eficientes, de bajo impacto y con un fuerte sentido de pertenencia para la comunidad.
 
 \nocite{*}
 \printbibliography
