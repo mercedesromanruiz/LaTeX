@@ -1,1 +1,77 @@
 \chapter{Teorema de Euler}
+\section{Teoria ideal universal}
+\subsection{Método de estudio de las turbomáquinas}
+\begin{itemize}
+    \item Método puramente experimental. Tanteos al azar en el banco de pruebas de laboratorio $\rightarrow$ lento, inaceptable y anticientifico.
+    \item Método matemático rigurosamente exacto. Por resolución de las ecuaciones de Navier-Stokes $\rightarrow$ inabordable en tiempo y recursos.
+    \item Método simplificado. Es el método unidimensional, basado en una serie de hipótesis $\rightarrow$ utilizando tres herramientas básicas, podremos abordar cualquier proyecto.
+\end{itemize}
+
+\subsection{Hipótesis de partida para TM hidráulicas}
+\begin{itemize}
+    \item Fluidos no viscosos o fluido ideal: $\mu \approx 0$
+    \item Fluido incompresible: $\rho = cte.$
+    \item Flujo permanente o estacionario: $\frac{\delta}{\delta t} = 0$
+    \item Flujo irrotacional: $\bigtriangledown \times \vec{v} = 0$
+\end{itemize}
+
+\subsection{Método de estudio unidimensional}
+
+\section{Triángulos de velocidades}
+
+\subsection{Velocidades del fluido}
+
+Una particula de fluido que entra en un rodete que está girando con velocidad de arrastre $u$ (velocidad tangente al mismo), recorrerá una trayectoria relativa entre los álabes del rodete (conducto) a velocidad relativa $w$ y una trayectoria absoluta (vista por un observador fijo externo al rodete) a velocidad absoluta $v$. De esta manera, definimos:
+
+\begin{itemize}
+    \item $u$, como la velocidad de arrastre, que es la velocidad a la que se mueve un punto sólido del rodete.
+    \item $w$, como la velocidad relativa, que es la velocidad respecto al observador relativo, que sigue al rodete en su movimiento (como si estuviera sentado en el rodete)
+    \item $v$, como la velocidad absoluta, que es la velocidad del fluido con respecto al observador inmóvil o fijo exterior al rodete.
+\end{itemize}
+
+\[ \vec{v} = \vec{w} + \vec{u} \]
+
+\section{Teorema de Euler}
+
+\subsection{Primera formulación de la ecuación de Euler}
+\[ \dot{W}_B =  \omega \tau_B = \omega \dot{m} (r_2 v_{2t} - r_1 v_{1t}) = \]
+\[ = \dot{m} (\omega r_2 v_{2t} - \omega r_1 v_1t) = \dot{m} (u_2 v_{2t} - u_1 v_{1t})\ [W] \]
+
+Primera formulación de la ecuación de Euler, que nos indica que la energía que el fluido transmite al rodete por unidad de caudal másico es:
+\[ \frac{\dot{W}_B}{\dot{m}} = u_2 v_{2t} - u_1 v_{1t} \ \left[\frac{J}{kg}\right] \]
+Que representa la energía específica intercambiada en el rodete. En el caso de una bommba, es la energía específica absorbida por el fluido en el rodete.
+
+Dividiendo por la gravedad:
+\[ \frac{\dot{W}_B}{g \dot{m}} = \frac{1}{g} (u_2 v_{2t} - u_1 v_{1t}) = H_{rodete} \ [m] \]
+Que representa la altura absorbida por el fluido.
+
+Multiplicando por la densidad:
+\[ \rho \frac{\dot{W}_B}{\dot{m}} = \rho (u_2 v_{2t} - u_1 v_{1t}) =  \rho g H_{rodete} = \Delta p_{rodete} \ \left[ \frac{N}{m^2} \right] \]
+
+\subsection{De la ecuación de Euler podemos deducir...}
+\begin{itemize}
+    \item La componente tangenete de la velocidad absoluta del fluido es fundamental para el cálculo de la energía específica que el fluido intercambia en el rodete.
+    \item La componente normal de la velocidad absoluta (normal a la SCs de entrada y salida del rodete) es necesaria para evaluar el caudal. El caudal en $[m^3/s]$ será igual a esta componente normal de la velocidad absoluta en $[m/s]$ multiplicada por la sección de la SC que atraviesa en $[m^2]$.
+    \item Los ángulos $\alpha$ a la entrada y salida del rodete están asociados con la forma del contorno de las tuberías directrices y órganos fijos de las TM.
+    \item Los ángulos $\beta$ a la entrada y salida del rodete están asociados con la forma del contorno de los álabes y en general del rodete.
+\end{itemize}
+
+\section{Limitaciones de la teoría ideal unidimensional}
+Hipótesis para la apliaciónd de la Teoría Ideal Unidimensional de las Turbomáquinas:
+\begin{itemize}
+    \item Fluido ideal: viscosidad nula y densidad constante.
+    \item Régimen permanente: flujo estacionario, propiedades del fluido constantes en cualquier punto del mismo.
+    \item FLujo irrotacional: todas las partículas del fluido siguen la misma trayectoria sobre líneas de corriente paralelas entre sí.
+    \item Todo sucede como si todas las partículas de fluido entraran y salieran del rodete de la TM con la misma dirección (mismos ángulos de entrada y de salida del rodete para todas las partículas del fluido), los mismos triangulos de velocidad y la misma energía (misma ecuación de Euler).
+\end{itemize}
+
+Estas hipótesis son válidas para una máquina centrífuga pura: cuanto más alejada sea la geometría del rodete de la de una turbomáquina centrífuga pura, peor será la aproximación del método unidimensional para su estudio.
+
+\begin{itemize}
+    \item Rodete de una máquina centrífuga pura: $u$ y $v_t$ es constante para todas las partículas del fluido a la entrada (en 1) y a la salida (en 2) del rodete respectivamente. Los bordes de entrada y salida de los álabes deben coincidir con superficies transversales (todo el fluido de la sección transversal interacciona con el álabe a la vez) y dichos bordes están a una distancia constante del eje de rotación a fin de que la velocidad $u$ sea la misma para todo el borde.
+    \item Rodete radial puto con generatriz de los álabes no paralela al eje de la máquina a la entrada y a la salida: las partículas del fluido no tienen la misma $u$ a la entrada y salida del rodete respectivamente y $v_t$ tampoco es uniforme.
+    \item Rodete diagonal on bordes de entrada y salida de los álabes paralelos al rotor de la máquina: las superficies normales a las líneas de corriente no coincicden con los bordes de entrada y salida de los álabes, por lo que notodos los puntos de dichas superficies entran en contacto con el álabes al mismo tiempo y por ello $v_t$ es diferente para los puntos de dichas superficies.
+    \item Rodete diagonal con los bordes de entrada y salida de los álabes perpendiculares al zuncho y al cubo: los bordes
+\end{itemize}
+
+\section{Problemas}
