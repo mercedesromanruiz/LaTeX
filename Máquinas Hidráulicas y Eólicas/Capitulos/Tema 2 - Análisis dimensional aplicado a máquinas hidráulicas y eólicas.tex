@@ -1,13 +1,73 @@
 \chapter{Análisis dimensional aplicado a máquinas hidráulicas y eólicas}
 
-El análisis dimensional nos permite extrapolar los resultados obtenidos en modelos a escala
-
-Teorema de Buckingham: herramienta matemática que nos permite reducir el número de variables de un problema complejo con números adimensionales.
-
-``Si una ecuación es dimensionalmente homogénea puede reducirse a una relación entr eun conjunto de productos adimensionales.''
-
+\section{Introducción}
 \begin{itemize}
-    \item Número de Euler: $Eu = \frac{V}{\sqrt{2 \Delta p / p}}$
-    \item Número de Reynolds: $Re = \frac{l \times V}{v}$
-
+    \item Prototipo: turbomáquina que se usa en el proyecto real
+    \item Modelo: turbomáquina con la que se trabaja para llegar al prototipo
+    \item Leyes de semejanza: basado en el análisis dimensional, establece relaciones funcionales entre variables y parámetros de funcionamiento de las TMH. Nos permiten establecer una relación directa entre el prototipo y el modelo.
 \end{itemize}
+
+\section{Teorema de Buckingham}
+Herramienta matemática que nos permite reducir el número de variables de un problema complejo, trabajando con números adimensionales:
+
+
+\section{Experimentación con modelos}
+La teoría de modelo enseña las condiciones en que se ha de realizar el ensayo del modelo para poder predecir de este ensayo el comportamiento del prototipo. Estas condiciones son:
+\begin{enumerate}
+    \item EL modelo y el prototipo han de ser geométricamente semejantes: exige que toda la parte de la máquina ocupada por el flujo se realice a escala en el modelo (cámara espiral, estátor, distribuidor, forma geométrica de los álabes y grado de apertura, rodete, cámara del rodete y tubo de aspiración).
+    \item El modelo y el prototipo han de ser cinemáticamente semejantes: exige que a la entrada y salida del rodete los triángulos de velocidad sean semejantes, entre el modelo y el prototipo.
+    \item El modelo y el prototipo han de ser dinámicamente semejantes: para máquinas de reacción (TH de reacción y B) y exige mismo número de $Re$ en el modelo y en el prototipo;para máquinas de acción (Turbina Pelton) exige mismo número de $Fr$ en el modelo y en el prototipo.
+\end{enumerate}
+
+\section{Coeficientes de velocidad}
+Son una herramienta para el estudio de las turbomáquinas. EL coeficiente de una velocidad cualquiera (absoluta, relativa, periférica o de arrastre, componente meridional de la velocidad absoluta, etc.) se define como la relación adimensional entre la velocidad respectiva y el valor $\sqrt{2gH}$.
+\begin{itemize}
+    \item Coeficientes Velocidad Absoluta: $k_v = \frac{v}{2 g H}$
+    \item Coeficiente Velocidad Relativa: $k_w = \frac{w}{\sqrt{2 g H}}$
+    \item Coeficiente Velocidad Periférica: $k_u = \frac{u}{\sqrt{2 g H}}$
+\end{itemize}
+Dichos coeficientes se utilizan con los subíndices 1 y 2 para indicar entrada y salida del rodete respectivamente. Si dos turbomáquinas son geométricamente semejantes, tienen los mismos coeficientes de velocidad.
+
+Los coeficientes de velocidad teniendo en cuenta el rendimiento hidráulico son de la máquina:
+\begin{itemize}
+    \item Coeficiente Velocidad Absoluta: $k_v' = \frac{v}{\sqrt{2 g \eta_h H}}$
+    \item \item Coeficiente Velocidad Relativa: $k_w' = \frac{w}{\sqrt{2 g \eta_h H}}$
+    \item Coeficiente Velocidad Periférica: $k_u' = \frac{u}{\sqrt{2 g \eta_h H}}$
+\end{itemize}
+
+\section{Leyes de semejanza}
+Son las leyes básicas que rigen la experientación con modelos de turbomáquinas hidráulicas y su transposición a los prototipos sobre el terreno.
+
+Las leyes de semejanza comparan el comportamiento de dos turbomáquinas geométricamente semejantes al variar el tamño y otra característica, como puede ser la altura neta y el número de revoluciones.
+
+Todas las TH geométricamente semejantes constituyen una serie, en donde cada TH se caracteriza por su tamaño especificado convencionalmente por un diámetro característico:
+\begin{itemize}
+    \item Turbina Kaplan: diámetro exterior del rodete
+    \item Turbina Francis: diámetro máximo de entrada, que puede ser menor (TF rápidas) o mayor (TF lentas y normales) que el de salida.
+    \item Turbina Pelton: diámetro de la circunferencia con centro en el centro de la rueda y tangente al eje del chorro.
+\end{itemize}
+
+\subsection{Leyes de semejanza en Turbinas Hidráulicas}
+Siendo $(')$ el modelo o el prototipo y $('')$ la otra máquina:
+\begin{itemize}
+    \item Primera ley: $\frac{n'}{n''} = \frac{d''}{d'} \frac{\sqrt{H'}}{\sqrt{H''}}$
+    \item Segunda ley: $\frac{Q'}{Q''} = \frac{d'^2}{d''^2} \frac{\sqrt{H'}}{\sqrt{H''}}$
+    \item Tercera ley: $\frac{P'_a}{P''_a} = \frac{d'^2}{d''^2} \frac{H'^{3/2}}{d''^{3/2}}$
+    \item Cuarta ley: $\frac{\tau'}{\tau''} = \frac{d'^3}{d''^3} \frac{H'}{H''}$
+\end{itemize}
+Estas cuatro leyes sirven para determinar cómo varía en una misma máquina el número de revoluciones, el caudal y la potencia útil al variar la altura neta.
+
+\subsection{Leyes de semejanza en Bombas}
+Siendo $(')$ el modelo o el prototipo y $('')$ la otra máquina:
+\begin{itemize}
+    \item Primera ley: $\frac{H'}{H''} = \frac{m'^2}{n''^2} \frac{d'^2}{d''^2}$
+    \item Segunda ley: $\frac{Q'}{Q''} = \frac{n'}{n''} \frac{d'^3}{d''^3}$
+    \item Tercera ley: $\frac{P'}{P''} =  \frac{n'^3}{n''^3} \frac{d'^5}{d''^5}$
+    \item Cuarta ley: $\frac{\tau'}{\tau''} = \frac{d'^5}{d''^5} \frac{n'^2}{n''^2}$
+\end{itemize}
+
+Estas fórmulas darán en general resultados tanto más satisfactorios cuanto menos difieran entre sí los diámetros y/o los saltos netos, 
+
+\section{Número específico de revoluciones}
+
+\section{Coeficientes característicos}
