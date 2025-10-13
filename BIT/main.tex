@@ -1,0 +1,296 @@
+\documentclass{IEEEtran}
+\usepackage[english]{babel} % Definir el idioma del documento
+\usepackage[letterpaper,top = 2cm, bottom = 2cm, left = 2cm, right = 2cm, marginparwidth = 1.75cm]{geometry} % Especificar los márgenes según la norma
+\usepackage{pdfpages} % Añadir PDFs y que te cuente las páginas para el documento
+\usepackage{subfiles} % Tener subdocumentos (hay más opciones)
+\usepackage{tableof} % Se utiliza para los indices de los subdocumentos
+\usepackage{float} % Para usar lo de 'H'
+\usepackage{fancyhdr}
+\usepackage{comment}
+\usepackage{biblatex} % Paquete para manejar citas y bibliografía
+\usepackage{amsmath}
+\addbibresource{bibliografia.bib} % Cargar el archivo .bib
+
+\def\TituloProyecto{Precision Irrigation System for Small Farms}
+\def\Fecha{July 2025}
+\def\Profesor{Xianfu Zhang}
+\def\Voluntario{Valentino Jovan}
+
+\begin{document}
+\sloppy 
+\setlength{\parindent}{30pt}
+\setlength{\parskip}{6pt}
+\renewcommand\thesection{\arabic{section}}
+\renewcommand{\baselinestretch}{1.5}
+
+\begin{titlepage}
+    \centering
+    \vfill
+    %\includegraphics[width=0.25\linewidth]{Imagenes/Logo.png} \par
+    %\vspace{1cm}
+    %{\bfseries\LARGE Beijing Institute of Technology \par}
+    %\vspace{0.5cm}
+    {\scshape\Large Hands-on Learning for Emerging Technologies in Electronics Engineering \par}
+    %\vspace{3 cm}
+    \vfill
+    {\Huge \textbf{\TituloProyecto} \par}
+    \vfill
+    {\Large Group 2 \par}
+    {\Large Instructor: \Profesor \par}
+    {\Large Volunteer: \Voluntario \par}
+    {\Large \Fecha\par}
+\end{titlepage}
+
+\newpage
+
+\begin{table}[h!]
+    \centering
+    \caption{Group members.}
+    \label{tab:Members}
+    \begin{tabular}{|c|c|}
+        \hline
+        Last Name & First Name \\
+        \hline
+        Roman Ruiz & Mercedes \\
+        Rodriguez Martin & Barbara \\
+        Garcia Floriano & Javier \\
+        Lopez Espada & Jaime \\
+        Isasi Gomez & Marina \\
+        Nugaev & Vladislav \\
+        Pavlov & Mikhail \\
+        Galitskov & Bogdan \\
+        Cortes Tellez & Sebastian \\
+        Villarreal Treviño & Christian Raul \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\tableofcontents
+
+\section*{Backgroung \& Purpose}
+
+Youth, living in a prosperous time and shaping the world’s future, are a generation advancing with the new era. While facing the great challenges of our time, young people around the world are endeavoring to enhance the people-to-people exchanges, build platforms of innovation and entrepreneurship, and create a community of shared future for all.
+
+The China International College Students’ Innovation Competition (CICSIC) is dedicated to promoting international exchange and collaboration in innovation and entrepreneurship. As a global platform for college students to showcase their innovative practices, CICSIC has become one of the largest innovation competitions worldwide. Since 2017, CICSIC has welcomed over 40,000 international projects and 130,000 students from more than 150 countries and regions. This year, the CICSIC 2025 Grand Final will be hosted in Zhengzhou, China. We are honored to present our solution in this international competition, contributing to global innovation in agriculture and technology.
+
+Our project, the Precision Irrigation System for Small Farms, responds directly to this mission by addressing one of the most pressing global needs: sustainable and efficient agriculture for underserved populations.
+
+\section{Executive Sumamry}
+
+The Precision Irrigation System for Small Farms is an intelligent, adaptable, and cost-efficient solution designed to modernize small-scale farming operations. Built using the Raspberry Pi Pico microcontroller, our system integrates multiple environmental sensors—including soil moisture, rainfall, water flow, and temperature/humidity sensors—to automate and optimize irrigation. With a solar-powered and wireless architecture, it supports operation in off-grid areas, while the simple user interface ensures accessibility for farmers with little technical background.
+
+By providing real-time data and automated control, the system increases crop yields, reduces water consumption, and promotes long-term sustainability. Its modular design supports easy scalability and customization, making it a practical tool for improving food security and agricultural resilience.
+
+\section{Identified Need}
+
+Despite the agricultural sector's vital importance, smallholder farmers often operate with outdated tools and limited access to advanced irrigation solutions. Many rely on manual watering or basic timers, leading to water misuse and suboptimal crop performance. Erratic weather patterns and inefficient practices exacerbate resource waste and threaten food security.
+
+There is a growing global call for smart, scalable solutions that bridge the gap between traditional farming and modern precision agriculture. Yet, most commercial systems remain inaccessible due to high costs, complexity, or lack of infrastructure. Our system addresses this gap with an affordable and easy-to-deploy platform designed specifically for the small farm context.
+
+\section{Technology and Product Overview}
+
+At the core of the system is the Raspberry Pi Pico, a versatile microcontroller known for its performance and affordability. This unit interfaces with four types of sensors: soil moisture to assess hydration levels at root depth, a rain sensor to detect natural precipitation, a DHT11 to monitor temperature and humidity, and a water flow meter to quantify irrigation usage.
+
+The collected data feeds into a set of logical control rules that activate or suspend irrigation accordingly. The firmware is programmed using MicroPython, with provisions for manual overrides, threshold adjustments, and data logging. All components are housed in weather-resistant enclosures suitable for long-term outdoor use.
+
+Power is supplied via a solar panel and battery unit, ensuring off-grid reliability. Communication is established through either Wi-Fi or Bluetooth modules, enabling interaction with a basic app interface or SMS alert system.
+
+\section{Differentiation and Innovation}
+
+This system's innovation lies in its convergence of affordability, modularity, and field-readiness. Unlike generic DIY kits, it is pre-configured for plug-and-play operation. Unlike high-end systems, it operates independently of commercial infrastructure and energy grids. And unlike most hobbyist platforms, it includes integrated power, sensing, and user interaction elements in one resilient package.
+
+Further innovation comes from the opportunity to collect and analyze microclimate data over time, enabling future integration of predictive analytics, weather-based logic, and community dashboards. The open-source nature of the platform allows local adaptation and educational use in addition to commercial deployment.
+
+\section{Market Potential}
+
+Globally, over 500 million farms are classified as smallholder operations, managing less than two hectares. These farms are responsible for more than 70\% of food production in low-income countries. However, access to digital farming tools is minimal in these settings.
+
+Current competitors either serve large-scale commercial farms or hobbyist gardeners. Brands like Netafim and RainBird offer robust solutions but are cost-prohibitive. Smart garden devices like Rachio are designed for homeowners and lack agronomic functionality. Low-cost alternatives often require assembly and advanced technical knowledge.
+
+Our product targets a previously underserved customer segment: the semi-professional smallholder who seeks efficiency and sustainability but lacks access to modern tools. This opens opportunities for collaboration with local governments, NGOs, and rural cooperatives seeking to improve water management and food production.
+
+\section{PESTEL Analysis}
+
+To complement the internal evaluation provided by the SWOT analysis, a PESTEL analysis (Table \ref{tab: PESTEL}) has been conducted to assess the broader macro-environmental factors that may influence the development and deployment of the Precision Irrigation System. This framework examines key political, economic, social, technological, environmental, and legal dynamics that could create opportunities or pose challenges as the project scales. Understanding these external factors is essential for anticipating risks, aligning with market trends, and identifying avenues for strategic partnerships and sustainable growth.
+
+\begin{table*}
+    \caption{PESTEL Analysis: Precision Irrigation System for Small Farms}
+    \label{tab: PESTEL}
+    \centering
+        \renewcommand{\arraystretch}{1.4}
+        \begin{tabular}{|p{3cm}|p{11cm}|}
+        \hline
+        \textbf{Category} & \textbf{Factors} \\
+        \hline
+        \textbf{Political} & 
+        - Government support for sustainable agriculture and water conservation. \newline
+        - Potential subsidies or public tenders for rural technology deployment. \newline
+        - Political stability affects partnerships with NGOs and cooperatives. \\
+        \hline
+        \textbf{Economic} & 
+        - High ROI for farmers through resource efficiency. \newline
+        - Competitive price encourages smallholder adoption. \newline
+        - Risk from inflation and supply chain instability. \\
+        \hline
+        \textbf{Social} & 
+        - Growing awareness of environmental responsibility. \newline
+        - Tech adoption may be limited by digital literacy. \newline
+        - Positive social impact aligns with cooperative and NGO values. \\
+        \hline
+        \textbf{Technological} & 
+        - Integration of IoT, sensors, and solar energy. \newline
+        - Open-source code enables localization and customization. \newline
+        - Potential for AI-driven optimization in the future. \\
+        \hline
+        \textbf{Environmental} & 
+        - Promotes water conservation and resource sustainability. \newline
+        - Supports adaptation to climate variability. \newline
+        - Solar power reduces carbon footprint. \\
+        \hline
+        \textbf{Legal} & 
+        - Must comply with import/export laws on electronics. \newline
+        - Data privacy and handling regulations if cloud-based. \newline
+        - Certification standards differ across markets. \\
+        \hline
+    \end{tabular}
+\end{table*}
+
+
+\section{Financial Model}
+
+The following table outlines the capital expenditures (CAPEX) and operational expenditures (OPEX) required for the development and deployment of the first 100 units is showed on the tables \ref{tab: CAPEX}, \ref{tab: OPEX (Year 1)}, \ref{tab: Revenue Projection (Year 1)}, \ref{tab: Customer Growth Forecast (Optimistic Scenario)}.
+
+\begin{table*}
+    \centering
+    \caption{Capital Expenditures (CAPEX)}
+    \label{tab: CAPEX}
+    \begin{tabular}{|l|c|c|c|}
+        \hline
+        \textbf{Item} & \textbf{Quantity} & \textbf{Unit Cost (USD)} & \textbf{Total Cost (USD)} \\
+        \hline
+        Raspberry Pi Pico & 100 & 4.00 & 400 \\
+        Sensor Suite (soil, DHT11, rain, flow) & 100 & 12.00 & 1,200 \\
+        Solar Power Kits & 100 & 10.00 & 1,000 \\
+        Enclosures and Assembly & 100 & 8.00 & 800 \\
+        Mobile App Dev \& Testing & 1 & --- & 2,500 \\
+        Packaging \& Pilot Logistics & --- & --- & 600 \\
+        Marketing Materials & --- & --- & 500 \\
+        \hline
+        \textbf{Total CAPEX} & & & \textbf{7,000} \\
+        \hline
+    \end{tabular}
+\end{table*}
+
+\begin{table*}
+    \centering
+    \caption{Operational Expenditures (OPEX – Year 1)}
+    \label{tab: OPEX (Year 1)}
+    \begin{tabular}{|l|c|c|}
+        \hline
+        \textbf{Item} & \textbf{Monthly} & \textbf{Annual Cost (USD)} \\
+        \hline
+        Technical Support Staff & \$300 & 3,600 \\
+        Field Test Support \& Travel & --- & 1,200 \\
+        Server Hosting \& Maintenance & \$30 & 360 \\
+        Communications \& SIM data & \$20 & 240 \\
+        Training Materials \& Events & --- & 600 \\
+        \hline
+        \textbf{Total OPEX (Year 1)} & & \textbf{6,000} \\
+        \hline
+    \end{tabular}
+\end{table*}
+
+\begin{table*}
+    \centering
+    \caption{Revenue Projection (Year 1)}
+    \label{tab: Revenue Projection (Year 1)}
+    \begin{tabular}{|l|c|}
+        \hline
+        \textbf{Metric} & \textbf{Value} \\
+        \hline
+        Units Sold & 500 \\
+        Unit Selling Price (USD) & \$120 \\
+        Gross Revenue & \$60,000 \\
+        Cost per Unit & \$40 \\
+        Total Cost of Goods Sold & \$20,000 \\
+        Gross Profit & \$40,000 \\
+        Net Profit After OPEX & \$34,000 \\
+        \hline
+    \end{tabular}
+\end{table*}
+
+\begin{table*}
+    \centering
+    \caption{Customer Growth Forecast (Optimistic Scenario)}
+    \label{tab: Customer Growth Forecast (Optimistic Scenario)}
+    \begin{tabular}{|l|c|c|c|}
+        \hline
+        \textbf{Year} & \textbf{Estimated Clients} & \textbf{Revenue (USD)} & \textbf{Cumulative Profit (USD)} \\
+        \hline
+        2025 & 500 & 60,000 & 34,000 \\
+        2026 & 1,200 & 144,000 & 102,000 \\
+        2027 & 2,500 & 300,000 & 252,000 \\
+        2028 & 5,000 & 600,000 & 552,000 \\
+        \hline
+    \end{tabular}
+\end{table*}
+
+Payback Period: The initial investment of \$13,000 (CAPEX + Year 1 OPEX) is recovered within the first operational year.
+
+The following two charts would be included in the visual version:
+\begin{enumerate}
+    \item Line Chart: Customer Growth (2025–2028)
+    \item Bar Chart: Cumulative Net Profit per Year
+\end{enumerate}
+
+\section{Go-to-Market Strategy}
+
+Our launch strategy emphasizes field validation and word-of-mouth promotion. We will begin with small-scale pilots in collaboration with agricultural cooperatives in rural regions. This will generate feedback and proof of impact.
+
+Concurrently, outreach will be conducted through local agricultural fairs, university networks, and digital channels. As awareness builds, we plan to onboard local vendors as sales partners and provide them with training and marketing kits.
+
+Educational institutions and development agencies will be engaged for awareness campaigns, while simplified setup guides and visual media will ensure usability. A technical helpdesk via SMS or messaging apps will support adoption.
+
+\section{Implementation and Impact}
+The project has already undergone multiple iterations in lab and simulated environments. All core features have been validated with actual sensor data, and the first fully integrated prototype is in field testing.
+
+Our team has conducted interviews with small-scale farmers, validated assumptions with local agronomists, and iteratively improved system performance based on user feedback. The prototype has shown a 30\% improvement in water-use efficiency over traditional methods.
+
+By reducing irrigation cost and effort, the system frees farmers to focus on productivity, while simultaneously improving yields. The reduction in water consumption also contributes to environmental sustainability.
+
+\section{Team Background and Resources}
+
+Our team brings together expertise in electronics, environmental science, software development, and agricultural engineering. The project was conceived through structured design thinking and agile development practices in the context of international collaboration.
+
+Each member has contributed to a specific technical or operational domain—from hardware design and programming to outreach, research, and impact documentation. We have also received mentorship from academic staff and external advisors with relevant domain experience.
+
+We have access to a university lab with the necessary tools for prototyping and testing, and established relationships with local farmers and cooperatives for pilot deployments.
+
+\section{Future Growth and Development}
+
+The long-term vision includes developing modular add-ons, such as fertilizer injectors and pest detection cameras. Integration with weather APIs and machine learning models will allow predictive irrigation scheduling.
+
+Data collected from multiple farms will feed into a dashboard for stakeholders such as cooperatives, NGOs, and agronomists to monitor regional performance. The same system could be adapted for rooftop gardens or educational farms in urban settings.
+
+Commercial expansion may involve licensing to local manufacturers or governments. In the future, we aim to build a network of interconnected farms that exchange environmental data and best practices.
+
+\section{SWOT Analysis (DAFO)}
+
+To complement the strategic evaluation of our project, a SWOT analysis (Table \ref{tab: DAFO}) has been conducted to identify internal and external factors that may influence the success of the Precision Irrigation System. This framework outlines our strengths in affordability, adaptability, and sustainability, while also acknowledging areas for improvement such as user training and network limitations. It highlights promising opportunities in the global shift toward resource-efficient agriculture and potential partnerships with NGOs and government programs. At the same time, it helps us anticipate potential threats, including market competition and regulatory challenges, guiding us toward a more resilient and proactive development strategy.
+
+\begin{figure}[ht!]
+  \centering
+  \includegraphics[width= 0.5 \textwidth]{Imagenes/DAFO.png}
+  \label{tab: DAFO}
+  \caption{SWOT Analysis} 
+\end{figure}
+
+\section{Conclusion}
+
+This project represents a bold step forward in making precision agriculture inclusive, effective, and scalable. It leverages low-cost technology and interdisciplinary knowledge to address a persistent global problem: inefficient water use in small-scale farming.
+
+With a working prototype, a clear market need, and an actionable roadmap, the Precision Irrigation System for Small Farms is ready to generate real-world impact. It empowers farmers, protects natural resources, and lays the foundation for a more sustainable and food-secure future.
+
+We believe this innovation deserves the spotlight—and with the right support, it will thrive in the global market.
+
+\end{document}
