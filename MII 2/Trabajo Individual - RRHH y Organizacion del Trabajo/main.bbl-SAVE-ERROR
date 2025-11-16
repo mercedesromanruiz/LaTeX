@@ -1,0 +1,270 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{hbr-negotiating-next-job}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=55b52c8897109b0dac6cc859521b1382}{%
+           family={Bowles},
+           familyi={B\bibinitperiod},
+           given={Hannah\bibnamedelima Riley},
+           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=5cfb269a658325d6f3b66d4525fc8d8b}{%
+           family={Thomason},
+           familyi={T\bibinitperiod},
+           given={Bobbi},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b3f5d96e6a341a9e5c12769180031e3}
+      \strng{fullhash}{7b3f5d96e6a341a9e5c12769180031e3}
+      \strng{fullhashraw}{7b3f5d96e6a341a9e5c12769180031e3}
+      \strng{bibnamehash}{7b3f5d96e6a341a9e5c12769180031e3}
+      \strng{authorbibnamehash}{7b3f5d96e6a341a9e5c12769180031e3}
+      \strng{authornamehash}{7b3f5d96e6a341a9e5c12769180031e3}
+      \strng{authorfullhash}{7b3f5d96e6a341a9e5c12769180031e3}
+      \strng{authorfullhashraw}{7b3f5d96e6a341a9e5c12769180031e3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Harvard Business Review}
+      \field{month}{1}
+      \field{title}{Negotiating your next job}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://hbr.org/2021/01/negotiating-your-next-job
+      \endverb
+      \verb{url}
+      \verb https://hbr.org/2021/01/negotiating-your-next-job
+      \endverb
+    \endentry
+    \entry{atlantic-fulfilling-career}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=124f352ceb3e4506f94dfa9fa2f448b5}{%
+           family={Brooks},
+           familyi={B\bibinitperiod},
+           given={Arthur\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{124f352ceb3e4506f94dfa9fa2f448b5}
+      \strng{fullhash}{124f352ceb3e4506f94dfa9fa2f448b5}
+      \strng{fullhashraw}{124f352ceb3e4506f94dfa9fa2f448b5}
+      \strng{bibnamehash}{124f352ceb3e4506f94dfa9fa2f448b5}
+      \strng{authorbibnamehash}{124f352ceb3e4506f94dfa9fa2f448b5}
+      \strng{authornamehash}{124f352ceb3e4506f94dfa9fa2f448b5}
+      \strng{authorfullhash}{124f352ceb3e4506f94dfa9fa2f448b5}
+      \strng{authorfullhashraw}{124f352ceb3e4506f94dfa9fa2f448b5}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Atlantic}
+      \field{month}{4}
+      \field{title}{How to choose a fulfilling career}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.theatlantic.com/family/archive/2020/05/how-choose-fulfilling-career/611920/
+      \endverb
+      \verb{url}
+      \verb https://www.theatlantic.com/family/archive/2020/05/how-choose-fulfilling-career/611920/
+      \endverb
+    \endentry
+    \entry{christensen-measure-life}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=5eaad42da0a9818abc23e4305aa80819}{%
+           family={Christensen},
+           familyi={C\bibinitperiod},
+           given={Clayton\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5eaad42da0a9818abc23e4305aa80819}
+      \strng{fullhash}{5eaad42da0a9818abc23e4305aa80819}
+      \strng{fullhashraw}{5eaad42da0a9818abc23e4305aa80819}
+      \strng{bibnamehash}{5eaad42da0a9818abc23e4305aa80819}
+      \strng{authorbibnamehash}{5eaad42da0a9818abc23e4305aa80819}
+      \strng{authornamehash}{5eaad42da0a9818abc23e4305aa80819}
+      \strng{authorfullhash}{5eaad42da0a9818abc23e4305aa80819}
+      \strng{authorfullhashraw}{5eaad42da0a9818abc23e4305aa80819}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Harvard Business Review}
+      \field{month}{7}
+      \field{title}{How Will You Measure Your Life?}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb https://hbr.org/2010/07/how-will-you-measure-your-life
+      \endverb
+      \verb{url}
+      \verb https://hbr.org/2010/07/how-will-you-measure-your-life
+      \endverb
+    \endentry
+    \entry{hbr-woc-negotiation}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=08edbc85ec89c1429731457e6374aeb4}{%
+           family={Deepa\bibnamedelima Purushothaman},
+           familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Hannah\bibnamedelimb Riley\bibnamedelima Bowles},
+           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim B\bibinitperiod},
+           suffix={Deborah\bibnamedelimb M.\bibnamedelimi Kolb},
+           suffixi={D\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=6730ac4ff56c991b1a3c407a25a1142a}{%
+           family={Purdie-Greenaway},
+           familyi={P\bibinithyphendelim G\bibinitperiod},
+           given={Valerie},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{59a1a09e6e7b96b37d395804e2d020c2}
+      \strng{fullhash}{59a1a09e6e7b96b37d395804e2d020c2}
+      \strng{fullhashraw}{59a1a09e6e7b96b37d395804e2d020c2}
+      \strng{bibnamehash}{59a1a09e6e7b96b37d395804e2d020c2}
+      \strng{authorbibnamehash}{59a1a09e6e7b96b37d395804e2d020c2}
+      \strng{authornamehash}{59a1a09e6e7b96b37d395804e2d020c2}
+      \strng{authorfullhash}{59a1a09e6e7b96b37d395804e2d020c2}
+      \strng{authorfullhashraw}{59a1a09e6e7b96b37d395804e2d020c2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Harvard Business Review}
+      \field{month}{1}
+      \field{title}{Negotiating as a Woman of Color}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://hbr.org/2022/01/negotiating-as-a-woman-of-color
+      \endverb
+      \verb{url}
+      \verb https://hbr.org/2022/01/negotiating-as-a-woman-of-color
+      \endverb
+    \endentry
+    \entry{hbr-networking}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=e97a6f02787e7f21e380a00786dbe93e}{%
+           family={Gino},
+           familyi={G\bibinitperiod},
+           given={Francesca},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c1e106112b3ce7663fc41eb29488a2ab}{%
+           family={Kouchaki},
+           familyi={K\bibinitperiod},
+           given={Maryam},
+           giveni={M\bibinitperiod}}}%
+        {{hash=91d9e0ef48f94fa9ae10459d4945d207}{%
+           family={Casciaro},
+           familyi={C\bibinitperiod},
+           given={Tiziana},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{38481dcadaff447696101e2cae6a0cd4}
+      \strng{fullhash}{38481dcadaff447696101e2cae6a0cd4}
+      \strng{fullhashraw}{38481dcadaff447696101e2cae6a0cd4}
+      \strng{bibnamehash}{38481dcadaff447696101e2cae6a0cd4}
+      \strng{authorbibnamehash}{38481dcadaff447696101e2cae6a0cd4}
+      \strng{authornamehash}{38481dcadaff447696101e2cae6a0cd4}
+      \strng{authorfullhash}{38481dcadaff447696101e2cae6a0cd4}
+      \strng{authorfullhashraw}{38481dcadaff447696101e2cae6a0cd4}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Harvard Business Review}
+      \field{month}{5}
+      \field{title}{Learn to love networking}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://hbr.org/2016/05/learn-to-love-networking
+      \endverb
+      \verb{url}
+      \verb https://hbr.org/2016/05/learn-to-love-networking
+      \endverb
+    \endentry
+    \entry{broken-rung}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=1d5018aa869dfae025a3af679dbd62b5}{%
+           family={Martínez},
+           familyi={M\bibinitperiod},
+           given={María\bibnamedelimb del\bibnamedelima Mar},
+           giveni={M\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=4c3f3ab0ae1f9c91b89ef729642a066b}{%
+           family={Ellingrud},
+           familyi={E\bibinitperiod},
+           given={Kweilin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=db7e53e59fd4182ff732839300149d61}{%
+           family={Yee},
+           familyi={Y\bibinitperiod},
+           given={Lareina},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{a60c814701084d4e0771599d811addd8}
+      \strng{fullhash}{a60c814701084d4e0771599d811addd8}
+      \strng{fullhashraw}{a60c814701084d4e0771599d811addd8}
+      \strng{bibnamehash}{a60c814701084d4e0771599d811addd8}
+      \strng{authorbibnamehash}{a60c814701084d4e0771599d811addd8}
+      \strng{authornamehash}{a60c814701084d4e0771599d811addd8}
+      \strng{authorfullhash}{a60c814701084d4e0771599d811addd8}
+      \strng{authorfullhashraw}{a60c814701084d4e0771599d811addd8}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{The Broken Rung: When the Corporate Ladder Breaks for Women - and How they can succeed in spite of it.}
+      \field{year}{2025}
+    \endentry
+    \entry{80000hours}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=232d4009c5b30703d1698621e00774e3}{%
+           family={Todd},
+           familyi={T\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en-US}%
+      }
+      \strng{namehash}{232d4009c5b30703d1698621e00774e3}
+      \strng{fullhash}{232d4009c5b30703d1698621e00774e3}
+      \strng{fullhashraw}{232d4009c5b30703d1698621e00774e3}
+      \strng{bibnamehash}{232d4009c5b30703d1698621e00774e3}
+      \strng{authorbibnamehash}{232d4009c5b30703d1698621e00774e3}
+      \strng{authornamehash}{232d4009c5b30703d1698621e00774e3}
+      \strng{authorfullhash}{232d4009c5b30703d1698621e00774e3}
+      \strng{authorfullhashraw}{232d4009c5b30703d1698621e00774e3}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{80,000 Hours}
+      \field{month}{7}
+      \field{title}{This is your most important decision - 80,000 Hours}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://80000hours.org/make-a-difference-with-your-career/
+      \endverb
+      \verb{url}
+      \verb https://80000hours.org/make-a-difference-with-your-career/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
