@@ -1,0 +1,85 @@
+\documentclass[10pt, a4paper, twoside, twocolumn]{book}
+\usepackage[spanish]{babel} % Definir el idioma del documento
+\usepackage{graphicx} % Required for inserting images
+\usepackage[top = 2cm, bottom = 2cm, left = 2cm, right = 2cm, asymmetric]{geometry} % Especificar los márgenes según la norma
+\usepackage{float} % Para usar lo de 'H
+\usepackage[none]{hyphenat}
+\usepackage{fancyhdr}
+\usepackage[table]{xcolor}
+\usepackage{multirow}
+\usepackage{tabularx}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage{csquotes}
+\usepackage{biblatex}
+\addbibresource{bibliografia.bib}
+
+
+
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+\definecolor{mygreen}{RGB}{175,214,155}
+\arrayrulecolor{mygreen}
+
+\titleformat{\section}
+  {\color{mygreen}\normalfont\large\bfseries}
+  {\thesection}{1em}{}
+
+\titleformat{\subsection}
+  {\color{mygreen}\normalfont\large\bfseries}
+  {\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+  {\color{mygreen}\normalfont\normalsize\bfseries}
+  {\thesubsubsection}{1em}{}
+
+
+\begin{document}
+\sloppy 
+\setlength{\parindent}{15pt} % Tamaño de la indentación
+\setlength{\parskip}{5pt} % Espacio entre párrafos
+\renewcommand\thesection{\arabic{section}}
+\renewcommand{\baselinestretch}{1.5}
+\renewcommand{\listtablename}{Índice de tablas} % Si no se hace esto, aparece como 'Indice de Cuadros'
+\renewcommand{\tablename}{Tabla} % Si no se hace esto, aparece como 'Cuadro'
+\renewcommand{\baselinestretch}{1.5}
+
+\setlength{\headheight}{25pt} % o mayor si el logo es grande
+\fancyhead{}
+\fancyfoot{}
+\pagestyle{fancy}
+\chead[\rightmark]{\leftmark}
+\fancypagestyle{plain}{%
+    \cfoot{ }%
+    \renewcommand{\headrulewidth}{0pt}
+    \fancyhf{ }%
+}
+
+\fancyfoot[LE,RO]{\thepage}
+\setlength{\headheight}{30pt} % sube si da warning
+
+\fancyhead[C]{%
+  \begin{minipage}{\textwidth}
+    \centering\small
+    \textbf{Informe del desarrollo en la competición GMC}\\
+    2º MII 2025-26
+  \end{minipage}
+}
+\fancyhead[R]{\includegraphics[height=1.2cm]{Imagenes/Logo GMC.png}}
+\fancyhead[L]{\includegraphics[height=1.2cm]{Imagenes/Logo INDUSMONEY.png}}
+
+\input{Documentos/Portada}
+
+%\input{Documentos/Dedicatoria}
+
+%\input{Documentos/Indices}
+
+\input{Documentos/Cuerpo}
+
+%\nocite{*}
+%\printbibliography
+
+\end{document}

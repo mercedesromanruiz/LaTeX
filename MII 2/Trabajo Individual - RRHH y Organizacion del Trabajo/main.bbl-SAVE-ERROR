@@ -196,40 +196,6 @@
       \verb https://hbr.org/2016/05/learn-to-love-networking
       \endverb
     \endentry
-    \entry{broken-rung}{book}{}{}
-      \name{author}{3}{}{%
-        {{hash=1d5018aa869dfae025a3af679dbd62b5}{%
-           family={Martínez},
-           familyi={M\bibinitperiod},
-           given={María\bibnamedelimb del\bibnamedelima Mar},
-           giveni={M\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=4c3f3ab0ae1f9c91b89ef729642a066b}{%
-           family={Ellingrud},
-           familyi={E\bibinitperiod},
-           given={Kweilin},
-           giveni={K\bibinitperiod}}}%
-        {{hash=db7e53e59fd4182ff732839300149d61}{%
-           family={Yee},
-           familyi={Y\bibinitperiod},
-           given={Lareina},
-           giveni={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{a60c814701084d4e0771599d811addd8}
-      \strng{fullhash}{a60c814701084d4e0771599d811addd8}
-      \strng{fullhashraw}{a60c814701084d4e0771599d811addd8}
-      \strng{bibnamehash}{a60c814701084d4e0771599d811addd8}
-      \strng{authorbibnamehash}{a60c814701084d4e0771599d811addd8}
-      \strng{authornamehash}{a60c814701084d4e0771599d811addd8}
-      \strng{authorfullhash}{a60c814701084d4e0771599d811addd8}
-      \strng{authorfullhashraw}{a60c814701084d4e0771599d811addd8}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{3}
-      \field{title}{The Broken Rung: When the Corporate Ladder Breaks for Women - and How they can succeed in spite of it.}
-      \field{year}{2025}
-    \endentry
     \entry{80000hours}{article}{}{}
       \name{author}{1}{}{%
         {{hash=232d4009c5b30703d1698621e00774e3}{%

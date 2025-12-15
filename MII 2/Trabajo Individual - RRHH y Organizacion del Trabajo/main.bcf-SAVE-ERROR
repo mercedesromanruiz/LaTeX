@@ -2372,10 +2372,3 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bibliografia.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">hbr-woc-negotiation</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">broken-rung</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">hbr-networking</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">atlantic-fulfilling-career</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">80000hours</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">christensen-measure-life</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">hbr-negotiating-next-job</bcf:citekey>
