@@ -1,0 +1,275 @@
+PWD c:/Users/merce/Documents/GitHub/LaTeX/Automatización y Control
+INPUT c:/texlive/2024/texmf.cnf
+INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/merce/Documents/GitHub/LaTeX/Automatización y Control/main.tex
+OUTPUT main.log
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/book.cls
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/book.cls
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/bk10.clo
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/bk10.clo
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/bk10.clo
+INPUT c:/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def
+INPUT c:/texlive/2024/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+INPUT c:/texlive/2024/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+INPUT c:/texlive/2024/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+INPUT c:/texlive/2024/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
+INPUT c:/texlive/2024/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
+INPUT c:/texlive/2024/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
+INPUT c:/texlive/2024/texmf-dist/tex/generic/babel/locale/es/babel-es.ini
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/color.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT ./main.aux
+INPUT ./main.aux
+INPUT main.aux
+OUTPUT main.aux
+INPUT c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+OUTPUT main.bcf
+INPUT ./Documentos/Cuerpo.tex
+INPUT ./Documentos/Cuerpo.tex
+INPUT ./Documentos/Cuerpo.tex
+INPUT ./Documentos/Cuerpo.tex
+INPUT Documentos/Cuerpo.tex
+INPUT ./Capitulos/Lesson 1 - Introduction to Process Control.tex
+INPUT ./Capitulos/Lesson 1 - Introduction to Process Control.tex
+INPUT Capitulos/Lesson 1 - Introduction to Process Control.tex
+INPUT c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./Imagenes/1 - Block.png
+INPUT ./Imagenes/1 - Block.png
+INPUT ./Imagenes/1 - Block.png
+INPUT ./Imagenes/1 - Block.png
+OUTPUT main.pdf
+INPUT ./Imagenes/1 - Block.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT ./Imagenes/1 - Open Loop Control.png
+INPUT ./Imagenes/1 - Open Loop Control.png
+INPUT ./Imagenes/1 - Open Loop Control.png
+INPUT ./Imagenes/1 - Open Loop Control.png
+INPUT ./Imagenes/1 - Open Loop Control.png
+INPUT c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./Imagenes/1 - Closed Loop Control.png
+INPUT ./Imagenes/1 - Closed Loop Control.png
+INPUT ./Imagenes/1 - Closed Loop Control.png
+INPUT ./Imagenes/1 - Closed Loop Control.png
+INPUT ./Imagenes/1 - Closed Loop Control.png
+INPUT ./Imagenes/1 - PID Representation.png
+INPUT ./Imagenes/1 - PID Representation.png
+INPUT ./Imagenes/1 - PID Representation.png
+INPUT ./Imagenes/1 - PID Representation.png
+INPUT ./Imagenes/1 - PID Representation.png
+INPUT ./Imagenes/1 - PID Valve Representation.png
+INPUT ./Imagenes/1 - PID Valve Representation.png
+INPUT ./Imagenes/1 - PID Valve Representation.png
+INPUT ./Imagenes/1 - PID Valve Representation.png
+INPUT ./Imagenes/1 - PID Valve Representation.png
+INPUT ./Capitulos/Lesson 2 - System Models and Control Requirements.tex
+INPUT ./Capitulos/Lesson 2 - System Models and Control Requirements.tex
+INPUT Capitulos/Lesson 2 - System Models and Control Requirements.tex
+INPUT ./Imagenes/2 - Linear Model.png
+INPUT ./Imagenes/2 - Linear Model.png
+INPUT ./Imagenes/2 - Linear Model.png
+INPUT ./Imagenes/2 - Linear Model.png
+INPUT ./Imagenes/2 - Linear Model.png
+INPUT ./Imagenes/2 - Linearization of a Tank System.png
+INPUT ./Imagenes/2 - Linearization of a Tank System.png
+INPUT ./Imagenes/2 - Linearization of a Tank System.png
+INPUT ./Imagenes/2 - Linearization of a Tank System.png
+INPUT ./Imagenes/2 - Linearization of a Tank System.png
+INPUT ./Imagenes/2 - Modeling a Valve.png
+INPUT ./Imagenes/2 - Modeling a Valve.png
+INPUT ./Imagenes/2 - Modeling a Valve.png
+INPUT ./Imagenes/2 - Modeling a Valve.png
+INPUT ./Imagenes/2 - Modeling a Valve.png
+INPUT ./Capitulos/Lesson 3 - Bassic Control.tex
+INPUT ./Capitulos/Lesson 3 - Bassic Control.tex
+INPUT Capitulos/Lesson 3 - Bassic Control.tex
+INPUT ./Imagenes/3 - PID Types.png
+INPUT ./Imagenes/3 - PID Types.png
+INPUT ./Imagenes/3 - PID Types.png
+INPUT ./Imagenes/3 - PID Types.png
+INPUT ./Imagenes/3 - PID Types.png
+INPUT ./Imagenes/3 - Pole-zero cancellation controller.png
+INPUT ./Imagenes/3 - Pole-zero cancellation controller.png
+INPUT ./Imagenes/3 - Pole-zero cancellation controller.png
+INPUT ./Imagenes/3 - Pole-zero cancellation controller.png
+INPUT ./Imagenes/3 - Pole-zero cancellation controller.png
+INPUT ./Imagenes/3 - Open Loop Z-N table.png
+INPUT ./Imagenes/3 - Open Loop Z-N table.png
+INPUT ./Imagenes/3 - Open Loop Z-N table.png
+INPUT ./Imagenes/3 - Open Loop Z-N table.png
+INPUT ./Imagenes/3 - Open Loop Z-N table.png
+INPUT ./Imagenes/3 - AMIGO rules for PI Controller.png
+INPUT ./Imagenes/3 - AMIGO rules for PI Controller.png
+INPUT ./Imagenes/3 - AMIGO rules for PI Controller.png
+INPUT ./Imagenes/3 - AMIGO rules for PI Controller.png
+INPUT ./Imagenes/3 - AMIGO rules for PI Controller.png
+INPUT ./Imagenes/3 - AMIGO rules for PID Controller.png
+INPUT ./Imagenes/3 - AMIGO rules for PID Controller.png
+INPUT ./Imagenes/3 - AMIGO rules for PID Controller.png
+INPUT ./Imagenes/3 - AMIGO rules for PID Controller.png
+INPUT ./Imagenes/3 - AMIGO rules for PID Controller.png
+INPUT ./Imagenes/3 - Closed Loop ZN.png
+INPUT ./Imagenes/3 - Closed Loop ZN.png
+INPUT ./Imagenes/3 - Closed Loop ZN.png
+INPUT ./Imagenes/3 - Closed Loop ZN.png
+INPUT ./Imagenes/3 - Closed Loop ZN.png
+INPUT ./Imagenes/3 - Anti-windup filter.png
+INPUT ./Imagenes/3 - Anti-windup filter.png
+INPUT ./Imagenes/3 - Anti-windup filter.png
+INPUT ./Imagenes/3 - Anti-windup filter.png
+INPUT ./Imagenes/3 - Anti-windup filter.png
+INPUT ./Capitulos/Lesson 4 - Advanced Control.tex
+INPUT ./Capitulos/Lesson 4 - Advanced Control.tex
+INPUT Capitulos/Lesson 4 - Advanced Control.tex
+INPUT ./Imagenes/4 - Cascade Control.png
+INPUT ./Imagenes/4 - Cascade Control.png
+INPUT ./Imagenes/4 - Cascade Control.png
+INPUT ./Imagenes/4 - Cascade Control.png
+INPUT ./Imagenes/4 - Cascade Control.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT ./Imagenes/4 - Smiths Predictor.png
+INPUT ./Imagenes/4 - Smiths Predictor.png
+INPUT ./Imagenes/4 - Smiths Predictor.png
+INPUT ./Imagenes/4 - Smiths Predictor.png
+INPUT ./Imagenes/4 - Smiths Predictor.png
+INPUT main.aux
+INPUT main.run.xml
+OUTPUT main.run.xml
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb

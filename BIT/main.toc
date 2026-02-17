@@ -1,0 +1,17 @@
+\babel@toc {english}{}\relax 
+\@ifundefined {tof@begin}{\global \let \tof@begin \relax \global \let \tof@finish \@empty \global \let \tof@starttags \@gobble \global \let \tof@stoptags \@gobble \global \let \tof@tagthis \@gobble \global \let \tof@untagthis \@gobble }\relax 
+\tof@begin 
+\contentsline {section}{\numberline {1}Executive Sumamry}{1}{}%
+\contentsline {section}{\numberline {2}Identified Need}{1}{}%
+\contentsline {section}{\numberline {3}Technology and Product Overview}{2}{}%
+\contentsline {section}{\numberline {4}Differentiation and Innovation}{2}{}%
+\contentsline {section}{\numberline {5}Market Potential}{2}{}%
+\contentsline {section}{\numberline {6}PESTEL Analysis}{2}{}%
+\contentsline {section}{\numberline {7}Financial Model}{2}{}%
+\contentsline {section}{\numberline {8}Go-to-Market Strategy}{2}{}%
+\contentsline {section}{\numberline {9}Implementation and Impact}{4}{}%
+\contentsline {section}{\numberline {10}Team Background and Resources}{4}{}%
+\contentsline {section}{\numberline {11}Future Growth and Development}{4}{}%
+\contentsline {section}{\numberline {12}SWOT Analysis (DAFO)}{4}{}%
+\contentsline {section}{\numberline {13}Conclusion}{5}{}%
+\tof@finish 

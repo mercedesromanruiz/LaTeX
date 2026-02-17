@@ -1,0 +1,1815 @@
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.9)  20 JAN 2026 18:30
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/merce/Documents/GitHub/LaTeX/MII 2/Dirección Financiera/main"
+(c:/Users/merce/Documents/GitHub/LaTeX/MII 2/Dirección Financiera/main.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-09-10>
+(c:/texlive/2024/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2024/02/08 v1.4n Standard LaTeX document class
+(c:/texlive/2024/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count190
+\c@chapter=\count191
+\c@section=\count192
+\c@subsection=\count193
+\c@subsubsection=\count194
+\c@paragraph=\count195
+\c@subparagraph=\count196
+\c@figure=\count197
+\c@table=\count198
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (c:/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/10/05 v24.11 The Babel package
+\babel@savecnt=\count199
+\U@D=\dimen142
+\l@unhyphenated=\language89
+ (c:/texlive/2024/texmf-dist/tex/generic/babel/xebabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count266
+ (c:/texlive/2024/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks17
+\es@quotdepth=\count267
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+)) (c:/texlive/2024/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen143
+\Gin@req@width=\dimen144
+) (c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count268
+\Gm@cntv=\count269
+\c@Gm@tempcnt=\count270
+\Gm@bindingoffset=\dimen145
+\Gm@wd@mp=\dimen146
+\Gm@odd@mp=\dimen147
+\Gm@even@mp=\dimen148
+\Gm@layoutwidth=\dimen149
+\Gm@layoutheight=\dimen150
+\Gm@layouthoffset=\dimen151
+\Gm@layoutvoffset=\dimen152
+\Gm@dimlist=\toks19
+) (c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count271
+\float@exts=\toks20
+\float@box=\box52
+\@float@everytoks=\toks21
+\@floatcapt=\box53
+) (c:/texlive/2024/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language90
+LaTeX Info: Redefining \_ on input line 43.
+) (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip51
+\f@nch@O@elh=\skip52
+\f@nch@O@erh=\skip53
+\f@nch@O@olh=\skip54
+\f@nch@O@orh=\skip55
+\f@nch@O@elf=\skip56
+\f@nch@O@erf=\skip57
+\f@nch@O@olf=\skip58
+\f@nch@O@orf=\skip59
+) (c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (c:/texlive/2024/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+ (c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
+\col@sep=\dimen153
+\ar@mcellbox=\box54
+\extrarowheight=\dimen154
+\NC@list=\toks22
+\extratabsurround=\skip60
+\backup@length=\skip61
+\ar@cellbox=\box55
+)
+\everycr=\toks23
+\minrowclearance=\skip62
+\rownum=\count272
+) (c:/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip63
+\multirow@cntb=\count273
+\multirow@dima=\skip64
+\bigstrutjot=\dimen155
+) (c:/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen156
+\TX@old@table=\dimen157
+\TX@old@col=\dimen158
+\TX@target=\dimen159
+\TX@delta=\dimen160
+\TX@cols=\count274
+\TX@ftn=\toks24
+) (c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen161
+\captionmargin=\dimen162
+\caption@leftmargin=\dimen163
+\caption@rightmargin=\dimen164
+\caption@width=\dimen165
+\caption@indent=\dimen166
+\caption@parindent=\dimen167
+\caption@hangindent=\dimen168
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count275
+\c@continuedfloat=\count276
+Package caption Info: float package is loaded.
+) (c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count277
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count278
+) (c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+ (c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count279
+)
+\csq@reset=\count280
+\csq@gtype=\count281
+\csq@glevel=\count282
+\csq@qlevel=\count283
+\csq@maxlvl=\count284
+\csq@tshold=\count285
+\csq@ltx@everypar=\toks25
+ (c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)) (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
+ (c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+) (c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count286
+ (c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count287
+\c@listtotal=\count288
+\c@listcount=\count289
+\c@liststart=\count290
+\c@liststop=\count291
+\c@citecount=\count292
+\c@citetotal=\count293
+\c@multicitecount=\count294
+\c@multicitetotal=\count295
+\c@instcount=\count296
+\c@maxnames=\count297
+\c@minnames=\count298
+\c@maxitems=\count299
+\c@minitems=\count300
+\c@citecounter=\count301
+\c@maxcitecounter=\count302
+\c@savedcitecounter=\count303
+\c@uniquelist=\count304
+\c@uniquename=\count305
+\c@refsection=\count306
+\c@refsegment=\count307
+\c@maxextratitle=\count308
+\c@maxextratitleyear=\count309
+\c@maxextraname=\count310
+\c@maxextradate=\count311
+\c@maxextraalpha=\count312
+\c@abbrvpenalty=\count313
+\c@highnamepenalty=\count314
+\c@lownamepenalty=\count315
+\c@maxparens=\count316
+\c@parenlevel=\count317
+\blx@tempcnta=\count318
+\blx@tempcntb=\count319
+\blx@tempcntc=\count320
+\c@blx@maxsection=\count321
+\blx@maxsegment@0=\count322
+\blx@notetype=\count323
+\blx@parenlevel@text=\count324
+\blx@parenlevel@foot=\count325
+\blx@sectionciteorder@0=\count326
+\blx@sectionciteorderinternal@0=\count327
+\blx@entrysetcounter=\count328
+\blx@biblioinstance=\count329
+\labelnumberwidth=\skip65
+\labelalphawidth=\skip66
+\biblabelsep=\skip67
+\bibitemsep=\skip68
+\bibnamesep=\skip69
+\bibinitsep=\skip70
+\bibparsep=\skip71
+\bibhang=\skip72
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language91
+\c@mincomprange=\count330
+\c@maxcomprange=\count331
+\c@mincompwidth=\count332
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count333
+\c@savedafterword=\count334
+\c@annotator=\count335
+\c@savedannotator=\count336
+\c@author=\count337
+\c@savedauthor=\count338
+\c@bookauthor=\count339
+\c@savedbookauthor=\count340
+\c@commentator=\count341
+\c@savedcommentator=\count342
+\c@editor=\count343
+\c@savededitor=\count344
+\c@editora=\count345
+\c@savededitora=\count346
+\c@editorb=\count347
+\c@savededitorb=\count348
+\c@editorc=\count349
+\c@savededitorc=\count350
+\c@foreword=\count351
+\c@savedforeword=\count352
+\c@holder=\count353
+\c@savedholder=\count354
+\c@introduction=\count355
+\c@savedintroduction=\count356
+\c@namea=\count357
+\c@savednamea=\count358
+\c@nameb=\count359
+\c@savednameb=\count360
+\c@namec=\count361
+\c@savednamec=\count362
+\c@translator=\count363
+\c@savedtranslator=\count364
+\c@shortauthor=\count365
+\c@savedshortauthor=\count366
+\c@shorteditor=\count367
+\c@savedshorteditor=\count368
+\c@labelname=\count369
+\c@savedlabelname=\count370
+\c@institution=\count371
+\c@savedinstitution=\count372
+\c@lista=\count373
+\c@savedlista=\count374
+\c@listb=\count375
+\c@savedlistb=\count376
+\c@listc=\count377
+\c@savedlistc=\count378
+\c@listd=\count379
+\c@savedlistd=\count380
+\c@liste=\count381
+\c@savedliste=\count382
+\c@listf=\count383
+\c@savedlistf=\count384
+\c@location=\count385
+\c@savedlocation=\count386
+\c@organization=\count387
+\c@savedorganization=\count388
+\c@origlocation=\count389
+\c@savedoriglocation=\count390
+\c@origpublisher=\count391
+\c@savedorigpublisher=\count392
+\c@publisher=\count393
+\c@savedpublisher=\count394
+\c@language=\count395
+\c@savedlanguage=\count396
+\c@origlanguage=\count397
+\c@savedoriglanguage=\count398
+\c@pageref=\count399
+\c@savedpageref=\count400
+\shorthandwidth=\skip73
+\shortjournalwidth=\skip74
+\shortserieswidth=\skip75
+\shorttitlewidth=\skip76
+\shortauthorwidth=\skip77
+\shorteditorwidth=\skip78
+\locallabelnumberwidth=\skip79
+\locallabelalphawidth=\skip80
+\localshorthandwidth=\skip81
+\localshortjournalwidth=\skip82
+\localshortserieswidth=\skip83
+\localshorttitlewidth=\skip84
+\localshortauthorwidth=\skip85
+\localshorteditorwidth=\skip86
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+\c@textcitecount=\count401
+\c@textcitetotal=\count402
+\c@textcitemaxnames=\count403
+\c@biburlbigbreakpenalty=\count404
+\c@biburlbreakpenalty=\count405
+\c@biburlnumpenalty=\count406
+\c@biburlucpenalty=\count407
+\c@biburllcpenalty=\count408
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count409
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count410
+\c@bbx:relatedtotal=\count411
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+ (c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-09-10 L3 programming layer (loader) 
+ (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
+\g__graphics_track_int=\count412
+\l__pdf_internal_box=\box56
+\g__pdf_backend_annotation_int=\count413
+\g__pdf_backend_link_int=\count414
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2024-09-10 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'spanish'.
+ (./main.aux
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+ (./Capitulos/Tema 1. Introducción.aux) (./Capitulos/Tema 2. La Cuenta de Resultados.aux) (./Capitulos/Tema 3. El Balance.aux) (./Capitulos/Tema 4. Los Ratios Financieros.aux) (./Capitulos/Tema 5. Financiación Tradicional.aux) (./Capitulos/Tema 6. Coste de Oportunidad.aux) (./Capitulos/TEST1.aux) (./Capitulos/TEST2.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 23.
+ (c:/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside asymmetric 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-45.43198pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=48.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidetrue
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+Package biblatex Info: Trying to load language 'spanish'...
+Package biblatex Info: ... file 'spanish.lbx' found.
+(c:/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+File: spanish.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' not found.
+
+No file main.bbl.
+Package biblatex Info: Reference section=0 on input line 23.
+Package biblatex Info: Reference segment=0 on input line 23.
+(./Documentos/Portada.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 1.
+
+
+[1
+
+
+
+]) (./Documentos/Cuerpo.tex
+\openout2 = `"Capitulos/Tema 1. Introducción.aux"'.
+
+ (./Capitulos/Tema 1. Introducción.tex
+
+
+
+[2
+
+
+
+]
+Capítulo 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+[]\TU/lmr/bx/n/14.4 Las posiciones económico
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+ \TU/lmr/bx/n/10 Posición económica (PE).[] \TU/lmr/m/n/10 Indentificaría la
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 5--6
+\TU/lmr/m/n/10 capacidad que la empresa tiene para generar y,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+ \TU/lmr/bx/n/10 Posición financiera (PF).[] \TU/lmr/m/n/10 Identificaría la
+ []
+
+
+Underfull \hbox (badness 6978) in paragraph at lines 7--8
+\TU/lmr/m/n/10 capacidad que la emrpesa tiene para atender
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 9--10
+\TU/lmr/m/n/10 financiera (liquidez) equilibradora de la posición
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 9--10
+\TU/lmr/m/n/10 ejercicio de la explotación empresarial de ambas
+ []
+
+File: Imagenes/Las trayectorias economico financieras de la empresa.png Graphic file (type bmp)
+<Imagenes/Las trayectorias economico financieras de la empresa.png>
+
+Underfull \hbox (badness 5817) in paragraph at lines 18--18
+[]\TU/lmr/bx/n/12 Las zonas del posicionamiento
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+[]\TU/lmr/m/n/10 Un análisis dinámico de la fortaleza
+ []
+
+
+
+
+Underfull \hbox (badness 2237) in paragraph at lines 22--23
+[]\TU/lmr/m/n/10 La PEF objetivo (+,+). Sin ninguna duda,
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 24--25
+[]\TU/lmr/m/n/10 La PEF suspensión (+,-). En esta posición,
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 24--25
+\TU/lmr/m/n/10 que la PF es negativa, lo cual quiere decir
+ []
+
+
+Underfull \hbox (badness 3189) in paragraph at lines 24--25
+\TU/lmr/m/n/10 tienen éxito pero con crecientes dificultades
+ []
+
+
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+[]\TU/lmr/bx/n/12 Las trayectorias desde las
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
+[]\TU/lmr/m/n/10 Contabilidad: recoger, clasificar y resumir
+ []
+
+
+Underfull \hbox (badness 3333) in paragraph at lines 30--32
+\TU/lmr/m/n/10 los acontecimientos de la vidad de la empresa
+ []
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 30--32
+\TU/lmr/m/n/10 Limitación significativa: sólo incluye sucesos que
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]\TU/lmr/bx/n/14.4 El Plan General de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+[]\TU/lmr/m/n/10 En los casos de conflicto entre principios
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 40--41
+[]\TU/lmr/m/n/10 Devengo. La imputación de ingesos y gastos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+[]\TU/lmr/m/n/10 Uniformidad. El criterio adoptado deberá
+ []
+
+
+Underfull \hbox (badness 4378) in paragraph at lines 42--43
+[]\TU/lmr/m/n/10 Prudencia. Únicamente se contabilizarán los
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 42--43
+\TU/lmr/m/n/10 beneficios realizadas a la fecha de cierre del
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 42--43
+\TU/lmr/m/n/10 cuando se realizan, las perdidas cuando se
+ []
+
+
+Underfull \hbox (badness 6032) in paragraph at lines 43--44
+[]\TU/lmr/m/n/10 No compensación. En ningún caso podrán
+ []
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+[]\TU/lmr/m/n/10 Activo: Bienes, derechos y otros recursos
+ []
+
+
+Underfull \hbox (badness 3312) in paragraph at lines 49--50
+\TU/lmr/m/n/10 controlados económicamente por la empresa,
+ []
+
+
+Underfull \hbox (badness 4205) in paragraph at lines 49--50
+\TU/lmr/m/n/10 resultantes de sucesos pasados, de los que
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 49--50
+\TU/lmr/m/n/10 se espera la empresa obtenga beneficios o
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 50--51
+[]\TU/lmr/m/n/10 Pasivo: Obligaciones actuales surgidas como
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 50--51
+\TU/lmr/m/n/10 consecuencia de sucesos pasados, para cuya
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 50--51
+\TU/lmr/m/n/10 extinción la empresa espera desprenderse de
+ []
+
+
+Underfull \hbox (badness 6842) in paragraph at lines 50--51
+\TU/lmr/m/n/10 recursos que puedan producir beneficios o
+ []
+
+
+Underfull \hbox (badness 5696) in paragraph at lines 54--55
+[]\TU/lmr/m/n/10 Cobro: Entrada de dinero en la empresa,
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 56--57
+[]\TU/lmr/m/n/10 Inversión: Inmovilizaciones de fondos que la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+[]\TU/lmr/m/n/10 Que sea probable que cualquier beneficio
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
+[4]
+Underfull \hbox (badness 1540) in paragraph at lines 84--86
+\TU/lmr/m/n/10 tradicionalmente en el modelo contable debido a
+ []
+
+
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 108--109
+[]\TU/lmr/m/n/10 En el caso de las materias primas y de los
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 111--113
+\TU/lmr/m/n/10 combinaciones de negocio y para el cálculo del
+ []
+
+
+Underfull \hbox (badness 7888) in paragraph at lines 114--115
+\TU/lmr/m/n/10 interesadas y debidamente informadas, que
+ []
+
+
+Underfull \hbox (badness 5217) in paragraph at lines 114--115
+\TU/lmr/m/n/10 realizan una transacción en condiciones de
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 117--118
+\TU/lmr/m/n/10 se reconocerán en la cuenta de pérdidas y
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 127.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 127.
+
+
+LaTeX Info: Redefining \. on input line 128.
+LaTeX Info: Redefining \% on input line 128.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.69003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.69003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
+
+[5]
+Underfull \hbox (badness 1168) in paragraph at lines 148--150
+\TU/lmr/m/n/10 actual de los flujos pendientes de cobro o pago,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+ \TU/lmr/bx/n/10 Ingresos.[] \TU/lmr/m/n/10 Son incrementos del patrimonio
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 155--156
+\TU/lmr/m/n/10 empresarial, no derivados de aportaciones de
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 156--157
+ \TU/lmr/bx/n/10 Gastos.[] \TU/lmr/m/n/10 Son decrementos en el patrimonio
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 156--157
+\TU/lmr/m/n/10 exterior, tal como la obtención de bienes o
+ []
+
+
+
+
+Underfull \hbox (badness 6188) in paragraph at lines 157--161
+ \TU/lmr/bx/n/10 Amortización.[] \TU/lmr/m/n/10 Los bienes de equipo (las
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 157--161
+\TU/lmr/m/n/10 por depreciación a esa perdida de valor que
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+[]\TU/lmr/m/n/10 Función contable: permite reflejar
+ []
+
+
+Underfull \hbox (badness 6284) in paragraph at lines 162--163
+\TU/lmr/m/n/10 contablemente la perdida de valor de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+[]\TU/lmr/m/n/10 Función económica: a través de la
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 163--164
+\TU/lmr/m/n/10 amortización se imputa a los costes de
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 163--164
+\TU/lmr/m/n/10 producción un consumo mas, que es el
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+[]\TU/lmr/m/n/10 Función financiera: Mientras que la
+ []
+
+
+Underfull \hbox (badness 3168) in paragraph at lines 164--165
+\TU/lmr/m/n/10 capacidad productiva de la empresa se
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 171--172
+\TU/lmr/m/n/10 que integran las cuentas anuales. Debe ser
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+[]\TU/lmr/m/n/10 Otra información de naturaleza no
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+\TU/lmr/m/n/10 estrictamente financiera: número de
+ []
+
+)
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+[6]
+\openout2 = `"Capitulos/Tema 2. La Cuenta de Resultados.aux"'.
+
+ (./Capitulos/Tema 2. La Cuenta de Resultados.tex
+Capítulo 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+ \TU/lmr/bx/n/10 Definición de Ingresos.[] \TU/lmr/m/n/10 Incrementos en el
+ []
+
+
+Underfull \hbox (badness 7704) in paragraph at lines 10--11
+[]\TU/lmr/m/n/10 El reconocimiento de los ingresos se hará
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+[]\TU/lmr/m/n/10 Resultados por enajenaciones/ventas de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+ \TU/lmr/bx/n/10 Definición de Gastos.[] \TU/lmr/m/n/10 Decrementos en el
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 27--28
+\TU/lmr/m/n/10 que no tengan la consideración en distribuciones,
+ []
+
+
+
+
+Underfull \hbox (badness 3118) in paragraph at lines 29--30
+[]\TU/lmr/m/n/10 El reconocimiento de los gastos puede estar
+ []
+
+
+Underfull \hbox (badness 4084) in paragraph at lines 51--51
+ \TU/lmr/bx/n/10 Métodos utilizados para la valoración de
+ []
+
+
+
+[7
+
+
+
+
+]
+Underfull \hbox (badness 1789) in paragraph at lines 54--55
+\TU/lmr/m/n/10 las entradas hasta el momento se toma, en
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 60--61
+ \TU/lmr/bx/n/10 Registro del ajuste de las existencias de
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 60--61
+\TU/lmr/m/n/10 cuentas específicas que recojan el movimiento de
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 77--78
+[]\TU/lmr/m/n/10 Las instalaciones compradas por la empresa
+ []
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+\TU/lmr/m/n/10 productiva de la empresa se mantiene
+ []
+
+
+Underfull \hbox (badness 3525) in paragraph at lines 97--98
+ \TU/lmr/bx/n/10 Método Lineal[] \TU/lmr/m/n/10 Considera que el inmovilizado
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 100--101
+ \TU/lmr/bx/n/10 Mérodo Acelerado[] \TU/lmr/m/n/10 Estima que el inmovilizado
+ []
+
+)
+
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+[8]
+
+
+
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.69003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.69003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
+
+[9
+
+]
+\openout2 = `"Capitulos/Tema 3. El Balance.aux"'.
+
+ (./Capitulos/Tema 3. El Balance.tex
+
+
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+[10
+
+
+
+
+]
+Capítulo 3.
+
+Underfull \hbox (badness 1038) in paragraph at lines 22--23
+\TU/lmr/m/n/10 incurrido para su desarrollo. Se entiende
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 24--25
+[]\TU/lmr/m/n/10 valoración al cierre, que exige reconocer una
+ []
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+ \TU/lmr/bx/n/10 El activo no corriente. El inmovilizado
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 29--30
+\TU/lmr/bx/n/10 inmaterial.[] \TU/lmr/m/n/10 Los activos intangibles son aquellos
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 41--42
+[]\TU/lmr/m/n/10 Ser susceptible de ser vendidos, arrendados,
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 52--55
+[]\TU/lmr/m/n/10 Con el paso del tiempo estos elementos ven
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 52--55
+\TU/lmr/m/n/10 disminuidas sus posibilidades de generar ingresos
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 52--55
+\TU/lmr/m/n/10 en el futuro. De ahí que los activos intangibles
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 52--55
+\TU/lmr/m/n/10 empresa. Se analizan su deterioro cuando existan
+ []
+
+
+
+[11]
+Underfull \hbox (badness 5403) in paragraph at lines 58--59
+ \TU/lmr/bx/n/10 Valoración inicial.[] \TU/lmr/m/n/10 Al valor razonable de la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+\TU/lmr/m/n/10 contraprestación entregada más los gastos de
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 62--63
+[]\TU/lmr/m/n/10 El resto de activos se valorarán por su coste
+ []
+
+
+Underfull \hbox (badness 7081) in paragraph at lines 64--65
+[]\TU/lmr/m/n/10 Al cierre del ejercicio deberán hacerse las
+ []
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+ \TU/lmr/bx/n/10 Capital social[] \TU/lmr/m/n/10 Garantiza la solvencia o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+[]\TU/lmr/m/n/10 Derechos económicos, derecho a percibir
+ []
+
+
+Underfull \hbox (badness 5260) in paragraph at lines 95--96
+\TU/lmr/m/n/10 “dividendos”, es decir, a recibir parte del
+ []
+
+
+Underfull \hbox (badness 4303) in paragraph at lines 95--96
+\TU/lmr/m/n/10 beneficio generado por la empresa, derecho
+ []
+
+
+Underfull \hbox (badness 5133) in paragraph at lines 96--97
+[]\TU/lmr/m/n/10 Derechos de información, derecho a recibir
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 96--97
+\TU/lmr/m/n/10 información periódica sobre la marcha de la
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 102--103
+[]\TU/lmr/m/n/10 Dotar reservas obligatorias (legal, estatuaria,
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 108--109
+ \TU/lmr/bx/n/10 Reservas[] \TU/lmr/m/n/10 Son cuentas de Patrimonio Neto que
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 111.
+LaTeX Info: Redefining \% on input line 111.
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+[]\TU/lmr/m/n/10 Reserva para acciones propias: Si existe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+ \TU/lmr/bx/n/10 Acreedores y deudores por operaciones
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 140--141
+[]\TU/lmr/m/n/10 Representan una deuda u obligación por el
+ []
+
+
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 142--143
+[]\TU/lmr/m/n/10 Proveedores, deudas asociadas a la actividad
+ []
+
+
+Underfull \hbox (badness 6380) in paragraph at lines 143--144
+[]\TU/lmr/m/n/10 Acreedores, deudas no relacionadas con la
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 148--149
+ \TU/lmr/bx/n/10 Valoración inicial.[] \TU/lmr/m/n/10 AL valor razonable de la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+\TU/lmr/m/n/10 contraprestación entregada más los gastos de
+ []
+
+
+Underfull \hbox (badness 7151) in paragraph at lines 154--155
+[]\TU/lmr/m/n/10 Una contingencia es aquella obligación que
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 156--157
+[]\TU/lmr/m/n/10 No es probable que la entidad tenga que
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+\TU/lmr/m/n/10 satisfacerla, desprendiéndose de recursos
+ []
+
+
+Underfull \hbox (badness 3713) in paragraph at lines 163--164
+[]\TU/lmr/m/n/10 Una provisión se debe reconocer únicamente
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 170--171
+[]\TU/lmr/m/n/10 Las provisiones son pasivos en el que existe
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 174.
+LaTeX Info: Redefining \% on input line 174.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.69003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.69003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
+
+[13]
+Underfull \hbox (badness 2343) in paragraph at lines 176--177
+[]\TU/lmr/m/n/10 Desmantelamiento, retiro o rehabilitación del
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+[]\TU/lmr/m/n/10 Otras responsabilidades como litigios,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+[]\TU/lmr/m/n/10 Devolución del préstamo: según sistema
+ []
+
+
+Underfull \hbox (badness 3168) in paragraph at lines 194--195
+\TU/lmr/m/n/10 transacción), es decir, el valor razonable de la
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 200--201
+[]$\OML/cmm/m/it/10 NOF \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 Caja \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 Clientes \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 Existencias \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 201--201
+[]\TU/lmr/bx/n/12 Las Necesidades Operativas de
+ []
+
+
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 204--205
+[]\TU/lmr/m/n/10 Periodo medio de maduración de la empresa
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 204--205
+\TU/lmr/m/n/10 es el tiempo que transcurre entre el pago a los
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 212--213
+[]$\OML/cmm/m/it/10 FondoDeManiobra \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 FinanciacionBasica \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Underfull \hbox (badness 6364) in paragraph at lines 216--217
+[]\TU/lmr/m/n/10 Parte del activo circulante está financiado
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 216--217
+\TU/lmr/m/n/10 con pasivos circulantes, pero el resto del
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 217--218
+[]\TU/lmr/m/n/10 El activo fijo o inmovilizado está financiado
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 222--223
+[]\TU/lmr/m/n/10 Todo el activo circulante está financiado con
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 228--229
+[]\TU/lmr/m/n/10 Todo el activo circulante está financiado con
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 235.
+LaTeX Info: Redefining \% on input line 235.
+[14]
+Underfull \hbox (badness 6316) in paragraph at lines 242--243
+[]\TU/lmr/m/n/10 Empresa con problemas de funcionamiento:
+ []
+
+)
+
+
+
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.69003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.69003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
+
+[15
+
+]
+\openout2 = `"Capitulos/Tema 4. Los Ratios Financieros.aux"'.
+
+ (./Capitulos/Tema 4. Los Ratios Financieros.tex
+
+
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+[16
+
+
+
+
+]
+Capítulo 4.
+
+Underfull \hbox (badness 1622) in paragraph at lines 7--8
+[]\TU/lmr/m/n/10 Analizar la situación financiera de la propia
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 13--14
+[]\TU/lmr/m/n/10 Ratios de Endeudamiento, miden el nivel de
+ []
+
+
+Underfull \hbox (badness 4608) in paragraph at lines 14--15
+[]\TU/lmr/m/n/10 Ratios de Eficiencia o Rotación, miden la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[]\TU/lmr/bx/n/14.4 Ratios de Rentabilidad:
+ []
+
+
+Underfull \hbox (badness 5817) in paragraph at lines 21--22
+[]\TU/lmr/m/n/10 Expresan el rendimiento de la empresa en
+ []
+
+
+Underfull \hbox (badness 2426) in paragraph at lines 21--22
+\TU/lmr/m/n/10 directamente la capacidad de generar fondos en
+ []
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]\TU/lmr/bx/n/14.4 Ratios de Rentabilidad
+ []
+
+
+
+[17]
+Underfull \hbox (badness 6876) in paragraph at lines 50--51
+[]\TU/lmr/m/n/10 La relación entre el ROE, el ROA y el
+ []
+
+
+Overfull \hbox (73.25168pt too wide) detected at line 51
+\OML/cmm/m/it/10 ROE \OT1/cmr/m/n/10 = (\OML/cmm/m/it/10 ROA \OT1/cmr/m/n/10 + (\OML/cmm/m/it/10 ROA \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 Tasa de Interes\OT1/cmr/m/n/10 )([])) \OMS/cmsy/m/n/10 ^^C \OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 Tasa Impositiva\OT1/cmr/m/n/10 )
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 69--70
+\TU/lmr/m/n/10 una vez deducidos los intereses, impuestos y
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 70--71
+\TU/lmr/m/n/10 antes de intereses e impuestos, sin tener en
+ []
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+[]\TU/lmr/bx/n/14.4 Retorno sobre el Capital
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+[]\TU/lmr/m/n/10 NOPAT (Beneficio operativo después de
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 104--105
+\TU/lmr/m/n/10 inalterada cualquiera que sea estructura de
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 105.
+LaTeX Info: Redefining \% on input line 105.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.69003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.69003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
+
+[18]
+Underfull \hbox (badness 2735) in paragraph at lines 108--109
+[]\TU/lmr/m/n/10 Puesto que la $\OML/cmm/m/it/10 R[]$ \TU/lmr/m/n/10 permanece constante, el
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 108--109
+\TU/lmr/m/n/10 cuando aparece la deuda, resulta que cuando se
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 108--109
+\TU/lmr/m/n/10 favorable en los resultados se hace referencia a
+ []
+
+File: Imagenes/Ratios de liquidez.png Graphic file (type bmp)
+<Imagenes/Ratios de liquidez.png>
+File: Imagenes/Ratios de rotacion de activos.png Graphic file (type bmp)
+<Imagenes/Ratios de rotacion de activos.png>
+File: Imagenes/Ratios de endeudamiento (1).png Graphic file (type bmp)
+<Imagenes/Ratios de endeudamiento (1).png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Imagenes/Ratios de endeudamiento (2).png Graphic file (type bmp)
+<Imagenes/Ratios de endeudamiento (2).png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+
+
+
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.69003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.69003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
+
+[19]
+\openout2 = `"Capitulos/Tema 5. Financiación Tradicional.aux"'.
+
+ (./Capitulos/Tema 5. Financiación Tradicional.tex
+
+
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.69003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.69003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
+
+[20
+
+
+
+
+]
+Capítulo 5.
+
+Underfull \hbox (badness 3250) in paragraph at lines 8--9
+[]\TU/lmr/m/n/10 Iniciar un proyecto empresarial: obtener los
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 9--10
+[]\TU/lmr/m/n/10 Falta de liquidez para mantener un proyecto
+ []
+
+
+Underfull \hbox (badness 3861) in paragraph at lines 10--11
+[]\TU/lmr/m/n/10 Crecer como empresa: Obtener los recursos
+ []
+
+
+Underfull \hbox (badness 4556) in paragraph at lines 10--11
+\TU/lmr/m/n/10 para invertir en los diferentes proyectos y
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 10--11
+\TU/lmr/m/n/10 así expandir el negocio (situación económica
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]\TU/lmr/bx/n/14.4 Fuentes de Financiación
+ []
+
+
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 45--46
+\TU/lmr/m/n/10 que vaya utilizándolo irá agotando dicho crédito,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+[]\TU/lmr/m/n/10 normalmente incluyen intereses deudores,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+[]\TU/lmr/m/n/10 Es un sistema de financiación enfocado
+ []
+
+
+
+[21]
+Underfull \hbox (badness 3199) in paragraph at lines 71--72
+[]\TU/lmr/m/n/10 Puede tener varias comisiones: de apertura,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+\TU/lmr/m/n/10 de cancelación anticipada, de amortización
+ []
+
+
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 106--107
+[]\TU/lmr/m/n/10 Empresa arrendataria disfruta del bien y al
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+[]\TU/lmr/m/n/10 Se debe cumplir el plazo establecido.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+\TU/lmr/m/n/10 La cancelación anticipada tiene fuertes
+ []
+
+
+Underfull \hbox (badness 5519) in paragraph at lines 114--115
+[]\TU/lmr/m/n/10 El Renting lo pueden utilizar empresas y
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 118.
+LaTeX Info: Redefining \% on input line 118.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.69003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.69003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
+
+[22]
+Underfull \hbox (badness 1331) in paragraph at lines 121--122
+[]\TU/lmr/m/n/10 Las fuentes de financiación externas son todo
+ []
+
+
+Underfull \hbox (badness 4001) in paragraph at lines 123--124
+\TU/lmr/m/n/10 sociedades y entidades públicas y privadas.
+ []
+
+)
+
+
+
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.69003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.69003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
+
+[23
+
+]
+\openout2 = `"Capitulos/Tema 6. Coste de Oportunidad.aux"'.
+
+ (./Capitulos/Tema 6. Coste de Oportunidad.tex
+
+
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.69003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.69003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
+
+[24
+
+
+
+
+]
+Capítulo 6.
+
+Underfull \hbox (badness 4048) in paragraph at lines 5--6
+\TU/lmr/m/n/10 acciones comunes, todos esos flujos de efectivo
+ []
+
+
+Underfull \hbox (badness 3049) in paragraph at lines 13--14
+[]\TU/lmr/m/n/10 La empresa puede emitir docenas de títulos
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 13--14
+\TU/lmr/m/n/10 en innumerables combinaciones. Así, se trata de
+ []
+
+
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 30--31
+\TU/lmr/m/n/10 descuento que se utiliza para analizar inversiones
+ []
+
+)
+
+[25]
+\openout2 = `Capitulos/TEST1.aux'.
+
+ (./Capitulos/TEST1.tex
+
+
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+[26
+
+
+
+
+]
+Underfull \hbox (badness 2856) in paragraph at lines 3--4
+[]\TU/lmr/m/n/10 Una empresa compró hace doce meses una
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 10--11
+\TU/lmr/m/n/10 vende 800 productos a 180 €, ¿cuál será el
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 17--18
+[]\TU/lmr/m/n/10 Una empresa invierte 1.000.000 € en una
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 20--21
+[]\TU/lmr/m/n/10 El EBITDA mide el resultado bruto de
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 22--23
+\TU/lmr/m/n/10 e incluso sin hacer frente a intereses e
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 25--26
+[]\TU/lmr/m/n/10 Respecto a los conceptos financieros ingreso,
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 25--26
+\TU/lmr/m/n/10 gasto, cobro y pago, ¿cuál de las siguientes
+ []
+
+
+
+
+Underfull \hbox (badness 4048) in paragraph at lines 36--37
+[]\TU/lmr/m/n/10 Si una empresa presta un servicio en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+[]\TU/lmr/m/n/10 Registar el gasto y la provisión
+ []
+
+
+Underfull \hbox (badness 3690) in paragraph at lines 42--43
+\TU/lmr/m/n/10 correspondiente en 2025, por aplicación
+ []
+
+
+Underfull \hbox (badness 3954) in paragraph at lines 42--43
+\TU/lmr/m/n/10 tanto del principio de prudencia como
+ []
+
+
+
+[27]
+Underfull \hbox (badness 1762) in paragraph at lines 53--54
+[]\TU/lmr/m/n/10 Una empresa vende mercancías en diciembre
+ []
+
+
+Underfull \hbox (badness 2828) in paragraph at lines 77--78
+[]\TU/lmr/m/n/10 Si, siempre que la empresa incurra en
+ []
+
+
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 88--89
+\TU/lmr/m/n/10 al balance de la situación, si aún no se ha
+ []
+
+
+Underfull \hbox (badness 6032) in paragraph at lines 104--105
+[]\TU/lmr/m/n/10 El incremento del patrimonio neto es
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 107--108
+[]\TU/lmr/m/n/10 El patrimonio neto no varía, porque el
+ []
+
+
+Underfull \hbox (badness 5519) in paragraph at lines 109--110
+[]\TU/lmr/m/n/10 Un aumento de los dividendos pagados a
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 109--110
+\TU/lmr/m/n/10 los accionistas. ¿Qué efecto produce sobre el
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 117.
+LaTeX Info: Redefining \% on input line 117.
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+[]\TU/lmr/m/n/10 Contabilizar los gastos del ejercicio
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 125--126
+[]\TU/lmr/m/n/10 Una cuenta de gastos (627 Gastos de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+[]\TU/lmr/m/n/10 Una cuenta de pasivo (485 Ingresos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+[]\TU/lmr/m/n/10 Una cuenta de activo (480 Gastos
+ []
+
+)
+
+
+
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.69003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.69003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
+
+[29
+
+]
+\openout2 = `Capitulos/TEST2.aux'.
+
+ (./Capitulos/TEST2.tex
+
+
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+[30
+
+
+
+
+])
+
+
+
+[31
+
+]) (./main.aux
+LaTeX Info: Redefining \sptext on input line 9.
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+ (./Capitulos/Tema 1. Introducción.aux) (./Capitulos/Tema 2. La Cuenta de Resultados.aux) (./Capitulos/Tema 3. El Balance.aux) (./Capitulos/Tema 4. Los Ratios Financieros.aux) (./Capitulos/Tema 5. Financiación Tradicional.aux) (./Capitulos/Tema 6. Coste de Oportunidad.aux) (./Capitulos/TEST1.aux) (./Capitulos/TEST2.aux))
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-09-10>
+ ***********
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 14224 strings out of 474234
+ 271015 string characters out of 5745797
+ 1155613 words of memory out of 5000000
+ 36716 multiletter control sequences out of 15000+600000
+ 560901 words of font info for 57 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 66i,12n,81p,1244b,4082s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main.pdf (31 pages).

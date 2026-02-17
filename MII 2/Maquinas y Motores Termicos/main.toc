@@ -1,0 +1,21 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Fundamentos de máquinas y motores térmicos}{5}{chapter.1}%
+\contentsline {section}{\numberline {1}Definiciones}{5}{section.1.1}%
+\contentsline {paragraph}{Máquina de fluido.}{5}{section*.2}%
+\contentsline {paragraph}{Máquina Térmica.}{5}{section*.3}%
+\contentsline {paragraph}{Motor Térmico.}{5}{section*.4}%
+\contentsline {section}{\numberline {2}Cuadro de las transformaciones energéticas}{5}{section.1.2}%
+\contentsline {section}{\numberline {3}Clasificaación de las máquinas térmicas}{6}{section.1.3}%
+\contentsline {section}{\numberline {4}Clasificación de los motores térmicos}{6}{section.1.4}%
+\contentsline {section}{\numberline {5}Campos de aplicación de los motores térmicos}{7}{section.1.5}%
+\contentsline {section}{\numberline {6}Ciclo combinado y cogeneración}{7}{section.1.6}%
+\contentsline {section}{\numberline {7}Conceptos de combustión y emisiones contaminantes}{7}{section.1.7}%
+\contentsline {chapter}{\numberline {2}Fundamentos de Motores de Combustión Interna Alternativos (MCIA)}{9}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Fundamentos de los Motores Térmicos Basados en Turbomáquinas}{11}{chapter.3}%
+\contentsline {section}{\numberline {1}Introducción}{11}{section.3.1}%
+\contentsline {subsection}{\numberline {1.1}Trabajos, potencias y rendimientos en turbinas}{11}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {1.2}Trabajos, potencias y rendimientos en turbocompresores}{11}{subsection.3.1.2}%
+\contentsline {section}{\numberline {2}Turbinas de vapor}{12}{section.3.2}%
+\contentsline {section}{\numberline {3}Turbinas de gas}{12}{section.3.3}%
+\contentsline {section}{\numberline {4}Ciclos combinados}{12}{section.3.4}%
+\contentsline {section}{\numberline {5}Cogeneración}{12}{section.3.5}%

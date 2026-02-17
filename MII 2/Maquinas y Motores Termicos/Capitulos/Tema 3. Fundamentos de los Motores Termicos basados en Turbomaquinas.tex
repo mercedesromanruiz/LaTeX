@@ -1,0 +1,65 @@
+\chapter{Fundamentos de los Motores Térmicos Basados en Turbomáquinas}
+\section{Introducción}
+\subsection{Trabajos, potencias y rendimientos en turbinas}
+\begin{itemize}
+    \item Trabajo específico interno: Trabajo realizado por el fluido por unidad de masa.
+    \begin{equation}
+        w_i = \Delta h_{real} = h_A - h_B
+    \end{equation}
+    \item Potencia interna: Trabajo por unidad de tiempo realizado por el fluido circulante.
+    \begin{equation}
+        \dot{W_i} = \dot{m} \cdot w_i = \dot{m} \cdot \Delta h_{real} = \dot{m} \cdot (h_A - h_B)
+    \end{equation}
+    \item Rendimiento interno: Comparar proceso real con proceso ideal con las mismas $p_A$ y $p_B$.
+    \begin{equation}
+        \eta_i = \frac{\Delta h_{real}}{\Delta h_{isentropica}} = \frac{h_A - h_B}{h_A - h_{Bs}} < 1
+    \end{equation}
+    \item Potencia de pérdidas mecánicas: Potencia utilizada en rozamientos en cojinetes y cierres y accionamiento de elementos auxiliares.
+    \begin{equation}
+        \dot{W_{pm}} = \dot{W_{roz}} + \dot{W_{aux}}
+    \end{equation}
+    \item Potencia efectiva: La entregada en el eje de la máquina:
+    \begin{equation}
+        \dot{W_e} = \dot{W_i} - \dot{W_{pm}} = \dot{W_i} \cdot \eta_m
+    \end{equation}
+    \item Rendimiento mecánico:
+    \begin{equation}
+        \eta_m = \frac{\dot{W_e}}{\dot{W_i}} = \frac{\dot{W_i} -  \dot{W_{pm}}}{\dot{W_i}} = 1 - \frac{\dot{W_{pm}}}{\dot{W_i}}
+    \end{equation}
+\end{itemize}
+
+\subsection{Trabajos, potencias y rendimientos en turbocompresores}
+\begin{itemize}
+    \item Trabajo específico interno: Trabajo realizado por el fluido por unidad de masa.
+    \begin{equation}
+        w_i = \Delta h_{real} = h_B - h_A
+    \end{equation}
+    \item Potencia interna: Trabajo por unidad de tiempo realizado por el fluido circulante.
+    \begin{equation}
+        \dot{W_i} = \dot{m} \cdot w_i = \dot{m} \cdot \Delta h_{real} = \dot{m} \cdot (h_B - h_A)
+    \end{equation}
+    \item Rendimiento interno: Comparar proceso real con proceso ideal con las mismas $p_A$ y $p_B$.
+    \begin{equation}
+        \eta_i = \frac{\Delta h_{real}}{\Delta h_{isentropica}} = \frac{h_{Bs} - h_A}{hB - h_A} < 1
+    \end{equation}
+    \item Potencia de pérdidas mecánicas: Potencia utilizada en rozamientos en cojinetes y cierres y accionamiento de elementos auxiliares.
+    \begin{equation}
+        \dot{W_{pm}} = \dot{W_{roz}} + \dot{W_{aux}}
+    \end{equation}
+    \item Potencia efectiva: La entregada en el eje de la máquina:
+    \begin{equation}
+        \dot{W_e} = \dot{W_i} - \dot{W_{pm}} = \frac{\dot{W_i}}{\eta_m} 
+    \end{equation}
+    \item Rendimiento mecánico:
+    \begin{equation}
+        \eta_m = \frac{\dot{W_i}}{\dot{W_e}} = \frac{\dot{W_e} -  \dot{W_{pm}}}{\dot{W_e}} = 1 - \frac{\dot{W_{pm}}}{\dot{W_e}}
+    \end{equation}
+\end{itemize}
+
+\section{Turbinas de vapor}
+
+\section{Turbinas de gas}
+
+\section{Ciclos combinados}
+
+\section{Cogeneración}

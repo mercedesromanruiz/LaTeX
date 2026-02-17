@@ -1,0 +1,461 @@
+PWD c:/Users/merce/Documents/GitHub/LaTeX/Instrumentación Electrónica
+INPUT c:/texlive/2024/texmf.cnf
+INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/merce/Documents/GitHub/LaTeX/Instrumentación Electrónica/main.tex
+OUTPUT main.log
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/book.cls
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/book.cls
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/bk12.clo
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/bk12.clo
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/bk12.clo
+INPUT c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT c:/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def
+INPUT c:/texlive/2024/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+INPUT c:/texlive/2024/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+INPUT c:/texlive/2024/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+INPUT c:/texlive/2024/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
+INPUT c:/texlive/2024/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
+INPUT c:/texlive/2024/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
+INPUT c:/texlive/2024/texmf-dist/tex/generic/babel/locale/es/babel-es.ini
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+INPUT ./main.aux
+INPUT ./main.aux
+INPUT main.aux
+INPUT ./Capitulos/Convertidor ADC.aux
+INPUT ./Capitulos/Convertidor ADC.aux
+INPUT Capitulos/Convertidor ADC.aux
+INPUT ./Capitulos/Sensores de Presion.aux
+INPUT ./Capitulos/Sensores de Presion.aux
+INPUT Capitulos/Sensores de Presion.aux
+INPUT ./Capitulos/Convertidor DAC.aux
+INPUT ./Capitulos/Convertidor DAC.aux
+INPUT Capitulos/Convertidor DAC.aux
+INPUT ./Capitulos/Filtros.aux
+INPUT ./Capitulos/Filtros.aux
+INPUT Capitulos/Filtros.aux
+OUTPUT main.aux
+INPUT c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+INPUT c:/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+OUTPUT main.bcf
+INPUT main.bbl
+INPUT ./main.bbl
+INPUT ./main.bbl
+INPUT ./main.bbl
+INPUT main.bbl
+INPUT ./Documentos/Portada.tex
+INPUT ./Documentos/Portada.tex
+INPUT ./Documentos/Portada.tex
+INPUT ./Documentos/Portada.tex
+INPUT Documentos/Portada.tex
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+OUTPUT main.pdf
+INPUT c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./Documentos/Dedicatoria.tex
+INPUT ./Documentos/Dedicatoria.tex
+INPUT ./Documentos/Dedicatoria.tex
+INPUT ./Documentos/Dedicatoria.tex
+INPUT Documentos/Dedicatoria.tex
+INPUT ./Imagenes/Dedicatoria.png
+INPUT ./Imagenes/Dedicatoria.png
+INPUT ./Imagenes/Dedicatoria.png
+INPUT ./Imagenes/Dedicatoria.png
+INPUT ./Imagenes/Dedicatoria.png
+INPUT ./Documentos/Indices.tex
+INPUT ./Documentos/Indices.tex
+INPUT ./Documentos/Indices.tex
+INPUT ./Documentos/Indices.tex
+INPUT Documentos/Indices.tex
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./main.toc
+INPUT ./main.toc
+INPUT main.toc
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+OUTPUT main.toc
+INPUT ./Documentos/Cuerpo.tex
+INPUT ./Documentos/Cuerpo.tex
+INPUT ./Documentos/Cuerpo.tex
+INPUT ./Documentos/Cuerpo.tex
+INPUT Documentos/Cuerpo.tex
+INPUT ./Capitulos/Puente de Wheatstone.tex
+INPUT ./Capitulos/Puente de Wheatstone.tex
+INPUT ./Capitulos/Puente de Wheatstone.tex
+INPUT ./Capitulos/Puente de Wheatstone.tex
+INPUT Capitulos/Puente de Wheatstone.tex
+INPUT ./Imagenes/Puente de Wheatstone 1.png
+INPUT ./Imagenes/Puente de Wheatstone 1.png
+INPUT ./Imagenes/Puente de Wheatstone 1.png
+INPUT ./Imagenes/Puente de Wheatstone 1.png
+INPUT ./Imagenes/Puente de Wheatstone 1.png
+INPUT ./Imagenes/Puente de Wheatstone 2.png
+INPUT ./Imagenes/Puente de Wheatstone 2.png
+INPUT ./Imagenes/Puente de Wheatstone 2.png
+INPUT ./Imagenes/Puente de Wheatstone 2.png
+INPUT ./Imagenes/Puente de Wheatstone 2.png
+INPUT ./Imagenes/Puente de Wheatstone 4.png
+INPUT ./Imagenes/Puente de Wheatstone 4.png
+INPUT ./Imagenes/Puente de Wheatstone 4.png
+INPUT ./Imagenes/Puente de Wheatstone 4.png
+INPUT ./Imagenes/Puente de Wheatstone 4.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./Imagenes/Conexion 2 Hilos.png
+INPUT ./Imagenes/Conexion 2 Hilos.png
+INPUT ./Imagenes/Conexion 2 Hilos.png
+INPUT ./Imagenes/Conexion 2 Hilos.png
+INPUT ./Imagenes/Conexion 2 Hilos.png
+INPUT ./Imagenes/Conexion 3 Hilos.png
+INPUT ./Imagenes/Conexion 3 Hilos.png
+INPUT ./Imagenes/Conexion 3 Hilos.png
+INPUT ./Imagenes/Conexion 3 Hilos.png
+INPUT ./Imagenes/Conexion 3 Hilos.png
+INPUT ./Imagenes/Galga Activa y Pasiva.png
+INPUT ./Imagenes/Galga Activa y Pasiva.png
+INPUT ./Imagenes/Galga Activa y Pasiva.png
+INPUT ./Imagenes/Galga Activa y Pasiva.png
+INPUT ./Imagenes/Galga Activa y Pasiva.png
+INPUT ./Capitulos/Amplificador de Instrumentacion.tex
+INPUT ./Capitulos/Amplificador de Instrumentacion.tex
+INPUT ./Capitulos/Amplificador de Instrumentacion.tex
+INPUT ./Capitulos/Amplificador de Instrumentacion.tex
+INPUT Capitulos/Amplificador de Instrumentacion.tex
+INPUT ./Imagenes/Amplificador Diferencial.png
+INPUT ./Imagenes/Amplificador Diferencial.png
+INPUT ./Imagenes/Amplificador Diferencial.png
+INPUT ./Imagenes/Amplificador Diferencial.png
+INPUT ./Imagenes/Amplificador Diferencial.png
+INPUT ./Imagenes/Amplificador de Instrumentacion.png
+INPUT ./Imagenes/Amplificador de Instrumentacion.png
+INPUT ./Imagenes/Amplificador de Instrumentacion.png
+INPUT ./Imagenes/Amplificador de Instrumentacion.png
+INPUT ./Imagenes/Amplificador de Instrumentacion.png
+INPUT ./Capitulos/Calculo del Ch del S&H.tex
+INPUT ./Capitulos/Calculo del Ch del S&H.tex
+INPUT ./Capitulos/Calculo del Ch del S&H.tex
+INPUT ./Capitulos/Calculo del Ch del S&H.tex
+INPUT Capitulos/Calculo del Ch del S&H.tex
+INPUT ./Imagenes/S&H.png
+INPUT ./Imagenes/S&H.png
+INPUT ./Imagenes/S&H.png
+INPUT ./Imagenes/S&H.png
+INPUT ./Imagenes/S&H.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
+INPUT ./Capitulos/Problema del Interruptor Abierto.tex
+INPUT ./Capitulos/Problema del Interruptor Abierto.tex
+INPUT ./Capitulos/Problema del Interruptor Abierto.tex
+INPUT ./Capitulos/Problema del Interruptor Abierto.tex
+INPUT Capitulos/Problema del Interruptor Abierto.tex
+INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./Imagenes/FET - Continua - Abierto.png
+INPUT ./Imagenes/FET - Continua - Abierto.png
+INPUT ./Imagenes/FET - Continua - Abierto.png
+INPUT ./Imagenes/FET - Continua - Abierto.png
+INPUT ./Imagenes/FET - Continua - Abierto.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT ./Imagenes/FET - Continua - Cerrado.png
+INPUT ./Imagenes/FET - Continua - Cerrado.png
+INPUT ./Imagenes/FET - Continua - Cerrado.png
+INPUT ./Imagenes/FET - Continua - Cerrado.png
+INPUT ./Imagenes/FET - Continua - Cerrado.png
+INPUT ./Imagenes/FET - Alterna - Abierto.png
+INPUT ./Imagenes/FET - Alterna - Abierto.png
+INPUT ./Imagenes/FET - Alterna - Abierto.png
+INPUT ./Imagenes/FET - Alterna - Abierto.png
+INPUT ./Imagenes/FET - Alterna - Abierto.png
+INPUT ./Imagenes/FET - Alterna - Cerrado.png
+INPUT ./Imagenes/FET - Alterna - Cerrado.png
+INPUT ./Imagenes/FET - Alterna - Cerrado.png
+INPUT ./Imagenes/FET - Alterna - Cerrado.png
+INPUT ./Imagenes/FET - Alterna - Cerrado.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/ulasy.fd
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/ulasy.fd
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/ulasy.fd
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm
+INPUT ./Capitulos/Convertidor ADC.tex
+INPUT ./Capitulos/Convertidor ADC.tex
+OUTPUT Capitulos/Convertidor ADC.aux
+INPUT ./Capitulos/Convertidor ADC.tex
+INPUT ./Capitulos/Convertidor ADC.tex
+INPUT Capitulos/Convertidor ADC.tex
+INPUT ./Imagenes/Convertidor AD paralelo.png
+INPUT ./Imagenes/Convertidor AD paralelo.png
+INPUT ./Imagenes/Convertidor AD paralelo.png
+INPUT ./Imagenes/Convertidor AD paralelo.png
+INPUT ./Imagenes/Convertidor AD paralelo.png
+INPUT ./Imagenes/Convertidor de aproximaciones sucesivas.png
+INPUT ./Imagenes/Convertidor de aproximaciones sucesivas.png
+INPUT ./Imagenes/Convertidor de aproximaciones sucesivas.png
+INPUT ./Imagenes/Convertidor de aproximaciones sucesivas.png
+INPUT ./Imagenes/Convertidor de aproximaciones sucesivas.png
+INPUT ./Imagenes/Convertidor Aproximaciones Sucesivas Bits.png
+INPUT ./Imagenes/Convertidor Aproximaciones Sucesivas Bits.png
+INPUT ./Imagenes/Convertidor Aproximaciones Sucesivas Bits.png
+INPUT ./Imagenes/Convertidor Aproximaciones Sucesivas Bits.png
+INPUT ./Imagenes/Convertidor Aproximaciones Sucesivas Bits.png
+INPUT ./Imagenes/Convertidores tipo servo.png
+INPUT ./Imagenes/Convertidores tipo servo.png
+INPUT ./Imagenes/Convertidores tipo servo.png
+INPUT ./Imagenes/Convertidores tipo servo.png
+INPUT ./Imagenes/Convertidores tipo servo.png
+INPUT ./Imagenes/Convertidores sigma delta.png
+INPUT ./Imagenes/Convertidores sigma delta.png
+INPUT ./Imagenes/Convertidores sigma delta.png
+INPUT ./Imagenes/Convertidores sigma delta.png
+INPUT ./Imagenes/Convertidores sigma delta.png
+INPUT ./Imagenes/Convertidor Doble Rampa.png
+INPUT ./Imagenes/Convertidor Doble Rampa.png
+INPUT ./Imagenes/Convertidor Doble Rampa.png
+INPUT ./Imagenes/Convertidor Doble Rampa.png
+INPUT ./Imagenes/Convertidor Doble Rampa.png
+INPUT ./Capitulos/Sensores de Presion.tex
+INPUT ./Capitulos/Sensores de Presion.tex
+OUTPUT Capitulos/Sensores de Presion.aux
+INPUT ./Capitulos/Sensores de Presion.tex
+INPUT ./Capitulos/Sensores de Presion.tex
+INPUT Capitulos/Sensores de Presion.tex
+INPUT ./Imagenes/Presion.png
+INPUT ./Imagenes/Presion.png
+INPUT ./Imagenes/Presion.png
+INPUT ./Imagenes/Presion.png
+INPUT ./Imagenes/Presion.png
+INPUT ./Imagenes/Presion2.png
+INPUT ./Imagenes/Presion2.png
+INPUT ./Imagenes/Presion2.png
+INPUT ./Imagenes/Presion2.png
+INPUT ./Imagenes/Presion2.png
+INPUT ./Capitulos/Convertidor DAC.tex
+INPUT ./Capitulos/Convertidor DAC.tex
+OUTPUT Capitulos/Convertidor DAC.aux
+INPUT ./Capitulos/Convertidor DAC.tex
+INPUT ./Capitulos/Convertidor DAC.tex
+INPUT Capitulos/Convertidor DAC.tex
+INPUT ./Capitulos/Filtros.tex
+INPUT ./Capitulos/Filtros.tex
+OUTPUT Capitulos/Filtros.aux
+INPUT ./Capitulos/Filtros.tex
+INPUT ./Capitulos/Filtros.tex
+INPUT Capitulos/Filtros.tex
+INPUT ./Imagenes/Filtros Butterworth.png
+INPUT ./Imagenes/Filtros Butterworth.png
+INPUT ./Imagenes/Filtros Butterworth.png
+INPUT ./Imagenes/Filtros Butterworth.png
+INPUT ./Imagenes/Filtros Butterworth.png
+INPUT ./Imagenes/Filtros Chebyshev.png
+INPUT ./Imagenes/Filtros Chebyshev.png
+INPUT ./Imagenes/Filtros Chebyshev.png
+INPUT ./Imagenes/Filtros Chebyshev.png
+INPUT ./Imagenes/Filtros Chebyshev.png
+INPUT ./Imagenes/Filtros Bessel.png
+INPUT ./Imagenes/Filtros Bessel.png
+INPUT ./Imagenes/Filtros Bessel.png
+INPUT ./Imagenes/Filtros Bessel.png
+INPUT ./Imagenes/Filtros Bessel.png
+INPUT ./Imagenes/Filtros Factor de Amortiguacion.png
+INPUT ./Imagenes/Filtros Factor de Amortiguacion.png
+INPUT ./Imagenes/Filtros Factor de Amortiguacion.png
+INPUT ./Imagenes/Filtros Factor de Amortiguacion.png
+INPUT ./Imagenes/Filtros Factor de Amortiguacion.png
+INPUT ./Imagenes/Filtros Sallen y Key Paso-Altas.png
+INPUT ./Imagenes/Filtros Sallen y Key Paso-Altas.png
+INPUT ./Imagenes/Filtros Sallen y Key Paso-Altas.png
+INPUT ./Imagenes/Filtros Sallen y Key Paso-Altas.png
+INPUT ./Imagenes/Filtros Sallen y Key Paso-Altas.png
+INPUT ./Imagenes/Filtros Sallen y Key Paso-Bajas.png
+INPUT ./Imagenes/Filtros Sallen y Key Paso-Bajas.png
+INPUT ./Imagenes/Filtros Sallen y Key Paso-Bajas.png
+INPUT ./Imagenes/Filtros Sallen y Key Paso-Bajas.png
+INPUT ./Imagenes/Filtros Sallen y Key Paso-Bajas.png
+INPUT ./Imagenes/Filtros de Retroalimentacion Multiple.png
+INPUT ./Imagenes/Filtros de Retroalimentacion Multiple.png
+INPUT ./Imagenes/Filtros de Retroalimentacion Multiple.png
+INPUT ./Imagenes/Filtros de Retroalimentacion Multiple.png
+INPUT ./Imagenes/Filtros de Retroalimentacion Multiple.png
+INPUT ./Imagenes/Filtros de Variable de Estado.png
+INPUT ./Imagenes/Filtros de Variable de Estado.png
+INPUT ./Imagenes/Filtros de Variable de Estado.png
+INPUT ./Imagenes/Filtros de Variable de Estado.png
+INPUT ./Imagenes/Filtros de Variable de Estado.png
+INPUT ./Imagenes/Filtros Bicuadratico.png
+INPUT ./Imagenes/Filtros Bicuadratico.png
+INPUT ./Imagenes/Filtros Bicuadratico.png
+INPUT ./Imagenes/Filtros Bicuadratico.png
+INPUT ./Imagenes/Filtros Bicuadratico.png
+INPUT ./Capitulos/Sensores de Temperatura.tex
+INPUT ./Capitulos/Sensores de Temperatura.tex
+INPUT ./Capitulos/Sensores de Temperatura.tex
+INPUT ./Capitulos/Sensores de Temperatura.tex
+INPUT Capitulos/Sensores de Temperatura.tex
+INPUT ./Imagenes/Termometro de vidrio.png
+INPUT ./Imagenes/Termometro de vidrio.png
+INPUT ./Imagenes/Termometro de vidrio.png
+INPUT ./Imagenes/Termometro de vidrio.png
+INPUT ./Imagenes/Termometro de vidrio.png
+INPUT ./Imagenes/Termometros de resistencia.png
+INPUT ./Imagenes/Termometros de resistencia.png
+INPUT ./Imagenes/Termometros de resistencia.png
+INPUT ./Imagenes/Termometros de resistencia.png
+INPUT ./Imagenes/Termometros de resistencia.png
+INPUT ./Imagenes/Termopares.png
+INPUT ./Imagenes/Termopares.png
+INPUT ./Imagenes/Termopares.png
+INPUT ./Imagenes/Termopares.png
+INPUT ./Imagenes/Termopares.png
+INPUT ./Imagenes/Termopar.png
+INPUT ./Imagenes/Termopar.png
+INPUT ./Imagenes/Termopar.png
+INPUT ./Imagenes/Termopar.png
+INPUT ./Imagenes/Termopar.png
+INPUT ./Imagenes/00Algo.png
+INPUT ./Imagenes/00Algo.png
+INPUT ./Imagenes/00Algo.png
+INPUT ./Imagenes/00Algo.png
+INPUT ./Imagenes/00Algo.png
+INPUT main.aux
+INPUT ./Capitulos/Convertidor ADC.aux
+INPUT ./Capitulos/Convertidor ADC.aux
+INPUT Capitulos/Convertidor ADC.aux
+INPUT ./Capitulos/Sensores de Presion.aux
+INPUT ./Capitulos/Sensores de Presion.aux
+INPUT Capitulos/Sensores de Presion.aux
+INPUT ./Capitulos/Convertidor DAC.aux
+INPUT ./Capitulos/Convertidor DAC.aux
+INPUT Capitulos/Convertidor DAC.aux
+INPUT ./Capitulos/Filtros.aux
+INPUT ./Capitulos/Filtros.aux
+INPUT Capitulos/Filtros.aux
+INPUT main.run.xml
+OUTPUT main.run.xml
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb

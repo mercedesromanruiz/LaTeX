@@ -1,0 +1,1205 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.9)  9 JAN 2025 14:06
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/merce/Documents/GitHub/LaTeX/Instrumentación Electrónica/main.tex"
+(c:/Users/merce/Documents/GitHub/LaTeX/Instrumentación Electrónica/main.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-09-10>
+(c:/texlive/2024/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2024/02/08 v1.4n Standard LaTeX document class
+(c:/texlive/2024/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count194
+\c@chapter=\count195
+\c@section=\count196
+\c@subsection=\count197
+\c@subsubsection=\count198
+\c@paragraph=\count199
+\c@subparagraph=\count266
+\c@figure=\count267
+\c@table=\count268
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (c:/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/10/05 v24.11 The Babel package
+\babel@savecnt=\count269
+\U@D=\dimen142
+\l@unhyphenated=\language89
+ (c:/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count270
+ (c:/texlive/2024/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks17
+\es@quotdepth=\count271
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+)) (c:/texlive/2024/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen143
+\Gin@req@width=\dimen144
+) (c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count272
+\Gm@cntv=\count273
+\c@Gm@tempcnt=\count274
+\Gm@bindingoffset=\dimen145
+\Gm@wd@mp=\dimen146
+\Gm@odd@mp=\dimen147
+\Gm@even@mp=\dimen148
+\Gm@layoutwidth=\dimen149
+\Gm@layoutheight=\dimen150
+\Gm@layouthoffset=\dimen151
+\Gm@layoutvoffset=\dimen152
+\Gm@dimlist=\toks19
+) (c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count275
+\float@exts=\toks20
+\float@box=\box52
+\@float@everytoks=\toks21
+\@floatcapt=\box53
+) (c:/texlive/2024/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language90
+LaTeX Info: Redefining \_ on input line 43.
+) (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip51
+\f@nch@O@elh=\skip52
+\f@nch@O@erh=\skip53
+\f@nch@O@olh=\skip54
+\f@nch@O@orh=\skip55
+\f@nch@O@elf=\skip56
+\f@nch@O@erf=\skip57
+\f@nch@O@olf=\skip58
+\f@nch@O@orf=\skip59
+) (c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen153
+\captionmargin=\dimen154
+\caption@leftmargin=\dimen155
+\caption@rightmargin=\dimen156
+\caption@width=\dimen157
+\caption@indent=\dimen158
+\caption@parindent=\dimen159
+\caption@hangindent=\dimen160
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count276
+\c@continuedfloat=\count277
+Package caption Info: float package is loaded.
+) (c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count278
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count279
+) (c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+ (c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count280
+)
+\csq@reset=\count281
+\csq@gtype=\count282
+\csq@glevel=\count283
+\csq@qlevel=\count284
+\csq@maxlvl=\count285
+\csq@tshold=\count286
+\csq@ltx@everypar=\toks22
+ (c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)) (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
+ (c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count287
+ (c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count288
+\c@listtotal=\count289
+\c@listcount=\count290
+\c@liststart=\count291
+\c@liststop=\count292
+\c@citecount=\count293
+\c@citetotal=\count294
+\c@multicitecount=\count295
+\c@multicitetotal=\count296
+\c@instcount=\count297
+\c@maxnames=\count298
+\c@minnames=\count299
+\c@maxitems=\count300
+\c@minitems=\count301
+\c@citecounter=\count302
+\c@maxcitecounter=\count303
+\c@savedcitecounter=\count304
+\c@uniquelist=\count305
+\c@uniquename=\count306
+\c@refsection=\count307
+\c@refsegment=\count308
+\c@maxextratitle=\count309
+\c@maxextratitleyear=\count310
+\c@maxextraname=\count311
+\c@maxextradate=\count312
+\c@maxextraalpha=\count313
+\c@abbrvpenalty=\count314
+\c@highnamepenalty=\count315
+\c@lownamepenalty=\count316
+\c@maxparens=\count317
+\c@parenlevel=\count318
+\blx@tempcnta=\count319
+\blx@tempcntb=\count320
+\blx@tempcntc=\count321
+\c@blx@maxsection=\count322
+\blx@maxsegment@0=\count323
+\blx@notetype=\count324
+\blx@parenlevel@text=\count325
+\blx@parenlevel@foot=\count326
+\blx@sectionciteorder@0=\count327
+\blx@sectionciteorderinternal@0=\count328
+\blx@entrysetcounter=\count329
+\blx@biblioinstance=\count330
+\labelnumberwidth=\skip60
+\labelalphawidth=\skip61
+\biblabelsep=\skip62
+\bibitemsep=\skip63
+\bibnamesep=\skip64
+\bibinitsep=\skip65
+\bibparsep=\skip66
+\bibhang=\skip67
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language91
+\c@mincomprange=\count331
+\c@maxcomprange=\count332
+\c@mincompwidth=\count333
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count334
+\c@savedafterword=\count335
+\c@annotator=\count336
+\c@savedannotator=\count337
+\c@author=\count338
+\c@savedauthor=\count339
+\c@bookauthor=\count340
+\c@savedbookauthor=\count341
+\c@commentator=\count342
+\c@savedcommentator=\count343
+\c@editor=\count344
+\c@savededitor=\count345
+\c@editora=\count346
+\c@savededitora=\count347
+\c@editorb=\count348
+\c@savededitorb=\count349
+\c@editorc=\count350
+\c@savededitorc=\count351
+\c@foreword=\count352
+\c@savedforeword=\count353
+\c@holder=\count354
+\c@savedholder=\count355
+\c@introduction=\count356
+\c@savedintroduction=\count357
+\c@namea=\count358
+\c@savednamea=\count359
+\c@nameb=\count360
+\c@savednameb=\count361
+\c@namec=\count362
+\c@savednamec=\count363
+\c@translator=\count364
+\c@savedtranslator=\count365
+\c@shortauthor=\count366
+\c@savedshortauthor=\count367
+\c@shorteditor=\count368
+\c@savedshorteditor=\count369
+\c@labelname=\count370
+\c@savedlabelname=\count371
+\c@institution=\count372
+\c@savedinstitution=\count373
+\c@lista=\count374
+\c@savedlista=\count375
+\c@listb=\count376
+\c@savedlistb=\count377
+\c@listc=\count378
+\c@savedlistc=\count379
+\c@listd=\count380
+\c@savedlistd=\count381
+\c@liste=\count382
+\c@savedliste=\count383
+\c@listf=\count384
+\c@savedlistf=\count385
+\c@location=\count386
+\c@savedlocation=\count387
+\c@organization=\count388
+\c@savedorganization=\count389
+\c@origlocation=\count390
+\c@savedoriglocation=\count391
+\c@origpublisher=\count392
+\c@savedorigpublisher=\count393
+\c@publisher=\count394
+\c@savedpublisher=\count395
+\c@language=\count396
+\c@savedlanguage=\count397
+\c@origlanguage=\count398
+\c@savedoriglanguage=\count399
+\c@pageref=\count400
+\c@savedpageref=\count401
+\shorthandwidth=\skip68
+\shortjournalwidth=\skip69
+\shortserieswidth=\skip70
+\shorttitlewidth=\skip71
+\shortauthorwidth=\skip72
+\shorteditorwidth=\skip73
+\locallabelnumberwidth=\skip74
+\locallabelalphawidth=\skip75
+\localshorthandwidth=\skip76
+\localshortjournalwidth=\skip77
+\localshortserieswidth=\skip78
+\localshorttitlewidth=\skip79
+\localshortauthorwidth=\skip80
+\localshorteditorwidth=\skip81
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+\c@textcitecount=\count402
+\c@textcitetotal=\count403
+\c@textcitemaxnames=\count404
+\c@biburlbigbreakpenalty=\count405
+\c@biburlbreakpenalty=\count406
+\c@biburlnumpenalty=\count407
+\c@biburlucpenalty=\count408
+\c@biburllcpenalty=\count409
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count410
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count411
+\c@bbx:relatedtotal=\count412
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+ (c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-09-10 L3 programming layer (loader) 
+ (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count413
+\l__pdf_internal_box=\box54
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2024-09-10 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'spanish'.
+ (./main.aux
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+ (./Capitulos/Convertidor ADC.aux) (./Capitulos/Sensores de Presion.aux) (./Capitulos/Convertidor DAC.aux) (./Capitulos/Filtros.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Info: Redefining \. on input line 20.
+LaTeX Info: Redefining \% on input line 20.
+ (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count414
+\scratchdimen=\dimen161
+\scratchbox=\box55
+\nofMPsegments=\count415
+\nofMParguments=\count416
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count417
+\MPscratchDim=\dimen162
+\MPnumerator=\count418
+\makeMPintoPDFobject=\count419
+\everyMPtoPDFconversion=\toks24
+) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside asymmetric 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-47.23828pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=88.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+Package biblatex Info: Trying to load language 'spanish'...
+Package biblatex Info: ... file 'spanish.lbx' found.
+(c:/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+File: spanish.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl)
+Package biblatex Info: Reference section=0 on input line 20.
+Package biblatex Info: Reference segment=0 on input line 20.
+ (./Documentos/Portada.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 1.
+
+
+[1
+
+
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./Documentos/Dedicatoria.tex
+<Imagenes/Dedicatoria.png, id=8, 724.7075pt x 426.59375pt>
+File: Imagenes/Dedicatoria.png Graphic file (type png)
+<use Imagenes/Dedicatoria.png>
+Package pdftex.def Info: Imagenes/Dedicatoria.png  used on input line 5.
+(pdftex.def)             Requested size: 483.69687pt x 284.72926pt.
+) (./Documentos/Indices.tex
+
+[2 <./Imagenes/Dedicatoria.png (PNG copy)>] (./main.toc
+LaTeX Info: Redefining \sptext on input line 1.
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3
+
+])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+) (./Documentos/Cuerpo.tex (./Capitulos/Puente de Wheatstone.tex
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[4]
+Cap\'{\i }tulo 1.
+<Imagenes/Puente de Wheatstone 1.png, id=21, 426.09187pt x 356.0803pt>
+File: Imagenes/Puente de Wheatstone 1.png Graphic file (type png)
+<use Imagenes/Puente de Wheatstone 1.png>
+Package pdftex.def Info: Imagenes/Puente de Wheatstone 1.png  used on input line 9.
+(pdftex.def)             Requested size: 193.47578pt x 161.68535pt.
+<Imagenes/Puente de Wheatstone 2.png, id=23, 423.83344pt x 350.81062pt>
+File: Imagenes/Puente de Wheatstone 2.png Graphic file (type png)
+<use Imagenes/Puente de Wheatstone 2.png>
+Package pdftex.def Info: Imagenes/Puente de Wheatstone 2.png  used on input line 30.
+(pdftex.def)             Requested size: 193.47578pt x 160.1383pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5
+
+ <./Imagenes/Puente de Wheatstone 1.png>]
+<Imagenes/Puente de Wheatstone 4.png, id=31, 490.08093pt x 357.58594pt>
+File: Imagenes/Puente de Wheatstone 4.png Graphic file (type png)
+<use Imagenes/Puente de Wheatstone 4.png>
+Package pdftex.def Info: Imagenes/Puente de Wheatstone 4.png  used on input line 45.
+(pdftex.def)             Requested size: 193.47578pt x 141.16577pt.
+<Imagenes/Conexion 2 Hilos.png, id=32, 751.30687pt x 393.72093pt>
+File: Imagenes/Conexion 2 Hilos.png Graphic file (type png)
+<use Imagenes/Conexion 2 Hilos.png>
+Package pdftex.def Info: Imagenes/Conexion 2 Hilos.png  used on input line 65.
+(pdftex.def)             Requested size: 241.84843pt x 126.73822pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6 <./Imagenes/Puente de Wheatstone 2.png> <./Imagenes/Puente de Wheatstone 4.png>]
+<Imagenes/Conexion 3 Hilos.png, id=38, 760.34062pt x 390.70969pt>
+File: Imagenes/Conexion 3 Hilos.png Graphic file (type png)
+<use Imagenes/Conexion 3 Hilos.png>
+Package pdftex.def Info: Imagenes/Conexion 3 Hilos.png  used on input line 74.
+(pdftex.def)             Requested size: 241.84843pt x 124.2725pt.
+<Imagenes/Galga Activa y Pasiva.png, id=39, 627.84563pt x 274.02374pt>
+File: Imagenes/Galga Activa y Pasiva.png Graphic file (type png)
+<use Imagenes/Galga Activa y Pasiva.png>
+Package pdftex.def Info: Imagenes/Galga Activa y Pasiva.png  used on input line 85.
+(pdftex.def)             Requested size: 241.84843pt x 105.55173pt.
+
+
+LaTeX Info: Redefining \. on input line 90.
+LaTeX Info: Redefining \% on input line 90.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[7 <./Imagenes/Conexion 2 Hilos.png> <./Imagenes/Conexion 3 Hilos.png>]) (./Capitulos/Amplificador de Instrumentacion.tex
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.21667pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.21667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-18.21667pt}.
+
+[8 <./Imagenes/Galga Activa y Pasiva.png>]
+Cap\'{\i }tulo 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]\OT1/cmr/bx/n/17.28 ?`Por qu^^Se se uti-li-za un am-pli-fi-ca-dor de
+ []
+
+<Imagenes/Amplificador Diferencial.png, id=50, 563.10374pt x 355.3275pt>
+File: Imagenes/Amplificador Diferencial.png Graphic file (type png)
+<use Imagenes/Amplificador Diferencial.png>
+Package pdftex.def Info: Imagenes/Amplificador Diferencial.png  used on input line 15.
+(pdftex.def)             Requested size: 241.84843pt x 152.60892pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9
+
+]
+<Imagenes/Amplificador de Instrumentacion.png, id=54, 351.3125pt x 228.855pt>
+File: Imagenes/Amplificador de Instrumentacion.png Graphic file (type png)
+<use Imagenes/Amplificador de Instrumentacion.png>
+Package pdftex.def Info: Imagenes/Amplificador de Instrumentacion.png  used on input line 45.
+(pdftex.def)             Requested size: 241.84843pt x 157.55043pt.
+
+
+LaTeX Info: Redefining \. on input line 49.
+LaTeX Info: Redefining \% on input line 49.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.21667pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.21667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-18.21667pt}.
+
+[10 <./Imagenes/Amplificador Diferencial.png (PNG copy)>]
+
+LaTeX Info: Redefining \. on input line 88.
+LaTeX Info: Redefining \% on input line 88.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[11 <./Imagenes/Amplificador de Instrumentacion.png>]) (./Capitulos/Calculo del Ch del S&H.tex
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 30.21667pt, for example:
+(fancyhdr)                \setlength{\headheight}{30.21667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-18.21667pt}.
+
+[12]
+Cap\'{\i }tulo 3.
+<Imagenes/S&H.png, id=66, 478.03593pt x 211.54031pt>
+File: Imagenes/S&H.png Graphic file (type png)
+<use Imagenes/S&H.png>
+Package pdftex.def Info: Imagenes/S&H.png  used on input line 11.
+(pdftex.def)             Requested size: 241.84843pt x 107.02228pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 16.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13
+
+ <./Imagenes/S&H.png>]) (./Capitulos/Problema del Interruptor Abierto.tex
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[14{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Cap\'{\i }tulo 4.
+<Imagenes/FET - Continua - Abierto.png, id=76, 606.01407pt x 183.68625pt>
+File: Imagenes/FET - Continua - Abierto.png Graphic file (type png)
+<use Imagenes/FET - Continua - Abierto.png>
+Package pdftex.def Info: Imagenes/FET - Continua - Abierto.png  used on input line 15.
+(pdftex.def)             Requested size: 217.66211pt x 65.97563pt.
+<Imagenes/FET - Continua - Cerrado.png, id=77, 583.42969pt x 165.61874pt>
+File: Imagenes/FET - Continua - Cerrado.png Graphic file (type png)
+<use Imagenes/FET - Continua - Cerrado.png>
+Package pdftex.def Info: Imagenes/FET - Continua - Cerrado.png  used on input line 20.
+(pdftex.def)             Requested size: 217.66211pt x 61.78845pt.
+<Imagenes/FET - Alterna - Abierto.png, id=78, 586.44093pt x 170.88844pt>
+File: Imagenes/FET - Alterna - Abierto.png Graphic file (type png)
+<use Imagenes/FET - Alterna - Abierto.png>
+Package pdftex.def Info: Imagenes/FET - Alterna - Abierto.png  used on input line 25.
+(pdftex.def)             Requested size: 217.66211pt x 63.4259pt.
+<Imagenes/FET - Alterna - Cerrado.png, id=79, 568.37344pt x 173.89969pt>
+File: Imagenes/FET - Alterna - Cerrado.png Graphic file (type png)
+<use Imagenes/FET - Alterna - Cerrado.png>
+Package pdftex.def Info: Imagenes/FET - Alterna - Cerrado.png  used on input line 30.
+(pdftex.def)             Requested size: 217.66211pt x 66.59734pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15
+
+ <./Imagenes/FET - Continua - Abierto.png> <./Imagenes/FET - Continua - Cerrado.png> <./Imagenes/FET - Alterna - Abierto.png> <./Imagenes/FET - Alterna - Cerrado.png>]
+
+LaTeX Info: Redefining \. on input line 95.
+LaTeX Info: Redefining \% on input line 95.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[16]
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 115.
+ (c:/texlive/2024/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+))
+
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[17]
+\openout2 = `"Capitulos/Convertidor ADC.aux"'.
+
+ (./Capitulos/Convertidor ADC.tex
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[18
+
+
+]
+Cap\'{\i }tulo 5.
+<Imagenes/Convertidor AD paralelo.png, id=101, 582.67688pt x 341.77687pt>
+File: Imagenes/Convertidor AD paralelo.png Graphic file (type png)
+<use Imagenes/Convertidor AD paralelo.png>
+Package pdftex.def Info: Imagenes/Convertidor AD paralelo.png  used on input line 10.
+(pdftex.def)             Requested size: 362.77264pt x 212.79124pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19 <./Imagenes/Convertidor AD paralelo.png>]
+<Imagenes/Convertidor de aproximaciones sucesivas.png, id=107, 423.83344pt x 235.63031pt>
+File: Imagenes/Convertidor de aproximaciones sucesivas.png Graphic file (type png)
+<use Imagenes/Convertidor de aproximaciones sucesivas.png>
+Package pdftex.def Info: Imagenes/Convertidor de aproximaciones sucesivas.png  used on input line 32.
+(pdftex.def)             Requested size: 217.66211pt x 121.0076pt.
+<Imagenes/Convertidor Aproximaciones Sucesivas Bits.png, id=108, 405.01312pt x 264.99pt>
+File: Imagenes/Convertidor Aproximaciones Sucesivas Bits.png Graphic file (type png)
+<use Imagenes/Convertidor Aproximaciones Sucesivas Bits.png>
+Package pdftex.def Info: Imagenes/Convertidor Aproximaciones Sucesivas Bits.png  used on input line 38.
+(pdftex.def)             Requested size: 217.66211pt x 142.41316pt.
+
+
+LaTeX Info: Redefining \. on input line 49.
+LaTeX Info: Redefining \% on input line 49.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20 <./Imagenes/Convertidor de aproximaciones sucesivas.png> <./Imagenes/Convertidor Aproximaciones Sucesivas Bits.png>]
+<Imagenes/Convertidores tipo servo.png, id=114, 301.8778pt x 122.70844pt>
+File: Imagenes/Convertidores tipo servo.png Graphic file (type png)
+<use Imagenes/Convertidores tipo servo.png>
+Package pdftex.def Info: Imagenes/Convertidores tipo servo.png  used on input line 52.
+(pdftex.def)             Requested size: 362.77264pt x 147.46095pt.
+<Imagenes/Convertidores sigma delta.png, id=115, 660.21657pt x 183.68625pt>
+File: Imagenes/Convertidores sigma delta.png Graphic file (type png)
+<use Imagenes/Convertidores sigma delta.png>
+Package pdftex.def Info: Imagenes/Convertidores sigma delta.png  used on input line 62.
+(pdftex.def)             Requested size: 362.77264pt x 100.93243pt.
+
+
+LaTeX Info: Redefining \. on input line 68.
+LaTeX Info: Redefining \% on input line 68.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[21 <./Imagenes/Convertidores tipo servo.png> <./Imagenes/Convertidores sigma delta.png>]
+<Imagenes/Convertidor Doble Rampa.png, id=121, 928.21782pt x 252.19218pt>
+File: Imagenes/Convertidor Doble Rampa.png Graphic file (type png)
+<use Imagenes/Convertidor Doble Rampa.png>
+Package pdftex.def Info: Imagenes/Convertidor Doble Rampa.png  used on input line 73.
+(pdftex.def)             Requested size: 362.77264pt x 98.5662pt.
+)
+
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22 <./Imagenes/Convertidor Doble Rampa.png>]
+\openout2 = `"Capitulos/Sensores de Presion.aux"'.
+
+ (./Capitulos/Sensores de Presion.tex
+Cap\'{\i }tulo 6.
+<Imagenes/Presion.png, id=126, 343.2825pt x 451.6875pt>
+File: Imagenes/Presion.png Graphic file (type png)
+<use Imagenes/Presion.png>
+Package pdftex.def Info: Imagenes/Presion.png  used on input line 6.
+(pdftex.def)             Requested size: 241.84843pt x 318.21918pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23
+
+
+
+
+ <./Imagenes/Presion.png>]
+
+LaTeX Info: Redefining \. on input line 41.
+LaTeX Info: Redefining \% on input line 41.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[24]
+<Imagenes/Presion2.png, id=134, 746.03719pt x 496.85625pt>
+File: Imagenes/Presion2.png Graphic file (type png)
+<use Imagenes/Presion2.png>
+Package pdftex.def Info: Imagenes/Presion2.png  used on input line 55.
+(pdftex.def)             Requested size: 241.84843pt x 161.06697pt.
+)
+
+LaTeX Info: Redefining \. on input line 21.
+LaTeX Info: Redefining \% on input line 21.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[25 <./Imagenes/Presion2.png>]
+\openout2 = `"Capitulos/Convertidor DAC.aux"'.
+
+ (./Capitulos/Convertidor DAC.tex)
+\openout2 = `Capitulos/Filtros.aux'.
+
+ (./Capitulos/Filtros.tex
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[26
+
+
+
+
+
+
+
+]
+Cap\'{\i }tulo 7.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27]
+<Imagenes/Filtros Butterworth.png, id=146, 549.05125pt x 461.725pt>
+File: Imagenes/Filtros Butterworth.png Graphic file (type png)
+<use Imagenes/Filtros Butterworth.png>
+Package pdftex.def Info: Imagenes/Filtros Butterworth.png  used on input line 35.
+(pdftex.def)             Requested size: 241.84843pt x 203.37804pt.
+
+
+LaTeX Info: Redefining \. on input line 42.
+LaTeX Info: Redefining \% on input line 42.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28 <./Imagenes/Filtros Butterworth.png (PNG copy)>]
+<Imagenes/Filtros Chebyshev.png, id=150, 590.205pt x 379.4175pt>
+File: Imagenes/Filtros Chebyshev.png Graphic file (type png)
+<use Imagenes/Filtros Chebyshev.png>
+Package pdftex.def Info: Imagenes/Filtros Chebyshev.png  used on input line 45.
+(pdftex.def)             Requested size: 241.84843pt x 155.46954pt.
+<Imagenes/Filtros Bessel.png, id=151, 562.1pt x 421.575pt>
+File: Imagenes/Filtros Bessel.png Graphic file (type png)
+<use Imagenes/Filtros Bessel.png>
+Package pdftex.def Info: Imagenes/Filtros Bessel.png  used on input line 57.
+(pdftex.def)             Requested size: 241.84843pt x 181.38306pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[29 <./Imagenes/Filtros Chebyshev.png> <./Imagenes/Filtros Bessel.png (PNG copy)>]
+<Imagenes/Filtros Factor de Amortiguacion.png, id=156, 476.53032pt x 522.45187pt>
+File: Imagenes/Filtros Factor de Amortiguacion.png Graphic file (type png)
+<use Imagenes/Filtros Factor de Amortiguacion.png>
+Package pdftex.def Info: Imagenes/Filtros Factor de Amortiguacion.png  used on input line 68.
+(pdftex.def)             Requested size: 241.84843pt x 265.15547pt.
+
+
+LaTeX Info: Redefining \. on input line 98.
+LaTeX Info: Redefining \% on input line 98.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[30 <./Imagenes/Filtros Factor de Amortiguacion.png>]
+<Imagenes/Filtros Sallen y Key Paso-Altas.png, id=161, 334.24875pt x 220.825pt>
+File: Imagenes/Filtros Sallen y Key Paso-Altas.png Graphic file (type png)
+<use Imagenes/Filtros Sallen y Key Paso-Altas.png>
+Package pdftex.def Info: Imagenes/Filtros Sallen y Key Paso-Altas.png  used on input line 106.
+(pdftex.def)             Requested size: 217.66211pt x 143.8041pt.
+<Imagenes/Filtros Sallen y Key Paso-Bajas.png, id=162, 354.32375pt x 237.88875pt>
+File: Imagenes/Filtros Sallen y Key Paso-Bajas.png Graphic file (type png)
+<use Imagenes/Filtros Sallen y Key Paso-Bajas.png>
+Package pdftex.def Info: Imagenes/Filtros Sallen y Key Paso-Bajas.png  used on input line 110.
+(pdftex.def)             Requested size: 217.66211pt x 146.13918pt.
+<Imagenes/Filtros de Retroalimentacion Multiple.png, id=163, 630.355pt x 388.45125pt>
+File: Imagenes/Filtros de Retroalimentacion Multiple.png Graphic file (type png)
+<use Imagenes/Filtros de Retroalimentacion Multiple.png>
+Package pdftex.def Info: Imagenes/Filtros de Retroalimentacion Multiple.png  used on input line 120.
+(pdftex.def)             Requested size: 241.84843pt x 149.03555pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 123.
+LaTeX Info: Redefining \% on input line 123.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[31 <./Imagenes/Filtros Sallen y Key Paso-Altas.png (PNG copy)> <./Imagenes/Filtros Sallen y Key Paso-Bajas.png (PNG copy)>]
+<Imagenes/Filtros de Variable de Estado.png, id=168, 998.9822pt x 465.23813pt>
+File: Imagenes/Filtros de Variable de Estado.png Graphic file (type png)
+<use Imagenes/Filtros de Variable de Estado.png>
+Package pdftex.def Info: Imagenes/Filtros de Variable de Estado.png  used on input line 133.
+(pdftex.def)             Requested size: 217.66211pt x 101.36594pt.
+<Imagenes/Filtros Bicuadratico.png, id=169, 515.67656pt x 261.97874pt>
+File: Imagenes/Filtros Bicuadratico.png Graphic file (type png)
+<use Imagenes/Filtros Bicuadratico.png>
+Package pdftex.def Info: Imagenes/Filtros Bicuadratico.png  used on input line 137.
+(pdftex.def)             Requested size: 217.66211pt x 110.57797pt.
+)
+
+LaTeX Info: Redefining \. on input line 31.
+LaTeX Info: Redefining \% on input line 31.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32 <./Imagenes/Filtros de Retroalimentacion Multiple.png (PNG copy)> <./Imagenes/Filtros de Variable de Estado.png> <./Imagenes/Filtros Bicuadratico.png>] (./Capitulos/Sensores de Temperatura.tex
+Cap\'{\i }tulo 8.
+<Imagenes/Termometro de vidrio.png, id=175, 560.0925pt x 124.21407pt>
+File: Imagenes/Termometro de vidrio.png Graphic file (type png)
+<use Imagenes/Termometro de vidrio.png>
+Package pdftex.def Info: Imagenes/Termometro de vidrio.png  used on input line 21.
+(pdftex.def)             Requested size: 241.84843pt x 53.63654pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33
+
+
+
+ <./Imagenes/Termometro de vidrio.png>]
+<Imagenes/Termometros de resistencia.png, id=180, 621.07031pt x 379.4175pt>
+File: Imagenes/Termometros de resistencia.png Graphic file (type png)
+<use Imagenes/Termometros de resistencia.png>
+Package pdftex.def Info: Imagenes/Termometros de resistencia.png  used on input line 52.
+(pdftex.def)             Requested size: 241.84843pt x 147.74643pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 55.
+LaTeX Info: Redefining \% on input line 55.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[34]
+Underfull \vbox (badness 7116) has occurred while \output is active []
+
+
+
+LaTeX Info: Redefining \. on input line 75.
+LaTeX Info: Redefining \% on input line 75.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[35 <./Imagenes/Termometros de resistencia.png>]
+<Imagenes/Termopares.png, id=188, 586.44093pt x 203.25937pt>
+File: Imagenes/Termopares.png Graphic file (type png)
+<use Imagenes/Termopares.png>
+Package pdftex.def Info: Imagenes/Termopares.png  used on input line 78.
+(pdftex.def)             Requested size: 241.84843pt x 83.8238pt.
+<Imagenes/Termopar.png, id=189, 448.67625pt x 199.49532pt>
+File: Imagenes/Termopar.png Graphic file (type png)
+<use Imagenes/Termopar.png>
+Package pdftex.def Info: Imagenes/Termopar.png  used on input line 87.
+(pdftex.def)             Requested size: 241.84843pt x 107.53104pt.
+
+
+LaTeX Info: Redefining \. on input line 99.
+LaTeX Info: Redefining \% on input line 99.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[36 <./Imagenes/Termopar.png> <./Imagenes/Termopares.png>])
+
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[37]
+<Imagenes/00Algo.png, id=199, 383.93437pt x 430.60875pt>
+File: Imagenes/00Algo.png Graphic file (type png)
+<use Imagenes/00Algo.png>
+Package pdftex.def Info: Imagenes/00Algo.png  used on input line 41.
+(pdftex.def)             Requested size: 362.77264pt x 406.90112pt.
+)
+
+[38 <./Imagenes/00Algo.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[39
+
+] (./main.aux
+LaTeX Info: Redefining \sptext on input line 9.
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+ (./Capitulos/Convertidor ADC.aux) (./Capitulos/Sensores de Presion.aux) (./Capitulos/Convertidor DAC.aux) (./Capitulos/Filtros.aux))
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-09-10>
+ ***********
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 14209 strings out of 473578
+ 274040 string characters out of 5732242
+ 1105133 words of memory out of 5000000
+ 36940 multiletter control sequences out of 15000+600000
+ 565548 words of font info for 61 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 66i,12n,81p,1386b,2123s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/latxfont/lasy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (39 pages, 3164312 bytes).
+PDF statistics:
+ 274 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+

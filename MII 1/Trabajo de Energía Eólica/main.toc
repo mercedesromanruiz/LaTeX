@@ -1,0 +1,20 @@
+\babel@toc {spanish}{}\relax 
+\@ifundefined {tof@begin}{\global \let \tof@begin \relax \global \let \tof@finish \@empty \global \let \tof@starttags \@gobble \global \let \tof@stoptags \@gobble \global \let \tof@tagthis \@gobble \global \let \tof@untagthis \@gobble }\relax 
+\tof@begin 
+\contentsline {section}{\numberline {1}Introducción}{1}{}%
+\contentsline {section}{\numberline {2}Análisis preliminar de los datos de viento}{1}{}%
+\contentsline {section}{\numberline {3}Estudio estadístico del recurso eólico en la ubicación}{1}{}%
+\contentsline {subsection}{\numberline {\mbox {3-A}}Análisis estadístico anual}{1}{}%
+\contentsline {subsection}{\numberline {\mbox {3-B}}Análisis estadístico estacional}{1}{}%
+\contentsline {subsection}{\numberline {\mbox {3-C}}Análisis estadístico estacional por periodo}{2}{}%
+\contentsline {subsection}{\numberline {\mbox {3-D}}Histograma de velocidades}{2}{}%
+\contentsline {subsection}{\numberline {\mbox {3-E}}Rosa de los vientos}{3}{}%
+\contentsline {subsection}{\numberline {\mbox {3-F}}Perfil de velocidades}{3}{}%
+\contentsline {section}{\numberline {4}Potencia y energía del aerogenerador en la ubicación}{4}{}%
+\contentsline {subsection}{\numberline {\mbox {4-A}}Histograma de velocidades a la altura del buje}{4}{}%
+\contentsline {subsection}{\numberline {\mbox {4-B}}Ajuste de la distribución de Weibull}{4}{}%
+\contentsline {subsection}{\numberline {\mbox {4-C}}Curva de densidad de Weibull}{5}{}%
+\contentsline {subsection}{\numberline {\mbox {4-D}}Curva de energía proporcionada por el aerogenerador}{5}{}%
+\contentsline {section}{\numberline {5}Conclusiones}{5}{}%
+\contentsline {section}{Anexos}{7}{}%
+\tof@finish 

@@ -1,0 +1,47 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Puente de Wheatstone}{5}{}%
+\contentsline {section}{\numberline {1}Conexión remota}{7}{}%
+\contentsline {section}{\numberline {2}Ejemplo de aplicación: Anulación del efecto de la temperatura en galgas extensiométricas}{7}{}%
+\contentsline {chapter}{\numberline {2}Amplificador de Instrumentación}{9}{}%
+\contentsline {section}{\numberline {1}¿Por qué se utiliza un amplificador de instrumentación en vez de uno diferencial?}{10}{}%
+\contentsline {chapter}{\numberline {3}Cálculo del Ch del S\&H}{13}{}%
+\contentsline {section}{\numberline {1}Cálculo del condensador de holding $(C_h)$}{14}{}%
+\contentsline {chapter}{\numberline {4}Problema del Interruptor Abierto}{15}{}%
+\contentsline {section}{\numberline {1}Interruptores analógicos}{15}{}%
+\contentsline {subsection}{\numberline {1.1}El interruptor ideal y el interruptor real}{15}{}%
+\contentsline {subsubsection}{Errores en continua}{16}{}%
+\contentsline {subsubsection}{Errores en alterna}{16}{}%
+\contentsline {subsubsection}{Velocidad de conmutación}{16}{}%
+\contentsline {subsection}{\numberline {1.2}Parámetros de los interruptores analógicos}{17}{}%
+\contentsline {chapter}{\numberline {5}Convertidores A/D}{19}{}%
+\contentsline {section}{\numberline {1}Convertidores A/D paralelos}{19}{}%
+\contentsline {section}{\numberline {2}Convertidores de aproximaciones sucesivas}{19}{}%
+\contentsline {section}{\numberline {3}Convertidores tipo servo}{20}{}%
+\contentsline {section}{\numberline {4}Convertidores sigma-delta}{21}{}%
+\contentsline {section}{\numberline {5}Convertidores de rampa: simple y doble}{21}{}%
+\contentsline {chapter}{\numberline {6}Sensores de Presión}{23}{}%
+\contentsline {section}{\numberline {1}Elementos mecánicos}{24}{}%
+\contentsline {section}{\numberline {2}Elementos electromecánicos}{24}{}%
+\contentsline {section}{\numberline {3}Elementos electrónicos de vacío}{25}{}%
+\contentsline {chapter}{\numberline {7}Filtros}{27}{}%
+\contentsline {section}{\numberline {1}Ventajas de los filtros activos}{27}{}%
+\contentsline {section}{\numberline {2}Tipos de respuesta del filtro}{28}{}%
+\contentsline {subsection}{\numberline {2.1}Butterworth}{28}{}%
+\contentsline {subsection}{\numberline {2.2}Chebychev}{28}{}%
+\contentsline {subsection}{\numberline {2.3}Bessel}{29}{}%
+\contentsline {section}{\numberline {3}Algunas definiciones}{30}{}%
+\contentsline {section}{\numberline {4}Algunos tipos de filtros activos}{31}{}%
+\contentsline {subsection}{\numberline {4.1}El Sallen y Key (VCVS)}{31}{}%
+\contentsline {subsection}{\numberline {4.2}De retroalimentación múltiple}{31}{}%
+\contentsline {subsection}{\numberline {4.3}De variable de estado}{32}{}%
+\contentsline {subsection}{\numberline {4.4}El bicuadrático (Bicuad)}{32}{}%
+\contentsline {chapter}{\numberline {8}Sensores de Temperatura}{33}{}%
+\contentsline {section}{\numberline {1}Termómetro de vidrio}{33}{}%
+\contentsline {section}{\numberline {2}Termómetro bimetálico}{34}{}%
+\contentsline {section}{\numberline {3}Termómetros de bulbo y capilar}{34}{}%
+\contentsline {section}{\numberline {4}Termómetros de resistencia}{34}{}%
+\contentsline {section}{\numberline {5}Termistores}{35}{}%
+\contentsline {section}{\numberline {6}Termopares}{36}{}%
+\contentsline {section}{\numberline {7}Pirómetros de radiación}{36}{}%
+\contentsline {section}{\numberline {8}Pirómetros ópticos}{37}{}%
+\contentsline {section}{\numberline {9}Sensores monolíticos}{37}{}%

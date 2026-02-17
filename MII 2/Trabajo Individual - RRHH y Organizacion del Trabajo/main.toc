@@ -1,0 +1,9 @@
+\babel@toc {spanish}{}\relax 
+\@ifundefined {tof@begin}{\global \let \tof@begin \relax \global \let \tof@finish \@empty \global \let \tof@starttags \@gobble \global \let \tof@stoptags \@gobble \global \let \tof@tagthis \@gobble \global \let \tof@untagthis \@gobble }\relax 
+\tof@begin 
+\contentsline {chapter}{\numberline {1}Debate de artículos de RRHH en los equipos}{2}{}%
+\contentsline {chapter}{\numberline {2}Profesor invitado: procesos de selección}{4}{}%
+\contentsline {chapter}{\numberline {3}Matriz de identidad profesional}{6}{}%
+\contentsline {chapter}{\numberline {4}Profesor invitado: organización en la sociedad en red}{8}{}%
+\contentsline {chapter}{\numberline {5}Impresión de la asignatura}{10}{}%
+\tof@finish 

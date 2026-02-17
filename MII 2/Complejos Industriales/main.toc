@@ -1,0 +1,53 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Urbanismo industrial}{5}{chapter.1}%
+\contentsline {section}{\numberline {1}Planificación industrial}{5}{section.1.1}%
+\contentsline {section}{\numberline {2}Localización}{5}{section.1.2}%
+\contentsline {section}{\numberline {3}Proyecto}{5}{section.1.3}%
+\contentsline {subsection}{\numberline {3.1}Implantación}{5}{subsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Polígonos industriales}{5}{subsubsection.1.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Parques científico tecnológicos}{5}{subsubsection.1.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Parámetors urbanísticos}{5}{subsubsection.1.3.1.3}%
+\contentsline {subsection}{\numberline {3.2}Servicios}{6}{subsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Gestión de Licencias y Legalizaciones de las Instalaciones}{6}{subsubsection.1.3.2.1}%
+\contentsline {paragraph}{Actuaciones/Solicitudes a realizar}{6}{section*.2}%
+\contentsline {paragraph}{Actos sujetos a Licencia (RD 2187/1978 de 23 junio)}{6}{section*.3}%
+\contentsline {paragraph}{Tipos de Licencia}{6}{section*.4}%
+\contentsline {paragraph}{Partes interesadas en una concesión de Licencia}{6}{section*.5}%
+\contentsline {paragraph}{Procedimientos}{7}{section*.6}%
+\contentsline {paragraph}{Proceso de Licencias}{7}{section*.7}%
+\contentsline {paragraph}{Fases de tramitación de Licencias}{7}{section*.8}%
+\contentsline {subsubsection}{\numberline {3.2.2}Servicios e infraestructuras en poligonos industriales}{8}{subsubsection.1.3.2.2}%
+\contentsline {subsubsubsection}{\numberline {3.2.2.1}Abastecimiento de Agua.}{8}{subsubsubsection.1.3.2.2.1}%
+\contentsline {paragraph}{Criterios Básicos a Contemplar en una red de Abastecimiento de Agua.}{8}{section*.9}%
+\contentsline {paragraph}{Características de Redess de Abastecimiento de Agua.}{8}{section*.10}%
+\contentsline {chapter}{\numberline {2}Edificación industrial}{9}{chapter.2}%
+\contentsline {section}{\numberline {1}Criterios de diseño}{9}{section.2.1}%
+\contentsline {section}{\numberline {2}Estructura}{9}{section.2.2}%
+\contentsline {subsection}{\numberline {2.1}Cimentaciones}{9}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2}Estructuras de acero}{9}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Estructuras (prefabricadas) de hormigón}{9}{subsection.2.2.3}%
+\contentsline {section}{\numberline {3}Envolventes}{9}{section.2.3}%
+\contentsline {subsection}{\numberline {3.1}Fachadas}{9}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {3.2}Cubiertas}{9}{subsection.2.3.2}%
+\contentsline {chapter}{\numberline {3}Plantas industriales}{11}{chapter.3}%
+\contentsline {section}{\numberline {1}Introducción}{11}{section.3.1}%
+\contentsline {paragraph}{Concepto Complejo Industrial.}{11}{section*.11}%
+\contentsline {section}{\numberline {2}Ingeniería: Procesos, equipos y obra civil}{11}{section.3.2}%
+\contentsline {subsection}{\numberline {2.1}Proceso}{11}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {2.2}Equipos}{11}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Principales}{11}{subsubsection.3.2.2.1}%
+\contentsline {paragraph}{Generadores}{11}{section*.12}%
+\contentsline {subsubsection}{\numberline {2.2.2}Auxiliares}{11}{subsubsection.3.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Plantas Paquete}{11}{subsubsection.3.2.2.3}%
+\contentsline {section}{\numberline {3}Ingeniería: Implantación y control}{11}{section.3.3}%
+\contentsline {subsection}{\numberline {3.1}Implantación}{11}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.2}Control}{12}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Automatización - Función de un sistema de control}{12}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Sistema de control de una planta industrial - arquitectura y componentes del sistema de control}{12}{subsubsection.3.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Sistema de control de una panta industrial - lógicos y acciones de control}{12}{subsubsection.3.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Ejemplo P\&ID: Piping and Instrumentation Diagram}{12}{subsubsection.3.3.2.4}%
+\contentsline {section}{\numberline {4}Construcción: actividades previas, compras y planificación}{12}{section.3.4}%
+\contentsline {section}{\numberline {5}Construcción: ejecución}{12}{section.3.5}%
+\contentsline {section}{\numberline {6}Modularización de plantas. Diseño en maqueta 3d}{12}{section.3.6}%
+\contentsline {section}{\numberline {7}Inteligencia artificial en la industria}{12}{section.3.7}%
+\contentsline {section}{\numberline {8}Plantas Offshore}{12}{section.3.8}%

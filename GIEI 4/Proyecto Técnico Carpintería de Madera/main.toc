@@ -1,0 +1,240 @@
+\babel@toc {spanish}{}\relax 
+\@ifundefined {tof@begin}{\global \let \tof@begin \relax \global \let \tof@finish \@empty \global \let \tof@starttags \@gobble \global \let \tof@stoptags \@gobble \global \let \tof@tagthis \@gobble \global \let \tof@untagthis \@gobble }\relax 
+\tof@begin 
+\contentsline {part}{Memoria}{2}{}%
+\tof@starttags {Memoria}
+\contentsline {section}{\numberline {1}Objeto}{5}{}%
+\contentsline {section}{\numberline {2}Alcance}{5}{}%
+\contentsline {section}{\numberline {3}Antecedentes}{5}{}%
+\contentsline {section}{\numberline {4}Normas y referencias}{5}{}%
+\contentsline {subsection}{\numberline {4.1}Disposiciones legales y normas aplicadas}{5}{}%
+\contentsline {subsubsection}{Instalación de fontanería}{5}{}%
+\contentsline {subsubsection}{Instalación de saneamiento}{5}{}%
+\contentsline {subsubsection}{Instalación de iluminación}{6}{}%
+\contentsline {subsubsection}{Instalación eléctrica}{6}{}%
+\contentsline {subsection}{\numberline {4.2}Bibliografía}{6}{}%
+\contentsline {subsection}{\numberline {4.3}Programas de cálculo}{6}{}%
+\contentsline {subsection}{\numberline {4.4}Plan de gestión de la calidad aplicado durante la redacción del Proyecto}{6}{}%
+\contentsline {subsection}{\numberline {4.5}Otras referencias}{7}{}%
+\contentsline {section}{\numberline {5}Definiciones y abreviaturas}{9}{}%
+\contentsline {subsection}{\numberline {5.1}Instalación de fontanería}{9}{}%
+\contentsline {subsection}{\numberline {5.2}Instalación de saneamiento}{10}{}%
+\contentsline {subsection}{\numberline {5.3}Instalación de iluminación}{10}{}%
+\contentsline {subsection}{\numberline {5.4}Instalación eléctrica}{11}{}%
+\contentsline {section}{\numberline {6}Requisitos de diseño}{11}{}%
+\contentsline {subsubsection}{Requisitos de las instalaciones}{11}{}%
+\contentsline {subsubsection}{Dimensiones del espacio}{11}{}%
+\contentsline {section}{\numberline {7}Descripción del proyecto}{11}{}%
+\contentsline {subsubsection}{Proceso productivo}{11}{}%
+\contentsline {subsubsection}{Maquinaria empleada en el taller}{12}{}%
+\contentsline {section}{\numberline {8}Análisis de soluciones}{15}{}%
+\contentsline {subsection}{\numberline {8.1}Instalación de fontanería}{15}{}%
+\contentsline {subsection}{\numberline {8.2}Instalación de saneamiento}{16}{}%
+\contentsline {subsection}{\numberline {8.3}Instalación de iluminación}{16}{}%
+\contentsline {subsection}{\numberline {8.4}Instalación eléctrica}{17}{}%
+\contentsline {section}{\numberline {9}Resultados finales}{17}{}%
+\contentsline {subsection}{\numberline {9.1}Instalación de fontanería}{17}{}%
+\contentsline {subsubsection}{Acometida}{17}{}%
+\contentsline {subsubsection}{Instalación general}{17}{}%
+\contentsline {subsubsection}{Instalación de agua fría}{18}{}%
+\contentsline {subsubsection}{Instalación de agua caliente sanitaria (ACS)}{19}{}%
+\contentsline {subsubsection}{Grupo de presión}{19}{}%
+\contentsline {subsection}{\numberline {9.2}Instalación de saneamiento}{19}{}%
+\contentsline {subsubsection}{Saneamiento pluvial}{19}{}%
+\contentsline {subsubsection}{Saneamiento Residual}{20}{}%
+\contentsline {subsection}{\numberline {9.3}Instalación de iluminación}{21}{}%
+\contentsline {subsubsection}{Resultados obtenidos en DIALux Evo}{21}{}%
+\contentsline {subsubsection}{Potencia Total Instalada}{22}{}%
+\contentsline {subsubsection}{Sistema de control de luminarias}{22}{}%
+\contentsline {subsection}{\numberline {9.4}Instalación eléctrica}{23}{}%
+\contentsline {subsubsection}{Potencia total de la instalación}{23}{}%
+\contentsline {subsubsection}{Caja general de protección}{23}{}%
+\contentsline {subsubsection}{Línea general de alimentación}{23}{}%
+\contentsline {subsubsection}{Contadores}{23}{}%
+\contentsline {subsubsection}{Derivaciones individuales y subcircuitos}{23}{}%
+\contentsline {section}{\numberline {10}Planificación}{25}{}%
+\contentsline {section}{\numberline {11}Orden de prioridad entre los documentos básicos}{25}{}%
+\tof@stoptags {Memoria}
+\contentsline {part}{Anexos}{25}{}%
+\tof@starttags {Anexos}
+\contentsline {chapter}{Anexo I: Fontanería}{28}{}%
+\contentsline {section}{\numberline {12}Introducción}{29}{}%
+\contentsline {section}{\numberline {13}Características de la nave a considerar}{29}{}%
+\contentsline {section}{\numberline {14}Condiciones mínimas del suministro de agua}{30}{}%
+\contentsline {section}{\numberline {15}Cálculos}{30}{}%
+\contentsline {subsection}{\numberline {15.1}Acometida}{30}{}%
+\contentsline {subsection}{\numberline {15.2}Dimensionado de las tuberías de la instalación}{31}{}%
+\contentsline {subsection}{\numberline {15.3}Pérdidas de carga}{32}{}%
+\contentsline {subsection}{\numberline {15.4}Presión de suministro}{34}{}%
+\contentsline {subsection}{\numberline {15.5}Cálculo del grupo de presión}{34}{}%
+\contentsline {subsubsection}{Cálculo del depósito auxiliar de alimentación}{34}{}%
+\contentsline {subsubsection}{Cálculo de las bombas}{35}{}%
+\contentsline {subsubsection}{Cálculo del depósito de presión}{36}{}%
+\contentsline {subsection}{\numberline {15.6}Instalación de ACS}{36}{}%
+\contentsline {chapter}{Anexo II: Saneamiento}{37}{}%
+\contentsline {section}{\numberline {16}Introducción}{39}{}%
+\contentsline {section}{\numberline {17}Saneamiento Pluvial}{39}{}%
+\contentsline {subsection}{\numberline {17.1}Mapa de isoyetas y zonas pluviometricas}{39}{}%
+\contentsline {subsubsection}{Factor de corrección}{40}{}%
+\contentsline {subsection}{\numberline {17.2}Canalón}{40}{}%
+\contentsline {subsection}{\numberline {17.3}Bajante}{41}{}%
+\contentsline {subsection}{\numberline {17.4}Colectores}{41}{}%
+\contentsline {subsubsection}{Cubiertas}{41}{}%
+\contentsline {subsubsection}{Aparcamientos}{42}{}%
+\contentsline {subsection}{\numberline {17.5}Pozo general y acometida}{42}{}%
+\contentsline {section}{\numberline {18}Saneamiento Residuales}{42}{}%
+\contentsline {subsection}{\numberline {18.1}Derivaciones individuales}{43}{}%
+\contentsline {subsubsection}{Baño masculino y femenino}{43}{}%
+\contentsline {subsubsection}{Baño de minusválidos}{43}{}%
+\contentsline {subsubsection}{Vestuarios}{43}{}%
+\contentsline {subsection}{\numberline {18.2}Bajantes vestuarios}{44}{}%
+\contentsline {subsection}{\numberline {18.3}Colectores horizontales}{44}{}%
+\contentsline {chapter}{Anexo III: Iluminación}{44}{}%
+\contentsline {section}{\numberline {19}Introducción}{46}{}%
+\contentsline {section}{\numberline {20}Consideraciones para el cálculo de las luminarias}{46}{}%
+\contentsline {section}{\numberline {21}Parámetros de iluminación a cumplir según la estancia}{46}{}%
+\contentsline {section}{\numberline {22}Resultados de la iluminación obtenida en DIALux}{47}{}%
+\contentsline {subsection}{\numberline {22.1}Luminarias empleadas}{47}{}%
+\contentsline {subsection}{\numberline {22.2}Planta de Producción}{48}{}%
+\contentsline {subsection}{\numberline {22.3}Baño Femenino}{49}{}%
+\contentsline {subsection}{\numberline {22.4}Baño Masculino}{50}{}%
+\contentsline {subsection}{\numberline {22.5}Baño Minusválidos}{51}{}%
+\contentsline {subsection}{\numberline {22.6}Zona Exposición}{52}{}%
+\contentsline {subsection}{\numberline {22.7}Oficina}{53}{}%
+\contentsline {subsection}{\numberline {22.8}Almacén}{54}{}%
+\contentsline {subsection}{\numberline {22.9}Vestuario Femenino}{55}{}%
+\contentsline {subsection}{\numberline {22.10}Vestuario Masculino}{56}{}%
+\contentsline {subsection}{\numberline {22.11}Zona Descanso}{57}{}%
+\contentsline {section}{\numberline {23}Datos Técnicos de la Luminaria Empleada.}{57}{}%
+\contentsline {subsection}{CoreLine Downlight gen5 DN142B 20S PSU-E 1xLED/3000K UGR19}{58}{}%
+\contentsline {subsection}{Philips - RC132V G5 All-in PSU W60L60 OC 29S/830 NO}{59}{}%
+\contentsline {subsection}{Philips - RC132V G5 PSU W30L120 NOC 36S/840 NO}{60}{}%
+\contentsline {subsection}{Philips - RC132V SIA W60L60 IA4 OC 43S/840 NO}{61}{}%
+\contentsline {subsection}{Philips - SP530P PSD L570 OC LED17S/940 NO}{62}{}%
+\contentsline {subsection}{Philips - TRUE CIRCLE RC 1xLED20S/830 PSP}{63}{}%
+\contentsline {chapter}{Anexo IV: Electricidad}{64}{}%
+\contentsline {section}{\numberline {24}Introducción}{65}{}%
+\contentsline {section}{\numberline {25}Criterios de comprobación de los conductores}{65}{}%
+\contentsline {subsection}{\numberline {25.1}Criterio de la intensidad máxima admisible}{65}{}%
+\contentsline {subsubsection}{Monofásica}{65}{}%
+\contentsline {subsubsection}{Trifásica}{65}{}%
+\contentsline {subsection}{\numberline {25.2}Criterio de la máxima caída de tensión}{66}{}%
+\contentsline {subsubsection}{Monofásica}{66}{}%
+\contentsline {subsubsection}{Trifásica}{66}{}%
+\contentsline {subsection}{\numberline {25.3}Criterio de la intensidad máxima de cortocircuito}{67}{}%
+\contentsline {section}{\numberline {26}Sección, aislamiento, montaje y protección de los conductores}{67}{}%
+\contentsline {subsection}{\numberline {26.1}Planta de producción}{68}{}%
+\contentsline {subsection}{\numberline {26.2}Zona de exposición}{69}{}%
+\contentsline {subsection}{\numberline {26.3}Oficina}{69}{}%
+\contentsline {subsection}{\numberline {26.4}Almacén}{69}{}%
+\contentsline {subsection}{\numberline {26.5}Baños}{70}{}%
+\contentsline {subsection}{\numberline {26.6}Vestuarios}{70}{}%
+\contentsline {section}{\numberline {27}Protecciones}{70}{}%
+\contentsline {section}{\numberline {28}Potencia total de la instalación}{71}{}%
+\contentsline {subsection}{\numberline {28.1}Caja general de protección}{72}{}%
+\contentsline {subsection}{\numberline {28.2}Línea general de alimentación}{72}{}%
+\contentsline {subsection}{\numberline {28.3}Contadores}{72}{}%
+\tof@stoptags {Anexos}
+\contentsline {part}{Planos}{72}{}%
+\tof@starttags {Planos}
+\contentsline {section}{Plano 1: Plano Situación}{75}{}%
+\contentsline {section}{Plano 2: Plano Emplazamiento}{76}{}%
+\contentsline {section}{Plano 3: Plano de Distribución General}{77}{}%
+\contentsline {section}{Plano 4: Plano Instalación de Fontanería}{78}{}%
+\contentsline {section}{Plano 7: Plano Instalación de Iluminación: Luminarias}{79}{}%
+\contentsline {section}{Plano 8: Plano Instalación de Iluminación: Parámetros Lumínicos}{80}{}%
+\contentsline {section}{Plano 9: Esquema Unifilar 1}{81}{}%
+\contentsline {section}{Plano 10: Esquema Unifilar 2}{82}{}%
+\contentsline {section}{Plano 11: Esquema Unifilar 3}{83}{}%
+\tof@stoptags {Planos}
+\contentsline {part}{Pliego de Condiciones}{84}{}%
+\tof@starttags {Pliego}
+\contentsline {section}{\numberline {29}Introducción y descripción del proyecto}{86}{}%
+\contentsline {subsection}{\numberline {29.1}Objeto del Pliego}{86}{}%
+\contentsline {subsection}{\numberline {29.2}Documentos del proyecto}{86}{}%
+\contentsline {section}{\numberline {30}Condiciones generales}{86}{}%
+\contentsline {subsection}{\numberline {30.1}Condiciones generales facultativas}{86}{}%
+\contentsline {subsubsection}{Obras que comprende el proyecto}{87}{}%
+\contentsline {subsubsection}{Inicio de obras}{87}{}%
+\contentsline {subsubsection}{Términos de recepción}{87}{}%
+\contentsline {subsubsection}{Criterios de medición}{87}{}%
+\contentsline {subsection}{\numberline {30.2}Condiciones generales económicas}{88}{}%
+\contentsline {subsubsection}{Garantía o Fianza. Concepto y Condiciones de devolución}{88}{}%
+\contentsline {subsubsection}{Precios contratados}{88}{}%
+\contentsline {subsubsection}{Precios contradictorios}{88}{}%
+\contentsline {subsubsection}{Indemnizaciones por retraso}{88}{}%
+\contentsline {subsubsection}{Revisiones de precios}{88}{}%
+\contentsline {subsubsection}{Mejoras y Modificados de obra, instalaciones y maquinaria}{88}{}%
+\contentsline {subsubsection}{Valoración y abono de trabajos}{89}{}%
+\contentsline {subsubsection}{Seguros y conservación de la obra, maquinaria e instalaciones}{89}{}%
+\contentsline {subsubsection}{Condiciones de pago}{89}{}%
+\contentsline {subsection}{\numberline {30.3}Condiciones generales legales}{89}{}%
+\contentsline {subsubsection}{Obligaciones y responsabilidades de la dirección técnica}{89}{}%
+\contentsline {subsubsection}{Obligaciones y responsabilidades del Contratista}{90}{}%
+\contentsline {subsubsection}{Obligaciones y responsabilidades del Coordinador de Seguridad y Salud}{92}{}%
+\contentsline {subsubsection}{Obligaciones y responsabilidades del Propietario}{92}{}%
+\contentsline {section}{\numberline {31}Condiciones técnicas particulares}{93}{}%
+\contentsline {subsection}{\numberline {31.1}Suministro de agua}{93}{}%
+\contentsline {subsubsection}{Generalidades}{93}{}%
+\contentsline {subsubsection}{Reglamentos de aplicación}{93}{}%
+\contentsline {subsubsection}{Montaje, utilización y conservación}{93}{}%
+\contentsline {subsubsection}{Señalización}{93}{}%
+\contentsline {subsubsection}{Inspecciones y pruebas}{94}{}%
+\contentsline {subsection}{\numberline {31.2}Saneamiento}{95}{}%
+\contentsline {subsubsection}{Normativa de aplicación}{95}{}%
+\contentsline {subsubsection}{Condiciones del proceso de ejecución de las obras}{96}{}%
+\contentsline {subsubsection}{Control y criterios de aceptación y rechazo}{96}{}%
+\contentsline {subsubsection}{Condiciones de uso y mantenimiento}{96}{}%
+\contentsline {subsection}{\numberline {31.3}Iluminación}{97}{}%
+\contentsline {subsubsection}{Luminarias}{97}{}%
+\contentsline {subsubsection}{Instalación de las lámparas}{97}{}%
+\contentsline {subsection}{\numberline {31.4}Suministro eléctrico}{98}{}%
+\contentsline {subsubsection}{Campo de aplicación}{98}{}%
+\contentsline {subsubsection}{Normativa de aplicación}{98}{}%
+\contentsline {subsubsection}{Ejecución o montaje de la instalación}{101}{}%
+\contentsline {subsubsection}{Preparación del soporte de la instalación eléctrica}{102}{}%
+\contentsline {subsubsection}{Comprobaciones iniciales}{102}{}%
+\contentsline {subsubsection}{Características, calidades y condiciones generales de los materiales eléctricos}{103}{}%
+\contentsline {subsubsection}{Condiciones de mantenimiento y uso}{104}{}%
+\contentsline {subsubsection}{Inspecciones periódicas}{105}{}%
+\tof@stoptags {Pliego}
+\contentsline {part}{Estado de Mediciones}{105}{}%
+\tof@starttags {Estado}
+\contentsline {section}{\numberline {32}Instalación de fontanería}{108}{}%
+\contentsline {subsection}{\numberline {32.1}Acometidas}{108}{}%
+\contentsline {subsection}{\numberline {32.2}Tubos de alimentación}{108}{}%
+\contentsline {subsection}{\numberline {32.3}Contadores}{108}{}%
+\contentsline {subsection}{\numberline {32.4}Depósitos/grupos de presión}{109}{}%
+\contentsline {subsection}{\numberline {32.5}Instalación interior}{109}{}%
+\contentsline {subsection}{\numberline {32.6}Elementos}{109}{}%
+\contentsline {section}{\numberline {33}Instalación de saneamiento}{110}{}%
+\contentsline {subsection}{\numberline {33.1}Bajantes}{110}{}%
+\contentsline {subsection}{\numberline {33.2}Canalones}{110}{}%
+\contentsline {subsection}{\numberline {33.3}Derivaciones individuales}{110}{}%
+\contentsline {subsection}{\numberline {33.4}Colectores suspendidos}{111}{}%
+\contentsline {section}{\numberline {34}Instalación de iluminación}{112}{}%
+\contentsline {subsection}{\numberline {34.1}Interior}{112}{}%
+\contentsline {section}{\numberline {35}Instalación eléctrica}{113}{}%
+\contentsline {subsection}{\numberline {35.1}Puesta a tierra}{113}{}%
+\contentsline {subsection}{\numberline {35.2}Canalizaciones}{113}{}%
+\contentsline {subsection}{\numberline {35.3}Cables}{113}{}%
+\contentsline {subsection}{\numberline {35.4}Cajas generales de protección}{113}{}%
+\tof@stoptags {Estado}
+\contentsline {part}{Presupuesto}{113}{}%
+\tof@starttags {Presupuesto}
+\contentsline {section}{\numberline {36}Introducción}{116}{}%
+\contentsline {section}{\numberline {37}Fontanería}{116}{}%
+\contentsline {subsection}{\numberline {37.1}Acometida}{116}{}%
+\contentsline {subsection}{\numberline {37.2}Baño masculino, femenino, de minusválidos y vestuarios}{117}{}%
+\contentsline {section}{\numberline {38}Saneamiento pluvial}{118}{}%
+\contentsline {subsection}{\numberline {38.1}Canalones}{118}{}%
+\contentsline {subsection}{\numberline {38.2}Bajantes}{119}{}%
+\contentsline {subsection}{\numberline {38.3}Colectores}{120}{}%
+\contentsline {section}{\numberline {39}Saneamiento Residual}{122}{}%
+\contentsline {subsection}{\numberline {39.1}Baño masculino, femenino, de minusválidos y vestuarios}{122}{}%
+\contentsline {subsection}{\numberline {39.2}Bajantes vestuarios}{124}{}%
+\contentsline {subsection}{\numberline {39.3}Colectores horizontales}{125}{}%
+\contentsline {section}{\numberline {40}Iluminación}{126}{}%
+\contentsline {section}{\numberline {41}Instalación Eléctrica}{126}{}%
+\tof@stoptags {Presupuesto}
+\tof@finish 

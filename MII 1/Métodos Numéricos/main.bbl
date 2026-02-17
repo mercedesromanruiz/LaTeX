@@ -1,0 +1,216 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{5}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=e6dd82b7f0712dc67e1494430753c3e6}{%
+           family={Cheney},
+           familyi={C\bibinitperiod},
+           given={David\bibnamedelimb Kincaid;\bibnamedelima Ward},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{e6dd82b7f0712dc67e1494430753c3e6}
+      \strng{fullhash}{e6dd82b7f0712dc67e1494430753c3e6}
+      \strng{fullhashraw}{e6dd82b7f0712dc67e1494430753c3e6}
+      \strng{bibnamehash}{e6dd82b7f0712dc67e1494430753c3e6}
+      \strng{authorbibnamehash}{e6dd82b7f0712dc67e1494430753c3e6}
+      \strng{authornamehash}{e6dd82b7f0712dc67e1494430753c3e6}
+      \strng{authorfullhash}{e6dd82b7f0712dc67e1494430753c3e6}
+      \strng{authorfullhashraw}{e6dd82b7f0712dc67e1494430753c3e6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Numerical Analysis. Mathematics of Scientific Computing}
+      \true{nocite}
+    \endentry
+    \entry{2}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=540e1d83086d6980b4d9a8e6e73cd5de}{%
+           family={Faires},
+           familyi={F\bibinitperiod},
+           given={Richard\bibnamedelimb L.\bibnamedelimi Burden;\bibnamedelimb J.\bibnamedelimi Douglas},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{540e1d83086d6980b4d9a8e6e73cd5de}
+      \strng{fullhash}{540e1d83086d6980b4d9a8e6e73cd5de}
+      \strng{fullhashraw}{540e1d83086d6980b4d9a8e6e73cd5de}
+      \strng{bibnamehash}{540e1d83086d6980b4d9a8e6e73cd5de}
+      \strng{authorbibnamehash}{540e1d83086d6980b4d9a8e6e73cd5de}
+      \strng{authornamehash}{540e1d83086d6980b4d9a8e6e73cd5de}
+      \strng{authorfullhash}{540e1d83086d6980b4d9a8e6e73cd5de}
+      \strng{authorfullhashraw}{540e1d83086d6980b4d9a8e6e73cd5de}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Numerical Analysis}
+      \true{nocite}
+    \endentry
+    \entry{7}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=540e1d83086d6980b4d9a8e6e73cd5de}{%
+           family={Faires},
+           familyi={F\bibinitperiod},
+           given={Richard\bibnamedelimb L.\bibnamedelimi Burden;\bibnamedelimb J.\bibnamedelimi Douglas},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{540e1d83086d6980b4d9a8e6e73cd5de}
+      \strng{fullhash}{540e1d83086d6980b4d9a8e6e73cd5de}
+      \strng{fullhashraw}{540e1d83086d6980b4d9a8e6e73cd5de}
+      \strng{bibnamehash}{540e1d83086d6980b4d9a8e6e73cd5de}
+      \strng{authorbibnamehash}{540e1d83086d6980b4d9a8e6e73cd5de}
+      \strng{authornamehash}{540e1d83086d6980b4d9a8e6e73cd5de}
+      \strng{authorfullhash}{540e1d83086d6980b4d9a8e6e73cd5de}
+      \strng{authorfullhashraw}{540e1d83086d6980b4d9a8e6e73cd5de}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Numerical Analysis}
+      \true{nocite}
+    \endentry
+    \entry{4}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=7468f57882ab9db1322dd9edea4beec5}{%
+           family={Fillion},
+           familyi={F\bibinitperiod},
+           given={Robert\bibnamedelimb M.\bibnamedelimi Corless;\bibnamedelima Nicolas},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{7468f57882ab9db1322dd9edea4beec5}
+      \strng{fullhash}{7468f57882ab9db1322dd9edea4beec5}
+      \strng{fullhashraw}{7468f57882ab9db1322dd9edea4beec5}
+      \strng{bibnamehash}{7468f57882ab9db1322dd9edea4beec5}
+      \strng{authorbibnamehash}{7468f57882ab9db1322dd9edea4beec5}
+      \strng{authornamehash}{7468f57882ab9db1322dd9edea4beec5}
+      \strng{authorfullhash}{7468f57882ab9db1322dd9edea4beec5}
+      \strng{authorfullhashraw}{7468f57882ab9db1322dd9edea4beec5}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Graduate Introduction to Numerical Methods, From the Viewpoint of Backward Error Analysis}
+      \true{nocite}
+    \endentry
+    \entry{6}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=48c9c127feed47f563af418f0ac404bf}{%
+           family={Guermond},
+           familyi={G\bibinitperiod},
+           given={Jean-Luc},
+           giveni={J\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{48c9c127feed47f563af418f0ac404bf}
+      \strng{fullhash}{48c9c127feed47f563af418f0ac404bf}
+      \strng{fullhashraw}{48c9c127feed47f563af418f0ac404bf}
+      \strng{bibnamehash}{48c9c127feed47f563af418f0ac404bf}
+      \strng{authorbibnamehash}{48c9c127feed47f563af418f0ac404bf}
+      \strng{authornamehash}{48c9c127feed47f563af418f0ac404bf}
+      \strng{authorfullhash}{48c9c127feed47f563af418f0ac404bf}
+      \strng{authorfullhashraw}{48c9c127feed47f563af418f0ac404bf}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Finite Element Interpolation}
+      \true{nocite}
+    \endentry
+    \entry{3}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=145cc2b3805d5f27af22c1a104dfaf8e}{%
+           family={P.Chartier},
+           familyi={P\bibinitperiod},
+           given={Anne\bibnamedelimb Greenbaum;\bibnamedelima Timothy},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{145cc2b3805d5f27af22c1a104dfaf8e}
+      \strng{fullhash}{145cc2b3805d5f27af22c1a104dfaf8e}
+      \strng{fullhashraw}{145cc2b3805d5f27af22c1a104dfaf8e}
+      \strng{bibnamehash}{145cc2b3805d5f27af22c1a104dfaf8e}
+      \strng{authorbibnamehash}{145cc2b3805d5f27af22c1a104dfaf8e}
+      \strng{authornamehash}{145cc2b3805d5f27af22c1a104dfaf8e}
+      \strng{authorfullhash}{145cc2b3805d5f27af22c1a104dfaf8e}
+      \strng{authorfullhashraw}{145cc2b3805d5f27af22c1a104dfaf8e}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Numerical Methods: Design, Analysis, and Computer Implementarion of Algorithms}
+      \field{year}{212}
+      \true{nocite}
+    \endentry
+    \entry{1}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=b599349a4fbde633ab41337227e962a5}{%
+           family={Sale},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi Quarteroni;\bibnamedelimb R.\bibnamedelimi Sacco;\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim Q\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{b599349a4fbde633ab41337227e962a5}
+      \strng{fullhash}{b599349a4fbde633ab41337227e962a5}
+      \strng{fullhashraw}{b599349a4fbde633ab41337227e962a5}
+      \strng{bibnamehash}{b599349a4fbde633ab41337227e962a5}
+      \strng{authorbibnamehash}{b599349a4fbde633ab41337227e962a5}
+      \strng{authornamehash}{b599349a4fbde633ab41337227e962a5}
+      \strng{authorfullhash}{b599349a4fbde633ab41337227e962a5}
+      \strng{authorfullhashraw}{b599349a4fbde633ab41337227e962a5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Numerical Mathematics}
+      \field{year}{2007}
+      \true{nocite}
+    \endentry
+    \entry{8}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=c9c88690e82e099f9c8a4399592631c9}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={Jorge\bibnamedelimb Nocedal;\bibnamedelimb Stephen\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c9c88690e82e099f9c8a4399592631c9}
+      \strng{fullhash}{c9c88690e82e099f9c8a4399592631c9}
+      \strng{fullhashraw}{c9c88690e82e099f9c8a4399592631c9}
+      \strng{bibnamehash}{c9c88690e82e099f9c8a4399592631c9}
+      \strng{authorbibnamehash}{c9c88690e82e099f9c8a4399592631c9}
+      \strng{authornamehash}{c9c88690e82e099f9c8a4399592631c9}
+      \strng{authorfullhash}{c9c88690e82e099f9c8a4399592631c9}
+      \strng{authorfullhashraw}{c9c88690e82e099f9c8a4399592631c9}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Numerical Optimization}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

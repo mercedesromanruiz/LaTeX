@@ -1,0 +1,97 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Introducción}{7}{}%
+\contentsline {section}{\numberline {1}Espacios Vectoriales}{7}{}%
+\contentsline {section}{\numberline {2}Matrices}{7}{}%
+\contentsline {section}{\numberline {3}Operaciones con matrices}{8}{}%
+\contentsline {subsection}{\numberline {3.1}Matrices y transformaciones lineales}{8}{}%
+\contentsline {section}{\numberline {4}Bien planteamiento y número de condición de un problema}{8}{}%
+\contentsline {subsection}{\numberline {4.1}Relaciones entre Estabilidad y Convergencia}{9}{}%
+\contentsline {section}{\numberline {5}Fuentes de Error en Modelos Computacionales}{10}{}%
+\contentsline {section}{\numberline {6}Representación en Computadora de Números}{11}{}%
+\contentsline {subsection}{\numberline {6.1}El Sistema Posicional}{11}{}%
+\contentsline {chapter}{\numberline {2}Diferenciación Numérica}{13}{}%
+\contentsline {section}{\numberline {1}Diferenciación Numérica}{13}{}%
+\contentsline {subsection}{\numberline {1.1}Formulas de tres puntos}{14}{}%
+\contentsline {subsubsection}{Fórmula de tres puntos hacia delante}{14}{}%
+\contentsline {subsubsection}{Fórmula de tres puntos hacia atrás}{14}{}%
+\contentsline {subsubsection}{Fórmula de tres puntos centrada}{14}{}%
+\contentsline {subsection}{\numberline {1.2}Fórmulas de Cinco Puntos}{14}{}%
+\contentsline {subsubsection}{Fórmula de Cinco Puntos en el Punto Medio}{14}{}%
+\contentsline {subsubsection}{Fórmula de Cinco Puntos en el Extremo}{14}{}%
+\contentsline {subsection}{\numberline {1.3}Inestabilidad del Error de Redondeo}{14}{}%
+\contentsline {chapter}{\numberline {3}Número de Condición de una Matriz}{17}{}%
+\contentsline {section}{\numberline {1}Normas de Matrices}{17}{}%
+\contentsline {section}{\numberline {2}Análisis de Estabilidad de Sistemas Lineales}{19}{}%
+\contentsline {subsection}{\numberline {2.1}El Número de Condición de una Matriz}{19}{}%
+\contentsline {section}{\numberline {3}Condicioneamiento de Sistemas Lineales}{19}{}%
+\contentsline {subsection}{\numberline {3.1}Normas}{19}{}%
+\contentsline {subsection}{\numberline {3.2}Sensibilidad de las Soluciones de Sistemas Lineales}{20}{}%
+\contentsline {chapter}{\numberline {4}Interpolación}{23}{}%
+\contentsline {section}{\numberline {1}Interpolación Polinómica}{23}{}%
+\contentsline {subsection}{\numberline {1.1}Forma de Newton del Polinomio de Interpolación}{23}{}%
+\contentsline {subsection}{\numberline {1.2}Forma de Lagrange del Polinomio de Interpolación}{24}{}%
+\contentsline {subsection}{\numberline {1.3}El Error en la Interpolación Polinómica}{24}{}%
+\contentsline {subsection}{\numberline {1.4}Polinomios de Chebychev}{25}{}%
+\contentsline {subsection}{\numberline {1.5}Eligiendo los Nodos}{25}{}%
+\contentsline {subsection}{\numberline {1.6}El Teorema de Aproximación de Weiertrass}{25}{}%
+\contentsline {section}{\numberline {2}Interpolación Unidimensional}{25}{}%
+\contentsline {subsection}{\numberline {2.1}La malla}{25}{}%
+\contentsline {subsection}{\numberline {2.2}El elemento finito $\mathbb {P}_1$ de Lagrange}{26}{}%
+\contentsline {subsection}{\numberline {2.3}El elemento finito $\mathbb {P}_k$ de Lagrange}{26}{}%
+\contentsline {chapter}{\numberline {5}Integración}{29}{}%
+\contentsline {section}{\numberline {1}Elementos de integración numérica}{29}{}%
+\contentsline {subsection}{\numberline {1.1}La regla trapezoidal}{29}{}%
+\contentsline {subsubsection}{Regla trapezoidal:}{29}{}%
+\contentsline {subsection}{\numberline {1.2}Regla de Simpson}{30}{}%
+\contentsline {subsubsection}{Regla de Simpson:}{31}{}%
+\contentsline {subsection}{\numberline {1.3}Precisión de medición}{31}{}%
+\contentsline {section}{\numberline {2}Integración numérica compuesta}{31}{}%
+\contentsline {chapter}{\numberline {6}Raíces de Ecuaciones y Sistemas No Lineales}{33}{}%
+\contentsline {section}{\numberline {1}Soluciones de las ecuaciones en una variable}{33}{}%
+\contentsline {subsection}{\numberline {1.1}El método de bisección}{33}{}%
+\contentsline {subsection}{\numberline {1.2}Iteración de punto fijo}{33}{}%
+\contentsline {subsubsection}{Iteración de punto fijo}{34}{}%
+\contentsline {subsection}{\numberline {1.3}Método de Newton}{35}{}%
+\contentsline {subsubsection}{Convergencia con el método de Newton}{35}{}%
+\contentsline {subsubsection}{El método de la secante}{35}{}%
+\contentsline {subsubsection}{El método de posición falsa}{36}{}%
+\contentsline {subsection}{\numberline {1.4}Análisis de error para métodos iterativos}{36}{}%
+\contentsline {subsubsection}{Orden de convergencia}{36}{}%
+\contentsline {subsubsection}{Raíces múltiples}{38}{}%
+\contentsline {section}{\numberline {2}Soluciones numéricas de sistemas de ecuaciones no lineales}{38}{}%
+\contentsline {subsection}{\numberline {2.1}Puntos fijos para funciones de varias variables}{38}{}%
+\contentsline {subsubsection}{Puntos fijos en $\mathbb {R}^n$}{38}{}%
+\contentsline {subsection}{\numberline {2.2}Método de Newton}{39}{}%
+\contentsline {subsubsection}{La matriz jacobiana}{39}{}%
+\contentsline {chapter}{\numberline {7}Optimización Sin Restricciones y Mínimos Cuadrados}{41}{}%
+\contentsline {section}{\numberline {1}Optimización Sin Restricciones}{41}{}%
+\contentsline {subsection}{\numberline {1.1}Métodos de descenso}{41}{}%
+\contentsline {subsection}{\numberline {1.2}Técnicas de búsqueda en línea}{42}{}%
+\contentsline {subsection}{\numberline {1.3}Métodos tipo Newton para la minimización de funciones}{43}{}%
+\contentsline {subsection}{\numberline {1.4}Método de Quasi-Newton}{43}{}%
+\contentsline {section}{\numberline {2}Problemas de Mínimos Cuadrados}{43}{}%
+\contentsline {subsection}{\numberline {2.1}Las Ecuaciones Normales}{43}{}%
+\contentsline {subsection}{\numberline {2.2}Descomposición QR}{44}{}%
+\contentsline {chapter}{\numberline {8}Optimización Con Restricciones}{47}{}%
+\contentsline {section}{\numberline {1}Introducción}{47}{}%
+\contentsline {section}{\numberline {2}Condiciones necesarias de Kuhn-Tucker para la programación no lineal}{48}{}%
+\contentsline {section}{\numberline {3}Método del Penalti}{48}{}%
+\contentsline {section}{\numberline {4}Método de los multiplicadores de Lagrange}{49}{}%
+\contentsline {chapter}{\numberline {9}Métodos para Ecuaciones Diferenciales Ordinarias}{51}{}%
+\contentsline {section}{\numberline {1}Existencia y unicidad de las soluciones}{51}{}%
+\contentsline {subsection}{\numberline {1.1}Teoría elemental de problemas de valor inicial}{51}{}%
+\contentsline {section}{\numberline {2}Métodos de un paso}{52}{}%
+\contentsline {subsection}{\numberline {2.1}Método de Euler}{52}{}%
+\contentsline {subsubsection}{Cotas del error para el método de Euler}{52}{}%
+\contentsline {subsection}{\numberline {2.2}Método del medio punto}{53}{}%
+\contentsline {subsection}{\numberline {2.3}Métodos basados en fórmulas de cuadratura}{54}{}%
+\contentsline {subsection}{\numberline {2.4}Método de Runge - Kutta}{54}{}%
+\contentsline {subsubsection}{Métodos de Runge-Kutta de orden 2}{55}{}%
+\contentsline {subsubsection}{Método de punto medio}{55}{}%
+\contentsline {subsubsection}{Méotodo modificado de Euler}{55}{}%
+\contentsline {subsubsection}{Métodos de Runge-Kutta de orden superior}{56}{}%
+\contentsline {subsubsection}{Runge-Kutta de orden 4}{56}{}%
+\contentsline {subsection}{\numberline {2.5}Analisis de métodos de un paso}{56}{}%
+\contentsline {section}{\numberline {3}Ecuaciones Stiff}{56}{}%
+\contentsline {subsection}{\numberline {3.1}Estabilidad Absoluta}{57}{}%
+\contentsline {subsection}{\numberline {3.2}Métodos de Runge–Kutta Implícitos (IRK)}{57}{}%

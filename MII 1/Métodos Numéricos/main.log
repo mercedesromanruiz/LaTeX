@@ -1,0 +1,2655 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.9)  15 JAN 2025 12:25
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/merce/Documents/GitHub/LaTeX/Métodos Numéricos/main.tex"
+(c:/Users/merce/Documents/GitHub/LaTeX/Métodos Numéricos/main.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-09-10>
+(c:/texlive/2024/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2024/02/08 v1.4n Standard LaTeX document class
+(c:/texlive/2024/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count194
+\c@chapter=\count195
+\c@section=\count196
+\c@subsection=\count197
+\c@subsubsection=\count198
+\c@paragraph=\count199
+\c@subparagraph=\count266
+\c@figure=\count267
+\c@table=\count268
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (c:/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/10/05 v24.11 The Babel package
+\babel@savecnt=\count269
+\U@D=\dimen142
+\l@unhyphenated=\language89
+ (c:/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count270
+ (c:/texlive/2024/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks17
+\es@quotdepth=\count271
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+)) (c:/texlive/2024/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen143
+\Gin@req@width=\dimen144
+) (c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count272
+\Gm@cntv=\count273
+\c@Gm@tempcnt=\count274
+\Gm@bindingoffset=\dimen145
+\Gm@wd@mp=\dimen146
+\Gm@odd@mp=\dimen147
+\Gm@even@mp=\dimen148
+\Gm@layoutwidth=\dimen149
+\Gm@layoutheight=\dimen150
+\Gm@layouthoffset=\dimen151
+\Gm@layoutvoffset=\dimen152
+\Gm@dimlist=\toks19
+) (c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count275
+\float@exts=\toks20
+\float@box=\box52
+\@float@everytoks=\toks21
+\@floatcapt=\box53
+) (c:/texlive/2024/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language90
+LaTeX Info: Redefining \_ on input line 43.
+) (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip51
+\f@nch@O@elh=\skip52
+\f@nch@O@erh=\skip53
+\f@nch@O@olh=\skip54
+\f@nch@O@orh=\skip55
+\f@nch@O@elf=\skip56
+\f@nch@O@erf=\skip57
+\f@nch@O@olf=\skip58
+\f@nch@O@orf=\skip59
+) (c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen153
+\captionmargin=\dimen154
+\caption@leftmargin=\dimen155
+\caption@rightmargin=\dimen156
+\caption@width=\dimen157
+\caption@indent=\dimen158
+\caption@parindent=\dimen159
+\caption@hangindent=\dimen160
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count276
+\c@continuedfloat=\count277
+Package caption Info: float package is loaded.
+) (c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count278
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count279
+) (c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+ (c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count280
+)
+\csq@reset=\count281
+\csq@gtype=\count282
+\csq@glevel=\count283
+\csq@qlevel=\count284
+\csq@maxlvl=\count285
+\csq@tshold=\count286
+\csq@ltx@everypar=\toks22
+ (c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)) (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
+ (c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count287
+ (c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count288
+\c@listtotal=\count289
+\c@listcount=\count290
+\c@liststart=\count291
+\c@liststop=\count292
+\c@citecount=\count293
+\c@citetotal=\count294
+\c@multicitecount=\count295
+\c@multicitetotal=\count296
+\c@instcount=\count297
+\c@maxnames=\count298
+\c@minnames=\count299
+\c@maxitems=\count300
+\c@minitems=\count301
+\c@citecounter=\count302
+\c@maxcitecounter=\count303
+\c@savedcitecounter=\count304
+\c@uniquelist=\count305
+\c@uniquename=\count306
+\c@refsection=\count307
+\c@refsegment=\count308
+\c@maxextratitle=\count309
+\c@maxextratitleyear=\count310
+\c@maxextraname=\count311
+\c@maxextradate=\count312
+\c@maxextraalpha=\count313
+\c@abbrvpenalty=\count314
+\c@highnamepenalty=\count315
+\c@lownamepenalty=\count316
+\c@maxparens=\count317
+\c@parenlevel=\count318
+\blx@tempcnta=\count319
+\blx@tempcntb=\count320
+\blx@tempcntc=\count321
+\c@blx@maxsection=\count322
+\blx@maxsegment@0=\count323
+\blx@notetype=\count324
+\blx@parenlevel@text=\count325
+\blx@parenlevel@foot=\count326
+\blx@sectionciteorder@0=\count327
+\blx@sectionciteorderinternal@0=\count328
+\blx@entrysetcounter=\count329
+\blx@biblioinstance=\count330
+\labelnumberwidth=\skip60
+\labelalphawidth=\skip61
+\biblabelsep=\skip62
+\bibitemsep=\skip63
+\bibnamesep=\skip64
+\bibinitsep=\skip65
+\bibparsep=\skip66
+\bibhang=\skip67
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language91
+\c@mincomprange=\count331
+\c@maxcomprange=\count332
+\c@mincompwidth=\count333
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count334
+\c@savedafterword=\count335
+\c@annotator=\count336
+\c@savedannotator=\count337
+\c@author=\count338
+\c@savedauthor=\count339
+\c@bookauthor=\count340
+\c@savedbookauthor=\count341
+\c@commentator=\count342
+\c@savedcommentator=\count343
+\c@editor=\count344
+\c@savededitor=\count345
+\c@editora=\count346
+\c@savededitora=\count347
+\c@editorb=\count348
+\c@savededitorb=\count349
+\c@editorc=\count350
+\c@savededitorc=\count351
+\c@foreword=\count352
+\c@savedforeword=\count353
+\c@holder=\count354
+\c@savedholder=\count355
+\c@introduction=\count356
+\c@savedintroduction=\count357
+\c@namea=\count358
+\c@savednamea=\count359
+\c@nameb=\count360
+\c@savednameb=\count361
+\c@namec=\count362
+\c@savednamec=\count363
+\c@translator=\count364
+\c@savedtranslator=\count365
+\c@shortauthor=\count366
+\c@savedshortauthor=\count367
+\c@shorteditor=\count368
+\c@savedshorteditor=\count369
+\c@labelname=\count370
+\c@savedlabelname=\count371
+\c@institution=\count372
+\c@savedinstitution=\count373
+\c@lista=\count374
+\c@savedlista=\count375
+\c@listb=\count376
+\c@savedlistb=\count377
+\c@listc=\count378
+\c@savedlistc=\count379
+\c@listd=\count380
+\c@savedlistd=\count381
+\c@liste=\count382
+\c@savedliste=\count383
+\c@listf=\count384
+\c@savedlistf=\count385
+\c@location=\count386
+\c@savedlocation=\count387
+\c@organization=\count388
+\c@savedorganization=\count389
+\c@origlocation=\count390
+\c@savedoriglocation=\count391
+\c@origpublisher=\count392
+\c@savedorigpublisher=\count393
+\c@publisher=\count394
+\c@savedpublisher=\count395
+\c@language=\count396
+\c@savedlanguage=\count397
+\c@origlanguage=\count398
+\c@savedoriglanguage=\count399
+\c@pageref=\count400
+\c@savedpageref=\count401
+\shorthandwidth=\skip68
+\shortjournalwidth=\skip69
+\shortserieswidth=\skip70
+\shorttitlewidth=\skip71
+\shortauthorwidth=\skip72
+\shorteditorwidth=\skip73
+\locallabelnumberwidth=\skip74
+\locallabelalphawidth=\skip75
+\localshorthandwidth=\skip76
+\localshortjournalwidth=\skip77
+\localshortserieswidth=\skip78
+\localshorttitlewidth=\skip79
+\localshortauthorwidth=\skip80
+\localshorteditorwidth=\skip81
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+\c@textcitecount=\count402
+\c@textcitetotal=\count403
+\c@textcitemaxnames=\count404
+\c@biburlbigbreakpenalty=\count405
+\c@biburlbreakpenalty=\count406
+\c@biburlnumpenalty=\count407
+\c@biburlucpenalty=\count408
+\c@biburllcpenalty=\count409
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count410
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count411
+\c@bbx:relatedtotal=\count412
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+ (c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-09-10 L3 programming layer (loader) 
+ (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count413
+\l__pdf_internal_box=\box54
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2024-09-10 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
+)) (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks23
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/05/23 v2.17q AMS math features
+\@mathmargin=\skip82
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen161
+)) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen162
+) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count414
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count415
+\leftroot@=\count416
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count417
+\DOTSCASE@=\count418
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen163
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count419
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count420
+\dotsspace@=\muskip22
+\c@parentequation=\count421
+\dspbrk@lvl=\count422
+\tag@help=\toks25
+\row@=\count423
+\column@=\count424
+\maxfields@=\count425
+\andhelp@=\toks26
+\eqnshift@=\dimen164
+\alignsep@=\dimen165
+\tagshift@=\dimen166
+\tagwidth@=\dimen167
+\totwidth@=\dimen168
+\lineht@=\dimen169
+\@envbody=\toks27
+\multlinegap=\skip83
+\multlinetaggap=\skip84
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (c:/texlive/2024/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks29
+\thm@bodyfont=\toks30
+\thm@headfont=\toks31
+\thm@notefont=\toks32
+\thm@headpunct=\toks33
+\thm@preskip=\skip85
+\thm@postskip=\skip86
+\thm@headsep=\skip87
+\dth@everypar=\toks34
+) (c:/texlive/2024/texmf-dist/tex/latex/matlab-prettifier/matlab-prettifier.sty
+Package: matlab-prettifier 2014/06/19 v0.3 A package for prettyprinting Matlab source code
+ (c:/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+) (c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count426
+\lst@gtempboxa=\box57
+\lst@token=\toks35
+\lst@length=\count427
+\lst@currlwidth=\dimen170
+\lst@column=\count428
+\lst@pos=\count429
+\lst@lostspace=\dimen171
+\lst@width=\dimen172
+\lst@newlines=\count430
+\lst@lineno=\count431
+\lst@maxwidth=\dimen173
+ (c:/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+) (c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count432
+\lst@skipnumbers=\count433
+\lst@framebox=\box58
+) (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+\netBracketCount@mlpr=\count434
+\blkLvl@mlpr=\count435
+\blkLvlAtClassdef@mlpr=\count436
+\emHeight@mlpr=\skip88
+\jayDepth@mlpr=\skip89
+\sectionRuleOffset@mlpr=\skip90
+\toks@mlpr=\toks36
+)
+\c@definition=\count437
+\c@property=\count438
+\c@remark=\count439
+\c@theorem=\count440
+\c@lemma=\count441
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'spanish'.
+ (./main.aux
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+ (./Capitulos/Tema 1 - Introduccion.aux) (./Capitulos/Tema 2 - Diferenciacion Numerica.aux) (./Capitulos/Tema 3 - Numero de Condicion de una Matriz.aux) (./Capitulos/Tema 4 - Interpolacion.aux) (./Capitulos/Tema 5 - Integracion.aux) (./Capitulos/Tema 6 - Raices de Ecuaciones y Sistemas No Lineales.aux) (./Capitulos/Tema 7 - Optimizacion Sin Restricciones y Minimos Cuadrados.aux) (./Capitulos/Tema 8 - Optimizacion Con Restricciones.aux) (./Capitulos/Tema 9 - Metodos para Ecuaciones Diferenciales Ordinarias.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Info: Redefining \. on input line 65.
+LaTeX Info: Redefining \% on input line 65.
+ (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count442
+\scratchdimen=\dimen174
+\scratchbox=\box59
+\nofMPsegments=\count443
+\nofMParguments=\count444
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count445
+\MPscratchDim=\dimen175
+\MPnumerator=\count446
+\makeMPintoPDFobject=\count447
+\everyMPtoPDFconversion=\toks38
+) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside asymmetric 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-45.43198pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=48.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidetrue
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package biblatex Info: Trying to load language 'spanish'...
+Package biblatex Info: ... file 'spanish.lbx' found.
+(c:/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+File: spanish.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl)
+Package biblatex Info: Reference section=0 on input line 65.
+Package biblatex Info: Reference segment=0 on input line 65.
+\c@lstlisting=\count448
+ (./Documentos/Portada.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
+ (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
+ (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+[1
+
+
+
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./Documentos/Indices.tex
+
+[2
+
+
+
+] (./main.toc
+LaTeX Info: Redefining \sptext on input line 1.
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+
+[3]
+
+LaTeX Info: Redefining \sptext on input line 82.
+LaTeX Info: Redefining \. on input line 82.
+LaTeX Info: Redefining \% on input line 82.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[4])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[5]) (./Documentos/Cuerpo.tex
+\openout2 = `"Capitulos/Tema 1 - Introduccion.aux"'.
+
+ (./Capitulos/Tema 1 - Introduccion.tex
+
+
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[6
+
+
+
+]
+Cap\'{\i }tulo 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]\OT1/cmr/m/n/10 se cum-plen las si-guien-tes pro-pie-da-des
+ []
+
+
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 28--29
+[]\OT1/cmr/m/n/10 Llamamos ba-se de $\OML/cmm/m/it/10 V$ \OT1/cmr/m/n/10 a cual-quier sis-te-ma
+ []
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 45--47
+\OT1/cmr/m/n/10 los cam-pos num^^Seri-cos a los que per-te-ne-cen los
+ []
+
+
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]\OT1/cmr/bx/n/12 Matrices y trans-for-ma-cio-nes
+ []
+
+
+Underfull \hbox (badness 4205) in paragraph at lines 78--79
+[]\OT1/cmr/m/n/10 El si-guien-te re-sul-ta-do vin-cu-la ma-tri-ces y
+ []
+
+
+
+
+Underfull \hbox (badness 3098) in paragraph at lines 99--100
+\OT1/cmr/m/n/10 pre-ten-der que el m^^Seto-do num^^Seri-co pue-da cu-rar
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 114.
+LaTeX Info: Redefining \% on input line 114.
+[8]
+Underfull \hbox (badness 1824) in paragraph at lines 116--117
+[]\OT1/cmr/bx/n/10 Observaci^^Son 4.1. []\OT1/cmr/m/n/10 La pro-pie-dad de de-pen-den-cia
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 121--122
+\OT1/cmr/m/n/10 es-ta-bi-li-dad sea m^^Sas cuan-ti-ta-ti-vo, in-tro-du-ci-mos la
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 138--139
+\OT1/cmr/m/n/10 que se use pa-ra re-sol-ver-lo. De he-cho, es po-si-ble
+ []
+
+
+Underfull \hbox (badness 7451) in paragraph at lines 141--142
+[]\OT1/cmr/bx/n/10 Observaci^^Son 4.2. []\OT1/cmr/m/n/10 (Pro-ble-mas mal plan-tea-dos)
+ []
+
+
+
+
+LaTeX Warning: Reference `equation 1.19' on page 9 undefined on input line 156.
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 158--158
+[]\OT1/cmr/bx/n/12 Relaciones en-tre Es-ta-bi-li-dad y
+ []
+
+
+LaTeX Warning: Reference `equation 2.12' on page 9 undefined on input line 161.
+
+
+LaTeX Warning: Reference `equation 2.20' on page 9 undefined on input line 163.
+
+
+Underfull \hbox (badness 7397) in paragraph at lines 163--164
+[]\OT1/cmr/m/n/10 Supongamos en-ton-ces que el m^^Seto-do es
+ []
+
+
+LaTeX Warning: Reference `equation 2.21' on page 9 undefined on input line 170.
+
+
+LaTeX Warning: Reference `equation 2.12' on page 9 undefined on input line 172.
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 172--173
+[]\OT1/cmr/m/n/10 La es-ta-bi-li-dad de un m^^Seto-do num^^Seri-co se
+ []
+
+
+Underfull \hbox (badness 2680) in paragraph at lines 172--173
+\OT1/cmr/m/n/10 pro-ble-ma num^^Seri-co ([]) con-ver-ja si es-te ^^Sulti-mo
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 175.
+LaTeX Info: Redefining \% on input line 175.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[9]
+
+LaTeX Warning: Reference `equation 2.16' on page 10 undefined on input line 180.
+
+
+Overfull \hbox (15.21469pt too wide) detected at line 193
+\OMS/cmsy/m/n/10 k\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 k ^^T k [][] kk\OML/cmm/m/it/10 F[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; d\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 F\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; d\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 k
+ []
+
+
+LaTeX Warning: Reference `equation 2.13' on page 10 undefined on input line 195.
+
+
+Underfull \hbox (badness 3590) in paragraph at lines 195--196
+\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 k ! \OT1/cmr/m/n/10 0$ cuan-do $\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ! 1$\OT1/cmr/m/n/10 . El re-sul-ta-do
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 195--196
+\OT1/cmr/m/n/10 t^^Sermi-nos cua-li-ta-ti-vos, es un hi-to en el an^^Sali-sis
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 195--196
+\OT1/cmr/m/n/10 (o teo-re-ma de Lax-Richtmyer): "pa-ra un m^^Seto-do
+ []
+
+
+LaTeX Warning: Reference `equation 2.12' on page 10 undefined on input line 199.
+
+
+LaTeX Warning: Reference `equation 2.12' on page 10 undefined on input line 199.
+
+
+LaTeX Warning: Reference `equation 2.12' on page 10 undefined on input line 203.
+
+
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 205--206
+[]\OT1/cmr/m/n/10 En ge-ne-ral, po-de-mos es-bo-zar las si-guien-tes
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 207--208
+\OT1/cmr/m/n/10 me-dian-te una ade-cua-da elec-ci^^Son del mo-de-lo
+ []
+
+
+Underfull \hbox (badness 3158) in paragraph at lines 208--209
+[]\OT1/cmr/m/n/10 Errores en los da-tos, que pue-den re-du-cir-se
+ []
+
+
+Underfull \hbox (badness 3199) in paragraph at lines 209--210
+[]\OT1/cmr/m/n/10 Error de trun-ca-mien-to, que sur-ge al ha-ber
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 215--216
+[]\OT1/cmr/m/n/10 La pre-ci-si^^Son sig-ni-fi-ca que los erro-res son
+ []
+
+
+Underfull \hbox (badness 4156) in paragraph at lines 219--220
+[]\OT1/cmr/m/n/10 La efi-cien-cia sig-ni-fi-ca que la com-ple-ji-dad
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 224.
+LaTeX Info: Redefining \% on input line 224.
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 225--225
+[]\OT1/cmr/bx/n/14.4 Representaci^^Son en
+ []
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 226--227
+[]\OT1/cmr/m/n/10 Cualquier ope-ra-ci^^Son en una m^^Saqui-na est^^Sa
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 241--242
+[]\OT1/cmr/m/n/10 De he-cho, da-do el n^^Sume-ro po-si-ti-vo $\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 =
+ []
+
+
+Underfull \hbox (badness 7451) in paragraph at lines 241--242
+\OML/cmm/m/it/10 x[]x[]:::x[]x[]x[]x[]:::x[]:::$ \OT1/cmr/m/n/10 con el n^^Sume-ro de
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 245--246
+\OT1/cmr/m/n/10 son equi-va-len-tes, en la pr^^Sacti-ca compu-tacio-nal se
+ []
+
+
+
+)
+
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[11]
+\openout2 = `"Capitulos/Tema 2 - Diferenciacion Numerica.aux"'.
+
+ (./Capitulos/Tema 2 - Diferenciacion Numerica.tex
+
+
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[12
+
+
+
+
+]
+Cap\'{\i }tulo 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+[]\OT1/cmr/m/n/10 El t^^Sermino $[]\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^X\OT1/cmr/m/n/10 )$ se lla-ma error de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+[]\OT1/cmr/m/n/10 Dado que el error de trun-ca-mien-to es
+ []
+
+
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 32--33
+[]\OT1/cmr/m/n/10 Podemos nue-va-men-te de-ter-mi-nar el error
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 32--33
+\OT1/cmr/m/n/10 de trun-ca-mien-to uti-li-zan-do el teo-re-ma de Tay-lor.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+[]\OT1/cmr/m/n/10 Para es-tu-diar los efec-tos del re-don-deo,
+ []
+
+
+Underfull \hbox (badness 3657) in paragraph at lines 42--43
+\OT1/cmr/m/n/10 nue-va-men-te ha-ce-mos la su-po-si-ci^^Son sim-pli-fi-ca-do-ra
+ []
+
+
+
+[13]
+Overfull \hbox (5.80745pt too wide) detected at line 50
+\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 h\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 hf[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) + []\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) + []\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) + []\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^X\OT1/cmr/m/n/10 )
+ []
+
+
+Overfull \hbox (6.29645pt too wide) detected at line 52
+\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 h\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 hf[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) + []\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ []\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) + []\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^Q\OT1/cmr/m/n/10 )
+ []
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]\OT1/cmr/bx/n/12 Inestabilidad del Error de
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 107.
+LaTeX Info: Redefining \% on input line 107.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[14]
+Underfull \hbox (badness 1048) in paragraph at lines 116--117
+\OT1/cmr/m/n/10 (2) Util-ziar el Teo-re-ma de Tay-lor pa-ra ha-llar la
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 116--117
+\OT1/cmr/m/n/10 in-di-ca-do el or-den del error de trun-ca-mien-to del
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 122--123
+\OT1/cmr/m/n/10 (4) Uti-li-zar el Teo-re-ma de Tay-lor pa-ra ha-llar la
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 122--123
+\OT1/cmr/m/n/10 in-di-ca-do el or-den del error de trun-ca-mien-to del
+ []
+
+
+Overfull \hbox (7.22945pt too wide) detected at line 123
+\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^Y []
+ []
+
+
+Overfull \hbox (13.94641pt too wide) detected at line 126
+\OML/cmm/m/it/10 f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^Y []
+ []
+
+)
+
+
+
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[15
+
+]
+\openout2 = `"Capitulos/Tema 3 - Numero de Condicion de una Matriz.aux"'.
+
+ (./Capitulos/Tema 3 - Numero de Condicion de una Matriz.tex
+
+
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[16
+
+
+
+
+]
+Cap\'{\i }tulo 3.
+
+Underfull \hbox (badness 5374) in paragraph at lines 8--9
+[]$\OMS/cmsy/m/n/10 k\OML/cmm/m/it/10 A\OMS/cmsy/m/n/10 k \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 \OMS/cmsy/m/n/10 jk\OML/cmm/m/it/10 A\OMS/cmsy/m/n/10 k8\OML/cmm/m/it/10  \OMS/cmsy/m/n/10 2 \U/msb/m/n/10 R\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 2 \U/msb/m/n/10 R[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+[]\OT1/cmr/m/n/10 A me-nos que se in-di-que lo con-tra-rio,
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 16--17
+[]\OT1/cmr/m/n/10 Podemos ca-rac-te-ri-zar me-jor las nor-mas de
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 16--17
+\OT1/cmr/m/n/10 ma-tri-ces in-tro-du-cien-do los con-cep-tos de nor-ma
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 27--28
+[]\OT1/cmr/m/n/10 Para iden-ti-fi-car las nor-mas de ma-tri-ces de
+ []
+
+
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 44--45
+[]\OT1/cmr/m/n/10 Observa que, da-da una nor-ma de ma-triz
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 47--48
+[]\OT1/cmr/m/n/10 Como con-se-cuen-cia, en el ca-so de nor-mas
+ []
+
+
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
+\OT1/cmr/m/n/10 de don-de se si-gue que $\OMS/cmsy/m/n/10 k\OML/cmm/m/it/10 A \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 B\OMS/cmsy/m/n/10 k \OT1/cmr/m/n/10 =
+ []
+
+
+
+
+
+LaTeX Info: Redefining \. on input line 133.
+LaTeX Info: Redefining \% on input line 133.
+[18]
+Underfull \hbox (badness 3240) in paragraph at lines 134--135
+[]$\OMS/cmsy/m/n/10 kj\OML/cmm/m/it/10 AB\OMS/cmsy/m/n/10 jk ^^T kj\OML/cmm/m/it/10 A\OMS/cmsy/m/n/10 jkkj\OML/cmm/m/it/10 B\OMS/cmsy/m/n/10 jk$\OT1/cmr/m/n/10 , es de-cir, $\OMS/cmsy/m/n/10 kj ^^A jk$ \OT1/cmr/m/n/10 es
+ []
+
+
+Underfull \hbox (badness 4120) in paragraph at lines 139--140
+[]\OT1/cmr/m/n/10 La par-te 1 del teo-re-ma ya est^^Sa
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 139--140
+\OT1/cmr/m/n/10 que la par-te 2 si-gue del he-cho de que $\OMS/cmsy/m/n/10 kj\OML/cmm/m/it/10 I\OMS/cmsy/m/n/10 jk \OT1/cmr/m/n/10 =
+ []
+
+
+Underfull \hbox (badness 2698) in paragraph at lines 139--140
+[][] [] \OT1/cmr/m/n/10 = 1$. La par-te 3 es f^^Sacil de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+[]\OT1/cmr/m/n/10 Notemos que las nor-mas p son
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 142--143
+\OT1/cmr/m/n/10 sub-mul-ti-pli-ca-ti-vas. Adem^^Sas, ha-ce-mos no-tar que
+ []
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 144--144
+[]\OT1/cmr/bx/n/14.4 An^^Sali-sis de Es-ta-bi-li-dad de
+ []
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+[]\OT1/cmr/bx/n/14.4 Condicioneamiento de
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 189.
+LaTeX Info: Redefining \% on input line 189.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[19]
+Underfull \hbox (badness 2744) in paragraph at lines 199--201
+\OT1/cmr/m/n/10 es una nor-ma. Usual-men-te tra-ba-ja-rem-so con la
+ []
+
+
+
+
+
+LaTeX Info: Redefining \. on input line 262.
+LaTeX Info: Redefining \% on input line 262.
+[20])
+Underfull \hbox (badness 3838) in paragraph at lines 263--4
+\OT1/cmr/m/n/10 (3) Uti-li-zar in-ter-po-la-ci^^Son de Van-der-mon-de pa-ra
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 263--4
+\OT1/cmr/m/n/10 apro-xi-mar la fun-ci^^Son $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 cos\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 kx\OT1/cmr/m/n/10 )$, con $\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 =
+ []
+
+
+Underfull \hbox (badness 5359) in paragraph at lines 263--4
+\OT1/cmr/m/n/10 10\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 20\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 30\OML/cmm/m/it/10 ; :::; \OT1/cmr/m/n/10 100$. Va-riar el gra-do del po-li-no-mio
+ []
+
+
+
+
+
+LaTeX Info: Redefining \. on input line 4.
+LaTeX Info: Redefining \% on input line 4.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[21
+
+]
+\openout2 = `"Capitulos/Tema 4 - Interpolacion.aux"'.
+
+ (./Capitulos/Tema 4 - Interpolacion.tex
+
+
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+[22
+
+
+
+
+]
+Cap\'{\i }tulo 4.
+
+Underfull \hbox (badness 7397) in paragraph at lines 3--4
+[]\OT1/cmr/m/n/10 En es-ta sec-ci^^Son, re-sol-ve-mos el si-guien-te
+ []
+
+
+Underfull \hbox (badness 3482) in paragraph at lines 13--14
+[]\OT1/cmr/m/n/10 Para la par-te de exis-ten-cia del teo-re-ma,
+ []
+
+
+
+
+Overfull \hbox (5.00493pt too wide) detected at line 37
+[][]
+ []
+
+
+
+[23]
+
+Package amsmath Warning: Foreign command \atop;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 62.
+
+
+Underfull \hbox (badness 3861) in paragraph at lines 63--65
+\OT1/cmr/m/n/10 Para el con-jun-to de no-dos $\OML/cmm/m/it/10 x[]; x[]; [] ; x[]$\OT1/cmr/m/n/10 , es-tos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
+\OT1/cmr/m/n/10 po-li-no-mios son co-no-ci-dos co-mo las fun-cio-nes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+[]\OT1/cmr/m/n/10 Existen a^^Sun otros al-go-rit-mos pa-ra la
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 66--67
+\OT1/cmr/m/n/10 in-ter-po-la-ci^^Son po-lin^^Somi-ca, y es-tos tie-nen di-ver-sas
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 98--99
+\OT1/cmr/m/n/10 tie-ne una so-lu-ci^^Son ^^Suni-ca pa-ra cual-quier elec-ci^^Son
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 98--99
+\OT1/cmr/m/n/10 la can-ti-dad de tra-ba-jo ne-ce-sa-rio pa-ra ob-te-ner el
+ []
+
+
+
+
+Underfull \hbox (badness 7273) in paragraph at lines 100--100
+[]\OT1/cmr/bx/n/12 El Error en la In-ter-po-la-ci^^Son
+ []
+
+
+Underfull \hbox (badness 7759) in paragraph at lines 112--113
+[]\OT1/cmr/m/n/10 Si $\OML/cmm/m/it/10 x$ \OT1/cmr/m/n/10 es uno de los no-dos de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+\OT1/cmr/m/n/10 in-ter-po-la-ci^^Son $\OML/cmm/m/it/10 x[]$\OT1/cmr/m/n/10 , la afir-ma-ci^^Son es ob-via-men-te
+ []
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 112--113
+\OT1/cmr/m/n/10 ver-da-de-ra, ya que am-bos la-dos de la Ecua-ci^^Son
+ []
+
+
+Overfull \hbox (4.99821pt too wide) in paragraph at lines 121--122
+[]
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 122.
+LaTeX Info: Redefining \% on input line 122.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[24]
+Underfull \hbox (badness 1253) in paragraph at lines 125--126
+\OT1/cmr/m/n/10 El pro-ce-so de op-ti-mi-za-ci^^Son con-du-ce na-tu-ral-men-te
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 125--126
+\OT1/cmr/m/n/10 a un sis-te-ma de po-li-no-mios lla-ma-dos po-li-no-mios
+ []
+
+
+Underfull \hbox (badness 5388) in paragraph at lines 127--128
+[]\OT1/cmr/m/n/10 Los po-li-no-mios de Chebyshev se de-fi-nen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+[]\OT1/cmr/m/n/10 Procedemos por con-tra-dic-ci^^Son.
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 158--161
+\OT1/cmr/m/n/10 est^^Sa en es-te mis-mo in-ter-va-lo, $\OML/cmm/m/it/10 ^^X[]$ \OT1/cmr/m/n/10 tam-bi^^Sen es-tar^^Sa
+ []
+
+
+Overfull \hbox (5.0043pt too wide) in paragraph at lines 158--161
+[]
+ []
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+\OT1/cmr/m/n/10 in-de-xa-da de in-ter-va-los de me-di-da no nu-la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+[][]$ \OT1/cmr/m/n/10 que for-ma una par-ti-ci^^Son
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 192.
+LaTeX Info: Redefining \% on input line 192.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[25]
+Underfull \hbox (badness 1552) in paragraph at lines 201--202
+[]\OT1/cmr/m/n/10 Considera el es-pa-cio vec-to-rial de fun-cio-nes
+ []
+
+<Imagenes/4 - Funciones de Sombrero Unidimensionales.png, id=98, 408.77719pt x 146.79843pt>
+File: Imagenes/4 - Funciones de Sombrero Unidimensionales.png Graphic file (type png)
+<use Imagenes/4 - Funciones de Sombrero Unidimensionales.png>
+Package pdftex.def Info: Imagenes/4 - Funciones de Sombrero Unidimensionales.png  used on input line 219.
+(pdftex.def)             Requested size: 241.84843pt x 86.85223pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 219--220
+ [][] 
+ []
+
+
+
+
+Underfull \hbox (badness 6412) in paragraph at lines 241--242
+[]\OT1/cmr/m/n/10 Los po-li-no-mios de La-gran-ge cum-plen la
+ []
+
+<Imagenes/4 - Familias de Polinomios de Lagrange.png, id=100, 508.90125pt x 181.42781pt>
+File: Imagenes/4 - Familias de Polinomios de Lagrange.png Graphic file (type png)
+<use Imagenes/4 - Familias de Polinomios de Lagrange.png>
+Package pdftex.def Info: Imagenes/4 - Familias de Polinomios de Lagrange.png  used on input line 248.
+(pdftex.def)             Requested size: 241.84843pt x 86.22063pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 248--249
+ [][] 
+ []
+
+
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 253.
+
+
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 253.
+
+Missing character: There is no � in font cmr10!
+<Imagenes/4 - Funciones de forma globales en el espacio de aproximacion Ph2.png, id=101, 394.47375pt x 171.64125pt>
+File: Imagenes/4 - Funciones de forma globales en el espacio de aproximacion Ph2.png Graphic file (type png)
+<use Imagenes/4 - Funciones de forma globales en el espacio de aproximacion Ph2.png>
+Package pdftex.def Info: Imagenes/4 - Funciones de forma globales en el espacio de aproximacion Ph2.png  used on input line 267.
+(pdftex.def)             Requested size: 241.84843pt x 105.23265pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 267--268
+ [][] 
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 271.
+LaTeX Info: Redefining \% on input line 271.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[26 <./Imagenes/4 - Funciones de Sombrero Unidimensionales.png> <./Imagenes/4 - Familias de Polinomios de Lagrange.png>]
+
+
+Underfull \hbox (badness 6094) in paragraph at lines 298--300
+\OT1/cmr/m/n/10 suponiendo que el ma-lla-do aso-cia-do a $\OML/cmm/m/it/10 V[]$ \OT1/cmr/m/n/10 es
+ []
+
+)
+
+LaTeX Info: Redefining \. on input line 5.
+LaTeX Info: Redefining \% on input line 5.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[27 <./Imagenes/4 - Funciones de forma globales en el espacio de aproximacion Ph2.png>]
+\openout2 = `"Capitulos/Tema 5 - Integracion.aux"'.
+
+ (./Capitulos/Tema 5 - Integracion.tex
+
+
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[28
+
+
+
+
+]
+Cap\'{\i }tulo 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+[]\OT1/cmr/bx/n/14.4 Elementos de in-te-gra-ci^^Son
+ []
+
+
+Underfull \hbox (badness 3895) in paragraph at lines 5--6
+[]\OT1/cmr/m/n/10 Los m^^Seto-dos de cua-dra-tu-ra se ba-san en
+ []
+
+
+Underfull \hbox (badness 5622) in paragraph at lines 23--24
+\OT1/cmr/m/n/10 pro-du-ci-das me-dian-te el uso del pri-mer y del
+ []
+
+
+
+
+Overfull \hbox (19.21115pt too wide) detected at line 33
+ []$[]   [][] \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 = [][] [] \OML/cmm/m/it/10 dx$ 
+ []
+
+
+Overfull \hbox (10.83012pt too wide) detected at line 46
+[]
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 51--52
+[]\OT1/cmr/m/n/10 Esto re-ci-be el nom-bre de re-gla tra-pe-zoi-dal
+ []
+
+
+
+[29]
+<Imagenes/5 - Regla del Trapecio.png, id=119, 472.76625pt x 329.73187pt>
+File: Imagenes/5 - Regla del Trapecio.png Graphic file (type png)
+<use Imagenes/5 - Regla del Trapecio.png>
+Package pdftex.def Info: Imagenes/5 - Regla del Trapecio.png  used on input line 55.
+(pdftex.def)             Requested size: 241.84843pt x 168.67924pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 55--56
+ [][] 
+ []
+
+<Imagenes/5 - Regla de Simpson.png, id=120, 505.13719pt x 324.46219pt>
+File: Imagenes/5 - Regla de Simpson.png Graphic file (type png)
+<use Imagenes/5 - Regla de Simpson.png>
+Package pdftex.def Info: Imagenes/5 - Regla de Simpson.png  used on input line 67.
+(pdftex.def)             Requested size: 241.84843pt x 155.344pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 67--68
+ [][] 
+ []
+
+
+Overfull \hbox (10.41876pt too wide) detected at line 76
+[]
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 76--78
+\OT1/cmr/m/n/10 se pue-de de-ri-var otro t^^Sermino de or-den su-pe-rior
+ []
+
+
+
+
+Overfull \hbox (9.59166pt too wide) detected at line 101
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )[] = 2\OML/cmm/m/it/10 h[][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )[] \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )[] = 2\OML/cmm/m/it/10 h[]
+ []
+
+
+Overfull \hbox (22.30957pt too wide) detected at line 110
+[]
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 115.
+LaTeX Info: Redefining \% on input line 115.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[30 <./Imagenes/5 - Regla del Trapecio.png> <./Imagenes/5 - Regla de Simpson.png>]
+Underfull \hbox (badness 1325) in paragraph at lines 117--118
+\OT1/cmr/m/n/10 im-pli-ca la cuar-ta de-ri-va-da de $\OML/cmm/m/it/10 f$\OT1/cmr/m/n/10 , por lo que da
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 117--118
+\OT1/cmr/m/n/10 re-sul-ta-dos exac-tos cuan-do se apli-ca a cual-quier
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+[]\OT1/cmr/m/n/10 Esta de-fi-ni-ci^^Son im-pli-ca que las re-glas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
+[]\OT1/cmr/bx/n/14.4 Integraci^^Son num^^Seri-ca
+ []
+
+
+
+
+Overfull \hbox (21.54056pt too wide) detected at line 144
+[][] \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 = [] [] \OMS/cmsy/m/n/10 ^^@ []\OML/cmm/m/it/10 h[]f[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^V\OT1/cmr/m/n/10 )
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 174.
+LaTeX Info: Redefining \% on input line 174.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[31])
+
+
+
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[32
+
+]
+\openout2 = `"Capitulos/Tema 6 - Raices de Ecuaciones y Sistemas No Lineales.aux"'.
+
+ (./Capitulos/Tema 6 - Raices de Ecuaciones y Sistemas No Lineales.tex
+Cap\'{\i }tulo 6.
+
+Underfull \hbox (badness 1067) in paragraph at lines 4--5
+[]\OT1/cmr/m/n/10 Este pro-ce-so im-pli-ca en-con-trar una ra^^S^^Pz, o
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 22--23
+[]\OT1/cmr/m/n/10 Entonces, vol-ve-mos a apli-car el pro-ce-so al
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 24--25
+[]\OT1/cmr/m/n/10 Se pue-den apli-car otros pro-ce-di-mien-tos de
+ []
+
+
+Underfull \hbox (badness 7379) in paragraph at lines 24--25
+\OT1/cmr/m/n/10 pa-ra-da, por ejem-plo, po-de-mos se-lec-cio-nar una
+ []
+
+
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 52--53
+[]\OT1/cmr/m/n/10 Si, adem^^Sas, $\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ exis-te en $(\OML/cmm/m/it/10 a; b\OT1/cmr/m/n/10 )$ y hay una
+ []
+
+
+
+[33
+
+
+
+
+{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+<Imagenes/6 - Teorema del Punto Fijo.png, id=137, 318.43968pt x 234.1247pt>
+File: Imagenes/6 - Teorema del Punto Fijo.png Graphic file (type png)
+<use Imagenes/6 - Teorema del Punto Fijo.png>
+Package pdftex.def Info: Imagenes/6 - Teorema del Punto Fijo.png  used on input line 60.
+(pdftex.def)             Requested size: 241.84843pt x 177.81157pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 60--61
+ [][] 
+ []
+
+
+
+<Imagenes/6 - Iteracion del Punto Fijo a.png, id=138, 566.115pt x 432.11438pt>
+File: Imagenes/6 - Iteracion del Punto Fijo a.png Graphic file (type png)
+<use Imagenes/6 - Iteracion del Punto Fijo a.png>
+Package pdftex.def Info: Imagenes/6 - Iteracion del Punto Fijo a.png  used on input line 85.
+(pdftex.def)             Requested size: 241.84843pt x 184.59894pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 85--86
+ [][] 
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 93--95
+\OT1/cmr/m/n/10 Entonces, pa-ra cual-quier n^^Sume-ro $\OML/cmm/m/it/10 p[]$ \OT1/cmr/m/n/10 en $[\OML/cmm/m/it/10 a; b\OT1/cmr/m/n/10 ]$, la
+ []
+
+
+LaTeX Warning: Reference `Teorema del valor medio' on page 34 undefined on input line 100.
+
+
+Overfull \hbox (11.63559pt too wide) detected at line 101
+\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 p\OMS/cmsy/m/n/10 j \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^X[]\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 jj\OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 p\OMS/cmsy/m/n/10 j ^^T \OML/cmm/m/it/10 k\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 p\OMS/cmsy/m/n/10 j
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 105.
+LaTeX Info: Redefining \% on input line 105.
+[34 <./Imagenes/6 - Teorema del Punto Fijo.png> <./Imagenes/6 - Iteracion del Punto Fijo a.png>]
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 148--149
+[]\OT1/cmr/m/n/10 La fi-gu-ra 6.3[] ilus-tra c^^Somo se ob-tie-nen las
+ []
+
+<Imagenes/6 - Metodo de Newton.png, id=144, 385.44pt x 289.08pt>
+File: Imagenes/6 - Metodo de Newton.png Graphic file (type png)
+<use Imagenes/6 - Metodo de Newton.png>
+Package pdftex.def Info: Imagenes/6 - Metodo de Newton.png  used on input line 152.
+(pdftex.def)             Requested size: 241.84843pt x 181.38472pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 152--153
+ [][] 
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 168.
+LaTeX Info: Redefining \% on input line 168.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[35 <./Imagenes/6 - Metodo de Newton.png>]
+<Imagenes/6 - Metodo de la Secante.png, id=149, 329.73187pt x 235.63031pt>
+File: Imagenes/6 - Metodo de la Secante.png Graphic file (type png)
+<use Imagenes/6 - Metodo de la Secante.png>
+Package pdftex.def Info: Imagenes/6 - Metodo de la Secante.png  used on input line 183.
+(pdftex.def)             Requested size: 241.84843pt x 172.83205pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 183--184
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
+[]\OT1/cmr/m/n/10 En pri-mer lu-gar, se-lec-cio-na-mos las
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 192--193
+\OML/cmm/m/it/10 p[]$\OT1/cmr/m/n/10 , con-si-de-re $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 )$ o, m^^Sas con-cre-ta-men-te,
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 194--195
+[]\OT1/cmr/m/n/10 Si $\OML/cmm/m/it/10 sgnf\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^A \OML/cmm/m/it/10 sgnf\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 < \OT1/cmr/m/n/10 0$, en-ton-ces $\OML/cmm/m/it/10 p[]$ \OT1/cmr/m/n/10 y
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 194--195
+\OML/cmm/m/it/10 p[]$ \OT1/cmr/m/n/10 agru-pan una ra^^S^^Pz. Se-lec-cio-ne $\OML/cmm/m/it/10 p[]$ \OT1/cmr/m/n/10 co-mo la
+ []
+
+
+
+<Imagenes/6 - Metodo de Posicion Falsa.png, id=150, 247.67531pt x 201.00093pt>
+File: Imagenes/6 - Metodo de Posicion Falsa.png Graphic file (type png)
+<use Imagenes/6 - Metodo de Posicion Falsa.png>
+Package pdftex.def Info: Imagenes/6 - Metodo de Posicion Falsa.png  used on input line 202.
+(pdftex.def)             Requested size: 241.84843pt x 196.27414pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 202--203
+ [][] 
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 207--207
+[]\OT1/cmr/bx/n/12 An^^Sali-sis de error pa-ra m^^Seto-dos
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 208--209
+[]\OT1/cmr/m/n/10 En es-ta sec-ci^^Son in-vers-ti-ga-mos el or-den de
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 208--209
+\OT1/cmr/m/n/10 con el prop^^Sosi-to de ob-te-ner con-ver-gen-cia r^^Sapi-da,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+\OT1/cmr/m/n/10 re-des-cu-bri-mo el m^^Seto-do de New-ton. Tam-bi^^Sen
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 208--209
+\OT1/cmr/m/n/10 es-pe-cia-les. Pri-me-ro, sin em-bar-go, ne-ce-si-ta-mos un
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 208--209
+\OT1/cmr/m/n/10 nue-vo pro-ce-di-mien-to pa-ra me-dir qu^^Se tan r^^Sapi-do
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 219.
+LaTeX Info: Redefining \% on input line 219.
+[36 <./Imagenes/6 - Metodo de la Secante.png> <./Imagenes/6 - Metodo de Posicion Falsa.png>]
+Underfull \hbox (badness 2469) in paragraph at lines 222--223
+[]\OT1/cmr/m/n/10 Si $\OML/cmm/m/it/10  \OT1/cmr/m/n/10 = 2$, la su-ce-si^^Son es cuadr^^Sati-ca-men-te
+ []
+
+
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 260--262
+\OT1/cmr/m/n/10 cuadr^^Sati-ca-men-te con-ver-gen-te si $\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 6\OT1/cmr/m/n/10 = 0$ y de
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 270.
+LaTeX Info: Redefining \% on input line 270.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
+[]\OT1/cmr/bx/n/14.4 Soluciones num^^Seri-cas de
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 283--283
+\OT1/cmr/bx/n/14.4 sis-te-mas de ecua-cio-nes no
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 285--285
+[]\OT1/cmr/bx/n/12 Puntos fi-jos pa-ra fun-cio-nes de
+ []
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
+[]\OT1/cmr/bx/n/10 Teorema 2.2. []\OT1/cmr/m/n/10 Sea $\OML/cmm/m/it/10 D \OT1/cmr/m/n/10 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
+[]$
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 343--344
+\OT1/cmr/m/n/10 pa-ra alg^^Sun con-jun-to de cons-tan-tes $\OML/cmm/m/it/10 a[]; a[]; :::; a[]$ \OT1/cmr/m/n/10 y
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 345--346
+[]\OT1/cmr/m/n/10 Adem^^Sas, su-pon-ga que to-das las fun-cio-nes
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 346.
+LaTeX Info: Redefining \% on input line 346.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[38]
+Underfull \hbox (badness 1248) in paragraph at lines 356--357
+[]\OT1/cmr/m/n/10 Para cons-truir el al-go-rit-mo que con-du-ce a
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 356--357
+\OT1/cmr/m/n/10 un m^^Seto-do de pun-to fi-jo ade-cua-do en el ca-so
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 376--377
+\OT1/cmr/m/n/10 Su-pon-ga que exis-te un n^^Sume-ro $\OML/cmm/m/it/10 ^^N > \OT1/cmr/m/n/10 0$ con las
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
+[]$\OML/cmm/m/it/10 @[]g[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 =\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 @x[]@x[]\OT1/cmr/m/n/10 )$ es con-ti-nua y
+ []
+
+
+
+
+
+LaTeX Info: Redefining \. on input line 411.
+LaTeX Info: Redefining \% on input line 411.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[39])
+
+
+
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[40
+
+]
+\openout2 = `"Capitulos/Tema 7 - Optimizacion Sin Restricciones y Minimos Cuadrados.aux"'.
+
+ (./Capitulos/Tema 7 - Optimizacion Sin Restricciones y Minimos Cuadrados.tex
+Cap\'{\i }tulo 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+[]\OT1/cmr/bx/n/14.4 Optimizaci^^Son Sin
+ []
+
+
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 43--45
+\OT1/cmr/m/n/10 donde $\OML/cmm/m/it/10 d\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 k\OT1/cmr/m/n/10 )$ es una di-rec-ci^^Son ele-gi-da de ma-ne-ra
+ []
+
+
+
+[41
+
+
+
+
+]
+Underfull \hbox (badness 1365) in paragraph at lines 68--69
+\OT1/cmr/m/n/10 di-fe-ren-tes m^^Seto-dos. En par-ti-cu-lar, re-cor-da-mos los
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 74--76
+\OT1/cmr/m/n/10 donde $\OML/cmm/m/it/10 B[]$ \OT1/cmr/m/n/10 es una apro-xi-ma-ci^^Son ade-cua-da de
+ []
+
+
+Underfull \hbox (badness 4429) in paragraph at lines 78--80
+\OT1/cmr/m/n/10 donde $\OML/cmm/m/it/10 ^^L[]$ \OT1/cmr/m/n/10 es un es-ca-lar que se se-lec-cio-na
+ []
+
+
+Underfull \hbox (badness 3449) in paragraph at lines 82--83
+[]\OT1/cmr/m/n/10 Un m^^Seto-do pa-ra cal-cu-lar $\OML/cmm/m/it/10 []$ \OT1/cmr/m/n/10 con-sis-te en
+ []
+
+
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 98--99
+[]\OT1/cmr/m/n/10 La ex-pe-rien-cia pr^^Sacti-ca re-ve-la que no es
+ []
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 105--106
+[]\OT1/cmr/m/n/10 Criterios m^^Sas es-tric-tos que 7.8[] de-ber^^S^^Pan
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 124--125
+[]\OT1/cmr/m/n/10 La si-guien-te pro-pie-dad ga-ran-ti-za que, ba-jo
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 127--128
+[]\OT1/cmr/bx/n/10 Propiedad 1.2. []\OT1/cmr/m/n/10 SU-pon-ga que $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^U \OML/cmm/m/it/10 M$ \OT1/cmr/m/n/10 pa-ra
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 128.
+LaTeX Info: Redefining \% on input line 128.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[42]
+Underfull \hbox (badness 2809) in paragraph at lines 137--137
+[]\OT1/cmr/bx/n/12 M^^Seto-dos ti-po New-ton pa-ra la
+ []
+
+
+Underfull \hbox (badness 4291) in paragraph at lines 138--139
+[]\OT1/cmr/m/n/10 Otro ejem-plo de m^^Seto-do de des-cen-so lo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+[]\OT1/cmr/m/n/10 Calcular la ma-triz Hes-sia-na $\OML/cmm/m/it/10 H[]$\OT1/cmr/m/n/10 , o una
+ []
+
+
+Underfull \hbox (badness 6842) in paragraph at lines 158--159
+\OT1/cmr/m/n/10 ne-ce-sa-ria-men-te coin-ci-den-te con la di-rec-ci^^Son
+ []
+
+
+Underfull \hbox (badness 6125) in paragraph at lines 158--159
+\OT1/cmr/m/n/10 pro-por-cio-na-da por el m^^Seto-do de New-ton),
+ []
+
+
+
+
+Underfull \hbox (badness 7468) in paragraph at lines 163--164
+[]\OT1/cmr/m/n/10 En el ca-so par-ti-cu-lar en que $\OML/cmm/m/it/10 d[] \OT1/cmr/m/n/10 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]\OT1/cmr/bx/n/14.4 Problemas de M^^S^^Pni-mos
+ []
+
+
+Underfull \hbox (badness 4859) in paragraph at lines 168--169
+[]\OT1/cmr/m/n/10 Esto se lla-ma un pro-ble-ma de m^^S^^Pni-mos
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 181.
+LaTeX Info: Redefining \% on input line 181.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
+\OT1/cmr/m/n/10 De ma-ne-ra equi-va-len-te, po-de-mos es-cri-bir
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 181--183
+[][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A[]\OT1/cmr/m/n/10 )[](\OML/cmm/m/it/10 Ax\OT1/cmr/m/n/10 )[] = [][](\OML/cmm/m/it/10 A[]\OT1/cmr/m/n/10 )[]\OML/cmm/m/it/10 b[]$\OT1/cmr/m/n/10 , $\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 = 1\OML/cmm/m/it/10 ; :::; n$
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 190--191
+[]\OT1/cmr/m/n/10 El pro-ble-ma de m^^S^^Pni-mos cua-dra-dos pue-de
+ []
+
+
+Underfull \hbox (badness 7944) in paragraph at lines 190--191
+\OT1/cmr/m/n/10 abor-dar-se de una ma-ne-ra di-fe-ren-te. De-sea-mos
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 200--201
+\OT1/cmr/m/n/10 co-mo las co-lum-nas de $\OML/cmm/m/it/10 A$\OT1/cmr/m/n/10 , se pue-de cons-truir un
+ []
+
+
+Underfull \hbox (badness 4229) in paragraph at lines 208--209
+[]\OT1/cmr/m/n/10 Cabe se~nalar que si $\OML/cmm/m/it/10 v[]; v[]; :::; v[]$ \OT1/cmr/m/n/10 son las
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 208--209
+\OT1/cmr/m/n/10 pue-de in-ter-pre-tar-se co-mo una fac-to-ri-za-ci^^Son de la
+ []
+
+
+
+
+Underfull \hbox (badness 2245) in paragraph at lines 237--238
+[]\OT1/cmr/m/n/10 a) re-sol-vien-do las ecua-cio-nes nor-ma-les del
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 243.
+LaTeX Info: Redefining \% on input line 243.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[44])
+
+
+
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[45
+
+]
+\openout2 = `"Capitulos/Tema 8 - Optimizacion Con Restricciones.aux"'.
+
+ (./Capitulos/Tema 8 - Optimizacion Con Restricciones.tex
+
+
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[46
+
+
+
+
+]
+Cap\'{\i }tulo 8.
+
+Underfull \hbox (badness 3657) in paragraph at lines 5--6
+[]\OT1/cmr/m/n/10 El ca-so m^^Sas sim-ple de op-ti-mi-za-ci^^Son con
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 38--39
+\OT1/cmr/m/n/10 Ja-co-bia-na $\OML/cmm/m/it/10 J[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )$ son li-neal-men-te in-de-pen-dien-tes,
+ []
+
+
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 44--46
+\OT1/cmr/m/n/10 donde el vec-tor $\OML/cmm/m/it/10 ^^U$ \OT1/cmr/m/n/10 se co-no-ce co-mo mul-ti-pli-ca-dor
+ []
+
+
+Overfull \hbox (2.58202pt too wide) detected at line 59
+[]\OML/cmm/m/it/10 minimizef\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; []h\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) = 0[]\OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^T \OT1/cmr/m/n/10 0
+ []
+
+
+
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+[]\OT1/cmr/bx/n/10 Definici^^Son 1.2. []\OT1/cmr/m/n/10 Su-pon-ga-mos que $\OML/cmm/m/it/10 h[]; g[] \OMS/cmsy/m/n/10 2
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+[]\OT1/cmr/bx/n/14.4 Condiciones ne-ce-sa-rias
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+\OT1/cmr/bx/n/14.4 de Kuhn-Tucker pa-ra la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+[]\OT1/cmr/m/n/10 Consideremos el pro-ble-ma ge-ne-ral de
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 81--82
+[]\OT1/cmr/m/n/10 Un vec-tor $\OML/cmm/m/it/10 x$ \OT1/cmr/m/n/10 que sa-tis-fa-ce las res-tric-cio-nes
+ []
+
+
+Underfull \hbox (badness 4608) in paragraph at lines 85--86
+[]\OT1/cmr/bx/n/10 Propiedad 2.1. []\OT1/cmr/m/n/10 Si $\OML/cmm/m/it/10 f$ \OT1/cmr/m/n/10 tie-ne un m^^Saxi-mo lo-cal
+ []
+
+
+
+
+Underfull \hbox (badness 5862) in paragraph at lines 105--106
+\OT1/cmr/m/n/10 par-cial o com-ple-ta-men-te, las res-tric-cio-nes pa-ra
+ []
+
+
+Underfull \hbox (badness 3942) in paragraph at lines 105--106
+\OT1/cmr/m/n/10 trans-for-mar el pro-ble-ma res-trin-gi-do en uno no
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 105--106
+\OT1/cmr/m/n/10 me-di-da de la pre-ci-si^^Son con la que se im-po-ne
+ []
+
+
+Underfull \hbox (badness 4229) in paragraph at lines 107--108
+[]\OT1/cmr/m/n/10 Consideremos el pro-ble-ma res-trin-gi-do 8.3[],
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 116.
+LaTeX Info: Redefining \% on input line 116.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[48]
+Underfull \hbox (badness 1776) in paragraph at lines 117--118
+[]\OT1/cmr/m/n/10 El m^^Seto-do de pe-na-li-za-ci^^Son es una t^^Secni-ca
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 128--129
+[]\OT1/cmr/m/n/10 Los pro-ble-mas de mi-ni-mi-za-ci^^Son pue-den ser
+ []
+
+
+Underfull \hbox (badness 7468) in paragraph at lines 128--129
+\OT1/cmr/m/n/10 re-suel-tos lue-go me-dian-te uno de los m^^Seto-dos
+ []
+
+
+Underfull \hbox (badness 1424) in paragraph at lines 128--129
+\OT1/cmr/m/n/10 in-tro-du-ci-dos en el cap^^S^^Ptu-lo an-te-rior. La si-guien-te
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]\OT1/cmr/bx/n/14.4 M^^Seto-do de los
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 149--151
+\OT1/cmr/m/n/10 donde $[]$ es una se-cuen-cia aco-ta-da de vec-to-res
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 156--157
+[]\OT1/cmr/m/n/10 En lo que res-pec-ta a las pro-pie-da-des de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+[]\OT1/cmr/bx/n/10 Propiedad 4.1. []\OT1/cmr/m/n/10 Su-pon-ga-mos que $\OML/cmm/m/it/10 x[]$ \OT1/cmr/m/n/10 es un
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 159--160
+\OT1/cmr/m/n/10 mi-ni-mi-za-dor lo-cal es-tric-to re-gu-lar del pro-ble-ma
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 169.
+LaTeX Info: Redefining \% on input line 169.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+[]\OT1/cmr/m/n/10 Bajo su-po-si-cio-nes adi-cio-na-les se pue-de
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 172--173
+\OT1/cmr/m/n/10 de-mos-trar que el m^^Seto-do de los mul-ti-pli-ca-do-res
+ []
+
+)
+
+
+
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[50]
+\openout2 = `"Capitulos/Tema 9 - Metodos para Ecuaciones Diferenciales Ordinarias.aux"'.
+
+ (./Capitulos/Tema 9 - Metodos para Ecuaciones Diferenciales Ordinarias.tex
+Cap\'{\i }tulo 9.
+
+Underfull \hbox (badness 5119) in paragraph at lines 8--10
+\OT1/cmr/m/n/10 donde la va-ria-ble in-de-pen-dien-te $\OML/cmm/m/it/10 t$ \OT1/cmr/m/n/10 nor-mal-men-te
+ []
+
+
+Underfull \hbox (badness 3635) in paragraph at lines 13--14
+[]\OT1/cmr/m/n/10 Al es-tu-diar cues-tio-nes so-bre la exis-ten-cia
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 y uni-ci-dad de so-lu-cio-nes pa-ra la ecua-ci^^Son 9.1[],
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 con-si-de-ra-mos que la fun-ci^^Son del la-do de-re-cho es
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 una fun-ci^^Son de dos va-ri-ba-les in-de-pen-dien-tes $\OML/cmm/m/it/10 t$ \OT1/cmr/m/n/10 y
+ []
+
+
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 30--31
+[]\OT1/cmr/bx/n/10 Definici^^Son 1.1. []\OT1/cmr/m/n/10 Se di-ce que una fun-ci^^Son $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t; y\OT1/cmr/m/n/10 )$
+ []
+
+
+
+[51
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+[]\OT1/cmr/bx/n/10 Teorema 1.4. []\OT1/cmr/m/n/10 Su-pon-ga que $\OML/cmm/m/it/10 D \OT1/cmr/m/n/10 =
+ []
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 78--79
+[]\OT1/cmr/m/n/10 Sea $\OML/cmm/m/it/10 t[]; t[]; :::; T[]$ \OT1/cmr/m/n/10 los pun-tos fi-na-les de los
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+[]\OT1/cmr/m/n/10 El m^^Seto-do de Eu-ler es la t^^Secni-ca de
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 81--82
+\OT1/cmr/m/n/10 apro-xi-ma-ci^^Son m^^Sas b^^Sasi-ca pa-ra re-sol-ver pro-ble-mas
+ []
+
+
+
+
+
+LaTeX Info: Redefining \. on input line 124.
+LaTeX Info: Redefining \% on input line 124.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[52]
+Underfull \hbox (badness 1552) in paragraph at lines 138--140
+\OT1/cmr/m/n/10 el m^^Seto-do de Eu-ler pa-ra un en-te-ro po-si-ti-vo $\OML/cmm/m/it/10 N$\OT1/cmr/m/n/10 .
+ []
+
+
+
+
+Overfull \hbox (1.71802pt too wide) detected at line 168
+[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j ^^T [] [] [] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 ^^N[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 e[]
+ []
+
+
+Overfull \hbox (4.99982pt too wide) in paragraph at lines 198--201
+[]
+ []
+
+
+Overfull \hbox (4.99971pt too wide) in paragraph at lines 198--201
+[] 
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 203.
+LaTeX Info: Redefining \% on input line 203.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[53]
+Underfull \hbox (badness 1082) in paragraph at lines 215--217
+\OT1/cmr/m/n/10 donde la se-gun-da igual-dad se si-gue por-que $\OML/cmm/m/it/10 f$ \OT1/cmr/m/n/10 es
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 219--223
+\OT1/cmr/m/n/10 y, a par-tir de 9.16[], la so-lu-ci^^Son exac-ta sa-tis-fa-ce:
+ []
+
+
+Overfull \hbox (5.00914pt too wide) in paragraph at lines 219--223
+[]
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 232--233
+\OT1/cmr/m/n/10 apro-xi-mar-se con cual-quier f^^Sormu-la de cua-dra-tu-ra
+ []
+
+
+Overfull \hbox (12.18895pt too wide) detected at line 233
+[][] \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s; y\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 ))\OML/cmm/m/it/10 ds \OT1/cmr/m/n/10 = [][\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t; y\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 )) + \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 h; y\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 h\OT1/cmr/m/n/10 ))] + \OML/cmm/m/it/10 O\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 h[]\OT1/cmr/m/n/10 )
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 240--241
+\OT1/cmr/m/n/10 ecua-ci^^Son. Pa-ra de-ter-mi-nar $\OML/cmm/m/it/10 y[]$\OT1/cmr/m/n/10 , se de-be re-sol-ver
+ []
+
+
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 246--247
+[]\OT1/cmr/m/n/10 El m^^Seto-do de Heun si-gue una l^^S^^Pnea cu-ya
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 252--253
+[]\OT1/cmr/bx/n/10 Teorema 2.3. []\OT1/cmr/m/n/10 Su-pon-ga que $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t; y\OT1/cmr/m/n/10 )$ y to-das sus
+ []
+
+
+Overfull \hbox (26.59563pt too wide) detected at line 260
+ []$[]  \OML/cmm/m/it/10 P[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t; y\OT1/cmr/m/n/10 ) = \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[]; y[]\OT1/cmr/m/n/10 ) + [](\OML/cmm/m/it/10 t \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 t[]\OT1/cmr/m/n/10 )[](\OML/cmm/m/it/10 t[]; y[]\OT1/cmr/m/n/10 ) + (\OML/cmm/m/it/10 y \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 y[]\OT1/cmr/m/n/10 )[](\OML/cmm/m/it/10 t[]; y[]\OT1/cmr/m/n/10 )[]$ 
+ []
+
+
+Overfull \hbox (35.01004pt too wide) in paragraph at lines 262--263
+[][] 
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 265--266
+[]\OT1/cmr/m/n/10 La fun-ci^^Son $\OML/cmm/m/it/10 P[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t; y\OT1/cmr/m/n/10 )$ re-ci-be el nom-bre del
+ []
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 269--270
+[]\OT1/cmr/m/n/10 El pri-mer pa-so pa-ra de-du-cir un m^^Seto-do
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 270.
+LaTeX Info: Redefining \% on input line 270.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[54]
+Overfull \hbox (5.00272pt too wide) detected at line 292
+[][]
+ []
+
+
+Underfull \hbox (badness 3158) in paragraph at lines 300--302
+[]\OT1/cmr/m/n/10 Los par^^Same-tos son por tan-to: $\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = 1$,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--302
+\OML/cmm/m/it/10 [] \OT1/cmr/m/n/10 = []$ y $\OML/cmm/m/it/10 ^^L[] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t; y\OT1/cmr/m/n/10 )$; por lo que
+ []
+
+
+Overfull \hbox (5.00693pt too wide) in paragraph at lines 300--302
+[] 
+ []
+
+
+
+
+
+LaTeX Info: Redefining \. on input line 341.
+LaTeX Info: Redefining \% on input line 341.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[55]
+Underfull \hbox (badness 3078) in paragraph at lines 341--343
+\OT1/cmr/m/n/10 relacionada con cua-tro par^^Same-tros y el ^^Salge-bra
+ []
+
+
+Overfull \hbox (5.0048pt too wide) in paragraph at lines 343--345
+[] 
+ []
+
+
+Overfull \hbox (1.61694pt too wide) detected at line 370
+\OML/cmm/m/it/10 y[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 y[] \OT1/cmr/m/n/10 + [][\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[]; y[]\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[]; y[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 hf\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[]; y[]\OT1/cmr/m/n/10 ))] \OMS/cmsy/m/n/10 !
+ []
+
+
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 378--379
+[]\OT1/cmr/bx/n/10 Definici^^Son 2.1. []\OT1/cmr/m/n/10 El m^^Seto-do de un pa-so 9.23[] es
+ []
+
+
+Overfull \hbox (25.01358pt too wide) detected at line 396
+[] \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 y[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 y\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[]\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j ^^T \OML/cmm/m/it/10 Ch[][] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 e[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 y[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 y\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[]\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 401--402
+[]\OT1/cmr/bx/n/10 Definici^^Son 2.4. []\OT1/cmr/m/n/10 El m^^Seto-do de un pa-so 9.23[] es
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 401--402
+\OT1/cmr/m/n/10 con-ver-gen-te si, pa-ra to-do PVI bien plan-tea-do,
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 407.
+LaTeX Info: Redefining \% on input line 407.
+[56]
+Underfull \hbox (badness 1603) in paragraph at lines 408--409
+\OT1/cmr/m/n/10 con un ta-ma~no de pa-so $\OML/cmm/m/it/10 h$ \OT1/cmr/m/n/10 par-ti-cu-lar, se podr^^S^^Pa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--423
+[]\OT1/cmr/bx/n/12 M^^Seto-dos de Run-ge{Kutta
+ []
+
+
+Underfull \hbox (badness 3179) in paragraph at lines 431--433
+\OT1/cmr/m/n/10 donde los va-lo-res $\OML/cmm/m/it/10 a[]$\OT1/cmr/m/n/10 , $\OML/cmm/m/it/10 b[]$ \OT1/cmr/m/n/10 y $\OML/cmm/m/it/10 c[]$ \OT1/cmr/m/n/10 pue-den ele-gir-se
+ []
+
+
+
+)
+
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[57])
+
+LaTeX Info: Redefining \. on input line 97.
+LaTeX Info: Redefining \% on input line 97.
+[58
+
+
+
+
+]
+Underfull \hbox (badness 5622) in paragraph at lines 98--98
+[]\OT1/cmr/m/n/10 Anne Green-baum; Ti-mothy P.Chartier. \OT1/cmr/m/it/10 Nu-me-ri-cal Methods: De-sign, Analy-sis, and Com-pu-ter
+ []
+
+
+
+[59] (./main.aux
+LaTeX Info: Redefining \sptext on input line 9.
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+ (./Capitulos/Tema 1 - Introduccion.aux) (./Capitulos/Tema 2 - Diferenciacion Numerica.aux) (./Capitulos/Tema 3 - Numero de Condicion de una Matriz.aux) (./Capitulos/Tema 4 - Interpolacion.aux) (./Capitulos/Tema 5 - Integracion.aux) (./Capitulos/Tema 6 - Raices de Ecuaciones y Sistemas No Lineales.aux) (./Capitulos/Tema 7 - Optimizacion Sin Restricciones y Minimos Cuadrados.aux) (./Capitulos/Tema 8 - Optimizacion Con Restricciones.aux) (./Capitulos/Tema 9 - Metodos para Ecuaciones Diferenciales Ordinarias.aux))
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-09-10>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 17635 strings out of 473578
+ 325400 string characters out of 5732242
+ 1186715 words of memory out of 5000000
+ 40283 multiletter control sequences out of 15000+600000
+ 567825 words of font info for 73 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 66i,12n,82p,1030b,2302s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (59 pages, 611026 bytes).
+PDF statistics:
+ 322 PDF objects out of 1000 (max. 8388607)
+ 197 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+
