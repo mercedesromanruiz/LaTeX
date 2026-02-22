@@ -1,9 +1,9 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {section}{AGRADECIMIENTOS}{\es@scroman {iii}}{Doc-Start}%
 \contentsline {section}{RESUMEN EJECUTIVO}{\es@scroman {v}}{Doc-Start}%
-\contentsline {section}{ÍNDICE DE TABLAS}{\es@scroman {ix}}{figure.caption.1}%
-\contentsline {section}{ÍNDICE DE FIGURAS}{\es@scroman {x}}{figure.caption.1}%
-\contentsline {section}{ÍNDICE DE CÓDIGOS}{\es@scroman {xi}}{figure.caption.1}%
+\contentsline {section}{ÍNDICE DE TABLAS}{\es@scroman {x}}{figure.caption.1}%
+\contentsline {section}{ÍNDICE DE FIGURAS}{\es@scroman {xi}}{figure.caption.1}%
+\contentsline {section}{ÍNDICE DE CÓDIGOS}{\es@scroman {xii}}{figure.caption.1}%
 \contentsline {section}{\numberline {1}TÍTULOS}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Profundidad 2}{1}{subsection.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.1}Profundidad 3}{1}{subsubsection.1.1.1}%

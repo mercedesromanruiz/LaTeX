@@ -1,0 +1,79 @@
+\chapter{MATLAB Functions} \label{MATLAB Functions}
+\blankpage
+
+\begin{lstlisting}[caption={XBox - V y W}, label={XBox - V y W}, basicstyle=\scriptsize]
+function [v,w]=fcn(x,y,lt,rt)
+
+    if (rt==0) && (lt==0) && ((x>=0.3) || (x<=-0.3))
+        v=x;
+        w=y;
+    elseif (x~=0) && ((rt~=0) || (lt~=0))
+        w=0;
+        v=0;
+    elseif (x==0) && (y==0) && (rt==0) && (lt~=0)
+        w=lt;
+        v=0;
+    elseif (x==0) && (y==0) && (lt==0) && (rt~=0)
+        w=rt;
+        v=0;
+    elseif (lt~=0) && (rt~=0)
+        w=0;
+        v=0;
+    elseif (x==0) || (y==0) || (lt==0) 
+        w=lt;
+        v=0;
+    else
+        w=0;
+        v=0;
+    end;
+\end{lstlisting}
+
+\begin{lstlisting}[caption={MCI - Limitador}, label={MCI - Limitador}, basicstyle=\scriptsize]
+function [FLo,FRo,RLo,RRo,CLo,CRo] = limitador(FL,FR,RL,RR,CL,CR,V,W)
+
+double CLi;
+double CRi;
+
+if((V~=0) && (W~=0))
+    
+        CLi=CL;
+        CRi=CR;
+        
+        if((V>0) && (CRi<0) || (V<0) && (CRi>0)) 
+           CRi=0; 
+        elseif((V>0) && (CLi>0) ||(V<0) && (CLi<0)) 
+           CLi=0;
+        end
+        
+        CLo=CLi;
+        CRo=CRi;
+        FLo=CLi;
+        RLo=CLi;
+        FRo=CRi;
+        RRo=CRi;         
+    
+else
+    
+        FLo=FL;
+        RLo=RL;
+        FRo=FR;
+        RRo=RR;
+        CLo=CL;
+        CRo=CR;
+    
+
+end
+\end{lstlisting}
+
+\begin{lstlisting}[caption={Kp\_Control}, label={Kp_Control}, basicstyle=\scriptsize]
+function [Kp, mode] = fcn(FL,CL,RL,RR,CR,FR,MODE)
+
+    if(FL==0) && (CL==0) && (RL==0) && (RR==0) && (CR==0) && (FR==0) && (MODE==1)
+        Kp = 25;
+        mode = 2;
+    else
+        Kp = 0;
+        mode = MODE;
+    end
+\end{lstlisting}
+\blankpage

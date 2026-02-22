@@ -1,0 +1,31 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Modelo de como colocar una figura que se encuentre en la carpeta "imagenes", como colocar un titulo de figura, numerar ese titulo de figura y referenciar tanto la figura como la pagina donde en encuentra.
+
+%Para mas información sobre las figura comprobar la documentación del paquete "graphicx".
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{logoUMA}
+    \caption{Logo de la uma}
+    \label{fig:logoUma}
+\end{figure}
+
+En este ejemplo vemos como podemos colocar una figura, controlando el tamaño del la imagen, colocando un titulo de figura numerado y siendo referenciado en el texto con el comando \ref{fig:Ace}. Igualmente podemos referenciar la pagina donde esta la figura con el comando \pageref{fig:logoUma}.
+
+\begin{figure}[H]
+    \begin{subfigure}{0.5\textwidth}
+        \raggedright
+        \includegraphics[width=0.7 \textwidth]{logoUMA}
+        \caption{Logo UMA}
+        \label{fig:2.1}
+    \end{subfigure}
+    \begin{subfigure}{0.5\textwidth}
+        \raggedleft
+        \includegraphics[width=0.8 \textwidth]{logoEII}
+        \caption{Logo EII}
+        \label{fig:2.2}
+    \end{subfigure}
+    \caption{Logos}
+    \label{fig:2}
+\end{figure}

@@ -1,0 +1,55 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Resumen y abstract del trabajo. Incluye todo los datos del trabajo, tanto en español como en ingles, y las palabras claves.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+    {\fontsize{20}{30}\selectfont \textbf{\tfgTitle}\\}
+\end{center}
+\bigskip
+
+\begin{itemize}
+    \item \large \textbf{Autor:} \tfgAuthor.
+    \item \large \textbf{Tutor:} \tfgTutor.
+    %\item \large \textbf{Cotutor:} \tfgCotutor
+    \item \large \textbf{Departamento:} \tfgDepartment.
+    \item \large \textbf{Titulación:} \tfgGrade.
+    \item \large \textbf{Palabras clave} Vehículo Robótico, Motor BLDC, Arduino Mega 2560, Arduino MKR, CAN Bus, Serial, MATLAB, Simulink, ROS, Control.
+\end{itemize}
+\begin{center}
+    {\fontsize{15}{40}\selectfont \textbf{Resumen}\\}
+\end{center}
+\bigskip
+
+Este Trabajo de Fin de Grado consiste en el desarrollo e implementación de un controlador para los motores del vehículo robótico de rescate Donatello, perteneciente al equipo de robótica RoboRescueUMA de la Universidad de Málaga. La implementación se realiza en una placa Arduino Mega 2560 con conexión y supervisión a través de un ordenador de abordo compacto Nuc Intel i7 con sistema operativo Windows. 
+
+Los servomotores utilizados, GIM8108v3, del fabricante SteadyWin se caracterizan por ser motores de corriente continua sin escobillas controlados a través de órdenes recibidas a través de un bus CAN. Esta comunicación se ha realizado haciendo uso de una \textit{shield} basada en el microchip MCP2515 conectada a la placa Arduino.
+
+Entre otros, se han desarrollado dos modelos de Simulink para el control del vehículo. El primero se ejecutará en tiempo real en la placa Arduino Mega 2560, calculará los parámetros de control de cada rueda y los transmitirá a los motores.  El segundo modelo, que se ejecuta en el ordenador de abordo, servirá como interfaz para el usuario, permitiendo el control de la velocidad lineal y angular del vehículo, por ejemplo a través de un mando de Xbox conectado por Bluetooth al ordenador. Ambos modelos intercambiarán información a través de una comunicación serial establecida entre el ordenador y la placa Arduino.
+
+\blankpage
+
+\begin{center}
+    {\fontsize{20}{30}\selectfont \textbf{\tfgEnglishTitle}\\}
+\end{center}
+\bigskip
+
+\begin{itemize}
+    \item \large \textbf{Author:} \tfgAuthor.
+    \item \large \textbf{Tutor:} \tfgTutor.
+    %\item \large \textbf{Cotutor:} \tfgCotutor
+    \item \large \textbf{Department:} \tfgEnglishDepartment.
+    \item \large \textbf{Degree:} \tfgEnglishGrade.
+    \item \large \textbf{Keywords} Robotic Vehicle, BLDC Motor, Arduino Mega 2560, Arduino MKR, CAN Bus, Serial, MATLAB, Simulink, ROS, Control.
+\end{itemize}
+\begin{center}
+    {\fontsize{15}{40}\selectfont \textbf{Abstract}\\}
+\end{center}
+\bigskip
+
+This Bachelor's Thesis consists of the development and implementation of a controller for the motors of the Donatello robotic rescue vehicle, belonging to the RoboRescueUMA robotics team at the University of Malaga. The implementation is carried out on an Arduino Mega 2560 board with connection and monitoring through a compact onboard computer, an Intel Nuc i7 with Windows operating system. 
+
+The servomotors used, GIM8108v3 from the manufacturer SteadyWin, are characterized by being brushless direct current motors controlled through commands received via a CAN bus. This communication has been carried out using a shield based on the MCP2515 microchip connected to the Arduino board. 
+
+Among other things, two Simulink models have been developed for vehicle control. The first will run in real-time on the Arduino Mega 2560 board, calculating the control parameters for each wheel and transmitting them to the motors. The second model, running on the onboard computer, will serve as a user interface, allowing control of the vehicle's linear and angular speed, for example, through an Xbox controller connected via Bluetooth to the computer. Both models will exchange information through a serial communication established between the computer and the Arduino board.
+
+\blankpage

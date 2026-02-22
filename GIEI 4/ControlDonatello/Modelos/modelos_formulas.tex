@@ -1,0 +1,28 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Modelo de como colocar formulas directamente sobre el texto, o bien Entre párrafos.
+
+%Para mas información sobre las figura comprobar la documentación del paquete "amsmath".
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Para escribir ecuaciones en medio de un texto tenemos que encerrar la ecuación entre símbolos de dolar $E=mc^2$. También podemos hacer colocar las formulas en huecos centrado entre párrafos de las dos siguientes formas:
+
+\[E=mc^2\]
+
+\begin{equation}
+    \label{energy}
+    E=mc^2
+\end{equation}
+
+Con el segundo formato vemos que podemos numerar las ecuaciones cómodamente y referenciarlas en el texto de forma simple, con le comando \ref{energy}.
+
+Tal como hemos visto, para crear superíndices usamos $a^b$, mientras que para crear subíndices usamos $a_b$. Esto lo podemos llevar al extremo creando formular realmente complejas, como la siguiente:
+
+\[ T^{i_1 i_2 \dots i_p}_{j_1 j_2 \dots j_q} = T(x^{i_1},\dots,x^{i_p},e_{j_1},\dots,e_{j_q}) \]
+
+Para escribir fracciones usamos $\frac{a}{b}$, mientras que para integrales usamos $\int_0^1$, combinándolo con los superíndices y subíndices. Con esto podemos crear formulas complejas como la siguiente:
+
+\[ \int_0^1 \frac{1}{e^x} =  \frac{e-1}{e} \]
+
+Las letras griegas se pueden escribir en minúscula ($\omega$, $\delta$) o en mayúscula ($\Omega$, $\Delta$).
+
+Los operadores especiales, tales como senos, consenos o logaritmos se escriben con los comandos ($\sin(\beta)$, $\cos(\alpha)$, $\log(x)$).

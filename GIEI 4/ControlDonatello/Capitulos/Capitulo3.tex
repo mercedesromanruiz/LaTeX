@@ -1,0 +1,64 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Capitulo 3 del cuerpo
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Imágenes}
+
+\thispagestyle{plain}
+\renewcommand{\tablename}{Tabla}
+
+\section{Introducción}
+
+En este capítulo veremos como podemos colocar imágenes de dos formas diferentes, una sola imagen centrada en la página con su pie de figura y su referencia en el texto, y dos imágenes una al lado de la otra, con su pie de figura común y sus pies de figura individuales, todos referenciados correctamente en en el texto.
+
+\section{Imagen centrada}
+
+Para el caso de una imagen centrada, el código es bastante directo, podemos verlo a continuación:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{logoUMA}
+    \caption{Logo de la uma}
+    \label{fig:1}
+\end{figure}
+
+Este tipo de figuras no tiene problema alguno a la hora de referenciar ya que es una sola imagen de un tamaño especifico centrada en la página. Para referenciar esta figura solo debemos de usar el comando \ref{fig:1}, indicando entre los corchetes el nombre de la figura que queramos referenciar.
+
+Si además queremos referenciar la pagina podemos usar el comando \pageref{fig:1} que indicar la página donde se encuentra la figura.
+
+\newpage
+
+\section{Figuras en horizontal}
+
+Para las figuras en horizontal usamos el mismo código que usamos para las figuras de la portada.
+
+\begin{figure}[H]
+    \begin{subfigure}{0.5\textwidth}
+        \raggedright
+        \includegraphics[width=0.7 \textwidth]{logoUMA}
+        \caption{Logo UMA}
+        \label{fig:2.1}
+    \end{subfigure}
+    \begin{subfigure}{0.5\textwidth}
+        \raggedleft
+        \includegraphics[width=0.7 \textwidth]{logoEII}
+        \caption{Logo EII}
+        \label{fig:2.2}
+    \end{subfigure}
+    \caption{Logos}
+    \label{fig:2}
+\end{figure}
+
+En este caso podemos referenciar tanto una de las figuras (\ref{fig:2.2}) como las dos figuras a la vez (\ref{fig:2}).
+
+El funcionamiento de la referencia por páginas es igual, usando el comando \pageref{fig:2.2} podemos referenciar tanto las figuras internas como las dos a la vez.
+
+Dado que esta sección acaba en pagina par, para saltar a la próxima sección debemos de usar el comando de nueva página, no el de página en blanco.
+
+\section{Conclusión}
+
+Como hemos visto, colocar las figuras de esta forma es sencillo y se puede logra una referencia automática, tanto del número de la figura como de la página donde se encuentra.
+
+Es posible colocar imágenes y figuras de muchas otras formas, sin embargo estas son las más utilizadas y, por tanto, los modelos que mostramos como se usan.
+
+Por ultimo aclarar que en la carpeta modelos encontraran los modelos de de ambas formas de colocar las figuras para poder copiarlo y usarlo en su propio documento.

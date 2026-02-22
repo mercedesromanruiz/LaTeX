@@ -1,0 +1,72 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Capitulo 4 del cuerpo
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Tablas}
+
+\thispagestyle{plain}
+\renewcommand{\tablename}{Tabla}
+\section{Introducción}
+
+En este capítulo vamos a mostrar como crear tablas, usando 3 ejemplos de tablas que se incluyen dentro de la carpeta "Modelos". Estos ejemplos serán de tablas que colorean la primera fila, la primera columna, o ambas.
+
+\section{Primera fila}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c | c | c|}
+        \hline
+        \rowcolor[HTML]{3166FF} 
+        {\color[HTML]{FFFFFF} \textbf{Cell1}} & {\color[HTML]{FFFFFF} \textbf{Cell2}} & {\color[HTML]{FFFFFF} \textbf{Cell3}} \\
+        \hline
+        \textbf{Cell4} & \textbf{Cell5} & \textbf{Cell6}\\
+        \textbf{Cell7} & \textbf{Cell8} & \textbf{Cell9}\\
+        \hline
+    \end{tabular}
+    
+    \caption{Tabla que enfatiza primera fila}
+    \label{table:1}
+\end{table}
+
+En la tabla \ref{table:1} tenemos el ejemplo de una tabla que enfatiza la primera linea con un tono azul y las letras en blanco.
+
+\section{Primera columna}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|>{\columncolor[HTML]{3166FF}}c | c | c|}
+        \hline
+        {\color[HTML]{FFFFFF} \textbf{Cell1}} & \textbf{Cell2} & \textbf{Cell3} \\
+        {\color[HTML]{FFFFFF}\textbf{Cell4}} & \textbf{Cell5} & \textbf{Cell6}\\
+        {\color[HTML]{FFFFFF} \textbf{Cell7}} & \textbf{Cell8} & \textbf{Cell9}\\
+        \hline
+    \end{tabular}
+    
+    \caption{Tabla que enfatiza primera columna}
+    \label{table:2}
+\end{table}
+
+En la tabla \ref{table:2} tenemos el ejemplo de una tabla que enfatiza la primera columna con un tono azul y las letras en blanco.
+
+\section{Primera fila y columna}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|>{\columncolor[HTML]{3166FF}}c | c | c|}
+        \hline
+        \rowcolor[HTML]{CB0000}
+        {\color[HTML]{FFFFFF} \textbf{Cell1}} & {\color[HTML]{FFFFFF} \textbf{Cell2}} & {\color[HTML]{FFFFFF}\textbf{Cell3}} \\
+        {\color[HTML]{FFFFFF}\textbf{Cell4}} & \textbf{Cell5} & \textbf{Cell6}\\
+        {\color[HTML]{FFFFFF} \textbf{Cell7}} & \textbf{Cell8} & \textbf{Cell9}\\
+        \hline
+    \end{tabular}
+    
+    \caption{Tabla que enfatiza primera columna}
+    \label{table:3}
+\end{table}
+
+En la tabla \ref{table:3} tenemos el ejemplo de una tabla que enfatiza la primera columna y la primera fila con colores diferentes, predominando el enfatizado de la fila frente al de la columna en aquella celdas comunes.
+
+\section{Conclusión}
+
+Con este capítulo hemos visto como podemos crear tres tipos diferentes de tablas. Las tablas se pueden complicar todo lo que queramos, añadiendo colores separados a cada celda y modificando las lineas que separan las celdas. Sin embargo, estos tres tipos de tablas son las más sencillas de crear y muestran los datos que queramos mostrar en las tablas de forma clara, por lo que son las más recomendadas para usar, evitando florituras que puedan dificultar al comprensión de los datos que se muestran.

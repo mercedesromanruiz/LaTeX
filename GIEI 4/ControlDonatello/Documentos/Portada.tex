@@ -1,0 +1,55 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Portada del documento donde encontramos el titulo del documento, el nombre del autor, el nombre del tutor y cotutor (en caso de tenerlo), logos de la escuela y de la universidad, fecha.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Quitamos solo para esta página los encabezados y pies de página
+\thispagestyle{empty}
+
+%Modificamos el tamaño de la cabecera para que la portada quede mejor
+\setlength\headheight{10pt}
+
+%Logo de la uma y de la escuela de ingeniera colocados en dos subfiguras alineadas
+\begin{figure}[H]
+    \begin{subfigure}{0.5\textwidth}
+        \raggedright
+        \includegraphics[width=0.7 \textwidth]{logoUMA}
+    \end{subfigure}
+    \begin{subfigure}{0.5\textwidth}
+        \raggedleft
+        \includegraphics[width=0.7 \textwidth]{logoEII}
+    \end{subfigure}
+\end{figure}
+
+
+%Para modificar el tamaño de cada texto de la portada y el espaciado entre ellos se debe de modificar el comando:
+%\fontsize{tamaño de texto}{espaciado superior}
+\begin{center}
+    {\fontsize{13}{30}\selectfont Escuela de Ingenierías Industriales\\}
+    \bigskip
+    {\fontsize{15}{20}\selectfont \tfgDepartment\\}
+    \bigskip
+    {\fontsize{15}{80}\selectfont \tfgTFE\\}
+    \bigskip
+    \bigskip
+    \bigskip
+    \bigskip
+    \bigskip
+    {\fontsize{20}{25}\selectfont \textbf{\tfgTitle}\\}
+    \bigskip
+    \bigskip
+    {\fontsize{15}{20}\selectfont \tfgEnglishTitle\\}
+    \bigskip
+    {\fontsize{15}{40}\selectfont \tfgGrade\\}
+    \bigskip
+    {\fontsize{15}{60}\selectfont Autor: \tfgAuthor\\}
+    \bigskip
+    {\fontsize{13}{20}\selectfont Tutor: \tfgTutor\\}
+    \bigskip
+    %{\fontsize{15}{20}\selectfont Cotutor: \tfgCotutor\\}
+    \vfill
+    \flushright
+    {\fontsize{10}{100}\selectfont Málaga, \tfgMonth \ de \tfgYear}
+\end{center}
+
+%Comando para crear una página totalmente en blanco tras la portada
+\blankpage

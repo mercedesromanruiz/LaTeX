@@ -1,0 +1,69 @@
+\chapter{ComunicacionMotores.ino} \label{ComunicacionMotores.ino}
+\blankpage
+
+\begin{lstlisting}[language=Arduino, caption= ComunicacionMotores.ino, basicstyle=\scriptsize]
+#include <mcp_can.h>
+#include <SPI.h>
+
+#ifdef ARDUINO_SAMD_VARIANT_COMPLIANCE
+  #define SERIAL SerialUSB
+#else
+  #define SERIAL Serial
+#endif
+
+const int SPI_CS_PIN = 3; // MKR ?
+
+MCP_CAN CAN(SPI_CS_PIN);
+
+unsigned char Enter_Motor_Mode[8] = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFC};
+unsigned char Exit_Motor_Mode[8] = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFD};
+
+unsigned char buf;
+unsigned char len = 0;
+long unsigned int canID = 0;
+unsigned char ID_type = 0;
+
+void setup() {
+  // put your setup code here, to run once:
+  SERIAL.begin(115200);
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+  while(CAN_OK != CAN.begin(0 ,CAN_1000KBPS, MCP_8MHZ)) {
+    SERIAL.println("CAN BUS Shield init fail!");
+    SERIAL.println("Init CAN BUS Shield again");
+    delay(10);
+  }
+
+  SERIAL.println("CAN BUS Shield init ok!");
+
+  CAN.sendMsgBuf(0x05, 0, 8, Enter_Motor_Mode);
+
+  delay(1000);
+  
+  if(CAN_MSGAVAIL == CAN.checkReceive()){
+    CAN.readMsgBuf(&canID, &ID_type, &len, &buf);
+    SERIAL.println(len);
+  
+    SERIAL.println("----------------------");
+    SERIAL.println("Get data from ID: 0x");
+    SERIAL.println(canID, HEX);
+
+    SERIAL.println(buf, HEX);
+    SERIAL.println("\t");
+
+    SERIAL.println();
+  }
+
+  else
+    SERIAL.println("No llega nada");
+
+  delay(1000);
+
+}
+\end{lstlisting}
+
+\blankpage

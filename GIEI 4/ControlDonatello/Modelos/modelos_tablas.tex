@@ -1,0 +1,77 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Modelo de como colocar una tabla en el texto, dándole formato, coloreando las celdas y las lineas de separación.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+En esta primera tabla vemos como creamos una tabla muy sencilla, centrada y referenciada en el texto con el comando \ref{table:1}.
+
+\begin{table}[H]
+    \centering
+    
+    \begin{tabular}{ c c c }
+     cell1 & cell2 & cell3 \\ 
+     cell4 & cell5 & cell6 \\  
+     cell7 & cell8 & cell9    
+    \end{tabular}
+    
+    \caption{Tabla básica}
+    \label{table:1}
+    
+\end{table}
+
+Para crear tablas con lineas de separación debemos de nombrarlo al principio, para las lineas verticales. Para las lineas horizontales se usa un comando. En el ejemplo de la tabla \ref{table:2} podemos ver como crear una tabla con lineas de separación para cada celda:
+
+\begin{table}[H]
+    \centering
+    
+    \begin{tabular}{ ||c | c | c|| }
+    \hline
+     cell1 & cell2 & cell3 \\ 
+     \hline
+     \hline
+     cell4 & cell5 & cell6 \\  
+     \hline
+     cell7 & cell8 & cell9 \\
+     \hline
+    \end{tabular}
+    
+    \caption{Tabla básica con lineas de separación}
+    \label{table:2}
+    
+\end{table}
+
+En la tabla \ref{table:3} tenemos una tabla más compleja, donde el grosor de las lineas, el color de las lineas y el color de las celdas se ha modificado. Hay un pequeño creador de tablas online que puede facilitar mucho gran parte del trabajo a la hora de crear una tabla: http://www.tablesgenerator.com/.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{!{\vrule width 2pt}>{\columncolor[HTML]{CB0000}}c c c!{\vrule width 2pt}>{\columncolor[HTML]{CB0000}}}
+        \noalign{\hrule height 2pt}
+        \multicolumn{3}{!{\vrule width 2pt}c!{\vrule width 2pt}}{\cellcolor[HTML]{0000FF}{\color[HTML]{FFFFFF} Titulo de tabla}}\\ \hline
+        
+        cell1 & {\color[HTML]{3531FF} \textbf{cell2}} & {\color[HTML]{3531FF} \textbf{cell3}}\\ \hline
+        
+        cell4 & {\color[HTML]{3531FF} \textbf{cell4}} & \cellcolor[HTML]{FFCCC9}{\color[HTML]{3531FF} \textbf{cell6}}\\ \hline
+        
+        cell7 & {\color[HTML]{3531FF} \textbf{cell8}} & {\color[HTML]{3531FF} \textbf{cell9}}\\
+        \noalign{\hrule height 2pt}
+    \end{tabular}
+    
+    \caption{Tabla compleja}
+    \label{table:3}
+    
+\end{table}
+
+La tabla \ref{table:4} es la tabla usada en los documentos de ejemplo del cuerpo.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c c c}
+        \rowcolor[HTML]{3166FF} 
+        {\color[HTML]{FFFFFF} \textbf{Cell1}} & {\color[HTML]{FFFFFF} \textbf{Cell1}} & {\color[HTML]{FFFFFF} \textbf{Cell1}} \\
+        \textbf{Cell1} & \textbf{Cell1} & \textbf{Cell1}\\
+        \textbf{Cell1} & \textbf{Cell1} & \textbf{Cell1}                       
+    \end{tabular}
+    
+    \caption{Tabla ejemplo}
+    \label{table:4}
+    
+\end{table}

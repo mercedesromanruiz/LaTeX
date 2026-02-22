@@ -1,0 +1,117 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Documento donde se realizan los includes de los diferentes paquetes que se usaran y se inicializan los path para imágenes y otros archivos, así como los nombres de los índices de figuras.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Include de paquetes a usar
+\usepackage{graphicx} %Paquete para manejo de imágenes.
+\usepackage{amsmath } %Paquete para manejo de formulas matemáticas.
+\usepackage{float} %Paquete de posicionamiento preciso para tablas y figuras.
+\usepackage{array} %Paquete para trabajar con tablas mejor.
+\usepackage[table,xcdraw]{xcolor} %Paquete para modificar el color de las celdas de las tablas.
+\usepackage{fancyhdr} %Paquete para modificar la cabecera de los documentos.
+\usepackage{subcaption} %Paquete para crear subfiguras.
+\usepackage[top=1.5cm,bottom=5cm,left=2cm,right=2cm,asymmetric]{geometry} %Paquete para modificar la geometría del documento. Modificar los valores top, bottom, left y right para ajustar los margenes. Importante tener en cuenta que es un documento que diferencia entre las paginas pares e impares, pensado para ser impreso a dos caras en formato libro.
+\usepackage{acronym} %Paquete para crear el glosario de términos
+\usepackage{titlesec} %Paquete para modificar los títulos de los apartados
+\usepackage{indentfirst} %Primer parrafo indentado
+\usepackage{csquotes} %Bibliografia en español
+\usepackage[style=ieee]{biblatex} %Paquete para la bibliografia
+\usepackage[spanish]{babel} %Texto en español
+\usepackage{anyfontsize} %Modificar el tamaño de letra.
+\usepackage{fontspec} %Paquete para trabajar con Arial.
+%\setmainfont{Arial} %Cambiamos el tipo de letra a Arial.
+\usepackage[font=small,labelfont=bf]{caption} %Cambiar tamaño de letra de figuras
+
+
+% Añadido por Ezequiel Farina
+\usepackage{multirow}
+\usepackage[hidelinks]{hyperref} %Añade los hipervínculos para el índice
+\usepackage{listings} %Añade el paquete para copiar código sobre la memoria
+\usepackage{csquotes} %Añade las doble comillas
+
+\usepackage[numbered,autolinebreaks,useliterate]{Paquetes_y_variables/mcode} % añade la librería para códigos Matlab
+
+% fin añadido
+
+% Añadido por Mercedes Román Ruiz
+% Paquete para hacer ajustes en el comportamiento de las secciones
+\usepackage{etoolbox}
+
+% Redefinir la bibliografía para que comience en una página impar
+\patchcmd{\bibsetup}{\chapter*}{\cleardoublepage\chapter*}{}{}
+% Fin Añadido
+
+%Path de los archivos que se van a manejar
+\graphicspath{ {imagenes/} }
+
+%Nombre para los índices
+\renewcommand{\listfigurename}{Índice de figuras}
+%%listtablename{\'Indice de tablas}
+\renewcommand{\listtablename}{\'Índice de tablas'}
+\renewcommand*\contentsname{Índice}
+\renewcommand{\lstlistingname}{Código}
+
+%Activamos el estilo de página
+\pagestyle{fancy}
+%Modificación de la cabecera
+\rhead{\includegraphics[width=3cm]{logoEII}}
+\lhead{\includegraphics[width=3cm]{logoUMA}}
+\cfoot{ }
+
+\fancypagestyle{plain}{%
+    \cfoot{ }%
+    \renewcommand{\headrulewidth}{0pt}
+    
+    \fancyhf{ }%
+}
+
+%Formato de secciones del documento
+%Sección primera (1.)
+\titleformat
+    {\chapter}[display]
+    {\bfseries\huge\itshape}
+    {Capítulo \ \thechapter}
+    {-1ex}
+    {
+        \rule{\textwidth}{0.4pt}
+        \vspace{-3ex}
+        \flushright
+    }
+        [\vspace{-1ex}
+        \rule{\textwidth}{0.4pt}
+    ]
+%Sección segunda (1.1.)
+\titleformat{\section}
+{\normalfont\Large\bfseries}{\thesection}{1em}{}
+%Sección tercera (1.1.1.)
+\titleformat{\subsection}
+{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+{\normalfont\bfseries}{\thesubsubsection}{1em}{}
+
+%Espaciado entre parrafos
+\setlength{\parskip}{6pt}
+%Tamaño primera indentación
+\setlength{\parindent}{30pt}
+
+% Declaramos el idioma de la bibliografia y el documento de la bibliografia
+\bibliography{bibliografia}
+
+%%cuadrados rojos hipervínculos
+\usepackage{hyperref}
+
+%-%incluir pdf
+\usepackage{pdfpages}
+
+%-%texto justificado en Terminos
+\usepackage{ragged2e}
+
+\usepackage{gensymb}
+
+\def\blankpage{%
+      \clearpage%
+      \thispagestyle{empty}%
+      \addtocounter{page}{-1}%
+      \null%
+      \clearpage}

@@ -1,0 +1,71 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Autor : Fernando González
+%%%
+%%% Coautor: Antonio J. Muñoz
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Importante%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Cambiar el compilador desde menu a XeLaTeX para poder usar la fuente Arial
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-% MODIFICACIONES: Ezequiel Farina y Antonio Muñoz 24/02/2021
+
+%incorpora paquete para los hipervínculos del texto
+%incorpora paquetes para la utilización de código Matlab y arduino 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-% MODIFICACIONES: Carlos Javier Beigveder Núñez 26/10/2020
+
+%Función principal que se encarga de llamar al resto de funciones para crear el documento completo. Es la encargada de determinar el orden en el que se muestran las diferentes partes del documento. Como documentación inicial visitar la pagina "https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes", donde hay bastante información sobre este lenguaje para poder comenzar.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%En primer lugar el tipo de documento, tipo article pues es el mas típico Esto debe de estar en le main para que no de errores de compilación.
+%El tamaño de letra para el texto normal se situa a 12pt, pudiendo modificarse al que se desee.
+\documentclass[12pt, a4paper, twoside]{book}
+
+%Incluimos los dos documentos que se encargan de incluir los paquetes necesarios, dar formato a las paginas y crear las variables que se usaran, así como los comandos personalizados para este documentos.
+\input{Paquetes_y_variables/Includes}
+\input{Paquetes_y_variables/Variables}
+\input{Paquetes_y_variables/arduinoLanguage}
+\renewcommand{\tablename}{Tabla}
+
+\setlength{\arrayrulewidth}{0.5mm} %Cambia el grosor de las líneas en las tablas
+\renewcommand{\arraystretch}{1.5} %Aumenta la altura de las celdas de las tablas
+
+\begin{document}
+
+\frontmatter %-%numeracion romana
+
+\input{Documentos/Portada} %Colocamos la portada
+
+\input{Documentos/DeclaracionOriginalidad} %Colocamos la declaración de originalidad
+
+\input{Documentos/Resumen} %Colocamos resumen y abstract
+
+%Si no se quiere añadir agradecimientos comentar la siguiente linea
+\input{Documentos/Agradecimientos} %Colocamos dedicatoria y agradecimientos
+
+\input{Documentos/Terminos} %Colocamos el glosario de términos
+\input{Documentos/Acrónimos} %Colocamos los acrónimos
+
+\mainmatter  %-% numeracion arábiga
+
+\input{Documentos/Indices} %Colocamos los índices
+
+\setcounter{figure}{0} %Ponemos la cuenta de las figuras a 0 para eliminar la cuenta de las figuras de la portada.
+\fancyfoot[LE,RO]{\thepage} %Activamos que se muestre la cuenta de las páginas en el pie de página, a partir de aquí.
+\chead[\rightmark]{\leftmark}
+
+\fancypagestyle{plain}{%
+    \cfoot{ }%
+    \renewcommand{\headrulewidth}{0pt}
+    \fancyhf{ }%
+    \fancyfoot[LE,RO]{\thepage}%
+}
+
+\input{Documentos/Cuerpo} %Colocamos el cuerpo
+
+\newpage
+
+\input{Documentos/Bibliografia} %Colocamos la bibliografía
+
+\input{Documentos/Apendices} %Colocamos los apendices
+
+\end{document}

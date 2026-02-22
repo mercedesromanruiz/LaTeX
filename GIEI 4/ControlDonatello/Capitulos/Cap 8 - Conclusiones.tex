@@ -1,0 +1,35 @@
+\chapter{Conclusiones y mejoras futuras}
+
+\thispagestyle{plain}
+\renewcommand{\tablename}{Tabla}
+
+\section{Introducción}
+
+En este ultimo capítulo de la memoria se incluyen las conclusiones obtenidas durante el desarrollo del Trabajo de Fin de Grado, así como las posibles mejoras futuras para el proyecto.
+
+\section{Conclusiones}
+El objetivo principal de este Trabajo de Fin de Grado era el de implementar, haciendo uso de SIMULINK y una placa Arduino, un controlador para los servomotores del vehículo robótico Donatello.
+
+Se ha desarrollado un sistema capaz de controlar los motores BLDC, haciendo uso de una Arduino Mega con su correspondiente CAN Shield, pese a la escasa información sobre estos servomotores proporcionada por el fabricante, se ha conseguido satisfactoriamente. 
+
+La utilización de la placa Arduino MKR WiFi 1010 ha presentado innumerables problemas en la generación de código por parte de MATLAB tanto en las versiones 2023b y 2024a, que la han descartado para su utilización en el robot.
+
+La modificación de la comunicación en serie PC-Arduino haciendo uso de nuevas librerías de MathWorks publicadas para la versión R2023b, ha permitido prescindir de código C++ o S-Functions junto con sus dependencias, mejorando la comprensión y portabilidad del código fuente, facilitando las modificaciones futuras.
+
+Se ha creado una versión de interfaz para ROS, lo cuál permite la utilización en el robot de los procedimientos ya existentes para el Robot Operating System.
+
+Personalmente, me ha permitido adquirir conocimientos en el campo de la robótica móvil, además de avanzar en el uso de herramientas como MATLAB o Simulink. Como añadido, esta memoria ha sido realizada en Overleaf, un editor LaTeX, lo cuál me ha obligado a aprender este lenguaje cada vez más utilizado para la redacción de textos y artículos científicos. Finalmente, este trabajo ha logrado apasionarme para seguir profundizando en el campo de la electrónica y automática.
+
+\section{Posibles mejoras}
+El presente TFG forma parte de un proyecto mayor en continuo desarrollo, siendo su objetivo final montar un vehículo robótico de rescate dotado de manipulador funcional. A continuación se detallan posibles incorporaciones en versiones futuras:
+
+\begin{itemize}
+    \item Adición de unidades de medición inercial que permita calcular la posición, orientación y velocidad del vehículo sin necesidad de referencias externas, mejorando el control cinemático del vehículo.
+    \item Insistir con futuras versiones de MATLAB en la sustitución de la Arduino Mega por otra placa que incorpore módulo de comunicación inalámbrica, eliminando comunicación serial cabreada, haciendo más robusto el sistema.
+    \item Integrar sensores de corriente para optimizar el consumo de energía y mejorar la duración de la carga de la batería.
+    \item Incorporación de diversos sensores que permitan conocer con mayor precisión el entorno que rodea al vehículo.
+    \item Sistema de Geolocalización que permita conocer la ubicación precisa del robot y la distancia al objetivo.
+    \item Implementación de un modelo automático que sabiendo la localización actual y la objetivo, trace la trayectoria hacia este.
+\end{itemize}
+
+%\blankpage
