@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.9)  17 FEB 2026 16:34
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.9)  24 FEB 2026 17:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -449,7 +449,7 @@ Package csquotes Info: Redefining alias 'default' -> 'spanish'.
  (./main.aux
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
- (./Capitulos/Tema 2. El sistema de transporte. Modos.aux))
+ (./Capitulos/Tema 2. El sistema de transporte. Modos.aux) (./Capitulos/Tema 3. Introducción al Estudio Del Flujo de Trafico.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -749,7 +749,41 @@ Underfull \hbox (badness 3965) in paragraph at lines 120--121
 []\TU/lmr/m/n/10 Composición reversible: composición de tren
  []
 
+
+Underfull \hbox (badness 4316) in paragraph at lines 131--132
+[]\TU/lmr/m/n/10 Los cambios estratégicos y tecnológicos del
+ []
+
+
+Underfull \vbox (badness 1668) has occurred while \output is active []
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+\TU/lmr/m/n/10 modales con mejores conexiones viarias y
+ []
+
+
+Underfull \hbox (badness 5862) in paragraph at lines 142--143
+[]\TU/lmr/m/n/10 Construcción de áreas abrigadas y accesos
+ []
+
 )
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.69003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.69003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
+
+[5]
+\openout2 = `"Capitulos/Tema 3. Introducción al Estudio Del Flujo de Trafico.aux"'.
+
+ (./Capitulos/Tema 3. Introducción al Estudio Del Flujo de Trafico.tex
 
 
 
@@ -762,13 +796,106 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
 
-[5
+[6
 
-]) (./main.aux
+
+
+
+]
+Capítulo 2.
+
+Underfull \hbox (badness 2689) in paragraph at lines 5--6
+\TU/lmr/m/n/10 físicos que permiten identificar su capacidad de
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 9--10
+\TU/lmr/m/n/10 de la infraestructura y del medio, hace que el
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+[]\TU/lmr/m/n/10 Determinación de retrasos probables en
+ []
+
+
+Underfull \vbox (badness 5756) has occurred while \output is active []
+
+
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 37--38
+[]\TU/lmr/m/n/10 En cierta forma, los fenómenos macroscópicos
+ []
+
+
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]\TU/lmr/bx/n/10 Para tráfico ligero, ($\OMS/cmsy/m/n/10 ^^T$ \TU/lmr/bx/n/10 200
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[]\TU/lmr/bx/n/10 Distribución binomial, (>200
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]\TU/lmr/bx/n/14.4 Modelos de flujo
+ []
+
+
+Underfull \hbox (badness 2653) in paragraph at lines 98--98
+[]\TU/lmr/bx/n/14.4 Modelo de seguimiento de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
+[]\TU/lmr/bx/n/14.4 Modelo para el cálculo
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 100--100
+\TU/lmr/bx/n/14.4 de distancias mínimas de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
+[]\TU/lmr/bx/n/14.4 Capacidad y niveles de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
+\TU/lmr/bx/n/14.4 servicio en autopistas,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
+\TU/lmr/bx/n/14.4 autovías y carreteras
+ []
+
+)
+Underfull \vbox (badness 1715) has occurred while \output is active []
+
+
+
+
+
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.69003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.69003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
+
+[8]) (./main.aux
 LaTeX Info: Redefining \sptext on input line 9.
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
- (./Capitulos/Tema 2. El sistema de transporte. Modos.aux))
+ (./Capitulos/Tema 2. El sistema de transporte. Modos.aux) (./Capitulos/Tema 3. Introducción al Estudio Del Flujo de Trafico.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
@@ -778,12 +905,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13967 strings out of 474234
- 260499 string characters out of 5745797
- 1127479 words of memory out of 5000000
- 36520 multiletter control sequences out of 15000+600000
- 560877 words of font info for 54 fonts, out of 8000000 for 9000
+ 14007 strings out of 474234
+ 262735 string characters out of 5745797
+ 1129916 words of memory out of 5000000
+ 36551 multiletter control sequences out of 15000+600000
+ 560885 words of font info for 55 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  66i,11n,81p,1249b,4043s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (5 pages).
+Output written on main.pdf (8 pages).

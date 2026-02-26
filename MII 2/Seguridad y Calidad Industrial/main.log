@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.9)  19 FEB 2026 16:42
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.9)  26 FEB 2026 16:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -622,53 +622,20 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@expandcount=\count436
  (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
-File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen275
+\pgfarrowlength=\dimen276
+\pgfarrowwidth=\dimen277
+\pgfarrowlinewidth=\dimen278
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
-File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
-File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
-File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.code.tex
-File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
-File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex
-File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
-File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
-File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodepartlowerbox=\box68
-\pgfnodeparttwobox=\box69
-\pgfnodepartthreebox=\box70
-\pgfnodepartfourbox=\box71
-\pgfnodeparttwentybox=\box72
-\pgfnodepartnineteenbox=\box73
-\pgfnodeparteighteenbox=\box74
-\pgfnodepartseventeenbox=\box75
-\pgfnodepartsixteenbox=\box76
-\pgfnodepartfifteenbox=\box77
-\pgfnodepartfourteenbox=\box78
-\pgfnodepartthirteenbox=\box79
-\pgfnodeparttwelvebox=\box80
-\pgfnodepartelevenbox=\box81
-\pgfnodeparttenbox=\box82
-\pgfnodepartninebox=\box83
-\pgfnodeparteightbox=\box84
-\pgfnodepartsevenbox=\box85
-\pgfnodepartsixbox=\box86
-\pgfnodepartfivebox=\box87
-))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
-File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
-File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen275
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -680,28 +647,28 @@ LaTeX Info: Redefining \% on input line 9.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 28.
  (c:/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -754,8 +721,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 27.
-Package biblatex Info: Reference segment=0 on input line 27.
+Package biblatex Info: Reference section=0 on input line 28.
+Package biblatex Info: Reference segment=0 on input line 28.
 (./Documentos/Portada.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 1.
@@ -769,7 +736,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 
-]) (./Documentos/Cuerpo.tex (./Capitulos/Tema 1. Normalizacion.tex) (./Capitulos/Tema 2. Acreditacion.tex
+]) (./Documentos/Cuerpo.tex (./Capitulos/Tema 1. Normalizacion.tex
 
 
 
@@ -778,6 +745,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Capítulo 1.
+) (./Capitulos/Tema 2. Acreditacion.tex
+
+
+
+[3
+
+]
+
+
+
+[4
+
+]
+Capítulo 2.
 
 Underfull \hbox (badness 2409) in paragraph at lines 3--4
 \TU/lmr/m/n/10 la actuación de un tipo de organizaciones muy
@@ -845,9 +826,127 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 \TU/lmr/m/n/10 por la Ley y tneer por tanto CARÁCTER
  []
 
+) (./Capitulos/Tema 3. Certificacion.tex
+
+[5]
+
+
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.69003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.69003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
+
+[6
+
+]
+Capítulo 3.
+
+Underfull \hbox (badness 3590) in paragraph at lines 4--5
+[]\TU/lmr/m/n/10 Declara que los organismos acreditados son
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+[]\TU/lmr/m/n/10 Les permite conseguir la aceptación de
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 5--6
+\TU/lmr/m/n/10 sus prestaciones a nivel internacional y el
+ []
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 16--17
+\TU/lmr/m/n/10 satisfacción de los requerimientos de los clientes,
+ []
+
+
+Underfull \hbox (badness 5388) in paragraph at lines 21--22
+[]\TU/lmr/m/n/10 Actualmente podemos distinguir dos grandes
+ []
+
+
+Underfull \vbox (badness 1221) has occurred while \output is active []
+
+
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 23--24
+[]\TU/lmr/m/n/10 El HACCP es una herramienta para evaluar
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 23--24
+\TU/lmr/m/n/10 alimentaria, desde el productor primario hasta el
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]\TU/lmr/bx/n/12 Certificación de Sitemas de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+[]\TU/lmr/m/n/10 En esta categoría podemos encontrar la
+ []
+
+
+Underfull \hbox (badness 3354) in paragraph at lines 29--30
+\TU/lmr/m/n/10 certificación de sistemas en base a las normas
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 33--34
+\TU/lmr/m/n/10 cualquier referencia a ella en la información
+ []
+
+
+Underfull \hbox (badness 3838) in paragraph at lines 33--34
+\TU/lmr/m/n/10 relacionada con el producto, incluyendo los
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 40.
+
+
+[7]
+Underfull \hbox (badness 2875) in paragraph at lines 44--45
+\TU/lmr/m/n/10 Servicio que certifica mediante ensayors técnicos
+ []
+
+
+Underfull \hbox (badness 5893) in paragraph at lines 44--45
+\TU/lmr/m/n/10 de laboratorio y el análissi de los resultados
+ []
+
+
+Underfull \hbox (badness 7186) in paragraph at lines 44--45
+\TU/lmr/m/n/10 técnicas, reglamentos técnicos o especificaciones
+ []
+
 ))
 
-[3] (./main.aux
+
+
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.69003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.69003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
+
+[8
+
+] (./main.aux
 LaTeX Info: Redefining \sptext on input line 9.
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
@@ -861,12 +960,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26261 strings out of 474234
- 545874 string characters out of 5745797
- 1396207 words of memory out of 5000000
- 48560 multiletter control sequences out of 15000+600000
- 560885 words of font info for 55 fonts, out of 8000000 for 9000
+ 24853 strings out of 474234
+ 501575 string characters out of 5745797
+ 1343388 words of memory out of 5000000
+ 47177 multiletter control sequences out of 15000+600000
+ 560893 words of font info for 56 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,11n,87p,1254b,3934s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,11n,87p,1254b,3971s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (3 pages).
+Output written on main.pdf (8 pages).
