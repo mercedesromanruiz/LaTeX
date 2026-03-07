@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.9)  16 FEB 2026 16:52
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.9)  2 MAR 2026 16:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -617,36 +617,123 @@ Underfull \hbox (badness 4120) in paragraph at lines 47--48
 [3]
 File: Imagenes/Tema 1. To order to stock (1).png Graphic file (type bmp)
 <Imagenes/Tema 1. To order to stock (1).png>
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 76.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 76.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 76--77
+ [][] 
+ []
+
+
+
 File: Imagenes/Tema 1. To order to stock (2).png Graphic file (type bmp)
 <Imagenes/Tema 1. To order to stock (2).png>
 
+Overfull \hbox (5.0pt too wide) in paragraph at lines 81--82
+ [][] 
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+) (./Capitulos/Tema 2. Prevision de demanda.tex
 
-) (./Capitulos/Tema 2. Prevision de demanda.tex))
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+[4]
+Capítulo 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--2
+[]\TU/lmr/bx/n/14.4 Papel de las previsiones.
+ []
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 3--4
+[]\TU/lmr/m/n/10 Se conoce como previsión de demanda a la
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 3--4
+\TU/lmr/m/n/10 proyección de la demanda esperada en el futuro,
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 8--9
+[]\TU/lmr/m/n/10 Cuanto mayor es la agregación, mejor es la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\TU/lmr/m/n/10 deben elegirse de forma consistente. Las
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]\TU/lmr/bx/n/14.4 Factores a considerar en
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 13--13
+\TU/lmr/bx/n/14.4 la selección de técnicas de
+ []
+
+
+Underfull \hbox (badness 4859) in paragraph at lines 20--22
+\TU/lmr/m/n/10 de la información de partida, aunque también
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 20--22
+\TU/lmr/m/n/10 sistemática toda la información. Normalmente, la
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Info: Redefining \. on input line 56.
-LaTeX Info: Redefining \% on input line 56.
-[4
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 44.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 44.
+
+
+[5
 
 ]
+Underfull \hbox (badness 3724) in paragraph at lines 63--64
+[]| \TU/lmr/m/n/10 Escala de la serie. Si sólo existe este
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+[]| \TU/lmr/m/n/10 Patrón cíclico de incrementos y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+[]| \TU/lmr/m/n/10 Pueden superponerse distintas
+ []
+
+
+Underfull \hbox (badness 3460) in paragraph at lines 71--72
+[]| \TU/lmr/m/n/10 Fluctuación aleatoria que no puede ser
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]\TU/lmr/bx/n/14.4 Medidas del error de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+\TU/lmr/bx/n/14.4 previsión y señal de
+ []
+
+))
+
+
+
 LaTeX Info: Redefining \. on input line 56.
 LaTeX Info: Redefining \% on input line 56.
+[6
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.69003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.69003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
-
-[5] (./main.aux
+] (./main.aux
 LaTeX Info: Redefining \sptext on input line 9.
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
@@ -660,12 +747,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13995 strings out of 474234
- 260967 string characters out of 5745797
+ 13991 strings out of 474234
+ 260886 string characters out of 5745797
  1122037 words of memory out of 5000000
- 36540 multiletter control sequences out of 15000+600000
- 560893 words of font info for 56 fonts, out of 8000000 for 9000
+ 36534 multiletter control sequences out of 15000+600000
+ 560901 words of font info for 57 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 66i,11n,81p,1243b,3983s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,12n,81p,1243b,3977s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (5 pages).
+Output written on main.pdf (6 pages).

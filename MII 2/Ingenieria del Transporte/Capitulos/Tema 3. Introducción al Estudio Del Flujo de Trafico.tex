@@ -80,7 +80,7 @@ Donde:
 \subsubsection{Distribución binomial, (> 200 VEH./HORA.CARRIL)}
 
 \begin{equation}
-    P(i) = 
+    P(i) = \binom{m}{i} \cdot p^i \cdot (1 - p)^{m-i}; i = 0,1,2,...m
 \end{equation}
 
 \begin{equation}
@@ -91,7 +91,68 @@ Donde:
     \gamma = \frac{\mu}{\sigma^2} = \frac{m \cdot p}{m \cdot p \cdot q} = (1 - p)^{-1} \geq 1
 \end{equation}
 
+
+\subsection{Densidad de Tráfico ($K$)}
+Número de vehículos por unidad de longitud que ocupan un tramo de carretera en un moemnto dado.
+
+Colapso circulatorio:
+\begin{itemize}
+    \item Densidad máxima 160 vehículos por km
+    \item Para velocidades moderadas $\approx$ 40 vehículos por km
+\end{itemize}
+
+\subsection{Velocidad($V$)}
+\begin{itemize}
+    \item Velocidad media de recorrido
+    \item Velocidad media temporal o local: valor medio de las velocidades de los vehículos que pasan por una sección transversal de la carretera, durante un intervalo de tiempo.
+    \item Velocidad media espacial: valor medio de las velocidades de todos los vehículos que, en un instante determinado, ocupan un tramo concreto de la carretera
+\end{itemize}
+
+Distribución normal:
+\begin{equation}
+    f(V) = \frac{1}{\sigma \cdot \sqrt{2 \cdot \pi}} e^{- (V - \mu)^2/2\cdot \sigma^2}
+\end{equation}
+
+Cuando la velocidad no preseneta una distribució aproximadamente simétrica se aplica una distribución tipo pearson (chi cuadrado o ji cuadrado).
+
+\subsection{Intervalo ($h$)}
+Tiempo transcurrido entre el paso de las partes himogéneas de dos vehículos consecutivos por una sección transversal de la carretera.
+\begin{itemize}
+    \item En tráficos débiles: distribuciones exponenciales negativas
+    \item Al aumentar el tráfico: distribuciones mixtas
+\end{itemize}
+
+\subsection{Espaciamiento ($S$)}
+Intervalo espacial entre dos secciones homogéneas de vehículos consecutivos.
+\begin{itemize}
+    \item Valor inverso de la densidad
+\end{itemize}
+
+\begin{equation}
+    S = 1 / K
+\end{equation}
+
 \section{Modelos de flujo ininterrumpido de tráfico}
+
+\begin{equation}
+    i = V \cdot K
+\end{equation}
+
+Donde:
+\begin{itemize}
+    \item $i$: Intensidad (veh./hora)
+    \item $V$: Velocidad (Km./h.)
+    \item $K$: Densidad (Veh./km)
+\end{itemize}
+
+Todas las variables expresadas por sus valores medios.
+
+Se han establecido modelos basados en observaciones del tráfico, que relacionan las anteriores variables dos a dos:
+\begin{itemize}
+    \item Relaciones velocidad-densidad-intensidad, considerando el modelo lineal entre v y k.
+    \item Relaciones intensidad-densidad
+    \item Relaciones velocidad-densidad-intensidad, considerando un modelo logarístmico entre v y k.
+\end{itemize}
 
 \section{Ondas de choque en el flujo de tráfico}
 

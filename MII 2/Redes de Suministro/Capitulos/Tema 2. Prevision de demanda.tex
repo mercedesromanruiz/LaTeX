@@ -34,8 +34,43 @@ Ejemplo:
 
 \subsection{Enfoques cuantitativos}
 Basados en datos históricos y/o variables causales. 
+Análisis de series temporales:
+\begin{itemize}
+    \item Usan datos históricos de ventas para hacer la previsión
+    \item Se basan en la hipótesis de que la demanda del pasado es un buen indicador de la demanda futura
+\end{itemize}
+
+Modelos causales:
+\begin{equation}
+    P(t) = f(X_t)
+\end{equation}
 
 \section{Modelos de series temporales}
+Concepto: 
+\begin{itemize}
+    \item Conjunto de observaciones de los valores de una variable a lo largo del tiempo.
+\end{itemize}
+
+Hipótesis:
+\begin{itemize}
+    \item La demanda prevista en el futuro es una función de la demanda observada en el pasado.
+    \item La demanda se puede dividir en componentes.
+\end{itemize}
+
+Componentes:
+\begin{itemize}
+    \item Nivel de referencia o estacionario
+    \subitem Escala de la serie. Si sólo existe este componente, la serie permanece constante.
+    \item Tendencia
+    \subitem Tasa de crecimiento o declive de la serie a lo largo del tiempo (no necesariamente lineal).
+    \item Estacionalidad
+    \subitem Patrón cíclico de incrementos y decrecimientos de la demanda.
+    \subitem Generado por clima, decisiones de clientes.
+    \subitem Pueden superponerse distintas estacionalidades
+    \item Componente aleatorio
+    \subitem Fluctuación aleatoria que no puede ser explicada por la historia de ventas.
+\end{itemize}
+
 \subsection{Media móvil}
 
 \subsection{Alisado exponencial simple}

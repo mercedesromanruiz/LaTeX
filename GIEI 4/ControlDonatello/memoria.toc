@@ -1,79 +1,79 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{\numberline {1}Introducción}{7}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Objeto}{7}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Antecedentes}{7}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Robótica de Rescate en la UMA}{7}{subsection.1.2.1}%
-\contentsline {subsubsection}{Donatello v2021}{8}{subsubsection*.7}%
-\contentsline {subsection}{\numberline {1.2.2}Motores GIM8108v3 y el MIT Mini Cheetah}{9}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3}Objetivo}{10}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Fases del trabajo}{11}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Contenido de la memoria}{11}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Componentes del Hardware}{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introducción}{13}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Motores sin escobillas}{13}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Sistema Electrónico con Arduino Mega}{15}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Arduino Mega 2560}{16}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}CAN-BUS Shield v1.2}{17}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Sistema Electrónico con Arduino MKR}{19}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Arduino MKR WiFi 1010}{19}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Arduino MKR CAN Shield}{21}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}Chip MCP2515}{22}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}\textit {SPI - Serial Peripheral Interface}}{22}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}\textit {CAN - Controller Area Network}}{23}{subsection.2.5.2}%
-\contentsline {chapter}{\numberline {3}Software utilizado}{25}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introducción}{25}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Arduino IDE}{25}{section.3.2}%
-\contentsline {section}{\numberline {3.3}TeraTerm}{26}{section.3.3}%
-\contentsline {section}{\numberline {3.4}MATLAB}{28}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Simulink}{29}{section.3.5}%
-\contentsline {section}{\numberline {3.6}GitHub}{30}{section.3.6}%
-\contentsline {section}{\numberline {3.7}ROS}{31}{section.3.7}%
-\contentsline {chapter}{\numberline {4}Control de motores GIM8108v3}{33}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introducción}{33}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Firmware 1.9}{33}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Modelo Simulink}{35}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Bloques CAN}{35}{subsection.4.3.1}%
-\contentsline {subsubsection}{CAN Pack}{36}{subsubsection*.40}%
-\contentsline {subsubsection}{CAN Unpack}{38}{subsubsection*.43}%
-\contentsline {subsection}{\numberline {4.3.2}Subsistema comunicación motores}{41}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Arduino MKR}{45}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Introducción a ROS}{47}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Introducción}{47}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Software Adicional}{47}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}VMware Workstation 17 Player}{47}{subsection.5.2.1}%
-\contentsline {subsubsection}{Ubuntu}{48}{subsubsection*.51}%
-\contentsline {subsubsection}{Gazebo}{48}{subsubsection*.54}%
-\contentsline {section}{\numberline {5.3}Configuración}{49}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Pruebas}{51}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Velocidad}{52}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Posición}{52}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Lidar}{52}{subsection.5.4.3}%
-\contentsline {chapter}{\numberline {6}Control PC}{55}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Introducción}{55}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Pruebas iniciales comunicación serie.}{55}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Subsistemas Simulink}{56}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}\textit {Send to Arduino}}{56}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}\textit {Receive from Arduino}}{58}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}\textit {XBox Controller}}{59}{subsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.3.4}\textit {ROS Publisher}}{61}{subsection.6.3.4}%
-\contentsline {section}{\numberline {6.4}Modelo control PC}{61}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Control Vehículo}{63}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Introducción}{63}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Subsistemas Simulink}{63}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}\textit {Receive from PC}}{63}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Modelo cinemático inverso}{64}{subsection.7.2.2}%
-\contentsline {subsection}{\numberline {7.2.3}Control Ruedas}{65}{subsection.7.2.3}%
-\contentsline {subsubsection}{Parámetros Modo}{66}{subsubsection*.75}%
-\contentsline {subsubsection}{Motor Arduino}{67}{subsubsection*.78}%
-\contentsline {subsection}{\numberline {7.2.4}Modelo cinemático directo}{67}{subsection.7.2.4}%
-\contentsline {subsection}{\numberline {7.2.5}\textit {Send to PC}}{68}{subsection.7.2.5}%
-\contentsline {subsection}{\numberline {7.2.6}Odometría}{69}{subsection.7.2.6}%
-\contentsline {section}{\numberline {7.3}Modelo control vehículo}{70}{section.7.3}%
-\contentsline {chapter}{\numberline {8}Conclusiones y mejoras futuras}{73}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Introducción}{73}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Conclusiones}{73}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Posibles mejoras}{74}{section.8.3}%
-\contentsline {chapter}{Bibliografía}{75}{section.8.3}%
-\contentsline {chapter}{\numberline {A}ComunicacionMotores.ino}{75}{appendix.Alph1}%
-\contentsline {chapter}{\numberline {B}CAN Master Test- Ben Katz}{77}{appendix.Alph2}%
-\contentsline {chapter}{\numberline {C}MATLAB Functions}{83}{appendix.Alph3}%
+\contentsline {chapter}{\numberline {1}Introducción}{11}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Objeto}{11}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Antecedentes}{11}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Robótica de Rescate en la UMA}{11}{subsection.1.2.1}%
+\contentsline {subsubsection}{Donatello v2021}{12}{subsubsection*.7}%
+\contentsline {subsection}{\numberline {1.2.2}Motores GIM8108v3 y el MIT Mini Cheetah}{13}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Objetivo}{14}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Fases del trabajo}{15}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Contenido de la memoria}{15}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Componentes del Hardware}{17}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introducción}{17}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Motores sin escobillas}{17}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Sistema Electrónico con Arduino Mega}{19}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Arduino Mega 2560}{20}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}CAN-BUS Shield v1.2}{21}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Sistema Electrónico con Arduino MKR}{23}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Arduino MKR WiFi 1010}{23}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Arduino MKR CAN Shield}{25}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Chip MCP2515}{26}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}\textit {SPI - Serial Peripheral Interface}}{26}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}\textit {CAN - Controller Area Network}}{27}{subsection.2.5.2}%
+\contentsline {chapter}{\numberline {3}Software utilizado}{29}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introducción}{29}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Arduino IDE}{29}{section.3.2}%
+\contentsline {section}{\numberline {3.3}TeraTerm}{30}{section.3.3}%
+\contentsline {section}{\numberline {3.4}MATLAB}{32}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Simulink}{33}{section.3.5}%
+\contentsline {section}{\numberline {3.6}GitHub}{34}{section.3.6}%
+\contentsline {section}{\numberline {3.7}ROS}{35}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Control de motores GIM8108v3}{37}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introducción}{37}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Firmware 1.9}{37}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Modelo Simulink}{39}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Bloques CAN}{39}{subsection.4.3.1}%
+\contentsline {subsubsection}{CAN Pack}{40}{subsubsection*.40}%
+\contentsline {subsubsection}{CAN Unpack}{42}{subsubsection*.43}%
+\contentsline {subsection}{\numberline {4.3.2}Subsistema comunicación motores}{45}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Arduino MKR}{49}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Introducción a ROS}{51}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introducción}{51}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Software Adicional}{51}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}VMware Workstation 17 Player}{51}{subsection.5.2.1}%
+\contentsline {subsubsection}{Ubuntu}{52}{subsubsection*.51}%
+\contentsline {subsubsection}{Gazebo}{52}{subsubsection*.54}%
+\contentsline {section}{\numberline {5.3}Configuración}{53}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Pruebas}{55}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Velocidad}{56}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Posición}{56}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Lidar}{56}{subsection.5.4.3}%
+\contentsline {chapter}{\numberline {6}Control PC}{59}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introducción}{59}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Pruebas iniciales comunicación serie.}{59}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Subsistemas Simulink}{60}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}\textit {Send to Arduino}}{60}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}\textit {Receive from Arduino}}{62}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}\textit {XBox Controller}}{63}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}\textit {ROS Publisher}}{65}{subsection.6.3.4}%
+\contentsline {section}{\numberline {6.4}Modelo control PC}{65}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Control Vehículo}{67}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Introducción}{67}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Subsistemas Simulink}{67}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}\textit {Receive from PC}}{67}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Modelo cinemático inverso}{68}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Control Ruedas}{69}{subsection.7.2.3}%
+\contentsline {subsubsection}{Parámetros Modo}{70}{subsubsection*.75}%
+\contentsline {subsubsection}{Motor Arduino}{71}{subsubsection*.78}%
+\contentsline {subsection}{\numberline {7.2.4}Modelo cinemático directo}{71}{subsection.7.2.4}%
+\contentsline {subsection}{\numberline {7.2.5}\textit {Send to PC}}{72}{subsection.7.2.5}%
+\contentsline {subsection}{\numberline {7.2.6}Odometría}{73}{subsection.7.2.6}%
+\contentsline {section}{\numberline {7.3}Modelo control vehículo}{74}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Conclusiones y mejoras futuras}{77}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Introducción}{77}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Conclusiones}{77}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Posibles mejoras}{78}{section.8.3}%
+\contentsline {chapter}{Bibliografía}{79}{section.8.3}%
+\contentsline {chapter}{\numberline {A}ComunicacionMotores.ino}{79}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {B}CAN Master Test- Ben Katz}{81}{appendix.Alph2}%
+\contentsline {chapter}{\numberline {C}MATLAB Functions}{87}{appendix.Alph3}%

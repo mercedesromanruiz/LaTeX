@@ -1,3 +1,22 @@
-\documentclass[a4paper, 11pt, spanish, twoside]{book}
-\usepackage[top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry}
+\documentclass[12pt, a4paper, twoside]{book}
 
+\input{Paquetes y Variables/Includes.tex}
+\input{Paquetes y Variables/Variables.tex}
+
+\begin{document}
+
+\frontmatter
+\includepdf[landscape]{Documentos/Portada.pdf}
+\input{Documentos/DeclaracionOriginalidad.tex}
+\input{Documentos/Resumen.tex}
+\input{Documentos/Agradecimientos.tex}
+\input{Documentos/Terminos.tex}
+\input{Documentos/Acronimos.tex}
+
+\mainmatter
+\include{Documentos/Indices}
+\input{Documentos/Cuerpo.tex}
+\input{Documentos/Bibliografia.tex}
+\input{Documentos/Apendices.tex}
+
+\end{document}

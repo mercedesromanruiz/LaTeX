@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.9)  24 FEB 2026 17:01
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.9)  3 MAR 2026 16:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -441,39 +441,101 @@ Package biblatex Info: ... and expl3
 Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
-))
+)) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/05/23 v2.17q AMS math features
+\@mathmargin=\skip87
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks26
+\ex@=\dimen169
+)) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen170
+) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count415
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count416
+\leftroot@=\count417
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count418
+\DOTSCASE@=\count419
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box57
+\strutbox@=\box58
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen171
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count420
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count421
+\dotsspace@=\muskip22
+\c@parentequation=\count422
+\dspbrk@lvl=\count423
+\tag@help=\toks27
+\row@=\count424
+\column@=\count425
+\maxfields@=\count426
+\andhelp@=\toks28
+\eqnshift@=\dimen172
+\alignsep@=\dimen173
+\tagshift@=\dimen174
+\tagwidth@=\dimen175
+\totwidth@=\dimen176
+\lineht@=\dimen177
+\@envbody=\toks29
+\multlinegap=\skip88
+\multlinetaggap=\skip89
+\mathdisplay@stack=\toks30
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
- (./main.aux
-LaTeX Info: Redefining \. on input line 9.
-LaTeX Info: Redefining \% on input line 9.
- (./Capitulos/Tema 2. El sistema de transporte. Modos.aux) (./Capitulos/Tema 3. Introducción al Estudio Del Flujo de Trafico.aux))
+
+No file main.aux.
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 23.
- (c:/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 24.
+(c:/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -526,16 +588,9 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 23.
-Package biblatex Info: Reference segment=0 on input line 23.
+Package biblatex Info: Reference section=0 on input line 24.
+Package biblatex Info: Reference segment=0 on input line 24.
 (./Documentos/Portada.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 1.
-
 
 [1
 
@@ -560,7 +615,7 @@ Underfull \hbox (badness 5203) in paragraph at lines 2--2
  []
 
 
-Underfull \hbox (badness 5161) in paragraph at lines 3--4
+Underfull \hbox (badness 5133) in paragraph at lines 3--4
 \TU/lmr/m/n/10 lo integran: infraestructura, vehículos, empresas,
  []
 
@@ -580,7 +635,7 @@ Underfull \hbox (badness 2269) in paragraph at lines 7--8
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 8--9
+Underfull \hbox (badness 2057) in paragraph at lines 8--9
 []\TU/lmr/m/n/10 Es un sector muy capitalizado. Instalaciones
  []
 
@@ -602,7 +657,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
  []
 
 
-Underfull \hbox (badness 6691) in paragraph at lines 29--30
+Underfull \hbox (badness 6675) in paragraph at lines 29--30
 []\TU/lmr/m/n/10 Transporte Mundial de Mercancías: FIATA
  []
 
@@ -627,7 +682,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
  []
 
 
-Underfull \hbox (badness 4132) in paragraph at lines 36--37
+Underfull \hbox (badness 4120) in paragraph at lines 36--37
 \TU/lmr/m/n/10 (toneladas ferroviarias, plazas de autocar ó
  []
 
@@ -639,11 +694,6 @@ Underfull \hbox (badness 1248) in paragraph at lines 41--42
 
 
 [3]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 73.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 73.
-
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 85--86
@@ -651,7 +701,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
  []
 
 
-Underfull \hbox (badness 1331) in paragraph at lines 86--87
+Underfull \hbox (badness 1325) in paragraph at lines 86--87
 []\TU/lmr/m/n/10 M2 - M3 - Autobús: automóvil concebido y
  []
 
@@ -671,7 +721,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--99
  []
 
 
-Underfull \hbox (badness 7888) in paragraph at lines 98--99
+Underfull \hbox (badness 7869) in paragraph at lines 98--99
 \TU/lmr/m/n/10 construido para realizar, principalmente, el
  []
 
@@ -686,7 +736,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--107
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 111--112
+Underfull \hbox (badness 2057) in paragraph at lines 111--112
 []\TU/lmr/m/n/10 Tren: serie de vehículos acoplados unos con
  []
 
@@ -705,7 +755,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
 
 [4]
-Underfull \hbox (badness 6741) in paragraph at lines 112--113
+Underfull \hbox (badness 6725) in paragraph at lines 112--113
 []\TU/lmr/m/n/10 Locomotora: vehículo ferroviario con motor
  []
 
@@ -745,7 +795,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--118
  []
 
 
-Underfull \hbox (badness 3965) in paragraph at lines 120--121
+Underfull \hbox (badness 3954) in paragraph at lines 120--121
 []\TU/lmr/m/n/10 Composición reversible: composición de tren
  []
 
@@ -841,44 +891,66 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--80
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 108--109
+[]\TU/lmr/m/n/10 Velocidad media espacial: valor medio de las
+ []
+
+./Capitulos/Tema 3. Introducción al Estudio Del Flujo de Trafico.tex:132: Use of \line  doesn't match its definition.
+l.132     \line{
+                S} = 1 / K
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./Capitulos/Tema 3. Introducción al Estudio Del Flujo de Trafico.tex:132: Extra }, or forgotten $.
+l.132     \line{S}
+                   = 1 / K
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 []\TU/lmr/bx/n/14.4 Modelos de flujo
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 98--98
+Underfull \hbox (badness 2653) in paragraph at lines 139--139
 []\TU/lmr/bx/n/14.4 Modelo de seguimiento de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 []\TU/lmr/bx/n/14.4 Modelo para el cálculo
  []
 
 
-Underfull \hbox (badness 6445) in paragraph at lines 100--100
+Underfull \hbox (badness 6445) in paragraph at lines 141--141
 \TU/lmr/bx/n/14.4 de distancias mínimas de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 []\TU/lmr/bx/n/14.4 Capacidad y niveles de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 \TU/lmr/bx/n/14.4 servicio en autopistas,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 \TU/lmr/bx/n/14.4 autovías y carreteras
  []
 
 )
-Underfull \vbox (badness 1715) has occurred while \output is active []
-
-
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -891,7 +963,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
 
-[8]) (./main.aux
+[8]
+
+
+
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.69003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.69003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
+
+[9
+
+]) (./main.aux
 LaTeX Info: Redefining \sptext on input line 9.
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
@@ -900,17 +987,26 @@ LaTeX Info: Redefining \% on input line 9.
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14007 strings out of 474234
- 262735 string characters out of 5745797
- 1129916 words of memory out of 5000000
- 36551 multiletter control sequences out of 15000+600000
- 560885 words of font info for 55 fonts, out of 8000000 for 9000
+ 14700 strings out of 474234
+ 271224 string characters out of 5745797
+ 1137084 words of memory out of 5000000
+ 37232 multiletter control sequences out of 15000+600000
+ 562013 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 66i,11n,81p,1249b,4043s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,11n,81p,1249b,4051s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (8 pages).
+Output written on main.pdf (9 pages).

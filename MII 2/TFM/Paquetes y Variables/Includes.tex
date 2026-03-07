@@ -1,0 +1,48 @@
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{acronym}
+\usepackage{fancyhdr}
+\usepackage{subcaption}
+\usepackage{titlesec}
+\usepackage{pdfpages}
+\usepackage[top = 25mm, bottom = 25mm, right = 25mm, left = 25mm]{geometry}
+\usepackage{biblatex}
+\usepackage[spanish]{babel}
+
+\addbibresource{bibliografia.bib}
+
+\usepackage{lipsum}
+
+\setlength{\parskip}{6pt}
+\setlength{\parindent}{30pt}
+
+
+\titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\bfseries}{\thesubsubsection}{1em}{}
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+
+\fancyhead[RO]{\tftTitle}
+\fancyhead[LE]{\nouppercase{\rightmark}}
+
+\fancyfoot[RE]{Escuela Técnica Superior de Ingenieros Industriales (UPM)}
+\fancyfoot[LO]{\tftAuthor}
+\fancyfoot[LE,RO]{\thepage}
+
+
+\fancypagestyle{plain}{
+  \fancyhead{}
+  \fancyfoot{}
+  \fancyhead[RO]{\tftTitle}
+  \fancyhead[LE]{\nouppercase{\rightmark}}
+  \fancyfoot[RE]{Escuela Técnica Superior de Ingenieros Industriales (UPM)}
+  \fancyfoot[LO]{\tftAuthor}
+  \fancyfoot[LE,RO]{\thepage}
+}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
