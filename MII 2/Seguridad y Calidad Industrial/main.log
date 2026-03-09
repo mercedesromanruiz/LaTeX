@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.9)  26 FEB 2026 16:55
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.9)  8 MAR 2026 20:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -745,15 +745,52 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Capítulo 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+[]\TU/lmr/m/n/10 El origen de la Asociación Española de
+ []
+
+
+Underfull \hbox (badness 4254) in paragraph at lines 6--7
+\TU/lmr/m/n/10 en la Asociación Española de Normalización y
+ []
+
+
+Underfull \hbox (badness 3138) in paragraph at lines 8--9
+\TU/lmr/m/n/10 y Cooperación. Por su parte, AENOR, entidad
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 12--13
+\TU/lmr/m/n/10 materia de normas y de productos y servicios
+ []
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 12--13
+\TU/lmr/m/n/10 relacionados a organizaciones de todo el mundo,
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 12--13
+\TU/lmr/m/n/10 desarrollando una gran actividad de cooperación
+ []
+
 ) (./Capitulos/Tema 2. Acreditacion.tex
 
 
 
-[3
-
-]
+[3]
 
 
+
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.69003pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.69003pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
 
 [4
 
@@ -931,7 +968,42 @@ Underfull \hbox (badness 7186) in paragraph at lines 44--45
 \TU/lmr/m/n/10 técnicas, reglamentos técnicos o especificaciones
  []
 
+
+Underfull \hbox (badness 7291) in paragraph at lines 58--59
+ \TU/lmr/bx/n/10 Modelo 5 - ISO CASCO 5[] \TU/lmr/m/n/10 Certificación
+ []
+
+
+Underfull \hbox (badness 2644) in paragraph at lines 58--59
+\TU/lmr/m/n/10 por Marca de COnformidad (Sello de Calidad).
+ []
+
+
+Underfull \hbox (badness 3690) in paragraph at lines 58--59
+\TU/lmr/m/n/10 Certificación permanente para productos que se
+ []
+
+
+Underfull \hbox (badness 5578) in paragraph at lines 58--59
+\TU/lmr/m/n/10 fabrican bajo normas nacionales, internacionales
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 58--59
+\TU/lmr/m/n/10 o especificaciones técnicas y sistemas de calidad
+ []
+
+
+Underfull \hbox (badness 3108) in paragraph at lines 62--63
+[]\TU/lmr/m/n/10 Este sistema de certificación esta largamente
+ []
+
 ))
+Underfull \hbox (badness 3049) in paragraph at lines 64--57
+\TU/lmr/m/n/10 también como Sello de Calidad, es un sistema
+ []
+
+
 
 
 
@@ -962,7 +1034,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  24853 strings out of 474234
  501575 string characters out of 5745797
- 1343388 words of memory out of 5000000
+ 1343393 words of memory out of 5000000
  47177 multiletter control sequences out of 15000+600000
  560893 words of font info for 56 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
