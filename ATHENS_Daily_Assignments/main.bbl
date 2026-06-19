@@ -1,0 +1,753 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{enemalta_services_2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=c0dd81bf293cbcf2b3a793489c99654f}{%
+           family={{Enemalta plc}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{fullhash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{fullhashraw}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{bibnamehash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{authorbibnamehash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{authornamehash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{authorfullhash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{authorfullhashraw}{c0dd81bf293cbcf2b3a793489c99654f}
+      \field{extraname}{1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Our Services}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://enemalta.com.mt/services/
+      \endverb
+      \verb{url}
+      \verb https://enemalta.com.mt/services/
+      \endverb
+    \endentry
+    \entry{enemalta_techspec_2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=c0dd81bf293cbcf2b3a793489c99654f}{%
+           family={{Enemalta plc}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{fullhash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{fullhashraw}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{bibnamehash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{authorbibnamehash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{authornamehash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{authorfullhash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{authorfullhashraw}{c0dd81bf293cbcf2b3a793489c99654f}
+      \field{extraname}{2}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Technical Service Specifications}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://enemalta.com.mt/2018/01/21/technical-service-specifications/
+      \endverb
+      \verb{url}
+      \verb https://enemalta.com.mt/2018/01/21/technical-service-specifications/
+      \endverb
+    \endentry
+    \entry{ewa_necp_2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=13666596745ee9c900e4e7b941c79d70}{%
+           family={{Energy and Water Agency}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{fullhash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{fullhashraw}{13666596745ee9c900e4e7b941c79d70}
+      \strng{bibnamehash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{authorbibnamehash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{authornamehash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{authorfullhash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{authorfullhashraw}{13666596745ee9c900e4e7b941c79d70}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Malta -- Final Updated National Energy and Climate Plan 2021--2030}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://energywateragency.gov.mt/wp-content/uploads/2025/01/MT-%E2%80%93-FINAL-UPDATED-NECP-2021-2030-English.pdf
+      \endverb
+      \verb{url}
+      \verb https://energywateragency.gov.mt/wp-content/uploads/2025/01/MT-%E2%80%93-FINAL-UPDATED-NECP-2021-2030-English.pdf
+      \endverb
+    \endentry
+    \entry{nso_electricity_2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=164cc317097714313fc10ef3b7af639b}{%
+           family={{National Statistics Office Malta}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{164cc317097714313fc10ef3b7af639b}
+      \strng{fullhash}{164cc317097714313fc10ef3b7af639b}
+      \strng{fullhashraw}{164cc317097714313fc10ef3b7af639b}
+      \strng{bibnamehash}{164cc317097714313fc10ef3b7af639b}
+      \strng{authorbibnamehash}{164cc317097714313fc10ef3b7af639b}
+      \strng{authornamehash}{164cc317097714313fc10ef3b7af639b}
+      \strng{authorfullhash}{164cc317097714313fc10ef3b7af639b}
+      \strng{authorfullhashraw}{164cc317097714313fc10ef3b7af639b}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{News Release NR 178/2025}
+      \field{title}{Electricity Supply: 2024}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://nso.gov.mt/electricity-supply-2024/
+      \endverb
+      \verb{url}
+      \verb https://nso.gov.mt/electricity-supply-2024/
+      \endverb
+    \endentry
+    \entry{rews_tariffs_2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=93a620f09346af59fdf662e362777195}{%
+           family={{Regulator for Energy and Water Services}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{93a620f09346af59fdf662e362777195}
+      \strng{fullhash}{93a620f09346af59fdf662e362777195}
+      \strng{fullhashraw}{93a620f09346af59fdf662e362777195}
+      \strng{bibnamehash}{93a620f09346af59fdf662e362777195}
+      \strng{authorbibnamehash}{93a620f09346af59fdf662e362777195}
+      \strng{authornamehash}{93a620f09346af59fdf662e362777195}
+      \strng{authorfullhash}{93a620f09346af59fdf662e362777195}
+      \strng{authorfullhashraw}{93a620f09346af59fdf662e362777195}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Regulated Electricity Tariffs}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.rews.org.mt/consumer-information/electricity/
+      \endverb
+      \verb{url}
+      \verb https://www.rews.org.mt/consumer-information/electricity/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{2}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{arms_faqs_2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9c191122fa2139b60267ad5dd08541b7}{%
+           family={{ARMS Ltd.}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c191122fa2139b60267ad5dd08541b7}
+      \strng{fullhash}{9c191122fa2139b60267ad5dd08541b7}
+      \strng{fullhashraw}{9c191122fa2139b60267ad5dd08541b7}
+      \strng{bibnamehash}{9c191122fa2139b60267ad5dd08541b7}
+      \strng{authorbibnamehash}{9c191122fa2139b60267ad5dd08541b7}
+      \strng{authornamehash}{9c191122fa2139b60267ad5dd08541b7}
+      \strng{authorfullhash}{9c191122fa2139b60267ad5dd08541b7}
+      \strng{authorfullhashraw}{9c191122fa2139b60267ad5dd08541b7}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{FAQs}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://arms.com.mt/en/help-support/help/faqs
+      \endverb
+      \verb{url}
+      \verb https://arms.com.mt/en/help-support/help/faqs
+      \endverb
+    \endentry
+    \entry{arms_smartmeter_manual_2018}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=6c280f438d1559cf1a0340927487a306}{%
+           family={{ARMS Ltd. and Enemalta plc}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c280f438d1559cf1a0340927487a306}
+      \strng{fullhash}{6c280f438d1559cf1a0340927487a306}
+      \strng{fullhashraw}{6c280f438d1559cf1a0340927487a306}
+      \strng{bibnamehash}{6c280f438d1559cf1a0340927487a306}
+      \strng{authorbibnamehash}{6c280f438d1559cf1a0340927487a306}
+      \strng{authornamehash}{6c280f438d1559cf1a0340927487a306}
+      \strng{authorfullhash}{6c280f438d1559cf1a0340927487a306}
+      \strng{authorfullhashraw}{6c280f438d1559cf1a0340927487a306}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Comprehensive Guide to Your Smart Meter}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://arms.com.mt/files/documents/user_guides/2018-10/ENEMALTA%2BSMART%2BMETER%2BUSER%2BMANUAL%2Beng.pdf
+      \endverb
+      \verb{url}
+      \verb https://arms.com.mt/files/documents/user_guides/2018-10/ENEMALTA%2BSMART%2BMETER%2BUSER%2BMANUAL%2Beng.pdf
+      \endverb
+    \endentry
+    \entry{enemalta_gesis_2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=c0dd81bf293cbcf2b3a793489c99654f}{%
+           family={{Enemalta plc}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{fullhash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{fullhashraw}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{bibnamehash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{authorbibnamehash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{authornamehash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{authorfullhash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{authorfullhashraw}{c0dd81bf293cbcf2b3a793489c99654f}
+      \field{extraname}{1}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{GESIS -- Three Phase CT Operated Meter}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.enemalta.com.mt/2024/06/13/gesis-three-phase-ct-operated-meter/
+      \endverb
+      \verb{url}
+      \verb https://www.enemalta.com.mt/2024/06/13/gesis-three-phase-ct-operated-meter/
+      \endverb
+    \endentry
+    \entry{enemalta_services_2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=c0dd81bf293cbcf2b3a793489c99654f}{%
+           family={{Enemalta plc}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{fullhash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{fullhashraw}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{bibnamehash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{authorbibnamehash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{authornamehash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{authorfullhash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{authorfullhashraw}{c0dd81bf293cbcf2b3a793489c99654f}
+      \field{extraname}{2}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Our Services}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://enemalta.com.mt/services/
+      \endverb
+      \verb{url}
+      \verb https://enemalta.com.mt/services/
+      \endverb
+    \endentry
+    \entry{enemalta_smartmeters_faq_2018}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=c0dd81bf293cbcf2b3a793489c99654f}{%
+           family={{Enemalta plc}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{fullhash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{fullhashraw}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{bibnamehash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{authorbibnamehash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{authornamehash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{authorfullhash}{c0dd81bf293cbcf2b3a793489c99654f}
+      \strng{authorfullhashraw}{c0dd81bf293cbcf2b3a793489c99654f}
+      \field{extraname}{3}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Smart Meters FAQs}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.enemalta.com.mt/smart-meters-faqs/
+      \endverb
+      \verb{url}
+      \verb https://www.enemalta.com.mt/smart-meters-faqs/
+      \endverb
+    \endentry
+    \entry{ewa_necp_2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=13666596745ee9c900e4e7b941c79d70}{%
+           family={{Energy and Water Agency}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{fullhash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{fullhashraw}{13666596745ee9c900e4e7b941c79d70}
+      \strng{bibnamehash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{authorbibnamehash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{authornamehash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{authorfullhash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{authorfullhashraw}{13666596745ee9c900e4e7b941c79d70}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Malta -- Final Updated National Energy and Climate Plan 2021--2030}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://energywateragency.gov.mt/wp-content/uploads/2025/01/MT-%E2%80%93-FINAL-UPDATED-NECP-2021-2030-English.pdf
+      \endverb
+      \verb{url}
+      \verb https://energywateragency.gov.mt/wp-content/uploads/2025/01/MT-%E2%80%93-FINAL-UPDATED-NECP-2021-2030-English.pdf
+      \endverb
+    \endentry
+    \entry{gridspertise_gemis_red_2021}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=0b0e352188e7db083bad9cceefbce1de}{%
+           family={{Gridspertise}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b0e352188e7db083bad9cceefbce1de}
+      \strng{fullhash}{0b0e352188e7db083bad9cceefbce1de}
+      \strng{fullhashraw}{0b0e352188e7db083bad9cceefbce1de}
+      \strng{bibnamehash}{0b0e352188e7db083bad9cceefbce1de}
+      \strng{authorbibnamehash}{0b0e352188e7db083bad9cceefbce1de}
+      \strng{authornamehash}{0b0e352188e7db083bad9cceefbce1de}
+      \strng{authorfullhash}{0b0e352188e7db083bad9cceefbce1de}
+      \strng{authorfullhashraw}{0b0e352188e7db083bad9cceefbce1de}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Declaration of Conformity 2014/53/EU ``RED'': GEMIS -- Poly-phase Static Active and Reactive Energy Meter}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.gridspertise.com/content/dam/gridspertise/documenti/solutions/declaration-of-conformity-red-gemis.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.gridspertise.com/content/dam/gridspertise/documenti/solutions/declaration-of-conformity-red-gemis.pdf
+      \endverb
+    \endentry
+    \entry{gridspertise_gesis_red_2021}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=0b0e352188e7db083bad9cceefbce1de}{%
+           family={{Gridspertise}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b0e352188e7db083bad9cceefbce1de}
+      \strng{fullhash}{0b0e352188e7db083bad9cceefbce1de}
+      \strng{fullhashraw}{0b0e352188e7db083bad9cceefbce1de}
+      \strng{bibnamehash}{0b0e352188e7db083bad9cceefbce1de}
+      \strng{authorbibnamehash}{0b0e352188e7db083bad9cceefbce1de}
+      \strng{authornamehash}{0b0e352188e7db083bad9cceefbce1de}
+      \strng{authorfullhash}{0b0e352188e7db083bad9cceefbce1de}
+      \strng{authorfullhashraw}{0b0e352188e7db083bad9cceefbce1de}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Declaration of Conformity 2014/53/EU ``RED'': GESIS -- Poly-phase Static Active and Reactive Energy Meter}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.gridspertise.com/content/dam/gridspertise/documenti/solutions/declaration-of-conformity-red-gesis.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.gridspertise.com/content/dam/gridspertise/documenti/solutions/declaration-of-conformity-red-gesis.pdf
+      \endverb
+    \endentry
+    \entry{gridspertise_residentialmeters_2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=0b0e352188e7db083bad9cceefbce1de}{%
+           family={{Gridspertise}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b0e352188e7db083bad9cceefbce1de}
+      \strng{fullhash}{0b0e352188e7db083bad9cceefbce1de}
+      \strng{fullhashraw}{0b0e352188e7db083bad9cceefbce1de}
+      \strng{bibnamehash}{0b0e352188e7db083bad9cceefbce1de}
+      \strng{authorbibnamehash}{0b0e352188e7db083bad9cceefbce1de}
+      \strng{authornamehash}{0b0e352188e7db083bad9cceefbce1de}
+      \strng{authorfullhash}{0b0e352188e7db083bad9cceefbce1de}
+      \strng{authorfullhashraw}{0b0e352188e7db083bad9cceefbce1de}
+      \field{extraname}{3}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Residential Smart Meters}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.gridspertise.com/what-we-offer/residential-smart-meters
+      \endverb
+      \verb{url}
+      \verb https://www.gridspertise.com/what-we-offer/residential-smart-meters
+      \endverb
+    \endentry
+    \entry{rews_nationalreport_2025}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=93a620f09346af59fdf662e362777195}{%
+           family={{Regulator for Energy and Water Services}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Regulator for Energy}%
+        {Water Services}%
+      }
+      \strng{namehash}{93a620f09346af59fdf662e362777195}
+      \strng{fullhash}{93a620f09346af59fdf662e362777195}
+      \strng{fullhashraw}{93a620f09346af59fdf662e362777195}
+      \strng{bibnamehash}{93a620f09346af59fdf662e362777195}
+      \strng{authorbibnamehash}{93a620f09346af59fdf662e362777195}
+      \strng{authornamehash}{93a620f09346af59fdf662e362777195}
+      \strng{authorfullhash}{93a620f09346af59fdf662e362777195}
+      \strng{authorfullhashraw}{93a620f09346af59fdf662e362777195}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{7}
+      \field{title}{2025 National Report of the Regulator for Energy and Water Services to the European Commission on the Electricity and Natural Gas Sectors in Malta}
+      \field{type}{techreport}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.rews.org.mt/wp-content/uploads/2025/08/2025-Malta-National-Report-Final.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.rews.org.mt/wp-content/uploads/2025/08/2025-Malta-National-Report-Final.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{3}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{ewa_necp_2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=13666596745ee9c900e4e7b941c79d70}{%
+           family={{Energy and Water Agency}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{fullhash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{fullhashraw}{13666596745ee9c900e4e7b941c79d70}
+      \strng{bibnamehash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{authorbibnamehash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{authornamehash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{authorfullhash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{authorfullhashraw}{13666596745ee9c900e4e7b941c79d70}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Malta -- Final Updated National Energy and Climate Plan 2021--2030}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://energywateragency.gov.mt/wp-content/uploads/2025/01/MT-%E2%80%93-FINAL-UPDATED-NECP-2021-2030-English.pdf
+      \endverb
+      \verb{url}
+      \verb https://energywateragency.gov.mt/wp-content/uploads/2025/01/MT-%E2%80%93-FINAL-UPDATED-NECP-2021-2030-English.pdf
+      \endverb
+    \endentry
+    \entry{nso_electricity_2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=164cc317097714313fc10ef3b7af639b}{%
+           family={{National Statistics Office Malta}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{164cc317097714313fc10ef3b7af639b}
+      \strng{fullhash}{164cc317097714313fc10ef3b7af639b}
+      \strng{fullhashraw}{164cc317097714313fc10ef3b7af639b}
+      \strng{bibnamehash}{164cc317097714313fc10ef3b7af639b}
+      \strng{authorbibnamehash}{164cc317097714313fc10ef3b7af639b}
+      \strng{authornamehash}{164cc317097714313fc10ef3b7af639b}
+      \strng{authorfullhash}{164cc317097714313fc10ef3b7af639b}
+      \strng{authorfullhashraw}{164cc317097714313fc10ef3b7af639b}
+      \field{extraname}{1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{News Release NR 178/2025}
+      \field{title}{Electricity Supply: 2024}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://nso.gov.mt/electricity-supply-2024/
+      \endverb
+      \verb{url}
+      \verb https://nso.gov.mt/electricity-supply-2024/
+      \endverb
+    \endentry
+    \entry{nso_pv_2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=164cc317097714313fc10ef3b7af639b}{%
+           family={{National Statistics Office Malta}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{164cc317097714313fc10ef3b7af639b}
+      \strng{fullhash}{164cc317097714313fc10ef3b7af639b}
+      \strng{fullhashraw}{164cc317097714313fc10ef3b7af639b}
+      \strng{bibnamehash}{164cc317097714313fc10ef3b7af639b}
+      \strng{authorbibnamehash}{164cc317097714313fc10ef3b7af639b}
+      \strng{authornamehash}{164cc317097714313fc10ef3b7af639b}
+      \strng{authorfullhash}{164cc317097714313fc10ef3b7af639b}
+      \strng{authorfullhashraw}{164cc317097714313fc10ef3b7af639b}
+      \field{extraname}{2}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{News Release NR 111/2025}
+      \field{title}{Renewable Energy from Photovoltaic Panels (PVs): 2024}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://nso.gov.mt/renewable-energy-from-photovoltaic-panels-pvs-2024/
+      \endverb
+      \verb{url}
+      \verb https://nso.gov.mt/renewable-energy-from-photovoltaic-panels-pvs-2024/
+      \endverb
+    \endentry
+    \entry{rews_nationalreport_2025}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=93a620f09346af59fdf662e362777195}{%
+           family={{Regulator for Energy and Water Services}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Regulator for Energy}%
+        {Water Services}%
+      }
+      \strng{namehash}{93a620f09346af59fdf662e362777195}
+      \strng{fullhash}{93a620f09346af59fdf662e362777195}
+      \strng{fullhashraw}{93a620f09346af59fdf662e362777195}
+      \strng{bibnamehash}{93a620f09346af59fdf662e362777195}
+      \strng{authorbibnamehash}{93a620f09346af59fdf662e362777195}
+      \strng{authornamehash}{93a620f09346af59fdf662e362777195}
+      \strng{authorfullhash}{93a620f09346af59fdf662e362777195}
+      \strng{authorfullhashraw}{93a620f09346af59fdf662e362777195}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{7}
+      \field{title}{2025 National Report of the Regulator for Energy and Water Services to the European Commission on the Electricity and Natural Gas Sectors in Malta}
+      \field{type}{techreport}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.rews.org.mt/wp-content/uploads/2025/08/2025-Malta-National-Report-Final.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.rews.org.mt/wp-content/uploads/2025/08/2025-Malta-National-Report-Final.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{4}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{ewa_necp_2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=13666596745ee9c900e4e7b941c79d70}{%
+           family={{Energy and Water Agency}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{fullhash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{fullhashraw}{13666596745ee9c900e4e7b941c79d70}
+      \strng{bibnamehash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{authorbibnamehash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{authornamehash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{authorfullhash}{13666596745ee9c900e4e7b941c79d70}
+      \strng{authorfullhashraw}{13666596745ee9c900e4e7b941c79d70}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Malta -- Final Updated National Energy and Climate Plan 2021--2030}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://energywateragency.gov.mt/wp-content/uploads/2025/01/MT-%E2%80%93-FINAL-UPDATED-NECP-2021-2030-English.pdf
+      \endverb
+      \verb{url}
+      \verb https://energywateragency.gov.mt/wp-content/uploads/2025/01/MT-%E2%80%93-FINAL-UPDATED-NECP-2021-2030-English.pdf
+      \endverb
+    \endentry
+    \entry{gov_ic2_2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=27d4b6d04c679485997daa152cf5ea5a}{%
+           family={{Government of Malta}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{27d4b6d04c679485997daa152cf5ea5a}
+      \strng{fullhash}{27d4b6d04c679485997daa152cf5ea5a}
+      \strng{fullhashraw}{27d4b6d04c679485997daa152cf5ea5a}
+      \strng{bibnamehash}{27d4b6d04c679485997daa152cf5ea5a}
+      \strng{authorbibnamehash}{27d4b6d04c679485997daa152cf5ea5a}
+      \strng{authornamehash}{27d4b6d04c679485997daa152cf5ea5a}
+      \strng{authorfullhash}{27d4b6d04c679485997daa152cf5ea5a}
+      \strng{authorfullhashraw}{27d4b6d04c679485997daa152cf5ea5a}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{9}
+      \field{title}{Malta's second interconnector reaches major milestone as works advance in Italy and Malta}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.gov.mt/en/Government/DOI/Press%20Releases/Pages/2025/09/28/pr251668en.aspx
+      \endverb
+      \verb{url}
+      \verb https://www.gov.mt/en/Government/DOI/Press%20Releases/Pages/2025/09/28/pr251668en.aspx
+      \endverb
+    \endentry
+    \entry{nso_electricity_2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=164cc317097714313fc10ef3b7af639b}{%
+           family={{National Statistics Office Malta}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{164cc317097714313fc10ef3b7af639b}
+      \strng{fullhash}{164cc317097714313fc10ef3b7af639b}
+      \strng{fullhashraw}{164cc317097714313fc10ef3b7af639b}
+      \strng{bibnamehash}{164cc317097714313fc10ef3b7af639b}
+      \strng{authorbibnamehash}{164cc317097714313fc10ef3b7af639b}
+      \strng{authornamehash}{164cc317097714313fc10ef3b7af639b}
+      \strng{authorfullhash}{164cc317097714313fc10ef3b7af639b}
+      \strng{authorfullhashraw}{164cc317097714313fc10ef3b7af639b}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{News Release NR 178/2025}
+      \field{title}{Electricity Supply: 2024}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://nso.gov.mt/electricity-supply-2024/
+      \endverb
+      \verb{url}
+      \verb https://nso.gov.mt/electricity-supply-2024/
+      \endverb
+    \endentry
+    \entry{eu_bess_tender_2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=1ba8c0fb132092aa5250216a57a1aa5c}{%
+           family={{Publications Office of the European Union}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ba8c0fb132092aa5250216a57a1aa5c}
+      \strng{fullhash}{1ba8c0fb132092aa5250216a57a1aa5c}
+      \strng{fullhashraw}{1ba8c0fb132092aa5250216a57a1aa5c}
+      \strng{bibnamehash}{1ba8c0fb132092aa5250216a57a1aa5c}
+      \strng{authorbibnamehash}{1ba8c0fb132092aa5250216a57a1aa5c}
+      \strng{authornamehash}{1ba8c0fb132092aa5250216a57a1aa5c}
+      \strng{authorfullhash}{1ba8c0fb132092aa5250216a57a1aa5c}
+      \strng{authorfullhashraw}{1ba8c0fb132092aa5250216a57a1aa5c}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CT3026/2024 Works Tender -- Design and Build of Two Utility Scale Battery Energy Storage Systems at the A-Station Tunnel in Marsa and at Delimara Power Station in an Environmentally Friendly Manner}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/0d128fa3-903a-4a99-916d-3ff932af84d2
+      \endverb
+      \verb{url}
+      \verb https://op.europa.eu/en/web/public-procurement/procurement-details/-/procurement/0d128fa3-903a-4a99-916d-3ff932af84d2
+      \endverb
+    \endentry
+    \entry{rews_nationalreport_2025}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=93a620f09346af59fdf662e362777195}{%
+           family={{Regulator for Energy and Water Services}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Regulator for Energy}%
+        {Water Services}%
+      }
+      \strng{namehash}{93a620f09346af59fdf662e362777195}
+      \strng{fullhash}{93a620f09346af59fdf662e362777195}
+      \strng{fullhashraw}{93a620f09346af59fdf662e362777195}
+      \strng{bibnamehash}{93a620f09346af59fdf662e362777195}
+      \strng{authorbibnamehash}{93a620f09346af59fdf662e362777195}
+      \strng{authornamehash}{93a620f09346af59fdf662e362777195}
+      \strng{authorfullhash}{93a620f09346af59fdf662e362777195}
+      \strng{authorfullhashraw}{93a620f09346af59fdf662e362777195}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{7}
+      \field{title}{2025 National Report of the Regulator for Energy and Water Services to the European Commission on the Electricity and Natural Gas Sectors in Malta}
+      \field{type}{techreport}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.rews.org.mt/wp-content/uploads/2025/08/2025-Malta-National-Report-Final.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.rews.org.mt/wp-content/uploads/2025/08/2025-Malta-National-Report-Final.pdf
+      \endverb
+    \endentry
+    \entry{rews_tariffs_2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=93a620f09346af59fdf662e362777195}{%
+           family={{Regulator for Energy and Water Services}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{93a620f09346af59fdf662e362777195}
+      \strng{fullhash}{93a620f09346af59fdf662e362777195}
+      \strng{fullhashraw}{93a620f09346af59fdf662e362777195}
+      \strng{bibnamehash}{93a620f09346af59fdf662e362777195}
+      \strng{authorbibnamehash}{93a620f09346af59fdf662e362777195}
+      \strng{authornamehash}{93a620f09346af59fdf662e362777195}
+      \strng{authorfullhash}{93a620f09346af59fdf662e362777195}
+      \strng{authorfullhashraw}{93a620f09346af59fdf662e362777195}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Regulated Electricity Tariffs}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.rews.org.mt/consumer-information/electricity/
+      \endverb
+      \verb{url}
+      \verb https://www.rews.org.mt/consumer-information/electricity/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

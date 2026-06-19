@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.9)  3 MAR 2026 16:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.9)  14 MAY 2026 12:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -12,30 +12,30 @@ Document Class: book 2024/02/08 v1.4n Standard LaTeX document class
 (c:/texlive/2024/texmf-dist/tex/latex/base/bk10.clo
 File: bk10.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count190
-\c@chapter=\count191
-\c@section=\count192
-\c@subsection=\count193
-\c@subsubsection=\count194
-\c@paragraph=\count195
-\c@subparagraph=\count196
-\c@figure=\count197
-\c@table=\count198
+\c@part=\count194
+\c@chapter=\count195
+\c@section=\count196
+\c@subsection=\count197
+\c@subsubsection=\count198
+\c@paragraph=\count199
+\c@subparagraph=\count266
+\c@figure=\count267
+\c@table=\count268
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen141
 ) (c:/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2024/10/05 v24.11 The Babel package
-\babel@savecnt=\count199
+\babel@savecnt=\count269
 \U@D=\dimen142
 \l@unhyphenated=\language89
- (c:/texlive/2024/texmf-dist/tex/generic/babel/xebabel.def)
+ (c:/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count266
+\bbl@dirlevel=\count270
  (c:/texlive/2024/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks17
-\es@quotdepth=\count267
+\es@quotdepth=\count271
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
@@ -55,9 +55,9 @@ Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 ) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 106.
- (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen143
 \Gin@req@width=\dimen144
@@ -68,9 +68,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count268
-\Gm@cntv=\count269
-\c@Gm@tempcnt=\count270
+\Gm@cnth=\count272
+\Gm@cntv=\count273
+\c@Gm@tempcnt=\count274
 \Gm@bindingoffset=\dimen145
 \Gm@wd@mp=\dimen146
 \Gm@odd@mp=\dimen147
@@ -82,7 +82,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@dimlist=\toks19
 ) (c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count271
+\c@float@type=\count275
 \float@exts=\toks20
 \float@box=\box52
 \@float@everytoks=\toks21
@@ -107,9 +107,10 @@ Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
  (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: xetex.def on input line 274.
+Package xcolor Info: Driver file: pdftex.def on input line 274.
  (c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
@@ -131,11 +132,11 @@ Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
 )
 \everycr=\toks23
 \minrowclearance=\skip62
-\rownum=\count272
+\rownum=\count276
 ) (c:/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip63
-\multirow@cntb=\count273
+\multirow@cntb=\count277
 \multirow@dima=\skip64
 \bigstrutjot=\dimen155
 ) (c:/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty
@@ -145,7 +146,7 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@old@col=\dimen158
 \TX@target=\dimen159
 \TX@delta=\dimen160
-\TX@cols=\count274
+\TX@cols=\count278
 \TX@ftn=\toks24
 ) (c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
@@ -161,27 +162,27 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen168
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count275
-\c@continuedfloat=\count276
+\c@caption@flags=\count279
+\c@continuedfloat=\count280
 Package caption Info: float package is loaded.
 ) (c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count277
+\c@subfigure=\count281
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count278
+\c@subtable=\count282
 ) (c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
  (c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count279
+\etb@tempcnta=\count283
 )
-\csq@reset=\count280
-\csq@gtype=\count281
-\csq@glevel=\count282
-\csq@qlevel=\count283
-\csq@maxlvl=\count284
-\csq@tshold=\count285
+\csq@reset=\count284
+\csq@gtype=\count285
+\csq@glevel=\count286
+\csq@qlevel=\count287
+\csq@maxlvl=\count288
+\csq@tshold=\count289
 \csq@ltx@everypar=\toks25
  (c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
@@ -201,14 +202,14 @@ Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
+Package pdftexcmds Info: \pdfdraftmode found.
 ) (c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
  (c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )) (c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count286
+\lrq@indent=\count290
  (c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
@@ -217,49 +218,49 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count287
-\c@listtotal=\count288
-\c@listcount=\count289
-\c@liststart=\count290
-\c@liststop=\count291
-\c@citecount=\count292
-\c@citetotal=\count293
-\c@multicitecount=\count294
-\c@multicitetotal=\count295
-\c@instcount=\count296
-\c@maxnames=\count297
-\c@minnames=\count298
-\c@maxitems=\count299
-\c@minitems=\count300
-\c@citecounter=\count301
-\c@maxcitecounter=\count302
-\c@savedcitecounter=\count303
-\c@uniquelist=\count304
-\c@uniquename=\count305
-\c@refsection=\count306
-\c@refsegment=\count307
-\c@maxextratitle=\count308
-\c@maxextratitleyear=\count309
-\c@maxextraname=\count310
-\c@maxextradate=\count311
-\c@maxextraalpha=\count312
-\c@abbrvpenalty=\count313
-\c@highnamepenalty=\count314
-\c@lownamepenalty=\count315
-\c@maxparens=\count316
-\c@parenlevel=\count317
-\blx@tempcnta=\count318
-\blx@tempcntb=\count319
-\blx@tempcntc=\count320
-\c@blx@maxsection=\count321
-\blx@maxsegment@0=\count322
-\blx@notetype=\count323
-\blx@parenlevel@text=\count324
-\blx@parenlevel@foot=\count325
-\blx@sectionciteorder@0=\count326
-\blx@sectionciteorderinternal@0=\count327
-\blx@entrysetcounter=\count328
-\blx@biblioinstance=\count329
+\c@tabx@nest=\count291
+\c@listtotal=\count292
+\c@listcount=\count293
+\c@liststart=\count294
+\c@liststop=\count295
+\c@citecount=\count296
+\c@citetotal=\count297
+\c@multicitecount=\count298
+\c@multicitetotal=\count299
+\c@instcount=\count300
+\c@maxnames=\count301
+\c@minnames=\count302
+\c@maxitems=\count303
+\c@minitems=\count304
+\c@citecounter=\count305
+\c@maxcitecounter=\count306
+\c@savedcitecounter=\count307
+\c@uniquelist=\count308
+\c@uniquename=\count309
+\c@refsection=\count310
+\c@refsegment=\count311
+\c@maxextratitle=\count312
+\c@maxextratitleyear=\count313
+\c@maxextraname=\count314
+\c@maxextradate=\count315
+\c@maxextraalpha=\count316
+\c@abbrvpenalty=\count317
+\c@highnamepenalty=\count318
+\c@lownamepenalty=\count319
+\c@maxparens=\count320
+\c@parenlevel=\count321
+\blx@tempcnta=\count322
+\blx@tempcntb=\count323
+\blx@tempcntc=\count324
+\c@blx@maxsection=\count325
+\blx@maxsegment@0=\count326
+\blx@notetype=\count327
+\blx@parenlevel@text=\count328
+\blx@parenlevel@foot=\count329
+\blx@sectionciteorder@0=\count330
+\blx@sectionciteorderinternal@0=\count331
+\blx@entrysetcounter=\count332
+\blx@biblioinstance=\count333
 \labelnumberwidth=\skip65
 \labelalphawidth=\skip66
 \biblabelsep=\skip67
@@ -271,9 +272,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language91
-\c@mincomprange=\count330
-\c@maxcomprange=\count331
-\c@mincompwidth=\count332
+\c@mincomprange=\count334
+\c@maxcomprange=\count335
+\c@mincompwidth=\count336
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -281,74 +282,74 @@ File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count333
-\c@savedafterword=\count334
-\c@annotator=\count335
-\c@savedannotator=\count336
-\c@author=\count337
-\c@savedauthor=\count338
-\c@bookauthor=\count339
-\c@savedbookauthor=\count340
-\c@commentator=\count341
-\c@savedcommentator=\count342
-\c@editor=\count343
-\c@savededitor=\count344
-\c@editora=\count345
-\c@savededitora=\count346
-\c@editorb=\count347
-\c@savededitorb=\count348
-\c@editorc=\count349
-\c@savededitorc=\count350
-\c@foreword=\count351
-\c@savedforeword=\count352
-\c@holder=\count353
-\c@savedholder=\count354
-\c@introduction=\count355
-\c@savedintroduction=\count356
-\c@namea=\count357
-\c@savednamea=\count358
-\c@nameb=\count359
-\c@savednameb=\count360
-\c@namec=\count361
-\c@savednamec=\count362
-\c@translator=\count363
-\c@savedtranslator=\count364
-\c@shortauthor=\count365
-\c@savedshortauthor=\count366
-\c@shorteditor=\count367
-\c@savedshorteditor=\count368
-\c@labelname=\count369
-\c@savedlabelname=\count370
-\c@institution=\count371
-\c@savedinstitution=\count372
-\c@lista=\count373
-\c@savedlista=\count374
-\c@listb=\count375
-\c@savedlistb=\count376
-\c@listc=\count377
-\c@savedlistc=\count378
-\c@listd=\count379
-\c@savedlistd=\count380
-\c@liste=\count381
-\c@savedliste=\count382
-\c@listf=\count383
-\c@savedlistf=\count384
-\c@location=\count385
-\c@savedlocation=\count386
-\c@organization=\count387
-\c@savedorganization=\count388
-\c@origlocation=\count389
-\c@savedoriglocation=\count390
-\c@origpublisher=\count391
-\c@savedorigpublisher=\count392
-\c@publisher=\count393
-\c@savedpublisher=\count394
-\c@language=\count395
-\c@savedlanguage=\count396
-\c@origlanguage=\count397
-\c@savedoriglanguage=\count398
-\c@pageref=\count399
-\c@savedpageref=\count400
+\c@afterword=\count337
+\c@savedafterword=\count338
+\c@annotator=\count339
+\c@savedannotator=\count340
+\c@author=\count341
+\c@savedauthor=\count342
+\c@bookauthor=\count343
+\c@savedbookauthor=\count344
+\c@commentator=\count345
+\c@savedcommentator=\count346
+\c@editor=\count347
+\c@savededitor=\count348
+\c@editora=\count349
+\c@savededitora=\count350
+\c@editorb=\count351
+\c@savededitorb=\count352
+\c@editorc=\count353
+\c@savededitorc=\count354
+\c@foreword=\count355
+\c@savedforeword=\count356
+\c@holder=\count357
+\c@savedholder=\count358
+\c@introduction=\count359
+\c@savedintroduction=\count360
+\c@namea=\count361
+\c@savednamea=\count362
+\c@nameb=\count363
+\c@savednameb=\count364
+\c@namec=\count365
+\c@savednamec=\count366
+\c@translator=\count367
+\c@savedtranslator=\count368
+\c@shortauthor=\count369
+\c@savedshortauthor=\count370
+\c@shorteditor=\count371
+\c@savedshorteditor=\count372
+\c@labelname=\count373
+\c@savedlabelname=\count374
+\c@institution=\count375
+\c@savedinstitution=\count376
+\c@lista=\count377
+\c@savedlista=\count378
+\c@listb=\count379
+\c@savedlistb=\count380
+\c@listc=\count381
+\c@savedlistc=\count382
+\c@listd=\count383
+\c@savedlistd=\count384
+\c@liste=\count385
+\c@savedliste=\count386
+\c@listf=\count387
+\c@savedlistf=\count388
+\c@location=\count389
+\c@savedlocation=\count390
+\c@organization=\count391
+\c@savedorganization=\count392
+\c@origlocation=\count393
+\c@savedoriglocation=\count394
+\c@origpublisher=\count395
+\c@savedorigpublisher=\count396
+\c@publisher=\count397
+\c@savedpublisher=\count398
+\c@language=\count399
+\c@savedlanguage=\count400
+\c@origlanguage=\count401
+\c@savedoriglanguage=\count402
+\c@pageref=\count403
+\c@savedpageref=\count404
 \shorthandwidth=\skip73
 \shortjournalwidth=\skip74
 \shortserieswidth=\skip75
@@ -363,9 +364,6 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorttitlewidth=\skip84
 \localshortauthorwidth=\skip85
 \localshorteditorwidth=\skip86
-Package biblatex Info: Trying to load enhanced support for Unicode engines...
-Package biblatex Info: ... file 'blx-unicode.def' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-unicode.def)
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def
@@ -375,19 +373,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count401
-\c@textcitetotal=\count402
-\c@textcitemaxnames=\count403
-\c@biburlbigbreakpenalty=\count404
-\c@biburlbreakpenalty=\count405
-\c@biburlnumpenalty=\count406
-\c@biburlucpenalty=\count407
-\c@biburllcpenalty=\count408
+\c@textcitecount=\count405
+\c@textcitetotal=\count406
+\c@textcitemaxnames=\count407
+\c@biburlbigbreakpenalty=\count408
+\c@biburlbreakpenalty=\count409
+\c@biburlnumpenalty=\count410
+\c@biburlucpenalty=\count411
+\c@biburllcpenalty=\count412
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count409
+\c@smartand=\count413
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -397,8 +395,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count410
-\c@bbx:relatedtotal=\count411
+\c@bbx:relatedcount=\count414
+\c@bbx:relatedtotal=\count415
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -421,17 +419,14 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
  (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
  (c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2024-09-10 L3 programming layer (loader) 
- (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
-\g__graphics_track_int=\count412
+ (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count416
 \l__pdf_internal_box=\box56
-\g__pdf_backend_annotation_int=\count413
-\g__pdf_backend_link_int=\count414
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2024-09-10 L3 programming layer (loader) 
@@ -458,14 +453,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count415
+\inf@bad=\count417
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count416
-\leftroot@=\count417
+\uproot@=\count418
+\leftroot@=\count419
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count418
-\DOTSCASE@=\count419
+\classnum@=\count420
+\DOTSCASE@=\count421
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -478,20 +473,20 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen171
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count420
+\macc@depth=\count422
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count421
+\c@MaxMatrixCols=\count423
 \dotsspace@=\muskip22
-\c@parentequation=\count422
-\dspbrk@lvl=\count423
+\c@parentequation=\count424
+\dspbrk@lvl=\count425
 \tag@help=\toks27
-\row@=\count424
-\column@=\count425
-\maxfields@=\count426
+\row@=\count426
+\column@=\count427
+\maxfields@=\count428
 \andhelp@=\toks28
 \eqnshift@=\dimen172
 \alignsep@=\dimen173
@@ -505,42 +500,80 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks30
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
+) (c:/texlive/2024/texmf-dist/tex/latex/sttools/stfloats.sty
+Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip settings
+\@dblbotnum=\count429
+\c@dblbotnumber=\count430
+) (c:/texlive/2024/texmf-dist/tex/latex/sttools/cuted.sty
+Package: cuted 2021/10/04 v2.0 Mixing onecolumn and twocolumn modes
+\At@ViperColsBreak=\toks31
+\preCutedStrip=\toks32
+\postCutedStrip=\toks33
+\cuted@@tempbox@a=\box59
+\cuted@@tempbox@c=\box60
+\cuted@@tempbox@var=\box61
+\hold@viper=\box62
+\@viper=\box63
+\cuted@@varbox@a=\box64
+\cuted@@varbox@c=\box65
+\cuted@@tempdim@spread=\dimen178
+\cuted@@tempdim@a=\dimen179
+\cuted@@tempdim@b=\dimen180
+\ht@hold@viper=\dimen181
+\ht@viper=\dimen182
+\var@@pagediscards@ht=\dimen183
+\stripsep=\skip90
+\viper@penalty=\count431
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
-
-No file main.aux.
+ (./main.aux
+LaTeX Info: Redefining \. on input line 9.
+LaTeX Info: Redefining \% on input line 9.
+ (./Capitulos/Tema 2. El sistema de transporte. Modos.aux) (./Capitulos/Tema 3. Introducción al Estudio Del Flujo de Trafico.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 24.
-(c:/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+ (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count432
+\scratchdimen=\dimen184
+\scratchbox=\box66
+\nofMPsegments=\count433
+\nofMParguments=\count434
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count435
+\MPscratchDim=\dimen185
+\MPnumerator=\count436
+\makeMPintoPDFobject=\count437
+\everyMPtoPDFconversion=\toks35
+) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
 *geometry* driver: auto-detecting
-*geometry* detected driver: xetex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: xetex
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -578,25 +611,23 @@ Package biblatex Info: ... file 'spanish.lbx' found.
 (c:/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
 File: spanish.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 )
-Package biblatex Info: XeTeX detected.
-(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 \openout3 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
-
-No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 24.
-Package biblatex Info: Reference segment=0 on input line 24.
-(./Documentos/Portada.tex
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl)
+Package biblatex Info: Reference section=0 on input line 27.
+Package biblatex Info: Reference segment=0 on input line 27.
+ (./Documentos/Portada.tex
 
 [1
 
 
 
-]) (./Documentos/Cuerpo.tex
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./Documentos/Cuerpo.tex
 \openout2 = `"Capitulos/Tema 2. El sistema de transporte. Modos.aux"'.
 
  (./Capitulos/Tema 2. El sistema de transporte. Modos.tex
@@ -608,229 +639,119 @@ Package biblatex Info: Reference segment=0 on input line 24.
 
 
 ]
-Capítulo 1.
+Cap\'{\i }tulo 1.
 
-Underfull \hbox (badness 5203) in paragraph at lines 2--2
-[]\TU/lmr/bx/n/14.4 Definición del Sistema de
+Underfull \hbox (badness 5652) in paragraph at lines 2--2
+[]\OT1/cmr/bx/n/14.4 Definici^^Son del sis-te-ma de
  []
 
 
 Underfull \hbox (badness 5133) in paragraph at lines 3--4
-\TU/lmr/m/n/10 lo integran: infraestructura, vehículos, empresas,
+\OT1/cmr/m/n/10 lo in-te-gran: in-fra-es-truc-tu-ra, veh^^S^^Pcu-los, em-pre-sas,
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 3--4
-\TU/lmr/m/n/10 administración, etc., para dar satisfacción a las
+Underfull \hbox (badness 2884) in paragraph at lines 3--4
+\OT1/cmr/m/n/10 ad-mi-nis-tra-ci^^Son, etc., pa-ra dar sa-tis-fac-ci^^Son a las
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--5
-[]\TU/lmr/bx/n/14.4 Principales Características
+[]\OT1/cmr/bx/n/12 Principales ca-rac-ter^^S^^Psti-cas del
  []
 
 
-Underfull \hbox (badness 2269) in paragraph at lines 7--8
-\TU/lmr/m/n/10 económicas, al no ser un fin en sí mismo.
+Underfull \hbox (badness 2253) in paragraph at lines 7--8
+\OT1/cmr/m/n/10 econ^^Somi-cas, al no ser un fin en s^^S^^P mis-mo.
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 8--9
-[]\TU/lmr/m/n/10 Es un sector muy capitalizado. Instalaciones
+Underfull \hbox (badness 2050) in paragraph at lines 8--9
+[]\OT1/cmr/m/n/10 Es un sec-tor muy ca-pi-ta-li-za-do. Ins-ta-la-cio-nes
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]\OT1/cmr/bx/n/12 Organizaci^^Son del sis-te-ma de
+ []
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+[]\OT1/cmr/m/n/10 Ferrocarril: UIC (Uni^^Son IN-ter-na-cio-nal de
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--27
-[]\TU/lmr/m/n/10 Ferrocarril: UIC (Unión INternacional de
+[]\OT1/cmr/m/n/10 A^^Sereo: IA-TA (Aso-cia-ci^^Son In-ter-na-cio-nal de
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
-[]\TU/lmr/m/n/10 Aéreo: IATA (Asociación Internacional de
+[]\OT1/cmr/m/n/10 Mar^^S^^Pti-mo: OMI (Or-ga-ni-za-ci^^Son Mar^^S^^Pti-ma
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-[]\TU/lmr/m/n/10 Marítimo: OMI (Organización Marítima
+Underfull \hbox (badness 6675) in paragraph at lines 28--29
+[]\OT1/cmr/m/n/10 Transporte Mun-dial de Mer-canc^^S^^Pas: FIA-TA
  []
 
 
-Underfull \hbox (badness 6675) in paragraph at lines 29--30
-[]\TU/lmr/m/n/10 Transporte Mundial de Mercancías: FIATA
+Underfull \hbox (badness 2875) in paragraph at lines 28--29
+\OT1/cmr/m/n/10 (Fe-de-ra-ci^^Son In-ter-na-cio-nal de Aso-cia-cio-nes de
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 29--30
-\TU/lmr/m/n/10 (Federación Internacional de Asociaciones de
+Underfull \hbox (badness 4291) in paragraph at lines 31--31
+[]\OT1/cmr/bx/n/12 Evoluci^^Son de la mo-vi-li-dad en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
-[]\TU/lmr/m/n/10 “Toda oferta crea su propia demanda”.
+Underfull \hbox (badness 1325) in paragraph at lines 34--34
+[]\OT1/cmr/bx/n/12 Caracter^^S^^Psti-cas de la ofer-ta del
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 36--37
-\TU/lmr/m/n/10 que pueden prestar los transportistas en un
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+[]\OT1/cmr/m/n/10 ``Toda ofer-ta crea su pro-pia de-man-da''.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
-\TU/lmr/m/n/10 territorio (país) y momento determinado
+Underfull \hbox (badness 1845) in paragraph at lines 38--39
+\OT1/cmr/m/n/10 que pue-den pres-tar los trans-por-tis-tas en un
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 36--37
-\TU/lmr/m/n/10 (toneladas ferroviarias, plazas de autocar ó
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+\OT1/cmr/m/n/10 te-rri-to-rio (pa^^S^^Ps) y mo-men-to de-ter-mi-na-do
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 41--42
-[]\TU/lmr/m/n/10 “Producción conjunta” dividida en viajeros y
+Underfull \hbox (badness 4108) in paragraph at lines 38--39
+\OT1/cmr/m/n/10 (to-ne-la-das fe-rro-via-rias, pla-zas de au-to-car ^^So
  []
 
 
 
 [3]
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
-[]\TU/lmr/m/n/10 M1 - Turismo: automóvil, distinto de la
+Underfull \hbox (badness 1097) in paragraph at lines 43--44
+[]\OT1/cmr/m/n/10 ``Producci^^Son con-jun-ta'' di-vi-di-da en via-je-ros y
  []
 
-
-Underfull \hbox (badness 1325) in paragraph at lines 86--87
-[]\TU/lmr/m/n/10 M2 - M3 - Autobús: automóvil concebido y
- []
-
-
-Underfull \hbox (badness 2435) in paragraph at lines 91--92
-[]\TU/lmr/m/n/10 N2 - N3 - Camión: automóvil concebido y
- []
-
-
-Underfull \hbox (badness 2237) in paragraph at lines 97--98
-[]\TU/lmr/m/n/10 Semirremolque: remolque construido para ser
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
-[]\TU/lmr/m/n/10 Tractor industrial: automóvil concebido y
- []
-
-
-Underfull \hbox (badness 7869) in paragraph at lines 98--99
-\TU/lmr/m/n/10 construido para realizar, principalmente, el
- []
-
-
-Underfull \hbox (badness 1163) in paragraph at lines 107--107
-[]\TU/lmr/bx/n/12 Material Rodante (Locomotoras,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--107
-\TU/lmr/bx/n/12 Material Remolcado) e
- []
-
-
-Underfull \hbox (badness 2057) in paragraph at lines 111--112
-[]\TU/lmr/m/n/10 Tren: serie de vehículos acoplados unos con
- []
-
-
-Underfull \vbox (badness 7308) has occurred while \output is active []
-
-
-
-LaTeX Info: Redefining \. on input line 112.
-LaTeX Info: Redefining \% on input line 112.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.69003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.69003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
-
-[4]
-Underfull \hbox (badness 6725) in paragraph at lines 112--113
-[]\TU/lmr/m/n/10 Locomotora: vehículo ferroviario con motor
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
-\TU/lmr/m/n/10 destinado exclusivamente a remolcar otros
- []
-
-
-Underfull \hbox (badness 2181) in paragraph at lines 112--113
-\TU/lmr/m/n/10 etc..., y su transmisión puede ser: eléctrica,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
-[]\TU/lmr/m/n/10 Automotor: tren formado por material
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
-[]\TU/lmr/m/n/10 Unidad de tren: conjunto de vehículos
- []
-
-
-Underfull \hbox (badness 7415) in paragraph at lines 114--115
-\TU/lmr/m/n/10 automotores y remolques que forman una
- []
-
-
-Underfull \hbox (badness 1796) in paragraph at lines 116--117
-\TU/lmr/m/n/10 propulsión propio destinada al transporte de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
-[]\TU/lmr/m/n/10 Material motor: conjunto de locomotoras,
- []
-
-
-Underfull \hbox (badness 3954) in paragraph at lines 120--121
-[]\TU/lmr/m/n/10 Composición reversible: composición de tren
- []
-
-
-Underfull \hbox (badness 4316) in paragraph at lines 131--132
-[]\TU/lmr/m/n/10 Los cambios estratégicos y tecnológicos del
- []
-
-
-Underfull \vbox (badness 1668) has occurred while \output is active []
-
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
-\TU/lmr/m/n/10 modales con mejores conexiones viarias y
- []
-
-
-Underfull \hbox (badness 5862) in paragraph at lines 142--143
-[]\TU/lmr/m/n/10 Construcción de áreas abrigadas y accesos
- []
-
+CUTED [- LAST -]
+Extra skip:0.0pt
+Left:253.0pt/1.94444pt
+Right:220.5pt/0.0pt
+Split: 244.25pt
+Output:244.25pt
+Pageshrink: 0.0pt
+Pagestretch: 0.0pt
+@colht:731.23584pt
+CUTED [output]: 244.25pt
+CUTED [leftcolumn badness]: 13
+CUTED [rightcolumn badness]: 18
 )
-
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.69003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.69003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
-
-[5]
 \openout2 = `"Capitulos/Tema 3. Introducción al Estudio Del Flujo de Trafico.aux"'.
 
  (./Capitulos/Tema 3. Introducción al Estudio Del Flujo de Trafico.tex
@@ -839,146 +760,152 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.69003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.69003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
-
-[6
+[4
 
 
 
 
 ]
-Capítulo 2.
+Cap\'{\i }tulo 2.
 
-Underfull \hbox (badness 2689) in paragraph at lines 5--6
-\TU/lmr/m/n/10 físicos que permiten identificar su capacidad de
+Underfull \hbox (badness 2680) in paragraph at lines 5--6
+\OT1/cmr/m/n/10 f^^S^^Psi-cos que per-mi-ten iden-ti-fi-car su ca-pa-ci-dad de
  []
 
 
-Underfull \hbox (badness 2435) in paragraph at lines 9--10
-\TU/lmr/m/n/10 de la infraestructura y del medio, hace que el
+Underfull \hbox (badness 2426) in paragraph at lines 9--10
+\OT1/cmr/m/n/10 de la in-fra-es-truc-tu-ra y del me-dio, ha-ce que el
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
-[]\TU/lmr/m/n/10 Determinación de retrasos probables en
+[]\OT1/cmr/m/n/10 Determinaci^^Son de re-tra-sos pro-ba-bles en
  []
 
 
-Underfull \vbox (badness 5756) has occurred while \output is active []
+Underfull \vbox (badness 5908) has occurred while \output is active []
 
 
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 37--38
-[]\TU/lmr/m/n/10 En cierta forma, los fenómenos macroscópicos
+Underfull \hbox (badness 1688) in paragraph at lines 37--38
+[]\OT1/cmr/m/n/10 En cier-ta for-ma, los fen^^Some-nos ma-crosc^^Sopi-cos
  []
 
 
 
-[7]
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]\TU/lmr/bx/n/10 Para tráfico ligero, ($\OMS/cmsy/m/n/10 ^^T$ \TU/lmr/bx/n/10 200
+[]\OT1/cmr/bx/n/10 Para tr^^Safi-co li-ge-ro, ($\OMS/cmsy/m/n/10 ^^T$ \OT1/cmr/bx/n/10 200
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 80--80
-[]\TU/lmr/bx/n/10 Distribución binomial, (>200
+[]\OT1/cmr/bx/n/10 Distribuci^^Son bi-no-mial, ($\OML/cmm/m/it/10 >$ \OT1/cmr/bx/n/10 200
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]\OT1/cmr/bx/n/10 Distribuci^^Son bi-no-mial ne-ga-ti-va, pa-ra
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\OT1/cmr/bx/n/10 re-pre-sen-tar r^^Segi-me-nes su-je-tos a fuer-tes
  []
 
 
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 108--109
-[]\TU/lmr/m/n/10 Velocidad media espacial: valor medio de las
- []
-
-./Capitulos/Tema 3. Introducción al Estudio Del Flujo de Trafico.tex:132: Use of \line  doesn't match its definition.
-l.132     \line{
-                S} = 1 / K
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-./Capitulos/Tema 3. Introducción al Estudio Del Flujo de Trafico.tex:132: Extra }, or forgotten $.
-l.132     \line{S}
-                   = 1 / K
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
-[]\TU/lmr/bx/n/14.4 Modelos de flujo
+Underfull \hbox (badness 1097) in paragraph at lines 126--127
+[]\OT1/cmr/m/n/10 Velocidad me-dia es-pa-cial: va-lor me-dio de las
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 139--139
-[]\TU/lmr/bx/n/14.4 Modelo de seguimiento de
+
+LaTeX Info: Redefining \. on input line 151.
+LaTeX Info: Redefining \% on input line 151.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+[]\OT1/cmr/bx/n/14.4 Modelos de flu-jo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
-[]\TU/lmr/bx/n/14.4 Modelo para el cálculo
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+[]\OT1/cmr/m/n/10 Se han es-ta-ble-ci-do mo-de-los ba-sa-dos en
  []
 
 
-Underfull \hbox (badness 6445) in paragraph at lines 141--141
-\TU/lmr/bx/n/14.4 de distancias mínimas de
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+[]\OT1/cmr/m/n/10 Relaciones velocidad-densidad-intensidad,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-[]\TU/lmr/bx/n/14.4 Capacidad y niveles de
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+[]\OT1/cmr/m/n/10 Relaciones velocidad-densidad-intensidad,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\TU/lmr/bx/n/14.4 servicio en autopistas,
+Underfull \hbox (badness 1558) in paragraph at lines 172--173
+\OT1/cmr/m/n/10 con-si-de-ran-do un mo-de-lo lo-gar^^S^^Pst-mi-co en-tre v
+ []
+
+<Imagenes/Diagrama para el analisis de ondas de choque.png, id=34, 3711.8675pt x 1156.32pt>
+File: Imagenes/Diagrama para el analisis de ondas de choque.png Graphic file (type png)
+<use Imagenes/Diagrama para el analisis de ondas de choque.png>
+Package pdftex.def Info: Imagenes/Diagrama para el analisis de ondas de choque.png  used on input line 198.
+(pdftex.def)             Requested size: 236.84843pt x 73.76956pt.
+
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 204--204
+[]\OT1/cmr/bx/n/14.4 Modelo de se-gui-mien-to de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-\TU/lmr/bx/n/14.4 autovías y carreteras
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
+[]\OT1/cmr/bx/n/14.4 Modelo pa-ra el c^^Salcu-lo
+ []
+
+
+Underfull \hbox (badness 5475) in paragraph at lines 206--206
+\OT1/cmr/bx/n/14.4 de dis-tan-cias m^^S^^Pni-mas de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+[]\OT1/cmr/bx/n/14.4 Capacidad y ni-ve-les de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+\OT1/cmr/bx/n/14.4 ser-vi-cio en au-to-pis-tas,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+\OT1/cmr/bx/n/14.4 au-tov^^S^^Pas y ca-rre-te-ras
  []
 
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.69003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.69003pt}.
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[8]
-
-
-
-LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefining \% on input line 2.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.69003pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.69003pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.69003pt}.
-
-[9
-
-]) (./main.aux
+[7 <./Imagenes/Diagrama para el analisis de ondas de choque.png>]) (./main.aux
 LaTeX Info: Redefining \sptext on input line 9.
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
@@ -987,26 +914,23 @@ LaTeX Info: Redefining \% on input line 9.
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14700 strings out of 474234
- 271224 string characters out of 5745797
- 1137084 words of memory out of 5000000
- 37232 multiletter control sequences out of 15000+600000
- 562013 words of font info for 60 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 66i,11n,81p,1249b,4051s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 15169 strings out of 473578
+ 278134 string characters out of 5732242
+ 1138437 words of memory out of 5000000
+ 37895 multiletter control sequences out of 15000+600000
+ 564365 words of font info for 58 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 66i,12n,81p,1249b,1808s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (7 pages, 1254300 bytes).
+PDF statistics:
+ 101 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on main.pdf (9 pages).

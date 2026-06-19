@@ -1,7 +1,24 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{\numberline {1}Introducción}{7}{}%
+\contentsline {section}{\numberline {1.1}Antecedentes y motivación}{7}{}%
+\contentsline {section}{\numberline {1.2}Objetivos del trabajo}{7}{}%
+\contentsline {section}{\numberline {1.3}Metodología y estructura de la memoria}{7}{}%
+\contentsline {section}{\numberline {1.4}Justificación y contribución a los ODS}{7}{}%
 \contentsline {chapter}{\numberline {2}Estado del Arte}{9}{}%
-\contentsline {section}{\numberline {2.1}Convertidores de Potencia}{9}{}%
-\contentsline {section}{\numberline {2.2}Semiconductores}{9}{}%
+\contentsline {section}{\numberline {2.1}Evolución de los Inversores}{9}{}%
+\contentsline {section}{\numberline {2.2}Tecnologías de Semiconductores}{9}{}%
 \contentsline {subsection}{\numberline {2.2.1}Transistor MOSFET}{9}{}%
-\contentsline {chapter}{Bibliografía}{10}{}%
+\contentsline {section}{\numberline {2.3}El MOSFET de SiC}{10}{}%
+\contentsline {section}{\numberline {2.4}Módulos Inteligentes de Potencia (IPM)}{10}{}%
+\contentsline {chapter}{\numberline {3}Equipamiento y Entorno de Trabajo}{11}{}%
+\contentsline {section}{\numberline {3.1}Módulo Inteligente de Potencia IM828-XCC}{11}{}%
+\contentsline {section}{\numberline {3.2}Placa de Evaluación EVAL-M1-IM828-XCC}{11}{}%
+\contentsline {section}{\numberline {3.3}Instrumentación de laboratorio y software de simulación}{11}{}%
+\contentsline {section}{\numberline {3.4}Normativa de seguridad en ensayos eléctricos}{11}{}%
+\contentsline {chapter}{\numberline {4}Modelado del MOSFET de SiC en Simulink}{13}{}%
+\contentsline {chapter}{\numberline {5}Validación y Comparativa de Resultados}{15}{}%
+\contentsline {chapter}{\numberline {6}Análisis Económico y Planificación}{17}{}%
+\contentsline {section}{\numberline {6.1}Presupuesto detallado del proyecto}{17}{}%
+\contentsline {section}{\numberline {6.2}Cronograma de trabajo}{17}{}%
+\contentsline {chapter}{\numberline {7}Conclusiones y Líneas Futuras}{19}{}%
+\contentsline {chapter}{Bibliografía}{20}{}%

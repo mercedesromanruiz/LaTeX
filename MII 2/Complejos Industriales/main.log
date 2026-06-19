@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.9)  11 DEC 2025 16:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.9)  8 JUN 2026 13:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -948,12 +948,33 @@ LaTeX Info: Redefining \% on input line 1.
 
  (./Capitulos/Tema 2. Edificación industrial.tex
 Cap\'{\i }tulo 2.
+<Imagenes/Tema 2. Componentes.png, id=297, 340.27126pt x 231.86626pt>
+File: Imagenes/Tema 2. Componentes.png Graphic file (type png)
+<use Imagenes/Tema 2. Componentes.png>
+Package pdftex.def Info: Imagenes/Tema 2. Componentes.png  used on input line 8.
+(pdftex.def)             Requested size: 236.84843pt x 161.39246pt.
+<Imagenes/Tema 2. Diseño Estructural.png, id=300, 2280.52pt x 1889.0575pt>
+File: Imagenes/Tema 2. Diseño Estructural.png Graphic file (type png)
+<use Imagenes/Tema 2. Diseño Estructural.png>
+Package pdftex.def Info: Imagenes/Tema 2. Diseño Estructural.png  used on input line 27.
+(pdftex.def)             Requested size: 236.84843pt x 196.18063pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
-|[]\OT1/cmr/bx/n/12 Estructuras (pre-fa-bri-ca-das) de
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 32--33
+\OT1/cmr/m/n/10 de nues-tra na-ve in-dus-trial, de ma-ne-ra que es-tas
  []
 
-)
+
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 36--37
+[]\OT1/cmr/m/n/10 El p^^Sorti-co es el com-po-nen-te es-truc-tu-ral m^^Sas
+ []
+
+
+Underfull \vbox (badness 1253) has occurred while \output is active []
 
 
 
@@ -962,6 +983,473 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--10
 
 
 
+ <./Imagenes/Tema 2. Componentes.png> <./Imagenes/Tema 2. Diseño Estructural.png>]
+Underfull \hbox (badness 1028) in paragraph at lines 44--45
+[]\OT1/cmr/m/n/10 Uno de los as-pec-tos m^^Sas im-por-tan-tes a te-ner
+ []
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 44--45
+\OT1/cmr/m/n/10 en cuen-ta en el di-se~no de na-ves in-dus-tria-les es
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 46--47
+\OT1/cmr/m/n/10 su-fi-cien-te-men-te gran-de pa-ra que la in-fluen-cia de
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 46--47
+\OT1/cmr/m/n/10 los efec-tos de se-gun-do or-den pue-da con-si-de-rar-se
+ []
+
+
+Underfull \hbox (badness 7869) in paragraph at lines 46--47
+\OT1/cmr/m/n/10 des-pre-cia-ble. Ser^^Sa por tan-to ne-ce-sa-rio apor-tar
+ []
+
+<Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros.png, id=311, 353.06906pt x 244.66406pt>
+File: Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros.png Graphic file (type png)
+<use Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros.png>
+Package pdftex.def Info: Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros.png  used on input line 52.
+(pdftex.def)             Requested size: 113.68623pt x 78.77942pt.
+<Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros (1).png, id=312, 357.58594pt x 252.19218pt>
+File: Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros (1).png Graphic file (type png)
+<use Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros (1).png>
+Package pdftex.def Info: Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros (1).png  used on input line 59.
+(pdftex.def)             Requested size: 113.68623pt x 80.1798pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+[]\OT1/cmr/m/n/10 ?`C^^Somo dis-po-ne-mos en-ton-ces es-tos
+ []
+
+
+Underfull \hbox (badness 3250) in paragraph at lines 67--68
+\OT1/cmr/m/n/10 en la di-rec-ci^^Son de la car-ga. Pa-ra evi-tar es-tos
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 67--68
+\OT1/cmr/m/n/10 des-pla-za-mien-tos, lo que ha-ce-mos es co-lo-car unos
+ []
+
+
+Underfull \hbox (badness 3396) in paragraph at lines 67--68
+\OT1/cmr/m/n/10 n^^Sucleos r^^S^^Pgi-dos me-dian-te arrios-tra-mien-tos en las
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 67--68
+\OT1/cmr/m/n/10 es-qui-nas, que ser^^San los en-car-ga-dos de re-sis-tir las
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 67--68
+\OT1/cmr/m/n/10 se trans-mi-ten a es-tos n^^Sucleos r^^S^^Pgi-dos, tam-bi^^Sen
+ []
+
+<Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas.png, id=314, 663.98062pt x 456.20438pt>
+File: Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas.png Graphic file (type png)
+<use Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas.png>
+Package pdftex.def Info: Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas.png  used on input line 73.
+(pdftex.def)             Requested size: 113.68623pt x 78.1106pt.
+<Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas (1).png, id=315, 638.385pt x 447.92343pt>
+File: Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas (1).png Graphic file (type png)
+<use Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas (1).png>
+Package pdftex.def Info: Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas (1).png  used on input line 80.
+(pdftex.def)             Requested size: 113.68623pt x 79.76155pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 94--95
+[]\OT1/cmr/m/n/10 En mu-chos ca-sos, las obras de cons-truc-ci^^Son
+ []
+
+
+Underfull \hbox (badness 3098) in paragraph at lines 94--95
+\OT1/cmr/m/n/10 re-quie-ren al-te-rar el te-rreno y la rea-li-za-ci^^Son de
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 94--95
+\OT1/cmr/m/n/10 te-rreno, es-te tien-de a man-te-ner-se es-ta-ble en un
+ []
+
+<Imagenes/Tema 2. Angulo de Rozamiento Interno.png, id=317, 451.6875pt x 120.45pt>
+File: Imagenes/Tema 2. Angulo de Rozamiento Interno.png Graphic file (type png)
+<use Imagenes/Tema 2. Angulo de Rozamiento Interno.png>
+Package pdftex.def Info: Imagenes/Tema 2. Angulo de Rozamiento Interno.png  used on input line 98.
+(pdftex.def)             Requested size: 236.84843pt x 63.15999pt.
+<Imagenes/Tema 2. Elementos de Contención.png, id=318, 455.45157pt x 268.00125pt>
+File: Imagenes/Tema 2. Elementos de Contención.png Graphic file (type png)
+<use Imagenes/Tema 2. Elementos de Contención.png>
+Package pdftex.def Info: Imagenes/Tema 2. Elementos de Contención.png  used on input line 106.
+(pdftex.def)             Requested size: 236.84843pt x 139.36961pt.
+
+
+LaTeX Info: Redefining \. on input line 113.
+LaTeX Info: Redefining \% on input line 113.
+[10 <./Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros.png> <./Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros (1).png> <./Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas.png> <./Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas (1).png> <./Imagenes/Tema 2. Angulo de Rozamiento Interno.png> <./Imagenes/Tema 2. Elementos de Contención.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+[]\OT1/cmr/m/n/10 Son aque-llas que por su geo-metr^^S^^Pa o
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 143--144
+[]\OT1/cmr/m/n/10 El mu-ro de con-ten-ci^^Son se di-se~na pa-ra re-sis-tir
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 143--144
+\OT1/cmr/m/n/10 el em-pu-je hi-drost^^Sati-co. Se tra-ta de un mu-ro de
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 143--144
+\OT1/cmr/m/n/10 hor-mig^^Son ar-ma-do que trans-mi-te sus so-li-ci-ta-cio-nes
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 143--144
+\OT1/cmr/m/n/10 y de com-pre-si^^Son en el in-trad^^Sos. La ar-ma-du-ra o
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 143--144
+\OT1/cmr/m/n/10 el in-trad^^Sos y en la di-rec-ci^^Son lon-gi-tu-di-nal de-ber^^Sa
+ []
+
+
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 147--148
+\OT1/cmr/m/n/10 im-por-tan-te con el mu-ro de con-ten-ci^^Son es que la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+[]\OT1/cmr/m/n/10 Sistemas su-per-fi-cia-les: me-dian-te l^^Sami-nas
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 162--163
+\OT1/cmr/m/n/10 se en-car-ga de trans-mi-tir las so-li-ci-ta-cio-nes de la
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 162--163
+\OT1/cmr/m/n/10 su-per-es-truc-tu-ra al te-rreno, de ma-ne-ra que no se
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 163.
+LaTeX Info: Redefining \% on input line 163.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[11]
+<Imagenes/Tema 2. Tipos de Cimentaciones.png, id=338, 672.26157pt x 636.87938pt>
+File: Imagenes/Tema 2. Tipos de Cimentaciones.png Graphic file (type png)
+<use Imagenes/Tema 2. Tipos de Cimentaciones.png>
+Package pdftex.def Info: Imagenes/Tema 2. Tipos de Cimentaciones.png  used on input line 166.
+(pdftex.def)             Requested size: 236.84843pt x 224.37854pt.
+
+Underfull \hbox (badness 2326) in paragraph at lines 181--182
+\OT1/cmr/m/n/10 su-per-fi-cia-les con-ti-nuas co-mo son las lo-sas o los
+ []
+
+<Imagenes/Tema 2. Tipos de Zapatas.png, id=339, 777.65532pt x 622.57594pt>
+File: Imagenes/Tema 2. Tipos de Zapatas.png Graphic file (type png)
+<use Imagenes/Tema 2. Tipos de Zapatas.png>
+Package pdftex.def Info: Imagenes/Tema 2. Tipos de Zapatas.png  used on input line 185.
+(pdftex.def)             Requested size: 236.84843pt x 189.61464pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+
+Underfull \hbox (badness 3375) in paragraph at lines 208--209
+[]\OT1/cmr/m/n/10 Vigas cen-tra-do-ras: Unen za-pa-tas co-lin-dan-tes
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 208--209
+\OT1/cmr/m/n/10 pa-ra ab-sor-ber los mo-men-tos flec-to-res de la
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 209--210
+[]\OT1/cmr/m/n/10 Vigas de ata-do o rios-tras: Ca-rac-ter^^S^^Psti-cas en
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 209--210
+\OT1/cmr/m/n/10 de-bi-das al sis-mo, evi-tan-do el des-pla-za-mien-to
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 210.
+LaTeX Info: Redefining \% on input line 210.
+[12 <./Imagenes/Tema 2. Tipos de Cimentaciones.png> <./Imagenes/Tema 2. Tipos de Zapatas.png>]
+Underfull \hbox (badness 1990) in paragraph at lines 214--215
+[]\OT1/cmr/m/n/10 Cuando no po-da-mos uti-li-zar una ci-men-ta-ci^^Son
+ []
+
+<Imagenes/Tema 2. Pilotes.png, id=354, 999.735pt x 422.32782pt>
+File: Imagenes/Tema 2. Pilotes.png Graphic file (type png)
+<use Imagenes/Tema 2. Pilotes.png>
+Package pdftex.def Info: Imagenes/Tema 2. Pilotes.png  used on input line 222.
+(pdftex.def)             Requested size: 236.84843pt x 100.05257pt.
+
+Underfull \hbox (badness 2103) in paragraph at lines 223--223
+[]\OT1/cmr/m/n/10 Figura 2.9: |Es-que-ma de ci-men-ta-cio-nes pro-fun-das
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 228--229
+[]\OT1/cmr/m/n/10 Por su for-ma de tra-ba-jo: Pi-lo-tes por fus-te
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 229--230
+[]\OT1/cmr/m/n/10 Por su cons-truc-ci^^Son: Pue-den ser in si-tu o
+ []
+
+
+
+
+Underfull \hbox (badness 7504) in paragraph at lines 238--239
+\OT1/cmr/m/n/10 el pi-lo-te has-ta al-can-zar la pro-fun-di-dad o el
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 246--247
+[]\OT1/cmr/m/n/10 El en-ce-pa-do es un ele-men-to es-truc-tu-ral muy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+[]\OT1/cmr/m/n/10 Es fun-da-men-tal dis-po-ner de ar-ma-du-ra
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 250--251
+[]\OT1/cmr/m/n/10 Es ex-tre-ma-da-men-te im-por-tan-te co-lo-car cer-cos
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 250--251
+\OT1/cmr/m/n/10 trans-ver-sa-les pa-ra re-sis-tir el enor-me es-fuer-zo
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 263.
+LaTeX Info: Redefining \% on input line 263.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[13 <./Imagenes/Tema 2. Pilotes.png>]
+Underfull \hbox (badness 2401) in paragraph at lines 326--327
+\OT1/cmr/m/n/10 cons-truc-ci^^Son de las es-truc-tu-ras de ace-ro son la
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 326--327
+\OT1/cmr/m/n/10 de Edi-fi-ca-ci^^Son de Ace-ro. Por otro la-do te-ne-mos
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 326--327
+\OT1/cmr/m/n/10 la nor-ma eu-ro-pea, Eu-roc^^Sodi-go 3, que si bien no
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 326--327
+\OT1/cmr/m/n/10 es de obli-ga-do cum-pli-mien-to en Es-pa~na, es muy
+ []
+
+
+
+
+
+LaTeX Info: Redefining \. on input line 327.
+LaTeX Info: Redefining \% on input line 327.
+[14]
+<Imagenes/Tema 2. Clases UNE EN I0025 Acero.png, id=369, 459.96844pt x 301.125pt>
+File: Imagenes/Tema 2. Clases UNE EN I0025 Acero.png Graphic file (type png)
+<use Imagenes/Tema 2. Clases UNE EN I0025 Acero.png>
+Package pdftex.def Info: Imagenes/Tema 2. Clases UNE EN I0025 Acero.png  used on input line 330.
+(pdftex.def)             Requested size: 236.84843pt x 155.06042pt.
+<Imagenes/Tema 2. Acero. Elementos laminados en caliente.png, id=371, 527.72156pt x 356.0803pt>
+File: Imagenes/Tema 2. Acero. Elementos laminados en caliente.png Graphic file (type png)
+<use Imagenes/Tema 2. Acero. Elementos laminados en caliente.png>
+Package pdftex.def Info: Imagenes/Tema 2. Acero. Elementos laminados en caliente.png  used on input line 344.
+(pdftex.def)             Requested size: 236.84843pt x 159.81085pt.
+<Imagenes/Tema 2. Acero. Elementos laminados en caliente (1).png, id=372, 490.08093pt x 329.73187pt>
+File: Imagenes/Tema 2. Acero. Elementos laminados en caliente (1).png Graphic file (type png)
+<use Imagenes/Tema 2. Acero. Elementos laminados en caliente (1).png>
+Package pdftex.def Info: Imagenes/Tema 2. Acero. Elementos laminados en caliente (1).png  used on input line 349.
+(pdftex.def)             Requested size: 236.84843pt x 159.35121pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+<Imagenes/Tema 2. Acero. Elementos conformados en frio.png, id=374, 475.7775pt x 337.26pt>
+File: Imagenes/Tema 2. Acero. Elementos conformados en frio.png Graphic file (type png)
+<use Imagenes/Tema 2. Acero. Elementos conformados en frio.png>
+Package pdftex.def Info: Imagenes/Tema 2. Acero. Elementos conformados en frio.png  used on input line 367.
+(pdftex.def)             Requested size: 236.84843pt x 167.89368pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 372--373
+[]\OT1/cmr/m/n/10 Otros ele-men-tos que se uti-li-zan ha-bi-tual-men-te
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 372--373
+\OT1/cmr/m/n/10 en la cons-truc-ci^^Son son los con-for-ma-dos en fr^^S^^Po.
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 372--373
+\OT1/cmr/m/n/10 de fa-bri-ca-ci^^Son dis-tin-to, don-de l^^Sami-nas de ace-ro
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 372--373
+\OT1/cmr/m/n/10 mix-tas de ace-ro y hor-mig^^Son o co-mo ele-men-tos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--375
+[]\OT1/cmr/m/n/10 Estas l^^Sami-nas tie-nen es-pe-so-res t^^S^^Ppi-ca-men-te
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 374--375
+\OT1/cmr/m/n/10 mu-cho cui-da-do con las co-rro-sio-nes y las po-si-bles
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 376.
+LaTeX Info: Redefining \% on input line 376.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[15 <./Imagenes/Tema 2. Clases UNE EN I0025 Acero.png> <./Imagenes/Tema 2. Acero. Elementos laminados en caliente.png> <./Imagenes/Tema 2. Acero. Elementos laminados en caliente (1).png>]
+Underfull \hbox (badness 2065) in paragraph at lines 380--381
+[]\OT1/cmr/m/n/10 La in-fluen-cia de es-te ci-clo t^^Sermi-co so-bre las
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 380--381
+\OT1/cmr/m/n/10 pro-pie-da-des mec^^Sani-cas del ace-ro de-pen-der^^Sa so-bre
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 380--381
+\OT1/cmr/m/n/10 to-do de su con-te-ni-do en car-bono, sien-do me-nos
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 380--381
+\OT1/cmr/m/n/10 in-flu-yen-te en los ace-ros con ba-jo con-te-ni-do en
+ []
+
+<Imagenes/Tema 2. Acero. Union Soldada (1).png, id=384, 227.34938pt x 212.29312pt>
+File: Imagenes/Tema 2. Acero. Union Soldada (1).png Graphic file (type png)
+<use Imagenes/Tema 2. Acero. Union Soldada (1).png>
+Package pdftex.def Info: Imagenes/Tema 2. Acero. Union Soldada (1).png  used on input line 386.
+(pdftex.def)             Requested size: 113.68623pt x 106.15926pt.
+<Imagenes/Tema 2. Acero. Union Soldada (2).png, id=385, 233.37187pt x 225.09094pt>
+File: Imagenes/Tema 2. Acero. Union Soldada (2).png Graphic file (type png)
+<use Imagenes/Tema 2. Acero. Union Soldada (2).png>
+Package pdftex.def Info: Imagenes/Tema 2. Acero. Union Soldada (2).png  used on input line 393.
+(pdftex.def)             Requested size: 113.68623pt x 109.65324pt.
+
+Underfull \hbox (badness 1107) in paragraph at lines 404--405
+\OT1/cmr/m/n/10 me-dian-te so-lu-cio-nes ator-ni-lla-das. La uni^^Son de los
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 404--405
+\OT1/cmr/m/n/10 pue-den ser pre-ten-sa-dos, si la uni^^Son fun-cio-na por
+ []
+
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
+[]\OT1/cmr/m/n/10 Los so-por-tes fun-cio-nar^^San ge-ne-ral-men-te a
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 408--409
+\OT1/cmr/m/n/10 fle-xo-com-pre-si^^Son, pe-ro son los efec-tos del pan-deo
+ []
+
+<Imagenes/Tema 2. Acero. Soportes.png, id=387, 999.735pt x 601.4972pt>
+File: Imagenes/Tema 2. Acero. Soportes.png Graphic file (type png)
+<use Imagenes/Tema 2. Acero. Soportes.png>
+Package pdftex.def Info: Imagenes/Tema 2. Acero. Soportes.png  used on input line 412.
+(pdftex.def)             Requested size: 236.84843pt x 142.49911pt.
+
+Underfull \hbox (badness 4886) in paragraph at lines 419--420
+[]\OT1/cmr/m/n/10 Para sal-var las lu-ces de nues-tra es-truc-tu-ra
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 421--422
+\OT1/cmr/m/n/10 son las vi-gas ali-ge-ra-das o vi-gas Boyd. Es-tas se
+ []
+
+
+
+LaTeX Info: Redefining \. on input line 422.
+LaTeX Info: Redefining \% on input line 422.
+[16 <./Imagenes/Tema 2. Acero. Elementos conformados en frio.png> <./Imagenes/Tema 2. Acero. Union Soldada (1).png> <./Imagenes/Tema 2. Acero. Union Soldada (2).png> <./Imagenes/Tema 2. Acero. Soportes.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 423--423
+|[]\OT1/cmr/bx/n/12 Estructuras (pre-fa-bri-ca-das) de
+ []
+
+)
+
+
+
+LaTeX Info: Redefining \. on input line 2.
+LaTeX Info: Redefining \% on input line 2.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[17
 
 ]
 \openout2 = `"Capitulos/Tema 3. Plantas industriales.aux"'.
@@ -972,7 +1460,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--10
 
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-[10
+[18
 
 
 
@@ -1003,7 +1491,7 @@ Underfull \hbox (badness 6173) in paragraph at lines 53--53
 
 
 
-[11]
+[19]
 Underfull \hbox (badness 4366) in paragraph at lines 61--62
 []\OT1/cmr/m/n/10 Requisitos de mon-ta-je y man-te-ni-mien-to de
  []
@@ -1061,7 +1549,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[12]) (./main.aux
+[20]) (./main.aux
 LaTeX Info: Redefining \sptext on input line 12.
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
@@ -1071,24 +1559,24 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DE37F0A0AB445AE3554E183C5DCBC8F8;8252.
+(rerunfilecheck)             Checksum: 600E8D1FC8AFE5A213CA6DF27F55CB32;9087.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20905 strings out of 473578
- 366988 string characters out of 5732242
- 1239960 words of memory out of 5000000
- 43491 multiletter control sequences out of 15000+600000
- 563871 words of font info for 55 fonts, out of 8000000 for 9000
+ 21135 strings out of 473578
+ 376081 string characters out of 5732242
+ 1241201 words of memory out of 5000000
+ 43685 multiletter control sequences out of 15000+600000
+ 564170 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,12n,81p,1266b,2334s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (12 pages, 151833 bytes).
+ 66i,13n,81p,1266b,2334s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (20 pages, 3688913 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
- 319 compressed objects within 4 object streams
- 78 named destinations out of 1000 (max. 500000)
- 329 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 494 PDF objects out of 1000 (max. 8388607)
+ 411 compressed objects within 5 object streams
+ 113 named destinations out of 1000 (max. 500000)
+ 459 words of extra memory for PDF output out of 10000 (max. 10000000)
 

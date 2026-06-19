@@ -77,7 +77,7 @@ Donde:
     \item $\gamma$: Coef. Variación
 \end{itemize}
 
-\subsubsection{Distribución binomial, (> 200 VEH./HORA.CARRIL)}
+\subsubsection{Distribución binomial, ($>$ 200 VEH./HORA.CARRIL)}
 
 \begin{equation}
     P(i) = \binom{m}{i} \cdot p^i \cdot (1 - p)^{m-i}; i = 0,1,2,...m
@@ -89,6 +89,24 @@ Donde:
 
 \begin{equation}
     \gamma = \frac{\mu}{\sigma^2} = \frac{m \cdot p}{m \cdot p \cdot q} = (1 - p)^{-1} \geq 1
+\end{equation}
+
+\subsubsection{Distribución binomial negativa, para representar régimenes sujetos a fuertes variacions}
+
+\begin{equation}
+    P(i) = \binom{i + K - 1}{i} \cdot p^K \cdot (1 - p)^i; i = 0,1,2... 
+\end{equation}
+
+\begin{equation}
+    \mu = K \cdot (1 - p)/p
+\end{equation}
+
+\begin{equation}
+    \sigma^2 = K \cdot (1 - p)/p^2
+\end{equation}
+
+\begin{equation}
+    \gamma = p^2 / p < 1
 \end{equation}
 
 
@@ -154,7 +172,34 @@ Se han establecido modelos basados en observaciones del tráfico, que relacionan
     \item Relaciones velocidad-densidad-intensidad, considerando un modelo logarístmico entre v y k.
 \end{itemize}
 
+\paragraph{Modelo Lineal - Greenshield (1935)}
+\begin{equation}
+    V = V_L \cdot 1 - ( \frac{K}{K_C} )
+\end{equation}
+
+\paragraph{Modelo Logarítmico - Greenberg (1959)}
+\begin{equation}
+    V = V_m \cdot Ln ( \frac{K_c}{K} )
+\end{equation}
+
+$V_m$: Velocidad a la que la intensidad es máxima
+
+\paragraph{Modelo Generalizados - Drew (1965)}
+\begin{equation}
+    V = V_L \cdot [1 - (\frac{K}{K_C})^\frac{n + 1}{2}]
+\end{equation}
+
+$n > -1$ y es lineal si $n = 1$
+
 \section{Ondas de choque en el flujo de tráfico}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Diagrama para el analisis de ondas de choque.png}
+    \caption{Diagrama para el análisis de ondas de choque}
+\end{figure}
+
+``Movimiento de propagación de un cambio de densidad de flujo''
 
 \section{Modelo de seguimiento de vehículos}
 

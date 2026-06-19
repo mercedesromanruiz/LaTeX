@@ -20,34 +20,39 @@
 \contentsline {subsubsubsection}{\numberline {3.2.2.1}Abastecimiento de Agua.}{8}{subsubsubsection.1.3.2.2.1}%
 \contentsline {paragraph}{Criterios Básicos a Contemplar en una red de Abastecimiento de Agua.}{8}{section*.9}%
 \contentsline {paragraph}{Características de Redess de Abastecimiento de Agua.}{8}{section*.10}%
-\contentsline {chapter}{\numberline {2}Edificación industrial}{9}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Edificación Industrial}{9}{chapter.2}%
 \contentsline {section}{\numberline {1}Criterios de diseño}{9}{section.2.1}%
-\contentsline {section}{\numberline {2}Estructura}{9}{section.2.2}%
-\contentsline {subsection}{\numberline {2.1}Cimentaciones}{9}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2}Estructuras de acero}{9}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.3}Estructuras (prefabricadas) de hormigón}{9}{subsection.2.2.3}%
-\contentsline {section}{\numberline {3}Envolventes}{9}{section.2.3}%
-\contentsline {subsection}{\numberline {3.1}Fachadas}{9}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {3.2}Cubiertas}{9}{subsection.2.3.2}%
-\contentsline {chapter}{\numberline {3}Plantas industriales}{11}{chapter.3}%
-\contentsline {section}{\numberline {1}Introducción}{11}{section.3.1}%
-\contentsline {paragraph}{Concepto Complejo Industrial.}{11}{section*.11}%
-\contentsline {section}{\numberline {2}Ingeniería: Procesos, equipos y obra civil}{11}{section.3.2}%
-\contentsline {subsection}{\numberline {2.1}Proceso}{11}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {2.2}Equipos}{11}{subsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Principales}{11}{subsubsection.3.2.2.1}%
-\contentsline {paragraph}{Generadores}{11}{section*.12}%
-\contentsline {subsubsection}{\numberline {2.2.2}Auxiliares}{11}{subsubsection.3.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}Plantas Paquete}{11}{subsubsection.3.2.2.3}%
-\contentsline {section}{\numberline {3}Ingeniería: Implantación y control}{11}{section.3.3}%
-\contentsline {subsection}{\numberline {3.1}Implantación}{11}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.2}Control}{12}{subsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Automatización - Función de un sistema de control}{12}{subsubsection.3.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Sistema de control de una planta industrial - arquitectura y componentes del sistema de control}{12}{subsubsection.3.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Sistema de control de una panta industrial - lógicos y acciones de control}{12}{subsubsection.3.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.4}Ejemplo P\&ID: Piping and Instrumentation Diagram}{12}{subsubsection.3.3.2.4}%
-\contentsline {section}{\numberline {4}Construcción: actividades previas, compras y planificación}{12}{section.3.4}%
-\contentsline {section}{\numberline {5}Construcción: ejecución}{12}{section.3.5}%
-\contentsline {section}{\numberline {6}Modularización de plantas. Diseño en maqueta 3d}{12}{section.3.6}%
-\contentsline {section}{\numberline {7}Inteligencia artificial en la industria}{12}{section.3.7}%
-\contentsline {section}{\numberline {8}Plantas Offshore}{12}{section.3.8}%
+\contentsline {subsection}{\numberline {1.1}Componentes}{9}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {1.2}Diseño Estructural}{9}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {1.3}Estabilidad Lateral}{10}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2}Estructura}{10}{section.2.2}%
+\contentsline {subsection}{\numberline {2.1}Cimentaciones}{11}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Cimentaciones Superficiales}{12}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Cimentaciones Profundas}{13}{subsubsection.2.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Estructuras de acero}{13}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Estructuras (prefabricadas) de hormigón}{17}{subsection.2.2.3}%
+\contentsline {section}{\numberline {3}Envolventes}{17}{section.2.3}%
+\contentsline {subsection}{\numberline {3.1}Fachadas}{17}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {3.2}Cubiertas}{17}{subsection.2.3.2}%
+\contentsline {chapter}{\numberline {3}Plantas industriales}{19}{chapter.3}%
+\contentsline {section}{\numberline {1}Introducción}{19}{section.3.1}%
+\contentsline {paragraph}{Concepto Complejo Industrial.}{19}{section*.27}%
+\contentsline {section}{\numberline {2}Ingeniería: Procesos, equipos y obra civil}{19}{section.3.2}%
+\contentsline {subsection}{\numberline {2.1}Proceso}{19}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {2.2}Equipos}{19}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Principales}{19}{subsubsection.3.2.2.1}%
+\contentsline {paragraph}{Generadores}{19}{section*.28}%
+\contentsline {subsubsection}{\numberline {2.2.2}Auxiliares}{19}{subsubsection.3.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Plantas Paquete}{19}{subsubsection.3.2.2.3}%
+\contentsline {section}{\numberline {3}Ingeniería: Implantación y control}{19}{section.3.3}%
+\contentsline {subsection}{\numberline {3.1}Implantación}{19}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.2}Control}{20}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Automatización - Función de un sistema de control}{20}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Sistema de control de una planta industrial - arquitectura y componentes del sistema de control}{20}{subsubsection.3.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Sistema de control de una panta industrial - lógicos y acciones de control}{20}{subsubsection.3.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Ejemplo P\&ID: Piping and Instrumentation Diagram}{20}{subsubsection.3.3.2.4}%
+\contentsline {section}{\numberline {4}Construcción: actividades previas, compras y planificación}{20}{section.3.4}%
+\contentsline {section}{\numberline {5}Construcción: ejecución}{20}{section.3.5}%
+\contentsline {section}{\numberline {6}Modularización de plantas. Diseño en maqueta 3d}{20}{section.3.6}%
+\contentsline {section}{\numberline {7}Inteligencia artificial en la industria}{20}{section.3.7}%
+\contentsline {section}{\numberline {8}Plantas Offshore}{20}{section.3.8}%

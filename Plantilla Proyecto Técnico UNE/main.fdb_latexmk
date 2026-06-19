@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1728508992.54218 "c:/Users/merce/Documents/GitHub/LaTeX/Plantilla Proyecto Técnico UNE/main.tex" "main.pdf" "main" 1728508993.61359 0
+["pdflatex"] 1780911050.8123 "c:/Users/merce/Documents/GitHub/LaTeX/Plantilla Proyecto Técnico UNE/main.tex" "main.pdf" "main" 1780911052.04977 0
   "Documentos Basicos/Anexos.tex" 1728236347 1277 9171598d074dd7e732cf23bcd7736954 ""
   "Documentos Basicos/Estado de Mediciones.tex" 1728236347 1110 28acc9e6b8b68eee87dd2c9c1f69389f ""
   "Documentos Basicos/Indice General.tex" 1728236347 641 fb1a976df2d070b48ae3181433f396f0 ""
@@ -8,7 +8,7 @@
   "Documentos Basicos/Pliego de Condiciones.tex" 1728236347 808 9737223e3cf6d2e7f532ebf6ca759846 ""
   "Documentos Basicos/Presupuesto.tex" 1728236347 1284 394e38af0783856adbb4cf11375609e0 ""
   "LogoEjemplo.png" 1728236347 40183 6f26cc40ce7f3f5c001603759280c05f ""
-  "c:/Users/merce/Documents/GitHub/LaTeX/Plantilla Proyecto Técnico UNE/main.tex" 1728236347 2409 82161321c7e0dcca3fc80913875a82e2 ""
+  "c:/Users/merce/Documents/GitHub/LaTeX/Plantilla Proyecto Técnico UNE/main.tex" 1729706940 2407 4b6d4197523864b91da030ce0493ef7f ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1728496372 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1728495047 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm" 1728495047 1300 63a6111ee6274895728663cf4b4e7e81 ""
@@ -71,9 +71,9 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1728505921 5520473 0a78405a99dc248928f6ec2cb7e7998e ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1728506292 3326004 fdcc47d26ba8be16a57e12fc02c7b8d1 ""
   "c:/texlive/2024/texmf.cnf" 1728505891 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1728508993 3248 50444801c553e56634ad6932ff5c1798 "pdflatex"
-  "main.tex" 1728236347 2409 82161321c7e0dcca3fc80913875a82e2 ""
-  "main.toc" 1728508993 1940 206cd07b5d6fa52bf6c067a3a7e30786 "pdflatex"
+  "main.aux" 1780911051 3248 50444801c553e56634ad6932ff5c1798 "pdflatex"
+  "main.tex" 1729706940 2407 4b6d4197523864b91da030ce0493ef7f ""
+  "main.toc" 1780911051 1940 206cd07b5d6fa52bf6c067a3a7e30786 "pdflatex"
   (generated)
   "main.aux"
   "main.log"

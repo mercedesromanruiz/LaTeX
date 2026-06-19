@@ -1,11 +1,432 @@
-\chapter{Edificación industrial}
+\chapter{Edificación Industrial}
+
 \section{Criterios de diseño}
+\subsection{Componentes}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Componentes.png}
+    \caption{Componentes principales de una nave a dos aguas.}
+    \label{fig: Componentes Nave Industrial}
+\end{figure}
+
+En la figura \ref{fig: Componentes Nave Industrial} vemos representado el volumen típico de una nave industrial a dos aguas. Debido a su forma de construcción, suelen presentar una proporción rectangular, donde una dimensión predomina frente a la otra. Podemos distinguir los siguientes componentes:
+
+\begin{itemize}
+    \item Fachadas
+    \item Testeros
+    \item Faldones de Cubiertas
+\end{itemize}
+
+Al encuentro de los dos faldones en el punto más alto de la nave se le denomina cumbrera. Al encuentro entre la cubierta y la fachada se le denomina alero.
+
+\subsection{Diseño Estructural}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Diseño Estructural.png}
+    \caption{Elementos estructurales básicos.}
+    \label{fig: Diseño Estructural}
+\end{figure}
+
+Una vez tenemos claras las dimensiones en planta de nuestra nave industrial, de manera que estas se ajusten a las limitaciones urbanísticas y a las necesidades del proceso industrial, el siguiente paso es diseñar nuestra estructura (figura \ref{fig: Diseño Estructural}).
+
+La dimensión más importante en el diseño de una nave industrial es la luz, que en las naves de acero y hormigón suele estar en torno a los 30 o 40 metros para que esta estructura sea económica. El elemento estructural para cubrir esta luz es el pórtico.
+
+El pórtico es el componente estructural más importante en una nave industrial. Su geometría y materiales estarán determinados por las necesidades funcionales y dimensionales de la nave. Este pórtico se repetirá modularmente partiendo la longitud de la nave en crujías de ancho constante. Esta crujía, o separación entre pórticos, suele estar en el orden de un cuarto (1/4) o un quinto (1/5) de la luz, aunque puede verse alterado por otras razones, como pueden ser la dimensión de las correas o las limitaciones debidas al uso de la nave industrial.
+
+Una vez dispuestos los pórticos hasta alcanzar la longitud de la nave, las correas se colocan en la dirección longitudinal. Estas se encargan de recibir el cerramiento y transmitir las cargas a los pórticos. Como vemos, hay un gran número de correas en una nave, por lo que conviene optimizar tanto la distancia entre correas y su sección para alcanzar una estructura económica.
+
+Tanto los pórticos como las correas de una nave industrial se resuelven típicamente con elementos de acero o de hormigón prefabricado. En los últimos años, también se ha popularizado el uso de madera, sobre todo laminada.
+
+\subsection{Estabilidad Lateral}
+
+Uno de los aspectos más importantes a tener en cuenta en el diseño de naves industriales es la estabilidad lateral. Debido a su geometría, con elementos estructurales muy esbeltos, y también al uso de materiales muy ligeros en su construcción, las cargas laterales debidas al viento suelen ser las cargas más desfavorables.
+
+Por otro lado, la gran mayoría de los pórticos de naves industriales son estructuras traslacionales. Esto quiere decir que su rigidez lateral no es lo suficientemente grande para que la influencia de los efectos de segundo orden pueda considerarse despreciable. Será por tanto necesario aportar estabilidad lateral a la nave mediante arriostramientos.
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.48\columnwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros.png}
+        \caption{Deformación}
+        \label{fig: Estabilidad Lateral - Carga Testeros}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\columnwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros (1).png}
+        \caption{Solución}
+        \label{fig: Estabilidad Lateral - Carga Testeros - Solucion}
+    \end{subfigure}
+    \caption{Efecto y solución ante cargas en testeros.}
+    \label{fig: Cargas Testeros Completa}
+\end{figure}
+
+¿Cómo disponemos entonces estos arriostramientos? Si nos fijamos en la nave de la figura \ref{fig: Estabilidad Lateral - Carga Testeros}, que está sometida a una carga lateral en los testeros, la estructura tenderá a deformarse en la dirección de la carga. Para evitar estos desplazamientos, lo que hacemos es colocar unos núcleos rígidos mediante arriostramientos en las esquinas, que serán los encargados de resistir las cargas laterales. Para asegurar que las cargas laterales se transmiten a estos núcleos rígidos, también necesitamos rigidizar el faldón de la cubierta mediante una viga contraviento, que recibe las cargas y las transmite a estos núcleos.
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.48\columnwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas.png}
+        \caption{Deformación}
+        \label{fig: Estabilidad Lateral - Carga Fachadas}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\columnwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas (1).png}
+        \caption{Solución}
+        \label{fig: Estabilidad Lateral - Carga Fachadas - Solucion}
+    \end{subfigure}
+    \caption{Efecto y solución ante cargas en fachadas.}
+    \label{fig: Cargas Fachadas Completa}
+\end{figure}
+
+En el caso de la carga de viento actuando sobre las fachadas y faldones (figura \ref{fig: Estabilidad Lateral - Carga Fachadas}), estaremos ante la misma situación. Estos núcleos rígidos no solo restringen las deformaciones laterales debidas al viento, sino que también se encargan de absorber los esfuerzos en la cabeza de los pilares, estabilizándolos frente al pandeo. A su vez, resisten las cargas laterales en el caso accidental del sismo y limitan los desplazamientos debidos a las cargas térmicas.
+
+Estos arriostramientos se suelen resolver mediante diagonalización o cruces de San Andrés. Estas pueden funcionar solo a tracción o pueden funcionar a tracción y compresión.
 
 \section{Estructura}
 
+En muchos casos, las obras de construcción requieren alterar el terreno y la realización de excavaciones. Cuando se altera el equilibrio de un terreno, este tiende a mantenerse estable en un determinado ángulo de rozamiento interno. Este ángulo variará en función del material del que esté compuesto el terreno.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Angulo de Rozamiento Interno.png}
+    \caption{Angulo de Rozamiento Interno.}
+\end{figure}
+
+Si la inclinación de nuestra excavación excede el ángulo de reposo o de rozamiento natural del suelo, será necesario construir estructuras de contención. La función fundamental de estas estructuras es la de retener el suelo cuando este intenta alcanzar su posición de equilibrio.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Elementos de Contención.png}
+    \caption{Elementos de Contención.}
+\end{figure}
+
+Cuando diseñamos una estructura de contención, los cálculos tienen que asegurar que:
+
+\begin{itemize}
+    \item No existe un vuelco.
+    \item No hay un deslizamiento de la base.
+    \item No hay hundimiento debido a la rotura del terreno debajo de la cimentación.
+    \item Que no haya una rotura profunda del terreno o un deslizamiento profundo.
+    \item Que no falla la estructura.
+\end{itemize}
+
+Los factores que tenemos que tener en cuenta a la hora de diseñar una estructura son:
+
+\begin{itemize}
+    \item El tipo de suelo que estamos intentando contener y sus características.
+    \item Cuál es el nivel del agua o el nivel freático.
+    \item El tipo de muro que estamos diseñando.
+    \item El material que vamos a usar para resolver nuestro muro.
+\end{itemize}
+
+\subsection*{Tipologías de Estructuras de Contención}
+
+La primera distinción que debemos hacer en las estructuras de contención es entre rígidas y flexibles.
+
+\subsubsection*{Estructuras de Contención Rígidas}
+
+Son aquellas que debido a su geometría o sus materiales, trabajan como un sólido rígido, sin cambiar su forma. Son estructuras masivas de escollera, de hormigón en masa, o mampostería. En definitiva, utilizan materiales muy pesados y voluminosos. Se suelen utilizar mucho en la obra civil, como en la contención de taludes en las carreteras.
+
+\subsubsection*{Estructuras de Contención Flexibles}
+
+Son aquellas que por su geometría o morfología, trabajan experimentando deformaciones, fundamentalmente a flexión. Esto implica que van a desarrollar unos esfuerzos internos para los cuales vamos a tener que diseñar nuestra estructura. Se utilizan mucho en edificación. Podemos dividirlas en dos tipologías básicas: los muros de contención y los muros de sótano.
+
+\subsubsubsection*{Muros de Contención}
+
+El muro de contención se diseña para resistir únicamente los empujes del terreno y, si fuera necesario, el empuje hidrostático. Se trata de un muro de hormigón armado que transmite sus solicitaciones mediante una cimentación corrida a lo largo de su longitud. Funciona como un muro en voladizo cuyo alzado se considera perfectamente empotrado en la cimentación. Debido a los empujes del terreno, sufre unas deformaciones a flexión desarrollando a su vez esfuerzos internos de tracción en el trasdós del muro y de compresión en el intradós. La armadura o refuerzo de acero de este tipo de muro responderá a la distribución de tensiones, por lo que se concentrará en la cara traccionada de la sección del muro. En el intradós y en la dirección longitudinal deberá disponerse también de una armadura mínima.
+
+\subsubsubsection*{Muros de Sótano}
+
+En el muro de sótano, además de las cargas laterales debidas al terreno, el muro recibe las cargas verticales de la superestructura del edificio. La diferencia más importante con el muro de contención es que la deformación de la cabeza del muro de sótano está restringida por el forjado de planta baja. De ahí que su funcionamiento mecánico sea el de una losa apoyada en el forjado y en la cimentación.
+
+\subsection*{Drenaje}
+
+Un aspecto extremadamente importante a tener en cuenta a la hora de diseñar un muro de contención es la presencia de agua en el trasdós. Aparte de la presión hidrostática que pueda imponer en la cara exterior del muro, el agua puede afectar también a la capacidad resistente del terreno. Un muro de contención no es una presa para contener el agua. Necesitamos diseñar un sistema de drenaje de manera que, en el caso de que el nivel freático de nuestro terreno pudiera afectar a la estabilidad de nuestro muro, seamos capaces de evacuar el agua antes de que afecte a la capacidad mecánica.
+
+Existen diversos sistemas que podemos utilizar para ejecutar un drenaje:
+\begin{itemize}
+    \item Sistemas puntuales: mediante mechinales.
+    \item Sistemas lineales: mediante tubos drenantes.
+    \item Sistemas superficiales: mediante láminas drenantes.
+\end{itemize}
+
 \subsection{Cimentaciones}
 
+La cimentación es la parte de la estructura que se encarga de transmitir las solicitaciones de la superestructura al terreno, de manera que no se generen asientos u otros movimientos que puedan comprometer la estabilidad o dañar cualquier parte del edificio.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Tipos de Cimentaciones.png}
+    \caption{Tipos de Cimentaciones.}
+\end{figure}
+
+
+La clasificación más general que podemos darle a las cimentaciones viene definida por la profundidad a la que se sitúa la base de nuestra cimentación. En función de la distancia a la que se encuentre el estrato de terreno firme, podemos tener cimentaciones superficiales, semiprofundas o profundas.
+
+Esta profundidad dependerá del tipo de terreno que tengamos en nuestra parcela. Los estudios geotécnicos previos a la construcción nos aportarán la información del tipo de terreno, su resistencia y su cohesión, mediante los ensayos realizados in situ.
+
+\subsubsection{Cimentaciones Superficiales}
+
+Las cimentaciones superficiales suelen ser las más habituales y las más económicas. La cimentación más sencilla que existe es la zapata. Se trata de un dado de hormigón ensanchando la base de nuestro soporte. Es la solución más normal, económica y fácil de ejecutar, siempre que tengamos terrenos con una resistencia superior a 1 kg/cm².
+
+Es muy habitual en edificaciones con luces en torno a los 5 metros. Su profundidad no debe ser inferior a 1 metro ni superior a 2 metros bajo rasante, y siempre deben utilizarse por encima del nivel freático para evitar agotamientos del terreno y entibaciones en la construcción.
+
+En los casos en los que tengamos un terreno con malas condiciones, tendremos que usar cimentaciones superficiales continuas como son las losas o los emparrillados de cimentación.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Tipos de Zapatas.png}
+    \caption{Tipos de Zapatas.}
+\end{figure}
+
+Las zapatas se suelen clasificar según su morfología y según la forma en que trabajan:
+\begin{itemize}
+    \item Zapata centrada: Recibe las cargas en el eje de su centro de gravedad.
+    \item Zapata de esquina, de medianera o combinadas: Se utilizan en el caso en que las cargas se transmitan a la zapata de manera excéntrica.
+\end{itemize}
+
+A la hora de ejecutar una zapata, tenemos que seguir los siguientes pasos:
+\begin{enumerate}
+    \item Comprobar las condiciones del terreno, el nivel freático y la ausencia de irregularidades según el estudio geotécnico.
+    \item Replantear la posición de la zapata y realizar la excavación hasta el plano de asiento (mínimo 1 metro de profundidad y 50 centímetros de canto).
+    \item Colocar un hormigón de limpieza (unos 10 cm de espesor de hormigón de baja calidad) sobre el plano de asiento para evitar su deterioro.
+    \item Colocar las armaduras, formando un emparrillado de redondos de acero en la base y las armaduras de espera del pilar.
+    \item Colocar separadores para asegurar un mínimo de 7 centímetros de recubrimiento entre todas las caras de la zapata y la excavación.
+    \item Rellenar el hueco con hormigón fresco y vibrarlo para asegurar que rellene completamente todos los huecos.
+\end{enumerate}
+
+En cimentaciones con zapatas de cargas excéntricas es necesario utilizar vigas específicas:
+
+\begin{itemize}
+    \item Vigas centradoras: Unen zapatas colindantes para absorber los momentos flectores de la excentricidad. Esto redistribuye las tensiones y evita asientos diferenciales o la rotura del terreno.
+    \item Vigas de atado o riostras: Características en zonas sísmicas, absorben las acciones horizontales debidas al sismo, evitando el desplazamiento horizontal relativo entre las zapatas.
+\end{itemize}
+
+\subsubsection{Cimentaciones Profundas}
+
+Cuando no podamos utilizar una cimentación superficial, optaremos por una cimentación profunda. Se considera profunda si su extremo inferior está a una profundidad superior a los 8 metros, o según el Código Técnico de la Edificación, si su extremo inferior está a una profundidad superior a 8 veces su diámetro o ancho.
+
+Fundamentalmente se usan cuando la capacidad portante del terreno es muy pequeña, el nivel freático está muy cercano a la superficie, existen tracciones en la cimentación, o hay cargas inclinadas muy fuertes o concentradas.
+
+La estructura más habitual es el pilote, que es una columna muy esbelta construida o insertada en el suelo para transmitir las cargas de la superestructura a un nivel de subsuelo profundo.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Pilotes.png}
+    \caption{Esquema de cimentaciones profundas (pilotajes).}
+\end{figure}
+
+Los pilotes se clasifican en distintas categorías:
+\begin{itemize}
+    \item Por su forma de trabajo: Pilotes por fuste (flotantes/fricción), que transmiten la carga por rozamiento entre el cuerpo y el terreno; y pilotes por punta (pilotes columna), que transmiten la carga por la punta a un estrato firme.
+    \item Por su construcción: Pueden ser in situ o prefabricados.
+    \item Por su material: Construidos de hormigón, de acero o de madera.
+    \item Por su ejecución: Pilotes por desplazamiento (sin excavación) y pilotes por extracción/perforación (excavando el terreno antes del hormigonado).
+\end{itemize}
+
+\subsubsubsection*{Pilotes Prefabricados}
+
+Son columnas ejecutadas en taller con hormigón de alta resistencia (en torno a 40 MPa). Suelen tener sección cuadrada (de 15 a 60 cm de lado), aunque pueden ser de otras formas. Su longitud máxima es de 12 metros por razones de transporte, pero pueden enlazarse por tramos (asegurando que la junta resista más que cualquier sección). Se usan en arenas, gravas y arcillas. Es muy importante proteger la punta frente a la hinca mediante un azuche metálico.
+
+Se ejecutan por desplazamiento mediante hinca dinámica (impacto con martinetes). La maza golpea el pilote hasta alcanzar la profundidad o el "rechazo" (cuando ya no penetra más, lo que prueba indirectamente la carga que puede resistir). La parte del pilote que sobresale se demuele (descabezado) para enlazarla con el encepado.
+
+\subsubsubsection*{Pilotes In Situ Barrenados}
+
+También llamados pilotes excavados o perforados, ya que se efectúa una perforación por extracción. Se utiliza una barrena continua helicoidal sin entibación. Una vez alcanzada la profundidad deseada, se extrae la barrena a la vez que se va hormigonando a través de su interior. Posteriormente, se introduce la armadura en el hormigón fresco.
+
+\subsubsubsection*{Encepados}
+
+El encepado es un elemento estructural muy rígido que sirve de enlace entre los distintos pilotes (habitualmente más de uno por pilar) y la columna de la superestructura. Suelen estar muy solicitados a esfuerzo cortante.
+
+\begin{itemize}
+    \item Es fundamental disponer de armadura longitudinal en la cara superior e inferior.
+    \item Es extremadamente importante colocar cercos transversales para resistir el enorme esfuerzo cortante.
+\end{itemize}
+
 \subsection{Estructuras de acero}
+
+El acero es una aleación de hierro y un pequeño porcentaje de carbono ($< 1.6\%$). Además, se le pueden incorporar otros elementos que alteran sus propiedades, como por ejemplo el manganeso o el titanio, para hacer aceros de alta resistencia, o el cromo y el níquel, para hacer aceros inoxidables.
+
+Es uno de los materiales más extendidos en la construcción de estructuras. Gracias a su capacidad para ser moldeado, permite la producción de una gran variedad de secciones estructurales para usarlas en soluciones de diseño estructural eficiente.
+
+Los elementos de acero (perfiles, chapas, etc.) se conforman principalmente mediante dos procesos:
+
+\begin{itemize}
+    \item Conformado en caliente (laminado): El material se calienta a unos 1200 °C y se hace pasar por rodillos refrigerados que le dan la forma definitiva.
+    \item Conformado en frío: Se realiza a partir de chapas que se laminan, estiran, trefilan, prensan o pliegan a temperatura ambiente.
+\end{itemize}
+
+\subsubsection*{Propiedades}
+
+Existe una gran variedad de tipos de acero en función del contenido de carbono que lleve y del tratamiento al que se le someta. En la tabla \ref{tab: Propiedades del Acero Estructural} vemos las características más típicas del acero. Como vemos, los aceros tienen un módulo de elasticidad y una densidad muy parecida de entre ellas. Sin embargo, en función del tratamiento al que se le someta, pueden tener una capacidad resistente muy diferente, en un rango de valores que van desde los 250 a los 1000 megapascales. Pero este tratamiento para incrementar la resistencia viene aparejado con una reducción significativa de la capacidad de deformación plástica.
+
+\begin{table}
+    \centering
+    \caption{Propiedades del Acero Estructural}
+    \label{tab: Propiedades del Acero Estructural}
+    \begin{tabular}{| l | l |}
+        \hline
+        Módulo Young & 205 GPa \\
+        Densidad & 7.800 kg/m3 \\
+        Embodied Energy & 18.000 - 22.000 kJ/kg \\
+        Huella de Carbono & 1,3 - 1,5 kgCO2e/kg \\
+        Resistencia a tracción & 250 - 1.000 MPa \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}
+    \centering
+    \caption{Ventajas e Inconvenientes del Uso del Acero Estructural}
+    \label{tab: Ventajas y Desventajas del Acero Estructural}
+
+    \begin{tabularx}{\columnwidth}{|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|}
+    \hline
+    \textbf{Ventajas} & \textbf{Inconvenientes} \\
+    \hline
+
+    \begin{itemize}
+        \item Gran capacidad mecánica
+        \item Menor peso estructura
+        \item Permite mayores luces
+        \item Gran capacidad deformación plástica. Ductilidad
+        \item Rapidez de construcción
+        \item Calidad controlada
+        \item Reutilizable / Reciclable
+    \end{itemize}
+
+    &
+
+    \begin{itemize}
+        \item Soldabilidad
+        \item Tenacidad
+        \item Tensiones residuales
+        \item Resistencia al fuego
+        \item Corrosión
+        \item Coste elevado
+        \item Mano de obra especializada
+    \end{itemize} \\
+    \hline
+    \end{tabularx}
+\end{table}
+
+Respecto a sus propiedades es muy destacable la gran capacidad mecánica que tiene el acero, la cual permite optimizar las secciones, cubrir mayores luces con un menor peso de la estructura. Una característica también muy importante es su ductilidad, esto es que es capaz de desarrollar deformaciones plásticas una vez se ha alcanzado su límite elástico.
+
+Pero el acero también presenta inconvenientes a nivel de material. Uno de ellos es la tenacidad, que es el riesgo de sufrir un fallo frágil a niveles bajos de tensión debido a discontinuidades y defectos en su estructura cristalina. Esto es mucho más probable que ocurra en piezas de mayor espesor y con temperaturas bajas. Las piezas también pueden presentar tensiones residuales debido a un enfriamiento no homogéneo de la pieza. Y uno de los principales problemas del acero es su durabilidad, sobre todo si sufre procesos de corrosión en presencia del aire y del agua.
+
+\subsubsection*{Normativa}
+
+El marco normativo que regula el diseño y la construcción de las estructuras de acero son la Instrucción de Acero Estructural y el Código Técnico de Edificación de Acero. Por otro lado tenemos la norma europea, Eurocódigo 3, que si bien no es de obligado cumplimiento en España, es muy recomendable su uso en el diseño y construcción de las estructuras de acero. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Clases UNE EN I0025 Acero.png}
+    \caption{Acero. Clases UNE EN I0025}
+    \label{fig: Clases UNE EN I0025}
+\end{figure}
+
+
+La tabla de la figura \ref{fig: Clases UNE EN I0025} recoge los distintos tipos de acero según el Eurocódigo 3. El acero más común para perfiles laminados y chapas es el acero S275JR, también llamado el acero de construcción ordinaria. Por otro lado podríamos tener el J0, que es de alta soldabilidad, o el J2 y K2 que son respectivamente de alta resiliencia y soldabilidad. Como vemos, la resistencia en megapascales del acero dependerá del espesor de la pieza, viéndose esta reducida a medida que incrementamos su espesor. Esto es debido a la tenacidad.
+
+\subsubsection*{Elementos laminados en caliente}
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{\columnwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Tema 2. Acero. Elementos laminados en caliente.png}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{\columnwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Tema 2. Acero. Elementos laminados en caliente (1).png}
+    \end{subfigure}
+    \caption{Acero. Elementos Laminados en Caliente.}
+    \label{fig: Elementos laminados en caliente}
+\end{figure}
+
+La gran mayoría de las secciones estructurales se fabrican mediante el laminado en caliente con unos rodillos a una temperatura de unos 1000 °C. La selección de la forma de la sección responderá al tipo de solicitación al que se va a someter. Por ejemplo, los perfiles en doble T como el IPE o el IPN concentran más material en las alas que en el alma. Por tanto, es una sección óptima para la flexión pura, como ocurre en las vigas. En cambio, los perfiles en H se comportan mejor para la flexión esviada donde hay una combinación de momentos y axiles, habitual en los pilares.
+
+La imagen \ref{fig: Elementos laminados en caliente} muestra las secciones laminadas más habituales. La forma de los perfiles laminados está a su vez normalizada y va incrementando su altura en módulos de 5 a 20 milímetros en función del tipo de sección. Por ejemplo, un IPN 200 sería un perfil en doble T de altura 200 milímetros. Otro ejemplo, un perfil LD 60 40 5 es una L con lados desiguales de 60 y 40 milímetros y un espesor de 5 milímetros. La diferencia entre las series N y E es la inclinación en la cara interior de las alas como vemos en la figura.
+
+Otro elemento laminado en caliente son los que tienen la sección sólida, como pueden ser los redondos, los cuadrados o las chapas. También tenemos los perfiles huecos que se fabrican a partir de chapa, plegándola a la forma del tubular y soldándola en continuo.
+
+El acero nos permite construir con elementos muy esbeltos y secciones muy optimizadas, pero presenta un inconveniente muy importante: a la hora del diseño hay que tener cuidado con las inestabilidades globales y locales de las secciones, esto es el pandeo.
+
+\subsubsection*{Elementos conformados en frío}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Acero. Elementos conformados en frio.png}
+    \caption{Acero. Elementos Conformados en Frío.}
+    \label{fig: Elementos conformados en frio}
+\end{figure}
+
+Otros elementos que se utilizan habitualmente en la construcción son los conformados en frío. Los aceros conformados en frío siguen un proceso de fabricación distinto, donde láminas de acero normalmente galvanizado se pliegan hasta alcanzar la sección requerida. Estos se suelen usar en estructuras mixtas de acero y hormigón o como elementos secundarios para cerramiento.
+
+Estas láminas tienen espesores típicamente inferiores a los 2 milímetros, por tanto hay que tener mucho cuidado con las corrosiones y las posibles cargas accidentales. Los elementos conformados en frío se utilizan rara vez como elementos estructurales primarios, aunque últimamente se está estudiando su uso para edificaciones de poca entidad. 
+
+\subsubsection*{Union soldada}
+
+La unión de piezas laminadas de acero se suele realizar mediante soldadura. La soldadura es la fusión localizada de dos componentes metálicos mediante el incremento de la temperatura del material por encima de su punto de fusión. Existen varios métodos de soldadura, pero todos ellos generan altas temperaturas con altos gradientes térmicos en la soldadura y el material alrededor de la misma.
+
+La influencia de este ciclo térmico sobre las propiedades mecánicas del acero dependerá sobre todo de su contenido en carbono, siendo menos influyente en los aceros con bajo contenido en carbono. Además de los posibles efectos sobre las propiedades mecánicas, también se pueden generar tensiones térmicas residuales que pueden ser incluso mayores a las del proceso de laminado.
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.48 \columnwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Tema 2. Acero. Union Soldada (1).png}
+        \caption{A tope.}
+        \label{fig: Acero. Union Soldada. A tope}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48 \columnwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Tema 2. Acero. Union Soldada (2).png}
+        \caption{Mediante cordón.}
+        \label{fig: Acero. Union Soldada. Mediante cordon}
+    \end{subfigure}
+    \caption{Acero. Union Soldada.}
+\end{figure}
+
+Es importante que intentemos realizar el máximo número de soldaduras de una obra en el taller. En el caso de que tengamos que hacer una soldadura in situ en la obra, es muy importante hacer un posterior control de calidad de la misma.
+
+\subsubsection*{Union atornillada}
+
+Otra manera de unir los componentes metálicos, muy recomendable para las situaciones in situ, es mediante soluciones atornilladas. La unión de los elementos se realiza mediante cartelas y tornillos que pueden ser pretensados, si la unión funciona por fricción entre la cartela y los elementos a unir, o sin pretensar, si es el tornillo el que funciona a cortante. 
+
+\subsubsection*{Soportes}
+
+Los soportes funcionarán generalmente a flexocompresión, pero son los efectos del pandeo el factor crítico a la hora de diseñarlos y seleccionar su forma. Los perfiles simples en H suelen ser los más utilizados dado su comportamiento similar en ambos ejes de inercia. En el caso de que no satisfaga nuestras necesidades, podemos reforzar perfiles simples o realizar combinaciones de perfiles simples y chapas de la manera que más nos convenga. En la figura \ref{fig: Acero. Soportes} vemos distintos tipos de composiciones muy habituales en la construcción.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Acero. Soportes.png}
+    \caption{Acero. Soportes.}
+    \label{fig: Acero. Soportes}
+\end{figure}
+
+\subsubsection*{Vigas}
+
+Para salvar las luces de nuestra estructura utilizamos las vigas. Estas se pueden resolver mediante perfiles laminados normalizados simples en forma de I. Cuando no podamos responder a los condicionantes de la estructura mediante perfiles normalizados, podemos utilizar las vigas reforzadas o las vigas armadas. Estas últimas se constituyen a partir de chapas de diversos espesores para construir una sección personalizada que responda a las condiciones particulares de la estructura. Son vigas especiales que requieren mano de obra especializada y por tanto son muy costosas.
+
+En el caso de que tengamos que cubrir grandes luces sometidas a cargas ligeras, una buena opción son las vigas aligeradas o vigas Boyd. Estas se construyen a partir de un perfil laminado que se corta en sentido longitudinal con un patrón hexagonal o circular, de manera que se puedan reensamblar mediante soldadura. De esta manera incrementamos su canto total, incrementando a su vez la inercia y su resistencia a flexión. Pero hay que tener mucho cuidado con estas vigas ya que al vaciar el alma se está reduciendo considerablemente su capacidad a cortante, siendo en muchos casos el modo de fallo predominante.
+
+\subsubsection*{Cercas y celosías}
+
+Cuando tengamos que cubrir grandes luces como es el caso de naves industriales, es habitual usar estructuras trianguladas. Estas son las celosías y las cerchas. Estas se basan en combinaciones planas y generalmente trianguladas de barras lineales, lo cual permite incrementar el canto de nuestra estructura a la vez que aligeramos el alma y por tanto su peso.
+
+Las uniones suelen considerarse como articuladas, por tanto se trata de estructuras isostáticas donde todos los elementos funcionan a tracción o compresión pura. En los esquemas de la figura \ref{fig: Acero. Cerchas y celosias} podemos ver distintas composiciones de cerchas a la izquierda y de celosías a la derecha. Las cerchas se pueden ejecutar mediante la unión de distintos tipos de perfiles laminados, con chapas y cartelas auxiliares o mediante tubulares laminados.
+
+Independientemente del tipo de sección que usemos, es muy importante que los ejes de los centroides de todas las barras se unan en un único punto. Esto es para asegurarnos de que todas las barras están funcionando a esfuerzo axil y la estructura responda a nuestro modelo de cálculo.
 
 \subsection{Estructuras (prefabricadas) de hormigón}
 
