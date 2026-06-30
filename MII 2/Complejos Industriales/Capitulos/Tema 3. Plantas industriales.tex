@@ -1,16 +1,13 @@
-\chapter{Plantas industriales}
-\section{Introducción}
-\paragraph{Concepto Complejo Industrial.}
-Instalación industrial voluminosa constituida por diferentes sectores, físicamente separados en áreas, donde los edificios puedne tener un carácter secundario o incluso no existir, en los que no sólo se intergran las funciones de producción, aunque el proceso productivo sea lo más importante.
+\chapter{Plantas Industriales}
 
-Para ello se disponen de edificios y elementos auxiliares que tienen como función satisfacer las necesidades del proceso industrial, ya que sin dichas instalaciones auxiliares el proceso productivo por sí solo no podría funcionar.
+\section{Proyectos de plantas industriales}
 
+Se conoce como complejo industrial a una instalación industrial voluminosa constituida por diferentes sectores, físicamente separados en áreas, donde los edificios pueden tener un carácter secundario o incluso no existir, en los que no sólo se integran las funciones de producción, aunque el proceso productivo sea lo más importante.
 
-
-% \section{Proyectos de plantas industriales}
+Para ello se disponen de edificios y elementos auxiliares que tienen como función satisfacer las necesidades del proceso industrial, a que sin dichas instalaciones auxiliares el proceso productivo por sí solo no podría funcionar.
 
 \section{Ingeniería: Procesos, equipos y obra civil}
-\subsection{Proceso}
+
 Garantías que debe cumplir una planta:
 \begin{itemize}
     \item Proceso: producción, rendimiento, consumos
@@ -19,82 +16,259 @@ Garantías que debe cumplir una planta:
     \item Seguridad y Salud: ruido
 \end{itemize}
 
-\subsection{Equipos}
-\subsubsection{Principales}
-\paragraph{Generadores}
-Producen la potencia eléctrica.
-\begin{itemize}
-    \item Potencia nominal: $100\ -\ 700\ MW$
-    \item Tensión nominal: $11\ -\ 21\ kV$
-    \item Frecuencia/velocidad de giro:
-    \begin{itemize}
-        \item $50\ Hz / 3000\ rpm$
-        \item $60\ Hz / 3600\ rpm$
-    \end{itemize}
-    \item Margen $\Delta \pm $tensión en bornas: $\pm 5\% \ -\ \pm 10\%$
-    \item Excitación:
-    \begin{itemize}
-        \item Brushless (pequeños)
-        \item Estática (grandes)
-    \end{itemize}
-    \item Refrigeración:
-    \begin{itemize}
-        \item TEWAC (pequeños)
-        \item Hidrógeno (grandes)
-    \end{itemize}
-    \item Rango $\Delta \pm cos \phi$
-    \item Precio: $F(Potencia)$
-\end{itemize}
-
-\subsubsection{Auxiliares}
-
-\subsubsection{Plantas Paquete}
-
 \section{Ingeniería: Implantación y control}
-\subsection{Implantación}
-No hay una única solución válida. Además de condicionantes por Prceso-Producto-Actividades (visto en otras asignaturas), los siguientes aspectos pueden generar limitaciones importantes:
+
+\subsection*{Implantación}
+
+No hay una única solución válida. Además de condicionantes por proceso, producto, actividades, los siguientes aspectos pueden generaar limitaciones importantes:
 \begin{itemize}
     \item Puntos terminales (entradas y salidas de planta, elementos existentes)
-    \item Atmósferas explosivas: los materiales y equipos dentro de estos volúmenes deben cumplir con ciertas normativas (Europa = ATEX), y por ello su coste se incrementa de forma considerable.
-    \item Emisiones (corrosivas, alta Tª, humedad,...) que condicionen actividades de nuestra planta o del exterior
+    \item Atmósferas explosivas
+    \item Emisiones (corrrosivas, alta Tª, humedad,...) que condicionen actividades de nuestra planta o del exterior
     \item Seguridad y Salud
     \item Requisitos de montaje y mantenimiento de equipos. Puentes grúa.
-    \item Redes enterradas - tipo de terreno: En redes por gravedad, recorridos largos implican mayores profundidades. Hay redes (gravedad - grandes diámetros) que afectan de forma importante a las demás, y cuya excavación condiciona la obra durante muchas semanas.
+    \item Redes enterradas - tipo de terreno
     \item Ruido
-    \item Futras ampliaciones de planta
+    \item Futuras ampliaciones de planta
 \end{itemize}
 
-\subsection{Control}
-\subsubsection{Automatización - Función de un sistema de control}
+\subsection*{Control}
+
+Las funciones principales de un sistema de control son:
 \begin{enumerate}
     \item Monitorización y control automático del proceso de manera segura, optima y eficiente.
-    \item Control de las principales variables del proceso (lazos cerrados)
+    \item Control de las principales variables del proceso (lazos cerrados).
     \item Operación de la planta y sus componentes.
     \item Protección de la planta y llevar la planta a estado seguro.
 \end{enumerate}
 
-\subsubsection{Sistema de control de una planta industrial - arquitectura y componentes del sistema de control}
-Objetivos de la automatización:
+Los objetivos de la automatización son:
 \begin{itemize}
     \item Incrementar la productividad
     \item Mejorar la seguridad en los procesos de fabricación
-    \item Mejorar la calidad de los productos: minimiza tiempos de espera y mejora la repetividad de fabricación (producción con calidad constante)
+    \item Mejorar la calidad de los productos: minimiza tiempos de espera y mejora la repetitividad de fabricación (producción con calidad constante)
     \item Aumenta la fiabilidad, el control y la flexibilidad de un proceso
     \item Reduce tiempos de parada
     \item Consigue una mejor adaptación a contextos especiales: adaptación a entornos y tareas hostiles (ej. entornos corrosivos, húmedos,...y aplicaciones de tipo marino, espacial, nuclear,...)
 \end{itemize}
 
+Un sistema de control se compone de:
+\begin{enumerate}
+    \item Módulos o tarjetas de entradas / salidas (I/O Modules).
+    Permiten la comunicación entre los actuadores y sensores de campo y los procesadores CPU.
+    \item Controladores o CPUs.
+    Ejecutan las funciones y programas de control. Comunican con otros dispositivos, tarjetas I/O, tarjetas de comunicaciones, etc. Pueden ser redundantes (Hot-standby). Ejecutan el autodiagnóstico del sistema. Disponen de multiples funciones según fabricantes y modelos.
+    \item Red de comunicaciones.
+    Los equipos tienen la necesidad de comunicar entre sí de una manera segura basándose en los últimos estándares de comunicación.
+    \item Estaciones de operación.
+    Proporcionan la interfaz con el usuario Human Machine Interface (HMI). Muestran las pantallas de operación, gráficos de control, diagnósticos, tendencias, alarmas y pantallas de estado. Proporcionan acceso a puntos dinámicos del sistema, datos históricos, mensajes generales, pantallas de funciones estándar y registro de eventos.
+    \item Otros:
+    \begin{enumerate}
+        \item Reloj de sincronización GPS
+        \item Video Wall o pantalla grande
+        \item Estación de ingeniería
+        \item Estación de datos históricos
+        \item Estación de cálculo de rendimiento
+        \item PLCs o sistemas de control locales
+        \item Comunicaciones al exterior (Intranet, Despacho de Generación,...)
+    \end{enumerate}
+\end{enumerate}
 
-\subsubsection{Sistema de control de una panta industrial - lógicos y acciones de control}
+El controlador PID es el tipo de control más utilizado en las plantas industriales. Calculan la posición de un actuador para controlar una variable de proceso, dado una consigna o setpoint. La acción de control es la suma de las acciones Proporcional, Integral y Derivativa del error. ``Imita'' la acción de un operador ideal. Asegura error igual a cero en régimen permanente.
 
-\subsubsection{Ejemplo P\&ID: Piping and Instrumentation Diagram}
+Consecuencias del diseño incorrecto del sistema de control:
+\begin{itemize}
+    \item Mal diseño de permisivos y enclavamientos
+    \item Mal diseño de protecciones
+    \item Mala gestión de alarmas
+    \item Incluso las operaciones ``no normales''
+    \item La estética importa
+\end{itemize}
+
 
 \section{Construcción: actividades previas, compras y planificación}
 
+\subsection*{Ideas generales}
+
+Todos los trabajos se realizan para facilitar la construcción y la puesta en marcha de la planta industrial. Esto incluye planificación, ingeniería, compra de equipos y organización de la construcción. La construcción y la puesta en marcha son los periodos más complejos del proyecto, errores o indefiniciones son muy costosas.
+
+\subsection*{Planificación}
+
+Consiste en construir un programa global del proyecto, hasta su operación comercial. Se construye de final a principio: con duraciones razonables para puesta en marcha y construcción. Requiere conocer el trabajo y que cumpla tres funciones: dirección, control y motivación.
+
+Niveles de los programas:
+\begin{itemize}
+    \item Nivel 1. Utilizado a nivel de dirección de la empresa en fase de propuesta, o para estudios de viabilidad. Incluye actividades, hitos y entregas principales dando una idea inicial de duración del proyecto, viabilidad y recursos necesarios.
+    \item Nivel 2. Utilizado a nivel de dirección de proyecto resume los elementos principales del programa. Se utiliza al comienzo del proyecto como base para el programa detallado.
+    \item Nivel 3. Utilizado para el seguimiento del avance del proyecto por todas las áreas implicadas. Incluye la ruta crítica y está compartido con el cliente.
+    \item Nivel 4. Detalle del nivel 3 para el seguimiento local y detallado de paquetes de trabajo críticos.
+\end{itemize}
+
+Conceptos clave:
+\begin{itemize}
+    \item Línea Base: situación inicial, punto de partida. Es el programa inicial que sirve de referencia durante la vida y desarrollo del proyecto. Pueden ser dos líneas: temprana y tardía.
+    \item Curvas de progreso: comparación de lo ejecutado con la línea base (avances y retrasos)
+    \item Holgura: tiempo que se puede retrasar una actividad sin afectar al comienzo de la siguiente
+    \item Camino crítico: suma de actividades sin holgura. Un retraso en cualquiera de ellas implica retraso en el proyecto. Puede variar a lo largo del proyecto.
+\end{itemize}
+
+\subsection*{Compras de materiales y equipos - logística}
+
+¿Cómo se compra un equipo? (total proceso: 3-5 meses)
+\begin{enumerate}
+    \item Lista de suministradores (según contrato, Cliente, lista propia,...)
+    \item Acuerdo confidencialidad (NDA), si aplica
+    \item Se preparan y envían:
+    \begin{enumerate}
+        \item Ingeniería: Especificación Técnica y anejos (condiciones sitio, HSE, QC,...)
+        \item Compras: Condiciones Comerciales (condiciones pago, LD,...)
+    \end{enumerate}
+    \item Recepción de ofertas (3-4 semanas)
+    \item Ingeniería (no recibe datos comerciales):
+    \begin{enumerate}
+        \item Revisión técnica-faes de aclaraciones
+        \item Evaluación técnica (listado por orden y con descartes)
+    \end{enumerate}
+    \item Compras:
+    \begin{itemize}
+        \item Aclaraciones comerciales a los no descartados
+        \item Evaluación comercial (listado por orden)
+    \end{itemize}
+    \item Propuesta de adjudicación
+    \item Aprobación por Dirección (ojo a factores externos al proyecto)
+    \item Adjudicación
+\end{enumerate}
+
 \section{Construcción: ejecución}
+
+Ley 32/2006, de 18 de octubre, subcontratación en el sector de la construcción:
+\begin{itemize}
+    \item Promotor: persona física o jurídica por cuenta de la cual se realiza la obra.
+    \item Dirección facultativa: designada por el promotor, se encarga de la dirección y del control de la ejecución de la obra. Incluye un Coordinador en materia de seguridad y de salud.
+    \item Contratista principal: asume contractualmente ante el promotor, con medios humanos y materiales, propios o ajenos, el compromiso de ejecutar la totalidad o parte de las obras con sujeción al proyecto y al contrato. Podría ser el propio promotor (total o parcialmente) o una Unión Temporal de Empresas (UTE).
+    \item Subcontratista: la persona física o jurídica que asume contractualmente ante el contratista y otro subcontratista comitente el compromiso de realizar determinadas partes o unidades de obra, con sujeción al proyecto pro el que se rige su ejecución. Primer subcontratista, segundo, etc.
+    \item Trabajador autónomo: persona física distinta del contratista y del subcontratista, que realiza de forma personal y directa una actividad profesional, sin sujeción a un contrato de trabajo, y que asume contractualmente ante el promotor, el contratista o el subcontratista el compromiso de realizar determinadas partes o instalaciones de la obra. No tiene trabajadores por cuenta ajena (si no, se´ria contratista).
+\end{itemize}
+
+Tipos de contratos:
+\begin{enumerate}
+    \item Precio Fijo: precio establecido desde el inicio, el proveedor asume la mayoría del riesgo.
+    \begin{itemize}
+        \item Precio Fijo Cerrado: el precio no cambia, independientemente de los costos reales del proveedor
+        \item Precio Fijo con Incentivos: se ofrecen incentivos por cumplir ciertos objetivos
+        \item Precio Fijo con Ajuste Económico: se premite ajustar el precio por factores económicos (inflación, tasas de cambio, etc.)
+    \end{itemize}
+    \item Costos Reembolsables: el comprador asume más riesgo, ya que paga los costos reales (materiales, mano de obra, gastos generales, etc.) más una tarifa adicional.
+    \begin{itemize}
+        \item Costo Más Honorarios Fijos: se reembolsan los costos más una tarifa fija
+        \item Costo Más Honorarios Incentivados: se reembolsan los costos más una tarifa variable basada en el rendimiento.
+        \item Costos Más Honorarios por Porcentaje: se reembolsan los costos más una tarifa que se otroga según la satisfacción del cliente.
+    \end{itemize}
+    \item Tiempo y Materiales: combinación de los dos anteriores. Se paga por el tiempo trabajado (tarifa horaria) y los materiales utilizados. Es útil cuando el alcance del trabajo no está bien definido.
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 3. Tipos de Contratos.png}
+    \caption{Tipos de Contratos.}
+    \label{fig: Tipos de Contratos}
+\end{figure}
+
+En la construcción de plantas industriales, debemos tener en cuenta los siguientes factores que afectan a los subcontratos:
+\begin{itemize}
+    \item Alcance de los trabajos no definido hasta tarde - planos y mediciones no disponibles cuando se negocia / firma un subcontrato.
+    \item Condiciones técnicas y contractuales de ejecución de los trabajos - bien definidas y entendidas por las dos partes.
+    \item Normas de medición y abono - criterios únicos y claros.
+    \item Lista de precios unitarios - de trabajos / suministros no previstos inicialmente pero que pueden ser necesarios después.
+    \item Precios contradictorios / cambios de alcance / incidencias.
+\end{itemize}
 
 \section{Modularización de plantas. Diseño en maqueta 3d}
 
-\section{Inteligencia artificial en la industria}
+Módulo: unidad estructural montada fuera de la planta que incluye equipos, tuberías, bandejas eléctricas e instrumentación.
+
+Estructura pre-montada: unidad estructural montada en obra, pero no en su localización definitiva. Puede incluir equipos, tuberías, bandejas eléctricas e instrumentación.
+
+Estructura in-situ: unidadd estructural que no es pre-montada ni parte de un módulo, y que se construye en su localización definitiva.
+
+Edificios modulares prefabricados: edificios ensamblados en obra a partir de módulos fabricados, equipados y probados fuera de la planta.
+
+Ventajas de la modularización:
+\begin{itemize}
+    \item Mano de obra: coste menor que en obra y con mayor cualificación.
+    \item Calidad: mejores condiciones de trabajo (maquinaria, ensayos, etc.).
+    \item Plazo de obra: reducción importante del plazo de montaje en obra.
+\end{itemize}
+
+Inconvenientes:
+\begin{itemize}
+    \item Ingeniería:
+    \begin{itemize}
+        \item Mayor coste. Incremento en horas del 40-70\%.
+        \item Cálculos estructurales más complejos - transporte, izados, etc.
+        \item Adelanto apreciable de actividades en todas las disciplinas.
+    \end{itemize}
+    \item Acero estructural: 10-20\% de incremento por cálculo con nuevas cargas, y por elementos auxiliares de transporte y montaje.
+    \item Incremento en costes de transporte
+\end{itemize}
 
 \section{Plantas Offshore}
+
+¿Por qué eólica Offshore?
+\begin{itemize}
+    \item Mejor recurso eólico: viento más laminar y de mayor intensidad (ya que la rugosidad superficial es baja).
+    \item Máquinas de menor altura, de nuevo por rugosidad baja.
+    \item Menor fatiga en máquinas, por vientos menos turbulentos.
+    \item Turbinas más grandes por menor limitación de ruido (el ruido se produce por la velocidad de punta de pala).
+    \item Más espacio, menor impacto visual.
+    \item Por el contratio, las turbulencias llegan más lejos, hay que separar más las máquinas.
+\end{itemize}
+
+\subsection*{Diseño, Montaje y Operación: Aerogeneradores}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 3. Cimentaciones Aerogeneradores.png}
+    \caption{Aerogeneradores}
+\end{figure}
+
+Retos de las cimentaciones:
+\begin{itemize}
+    \item Riesgos técnicos
+    \begin{itemize}
+        \item Máquinas cada vez más grandes
+        \item Condiciones físicas más exigentes (profundidad, clima marítimo)
+        \item Mayores distancias a la costa - instalación y logística más complejas
+        \item Condiciones geotécnicas complejas
+        \item Ruido durante la instalación. Otros efectos sobre el medio ambiente (turbidez)
+        \item Durabilidad (protección contra la corrosión, socavación)
+    \end{itemize}
+    \item Limitaciones en la cadena de suminsitro
+    \begin{itemize}
+        \item Capacidad de producción limitada y reducido número de suministradores
+        \item Suministro de acero y precio - incertidumbre
+        \item Disponibilidad de barcos de instalación
+    \end{itemize}
+\end{itemize}
+
+Se necesitan barcos específicamente diseñados para eólica marina. Actualmente se están construyendo varios barcos de ``nueva generación''. Tienen capacidad para trabajar en climar marítimos más adversos, en aguas profundas (>40 metros), con grúas de gran capacidad y cubiertas preparadas para transportar grandes cargas, capaces de navegar a velocidades de crucero, en el entorno de los 12 nudos, gran velocidad en las operaciones de ``jack-up''.
+
+Los barcos tienden a especializarse en determinadas operaciones - instalación de turbinas y aerogeneradores y barcos de tendido de cable. La logística es un aspecto fundamental para mejorar los tiempos de instalación. Los barcos de instalación son uno de los elementos más críticos en la cadena de suministro debido a su escasez.
+
+Ventajas:
+\begin{enumerate}
+    \item En el mar la rugosidad superficial es muy baja en comparación con el medio terrestre y no existen obstáculos que puedan reducir la velocidad del viento. Esto favorece la circulación del viento a mayores velocidaddes y hace innecesario subir la altura de la torre más de lo que obligue la suma del semidiámetro del rotor y la altura máxima de la ola prevista. Por lo general, los vientos van ganando en velocidad al separrarnos de la costa.
+    \item El recurso eólico es mayor y menor turbulento que en localizaciones próximas en línea de costa sin accidentes geográficos. La existencia de menor turbulencia ambiental en el mar disminuye la fatiga a la cual se encuentra sometido un aerogenerador aislado, y aumenta su vida útil.
+    \item Las áreas marinas disponen además de enormes espacios donde colocar aerogeneradores, lo que ofrece la posibilidad de instalar parques mucho más grandes que en tierra.
+    \item La vastedad de este medio, unido a su lejanía con los núcleos de población, consigue reducir también el impacto visual sobre el paisaje. Su ubicación lejos de lugares habitados permite suavizar las restricciones impuestas por las autoridades ambientales en relación con la emisión y propagación de ruido e incrementar la velocidad de punta de pala, con la correspondiente disminución de su peso y de las estructuras que las soportan consiguiendo una reducción significativa del coste de fabricación del aerogenerador en su conjunto.
+\end{enumerate}
+
+Desventajas:
+\begin{enumerate}
+    \item La evaluación del recurso eólico en la Zona de Discontinuidad Costera (<10km) es más compleja y mucho más cara que en tierra.
+    \item No existen infraestructuras eléctricas que conecten las áreas con mayores recursos eólicos en mitad del mar con los centros de consumo. La situación es semejante a lo experimentado por el sector del gas natural cuando descubrieron importantes yacimientos de este recurso en el Mar del Norte, antes de que hubiese gasoductos con los que poder trasladarlos al continente.
+    \item Los costes de la cimentación y las redes eléctricas de estas instalaciones encarecen en gran medida la tecnología offshore: si en tierra los aerogeneradores suponen del orden del 75\% de la inversión total de un parque eólico, en el mar representan aproximadamente un 55\%. El coste de la obra civil en un parque eólico marino tipo se estima en un 20\% del total (frente al 5\% en tierra firme) y el de las infraestructuras eléctricas en otro 20\% (15\% en tierra).
+    \item Las limitaciones de acceso y las dificultades para trabajar en medio del mar en la fase de montaje y en el mantenimiento de la isntalación.
+    \item El aumento de los costes y dificultades de ocnstrucción, según el proyecto vaya alejándose de la costa o aumente la produndidad marina, siendo este último uno de los principales argumentos esgrimidos para justificar la poca penetración de la energía eólica marina en España (pues la mayoría de las aguas superan la profundidad máxima económicamente viable en la actualidad: 25 metros).
+    \item Debido a la mayor propagación de las turbulencias por la baja rugosidad del mar, el efecto provocado por la propia estela de los aerogeneradores sobre el resto de las máquinas de un parque eólico es más importante en este medio que en tierra, lo que disminuye la vida útil de las turbinas. Para evitarlo, las máquinas requieren más separación entre ellas y esto impllica un aumento de la inversión.
+\end{enumerate}

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.9)  7 MAY 2025 20:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.9)  26 JUN 2026 14:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/merce/Documents/GitHub/LaTeX/Trabajo Ampliación de Mecánica/main.tex"
-(c:/Users/merce/Documents/GitHub/LaTeX/Trabajo Ampliación de Mecánica/main.tex
+**"c:/Users/merce/Documents/GitHub/LaTeX/MII 1/Trabajo Ampliación de Mecánica/main.tex"
+(c:/Users/merce/Documents/GitHub/LaTeX/MII 1/Trabajo Ampliación de Mecánica/main.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
 (c:/texlive/2024/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
@@ -783,12 +783,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  14801 strings out of 473578
- 272578 string characters out of 5732242
+ 272596 string characters out of 5732242
  1130506 words of memory out of 5000000
  37531 multiletter control sequences out of 15000+600000
  591239 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,8n,81p,1009b,1849s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,8n,81p,1015b,1849s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 Output written on main.pdf (5 pages, 1375281 bytes).
 PDF statistics:

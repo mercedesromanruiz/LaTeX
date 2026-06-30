@@ -418,7 +418,14 @@ Los soportes funcionarán generalmente a flexocompresión, pero son los efectos 
 
 Para salvar las luces de nuestra estructura utilizamos las vigas. Estas se pueden resolver mediante perfiles laminados normalizados simples en forma de I. Cuando no podamos responder a los condicionantes de la estructura mediante perfiles normalizados, podemos utilizar las vigas reforzadas o las vigas armadas. Estas últimas se constituyen a partir de chapas de diversos espesores para construir una sección personalizada que responda a las condiciones particulares de la estructura. Son vigas especiales que requieren mano de obra especializada y por tanto son muy costosas.
 
-En el caso de que tengamos que cubrir grandes luces sometidas a cargas ligeras, una buena opción son las vigas aligeradas o vigas Boyd. Estas se construyen a partir de un perfil laminado que se corta en sentido longitudinal con un patrón hexagonal o circular, de manera que se puedan reensamblar mediante soldadura. De esta manera incrementamos su canto total, incrementando a su vez la inercia y su resistencia a flexión. Pero hay que tener mucho cuidado con estas vigas ya que al vaciar el alma se está reduciendo considerablemente su capacidad a cortante, siendo en muchos casos el modo de fallo predominante.
+En el caso de que tengamos que cubrir grandes luces sometidas a cargas ligeras, una buena opción son las vigas aligeradas o vigas Boyd (figura \ref{fig: Vigas Boyd}). Estas se construyen a partir de un perfil laminado que se corta en sentido longitudinal con un patrón hexagonal o circular, de manera que se puedan reensamblar mediante soldadura. De esta manera incrementamos su canto total, incrementando a su vez la inercia y su resistencia a flexión. Pero hay que tener mucho cuidado con estas vigas ya que al vaciar el alma se está reduciendo considerablemente su capacidad a cortante, siendo en muchos casos el modo de fallo predominante.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Vigas Boyd.png}
+    \caption{Vigas Aligeradas o Vigas Boyd}
+    \label{fig: Vigas Boyd}
+\end{figure}
 
 \subsubsection*{Cercas y celosías}
 
@@ -426,12 +433,888 @@ Cuando tengamos que cubrir grandes luces como es el caso de naves industriales, 
 
 Las uniones suelen considerarse como articuladas, por tanto se trata de estructuras isostáticas donde todos los elementos funcionan a tracción o compresión pura. En los esquemas de la figura \ref{fig: Acero. Cerchas y celosias} podemos ver distintas composiciones de cerchas a la izquierda y de celosías a la derecha. Las cerchas se pueden ejecutar mediante la unión de distintos tipos de perfiles laminados, con chapas y cartelas auxiliares o mediante tubulares laminados.
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Cerchas y celosias.png}
+    \caption{Cerchas y celosías}
+    \label{fig: Acero. Cerchas y celosias}
+\end{figure}
+
 Independientemente del tipo de sección que usemos, es muy importante que los ejes de los centroides de todas las barras se unan en un único punto. Esto es para asegurarnos de que todas las barras están funcionando a esfuerzo axil y la estructura responda a nuestro modelo de cálculo.
+
+\subsubsection*{Nudos}
+En el caso de unión de vigas con soporte, los nudos se pueden resolver mediante una articulación (figura \ref{fig: Nudos. Articulacion}), en donde las alas de la viga no se conectan al soporte, evitando así transmitir momentos flectores al pilar.
+
+En el caso de que queramos hacer una unión rígida (figura \ref{fig: Nudos. Rigida}), tendremos que soldar completamente la viga al soporte, de manera que se puedan transmitir los momentos flectores al mismo. En este tipo de unión es necesario rigidizar el alma del soporte mediante cartelas de continuidad, de manera que se transmitan de manera efectiva las tensiones de tracción y compresión de las alas, evitando el fallo local por abolladura del alma del soporte.
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.48 \columnwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Tema 2. Nudos. Articulacion.png}
+        \caption{Articulación.}
+        \label{fig: Nudos. Articulacion}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48 \columnwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Tema 2. Nudos. Rigida.png}
+        \caption{Rígida.}
+        \label{fig: Nudos. Rigida}
+    \end{subfigure}
+    \caption{Nudos.}
+\end{figure}
+
+Otro nudo muy importante es el nudo de conexión con la cimentación. Como vemos en el detalle\ref{fig: Nudos. Cimentacion}, el perfil en H del soporte se une a una placa de anclaje mediante unos rigidizadores. Esta placa de anclaje se une a la zapata mediante unos pernos que se habían dejado embebidos en la cimentación durante el hormigonado.
+
+La unión se puede realizar mediante soldadura o mediante una tuerca de nivelación y una tuerca de sujeción. Es muy importante que entre la placa de anclaje y la superficie de la zapata se disponga de un mortero de nivelación expansivo para asegurar que el soporte asienta bien sobre la zapata.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Cimentaciones.png}
+    \caption{Nudo Cimentación.}
+    \label{fig: Nudos. Cimentacion}
+\end{figure}
+
+\subsubsection*{Protección contra fuego}
+
+Otro aspecto muy importante en el diseño de estructuras de acero es la protección contra el fuego. Debido a la alta conductividad térmica del acero y a la considerable reducción en su resistencia cuando se expone a altas temperaturas, los riesgos debidos al fuego deben de ser considerados en el diseño. 
+
+La forma de la sección también influencia su comportamiento frente al fuego. Por ejemplo, las secciones que tienen un gran ratio de superficie frente al área de su sección transversal son mucho más propensas a sufrir los efectos adversos del calor y requerirán por tanto una mayor protección para alcanzar su protección frente al fuego. En la mayoría de los casos, los miembros estructurales de acero requerirán la protección frente al fuego mediante materiales aislantes para permitir que la estructura resista las cargas durante la acción del fuego.
+
+La norma de seguridad frente a incendios exige que una estructura sea capaz de resistir la acción gravitatoria un mínimo de 30 minutos y hasta 180 minutos para permitir la evacuación de los usuarios. Hay distintos tipos de protección frente al fuego como pueden ser los morteros proyectados, los paneles aislantes o las pinturas ignífugas.
 
 \subsection{Estructuras (prefabricadas) de hormigón}
 
+El hormigón es el material de construcción más utilizado en el planeta. Cada persona consume $1.5 m^3$ de hormigón al año. La industria del cemento es, por tanto, responsable del 5\% de las emisiones globales de $CO_2$ a la atmósfera.
+
+El hormigón es un material heterogéneo que se compone de árido, arena, cemento y agua en diversas proporciones. Aparte de estos componentes, se le pueden añadir distintos aditivos que alteran sus propiedades frescas o endurecidas. Así, se le pueden añadir agentes aireadores que introducen aire en el hormigón fresco, reduciendo su densidad; agentes retardantes, que ralentizan el proceso de curado; agentes acelerantes, que aceleran este proceso de curado; pigmentos; agentes para reducir la cantidad de agua que necesita el hormigón, permitiendo así obtener hormigones de mayor resistencia; o agentes plastificantes, que mejoran la trabajabilidad del hormigón fresco.
+
+\subsubsection*{Propiedades}
+
+\begin{table}
+    \centering
+    \caption{Propiedades del Hormigón}
+    \label{tab: Propiedades del Hormigón}
+    \begin{tabular}{| l | l |}
+        \hline
+        Módulo Young & 30 - 50 GPa \\
+        Densidad & 2.450 kg/m3 \\
+        Embodied Energy & 1,10 - 1,3 kJ/kg \\
+        Huella de Carbono & 0,14 - 0,18 kgCO2e/kg \\
+        Resistencia a tracción & 30 - 200 MPa \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}
+    \centering
+    \caption{Ventajas e Inconvenientes del Uso del Hormigón}
+    \label{tab: Ventajas y Desventajas del Hormigón}
+
+    \begin{tabularx}{\columnwidth}{|>{\raggedright\arraybackslash}X|>{\raggedright\arraybackslash}X|}
+    \hline
+    \textbf{Ventajas} & \textbf{Inconvenientes} \\
+    \hline
+
+    \begin{itemize}
+        \item Gran capacidad mecánica a compresión
+        \item Rigidez elevada
+        \item Fácil acceso a los materiales
+        \item Durabilidad
+        \item Resistencia al fuego
+        \item Se adapta cualquier forma
+    \end{itemize}
+
+    &
+
+    \begin{itemize}
+        \item Es un material frágil
+        \item Es muy pesado
+        \item Tiene retracción
+        \item Tiene fluencia con el tiempo
+        \item Requiere largos tiempos de ejecución
+        \item Corrosión de las armaduras
+        \item Fisuración
+        \item Mano de obra especializada
+    \end{itemize} \\
+    \hline
+    \end{tabularx}
+\end{table}
+
+Dada su naturaleza heterogénea, el hormigón puede presentar distintas propiedades dependiendo de sus constituyentes. Su propiedad más importante es la elevada resistencia a compresión, que puede ir desde los 30 hasta los 200 megapascales, en función de su dosificación y los aditivos que se incorporen. Uno de los factores que influyen significativamente en la resistencia del hormigón endurecido es la relación agua-cemento de la mezcla. El comportamiento mecánico del hormigón es fundamentalmente elástico, con una rotura frágil para deformaciones pequeñas.
+
+Durante el proceso de construcción, la trabajabilidad del hormigón es una propiedad de enorme importancia. El hormigón fresco se vierte directamente en los encofrados, lo cual permite que se adapte prácticamente a cualquier forma. Después de mezclarlo, el agua y el cemento reaccionan en un proceso de hidratación para formar una pasta de cemento que recubre y amalgama el árido y la arena. A lo largo de varias horas de curado, la pasta de cemento desprende calor y une la mezcla en una matriz sólida. A medida que el hormigón se cura y se enfría, este reduce su volumen, encogiendo debido a la retracción térmica y debido a la pérdida de agua. Si no se controla adecuadamente, esta retracción puede producir una fisuración importante en el hormigón.
+
+Una vez ha comenzado el proceso de curado, el hormigón va incrementando su resistencia a lo largo de un periodo de tiempo que puede llevar años, siendo en el primer mes donde se alcanza la mayor parte de su resistencia. Siempre y cuando se aseguren unas condiciones de curado adecuadas, el 50\% de la resistencia del hormigón se alcanza a los 7 días, alcanzándose el 80\% de su resistencia a los 28 días, que es el valor de resistencia que usamos en el cálculo.
+
+Como contraprestaciones, el hormigón tiene una tendencia a deformar por fluencia a largo plazo. Esto puede resultar en deformaciones elevadas con el tiempo si no se ha tenido en cuenta en el diseño. Si el hormigón está fisurado o no existe el recubrimiento suficiente, se produce también la corrosión y expansión de las armaduras en el interior, provocando el desconchamiento del recubrimiento y problemas de durabilidad.
+
+\subsubsection*{Normativa}
+
+El marco normativo para el diseño y ejecución de las estructuras de hormigón es la Instrucción de Hormigón Estructural EHE-08. En el ámbito europeo, también tenemos el Eurocódigo 2 (EN 1992-I-I), que si bien no es de obligado cumplimiento, es muy recomendable seguir sus directrices.
+
+\subsubsection*{Hormigón Armado}
+
+La capacidad a tracción del hormigón es muy pequeña; generalmente es un 10\% de su capacidad a compresión y se suele ignorar a efectos de cálculo. Si queremos construir estructuras con luces grandes sometidas a esfuerzos de flexión, será por tanto necesario aportar un refuerzo al hormigón que permita resistir estas tracciones. Este refuerzo se suplementa en forma de barras corrugadas de acero (figura \ref{fig: Hormigon. Barras Corrugadas de Acero}) que se colocan en la cara traccionada.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Hormigon. Barras Corrugadas de Acero.png}
+    \caption{Barras Corrugadas de Acero.}
+    \label{fig: Hormigon. Barras Corrugadas de Acero}
+\end{figure}
+
+Una buena adherencia entre el hormigón y la barra de acero permite transferir las tensiones cortantes entre ambos materiales, desarrollando la acción de un material compuesto. Los refuerzos verticales, también llamados estribos, se usan para prevenir el desarrollo de fisuras inclinadas debidas a las tensiones de cortante en el material.
+
+Dado que el hormigón armado es un composite de dos materiales distintos, este se puede diseñar para fallar de distintas maneras. Cuando diseñamos una sección a flexión, el ingeniero tiene tres opciones:
+
+\begin{enumerate}
+    \item Sobredimensionar la armadura traccionada de manera que la sección falle por agotamiento a compresión del hormigón.
+    \item Proporcionar una sección equilibrada, de manera que el acero plastifique a tracción y el hormigón se agote a compresión a la vez.
+    \item Infradimensionar la armadura traccionada de manera que el acero plastifique antes de que el hormigón se agote a compresión.
+\end{enumerate}
+
+Como vimos en el tema de acero, es un material que presenta una gran ductilidad. Por tanto, para asegurar un diseño dúctil y seguro, la mejor opción de diseño es la número tres, de manera que se asegure que el acero es capaz de desarrollar deformaciones plásticas considerables antes de que se agote el hormigón. Por otro lado, los fallos de cortante resultan en una pérdida repentina de la capacidad portante. Esto es un fallo muy frágil que debe evitarse a toda costa.
+
+Los hormigones se tipifican según la nomenclatura de la figura \ref{fig: Hormigon. Designacion}, donde se indica el tipo (hormigón en masa, armado o pretensado), seguido de su resistencia característica. A continuación, se indican las propiedades frescas del hormigón con su consistencia, el tamaño máximo de árido y la clase de exposición según los factores ambientales en donde se vaya a ejecutar la estructura.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Hormigon. Designacion.png}
+    \caption{Designación del Hormigón según el Código Estructural (RD 470/2021)}
+    \label{fig: Hormigon. Designacion}
+\end{figure}
+
+
+Respecto a las armaduras, son barras corrugadas que se fabrican con dos tipos distintos de acero en función de su resistencia: el acero B 400 S o el acero B 500 S. Las características de estas barras corrugadas se recogen en la tabla de la figura \ref{fig: Hormigon. Tipos de Acero Soldable}. Ambos aceros tienen una versión de alta ductilidad que se denomina SD. El acero más habitual en barras corrugadas es el acero B 500 S.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Hormigon. Tipos de Acero Soldable.png}
+    \caption{Tipos de Acero Soldable}
+    \label{fig: Hormigon. Tipos de Acero Soldable}
+\end{figure}
+
+\subsubsection*{Elementos Prefabricados de Hormigón}
+
+En el caso de naves industriales, se suelen ejecutar mediante elementos prefabricados en taller de hormigón pretensado. Estas estructuras se suelen resolver mediante pilares empotrados en su base que resisten tanto las cargas gravitatorias como las cargas laterales. Sobre estos pilares se apoyan vigas de gran canto de hormigón pretensado con distintas formas.
+
+Una vez está establecida la forma y se conocen las solicitaciones de nuestra estructura, diseñar una nave prefabricada de hormigón se limita a la selección de sus elementos y decidir el tipo de unión que existe entre ellos.
+
+Los primeros elementos que tenemos que seleccionar son los soportes. Estos son generalmente de sección rectangular y se construyen de una sola pieza, habitualmente de unos 15 metros de altura, aunque pueden llegar hasta los 25 metros. Esta sección se puede adaptar mediante ranurados que permiten encajar el cerramiento.
+
+El siguiente paso es decidir el tipo de terminación en la cabeza. Esto vendrá en función del encuentro y del tipo de viga que se apoyará sobre el pilar. De izquierda a derecha tenemos en la figura \ref{fig: Hormigon. Terminacion en cabeza}: un apoyo de una viga pasante, un apoyo de una viga en un pilar de fachada, un apoyo para un cruce de vigas, un apoyo de una viga con el nudo hormigonado in situ, un apoyo de una viga atornillada, un apoyo simple, un apoyo de viga en H, y un anclaje de unión para tramos de pilares.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Hormigon. Terminacion en cabeza.png}
+    \caption{Terminación en Cabeza.}
+    \label{fig: Hormigon. Terminacion en cabeza}
+\end{figure}
+
+
+En el caso de la base (figura \ref{fig: Hormigon. Terminacion en base}), el acabado también dependerá del tipo de unión que necesitemos en la cimentación. Los dos primeros acabados son para el empotramiento en la cimentación con cáliz. El siguiente acabado presenta la prolongación de las barras de acero para la unión mediante vainas con la cimentación. El último caso es similar al acabado con placa de anclaje que vimos en el encuentro de pilares metálicos.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Hormigon. Terminacion en base.png}
+    \caption{Terminación en Base.}
+    \label{fig: Hormigon. Terminacion en base}
+\end{figure}
+
+En pilares prefabricados es también habitual disponer de ménsulas de apoyo a media altura del pilar. Estas pueden tener distintas formas, pero la más habitual es el esquema que vemos en la figura \ref{fig: Hormigon. Mensulas}. Estos elementos van a recibir cargas puntuales muy fuertes, por lo cual desarrollan importantes esfuerzos a cortante. Es muy importante, por tanto, distribuir estribos de cortante para prevenir los fallos frágiles.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Hormigon. Mensulas.png}
+    \caption{Mensulas.}
+    \label{fig: Hormigon. Mensulas}
+\end{figure}
+
+Respecto a los elementos horizontales, el caso más habitual en este tipo de naves es utilizar la viga Delta. Estas son vigas pretensadas y su forma responde al tipo de solicitación al que está sometida. Así, en la zona central donde son predominantes los esfuerzos de flexión, la sección se hace más esbelta, concentrando mucho más material en las alas que en el alma. Este alma puede incluso llegar a aligerarse. En las zonas de los extremos (en el apoyo), donde el cortante es máximo y el momento flector es casi nulo, la sección se achata, macizándose completamente el alma.
+
+A pesar de que la viga Delta es la viga más económica, las secciones de las vigas pueden también tomar otras formas distintas, como vigas con forma de V, de Tau, de Omega, de Pi e incluso de H.
+
+\subsubsection*{Nudos y Cimentaciones}
+
+El apoyo entre las vigas y pilares generalmente se realiza mediante un apoyo simple sobre un material elástico que suele ser neopreno. Para asegurar que la viga no descalce del apoyo, se suele conectar mediante unos redondos de acero de espera que se dejan embebidos en el pilar, y que se hormigonan junto con la viga mediante un mortero sin retracción.
+
+El encuentro con la cimentación más habitual en este tipo de naves es el de zapata con cáliz ranurado (figura \ref{fig: Hormigon. Empotramiento con Caliz Ranurado}). En este encuentro se deja en la cimentación un cajón de chapa grecada que actúa como encofrado, dejando un hueco o cáliz a la espera de recibir la base del pilar prefabricado. Una vez ha curado el hormigón de la zapata, se introduce el pilar. Una vez se ha nivelado y aplomado, se rellena el hueco entre el pilar y el encofrado de chapa con mortero sin retracción. La zapata, aparte del emparrillado típico en la base, lleva una armadura de refuerzo alrededor del cáliz y una armadura antipunzonamiento por debajo del cajón.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con caliz ranurado.png}
+    \caption{Empotramiento con cáliz ranurado o no.}
+    \label{fig: Hormigon. Empotramiento con Caliz Ranurado}
+\end{figure}
+
+Otra unión entre pilares prefabricados y cimentación es mediante vainas (figura \ref{fig: Hormigon. Empotramiento con Vainas Corrugadas}). Las vainas son tubos corrugados que se dejan embebidos en la cimentación durante el hormigonado. A continuación, se introducen las esperas o armaduras de acero de la base del pilar en las vainas, para luego rellenar el hueco mediante un mortero sin retracción.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Hormigon. Empotramiento con vainas corrugadas.png}
+    \caption{Empotramiento con cáliz ranurado o no.}
+    \label{fig: Hormigon. Empotramiento con Vainas Corrugadas}
+\end{figure}
+
+El último ejemplo de enlace con la cimentación es muy parecido al enlace que se realiza en un pilar metálico (figura \ref{fig: Hormigon. Empotramiento con Anclajes Roscados}). En este enlace, la placa de anclaje en la base del pilar se ancla mediante tornillos a los pernos de espera que estaban embebidos en la zapata durante el hormigonado.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con anclajes roscados.png}
+    \caption{Empotramiento con anclajes roscados.}
+    \label{fig: Hormigon. Empotramiento con Anclajes Roscados}
+\end{figure}
+
+\subsubsection*{Forjados}
+
+Los forjados son las estructuras superficiales que conforman los planos de planta y de cubierta de la construcción. Son los encargados de recibir las cargas y trasladarlas sobre las vigas y los soportes de nuestra estructura. Por tanto, deben de ofrecer una resistencia y una rigidez adecuada para que puedan resistir estas cargas sin fallar o sufrir deformaciones que imposibiliten su uso.
+
+Además, los forjados sirven como diafragmas de rigidización de la estructura en su plano, de manera que enlazan todos los elementos estructurales de la planta, proporcionándole monolitismo.
+
+\subsubsection*{Tipologías}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Forjados. Tipologias.png}
+    \caption{Forjados. Tipologías}
+    \label{fig: Forjados. Tipologias}
+\end{figure}
+
+Los forjados, por su geometría, funcionan fundamentalmente a flexión. Pero, según transmitan la carga en una o en dos direcciones, se pueden clasificar también en forjados unidireccionales o bidireccionales, respectivamente. Los más habituales en construcción son los forjados unidireccionales, que vamos a ver con un poco más de detalle.
+
+\subsubsection*{Forjados Unidireccionales de Viguetas}
+
+Dentro de los forjados unidireccionales, el más habitual en construcción es el de viguetas. Imaginemos que tenemos que cubrir la superficie punteada con un forjado de vigueta. El proceso constructivo será el siguiente (figura \ref{fig: Proceso Constructivo de Forjados Unidireccionales de Viguetas}):
+
+\begin{enumerate}
+    \item Colocación del encofrado.
+    
+En primer lugar, se construirá un encofrado de madera sobre elementos auxiliares y puntales de acero que servirá de soporte para el futuro forjado durante su construcción. Este encofrado se diseña para poder resistir el peso propio del forjado y las cargas de uso en la fase de construcción, ya que el forjado no tendrá capacidad resistente hasta que el hormigón haya alcanzado su resistencia característica.
+
+    \item Colocación de armaduras de vigas.
+    
+Sobre el tablero del encofrado se colocan los distintos componentes del forjado y la estructura. En primer lugar, se colocan las armaduras de las vigas, según los planos de ejecución. Para asegurar una posición correcta y que se cumplen los recubrimientos mínimos, tendremos que disponer separadores entre las barras y el encofrado.
+
+    \item Colocación de viguetas.
+
+A continuación, se disponen las viguetas prefabricadas separadas a una distancia regular o intereje. Estas viguetas pueden ser de distintos tipos, pero lo habitual es que sean armadas, como las que vemos en la imagen, o pretensadas en forma de ``T'' o de ``I''. Estas viguetas se encargarán de resistir el momento flector positivo en el centro del vano. Por tanto, deberán incluir el armado en la cara inferior necesario para resistir este momento.
+
+    \item Colocación de bovedillas.
+    
+El espacio que queda entre dos viguetas se rellena mediante las bovedillas. Estas pueden ser de hormigón, cerámica o de otro material aligerante como el porexpán. Estas sirven como un encofrado, asegurando que el hormigón rellene únicamente el hueco por donde discurre nuestra vigueta. Son generalmente huecas, lo cual permite reducir el peso propio del forjado considerablemente.
+
+    \item Colocación de negativos.
+    
+Para resistir los esfuerzos debidos al momento flector negativo que se origina en los extremos y en el centro del vano, será necesario reforzar la cara superior de la vigueta mediante barras de refuerzo, también llamados negativos. Como vemos en la figura, estos negativos cubren los extremos de cada paño con una longitud que suele ser aproximadamente un cuarto de la luz del vano.
+
+    \item Colocación de mallazo de reparto.
+    
+Por último, se coloca el mallazo de reparto. Esto es una malla de redondos de acero de poco diámetro separados unos 20 o 30 centímetros. Esta malla proporciona la armadura mínima que debe tener la capa de compresión que cubre toda la superficie del forjado. Este mallazo evita también la fisuración debida a los efectos de retracción en el hormigón.
+
+    \item Hormigonado.
+
+Por último, una vez se han dispuesto todos los componentes y se ha comprobado por parte de la dirección facultativa, se procede al vertido y vibrado del hormigón. Una vez fraguado este hormigón, el forjado quedará como una losa nervada totalmente monolítica junto con las vigas y soportes de la estructura.
+
+\end{enumerate}
+
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}[c]{0.48 \columnwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Tema 2. Forjados. Proceso Constructivo (0).png}
+        \caption{}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[c]{0.48 \columnwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Tema 2. Forjados. Proceso Constructivo (1).png}
+        \caption{Colocación del encofrado.}
+    \end{subfigure}
+    \begin{subfigure}[c]{0.48 \columnwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Tema 2. Forjados. Proceso Constructivo (2).png}
+        \caption{Colocación de armaduras de vigas.}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[c]{0.48 \columnwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Tema 2. Forjados. Proceso Constructivo (3).png}
+        \caption{Colocación de viguetas.}
+    \end{subfigure}
+    \begin{subfigure}[c]{0.48 \columnwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Tema 2. Forjados. Proceso Constructivo (4).png}
+        \caption{Colocación de bovedillas.}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[c]{0.48 \columnwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Tema 2. Forjados. Proceso Constructivo (5).png}
+        \caption{Colocación de negativos.}
+    \end{subfigure}
+    \begin{subfigure}[c]{0.48 \columnwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Tema 2. Forjados. Proceso Constructivo (6).png}
+        \caption{Colocación de mallazo de reparto.}
+    \end{subfigure}
+    \caption{Proceso Constructivo de Forjados Unidireccionales de Viguetas.}
+    \label{fig: Proceso Constructivo de Forjados Unidireccionales de Viguetas}
+\end{figure}
+
+\subsubsection*{Unidireccionales Prefabricados (Losa Alveolar)}
+
+Un forjado unidireccional muy habitual en construcciones industriales es el forjado con losa alveolar.
+
+La losa alveolar, como vemos en la figura \ref{fig: Forjados. Losa Alveolar}, es una placa unidireccional de hormigón con acero pretensado. Su sección y armado dependerá de las cargas que deba resistir y su longitud puede llegar a cubrir luces de hasta unos 12 metros. Como vemos en la imagen, el alma está aligerada a lo largo de toda su longitud, reduciendo considerablemente el peso propio.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Forjados. Losa Alveolar.png}
+    \caption{Forjados. Losa Alveolar}
+    \label{fig: Forjados. Losa Alveolar}
+\end{figure}
+
+Para enlazar este forjado con la estructura principal de elementos prefabricados, es necesario utilizar una viga especial (figura \ref{fig: Forjados. Vigas para forjados}). Esta viga prefabricada para forjados presenta una armadura en forma de ``U'' que sobresale de su cara superior, que permite enlazar las losas alveolares con la estructura mediante el hormigonado in situ del nudo.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Forjados. Vigas para forjados.png}
+    \caption{Vigas para Forjados}
+    \label{fig: Forjados. Vigas para forjados}
+\end{figure}
+
+En la figura \ref{fig: Forjados. Apoyos} vemos que las placas alveolares se apoyan directamente sobre la viga de forjado. Al igual que en el forjado de viguetas, es necesario colocar armadura de refuerzo de negativos y un mallazo de reparto. Posteriormente, se hormigona toda la superficie dejando una capa de compresión de unos 10 cm de espesor. Este hormigón rellenará todos los huecos enlazando la estructura prefabricada con el forjado de losas alveolares.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Forjados. Apoyos.png}
+    \caption{Forjados. Apoyos}
+    \label{fig: Forjados. Apoyos}
+\end{figure}
+
+\subsubsection*{Forjados Unidireccionales Mixtos (Chapa Colaborante)}
+
+En estructuras metálicas es también habitual usar un tipo de forjado mixto de acero y hormigón, que se denomina forjado de chapa colaborante (figura \ref{fig: Forjados. Forjado de chapa colaborante}).
+
+Fundamentalmente se trata de una chapa grecada que se apoya cubriendo el vano entre dos vigas. Esta chapa dará forma a los nervios, sirviendo a la vez de encofrado perdido y de armadura frente al momento flector positivo.
+
+Para conectar la estructura principal con el forjado, es muy importante disponer de pernos conectores soldados a la viga y que atraviesan la chapa grecada. Una vez hormigonado, estos pernos resistirán el esfuerzo rasante entre la chapa y la viga, asegurando una unión monolítica.
+
+Como en todos los forjados unidireccionales, es necesario aportar la armadura de negativos y el mallazo de reparto de la capa de compresión.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Forjados. Forjado de chapa colaborante.png}
+    \caption{Forjado de chapa colaborante.}
+    \label{fig: Forjados. Forjado de chapa colaborante}
+\end{figure}
+
 \section{Envolventes}
 
-\subsection{Fachadas}
+Si la solidez del soporte estructural es la primera condición de la edificación (ya que sin ella las demás serían imposibles), la capacidad de protección frente a las inclemencias meteorológicas es la más importante, ya que constituye en sí misma el cobijo y abrigo que ha buscado históricamente el ser humano.
+
+La estructura o soporte estructural en el transcurso de la historia ha sido el conjunto de elementos constructivos que se ha identificado con independencia en un primer momento del conjunto material que constituyen las edificaciones. El resto de los elementos con el tiempo también se fueron diferenciando, adquiriendo una función de cierre del espacio, que conocemos hoy en día como envolvente.
+
+Al contrario que los animales de sangre fría, cuya temperatura se adapta al ambiente, el ser humano mantiene siempre su temperatura corporal. Nuestro sistema circulatorio actúa como regulador, manteniéndonos entre 36.5°C y 37°C. En cualquier ambiente (frío o calor), nuestro organismo posee mecanismos para mantener por sí solo su temperatura hasta cierto punto. Si el cuerpo no puede mantener su temperatura entre 32°C y 42°C, no es posible sobrevivir. La necesidad de protegernos es una cuestión de supervivencia. El término "confort" nos lleva un paso más allá, estableciendo unas condiciones ambientales que favorecen el desarrollo de la actividad humana.
+
+Sin embargo, en las construcciones industriales nos encontramos con exigencias muy dispares. Se precisan espacios extremadamente fríos o templados, calientes o sobrecalentados, o incluso con condiciones de humedad o sequedad extrema. En este caso, el edificio no se puede considerar un fin en sí mismo, sino un medio para una actividad productiva concreta.
+
+A menudo, la literatura técnica utiliza referencias biológicas con metáforas de un sistema complejo y articulado, como el de las envolventes arquitectónicas, ya que contemplan funciones y comportamientos específicos. Términos como "pieles", "cáscaras" o "pieles dobles" son reconocibles, ya que cada organismo, al igual que cada construcción, tiene una consistencia física y responde de forma pasiva o activa al entorno con el que se relaciona.
+
+La envolvente de los edificios hoy en día consiste en una sofisticada membrana compuesta por capas especializadas, encomendadas para dar respuesta a las necesidades de acondicionamiento interior:
+
+\begin{itemize}
+    \item Control del flujo térmico, del aire y del vapor de agua.
+    \item Control del movimiento del agua.
+    \item Control de la transmisión del ruido.
+    \item Durabilidad y comportamiento frente al fuego.
+    \item Resistencia y rigidez.
+\end{itemize}
+
+Podemos definir la envolvente como la capa o capas que limitan el espacio interior de los edificios, actuando como filtro y separador entre el exterior y el interior de un espacio (ocupado o no por personas), de manera que permita acondicionar el ambiente interior con unas condiciones idóneas para la actividad humana.
+
+Sus dos funciones esenciales son:
+
+\begin{itemize}
+    \item La estanqueidad frente a la lluvia y el viento.
+    \item Minimizar las transferencias térmicas.
+\end{itemize}
+
+Esto constituye la base para el confort, incorporando posteriormente otras funciones adicionales.
+
+\subsubsection*{Conceptos Preliminares de la Física de la Construcción}
+
+Para avanzar en la comprensión de las soluciones técnicas de la envolvente, es preciso abordar conceptos generales sobre el comportamiento frente a la humedad, la temperatura y el ruido. Mediante las reglas físico-constructivas, podemos realizar construcciones de calidad, duraderas y económicas, evitando errores que provocan el deterioro de los materiales.
+
+\begin{enumerate}
+    \item Aislamiento Térmico.
+    
+Nos referimos al aislamiento térmico como aquel material con capacidad de oponerse a la transmisión de calor, es decir, que posee una alta resistividad térmica. En un edificio, la cantidad de calefacción o refrigeración necesaria para mantener una temperatura de confort depende en buena medida de su nivel de aislamiento.
+
+Transmitancia térmica (valor U): Es una característica específica de un elemento constructivo (como el cerramiento o la cubierta) y depende de la conductividad térmica, la dimensión de los materiales, así como de la radiación y convección. Cuanto menor sea el valor U, mejor es la capacidad aislante y menor es la pérdida de calor.
+
+    \item Permeabilidad e Impermeabilidad.
+    
+El agua es un vehículo de degradación y alteración de las propiedades de los materiales de construcción. Las buenas prácticas constructivas contemplan mecanismos para evitar su acumulación mediante barreras o sistemas de drenaje.
+
+La permeabilidad está muy relacionada con la porosidad de los materiales. Tradicionalmente, se ha conseguido la impermeabilidad utilizando materiales de gran espesor o mediante la configuración de su geometría (solape e inclinación) para evacuar el agua por gravedad. Con el desarrollo de materiales totalmente impermeables, se han podido poner en práctica soluciones como las cubiertas planas.
+
+    \item Condensación, Barreras de Vapos y Puentes Térmicos.
+    
+El aire es capaz de contener vapor de agua, cantidad que aumenta proporcionalmente con su temperatura. Cualquier cuerpo frío en un ambiente a mayor temperatura es susceptible de provocar la condensación del aire que lo rodea sobre su superficie.
+
+Este mismo fenómeno se puede dar en la envolvente de los edificios el vapor de agua penetra a través de los cerramientos y tiende a ocupar el mayor volumen posible. Si el gradiente de temperatura alcanza el punto de rocío, se producirá la condensación.
+
+La disposición de barrera de vapor supone un medio de evitar las condensaciones intersiciales situándolas siempre en la cara caliente del aislamiento térmico, evitando que el vapor penetre y se condense en el interior.
+
+Los puentes térmicos son discontinuidades en el aislamiento (pérdidas de energía) susceptibles de generar condensaciones, conllevando al deterioro de los materiales.
+
+    \item Inercia Térmica.
+    
+Es la capacidad de los materiales para mantener su temperatura a lo largo del tiempo en un entorno con oscilación térmica. Se aprovecha para soportar mejor las condiciones climáticas extremas. En una cueva, la inercia térmica es tan grande que prácticamente no hay oscilación entre invierno y verano. Permite acumular energía (calor o frescor) para aprovecharla en momentos de necesidad.
+
+    \item Aislamiento y Acondicionamiento Acústico.
+    
+La protección frente al ruido es indispensable para la salud y la actividad.
+
+\begin{itemize}
+    \item Aislamiento acústico: Nivel de atenuación sonora entre dos locales o entre el interior y el exterior.
+    \item Acondicionamiento acústico: Tratamiento y geometría de las superficies de una sala para interactuar con la onda sonora. Está relacionado con los tiempos de reverberación. Un buen acondicionamiento mejora la inteligibilidad de la palabra, la calidad de la música y disminuye el nivel de emisión interior al no tener que hablar muy alto.
+\end{itemize}
+
+    \item Ventilación.
+    
+La mala ventilación en los edificios es una patología constructiva que agrava la aparición de humedades por condensación y genera una mala calidad del aire interior (exceso de humedad, $CO_2$ o proliferación de agentes patógenos). Para hacer frente a estos problemas en fachadas y cubiertas, la evolución ha llevado a la separación en dos hojas, integrando una cámara ventilada que mejora su comportamiento higrométrico.
+
+Surgen así la fachada ventilada o transventilada y también lo que llamaremos la cubierta fría o ventilada.
+
+    \item Comportamiento Higrotérmico de Fachadas
+    
+La cámara de aire ventilada evacúa calor. Esto se debe por una parte al efecto chimenea. El aire que entra en la cámara es calentado por la radiación solar y por tanto crea un movimiento de flujo ascendente dentro de la cámara. Por otra parte se debe al efecto del viento sobre la fachada que impulsa la entrada de aire exterior a través de las juntas de las placas, el enfriamiento también del aire de la cámara. La estanqueidad y el aislamiento se encomienda a la hoja interior, de forma que la impermeabilidad se obtiene gracias a la combinación con la hoja exterior y la cámara ventilada, que tiene una capacidad drenante y de evaporación del agua gracias a ese flujo de aire.  
+
+La cubierta caliente está compuesta por una sola hoja formada por varias capas que separan el interior del exterior sin existir una cámara de aire intermedia. Por este motivo, esta cubierta se encuentra sujeta a fuertes diferencias de temperatura y de presión de vapor de agua entre su cara exterior y su cara interior.  
+
+La cubierta fría está compuesta por dos hojas formada por varias capas que están separadas por una cámara de aire ventilada. Esta cámara regula el comportamiento higrotérmico de la cubierta, lo que proporciona unas mejores garantías de funcionamiento, siendo por tanto recomendable su utilización. La cubierta fría aprovecha la ventilación de su cámara de aire para evitar el problema de la condensación, manteniendo el contenido de humedad por debajo del punto de saturación. Igualmente tiene un efecto de amortiguamiento del calentamiento debido a la radiación solar en la cubierta, que es la parte del edificio más expuesta al sol durante cualquier época del año.
+
+La entrada del aire en las cubiertas frías se realizará por la parte más baja de la cubierta a través de la línea del alero en las cubiertas con poca pendiente y por medio de aberturas en los hastiales en todos los casos. La circulación interior no se deberá ver obstaculizada por ningún elemento intermedio. Su recorrido no es recomendable que exceda más de 12 metros. Se realizará también en sentido ascendente desde el alero hacia la cubierta. De forma que un mayor desnivel entre la entrada y la salida del aire producirá una mejor circulación. Por otra parte, la salida del aire se realizará en la zona más alta de la cubierta, lo más próximo a la cumbrera.
+
+\end{enumerate}
+
+\subsubsection*{Exigencias Normativas (Código Técnico de la Edificación - CTE)}
+
+Según la Ley de Ordenación de la Edificación, los requisitos básicos son la funcionalidad, la seguridad y la habitabilidad. A través del Código Técnico, se desarrollan los requisitos que deben cumplir el cerramiento, la cubierta y la estructura:
+
+\begin{itemize}
+    \item Seguridad.
+    
+Desde el punto de vista de la seguridad, el cerramiento debe ser capaz de resistir fuerzas con diversos orígenes y que deben ser capaces de soportar y transmitir a la estructura del edificio. Cabe diferenciar aquellas de carácter normal como el peso propio, viento o el empuje previsible por el uso al que se destina. Es importante también que haya una compatibilidad entre el cerramiento y la estructura de forma que las deformaciones de esta sean asumibles por la fachada. Dependiendo de la construcción del cerramiento puede ser autoportante o no, pudiendo necesitar en tal caso una estructura auxiliar.  
+
+La exigencia básica SE1 (Resistencia y Estabilidad) del Código Técnico establece que la resistencia y la estabilidad serán las adecuadas para que no se generen riesgos indebidos. De forma que se mantenga la resistencia y la estabilidad frente a las acciones e influencias previsibles durante las fases de construcción y usos previstos de los edificios, y que un evento extraordinario no produzca consecuencias desproporcionadas respecto a la causa original y se facilite el mantenimiento previsto.
+
+Por otra parte, la exigencia básica SE2 (Aptitud al Servicio) nos indica también que la aptitud al servicio será conforme con el uso previsto del edificio de forma que no se produzcan deformaciones inadmisibles, se limite a un nivel aceptable la probabilidad de un comportamiento dinámico inadmisible y no se produzcan degradaciones o anomalías inadmisibles.
+
+La parte de las exigencias básicas de seguridad contra incendio SI nos indica que el objetivo del requisito básico de seguridad contra incendio consiste en reducir a límites aceptables el riesgo de que los usuarios de un edificio sufran daños derivados de un incendio de origen accidental, como consecuencia de las características de su proyecto, construcción, uso y mantenimiento. También nos dice que para satisfacer este objetivo, los edificios se proyectarán, construirán, mantendrán y utilizarán de forma que, en caso de incendio, se cumplan las exigencias básicas que se establecen en los apartados siguientes.
+
+Asimismo, el Documento Básico DB-SI especifica parámetros, objetivos y procedimientos cuyo cumplimiento asegura la satisfacción de las exigencias básicas y la superación de los niveles mínimos de calidad propios del requisito básico de seguridad en caso de incendio. Excepto en el caso de los edificios, establecimientos y zonas de uso industrial o los que les sea de aplicación el Reglamento de Seguridad contra Incendios en los Establecimientos Industriales, en los cuales las exigencias básicas se cumplen mediante dicha aplicación.
+
+    \item Habitabilidad.
+    
+La exigencia básica HE1 (Limitación de demanda energética) establece que los edificios dispondrán de una envolvente de características tal que limite adecuadamente la demanda energética necesaria para alcanzar el bienestar térmico en función del clima de la localidad, del uso del edificio y del régimen de verano y de invierno. Así como sus características de aislamiento e inercia, permeabilidad al aire y exposición a la radiación solar. Reduciendo el riesgo de aparición de humedades de condensación superficiales e intersticiales que puedan perjudicar sus características y tratando adecuadamente los puentes térmicos para limitar las pérdidas o ganancias de calor y evitar problemas higrotérmicos en los mismos.  
+
+Según la exigencia básica HS1 (Protección frente a la humedad), se limitará el riesgo previsible de presencia inadecuada de agua o humedad en el interior de los edificios y en sus cerramientos como consecuencia del agua procedente de precipitaciones atmosféricas, escorrentías del terreno o de las condensaciones, disponiendo medios que impidan su penetración o en su caso permitan su evacuación sin producirse daños.  
+
+Por otra parte, las exigencias básicas de protección frente al ruido HR nos dicen que el objetivo de este requisito básico consiste en limitar dentro de los edificios y en condiciones normales de utilización el riesgo de molestias o enfermedades que el ruido pueda producir a los usuarios como consecuencia de las características de su proyecto, construcción, uso y mantenimiento. Para satisfacer este objetivo los edificios se proyectarán, construirán, utilizarán y mantendrán de tal forma que los elementos constructivos que conforman sus recintos tengan unas características acústicas adecuadas para reducir la transmisión del ruido aéreo, del ruido de impacto y del ruido y vibraciones de las instalaciones propias del edificio y para limitar el ruido reverberante de los recintos. El Documento Básico DB-HR de protección frente al ruido especifica parámetros, objetivos y sistemas de verificación cuyo cumplimiento asegura la satisfacción de estas exigencias.  
+
+La exigencia básica HS3 (Calidad del aire interior) nos dice que los edificios dispondrán de medios para que sus recintos se puedan ventilar adecuadamente, eliminando los contaminantes que se produzcan de forma habitual durante el uso normal de ellos. De forma que se aporte un caudal suficiente de aire exterior y se garantice la extracción y expulsión del aire viciado por los contaminantes. Para limitar el riesgo de contaminación del aire interior de los edificios y del entorno exterior, en las fachadas y patios la evacuación de productos de combustión de las instalaciones térmicas se producirá con carácter general por la cubierta del edificio con independencia del tipo de combustible, del aparato que se utilice y de acuerdo con el Reglamento específico de las Instalaciones Térmicas.
+
+\end{itemize}
+
+\subsection{Cerramientos}
+
+\subsubsection*{Evolución y Clasificación de los Cerramientos}
+
+Podemos establecer una clasificación comparada entre el cerramiento tradicional e industrializado. Podemos decir que el cerramiento tradicional se ha caracterizado por formar parte de la estructura de los edificios, siendo un único elemento que incluye todas las necesidades funcionales: la estructura, impermeabilización y aislamiento. Todo ello resuelto a base de dar espesor, ya que los materiales tradicionales son porosos y necesitaban el espesor para mitigar el efecto de la capilaridad.
+
+A partir de que la estructura adopta el papel diferenciado como esqueleto independiente, el cerramiento se pudo especializar y, junto con la aparición de nuevos materiales, se han desarrollado los cerramientos multicapa de poco espesor y gran ligereza, en las que cada capa cumple una función particular. Mediante el desarrollo de los sistemas constructivos industrializados, se ha conseguido cerramientos muy ligeros, fácilmente transportables y de rápida ejecución y colocación. LO cual conlleva el que puedan obtenerse grandes ahorros tanto de tiempo y costes. Para paliar los problemas higrométricos y de sobrecalentamiento por radiación solar del cerramiento multicapa, surgen lo que llamaremos las fachadas ventiladas que más adelante podremos comentar.
+
+Otra posible clasificación, atendiendo al peso de los materiales que constituyen el cerramiento, nos va a permitir en este caso centrar el foco en el estudio de los sistemas más frecuentes en edificios industriales. Cuando se menciona fábrica nos remitimos a aquel muro o cerramiento constituido por piezas del tamaño y peso que pueden manejar albañiles con sus medios, en las que mediante morteros y la utilización de la traba se van concertando las piezas, concluyendo muros unitarios y estables con capacidad resistente. De cualquier manera, nuestro objetivo de estudio será principalmente los cerramientos pesados, bien con prefabricados de hormigón, así como los ligeros, metálicos y con vidrio. Todos estos aparecen remarcados en unos rectángulos de color rojo dentro de esta clasificación indicada.
+
+\subsubsection*{Elementos del Sistema Cerramiento Prefabricado}
+
+\begin{itemize}
+    \item 0 Panel. La determinación del panel que estará íntimamente ligada al diseño del proyectista y las características del edificio, materiales, la tecnología y medios disponibles de construcción, los medios de elevación, transporte, etcétera. Para el diseño, habrá que considerar que, además de las acciones de servicio una vez colocado, deberá de soportar también las debidas al transporte y la colocación.
+    \item 1 Anclaje de cuelgue. Son elementos necesarios para su transporte y colocación mediante un sistema de elevación, realmente porque tienen un peso enorme.
+    \item 2 Junta horizontal y vertical. Constituyen la unión entre paneles, o bien también la unión a contra elementos estructurales. Y serán responsables de la estanqueidad e impermeabilización al viento y al agua-viento, pudiendo ser horizontales o verticales.
+    \item 3 Dispositivo de fijación del panel a la estructura. En este caso (figura \ref{fig: Cerramientos. Elementos del Sistema Cerramiento Prefabricado}) son paneles autoportantes, estos paneles de hormigón, y bueno pues no necesitarán una subestructura auxiliar. Y en este caso las fijaciones deberán de tener la capacidad de realizar las correcciones de nivelación y aplomado de forma que la alineación del plano de fachada y la alineación entre hiladas de paneles sean correctas.
+    \item 4 Estructura auxiliar.
+\end{itemize}
+
+\subsubsection*{Cerramientos Pesados}
+
+Gracias a la industrialización de la construcción podemos obtener componentes de cerramiento de gran calidad y economía con procesos constructivos mucho más rápidos ya que contamos con elementos prefabricados. Los paneles prefabricados de hormigón los clasificamos como pesados y autoportantes, ya que tienen capacidad resistente frente a las acciones y no necesitan una estructura auxiliar adicional. También los podemos clasificar según sea la composición de sus capas, como homogéneos cuando tienen una única capa (es el caso de los paneles macizos de hormigón), y heterogéneos aquellos multicapa que pueden incluir, por ejemplo, aislamientos y barrera de vapor.
+
+Los paneles homogéneos o macizos se caracterizan por estar constituidos únicamente por hormigón. Si observamos la tabla de la figura \ref{fig: Cerramientos Pesados. Homogeneo. Sin aislamiento termico} con los valores que nos proporciona el fabricante, veremos que las dimensiones suelen ser de gran tamaño, a veces con una altura de toda la planta de la nave industrial, por ejemplo. Y entonces, con el peso de varias toneladas.El hormigón no tiene una buena capacidad aislante si lo comparamos con los valores de transmitancia de las tablas que veremos más adelante cuando utilicemos los paneles tipo sándwich.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Homogeneo. Sin aislamiento termico.png}
+    \caption{Panel Prefafricado de Hormigón - Homogéneo y Sin aislamiento térmico.}
+    \label{fig: Cerramientos Pesados. Homogeneo. Sin aislamiento termico}
+\end{figure}
+
+En este caso (figura \ref{fig: Cerramientos Pesados. Sandwich. Con aislamiento termico. Con puente termico}) se muestra la información gráfica de los paneles tipo sándwich, donde podemos ver cómo se incorpora una capa intermedia aislante, en este caso de poliestireno expandido de 60 milímetros de espesor. El aislamiento vemos que queda interrumpido por macizos de hormigón que constituyen el entramado estructural del panel. Aunque no se representa, los paneles tienen un armado de acero. Uno de los grandes inconvenientes de este tipo de panel son los puentes térmicos, motivados por la discontinuidad del aislamiento, como estamos viendo. Obviamente, su uso debe ser destinado a edificaciones donde su actividad genere bajas tasas de vapor de agua y, porque claro, así los riesgos de condensación serán menos importantes.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico y puente termico.png}
+    \caption{Panel Prefafricado de Hormigón - Sandwich con aislamiento y puente térmico}
+    \label{fig: Cerramientos Pesados. Sandwich. Con aislamiento termico. Con puente termico}
+\end{figure}
+
+
+En el caso de paneles sándwiches como el que vemos en la figura \ref{Cerramientos Pesados. Sandwich. Con aislamiento continuo. Sin puente termico}, podemos ver que no existen puentes térmicos. Las dos hojas de hormigón se conectan por una celosía de acero para poder, digamos, mantener la capacidad de unión entre las hojas exteriores de hormigón. Y entre medias vemos que pasa una capa de aislante de forma continua. Aunque las conexiones metálicas suponen un puente térmico, podemos decir que a efectos prácticos no tienen relevancia ya que son muy puntuales. La forma machihembrada en sus bordes permite encajar los paneles proporcionando la estanqueidad al aire y al agua gracias al sellado.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico sin puente termico.png}
+    \caption{Panel Prefafricado de Hormigón - Sandwich con aislamiento térmico y sin puente térmico}
+    \label{Cerramientos Pesados. Sandwich. Con aislamiento continuo. Sin puente termico}
+\end{figure}
+
+
+\subsubsection*{Fijación de Paneles Verticales y Horizontales}
+
+En las naves industriales, cuando el cerramiento se realiza con paneles verticales de hormigón, lo más sencillo es que se apoyen directamente sobre un elemento estructural de entidad, ya que, como hemos dicho, son muy pesados, y en este caso, bueno pues en el ejemplo que se muestra se apoyan en unas vigas riostras de cimentación. Al ser autoportantes, suele ser preciso que tengan una fijación en la parte superior (podemos ver detalles A y B en la figura \ref{fig: Cerramientos. Paneles verticales hormigon}), ya que se pone todo el peso en el apoyo inferior, evitando estas fijaciones superiores que basculen. Estas fijaciones se realizan, como decimos, a la estructura principal y pueden ser también a las vigas de los pórticos que hay en los testeros. Vemos el detalle B de este caso. Tanto los detalles A y B de fijación superior de los paneles permiten ajustes para la nivelación y el aplomado a través de sendos carriles embebidos en el propio panel.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Cerramientos. Fijacion Paneles Verticales.png}
+    \caption{Paneles Verticales Hormigón.}
+    \label{fig: Cerramientos. Paneles verticales hormigon}
+\end{figure}
+
+Para los paneles horizontales (figura \ref{fig: Cerramientos. Paneles horizontales hormigon (1)}) se suele seguir un criterio análogo al visto, por lo que el soporte de su peso se realiza en las fijaciones inferiores, siendo las fijaciones superiores las que contribuirán a fijar el panel a la estructura, estabilizándolo frente a empujes horizontales. Una solución simple desde el punto de vista de ejecución y las fijaciones es la disposición de paneles encastrados, tanto sobre soportes metálicos o de hormigón. En el caso de la figura \ref{fig: Cerramientos. Paneles horizontales hormigon (2)} se muestran un caso de soportes en forma de perfiles HEB metálico. También es posible colocar paneles exteriores sobre estructuras de pórticos de acero laminado, como también se muestra ahí en los detalles. En este caso las soluciones de fijación son muy similares a las vistas sobre los pórticos de hormigón armado.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales.png}
+    \caption{Paneles Horizontales Hormigón.}
+    \label{fig: Cerramientos. Paneles horizontales hormigon (1)}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales (1).png}
+    \caption{Paneles Horizontales Hormigón.}
+    \label{fig: Cerramientos. Paneles horizontales hormigon (2)}
+\end{figure}
+
+
+\subsubsection*{Las Juntas en los Paneles}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Cerramientos Pesados. Junta.png}
+    \caption{Junta de Paneles Prefabricados de Hormigón.}
+    \label{fig: Cerramientos. Junta}
+\end{figure}
+
+Respecto a las juntas entre paneles (figura \ref{fig: Cerramientos. Junta}), deben presentar una total integridad a la impermeabilización durante toda su vida útil. Su diseño debe considerar una geometría que garantice un comportamiento impermeable frente a la lluvia y el viento, que no se vea comprometido por las cargas y el movimiento de los paneles de la fachada. Una de las premisas que define a un buen panel es que sus juntas, sobre todo las horizontales, no dependan de materiales sintéticos para garantizar su estanqueidad.
+
+Las juntas horizontales y las verticales, a pesar de enfrentarse a los mismos agentes climáticos y demandas de acciones y cargas, tal como se puede ver en los ejemplos que se muestran, requieren ser ejecutadas de distinta manera. Tanto la forma de la junta así como la disposición de los elementos de sellado responden al objetivo de controlar el agua, viento y el vapor de agua en la unión, sirviéndose de la combinación de barreras con cámara y formas de junta que faciliten el drenaje del agua hacia el exterior.
+
+En este caso, si observamos el detalle 1, hay un doble sellado con cámara de descompresión intermedia. El sellado exterior, con una letra pequeñita en a, es el responsable de la estanqueidad al agua, mientras que el interior, con otra letra pequeñita b, tendrá como misión la estanqueidad al aire. En el detalle 2, que es en una junta horizontal, vemos que en este caso solo se dispone de sellado de estanqueidad al aire, ya que la condición de impermeabilidad frente al agua-viento se consigue con la propia forma de la junta, con inclinación hacia el exterior.
+
+\subsubsection*{Uniones Secas vs. Uniones Húmedas}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Cerramientos Pesados. Fijacion.png}
+    \caption{Fijación de Paneles Prefabricados de Hormigón.}
+    \label{fig: Cerramientos. Fijacion}
+\end{figure}
+
+Entre uniones de panel-panel o panel-soporte se pueden dar dos tipos de fijación: lo que llamamos uniones secas y uniones húmedas (figura \ref{fig: Cerramientos. Fijacion}).
+
+En la primera, que es la unión seca que vemos a la izquierda, la fijación será realizada con elementos metálicos principalmente. Y en la segunda, que es la que vemos a la derecha (unión húmeda), se dispondrá de algún sistema adicional de soporte y nivelación que permita el posterior hormigonado de la unión.
+
+Las uniones secas en paneles no portantes no precisan de ningún hormigón ni mortero para su ejecución, aunque por razones de durabilidad a veces se hormigonen. Todas estas uniones están basadas en el empleo de perfiles o conectores metálicos cuya fijación se puede realizar bien con soldadura o bien con tornillería.
+
+\subsubsection*{Cerramientos Ligeros}
+
+En la actualidad, existe gran variedad de materiales para resolver cerramientos ligeros. El zinc, el cobre, los tableros fenólicos, los aglomerados de madera y cemento, el caso de los paneles de GRC, las placas cerámicas, e incluso otros que son traslúcidos y transparentes como el policarbonato y el vidrio, son materiales que existen en el sector de la construcción. Sin embargo, los más extendidos para las fachadas en edificios industriales, sobre todo por la rapidez de construcción, su economía, son los cerramientos de chapa metálica, acero y aluminio, todos ellos con algún tratamiento de protección como puede ser el galvanizado, anodizado o lacado.
+
+De la propia especialización de las capas que constituyen el cerramiento multicapa ligero, totalmente independientes de la estructura, surge la necesidad de transmitir las acciones que sufre este a la estructura porticada. Mediante el uso de una subestructura o estructura auxiliar se da la solución como entramado en el que es posible fijar las capas del cerramiento.
+
+Este entramado de fachada en muchas ocasiones se resuelve con las mismas correas de cubierta, pudiendo utilizarse desde perfiles de acero laminado conformados en frío o incluso aluminio y madera.
+
+Dentro de los paneles metálicos encontraremos dos tipos: los unicapa y multicapa, que están constituidos por bandejas metálicas, perfiles de chapa grecada y paneles sándwich. Los perfiles de chapa grecada con orientación vertical u horizontal se fijan a la subestructura auxiliar de fachada, también como hemos dicho pueden ser correas. También se puede añadir otros componentes para realizar in situ cerramientos multicapa, según las capacidades que se requieran para el cerramiento.
+
+Las chapas o bandejas autoportantes dispuestas horizontalmente entre pilares de la estructura principal puede ser otra de las disposiciones. O bien, los paneles mixtos o sándwich dispuestos horizontalmente o verticales con o sin subestructura, según sean autoportantes o no. Se trata de paneles prefabricados que incorporan el aislamiento térmico. En la mayoría de los casos, estos sistemas de cerramiento son válidos tanto para fachada como para cubierta.
+
+Los paneles unicapa están formados por una única chapa metálica. Son ligeros y económicos, pero tienen el inconveniente de las condensaciones, falta de aislamiento térmico y mal comportamiento frente al ruido. En caso de incendio son inertes, por lo que no contribuyen a potenciar el fuego y las emisiones.
+
+Los multicapa sándwich están formados por capas con un alma intermedia que puede ser de gran variedad de materiales, aunque principalmente serán aislantes térmicos. Sin embargo, a veces el material intermedio se dispone y dimensiona no tanto por aislar térmicamente, sino para obtener un mejor comportamiento resistente del panel sin aumentar el espesor de las chapas. Por ejemplo, sabemos que cuanto mayor sea el canto del panel, mejor será su comportamiento a flexión.
+
+El anclaje se trata de un elemento puntual de fijación de los paneles a la estructura auxiliar o a su estructura. La industria de la construcción ha desarrollado anclajes que permiten regular en las tres direcciones la nivelación, el alineamiento del panel independientemente del soporte, y transmitiendo las acciones dinámicas, térmicas, así como la posibilidad de montaje y desmontaje de la placa. Tiene gran importancia de cara a la durabilidad del sistema.
+
+Es imposible fabricar, transportar y montar un cerramiento ligero continuo. Ello nos obliga a considerar la formación de las juntas en fachada que resuelve la unión entre los paneles, de forma que garanticen las exigencias de estanqueidad, impermeabilidad, etcétera. Es preciso tener también una serie de consideraciones en tal caso. La disposición de las juntas contribuyen significativamente, junto con el panel, a la imagen formal arquitectónica de la fachada. Igualmente debe haber compatibilidad entre anclaje y junta.
+
+Atendiendo a los tipos de junta, podemos diferenciar claramente la junta impermeable y la junta permeable:
+
+\begin{itemize}
+    \item La junta impermeable: Basa su funcionalidad en su forma geométrica y la combinación con el sellado. Debido al avance tecnológico de los materiales de sellado (los neoprenos, EPDM, etcétera), se ha tendido a confiar excesivamente en ellos asignándoles en el diseño de la junta como única responsable de la impermeabilización y la estanqueidad. Convirtiéndose en este caso el fallo de estos sellantes en su propio talón de Aquiles. Es recomendable, por tanto, hacer diseños conservadores con el uso de una geometría de solape y la llamada junta abierta de un ancho suficiente que evite el efecto de la capilaridad, y actuando de cámara de descompresión y drenaje. Además, se disponga el sellado convenientemente protegido de la acción meteorológica de forma que su fallo no sea crítico. Dentro de las soluciones impermeables, es típica la disposición solapada de chapas grecadas que aportan la impermeabilidad al agua, pero no la hermeticidad.
+    \item La junta permeable: Se ha difundido de la mano de la fachada transventilada. Es la que permite que la fachada respire, por lo que decimos que tiene un mejor comportamiento higrotérmico.
+\end{itemize}
+
+\subsubsection*{Paneles sándwich ``in situ'' y remates}
+
+(Figura \ref{fig: Cerramientos Ligeros. Paneles Sandwich}) La hoja interior del sándwich se fija a la estructura colocando sobre ella unos perfiles omega o en Z transversales. Sobre estos perfiles se coloca la manta aislante y sobre esta la chapa de acabado de espesor generalmente comprendido entre unos 0,6 o 1 milímetro. Las omegas comprimen el aislamiento sobre la chapa exterior, reduciéndose de esta manera el puente térmico. La fijación mecánica del sándwich se realiza mediante tornillos autorroscantes o autotaladrantes que incorporan arandelas de estanqueidad.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich.png}
+    \caption{Cerramientos Ligetos. Paneles Metálicos. Paneles Sandwich ``in situ''.}
+    \label{fig: Cerramientos Ligeros. Paneles Sandwich}
+\end{figure}
+
+A partir del detalle visto en la solución anterior de fachada con panel sándwich in situ, se puede desarrollar la misma solución a la totalidad de cubierta y fachada (figura \ref{fig: Cerramientos Ligeros. Paneles Sandwich (1)}), tanto con el uso de la estructura auxiliar con correas como de fijación, así como del mismo panel sándwich. El encuentro entre el plano de fachada y cubierta se aprovecha para disponer un canalón de recogida de agua de lluvia.
+
+Es frecuente que el panel se remate contra un zócalo de hormigón de una altura de uno o dos metros como elemento de defensa frente a impacto motivado por la actividad del edificio. Como se puede ver en todos los encuentros entre chapas perfiladas, se realiza mediante un solape, en algunos casos añadiendo piezas especiales como pueden ser los vierteaguas o baberos de forma que se mantenga la impermeabilidad. La ventaja de este tipo de solución in situ es la de poder personalizar las características del cerramiento (características de la chapa, el espesor, la forma de la greca u onda, el tipo de aislamiento o espesor de capacidad aislante, etcétera).
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich (1).png}
+    \caption{Cerramientos Ligetos. Paneles Metálicos. Paneles Sandwich ``in situ''.}
+    \label{fig: Cerramientos Ligeros. Paneles Sandwich (1)}
+\end{figure}
+
+\subsubsection*{Muro Cortina}
+
+La necesidad de iluminación natural y contacto visual con el exterior para la actividad en muchos edificios ha motivado la proliferación de grandes superficies de cerramiento transparente. A pesar de que hay plásticos alternativos, ningún material aporta de forma conjunta las mismas prestaciones que el vidrio en cuanto a transparencia, dureza, resistencia a los agentes climatológicos, durabilidad, etcétera. Se desarrolla un tipo de cerramiento ligero y transparente que denominamos muro cortina.
+
+Al igual que otros cerramientos ligeros ya vistos, necesitará una estructura auxiliar compuesta por montantes y travesaños. Los paneles pueden ser de vidrio con marcos de carpintería o paneles opacos muy similares a los ya vistos. De forma tradicional, los paneles con vidrio se fijan a la estructura auxiliar mediante el marco de carpintería, que a su vez permite incorporar las funciones de estanqueidad e impermeabilización.
+
+La solución económica para obtener aislamiento con el vidrio se obtiene con dobles vidrios utilizando cámara desecada o rellena de gas inerte. La estructura auxiliar lleva unas fijaciones a la estructura principal que deben regular la verticalidad y el alineamiento con el fin de que el conjunto de paneles se monten correctamente en el mismo plano y se puedan transmitir los esfuerzos correctamente a la estructura principal del edificio.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Cerramientos Ligeros. Muro Cortina.png}
+    \caption{Cerramientos Ligetos. Muro Cortina.}
+    \label{fig: Cerramientos Ligeros. Muro Cortina}
+\end{figure}
+
+En la figura \ref{fig: Cerramientos Ligeros. Muro Cortina} se muestran los detalles constructivos del caso de muro cortina con montantes de aluminio, a los que se fijan los paneles de vidrio que pueden ser transparentes u opacos según se incorpore o no un panel aislante.
+
+Para formar los paneles de vidrio se les fija unos marcos de aluminio sujetos con silicona estructural. Este sistema de marcos se ajusta contra los montantes y travesaños mediante un sistema de juntas estancas que incorpora una cámara de descompresión y drenaje.
 
 \subsection{Cubiertas}
+
+Mientras el desarrollo tecnológico no sea capaz de crear un único material o elemento que pueda satisfacer simultáneamente todas las exigencias ya vistas para la envolvente, nos vemos obligados a utilizar complicados sistemas constructivos multicapa. Estos sistemas son eficaces siempre y cuando se disponga sus capas siguiendo el orden correcto, tampoco existan discontinuidades y se proteja de la lluvia durante el proceso de construcción, evitando que la humedad entre capas altere el comportamiento del sistema.
+
+\subsubsection*{Capas de la Cubierta Multicapa}
+
+Con independencia del sistema constructivo de la cubierta, hay una serie de capas que de forma general podemos encontrar en cualquier cubierta multicapa:
+
+\begin{enumerate}
+    \item Protección y Acabado: Dependiendo de las características de la capa impermeable, en muchos casos se necesita un sistema adicional de protección o incluso un acabado, como puede ser un pavimento, etcétera.
+    \item Impermeabilizante.Junto a la base estructural, será la más importante.
+    \item Capas Separadoras. Las hay de diferentes tipos y aplicaciones: malla geotextil, antipunzonamiento, desolidarización, etcétera.
+    \item Aislamiento Térmico. Es otro de los elementos esenciales siempre y cuando se trata de acondicionar un espacio interior. Aunque si lo que se realiza es un simple cobertizo sin paredes, ciertamente no sería necesario.
+    \item Barrera de Vapor. Al igual que en el cerramiento, siempre se dispondrá en la cara caliente del aislamiento térmico.
+    \item Capa o Sist. para Formación de Pendiente. Dependiendo de que tenga pendiente o no, a la base estructural se le añadirá una capa o sistema que dote de inclinación de evacuación a la cubierta.
+    \item Base Estructural. Es la primera y esencial. Puede ser un simple forjado o unas correas con un tablero o perfil de chapa, como el ejemplo que vemos en la figura \ref{fig: Capas de la cubierta multicapa segun su funcion}, que definen un plano sobre el que se apoya toda la cubrición.
+\end{enumerate}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Cubiertas. Capas de la cubierta multicapa.png}
+    \caption{Capas de la cubierta multicapa según su función.}
+    \label{fig: Capas de la cubierta multicapa segun su funcion}
+\end{figure}
+
+\subsubsection*{Clasificación y Tipologías de Cubiertas}
+
+Atendiendo a los tipos de cubierta, conviene identificar alguna terminología que nos ayuda en su designación:
+
+\begin{itemize}
+    \item Según su utilización: Se destacan las transitables, que se pueden diseñar y construyen para la estancia y circulación permanente de personas; en cambio, las no transitables son para un acceso esporádico del personal de mantenimiento. Las ajardinadas se destinan gracias a una capa de tierra vegetal a albergar jardines o simplemente un acabado vegetal protector.
+    \item Según la pendiente de sus faldones: Pueden ser inclinadas o planas. El Código Técnico contempla la cubierta plana con una pendiente que va desde el 1 al 5\%, por lo que la inclinada podrá considerarse a partir de ese 5\% de pendiente. Aunque, sin embargo, esta consideración no es muy estricta, ya que hay cubiertas que hasta con un 10\% de pendiente se siguen considerando planas. Dentro de las cubiertas inclinadas son denominaciones típicas según el número de faldones y su disposición: a un agua, a dos aguas, cuatro aguas, en mansarda o en diente de sierra, etcétera.
+\end{itemize}
+
+Atendiendo a los materiales de cobertura, pueden ser:
+
+\begin{itemize}
+    \item De material continuo: Totalmente impermeables, son el caso de las láminas asfálticas o bien de la familia de los plásticos.
+    \item De material discontinuo: En el que, a partir de piezas independientes, mediante el uso de la pendiente y el solape se consigue la impermeabilidad. Encontramos como elementos tradicionales la teja o la pizarra e incluso el zinc y el cobre. En edificios industriales, la chapa de acero o aluminio tanto con perfil en greca como en onda. También podemos ver (ya está en bastante desuso) la placa de fibrocemento, y para lucernarios nos podemos encontrar las planchas de policarbonato celular que tienen una capacidad translúcida para el paso de la luz.
+\end{itemize}
+
+\subsubsection*{Pendiente de la Cubierta}
+
+Dependiendo del sistema y material impermeabilizante, es aconsejable una pendiente mínima y máxima. Obviamente, los sistemas discontinuos precisan de bastante pendiente, mientras que las láminas impermeables admiten incluso pendiente cero.
+
+El rango de inclinación para la teja árabe varía entre 30 y 50 grados, mientras que la pizarra admite hasta el plano vertical (90 grados) debido a que va fijada con grapas.
+
+Centrándonos en fachadas de edificios industriales, la chapa grecada u ondulada tiene un rango muy amplio que va desde 10 grados hasta la vertical.
+
+Habrá que tener en cuenta que cuanto menor pendiente, mayor solape será necesario. Igualmente, hay que considerar que cuanto mayor es la pendiente, mayor exposición crea la cubierta al viento y por tanto sufrirá un mayor empuje. Cuanto menor sea la pendiente, en zonas de nieve mayor espesor se puede llegar a acumular de material (nieve) sobre ella.
+
+En el documento HS Salubridad del Código Técnico, se establecen pendientes mínimas. En el caso de cobertura de piezas discontinuas, para la teja curva o árabe se indica un mínimo de un 26\%, ya que con pendientes inferiores no hay garantía de impermeabilidad al agua-viento. En el caso de láminas o membranas impermeables, se establece una pendiente mínima que varía entre el 1 y el 5\%.
+
+\subsubsection*{Aislantes}
+
+En cuanto a materiales de cubrición, las láminas o membranas impermeables forman una superficie continua mediante la unión a base de bandas por soldadura (debido al calor) o aportación de materiales adhesivos. Estas láminas o membranas pueden ser adheridas o no adheridas al soporte, y además, salvo que sean autoprotegidas, necesitarán una protección adicional. Las soluciones habituales de protección contra la radiación solar (que se muestran en las figuras) evitan el daño por la acción mecánica o el punzonamiento, y también el efecto mencionado del sol.
+
+Todos los materiales aislantes térmicos son muy utilizados, y hay alguna de las propiedades que específicamente podemos mostrar aquí:
+
+\begin{itemize}
+    \item Poliestireno expandido (EPS): Es ligero y económico.
+    \item Poliestireno extruido (XPS): Tiene mayor capacidad aislante y un buen comportamiento para soportar cargas y, sobre todo, no pierde propiedades sumergido en agua.
+    \item Lana de roca: Combina un excelente comportamiento frente al fuego con un buen aislamiento acústico.
+    \item Vidrio celular: Es impermeable al vapor y, con placas selladas con un material bituminoso, proporciona también una barrera contra el vapor.
+\end{itemize}
+
+Dos tipos de aislantes frecuentes por sus grandes ventajas, pero con distintas aplicaciones, son la lana de roca (muy utilizada en cubiertas industriales) y la fibra de vidrio. Se utilizan en forma de mantas que son compresibles entre la subestructura y la chapa grecada. En apariencia se pueden llegar a confundir, pero la lana de roca tiene un comportamiento frente al fuego mucho mejor. También parten de materias primas diferentes: la lana de roca a partir de rocas volcánicas, y la segunda se fabrica a partir de filamentos de vidrio.
+
+Finalmente, el poliestireno extruido es adecuado para las cubiertas invertidas, ya que no sufren con la acción del agua. Y sobre todo también recordar que, para preservar la continuidad de las capas aislantes, se recomiendan sistemas que permitan crear juntas con solape.
+
+\subsubsection*{Otras Capas Complementarias}
+
+\begin{itemize}
+    \item Lámina geotextil: Actúa como fieltro filtrante y también como barrera anti-raíces.
+    \item Láminas separadoras: Facilitan el movimiento entre capas superpuestas.
+    \item Barrera de vapor: Puede ser de polietileno, polipropileno o papel de aluminio.
+    \item Lámina drenante: Al igual que en muros de contención, puede facilitar el drenaje del agua en cubiertas y aportar una protección adicional a la lámina impermeable.
+\end{itemize}
+
+\subsubsection*{Cubierta caliente / fría}
+
+\begin{itemize}
+    \item Cubierta caliente: Los elementos de cobertura descansan directamente sobre la base estructural sin dejar una cámara.
+    \item Cubierta fría: Se interpone una cámara ventilada entre el soporte de la cobertura y la base estructural, permitiendo disipar el calor en las épocas estivales.
+\end{itemize}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Cubierta Fria vs Caliente.png}
+    \caption{Cubierta caliente / fría.}
+    \label{fig: Cubierta Caliente vs Fria}
+\end{figure}
+
+En cuanto a la designación de elementos típicos en la cubierta podemos entrar en los siguientes vocablos:
+
+\begin{itemize}
+    \item Cumbrera: Es el encuentro entre los dos faldones y supone el punto más elevado de la cubierta.
+    \item Alero: Es la prolongación de la cubierta desde el plano de fachada.
+    \item Faldón: Constituye cada plano que define la cubierta inclinada.
+    \item Limatesa y Limahoya: Son encuentros convexo y cóncavo respectivamente.
+\end{itemize}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Designacion de elementos de la cubierta.png}
+    \caption{Designación de elementos de la cubierta.}
+    \label{fig: Elementos de la Cubierta}
+\end{figure}
+
+\subsubsection*{Organización Constructiva de la Cubierta. Creación de Pendiente}
+
+Para garantizar la evacuación del agua sobre la cubierta, se le debe dotar de una pendiente que se coordine con un sistema de recogida (formado por canalones, sumideros y bajantes) que conectarán con el sistema de saneamiento del edificio. El procedimiento para generar la pendiente es muy variado y depende en muchos casos de la base estructural y de lo elevada que sea la pendiente necesaria.
+
+Para cubiertas planas sobre forjado horizontal es habitual utilizar hormigones ligeros que aportan poco peso y de fácil ejecución. En cambio, para cubiertas con mayor pendiente, la capa de hormigón ligero puede suponer mucha sobrecarga y la solución conveniente es realizar una segunda hoja apoyada sobre una subestructura bien de un entramado o bien mediante muretes ligeros que apoyan sobre el forjado horizontal.
+
+Cuando la subestructura principal ya tiene inclinación no es necesario incorporar ningún elemento adicional para generar la pendiente. Es el caso de pórticos con pendientes, cerchas o forjados que ya están inclinados.
+
+\subsubsection*{Chapas Perfiladas y Paneles Sándwich}
+
+Mediante catálogos, los fabricantes de chapas perfiladas de acero, aluminio o incluso fibrocemento ofrecen al mercado de la construcción infinidad de tamaños y formas, que usualmente aparecen como grecas y ondas o incluso minionda. La separación entre correas que de forma orientativa podemos decir que podría estar entre 1 a 3 metros establecida en el diseño de la estructura, será determinante para seleccionar el canto, tipo de greca y chapa. Otro condicionante también será la dirección del viento.
+
+Como ya se comentó, la solución de panel sándwich es válida tanto para cerramiento como para cubierta. Es conveniente en este punto revisar lo ya explicado sobre la colocación del panel sándwich in situ que vimos en el apartado anterior.
+
+Respecto al panel sándwich prefabricado podemos decir que el panel para cubiertas inclinadas con una pendiente mínima de 7\% es adecuado. El sistema de tornillería con fijación oculta compuesta de una plaqueta de acero de espesor 2 milímetros con tornillo de acero autorroscante que garantiza el anclaje de los paneles contra la correa. La solución en este caso se completa con un perfil de acero tapajuntas, que está disponible en los mismos colores y acabados que los paneles de acero lacado. El diseño de esta pieza (que vemos en la figura y en los detalles) garantiza el aislamiento y la estanqueidad de la cubierta del edificio, como también vemos el alma aislante del panel térmico en este caso es espuma de poliuretano inyectada.
+
+\subsubsection*{Cubierta Plana}
+
+La cubierta plana es la que su pendiente oscila entre un 1 y un 5\% según el Código Técnico. En la tabla de la figura \ref{fig: Cubierta Plana. Composicion} se detalla la totalidad de capas que pueden llegar a componer una cubierta plana.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = 0.75 \columnwidth]{Imagenes/Tema 2. Cubierta Plana. Composicion.png}
+    \caption{Cubierta Plana. Composicion}
+    \label{fig: Cubierta Plana. Composicion}
+\end{figure}
+
+
+\begin{itemize}
+    \item Ejemplo 1 (figura \ref{fig: Cubierta Plana. Ejemplo 1}): Tenemos un forjado (BR) que define un plano horizontal estructural construido con lo que se nos ocurra (una vigueta, una bovedilla, losa alveolar, hormigón y chapa colaborante, etc.) sobre el que se dispone un hormigón ligero para dar pendiente (FP). Sobre la pendiente de hormigón y previamente al aislamiento térmico, se coloca una barrera de vapor para que esté en la cara caliente. Sobre la capa de aislamiento (AT) se dispone una capa separadora antiadherente, ya que la lámina impermeable elegida no es adherida. Esta capa permite que la lámina impermeable descanse y dilate libremente y no sufra desgarros de movimiento. Sobre la capa impermeable (IM) es frecuente situar una lámina separadora resistente al punzonamiento que refuerza superficialmente frente a posibles perforaciones puntuales. Finalmente al tratarse de una cubierta transitable, necesitará de un pavimento; para ello se colocará un mortero de agarre con baldosas.
+    \item Ejemplo 2 (figura \ref{fig: Cubierta Plana. Ejemplo 2}): Se presenta una solución para un cobertizo sin paredes, ya que no incluye aislamiento térmico. Además, la impermeabilización elegida es una lámina adherida, es decir, pegada al soporte mediante una imprimación. Tampoco necesitará barrera de vapor por tanto. Por otra parte, es una cubierta que solo se necesita acceder para su mantenimiento, por lo que la protección es una grava filtrante que actúa como lastre protector de la lámina impermeable.
+\end{itemize}
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[c]{0.48\columnwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Tema 2. Cubierta Plana. Ejemplo 1.png}
+        \caption{Ejemplo 1. Cubierta Transitable.}
+        \label{fig: Cubierta Plana. Ejemplo 1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[c]{0.48\columnwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Imagenes/Tema 2. Cubierta Plana. Ejemplo 2.png}
+        \caption{Ejemplo 2. Cubierta No Transitable.}
+        \label{fig: Cubierta Plana. Ejemplo 2}
+    \end{subfigure}
+    \caption{Cubierta Plana - Composición.}
+\end{figure}
+
+\subsubsection*{Cubierta Invertida}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = 0.75 \columnwidth]{Imagenes/Tema 2. Cubierta Invertida. Composicion.png}
+    \caption{Cubierta Invertida. Composicion}
+    \label{fig: Cubierta Invertida. Composicion}
+\end{figure}
+
+
+La cubierta invertida podemos decir que es aquella en la que el aislamiento térmico se sitúa por encima de la impermeabilización. Es una solución en la que el único tipo de aislamiento que se puede utilizar es el poliestireno extruido de alta densidad, ya que admite su inmersión en el agua sin afectar a su durabilidad ni perder propiedades aislantes.
+
+En caso de pavimento transitable, se recomienda la utilización de losas o baldosas prefabricadas colocadas sobre soportes y apoyadas directamente sobre el aislamiento, dejando libres las juntas para permitir la filtración de agua.
+
+Los elementos térmicos pierden propiedades aislantes con la humedad, además de sufrir un deterioro como ya se ha mencionado repetidamente. La lámina impermeabilizante de la cubierta tradicional sufre duramente la acción meteorológica (sometida a fuertes dilataciones y contracciones térmicas, acción ultravioleta) y está menos protegida superficialmente. Con la aparición del poliestireno extruido la capa aislante puede estar encima de la capa impermeable, ya que no importa que se moje. Ahora contribuye también a proteger la lámina impermeable de fuertes contrastes térmicos. Igualmente, ahora no será necesaria la barrera de vapor ya que la propia lámina impermeable la suplirá. Se trata por tanto de una solución tremendamente eficiente.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Cubierta Invertida. Ejemplos.png}
+    \caption{Cubierta Invertida. Ejemplos}
+    \label{fig: Cubierta Invertida. Ejemplos}
+\end{figure}
+
+\subsubsection*{Cubierta Tipo Deck}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = 0.75 \columnwidth]{Imagenes/Tema 2. Cubierta Deck. Composicion.png}
+    \caption{Cubierta Tipo Deck. Composicion}
+    \label{fig: Cubierta Tipo Deck. Composicion}
+\end{figure}
+
+La cubierta deck está diseñada principalmente para uso industrial. Se caracteriza por su simplicidad, ligereza y gran facilidad constructiva. En estas cubiertas, la base resistente es una chapa grecada de acero galvanizada colocada directamente sobre la estructura que proporciona la pendiente. La elección del tipo de greca y espesor de la chapa dependerá de las luces o distancias máximas entre correas y de la carga y sobrecargas consideradas sobre la cubierta.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Cubierta Deck. Ejemplos.png}
+    \caption{Cubierta Tipo Deck. Ejemplos}
+    \label{fig: Cubierta Tipo Deck. Ejemplos}
+\end{figure}
+
+En la figura \ref{fig: Cubierta Tipo Deck con Cerramiento Panel Sandwich} se muestra un encuentro de cerramiento de panel sándwich in situ con cubierta deck. Se trata de un punto singular que da una idea de la importancia que tiene resolver los remates mediante baberos, vierteaguas y solapes de forma que se pueda preservar la impermeabilidad del sistema.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width = \columnwidth]{Imagenes/Tema 2. Ejemplo Cubierta Deck.png}
+    \caption{Cubierta Tipo Deck con Cerramiento Panel Sandwich ``in situ''.}
+    \label{fig: Cubierta Tipo Deck con Cerramiento Panel Sandwich}
+\end{figure}
