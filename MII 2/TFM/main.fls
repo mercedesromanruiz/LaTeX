@@ -182,20 +182,6 @@ INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT main.bbl
-INPUT ./Documentos/Portada.pdf
-INPUT ./Documentos/Portada.pdf
-INPUT ./Documentos/Portada.pdf
-OUTPUT main.pdf
-INPUT ./Documentos/Portada.pdf
-INPUT ./Documentos/Portada.pdf
-INPUT ./Documentos/Portada.pdf
-INPUT ./Documentos/Portada.pdf
-INPUT ./Documentos/Portada.pdf
-INPUT ./Documentos/Portada.pdf
-INPUT ./Documentos/Portada.pdf
-INPUT ./Documentos/Portada.pdf
-INPUT ./Documentos/Portada.pdf
-INPUT ./Documentos/Portada.pdf
 INPUT ./Documentos/DeclaracionOriginalidad.tex
 INPUT ./Documentos/DeclaracionOriginalidad.tex
 INPUT Documentos/DeclaracionOriginalidad.tex
@@ -215,6 +201,7 @@ INPUT ./Documentos/Acronimos.tex
 INPUT ./Documentos/Acronimos.tex
 INPUT Documentos/Acronimos.tex
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
+OUTPUT main.pdf
 INPUT c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
@@ -268,6 +255,16 @@ INPUT ./Imagenes/MOSFET Canal N Esquema.png
 INPUT ./Capitulos/Capitulo 3 - Equipamiento y Entorno de Trabajo.tex
 INPUT ./Capitulos/Capitulo 3 - Equipamiento y Entorno de Trabajo.tex
 INPUT Capitulos/Capitulo 3 - Equipamiento y Entorno de Trabajo.tex
+INPUT ./Imagenes/IM828-XCC.png
+INPUT ./Imagenes/IM828-XCC.png
+INPUT ./Imagenes/IM828-XCC.png
+INPUT ./Imagenes/IM828-XCC.png
+INPUT ./Imagenes/IM828-XCC.png
+INPUT ./Imagenes/EVAL-M1-IM828-A Block Diagram.jpg
+INPUT ./Imagenes/EVAL-M1-IM828-A Block Diagram.jpg
+INPUT ./Imagenes/EVAL-M1-IM828-A Block Diagram.jpg
+INPUT ./Imagenes/EVAL-M1-IM828-A Block Diagram.jpg
+INPUT ./Imagenes/EVAL-M1-IM828-A Block Diagram.jpg
 INPUT ./Capitulos/Capitulo 4 - Modelado del MOSFET de SiC en Simulink.tex
 INPUT ./Capitulos/Capitulo 4 - Modelado del MOSFET de SiC en Simulink.tex
 INPUT Capitulos/Capitulo 4 - Modelado del MOSFET de SiC en Simulink.tex

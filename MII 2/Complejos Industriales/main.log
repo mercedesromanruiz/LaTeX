@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.9)  30 JUN 2026 14:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.9)  2 JUL 2026 19:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -597,10 +597,10 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
- (./main.aux
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
- (./Capitulos/Tema 1. Urbanismo industrial.aux) (./Capitulos/Tema 2. Edificación industrial.aux) (./Capitulos/Tema 3. Plantas industriales.aux))
+ (./main.aux (./Capitulos/Tema 2. Edificación industrial.aux)
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -701,335 +701,33 @@ Package hyperref Info: Link coloring OFF on input line 34.
 \openout4 = `main.out'.
 
 \c@subsubsubsection=\count444
- (./Documentos/Portada.tex)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 88.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 88.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 88.
-
-
-[1
-
-
-
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Documentos/Indices.tex
-
-[2
-
-
-
-] (./main.toc
-LaTeX Info: Redefining \sptext on input line 1.
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
-
-
-[3])
-\tf@toc=\write5
-\openout5 = `main.toc'.
-
-
-
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.07225pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
-
-[4]) (./Documentos/Cuerpo.tex
-\openout2 = `"Capitulos/Tema 1. Urbanismo industrial.aux"'.
-
- (./Capitulos/Tema 1. Urbanismo industrial.tex
-Cap\'{\i }tulo 1.
-
-Underfull \hbox (badness 6792) in paragraph at lines 10--11
-[]\OT1/cmr/m/n/10 ``Parque In-dus-trial'' o ``Pol^^S^^Pgono In-dus-trial'':
- []
-
-
-Underfull \hbox (badness 1655) in paragraph at lines 12--13
-\OT1/cmr/m/n/10 y me-dia-nas em-pre-sas, ya que en-tre los ser-vi-cios
- []
-
-
-Underfull \hbox (badness 4403) in paragraph at lines 12--13
-\OT1/cmr/m/n/10 a la in-fra-es-truc-tu-ra t^^Secni-ca o de equi-pa-mien-to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-\OT1/cmr/m/n/10 (abas-te-ci-mien-to de energ^^S^^Pa, agua, es-ta-cio-nes
- []
-
-
-Underfull \hbox (badness 2980) in paragraph at lines 12--13
-\OT1/cmr/m/n/10 dis-po-ner de ser-vi-cios em-pre-sa-ria-les co-mu-nes que
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-[]\OT1/cmr/m/n/10 Presencia de ins-ti-tu-cio-nes de-di-ca-das a la
- []
-
-
-
-
-Underfull \hbox (badness 2119) in paragraph at lines 28--29
-[]\OT1/cmr/m/n/10 Las nor-mas de pla-nea-mien-to es-truc-tu-ran-tes o
- []
-
-
-Underfull \hbox (badness 1122) in paragraph at lines 35--38
-[]\OT1/cmr/m/n/10 Retranqueo. Con-cep-to: son las dis-tan-cias que
- []
-
-
-Underfull \hbox (badness 1028) in paragraph at lines 35--38
-\OT1/cmr/m/n/10 or-de-nan-zas sue-len es-ta-ble-cer unos re-tran-queos
- []
-
-
-Underfull \hbox (badness 1221) in paragraph at lines 43--46
-[]\OT1/cmr/m/n/10 Altura m^^Saxi-ma. La al-tu-ra m^^Saxi-ma, co-mo ya
- []
-
-
-Underfull \hbox (badness 3199) in paragraph at lines 43--46
-\OT1/cmr/m/n/10 que im-po-ne to-da or-de-nan-za si bien, en el
- []
-
-
-Underfull \hbox (badness 1077) in paragraph at lines 43--46
-\OT1/cmr/m/n/10 ca-so de la in-dus-tria (en el que di-cha al-tu-ra
- []
-
-
-Underfull \hbox (badness 5374) in paragraph at lines 43--46
-\OT1/cmr/m/n/10 m^^Saxi-ma sue-le li-mi-tar-se bas-tan-te -10 a 15
- []
-
-
-Underfull \hbox (badness 3068) in paragraph at lines 43--46
-\OT1/cmr/m/n/10 po-si-bi-li-dad de ex-cep-cio-nes por ei-gen-cias del
- []
-
-
-
-[5
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-[]\OT1/cmr/m/n/10 Licencia de Pri-me-ra Ocu-pa-ci^^Son (LPO)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-[]\OT1/cmr/m/n/10 Licencia de Fun-cio-na-mien-to (Ayun-ta-mien-to
- []
-
-
-Underfull \hbox (badness 3954) in paragraph at lines 57--58
-[]\OT1/cmr/m/n/10 Autorizaciones Fi-na-les (Con-se-jer^^S^^Pas + otros:
- []
-
-
-Underfull \hbox (badness 2384) in paragraph at lines 62--63
-[]\OT1/cmr/m/n/10 Obras que ha-yan de rea-li-zar-se con car^^Sacter
- []
-
-
-Underfull \hbox (badness 4217) in paragraph at lines 66--67
-[]\OT1/cmr/m/n/10 El uso del vue-lo so-bre las edi-fi-ca-cio-nes e
- []
-
-
-Underfull \hbox (badness 3907) in paragraph at lines 67--68
-[]\OT1/cmr/m/n/10 La mo-di-fi-ca-ci^^Son del uso de los edi-fi-cios e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
-[]\OT1/cmr/m/n/10 Las ins-ta-la-cio-nes sub-terr^^Saneas de-di-ca-das
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
-\OT1/cmr/m/n/10 a apar-ca-mien-tos, ac-ti-vi-da-des in-dus-tria-les,
- []
-
-
-
-
-Underfull \hbox (badness 7558) in paragraph at lines 78--79
-[]\OT1/cmr/m/n/10 Licencia de pri-me-ra ocu-pa-ci^^Son (c^^Sedu-la de
- []
-
-
-Underfull \hbox (badness 7869) in paragraph at lines 81--83
-\OT1/cmr/m/n/10 au-to-ri-za-cio-nes sa-ni-ta-rias, in-dus-tria, te-rra-zas,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-\OT1/cmr/m/n/10 las li-cen-cias de-no-mi-na-das ECU's (En-ti-dad
- []
-
-
-Underfull \hbox (badness 1163) in paragraph at lines 94--95
-[]\OT1/cmr/m/n/10 Otras en-ti-da-des o par-ti-cu-la-res (re-cla-ma-cio-nes,
- []
-
-
-
-LaTeX Info: Redefining \. on input line 103.
-LaTeX Info: Redefining \% on input line 103.
-[6]
-Underfull \hbox (badness 1748) in paragraph at lines 105--106
-\OT1/cmr/m/n/10 tie-nen una li-mi-ta-da in-fluen-cia en el en-torno
- []
-
-
-Underfull \hbox (badness 4120) in paragraph at lines 105--106
-\OT1/cmr/m/n/10 de-cla-ra-ci^^Son sus-cri-ta por t^^Secni-co com-pe-ten-te,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
-[]\OT1/cmr/m/n/10 Actuaciones co-mu-ni-ca-das: Aque-llas que no
- []
-
-
-Underfull \hbox (badness 3780) in paragraph at lines 106--108
-\OT1/cmr/m/n/10 no re-quei-ren unas con-di-cio-nes de se-gu-ri-dad
- []
-
-
-Underfull \hbox (badness 1132) in paragraph at lines 117--118
-[]\OT1/cmr/m/n/10 Plan Ge-ne-ral de Or-de-na-ci^^Son Ur-ba-na del
- []
-
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
-[]\OT1/cmr/m/n/10 Arquitectura:Volumen, edi-fi-ca-bi-li-dad,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
-[]\OT1/cmr/m/n/10 Instalaciones: Jus-ti-fi-ca-ci^^Son Me-dio
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
-\OT1/cmr/m/n/10 Am-bien-te, rui-dos, aco-me-ti-da
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-[]\OT1/cmr/m/n/10 Informe pre-cep-ti-vo (Edi-fi-cios BIC
- []
-
-
-Underfull \hbox (badness 8094) in paragraph at lines 143--144
-\OT1/cmr/m/n/10 en Ma-drid a trav^^Ses de la Co-mi-si^^Son
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
-[]\OT1/cmr/m/n/10 Subsanaci^^Son de re-que-ri-mien-tos (Po-si-ble
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
-[]\OT1/cmr/m/n/10 Mediante Cer-ti-fi-ca-do de Con-for-mi-dad
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-[]\OT1/cmr/m/n/10 Visado del pro-yec-to; es ne-ce-sa-ria la
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-\OT1/cmr/m/n/10 Cer-ti-fi-ca-ci^^Son Energ^^Seti-ca del pro-yec-to
- []
-
-
-Underfull \hbox (badness 6412) in paragraph at lines 162--165
-[]\OT1/cmr/m/n/10 Legalizaciones Du-ran-te la eje-cu-ci^^Son de las
- []
-
-
-
-LaTeX Info: Redefining \. on input line 172.
-LaTeX Info: Redefining \% on input line 172.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.07225pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
-
-[7{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Underfull \hbox (badness 2735) in paragraph at lines 221--222
-[]\OT1/cmr/m/n/10 La red de abas-te-ci-mien-to es el con-jun-to de
- []
-
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
-[]\OT1/cmr/m/n/10 Suministro efec-ti-vo. Sis-te-ma com-ple-to que
- []
-
-
-Underfull \hbox (badness 5741) in paragraph at lines 235--236
-\OT1/cmr/m/n/10 ga-ran-ti-ce su-mi-nis-tro, in-clu-so en con-di-cio-nes
- []
-
-)
-
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-[8]
+ (./Documentos/Cuerpo.tex
 \openout2 = `"Capitulos/Tema 2. Edificación industrial.aux"'.
 
  (./Capitulos/Tema 2. Edificación industrial.tex
 Cap\'{\i }tulo 2.
-<Imagenes/Tema 2. Componentes.png, id=236, 340.27126pt x 231.86626pt>
+<Imagenes/Tema 2. Componentes.png, id=60, 340.27126pt x 231.86626pt>
 File: Imagenes/Tema 2. Componentes.png Graphic file (type png)
 <use Imagenes/Tema 2. Componentes.png>
-Package pdftex.def Info: Imagenes/Tema 2. Componentes.png  used on input line 8.
+Package pdftex.def Info: Imagenes/Tema 2. Componentes.png  used on input line 9.
 (pdftex.def)             Requested size: 236.84843pt x 161.39246pt.
-<Imagenes/Tema 2. Diseño Estructural.png, id=239, 2280.52pt x 1889.0575pt>
+<Imagenes/Tema 2. Diseño Estructural.png, id=63, 2280.52pt x 1889.0575pt>
 File: Imagenes/Tema 2. Diseño Estructural.png Graphic file (type png)
 <use Imagenes/Tema 2. Diseño Estructural.png>
-Package pdftex.def Info: Imagenes/Tema 2. Diseño Estructural.png  used on input line 27.
+Package pdftex.def Info: Imagenes/Tema 2. Diseño Estructural.png  used on input line 28.
 (pdftex.def)             Requested size: 236.84843pt x 196.18063pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 32--33
+Underfull \hbox (badness 1454) in paragraph at lines 33--34
 \OT1/cmr/m/n/10 de nues-tra na-ve in-dus-trial, de ma-ne-ra que es-tas
  []
 
 
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 36--37
+Underfull \hbox (badness 2495) in paragraph at lines 37--38
 []\OT1/cmr/m/n/10 El p^^Sorti-co es el com-po-nen-te es-truc-tu-ral m^^Sas
  []
 
@@ -1038,85 +736,84 @@ Underfull \vbox (badness 1253) has occurred while \output is active []
 
 
 
-[9
-
+[1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
  <./Imagenes/Tema 2. Componentes.png> <./Imagenes/Tema 2. Diseño Estructural.png>]
-Underfull \hbox (badness 1028) in paragraph at lines 44--45
+Underfull \hbox (badness 1028) in paragraph at lines 45--46
 []\OT1/cmr/m/n/10 Uno de los as-pec-tos m^^Sas im-por-tan-tes a te-ner
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 44--45
+Underfull \hbox (badness 1783) in paragraph at lines 45--46
 \OT1/cmr/m/n/10 en cuen-ta en el di-se~no de na-ves in-dus-tria-les es
  []
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 46--47
+Underfull \hbox (badness 1845) in paragraph at lines 47--48
 \OT1/cmr/m/n/10 su-fi-cien-te-men-te gran-de pa-ra que la in-fluen-cia de
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 46--47
+Underfull \hbox (badness 2035) in paragraph at lines 47--48
 \OT1/cmr/m/n/10 los efec-tos de se-gun-do or-den pue-da con-si-de-rar-se
  []
 
 
-Underfull \hbox (badness 7869) in paragraph at lines 46--47
+Underfull \hbox (badness 7869) in paragraph at lines 47--48
 \OT1/cmr/m/n/10 des-pre-cia-ble. Ser^^Sa por tan-to ne-ce-sa-rio apor-tar
  []
 
-<Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros.png, id=249, 353.06906pt x 244.66406pt>
+<Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros.png, id=76, 353.06906pt x 244.66406pt>
 File: Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros.png Graphic file (type png)
 <use Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros.png>
-Package pdftex.def Info: Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros.png  used on input line 52.
+Package pdftex.def Info: Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros.png  used on input line 53.
 (pdftex.def)             Requested size: 113.68623pt x 78.77942pt.
-<Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros (1).png, id=250, 357.58594pt x 252.19218pt>
+<Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros (1).png, id=77, 357.58594pt x 252.19218pt>
 File: Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros (1).png Graphic file (type png)
 <use Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros (1).png>
-Package pdftex.def Info: Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros (1).png  used on input line 59.
+Package pdftex.def Info: Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros (1).png  used on input line 60.
 (pdftex.def)             Requested size: 113.68623pt x 80.1798pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 []\OT1/cmr/m/n/10 ?`C^^Somo dis-po-ne-mos en-ton-ces es-tos
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 67--68
+Underfull \hbox (badness 3250) in paragraph at lines 68--69
 \OT1/cmr/m/n/10 en la di-rec-ci^^Son de la car-ga. Pa-ra evi-tar es-tos
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 67--68
+Underfull \hbox (badness 1484) in paragraph at lines 68--69
 \OT1/cmr/m/n/10 des-pla-za-mien-tos, lo que ha-ce-mos es co-lo-car unos
  []
 
 
-Underfull \hbox (badness 3396) in paragraph at lines 67--68
+Underfull \hbox (badness 3396) in paragraph at lines 68--69
 \OT1/cmr/m/n/10 n^^Sucleos r^^S^^Pgi-dos me-dian-te arrios-tra-mien-tos en las
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 67--68
+Underfull \hbox (badness 1005) in paragraph at lines 68--69
 \OT1/cmr/m/n/10 es-qui-nas, que ser^^San los en-car-ga-dos de re-sis-tir las
  []
 
 
-Underfull \hbox (badness 4726) in paragraph at lines 67--68
+Underfull \hbox (badness 4726) in paragraph at lines 68--69
 \OT1/cmr/m/n/10 se trans-mi-ten a es-tos n^^Sucleos r^^S^^Pgi-dos, tam-bi^^Sen
  []
 
-<Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas.png, id=252, 663.98062pt x 456.20438pt>
+<Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas.png, id=79, 663.98062pt x 456.20438pt>
 File: Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas.png Graphic file (type png)
 <use Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas.png>
-Package pdftex.def Info: Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas.png  used on input line 73.
+Package pdftex.def Info: Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas.png  used on input line 74.
 (pdftex.def)             Requested size: 113.68623pt x 78.1106pt.
-<Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas (1).png, id=253, 638.385pt x 447.92343pt>
+<Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas (1).png, id=80, 638.385pt x 447.92343pt>
 File: Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas (1).png Graphic file (type png)
 <use Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas (1).png>
-Package pdftex.def Info: Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas (1).png  used on input line 80.
+Package pdftex.def Info: Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas (1).png  used on input line 81.
 (pdftex.def)             Requested size: 113.68623pt x 79.76155pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1124,90 +821,90 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-Underfull \hbox (badness 3407) in paragraph at lines 94--95
+Underfull \hbox (badness 3407) in paragraph at lines 95--96
 []\OT1/cmr/m/n/10 En mu-chos ca-sos, las obras de cons-truc-ci^^Son
  []
 
 
-Underfull \hbox (badness 3098) in paragraph at lines 94--95
+Underfull \hbox (badness 3098) in paragraph at lines 95--96
 \OT1/cmr/m/n/10 re-quie-ren al-te-rar el te-rreno y la rea-li-za-ci^^Son de
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 94--95
+Underfull \hbox (badness 1831) in paragraph at lines 95--96
 \OT1/cmr/m/n/10 te-rreno, es-te tien-de a man-te-ner-se es-ta-ble en un
  []
 
-<Imagenes/Tema 2. Angulo de Rozamiento Interno.png, id=255, 451.6875pt x 120.45pt>
+<Imagenes/Tema 2. Angulo de Rozamiento Interno.png, id=82, 451.6875pt x 120.45pt>
 File: Imagenes/Tema 2. Angulo de Rozamiento Interno.png Graphic file (type png)
 <use Imagenes/Tema 2. Angulo de Rozamiento Interno.png>
-Package pdftex.def Info: Imagenes/Tema 2. Angulo de Rozamiento Interno.png  used on input line 98.
+Package pdftex.def Info: Imagenes/Tema 2. Angulo de Rozamiento Interno.png  used on input line 99.
 (pdftex.def)             Requested size: 236.84843pt x 63.15999pt.
-<Imagenes/Tema 2. Elementos de Contención.png, id=256, 455.45157pt x 268.00125pt>
+<Imagenes/Tema 2. Elementos de Contención.png, id=83, 455.45157pt x 268.00125pt>
 File: Imagenes/Tema 2. Elementos de Contención.png Graphic file (type png)
 <use Imagenes/Tema 2. Elementos de Contención.png>
-Package pdftex.def Info: Imagenes/Tema 2. Elementos de Contención.png  used on input line 106.
+Package pdftex.def Info: Imagenes/Tema 2. Elementos de Contención.png  used on input line 107.
 (pdftex.def)             Requested size: 236.84843pt x 139.36961pt.
 
 
-LaTeX Info: Redefining \. on input line 113.
-LaTeX Info: Redefining \% on input line 113.
-[10 <./Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros.png> <./Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros (1).png> <./Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas.png> <./Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas (1).png> <./Imagenes/Tema 2. Angulo de Rozamiento Interno.png> <./Imagenes/Tema 2. Elementos de Contención.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+LaTeX Info: Redefining \. on input line 114.
+LaTeX Info: Redefining \% on input line 114.
+[2 <./Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros.png> <./Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros (1).png> <./Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas.png> <./Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas (1).png> <./Imagenes/Tema 2. Angulo de Rozamiento Interno.png> <./Imagenes/Tema 2. Elementos de Contención.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
 []\OT1/cmr/m/n/10 Son aque-llas que por su geo-metr^^S^^Pa o
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 143--144
+Underfull \hbox (badness 1014) in paragraph at lines 144--145
 []\OT1/cmr/m/n/10 El mu-ro de con-ten-ci^^Son se di-se~na pa-ra re-sis-tir
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 143--144
+Underfull \hbox (badness 1342) in paragraph at lines 144--145
 \OT1/cmr/m/n/10 el em-pu-je hi-drost^^Sati-co. Se tra-ta de un mu-ro de
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 143--144
+Underfull \hbox (badness 1178) in paragraph at lines 144--145
 \OT1/cmr/m/n/10 hor-mig^^Son ar-ma-do que trans-mi-te sus so-li-ci-ta-cio-nes
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 143--144
+Underfull \hbox (badness 1383) in paragraph at lines 144--145
 \OT1/cmr/m/n/10 y de com-pre-si^^Son en el in-trad^^Sos. La ar-ma-du-ra o
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 143--144
+Underfull \hbox (badness 1314) in paragraph at lines 144--145
 \OT1/cmr/m/n/10 el in-trad^^Sos y en la di-rec-ci^^Son lon-gi-tu-di-nal de-ber^^Sa
  []
 
 
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 147--148
+Underfull \hbox (badness 1052) in paragraph at lines 148--149
 \OT1/cmr/m/n/10 im-por-tan-te con el mu-ro de con-ten-ci^^Son es que la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 []\OT1/cmr/m/n/10 Sistemas su-per-fi-cia-les: me-dian-te l^^Sami-nas
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 162--163
+Underfull \hbox (badness 1960) in paragraph at lines 163--164
 \OT1/cmr/m/n/10 se en-car-ga de trans-mi-tir las so-li-ci-ta-cio-nes de la
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 162--163
+Underfull \hbox (badness 1248) in paragraph at lines 163--164
 \OT1/cmr/m/n/10 su-per-es-truc-tu-ra al te-rreno, de ma-ne-ra que no se
  []
 
 
 
-LaTeX Info: Redefining \. on input line 163.
-LaTeX Info: Redefining \% on input line 163.
+LaTeX Info: Redefining \. on input line 164.
+LaTeX Info: Redefining \% on input line 164.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
@@ -1215,21 +912,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[11]
-<Imagenes/Tema 2. Tipos de Cimentaciones.png, id=276, 672.26157pt x 636.87938pt>
+[3]
+<Imagenes/Tema 2. Tipos de Cimentaciones.png, id=104, 672.26157pt x 636.87938pt>
 File: Imagenes/Tema 2. Tipos de Cimentaciones.png Graphic file (type png)
 <use Imagenes/Tema 2. Tipos de Cimentaciones.png>
-Package pdftex.def Info: Imagenes/Tema 2. Tipos de Cimentaciones.png  used on input line 166.
+Package pdftex.def Info: Imagenes/Tema 2. Tipos de Cimentaciones.png  used on input line 167.
 (pdftex.def)             Requested size: 236.84843pt x 224.37854pt.
 
-Underfull \hbox (badness 2326) in paragraph at lines 181--182
+Underfull \hbox (badness 2326) in paragraph at lines 182--183
 \OT1/cmr/m/n/10 su-per-fi-cia-les con-ti-nuas co-mo son las lo-sas o los
  []
 
-<Imagenes/Tema 2. Tipos de Zapatas.png, id=277, 777.65532pt x 622.57594pt>
+<Imagenes/Tema 2. Tipos de Zapatas.png, id=105, 777.65532pt x 622.57594pt>
 File: Imagenes/Tema 2. Tipos de Zapatas.png Graphic file (type png)
 <use Imagenes/Tema 2. Tipos de Zapatas.png>
-Package pdftex.def Info: Imagenes/Tema 2. Tipos de Zapatas.png  used on input line 185.
+Package pdftex.def Info: Imagenes/Tema 2. Tipos de Zapatas.png  used on input line 186.
 (pdftex.def)             Requested size: 236.84843pt x 189.61464pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1237,85 +934,89 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-Underfull \hbox (badness 3375) in paragraph at lines 208--209
+Underfull \hbox (badness 3375) in paragraph at lines 209--210
 []\OT1/cmr/m/n/10 Vigas cen-tra-do-ras: Unen za-pa-tas co-lin-dan-tes
  []
 
 
-Underfull \hbox (badness 2799) in paragraph at lines 208--209
+Underfull \hbox (badness 2799) in paragraph at lines 209--210
 \OT1/cmr/m/n/10 pa-ra ab-sor-ber los mo-men-tos flec-to-res de la
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 209--210
+Underfull \hbox (badness 1281) in paragraph at lines 210--211
 []\OT1/cmr/m/n/10 Vigas de ata-do o rios-tras: Ca-rac-ter^^S^^Psti-cas en
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 209--210
+Underfull \hbox (badness 1742) in paragraph at lines 210--211
 \OT1/cmr/m/n/10 de-bi-das al sis-mo, evi-tan-do el des-pla-za-mien-to
  []
 
 
 
-LaTeX Info: Redefining \. on input line 210.
-LaTeX Info: Redefining \% on input line 210.
-[12 <./Imagenes/Tema 2. Tipos de Cimentaciones.png> <./Imagenes/Tema 2. Tipos de Zapatas.png>]
-Underfull \hbox (badness 1990) in paragraph at lines 214--215
+LaTeX Info: Redefining \. on input line 211.
+LaTeX Info: Redefining \% on input line 211.
+[4{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Imagenes/Tema 2. Tipos de Cimentaciones.png> <./Imagenes/Tema 2. Tipos de Zapatas.png>]
+Underfull \hbox (badness 1990) in paragraph at lines 215--216
 []\OT1/cmr/m/n/10 Cuando no po-da-mos uti-li-zar una ci-men-ta-ci^^Son
  []
 
-<Imagenes/Tema 2. Pilotes.png, id=292, 999.735pt x 422.32782pt>
+<Imagenes/Tema 2. Pilotes.png, id=121, 999.735pt x 422.32782pt>
 File: Imagenes/Tema 2. Pilotes.png Graphic file (type png)
 <use Imagenes/Tema 2. Pilotes.png>
-Package pdftex.def Info: Imagenes/Tema 2. Pilotes.png  used on input line 222.
+Package pdftex.def Info: Imagenes/Tema 2. Pilotes.png  used on input line 223.
 (pdftex.def)             Requested size: 236.84843pt x 100.05257pt.
 
-Underfull \hbox (badness 2103) in paragraph at lines 223--223
+Underfull \hbox (badness 2103) in paragraph at lines 224--224
 []\OT1/cmr/m/n/10 Figura 2.9: |Es-que-ma de ci-men-ta-cio-nes pro-fun-das
  []
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 228--229
+Underfull \hbox (badness 2310) in paragraph at lines 229--230
 []\OT1/cmr/m/n/10 Por su for-ma de tra-ba-jo: Pi-lo-tes por fus-te
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 229--230
+Underfull \hbox (badness 3209) in paragraph at lines 230--231
 []\OT1/cmr/m/n/10 Por su cons-truc-ci^^Son: Pue-den ser in si-tu o
  []
 
 
 
 
-Underfull \hbox (badness 7504) in paragraph at lines 238--239
+Underfull \hbox (badness 7504) in paragraph at lines 239--240
 \OT1/cmr/m/n/10 el pi-lo-te has-ta al-can-zar la pro-fun-di-dad o el
  []
 
 
-Underfull \hbox (badness 2173) in paragraph at lines 246--247
+Underfull \hbox (badness 2173) in paragraph at lines 247--248
 []\OT1/cmr/m/n/10 El en-ce-pa-do es un ele-men-to es-truc-tu-ral muy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 []\OT1/cmr/m/n/10 Es fun-da-men-tal dis-po-ner de ar-ma-du-ra
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 250--251
+Underfull \hbox (badness 1158) in paragraph at lines 251--252
 []\OT1/cmr/m/n/10 Es ex-tre-ma-da-men-te im-por-tan-te co-lo-car cer-cos
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 250--251
+Underfull \hbox (badness 1735) in paragraph at lines 251--252
 \OT1/cmr/m/n/10 trans-ver-sa-les pa-ra re-sis-tir el enor-me es-fuer-zo
  []
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 256.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 256.
 
 
-LaTeX Info: Redefining \. on input line 263.
-LaTeX Info: Redefining \% on input line 263.
+LaTeX Info: Redefining \. on input line 264.
+LaTeX Info: Redefining \% on input line 264.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
@@ -1323,23 +1024,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[13 <./Imagenes/Tema 2. Pilotes.png>]
-Underfull \hbox (badness 2401) in paragraph at lines 326--327
+[5 <./Imagenes/Tema 2. Pilotes.png>]
+Underfull \hbox (badness 2401) in paragraph at lines 327--328
 \OT1/cmr/m/n/10 cons-truc-ci^^Son de las es-truc-tu-ras de ace-ro son la
  []
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 326--327
+Underfull \hbox (badness 1748) in paragraph at lines 327--328
 \OT1/cmr/m/n/10 de Edi-fi-ca-ci^^Son de Ace-ro. Por otro la-do te-ne-mos
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 326--327
+Underfull \hbox (badness 1092) in paragraph at lines 327--328
 \OT1/cmr/m/n/10 la nor-ma eu-ro-pea, Eu-roc^^Sodi-go 3, que si bien no
  []
 
 
-Underfull \hbox (badness 1286) in paragraph at lines 326--327
+Underfull \hbox (badness 1286) in paragraph at lines 327--328
 \OT1/cmr/m/n/10 es de obli-ga-do cum-pli-mien-to en Es-pa~na, es muy
  []
 
@@ -1347,23 +1048,23 @@ Underfull \hbox (badness 1286) in paragraph at lines 326--327
 
 
 
-LaTeX Info: Redefining \. on input line 327.
-LaTeX Info: Redefining \% on input line 327.
-[14]
-<Imagenes/Tema 2. Clases UNE EN I0025 Acero.png, id=308, 459.96844pt x 301.125pt>
+LaTeX Info: Redefining \. on input line 328.
+LaTeX Info: Redefining \% on input line 328.
+[6]
+<Imagenes/Tema 2. Clases UNE EN I0025 Acero.png, id=136, 459.96844pt x 301.125pt>
 File: Imagenes/Tema 2. Clases UNE EN I0025 Acero.png Graphic file (type png)
 <use Imagenes/Tema 2. Clases UNE EN I0025 Acero.png>
-Package pdftex.def Info: Imagenes/Tema 2. Clases UNE EN I0025 Acero.png  used on input line 330.
+Package pdftex.def Info: Imagenes/Tema 2. Clases UNE EN I0025 Acero.png  used on input line 331.
 (pdftex.def)             Requested size: 236.84843pt x 155.06042pt.
-<Imagenes/Tema 2. Acero. Elementos laminados en caliente.png, id=310, 527.72156pt x 356.0803pt>
+<Imagenes/Tema 2. Acero. Elementos laminados en caliente.png, id=138, 527.72156pt x 356.0803pt>
 File: Imagenes/Tema 2. Acero. Elementos laminados en caliente.png Graphic file (type png)
 <use Imagenes/Tema 2. Acero. Elementos laminados en caliente.png>
-Package pdftex.def Info: Imagenes/Tema 2. Acero. Elementos laminados en caliente.png  used on input line 344.
+Package pdftex.def Info: Imagenes/Tema 2. Acero. Elementos laminados en caliente.png  used on input line 345.
 (pdftex.def)             Requested size: 236.84843pt x 159.81085pt.
-<Imagenes/Tema 2. Acero. Elementos laminados en caliente (1).png, id=311, 490.08093pt x 329.73187pt>
+<Imagenes/Tema 2. Acero. Elementos laminados en caliente (1).png, id=139, 490.08093pt x 329.73187pt>
 File: Imagenes/Tema 2. Acero. Elementos laminados en caliente (1).png Graphic file (type png)
 <use Imagenes/Tema 2. Acero. Elementos laminados en caliente (1).png>
-Package pdftex.def Info: Imagenes/Tema 2. Acero. Elementos laminados en caliente (1).png  used on input line 349.
+Package pdftex.def Info: Imagenes/Tema 2. Acero. Elementos laminados en caliente (1).png  used on input line 350.
 (pdftex.def)             Requested size: 236.84843pt x 159.35121pt.
 
 
@@ -1371,48 +1072,48 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-<Imagenes/Tema 2. Acero. Elementos conformados en frio.png, id=313, 475.7775pt x 337.26pt>
+<Imagenes/Tema 2. Acero. Elementos conformados en frio.png, id=141, 475.7775pt x 337.26pt>
 File: Imagenes/Tema 2. Acero. Elementos conformados en frio.png Graphic file (type png)
 <use Imagenes/Tema 2. Acero. Elementos conformados en frio.png>
-Package pdftex.def Info: Imagenes/Tema 2. Acero. Elementos conformados en frio.png  used on input line 367.
+Package pdftex.def Info: Imagenes/Tema 2. Acero. Elementos conformados en frio.png  used on input line 368.
 (pdftex.def)             Requested size: 236.84843pt x 167.89368pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 372--373
+Underfull \hbox (badness 1210) in paragraph at lines 373--374
 []\OT1/cmr/m/n/10 Otros ele-men-tos que se uti-li-zan ha-bi-tual-men-te
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 372--373
+Underfull \hbox (badness 2189) in paragraph at lines 373--374
 \OT1/cmr/m/n/10 en la cons-truc-ci^^Son son los con-for-ma-dos en fr^^S^^Po.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 372--373
+Underfull \hbox (badness 3009) in paragraph at lines 373--374
 \OT1/cmr/m/n/10 de fa-bri-ca-ci^^Son dis-tin-to, don-de l^^Sami-nas de ace-ro
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 372--373
+Underfull \hbox (badness 2635) in paragraph at lines 373--374
 \OT1/cmr/m/n/10 mix-tas de ace-ro y hor-mig^^Son o co-mo ele-men-tos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
 []\OT1/cmr/m/n/10 Estas l^^Sami-nas tie-nen es-pe-so-res t^^S^^Ppi-ca-men-te
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 374--375
+Underfull \hbox (badness 1024) in paragraph at lines 375--376
 \OT1/cmr/m/n/10 mu-cho cui-da-do con las co-rro-sio-nes y las po-si-bles
  []
 
 
 
-LaTeX Info: Redefining \. on input line 376.
-LaTeX Info: Redefining \% on input line 376.
+LaTeX Info: Redefining \. on input line 377.
+LaTeX Info: Redefining \% on input line 377.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
@@ -1420,109 +1121,109 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[15 <./Imagenes/Tema 2. Clases UNE EN I0025 Acero.png> <./Imagenes/Tema 2. Acero. Elementos laminados en caliente.png> <./Imagenes/Tema 2. Acero. Elementos laminados en caliente (1).png>]
-Underfull \hbox (badness 2065) in paragraph at lines 380--381
+[7 <./Imagenes/Tema 2. Clases UNE EN I0025 Acero.png> <./Imagenes/Tema 2. Acero. Elementos laminados en caliente.png> <./Imagenes/Tema 2. Acero. Elementos laminados en caliente (1).png>]
+Underfull \hbox (badness 2065) in paragraph at lines 381--382
 []\OT1/cmr/m/n/10 La in-fluen-cia de es-te ci-clo t^^Sermi-co so-bre las
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 380--381
+Underfull \hbox (badness 1661) in paragraph at lines 381--382
 \OT1/cmr/m/n/10 pro-pie-da-des mec^^Sani-cas del ace-ro de-pen-der^^Sa so-bre
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 380--381
+Underfull \hbox (badness 1742) in paragraph at lines 381--382
 \OT1/cmr/m/n/10 to-do de su con-te-ni-do en car-bono, sien-do me-nos
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 380--381
+Underfull \hbox (badness 3039) in paragraph at lines 381--382
 \OT1/cmr/m/n/10 in-flu-yen-te en los ace-ros con ba-jo con-te-ni-do en
  []
 
-<Imagenes/Tema 2. Acero. Union Soldada (1).png, id=323, 227.34938pt x 212.29312pt>
+<Imagenes/Tema 2. Acero. Union Soldada (1).png, id=152, 227.34938pt x 212.29312pt>
 File: Imagenes/Tema 2. Acero. Union Soldada (1).png Graphic file (type png)
 <use Imagenes/Tema 2. Acero. Union Soldada (1).png>
-Package pdftex.def Info: Imagenes/Tema 2. Acero. Union Soldada (1).png  used on input line 386.
+Package pdftex.def Info: Imagenes/Tema 2. Acero. Union Soldada (1).png  used on input line 387.
 (pdftex.def)             Requested size: 113.68623pt x 106.15926pt.
-<Imagenes/Tema 2. Acero. Union Soldada (2).png, id=324, 233.37187pt x 225.09094pt>
+<Imagenes/Tema 2. Acero. Union Soldada (2).png, id=153, 233.37187pt x 225.09094pt>
 File: Imagenes/Tema 2. Acero. Union Soldada (2).png Graphic file (type png)
 <use Imagenes/Tema 2. Acero. Union Soldada (2).png>
-Package pdftex.def Info: Imagenes/Tema 2. Acero. Union Soldada (2).png  used on input line 393.
+Package pdftex.def Info: Imagenes/Tema 2. Acero. Union Soldada (2).png  used on input line 394.
 (pdftex.def)             Requested size: 113.68623pt x 109.65324pt.
 
-Underfull \hbox (badness 1107) in paragraph at lines 404--405
+Underfull \hbox (badness 1107) in paragraph at lines 405--406
 \OT1/cmr/m/n/10 me-dian-te so-lu-cio-nes ator-ni-lla-das. La uni^^Son de los
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 404--405
+Underfull \hbox (badness 1033) in paragraph at lines 405--406
 \OT1/cmr/m/n/10 pue-den ser pre-ten-sa-dos, si la uni^^Son fun-cio-na por
  []
 
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--409
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
 []\OT1/cmr/m/n/10 Los so-por-tes fun-cio-nar^^San ge-ne-ral-men-te a
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 408--409
+Underfull \hbox (badness 1755) in paragraph at lines 409--410
 \OT1/cmr/m/n/10 fle-xo-com-pre-si^^Son, pe-ro son los efec-tos del pan-deo
  []
 
-<Imagenes/Tema 2. Acero. Soportes.png, id=326, 999.735pt x 601.4972pt>
+<Imagenes/Tema 2. Acero. Soportes.png, id=155, 999.735pt x 601.4972pt>
 File: Imagenes/Tema 2. Acero. Soportes.png Graphic file (type png)
 <use Imagenes/Tema 2. Acero. Soportes.png>
-Package pdftex.def Info: Imagenes/Tema 2. Acero. Soportes.png  used on input line 412.
+Package pdftex.def Info: Imagenes/Tema 2. Acero. Soportes.png  used on input line 413.
 (pdftex.def)             Requested size: 236.84843pt x 142.49911pt.
 
-Underfull \hbox (badness 4886) in paragraph at lines 419--420
+Underfull \hbox (badness 4886) in paragraph at lines 420--421
 []\OT1/cmr/m/n/10 Para sal-var las lu-ces de nues-tra es-truc-tu-ra
  []
 
 
 
-LaTeX Info: Redefining \. on input line 422.
-LaTeX Info: Redefining \% on input line 422.
-[16 <./Imagenes/Tema 2. Acero. Elementos conformados en frio.png> <./Imagenes/Tema 2. Acero. Union Soldada (1).png> <./Imagenes/Tema 2. Acero. Union Soldada (2).png> <./Imagenes/Tema 2. Acero. Soportes.png>]
-<Imagenes/Tema 2. Vigas Boyd.png, id=340, 718.93594pt x 200.24812pt>
+LaTeX Info: Redefining \. on input line 423.
+LaTeX Info: Redefining \% on input line 423.
+[8 <./Imagenes/Tema 2. Acero. Elementos conformados en frio.png> <./Imagenes/Tema 2. Acero. Union Soldada (1).png> <./Imagenes/Tema 2. Acero. Union Soldada (2).png> <./Imagenes/Tema 2. Acero. Soportes.png>]
+<Imagenes/Tema 2. Vigas Boyd.png, id=169, 718.93594pt x 200.24812pt>
 File: Imagenes/Tema 2. Vigas Boyd.png Graphic file (type png)
 <use Imagenes/Tema 2. Vigas Boyd.png>
-Package pdftex.def Info: Imagenes/Tema 2. Vigas Boyd.png  used on input line 425.
+Package pdftex.def Info: Imagenes/Tema 2. Vigas Boyd.png  used on input line 426.
 (pdftex.def)             Requested size: 236.84843pt x 65.96902pt.
-<Imagenes/Tema 2. Cerchas y celosias.png, id=342, 630.85687pt x 493.845pt>
+<Imagenes/Tema 2. Cerchas y celosias.png, id=171, 630.85687pt x 493.845pt>
 File: Imagenes/Tema 2. Cerchas y celosias.png Graphic file (type png)
 <use Imagenes/Tema 2. Cerchas y celosias.png>
-Package pdftex.def Info: Imagenes/Tema 2. Cerchas y celosias.png  used on input line 438.
+Package pdftex.def Info: Imagenes/Tema 2. Cerchas y celosias.png  used on input line 439.
 (pdftex.def)             Requested size: 236.84843pt x 185.40994pt.
 
 
-<Imagenes/Tema 2. Nudos. Articulacion.png, id=345, 900.36375pt x 405.01312pt>
+<Imagenes/Tema 2. Nudos. Articulacion.png, id=174, 900.36375pt x 405.01312pt>
 File: Imagenes/Tema 2. Nudos. Articulacion.png Graphic file (type png)
 <use Imagenes/Tema 2. Nudos. Articulacion.png>
-Package pdftex.def Info: Imagenes/Tema 2. Nudos. Articulacion.png  used on input line 453.
+Package pdftex.def Info: Imagenes/Tema 2. Nudos. Articulacion.png  used on input line 454.
 (pdftex.def)             Requested size: 113.68623pt x 51.13945pt.
-<Imagenes/Tema 2. Nudos. Rigida.png, id=346, 923.70094pt x 487.8225pt>
+<Imagenes/Tema 2. Nudos. Rigida.png, id=175, 923.70094pt x 487.8225pt>
 File: Imagenes/Tema 2. Nudos. Rigida.png Graphic file (type png)
 <use Imagenes/Tema 2. Nudos. Rigida.png>
-Package pdftex.def Info: Imagenes/Tema 2. Nudos. Rigida.png  used on input line 460.
+Package pdftex.def Info: Imagenes/Tema 2. Nudos. Rigida.png  used on input line 461.
 (pdftex.def)             Requested size: 113.68623pt x 60.03976pt.
 
-Underfull \hbox (badness 2027) in paragraph at lines 448--466
+Underfull \hbox (badness 2027) in paragraph at lines 449--467
 \OT1/cmr/m/n/10 uni^^Son es ne-ce-sa-rio ri-gi-di-zar el al-ma del so-por-te
  []
 
-<Imagenes/Tema 2. Cimentaciones.png, id=348, 874.01532pt x 417.05812pt>
+<Imagenes/Tema 2. Cimentaciones.png, id=177, 874.01532pt x 417.05812pt>
 File: Imagenes/Tema 2. Cimentaciones.png Graphic file (type png)
 <use Imagenes/Tema 2. Cimentaciones.png>
-Package pdftex.def Info: Imagenes/Tema 2. Cimentaciones.png  used on input line 473.
+Package pdftex.def Info: Imagenes/Tema 2. Cimentaciones.png  used on input line 474.
 (pdftex.def)             Requested size: 236.84843pt x 113.01448pt.
 
 
-LaTeX Info: Redefining \. on input line 481.
-LaTeX Info: Redefining \% on input line 481.
+LaTeX Info: Redefining \. on input line 482.
+LaTeX Info: Redefining \% on input line 482.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
@@ -1530,73 +1231,73 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[17 <./Imagenes/Tema 2. Vigas Boyd.png> <./Imagenes/Tema 2. Cerchas y celosias.png> <./Imagenes/Tema 2. Nudos. Articulacion.png> <./Imagenes/Tema 2. Nudos. Rigida.png> <./Imagenes/Tema 2. Cimentaciones.png>]
-Underfull \hbox (badness 1253) in paragraph at lines 482--483
+[9 <./Imagenes/Tema 2. Vigas Boyd.png> <./Imagenes/Tema 2. Cerchas y celosias.png> <./Imagenes/Tema 2. Nudos. Articulacion.png> <./Imagenes/Tema 2. Nudos. Rigida.png> <./Imagenes/Tema 2. Cimentaciones.png>]
+Underfull \hbox (badness 1253) in paragraph at lines 483--484
 []\OT1/cmr/m/n/10 La for-ma de la sec-ci^^Son tam-bi^^Sen in-fluen-cia su
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 482--483
+Underfull \hbox (badness 1297) in paragraph at lines 483--484
 \OT1/cmr/m/n/10 com-por-ta-mien-to fren-te al fue-go. Por ejem-plo, las
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 482--483
+Underfull \hbox (badness 1783) in paragraph at lines 483--484
 \OT1/cmr/m/n/10 sec-cio-nes que tie-nen un gran ra-tio de su-per-fi-cie
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 482--483
+Underfull \hbox (badness 1320) in paragraph at lines 483--484
 \OT1/cmr/m/n/10 re-que-rir^^San la pro-tec-ci^^Son fren-te al fue-go me-dian-te
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 484--485
+Underfull \hbox (badness 1184) in paragraph at lines 485--486
 \OT1/cmr/m/n/10 Hay dis-tin-tos ti-pos de pro-tec-ci^^Son fren-te al fue-go
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 487--487
 |[]\OT1/cmr/bx/n/12 Estructuras (pre-fa-bri-ca-das) de
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 490--491
+Underfull \hbox (badness 1152) in paragraph at lines 491--492
 \OT1/cmr/m/n/10 pro-por-cio-nes. Apar-te de es-tos com-po-nen-tes, se le
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 490--491
+Underfull \hbox (badness 2103) in paragraph at lines 491--492
 \OT1/cmr/m/n/10 pue-den a~nadir dis-tin-tos adi-ti-vos que al-te-ran sus
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 490--491
+Underfull \hbox (badness 1546) in paragraph at lines 491--492
 \OT1/cmr/m/n/10 a~nadir agen-tes ai-rea-do-res que in-tro-du-cen ai-re en
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 490--491
+Underfull \hbox (badness 1442) in paragraph at lines 491--492
 \OT1/cmr/m/n/10 re-tar-dan-tes, que ra-len-ti-zan el pro-ce-so de cu-ra-do;
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 490--491
+Underfull \hbox (badness 1436) in paragraph at lines 491--492
 \OT1/cmr/m/n/10 agen-tes ace-le-ran-tes, que ace-le-ran es-te pro-ce-so de
  []
 
 
-Underfull \hbox (badness 3701) in paragraph at lines 490--491
+Underfull \hbox (badness 3701) in paragraph at lines 491--492
 \OT1/cmr/m/n/10 plas-ti-fi-can-tes, que me-jo-ran la tra-ba-ja-bi-li-dad del
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 511--511
+Underfull \hbox (badness 1014) in paragraph at lines 512--512
 []\OT1/cmr/m/n/10 Tabla 2.4: |Ven-ta-jas e In-con-ve-nien-tes del Uso del
  []
 
 
-Underfull \hbox (badness 4531) in paragraph at lines 544--545
+Underfull \hbox (badness 4531) in paragraph at lines 545--546
 \OT1/cmr/m/n/10 agua-cemento de la mez-cla. El com-por-ta-mien-to
  []
 
@@ -1604,77 +1305,77 @@ Underfull \hbox (badness 4531) in paragraph at lines 544--545
 
 
 
-LaTeX Info: Redefining \. on input line 545.
-LaTeX Info: Redefining \% on input line 545.
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 546--547
+LaTeX Info: Redefining \. on input line 546.
+LaTeX Info: Redefining \% on input line 546.
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 547--548
 []\OT1/cmr/m/n/10 Durante el pro-ce-so de cons-truc-ci^^Son, la
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 546--547
+Underfull \hbox (badness 1231) in paragraph at lines 547--548
 \OT1/cmr/m/n/10 tra-ba-ja-bi-li-dad del hor-mig^^Son es una pro-pie-dad de
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 548--549
+Underfull \hbox (badness 1052) in paragraph at lines 549--550
 \OT1/cmr/m/n/10 de un pe-rio-do de tiem-po que pue-de lle-var a~nos,
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 550--551
+Underfull \hbox (badness 1275) in paragraph at lines 551--552
 \OT1/cmr/m/n/10 ten-den-cia a de-for-mar por fluen-cia a lar-go pla-zo.
  []
 
 
-Underfull \hbox (badness 2197) in paragraph at lines 550--551
+Underfull \hbox (badness 2197) in paragraph at lines 551--552
 \OT1/cmr/m/n/10 el tiem-po si no se ha te-ni-do en cuen-ta en el
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 550--551
+Underfull \hbox (badness 1292) in paragraph at lines 551--552
 \OT1/cmr/m/n/10 di-se~no. Si el hor-mig^^Son est^^Sa fi-su-ra-do o no exis-te
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 558--559
+Underfull \hbox (badness 1762) in paragraph at lines 559--560
 \OT1/cmr/m/n/10 so-me-ti-das a es-fuer-zos de fle-xi^^Son, ser^^Sa por tan-to
  []
 
 
 
-<Imagenes/Tema 2. Hormigon. Barras Corrugadas de Acero.png, id=368, 429.85594pt x 176.15813pt>
+<Imagenes/Tema 2. Hormigon. Barras Corrugadas de Acero.png, id=199, 429.85594pt x 176.15813pt>
 File: Imagenes/Tema 2. Hormigon. Barras Corrugadas de Acero.png Graphic file (type png)
 <use Imagenes/Tema 2. Hormigon. Barras Corrugadas de Acero.png>
-Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Barras Corrugadas de Acero.png  used on input line 562.
+Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Barras Corrugadas de Acero.png  used on input line 563.
 (pdftex.def)             Requested size: 236.84843pt x 97.06467pt.
 
-Underfull \hbox (badness 1264) in paragraph at lines 572--573
+Underfull \hbox (badness 1264) in paragraph at lines 573--574
 []\OT1/cmr/m/n/10 Sobredimensionar la ar-ma-du-ra trac-cio-na-da de
  []
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 574--575
+Underfull \hbox (badness 2261) in paragraph at lines 575--576
 []\OT1/cmr/m/n/10 Infradimensionar la ar-ma-du-ra trac-cio-na-da de
  []
 
 
-Underfull \hbox (badness 2671) in paragraph at lines 579--580
+Underfull \hbox (badness 2671) in paragraph at lines 580--581
 \OT1/cmr/m/n/10 en ma-sa, ar-ma-do o pre-ten-sa-do), se-gui-do de su
  []
 
-<Imagenes/Tema 2. Hormigon. Designacion.png, id=370, 830.35219pt x 600.74437pt>
+<Imagenes/Tema 2. Hormigon. Designacion.png, id=201, 830.35219pt x 600.74437pt>
 File: Imagenes/Tema 2. Hormigon. Designacion.png Graphic file (type png)
 <use Imagenes/Tema 2. Hormigon. Designacion.png>
-Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Designacion.png  used on input line 583.
+Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Designacion.png  used on input line 584.
 (pdftex.def)             Requested size: 236.84843pt x 171.35143pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-LaTeX Info: Redefining \. on input line 590.
-LaTeX Info: Redefining \% on input line 590.
+LaTeX Info: Redefining \. on input line 591.
+LaTeX Info: Redefining \% on input line 591.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
@@ -1682,103 +1383,103 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[19 <./Imagenes/Tema 2. Hormigon. Barras Corrugadas de Acero.png>]
-<Imagenes/Tema 2. Hormigon. Tipos de Acero Soldable.png, id=383, 687.31781pt x 359.84438pt>
+[11 <./Imagenes/Tema 2. Hormigon. Barras Corrugadas de Acero.png>]
+<Imagenes/Tema 2. Hormigon. Tipos de Acero Soldable.png, id=213, 687.31781pt x 359.84438pt>
 File: Imagenes/Tema 2. Hormigon. Tipos de Acero Soldable.png Graphic file (type png)
 <use Imagenes/Tema 2. Hormigon. Tipos de Acero Soldable.png>
-Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Tipos de Acero Soldable.png  used on input line 593.
+Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Tipos de Acero Soldable.png  used on input line 594.
 (pdftex.def)             Requested size: 236.84843pt x 123.99818pt.
 
-Underfull \hbox (badness 3679) in paragraph at lines 600--601
+Underfull \hbox (badness 3679) in paragraph at lines 601--602
 []\OT1/cmr/m/n/10 En el ca-so de na-ves in-dus-tria-les, se sue-len
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 604--605
+Underfull \hbox (badness 10000) in paragraph at lines 605--606
 []\OT1/cmr/m/n/10 Los pri-me-ros ele-men-tos que te-ne-mos que
  []
 
 
 
-<Imagenes/Tema 2. Hormigon. Terminacion en cabeza.png, id=385, 951.555pt x 413.29407pt>
+<Imagenes/Tema 2. Hormigon. Terminacion en cabeza.png, id=215, 951.555pt x 413.29407pt>
 File: Imagenes/Tema 2. Hormigon. Terminacion en cabeza.png Graphic file (type png)
 <use Imagenes/Tema 2. Hormigon. Terminacion en cabeza.png>
-Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Terminacion en cabeza.png  used on input line 610.
+Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Terminacion en cabeza.png  used on input line 611.
 (pdftex.def)             Requested size: 236.84843pt x 102.8692pt.
-<Imagenes/Tema 2. Hormigon. Terminacion en base.png, id=387, 668.4975pt x 489.32813pt>
+<Imagenes/Tema 2. Hormigon. Terminacion en base.png, id=217, 668.4975pt x 489.32813pt>
 File: Imagenes/Tema 2. Hormigon. Terminacion en base.png Graphic file (type png)
 <use Imagenes/Tema 2. Hormigon. Terminacion en base.png>
-Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Terminacion en base.png  used on input line 620.
+Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Terminacion en base.png  used on input line 621.
 (pdftex.def)             Requested size: 236.84843pt x 173.3655pt.
 
-Underfull \hbox (badness 3199) in paragraph at lines 625--626
+Underfull \hbox (badness 3199) in paragraph at lines 626--627
 []\OT1/cmr/m/n/10 En pi-la-res pre-fa-bri-ca-dos es tam-bi^^Sen ha-bi-tual
  []
 
-<Imagenes/Tema 2. Hormigon. Mensulas.png, id=389, 525.46312pt x 200.24812pt>
+<Imagenes/Tema 2. Hormigon. Mensulas.png, id=219, 525.46312pt x 200.24812pt>
 File: Imagenes/Tema 2. Hormigon. Mensulas.png Graphic file (type png)
 <use Imagenes/Tema 2. Hormigon. Mensulas.png>
-Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Mensulas.png  used on input line 629.
+Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Mensulas.png  used on input line 630.
 (pdftex.def)             Requested size: 236.84843pt x 90.26054pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-LaTeX Info: Redefining \. on input line 635.
-LaTeX Info: Redefining \% on input line 635.
-[20 <./Imagenes/Tema 2. Hormigon. Designacion.png> <./Imagenes/Tema 2. Hormigon. Tipos de Acero Soldable.png> <./Imagenes/Tema 2. Hormigon. Terminacion en cabeza.png> <./Imagenes/Tema 2. Hormigon. Terminacion en base.png>]
-Underfull \hbox (badness 1297) in paragraph at lines 640--641
+LaTeX Info: Redefining \. on input line 636.
+LaTeX Info: Redefining \% on input line 636.
+[12 <./Imagenes/Tema 2. Hormigon. Designacion.png> <./Imagenes/Tema 2. Hormigon. Tipos de Acero Soldable.png> <./Imagenes/Tema 2. Hormigon. Terminacion en cabeza.png> <./Imagenes/Tema 2. Hormigon. Terminacion en base.png>]
+Underfull \hbox (badness 1297) in paragraph at lines 641--642
 \OT1/cmr/m/n/10 la vi-ga no des-cal-ce del apo-yo, se sue-le co-nec-tar
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 642--643
+Underfull \hbox (badness 1009) in paragraph at lines 643--644
 []\OT1/cmr/m/n/10 El en-cuen-tro con la ci-men-ta-ci^^Son m^^Sas ha-bi-tual
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 642--643
+Underfull \hbox (badness 1062) in paragraph at lines 643--644
 \OT1/cmr/m/n/10 en es-te ti-po de na-ves es el de za-pa-ta con c^^Saliz
  []
 
-<Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con caliz ranurado.png, id=403, 946.28531pt x 566.115pt>
+<Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con caliz ranurado.png, id=233, 946.28531pt x 566.115pt>
 File: Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con caliz ranurado.png Graphic file (type png)
 <use Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con caliz ranurado.png>
-Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con caliz ranurado.png  used on input line 646.
+Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con caliz ranurado.png  used on input line 647.
 (pdftex.def)             Requested size: 236.84843pt x 141.69252pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 651--652
+Underfull \hbox (badness 10000) in paragraph at lines 652--653
 []\OT1/cmr/m/n/10 Otra uni^^Son en-tre pi-la-res pre-fa-bri-ca-dos y
  []
 
 
-Underfull \hbox (badness 6047) in paragraph at lines 651--652
+Underfull \hbox (badness 6047) in paragraph at lines 652--653
 \OT1/cmr/m/n/10 en la ci-men-ta-ci^^Son du-ran-te el hor-mi-go-na-do. A
  []
 
-<Imagenes/Tema 2. Hormigon. Empotramiento con vainas corrugadas.png, id=405, 902.6222pt x 513.41812pt>
+<Imagenes/Tema 2. Hormigon. Empotramiento con vainas corrugadas.png, id=235, 902.6222pt x 513.41812pt>
 File: Imagenes/Tema 2. Hormigon. Empotramiento con vainas corrugadas.png Graphic file (type png)
 <use Imagenes/Tema 2. Hormigon. Empotramiento con vainas corrugadas.png>
-Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Empotramiento con vainas corrugadas.png  used on input line 655.
+Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Empotramiento con vainas corrugadas.png  used on input line 656.
 (pdftex.def)             Requested size: 236.84843pt x 134.71552pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-<Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con anclajes roscados.png, id=407, 866.48718pt x 545.03625pt>
+<Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con anclajes roscados.png, id=237, 866.48718pt x 545.03625pt>
 File: Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con anclajes roscados.png Graphic file (type png)
 <use Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con anclajes roscados.png>
-Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con anclajes roscados.png  used on input line 664.
+Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con anclajes roscados.png  used on input line 665.
 (pdftex.def)             Requested size: 236.84843pt x 148.97476pt.
 
 
-LaTeX Info: Redefining \. on input line 672.
-LaTeX Info: Redefining \% on input line 672.
+LaTeX Info: Redefining \. on input line 673.
+LaTeX Info: Redefining \% on input line 673.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
@@ -1786,86 +1487,86 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[21 <./Imagenes/Tema 2. Hormigon. Mensulas.png> <./Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con caliz ranurado.png> <./Imagenes/Tema 2. Hormigon. Empotramiento con vainas corrugadas.png> <./Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con anclajes roscados.png>]
-<Imagenes/Tema 2. Forjados. Tipologias.png, id=419, 849.92531pt x 548.80031pt>
+[13 <./Imagenes/Tema 2. Hormigon. Mensulas.png> <./Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con caliz ranurado.png> <./Imagenes/Tema 2. Hormigon. Empotramiento con vainas corrugadas.png> <./Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con anclajes roscados.png>]
+<Imagenes/Tema 2. Forjados. Tipologias.png, id=250, 849.92531pt x 548.80031pt>
 File: Imagenes/Tema 2. Forjados. Tipologias.png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Tipologias.png>
-Package pdftex.def Info: Imagenes/Tema 2. Forjados. Tipologias.png  used on input line 679.
+Package pdftex.def Info: Imagenes/Tema 2. Forjados. Tipologias.png  used on input line 680.
 (pdftex.def)             Requested size: 236.84843pt x 152.92612pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 684--685
+Underfull \hbox (badness 10000) in paragraph at lines 685--686
 []\OT1/cmr/m/n/10 Los for-ja-dos, por su geo-metr^^S^^Pa, fun-cio-nan
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 697--698
+Underfull \hbox (badness 1642) in paragraph at lines 698--699
 \OT1/cmr/m/n/10 una po-si-ci^^Son co-rrec-ta y que se cum-plen los
  []
 
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 701--702
+Underfull \hbox (badness 10000) in paragraph at lines 702--703
 []\OT1/cmr/m/n/10 A con-ti-nua-ci^^Son, se dis-po-nen las vi-gue-tas
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 705--706
+Underfull \hbox (badness 1178) in paragraph at lines 706--707
 \OT1/cmr/m/n/10 me-dian-te las bo-ve-di-llas. Es-tas pue-den ser de
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 713--714
+Underfull \hbox (badness 1077) in paragraph at lines 714--715
 \OT1/cmr/m/n/10 es una ma-lla de re-don-dos de ace-ro de po-co
  []
 
 
-Underfull \hbox (badness 1515) in paragraph at lines 717--718
+Underfull \hbox (badness 1515) in paragraph at lines 718--719
 \OT1/cmr/m/n/10 hor-mig^^Son, el for-ja-do que-dar^^Sa co-mo una lo-sa
  []
 
-<Imagenes/Tema 2. Forjados. Proceso Constructivo (0).png, id=421, 742.27313pt x 528.47438pt>
+<Imagenes/Tema 2. Forjados. Proceso Constructivo (0).png, id=252, 742.27313pt x 528.47438pt>
 File: Imagenes/Tema 2. Forjados. Proceso Constructivo (0).png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Proceso Constructivo (0).png>
-Package pdftex.def Info: Imagenes/Tema 2. Forjados. Proceso Constructivo (0).png  used on input line 725.
+Package pdftex.def Info: Imagenes/Tema 2. Forjados. Proceso Constructivo (0).png  used on input line 726.
 (pdftex.def)             Requested size: 113.68623pt x 80.93695pt.
-<Imagenes/Tema 2. Forjados. Proceso Constructivo (1).png, id=422, 741.52031pt x 528.47438pt>
+<Imagenes/Tema 2. Forjados. Proceso Constructivo (1).png, id=253, 741.52031pt x 528.47438pt>
 File: Imagenes/Tema 2. Forjados. Proceso Constructivo (1).png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Proceso Constructivo (1).png>
-Package pdftex.def Info: Imagenes/Tema 2. Forjados. Proceso Constructivo (1).png  used on input line 731.
+Package pdftex.def Info: Imagenes/Tema 2. Forjados. Proceso Constructivo (1).png  used on input line 732.
 (pdftex.def)             Requested size: 113.68623pt x 81.0176pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--732
+Underfull \hbox (badness 10000) in paragraph at lines 733--733
 []\OT1/cmr/m/n/9 (b) |Co-lo-ca-ci^^Son del
  []
 
-<Imagenes/Tema 2. Forjados. Proceso Constructivo (2).png, id=423, 774.64406pt x 541.27219pt>
+<Imagenes/Tema 2. Forjados. Proceso Constructivo (2).png, id=254, 774.64406pt x 541.27219pt>
 File: Imagenes/Tema 2. Forjados. Proceso Constructivo (2).png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Proceso Constructivo (2).png>
-Package pdftex.def Info: Imagenes/Tema 2. Forjados. Proceso Constructivo (2).png  used on input line 736.
+Package pdftex.def Info: Imagenes/Tema 2. Forjados. Proceso Constructivo (2).png  used on input line 737.
 (pdftex.def)             Requested size: 113.68623pt x 79.43639pt.
-<Imagenes/Tema 2. Forjados. Proceso Constructivo (3).png, id=424, 737.75626pt x 536.0025pt>
+<Imagenes/Tema 2. Forjados. Proceso Constructivo (3).png, id=255, 737.75626pt x 536.0025pt>
 File: Imagenes/Tema 2. Forjados. Proceso Constructivo (3).png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Proceso Constructivo (3).png>
-Package pdftex.def Info: Imagenes/Tema 2. Forjados. Proceso Constructivo (3).png  used on input line 742.
+Package pdftex.def Info: Imagenes/Tema 2. Forjados. Proceso Constructivo (3).png  used on input line 743.
 (pdftex.def)             Requested size: 113.68623pt x 82.59698pt.
-<Imagenes/Tema 2. Forjados. Proceso Constructivo (4).png, id=425, 740.7675pt x 539.76656pt>
+<Imagenes/Tema 2. Forjados. Proceso Constructivo (4).png, id=256, 740.7675pt x 539.76656pt>
 File: Imagenes/Tema 2. Forjados. Proceso Constructivo (4).png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Proceso Constructivo (4).png>
-Package pdftex.def Info: Imagenes/Tema 2. Forjados. Proceso Constructivo (4).png  used on input line 747.
+Package pdftex.def Info: Imagenes/Tema 2. Forjados. Proceso Constructivo (4).png  used on input line 748.
 (pdftex.def)             Requested size: 113.68623pt x 82.8311pt.
-<Imagenes/Tema 2. Forjados. Proceso Constructivo (5).png, id=426, 736.25063pt x 532.99126pt>
+<Imagenes/Tema 2. Forjados. Proceso Constructivo (5).png, id=257, 736.25063pt x 532.99126pt>
 File: Imagenes/Tema 2. Forjados. Proceso Constructivo (5).png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Proceso Constructivo (5).png>
-Package pdftex.def Info: Imagenes/Tema 2. Forjados. Proceso Constructivo (5).png  used on input line 753.
+Package pdftex.def Info: Imagenes/Tema 2. Forjados. Proceso Constructivo (5).png  used on input line 754.
 (pdftex.def)             Requested size: 113.68623pt x 82.29561pt.
-<Imagenes/Tema 2. Forjados. Proceso Constructivo (6).png, id=427, 749.80125pt x 551.81157pt>
+<Imagenes/Tema 2. Forjados. Proceso Constructivo (6).png, id=258, 749.80125pt x 551.81157pt>
 File: Imagenes/Tema 2. Forjados. Proceso Constructivo (6).png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Proceso Constructivo (6).png>
-Package pdftex.def Info: Imagenes/Tema 2. Forjados. Proceso Constructivo (6).png  used on input line 758.
+Package pdftex.def Info: Imagenes/Tema 2. Forjados. Proceso Constructivo (6).png  used on input line 759.
 (pdftex.def)             Requested size: 113.68623pt x 83.66068pt.
 
-Underfull \hbox (badness 6575) in paragraph at lines 761--761
+Underfull \hbox (badness 6575) in paragraph at lines 762--762
 []\OT1/cmr/m/n/10 Figura 2.29: |Pro-ce-so Cons-truc-ti-vo de For-ja-dos
  []
 
@@ -1873,44 +1574,44 @@ Underfull \hbox (badness 6575) in paragraph at lines 761--761
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 8019) in paragraph at lines 767--768
+Underfull \hbox (badness 8019) in paragraph at lines 768--769
 []\OT1/cmr/m/n/10 Un for-ja-do uni-di-rec-cio-nal muy ha-bi-tual en
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 767--768
+Underfull \hbox (badness 1728) in paragraph at lines 768--769
 \OT1/cmr/m/n/10 cons-truc-cio-nes in-dus-tria-les es el for-ja-do con lo-sa
  []
 
 
 
-LaTeX Info: Redefining \. on input line 770.
-LaTeX Info: Redefining \% on input line 770.
-[22 <./Imagenes/Tema 2. Forjados. Tipologias.png>]
-<Imagenes/Tema 2. Forjados. Losa Alveolar.png, id=443, 751.30687pt x 350.05782pt>
+LaTeX Info: Redefining \. on input line 771.
+LaTeX Info: Redefining \% on input line 771.
+[14 <./Imagenes/Tema 2. Forjados. Tipologias.png>]
+<Imagenes/Tema 2. Forjados. Losa Alveolar.png, id=274, 751.30687pt x 350.05782pt>
 File: Imagenes/Tema 2. Forjados. Losa Alveolar.png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Losa Alveolar.png>
-Package pdftex.def Info: Imagenes/Tema 2. Forjados. Losa Alveolar.png  used on input line 773.
+Package pdftex.def Info: Imagenes/Tema 2. Forjados. Losa Alveolar.png  used on input line 774.
 (pdftex.def)             Requested size: 236.84843pt x 110.35425pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/Tema 2. Forjados. Vigas para forjados.png, id=445, 548.80031pt x 461.47406pt>
+<Imagenes/Tema 2. Forjados. Vigas para forjados.png, id=276, 548.80031pt x 461.47406pt>
 File: Imagenes/Tema 2. Forjados. Vigas para forjados.png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Vigas para forjados.png>
-Package pdftex.def Info: Imagenes/Tema 2. Forjados. Vigas para forjados.png  used on input line 782.
+Package pdftex.def Info: Imagenes/Tema 2. Forjados. Vigas para forjados.png  used on input line 783.
 (pdftex.def)             Requested size: 236.84843pt x 199.15524pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 787--788
+Underfull \hbox (badness 1048) in paragraph at lines 788--789
 \OT1/cmr/m/n/10 se apo-yan di-rec-ta-men-te so-bre la vi-ga de for-ja-do.
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 787--788
+Underfull \hbox (badness 1024) in paragraph at lines 788--789
 \OT1/cmr/m/n/10 de re-par-to. Pos-te-rior-men-te, se hor-mi-go-na to-da la
  []
 
@@ -1919,28 +1620,28 @@ Underfull \vbox (badness 5893) has occurred while \output is active []
 
 
 
-<Imagenes/Tema 2. Forjados. Apoyos.png, id=447, 430.60875pt x 475.7775pt>
+<Imagenes/Tema 2. Forjados. Apoyos.png, id=278, 430.60875pt x 475.7775pt>
 File: Imagenes/Tema 2. Forjados. Apoyos.png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Apoyos.png>
-Package pdftex.def Info: Imagenes/Tema 2. Forjados. Apoyos.png  used on input line 791.
+Package pdftex.def Info: Imagenes/Tema 2. Forjados. Apoyos.png  used on input line 792.
 (pdftex.def)             Requested size: 236.84843pt x 261.7002pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 796--796
+Underfull \hbox (badness 10000) in paragraph at lines 797--797
 |\OT1/cmr/bx/n/10 Forjados Uni-di-rec-cio-na-les Mix-tos (Cha-pa
  []
 
 
-Underfull \hbox (badness 2221) in paragraph at lines 802--803
+Underfull \hbox (badness 2221) in paragraph at lines 803--804
 \OT1/cmr/m/n/10 Una vez hor-mi-go-na-do, es-tos per-nos re-sis-tir^^San el
  []
 
 
 
-LaTeX Info: Redefining \. on input line 804.
-LaTeX Info: Redefining \% on input line 804.
+LaTeX Info: Redefining \. on input line 805.
+LaTeX Info: Redefining \% on input line 805.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
@@ -1948,179 +1649,179 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[23 <./Imagenes/Tema 2. Forjados. Proceso Constructivo (0).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (1).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (2).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (3).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (4).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (5).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (6).png> <./Imagenes/Tema 2. Forjados. Losa Alveolar.png> <./Imagenes/Tema 2. Forjados. Vigas para forjados.png>]
-<Imagenes/Tema 2. Forjados. Forjado de chapa colaborante.png, id=466, 802.49812pt x 440.39531pt>
+[15 <./Imagenes/Tema 2. Forjados. Proceso Constructivo (0).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (1).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (2).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (3).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (4).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (5).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (6).png> <./Imagenes/Tema 2. Forjados. Losa Alveolar.png> <./Imagenes/Tema 2. Forjados. Vigas para forjados.png>]
+<Imagenes/Tema 2. Forjados. Forjado de chapa colaborante.png, id=297, 802.49812pt x 440.39531pt>
 File: Imagenes/Tema 2. Forjados. Forjado de chapa colaborante.png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Forjado de chapa colaborante.png>
-Package pdftex.def Info: Imagenes/Tema 2. Forjados. Forjado de chapa colaborante.png  used on input line 808.
+Package pdftex.def Info: Imagenes/Tema 2. Forjados. Forjado de chapa colaborante.png  used on input line 809.
 (pdftex.def)             Requested size: 236.84843pt x 129.97597pt.
 
-Underfull \hbox (badness 1675) in paragraph at lines 817--818
+Underfull \hbox (badness 1675) in paragraph at lines 818--819
 \OT1/cmr/m/n/10 de la his-to-ria ha si-do el con-jun-to de ele-men-tos
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 817--818
+Underfull \hbox (badness 3364) in paragraph at lines 818--819
 \OT1/cmr/m/n/10 con el tiem-po tam-bi^^Sen se fue-ron di-fe-ren-cian-do,
  []
 
 
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 819--820
+Underfull \hbox (badness 1496) in paragraph at lines 820--821
 []\OT1/cmr/m/n/10 Al con-tra-rio que los ani-ma-les de san-gre fr^^S^^Pa,
  []
 
 
-Underfull \hbox (badness 1939) in paragraph at lines 819--820
+Underfull \hbox (badness 1939) in paragraph at lines 820--821
 \OT1/cmr/m/n/10 cu-ya tem-pe-ra-tu-ra se adap-ta al am-bien-te, el ser
  []
 
 
-Underfull \hbox (badness 1701) in paragraph at lines 819--820
+Underfull \hbox (badness 1701) in paragraph at lines 820--821
 \OT1/cmr/m/n/10 am-bien-te (fr^^S^^Po o ca-lor), nues-tro or-ga-nis-mo po-see
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 823--824
+Underfull \hbox (badness 2359) in paragraph at lines 824--825
 \OT1/cmr/m/n/10 ya que con-tem-plan fun-cio-nes y com-por-ta-mien-tos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 844--845
+Underfull \hbox (badness 10000) in paragraph at lines 845--846
 []\OT1/cmr/m/n/10 Esto cons-ti-tu-ye la ba-se pa-ra el con-fort,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 844--845
+Underfull \hbox (badness 10000) in paragraph at lines 845--846
 \OT1/cmr/m/n/10 in-cor-po-ran-do pos-te-rior-men-te otras fun-cio-nes
  []
 
 
 
-LaTeX Info: Redefining \. on input line 845.
-LaTeX Info: Redefining \% on input line 845.
-[24 <./Imagenes/Tema 2. Forjados. Apoyos.png> <./Imagenes/Tema 2. Forjados. Forjado de chapa colaborante.png>]
-Underfull \hbox (badness 1527) in paragraph at lines 846--846
+LaTeX Info: Redefining \. on input line 846.
+LaTeX Info: Redefining \% on input line 846.
+[16 <./Imagenes/Tema 2. Forjados. Apoyos.png> <./Imagenes/Tema 2. Forjados. Forjado de chapa colaborante.png>]
+Underfull \hbox (badness 1527) in paragraph at lines 847--847
 |\OT1/cmr/bx/n/10 Conceptos Pre-li-mi-na-res de la F^^S^^Psi-ca de la
  []
 
 
-Underfull \hbox (badness 2951) in paragraph at lines 848--849
+Underfull \hbox (badness 2951) in paragraph at lines 849--850
 \OT1/cmr/m/n/10 la tem-pe-ra-tu-ra y el rui-do. Me-dian-te las re-glas
  []
 
 
-Underfull \hbox (badness 5302) in paragraph at lines 853--854
+Underfull \hbox (badness 5302) in paragraph at lines 854--855
 []\OT1/cmr/m/n/10 Nos re-fe-ri-mos al ais-la-mien-to t^^Sermi-co co-mo
  []
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 853--854
+Underfull \hbox (badness 2689) in paragraph at lines 854--855
 \OT1/cmr/m/n/10 de ca-le-fac-ci^^Son o re-fri-ge-ra-ci^^Son ne-ce-sa-ria pa-ra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 855--856
+Underfull \hbox (badness 10000) in paragraph at lines 856--857
 []\OT1/cmr/m/n/10 Transmitancia t^^Sermi-ca (va-lor U): Es una
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 855--856
+Underfull \hbox (badness 10000) in paragraph at lines 856--857
 \OT1/cmr/m/n/10 ca-rac-ter^^S^^Psti-ca es-pec^^S^^Pfi-ca de un ele-men-to
  []
 
 
-Underfull \hbox (badness 3657) in paragraph at lines 855--856
+Underfull \hbox (badness 3657) in paragraph at lines 856--857
 \OT1/cmr/m/n/10 y de-pen-de de la con-duc-ti-vi-dad t^^Sermi-ca, la
  []
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 855--856
+Underfull \hbox (badness 1418) in paragraph at lines 856--857
 \OT1/cmr/m/n/10 di-men-si^^Son de los ma-te-ria-les, as^^S^^P co-mo de la
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 859--860
+Underfull \hbox (badness 4266) in paragraph at lines 860--861
 []\OT1/cmr/m/n/10 El agua es un veh^^S^^Pcu-lo de de-gra-da-ci^^Son y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 859--860
+Underfull \hbox (badness 10000) in paragraph at lines 860--861
 \OT1/cmr/m/n/10 con-tem-plan me-ca-nis-mos pa-ra evi-tar su
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 859--860
+Underfull \hbox (badness 1242) in paragraph at lines 860--861
 \OT1/cmr/m/n/10 acu-mu-la-ci^^Son me-dian-te ba-rre-ras o sis-te-mas de
  []
 
 
-Underfull \hbox (badness 5832) in paragraph at lines 861--862
+Underfull \hbox (badness 5832) in paragraph at lines 862--863
 \OT1/cmr/m/n/10 ma-te-ria-les de gran es-pe-sor o me-dian-te la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 861--862
+Underfull \hbox (badness 10000) in paragraph at lines 862--863
 \OT1/cmr/m/n/10 con-fi-gu-ra-ci^^Son de su geo-metr^^S^^Pa (so-la-pe e
  []
 
 
-Underfull \hbox (badness 5331) in paragraph at lines 861--862
+Underfull \hbox (badness 5331) in paragraph at lines 862--863
 \OT1/cmr/m/n/10 Con el de-sa-rro-llo de ma-te-ria-les to-tal-men-te
  []
 
 
-Underfull \hbox (badness 2393) in paragraph at lines 863--864
+Underfull \hbox (badness 2393) in paragraph at lines 864--865
 []\OT1/cmr/m/n/10 Condensaci^^Son, Ba-rre-ras de Va-pos y Puen-tes
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 865--866
+Underfull \hbox (badness 1675) in paragraph at lines 866--867
 \OT1/cmr/m/n/10 can-ti-dad que au-men-ta pro-por-cio-nal-men-te con
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 865--866
+Underfull \hbox (badness 1178) in paragraph at lines 866--867
 \OT1/cmr/m/n/10 su tem-pe-ra-tu-ra. Cual-quier cuer-po fr^^S^^Po en un
  []
 
 
-Underfull \hbox (badness 3579) in paragraph at lines 867--868
+Underfull \hbox (badness 3579) in paragraph at lines 868--869
 []\OT1/cmr/m/n/10 Este mis-mo fen^^Someno se pue-de dar en la
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 867--868
+Underfull \hbox (badness 1609) in paragraph at lines 868--869
 \OT1/cmr/m/n/10 en-vol-ven-te de los edi-fi-cios el va-por de agua
  []
 
 
 
 
-Underfull \hbox (badness 3417) in paragraph at lines 869--870
+Underfull \hbox (badness 3417) in paragraph at lines 870--871
 \OT1/cmr/m/n/10 si-tu^^Sando-las siem-pre en la ca-ra ca-lien-te del
  []
 
 
-Underfull \hbox (badness 6063) in paragraph at lines 883--884
+Underfull \hbox (badness 6063) in paragraph at lines 884--885
 []\OT1/cmr/m/n/10 Acondicionamiento ac^^Susti-co: Tra-ta-mien-to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 883--884
+Underfull \hbox (badness 10000) in paragraph at lines 884--885
 \OT1/cmr/m/n/10 Un buen acon-di-cio-na-mien-to me-jo-ra la
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 888--889
+Underfull \hbox (badness 2359) in paragraph at lines 889--890
 []\OT1/cmr/m/n/10 La ma-la ven-ti-la-ci^^Son en los edi-fi-cios es una
  []
 
 
 
-LaTeX Info: Redefining \. on input line 895.
-LaTeX Info: Redefining \% on input line 895.
+LaTeX Info: Redefining \. on input line 896.
+LaTeX Info: Redefining \% on input line 896.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
@@ -2128,288 +1829,288 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[25]
-Underfull \hbox (badness 2662) in paragraph at lines 896--897
+[17]
+Underfull \hbox (badness 2662) in paragraph at lines 897--898
 \OT1/cmr/m/n/10 se en-cuen-tra su-je-ta a fuer-tes di-fe-ren-cias de
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 898--899
+Underfull \hbox (badness 1931) in paragraph at lines 899--900
 \OT1/cmr/m/n/10 su uti-li-za-ci^^Son. La cu-bier-ta fr^^S^^Pa apro-ve-cha la
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 898--899
+Underfull \hbox (badness 1127) in paragraph at lines 899--900
 \OT1/cmr/m/n/10 el pro-ble-ma de la con-den-sa-ci^^Son, man-te-nien-do
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 898--899
+Underfull \hbox (badness 1237) in paragraph at lines 899--900
 \OT1/cmr/m/n/10 de sa-tu-ra-ci^^Son. Igual-men-te tie-ne un efec-to de
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 900--901
+Underfull \hbox (badness 2600) in paragraph at lines 901--902
 \OT1/cmr/m/n/10 in-te-rior no se de-ber^^Sa ver obs-ta-cu-li-za-da por
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 906--907
+Underfull \hbox (badness 1132) in paragraph at lines 907--908
 \OT1/cmr/m/n/10 y la ha-bi-ta-bi-li-dad. A trav^^Ses del C^^Sodi-go T^^Secni-co,
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 911--912
+Underfull \hbox (badness 1281) in paragraph at lines 912--913
 []\OT1/cmr/m/n/10 Desde el pun-to de vis-ta de la se-gu-ri-dad, el
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 911--912
+Underfull \hbox (badness 1132) in paragraph at lines 912--913
 \OT1/cmr/m/n/10 de la cons-truc-ci^^Son del ce-rra-mien-to pue-de ser
  []
 
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 913--914
+Underfull \hbox (badness 10000) in paragraph at lines 914--915
 []\OT1/cmr/m/n/10 La exi-gen-cia b^^Sasi-ca SE1 (Re-sis-ten-cia y
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 913--914
+Underfull \hbox (badness 1383) in paragraph at lines 914--915
 \OT1/cmr/m/n/10 fren-te a las ac-cio-nes e in-fluen-cias pre-vi-si-bles
  []
 
 
-Underfull \hbox (badness 3612) in paragraph at lines 913--914
+Underfull \hbox (badness 3612) in paragraph at lines 914--915
 \OT1/cmr/m/n/10 no pro-duz-ca con-se-cuen-cias des-pro-por-cio-na-das
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 913--914
+Underfull \hbox (badness 1755) in paragraph at lines 914--915
 \OT1/cmr/m/n/10 res-pec-to a la cau-sa ori-gi-nal y se fa-ci-li-te el
  []
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 915--916
+Underfull \hbox (badness 2772) in paragraph at lines 916--917
 \OT1/cmr/m/n/10 del edi-fi-cio de for-ma que no se pro-duz-can
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--916
+Underfull \hbox (badness 10000) in paragraph at lines 916--917
 \OT1/cmr/m/n/10 din^^Sami-co inad-mi-si-ble y no se pro-duz-can
  []
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 917--918
+Underfull \hbox (badness 2277) in paragraph at lines 918--919
 \OT1/cmr/m/n/10 pro-yec-to, cons-truc-ci^^Son, uso y man-te-ni-mien-to.
  []
 
 
-Underfull \hbox (badness 4454) in paragraph at lines 917--918
+Underfull \hbox (badness 4454) in paragraph at lines 918--919
 \OT1/cmr/m/n/10 Tam-bi^^Sen nos di-ce que pa-ra sa-tis-fa-cer es-te
  []
 
 
-Underfull \hbox (badness 3396) in paragraph at lines 919--920
+Underfull \hbox (badness 3396) in paragraph at lines 920--921
 \OT1/cmr/m/n/10 par^^Same-tros, ob-je-ti-vos y pro-ce-di-mien-tos cu-yo
  []
 
 
-Underfull \hbox (badness 4132) in paragraph at lines 919--920
+Underfull \hbox (badness 4132) in paragraph at lines 920--921
 \OT1/cmr/m/n/10 cum-pli-mien-to ase-gu-ra la sa-tis-fac-ci^^Son de las
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 923--924
+Underfull \hbox (badness 1838) in paragraph at lines 924--925
 \OT1/cmr/m/n/10 de una en-vol-ven-te de ca-rac-ter^^S^^Psti-cas tal que
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 923--924
+Underfull \hbox (badness 2875) in paragraph at lines 924--925
 \OT1/cmr/m/n/10 li-mi-te ade-cua-da-men-te la de-man-da energ^^Seti-ca
  []
 
 
-Underfull \hbox (badness 2856) in paragraph at lines 923--924
+Underfull \hbox (badness 2856) in paragraph at lines 924--925
 \OT1/cmr/m/n/10 ne-ce-sa-ria pa-ra al-can-zar el bien-es-tar t^^Sermi-co
  []
 
 
-Underfull \hbox (badness 4981) in paragraph at lines 923--924
+Underfull \hbox (badness 4981) in paragraph at lines 924--925
 \OT1/cmr/m/n/10 en fun-ci^^Son del cli-ma de la lo-ca-li-dad, del
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 923--924
+Underfull \hbox (badness 1902) in paragraph at lines 924--925
 \OT1/cmr/m/n/10 uso del edi-fi-cio y del r^^Segi-men de ve-rano y
  []
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 923--924
+Underfull \hbox (badness 1910) in paragraph at lines 924--925
 \OT1/cmr/m/n/10 de in-vierno. As^^S^^P co-mo sus ca-rac-ter^^S^^Psti-cas de
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 923--924
+Underfull \hbox (badness 2035) in paragraph at lines 924--925
 \OT1/cmr/m/n/10 sus ca-rac-ter^^S^^Psti-cas y tra-tan-do ade-cua-da-men-te
  []
 
 
-Underfull \hbox (badness 8113) in paragraph at lines 923--924
+Underfull \hbox (badness 8113) in paragraph at lines 924--925
 \OT1/cmr/m/n/10 o ga-nan-cias de ca-lor y evi-tar pro-ble-mas
  []
 
 
 
-LaTeX Info: Redefining \. on input line 924.
-LaTeX Info: Redefining \% on input line 924.
-[26]
-Underfull \hbox (badness 5460) in paragraph at lines 925--926
+LaTeX Info: Redefining \. on input line 925.
+LaTeX Info: Redefining \% on input line 925.
+[18]
+Underfull \hbox (badness 5460) in paragraph at lines 926--927
 []\OT1/cmr/m/n/10 Seg^^Sun la exi-gen-cia b^^Sasi-ca HS1 (Pro-tec-ci^^Son
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 925--926
+Underfull \hbox (badness 2503) in paragraph at lines 926--927
 \OT1/cmr/m/n/10 fren-te a la hu-me-dad), se li-mi-tar^^Sa el ries-go
  []
 
 
-Underfull \hbox (badness 4291) in paragraph at lines 925--926
+Underfull \hbox (badness 4291) in paragraph at lines 926--927
 \OT1/cmr/m/n/10 pre-vi-si-ble de pre-sen-cia inade-cua-da de agua
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 925--926
+Underfull \hbox (badness 1762) in paragraph at lines 926--927
 \OT1/cmr/m/n/10 o hu-me-dad en el in-te-rior de los edi-fi-cios y
  []
 
 
-Underfull \hbox (badness 4739) in paragraph at lines 925--926
+Underfull \hbox (badness 4739) in paragraph at lines 926--927
 \OT1/cmr/m/n/10 en sus ce-rra-mien-tos co-mo con-se-cuen-cia del
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 927--928
+Underfull \hbox (badness 2189) in paragraph at lines 928--929
 \OT1/cmr/m/n/10 que el rui-do pue-da pro-du-cir a los usua-rios
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 927--928
+Underfull \hbox (badness 2285) in paragraph at lines 928--929
 \OT1/cmr/m/n/10 a^^Sereo, del rui-do de im-pac-to y del rui-do y
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 927--928
+Underfull \hbox (badness 2547) in paragraph at lines 928--929
 \OT1/cmr/m/n/10 El Do-cu-men-to B^^Sasi-co DB-HR de pro-tec-ci^^Son
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 927--928
+Underfull \hbox (badness 1496) in paragraph at lines 928--929
 \OT1/cmr/m/n/10 y sis-te-mas de ve-ri-fi-ca-ci^^Son cu-yo cum-pli-mien-to
  []
 
 
-Underfull \hbox (badness 4060) in paragraph at lines 929--930
+Underfull \hbox (badness 4060) in paragraph at lines 930--931
 []\OT1/cmr/m/n/10 La exi-gen-cia b^^Sasi-ca HS3 (Ca-li-dad del ai-re
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 929--930
+Underfull \hbox (badness 2582) in paragraph at lines 930--931
 \OT1/cmr/m/n/10 ade-cua-da-men-te, eli-mi-nan-do los con-ta-mi-nan-tes
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 929--930
+Underfull \hbox (badness 1184) in paragraph at lines 930--931
 \OT1/cmr/m/n/10 que se pro-duz-can de for-ma ha-bi-tual du-ran-te
  []
 
 
-Underfull \hbox (badness 3861) in paragraph at lines 929--930
+Underfull \hbox (badness 3861) in paragraph at lines 930--931
 \OT1/cmr/m/n/10 el uso nor-mal de ellos. De for-ma que se
  []
 
 
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 937--938
+Underfull \hbox (badness 1616) in paragraph at lines 938--939
 \OT1/cmr/m/n/10 en-tre el ce-rra-mien-to tra-di-cio-nal e in-dus-tria-li-za-do.
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 937--938
+Underfull \hbox (badness 4072) in paragraph at lines 938--939
 \OT1/cmr/m/n/10 to-das las ne-ce-si-da-des fun-cio-na-les: la es-truc-tu-ra,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 939--940
+Underfull \hbox (badness 10000) in paragraph at lines 940--941
 \OT1/cmr/m/n/10 di-fe-ren-cia-do co-mo es-que-le-to in-de-pen-dien-te, el
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 939--940
+Underfull \hbox (badness 1603) in paragraph at lines 940--941
 \OT1/cmr/m/n/10 ce-rra-mien-to se pu-do es-pe-cia-li-zar y, jun-to con la
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 939--940
+Underfull \hbox (badness 1231) in paragraph at lines 940--941
 \OT1/cmr/m/n/10 par-ti-cu-lar. Me-dian-te el de-sa-rro-llo de los sis-te-mas
  []
 
 
-Underfull \hbox (badness 7944) in paragraph at lines 939--940
+Underfull \hbox (badness 7944) in paragraph at lines 940--941
 \OT1/cmr/m/n/10 cons-truc-ti-vos in-dus-tria-li-za-dos, se ha con-se-gui-do
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 939--940
+Underfull \hbox (badness 1122) in paragraph at lines 940--941
 \OT1/cmr/m/n/10 y cos-tes. Pa-ra pa-liar los pro-ble-mas hi-grom^^Setri-cos
  []
 
 
-Underfull \hbox (badness 2680) in paragraph at lines 939--940
+Underfull \hbox (badness 2680) in paragraph at lines 940--941
 \OT1/cmr/m/n/10 y de so-bre-ca-len-ta-mien-to por ra-dia-ci^^Son so-lar del
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 939--940
+Underfull \hbox (badness 1810) in paragraph at lines 940--941
 \OT1/cmr/m/n/10 ce-rra-mien-to mul-ti-ca-pa, sur-gen lo que lla-ma-re-mos
  []
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 941--942
+Underfull \hbox (badness 2689) in paragraph at lines 942--943
 []\OT1/cmr/m/n/10 Otra po-si-ble cla-si-fi-ca-ci^^Son, aten-dien-do al pe-so
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 941--942
+Underfull \hbox (badness 1348) in paragraph at lines 942--943
 \OT1/cmr/m/n/10 de los ma-te-ria-les que cons-ti-tu-yen el ce-rra-mien-to,
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 941--942
+Underfull \hbox (badness 1997) in paragraph at lines 942--943
 \OT1/cmr/m/n/10 nos va a per-mi-tir en es-te ca-so cen-trar el fo-co
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 941--942
+Underfull \hbox (badness 1527) in paragraph at lines 942--943
 \OT1/cmr/m/n/10 en el es-tu-dio de los sis-te-mas m^^Sas fre-cuen-tes en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 943--943
+Underfull \hbox (badness 10000) in paragraph at lines 944--944
 |\OT1/cmr/bx/n/10 Elementos del Sis-te-ma Ce-rra-mien-to
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 946--947
+Underfull \hbox (badness 2443) in paragraph at lines 947--948
 \OT1/cmr/m/n/10 ^^S^^Pnti-ma-men-te li-ga-da al di-se~no del pro-yec-tis-ta
  []
 
 
 
-LaTeX Info: Redefining \. on input line 947.
-LaTeX Info: Redefining \% on input line 947.
+LaTeX Info: Redefining \. on input line 948.
+LaTeX Info: Redefining \% on input line 948.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
@@ -2417,31 +2118,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[27]
-Underfull \hbox (badness 1014) in paragraph at lines 947--948
+[19]
+Underfull \hbox (badness 1014) in paragraph at lines 948--949
 \OT1/cmr/m/n/10 pa-ra su trans-por-te y co-lo-ca-ci^^Son me-dian-te un
  []
 
 
-LaTeX Warning: Reference `fig: Cerramientos. Elementos del Sistema Cerramiento Prefabricado' on page 28 undefined on input line 949.
+LaTeX Warning: Reference `fig: Cerramientos. Elementos del Sistema Cerramiento Prefabricado' on page 20 undefined on input line 950.
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 949--950
+Underfull \hbox (badness 1005) in paragraph at lines 950--951
 \OT1/cmr/m/n/10 es-tos pa-ne-les de hor-mig^^Son, y bueno pues no
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 955--956
+Underfull \hbox (badness 1681) in paragraph at lines 956--957
 \OT1/cmr/m/n/10 po-de-mos ob-te-ner com-po-nen-tes de ce-rra-mien-to de
  []
 
-<Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Homogeneo. Sin aislamiento termico.png, id=495, 826.58812pt x 526.21594pt>
+<Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Homogeneo. Sin aislamiento termico.png, id=325, 826.58812pt x 526.21594pt>
 File: Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Homogeneo. Sin aislamiento termico.png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Homogeneo. Sin aislamiento termico.png>
-Package pdftex.def Info: Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Homogeneo. Sin aislamiento termico.png  used on input line 961.
+Package pdftex.def Info: Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Homogeneo. Sin aislamiento termico.png  used on input line 962.
 (pdftex.def)             Requested size: 236.84843pt x 150.77603pt.
 
-Underfull \hbox (badness 3861) in paragraph at lines 962--962
+Underfull \hbox (badness 3861) in paragraph at lines 963--963
 []\OT1/cmr/m/n/10 Figura 2.34: |Pa-nel Pre-fa-fri-ca-do de Hor-mig^^Son -
  []
 
@@ -2449,29 +2150,29 @@ Underfull \hbox (badness 3861) in paragraph at lines 962--962
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 966--967
+Underfull \hbox (badness 1448) in paragraph at lines 967--968
 \OT1/cmr/m/n/10 pa-ne-les tie-nen un ar-ma-do de ace-ro. Uno de los
  []
 
 
 
-<Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico y puente termico.png, id=497, 824.32968pt x 553.31718pt>
+<Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico y puente termico.png, id=327, 824.32968pt x 553.31718pt>
 File: Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico y puente termico.png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico y puente termico.png>
-Package pdftex.def Info: Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico y puente termico.png  used on input line 970.
+Package pdftex.def Info: Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico y puente termico.png  used on input line 971.
 (pdftex.def)             Requested size: 236.84843pt x 158.98036pt.
 
-Underfull \hbox (badness 3861) in paragraph at lines 971--971
+Underfull \hbox (badness 3861) in paragraph at lines 972--972
 []\OT1/cmr/m/n/10 Figura 2.35: |Pa-nel Pre-fa-fri-ca-do de Hor-mig^^Son -
  []
 
-<Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico sin puente termico.png, id=499, 829.59938pt x 584.93532pt>
+<Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico sin puente termico.png, id=329, 829.59938pt x 584.93532pt>
 File: Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico sin puente termico.png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico sin puente termico.png>
-Package pdftex.def Info: Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico sin puente termico.png  used on input line 980.
+Package pdftex.def Info: Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico sin puente termico.png  used on input line 981.
 (pdftex.def)             Requested size: 236.84843pt x 166.9939pt.
 
-Underfull \hbox (badness 3861) in paragraph at lines 981--981
+Underfull \hbox (badness 3861) in paragraph at lines 982--982
 []\OT1/cmr/m/n/10 Figura 2.36: |Pa-nel Pre-fa-fri-ca-do de Hor-mig^^Son -
  []
 
@@ -2479,44 +2180,44 @@ Underfull \hbox (badness 3861) in paragraph at lines 981--981
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 988--989
+Underfull \hbox (badness 1337) in paragraph at lines 989--990
 \OT1/cmr/m/n/10 se rea-li-za con pa-ne-les ver-ti-ca-les de hor-mig^^Son, lo
  []
 
 
 
-LaTeX Info: Redefining \. on input line 989.
-LaTeX Info: Redefining \% on input line 989.
-[28 <./Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Homogeneo. Sin aislamiento termico.png> <./Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico y puente termico.png>]
-<Imagenes/Tema 2. Cerramientos. Fijacion Paneles Verticales.png, id=510, 844.65562pt x 606.76688pt>
+LaTeX Info: Redefining \. on input line 990.
+LaTeX Info: Redefining \% on input line 990.
+[20 <./Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Homogeneo. Sin aislamiento termico.png> <./Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico y puente termico.png>]
+<Imagenes/Tema 2. Cerramientos. Fijacion Paneles Verticales.png, id=340, 844.65562pt x 606.76688pt>
 File: Imagenes/Tema 2. Cerramientos. Fijacion Paneles Verticales.png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos. Fijacion Paneles Verticales.png>
-Package pdftex.def Info: Imagenes/Tema 2. Cerramientos. Fijacion Paneles Verticales.png  used on input line 992.
+Package pdftex.def Info: Imagenes/Tema 2. Cerramientos. Fijacion Paneles Verticales.png  used on input line 993.
 (pdftex.def)             Requested size: 236.84843pt x 170.14354pt.
 
-Underfull \hbox (badness 1147) in paragraph at lines 997--998
+Underfull \hbox (badness 1147) in paragraph at lines 998--999
 \OT1/cmr/m/n/10 o de hor-mig^^Son. En el ca-so de la fi-gu-ra []2.39[] se
  []
 
 
 
-<Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales.png, id=513, 857.45343pt x 603.75563pt>
+<Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales.png, id=343, 857.45343pt x 603.75563pt>
 File: Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales.png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales.png>
-Package pdftex.def Info: Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales.png  used on input line 1001.
+Package pdftex.def Info: Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales.png  used on input line 1002.
 (pdftex.def)             Requested size: 236.84843pt x 166.7657pt.
-<Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales (1).png, id=514, 816.04875pt x 566.115pt>
+<Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales (1).png, id=344, 816.04875pt x 566.115pt>
 File: Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales (1).png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales (1).png>
-Package pdftex.def Info: Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales (1).png  used on input line 1008.
+Package pdftex.def Info: Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales (1).png  used on input line 1009.
 (pdftex.def)             Requested size: 236.84843pt x 164.30736pt.
-<Imagenes/Tema 2. Cerramientos Pesados. Junta.png, id=515, 792.71156pt x 540.51938pt>
+<Imagenes/Tema 2. Cerramientos Pesados. Junta.png, id=345, 792.71156pt x 540.51938pt>
 File: Imagenes/Tema 2. Cerramientos Pesados. Junta.png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos Pesados. Junta.png>
-Package pdftex.def Info: Imagenes/Tema 2. Cerramientos Pesados. Junta.png  used on input line 1018.
+Package pdftex.def Info: Imagenes/Tema 2. Cerramientos Pesados. Junta.png  used on input line 1019.
 (pdftex.def)             Requested size: 236.84843pt x 161.49724pt.
 
-Underfull \hbox (badness 2846) in paragraph at lines 1019--1019
+Underfull \hbox (badness 2846) in paragraph at lines 1020--1020
 []\OT1/cmr/m/n/10 Figura 2.40: |Jun-ta de Pa-ne-les Pre-fa-bri-ca-dos de
  []
 
@@ -2524,24 +2225,24 @@ Underfull \hbox (badness 2846) in paragraph at lines 1019--1019
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 4832) in paragraph at lines 1023--1024
+Underfull \hbox (badness 4832) in paragraph at lines 1024--1025
 []\OT1/cmr/m/n/10 Respecto a las jun-tas en-tre pa-ne-les (fi-gu-ra
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 1023--1024
+Underfull \hbox (badness 1565) in paragraph at lines 1024--1025
 []\OT1/cmr/m/n/10 2.40[]), de-ben pre-sen-tar una to-tal in-te-gri-dad a la
  []
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 1023--1024
+Underfull \hbox (badness 1107) in paragraph at lines 1024--1025
 \OT1/cmr/m/n/10 im-per-mea-bi-li-za-ci^^Son du-ran-te to-da su vi-da ^^Sutil. Su
  []
 
 
 
-LaTeX Info: Redefining \. on input line 1026.
-LaTeX Info: Redefining \% on input line 1026.
+LaTeX Info: Redefining \. on input line 1027.
+LaTeX Info: Redefining \% on input line 1027.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
@@ -2549,11 +2250,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[29 <./Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico sin puente termico.png> <./Imagenes/Tema 2. Cerramientos. Fijacion Paneles Verticales.png> <./Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales.png> <./Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales (1).png>]
-<Imagenes/Tema 2. Cerramientos Pesados. Fijacion.png, id=529, 722.7pt x 450.9347pt>
+[21 <./Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico sin puente termico.png> <./Imagenes/Tema 2. Cerramientos. Fijacion Paneles Verticales.png> <./Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales.png> <./Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales (1).png>]
+<Imagenes/Tema 2. Cerramientos Pesados. Fijacion.png, id=360, 722.7pt x 450.9347pt>
 File: Imagenes/Tema 2. Cerramientos Pesados. Fijacion.png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos Pesados. Fijacion.png>
-Package pdftex.def Info: Imagenes/Tema 2. Cerramientos Pesados. Fijacion.png  used on input line 1033.
+Package pdftex.def Info: Imagenes/Tema 2. Cerramientos Pesados. Fijacion.png  used on input line 1034.
 (pdftex.def)             Requested size: 236.84843pt x 147.78368pt.
 
 
@@ -2562,90 +2263,90 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 1046--1047
+Underfull \hbox (badness 1748) in paragraph at lines 1047--1048
 \OT1/cmr/m/n/10 cer^^Sami-cas, e in-clu-so otros que son trasl^^Suci-dos y
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 1048--1049
+Underfull \hbox (badness 1132) in paragraph at lines 1049--1050
 []\OT1/cmr/m/n/10 De la pro-pia es-pe-cia-li-za-ci^^Son de las ca-pas que
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 1052--1053
+Underfull \hbox (badness 2111) in paragraph at lines 1053--1054
 \OT1/cmr/m/n/10 sub-es-truc-tu-ra au-xi-liar de fa-cha-da, tam-bi^^Sen co-mo
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 1052--1053
+Underfull \hbox (badness 4229) in paragraph at lines 1053--1054
 \OT1/cmr/m/n/10 a~nadir otros com-po-nen-tes pa-ra rea-li-zar in si-tu
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 1054--1055
+Underfull \hbox (badness 1571) in paragraph at lines 1055--1056
 \OT1/cmr/m/n/10 pue-de ser otra de las dis-po-si-cio-nes. O bien, los
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 1054--1055
+Underfull \hbox (badness 1609) in paragraph at lines 1055--1056
 \OT1/cmr/m/n/10 o ver-ti-ca-les con o sin sub-es-truc-tu-ra, seg^^Sun sean
  []
 
 
 
-LaTeX Info: Redefining \. on input line 1055.
-LaTeX Info: Redefining \% on input line 1055.
-[30 <./Imagenes/Tema 2. Cerramientos Pesados. Junta.png> <./Imagenes/Tema 2. Cerramientos Pesados. Fijacion.png>]
-Underfull \hbox (badness 2088) in paragraph at lines 1056--1057
+LaTeX Info: Redefining \. on input line 1056.
+LaTeX Info: Redefining \% on input line 1056.
+[22 <./Imagenes/Tema 2. Cerramientos Pesados. Junta.png> <./Imagenes/Tema 2. Cerramientos Pesados. Fijacion.png>]
+Underfull \hbox (badness 2088) in paragraph at lines 1057--1058
 []\OT1/cmr/m/n/10 Los pa-ne-les uni-ca-pa est^^San for-ma-dos por una
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 1062--1063
+Underfull \hbox (badness 4647) in paragraph at lines 1063--1064
 []\OT1/cmr/m/n/10 Es im-po-si-ble fa-bri-car, trans-por-tar y mon-tar
  []
 
 
-Underfull \hbox (badness 1147) in paragraph at lines 1062--1063
+Underfull \hbox (badness 1147) in paragraph at lines 1063--1064
 \OT1/cmr/m/n/10 con-si-de-rar la for-ma-ci^^Son de las jun-tas en fa-cha-da
  []
 
 
-Underfull \hbox (badness 7047) in paragraph at lines 1062--1063
+Underfull \hbox (badness 7047) in paragraph at lines 1063--1064
 \OT1/cmr/m/n/10 que ga-ran-ti-cen las exi-gen-cias de es-tan-quei-dad,
  []
 
 
-Underfull \hbox (badness 6268) in paragraph at lines 1064--1065
+Underfull \hbox (badness 6268) in paragraph at lines 1065--1066
 []\OT1/cmr/m/n/10 Atendiendo a los ti-pos de jun-ta, po-de-mos
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 1067--1068
+Underfull \hbox (badness 1067) in paragraph at lines 1068--1069
 []\OT1/cmr/m/n/10 La jun-ta im-permea-ble: Ba-sa su fun-cio-na-li-dad
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 1067--1068
+Underfull \hbox (badness 1629) in paragraph at lines 1068--1069
 \OT1/cmr/m/n/10 ma-te-ria-les de se-lla-do (los neo-pre-nos, EPDM,
  []
 
 
 
 
-Underfull \hbox (badness 6526) in paragraph at lines 1073--1074
+Underfull \hbox (badness 6526) in paragraph at lines 1074--1075
 \OT1/cmr/m/n/10 o au-to-ta-la-dran-tes que in-cor-po-ran aran-de-las de
  []
 
-<Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich.png, id=539, 824.32968pt x 535.2497pt>
+<Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich.png, id=370, 824.32968pt x 535.2497pt>
 File: Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich.png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich.png>
-Package pdftex.def Info: Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich.png  used on input line 1077.
+Package pdftex.def Info: Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich.png  used on input line 1078.
 (pdftex.def)             Requested size: 236.84843pt x 153.78917pt.
 
 
-LaTeX Info: Redefining \. on input line 1085.
-LaTeX Info: Redefining \% on input line 1085.
+LaTeX Info: Redefining \. on input line 1086.
+LaTeX Info: Redefining \% on input line 1086.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
@@ -2653,162 +2354,162 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[31 <./Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich.png>]
-<Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich (1).png, id=549, 829.59938pt x 606.01407pt>
+[23 <./Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich.png>]
+<Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich (1).png, id=379, 829.59938pt x 606.01407pt>
 File: Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich (1).png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich (1).png>
-Package pdftex.def Info: Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich (1).png  used on input line 1088.
+Package pdftex.def Info: Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich (1).png  used on input line 1089.
 (pdftex.def)             Requested size: 236.84843pt x 173.0117pt.
 
-Underfull \hbox (badness 1776) in paragraph at lines 1095--1096
+Underfull \hbox (badness 1776) in paragraph at lines 1096--1097
 \OT1/cmr/m/n/10 edi-fi-cios ha mo-ti-va-do la pro-li-fe-ra-ci^^Son de gran-des
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 1097--1098
+Underfull \hbox (badness 1859) in paragraph at lines 1098--1099
 \OT1/cmr/m/n/10 ne-ce-si-tar^^Sa una es-truc-tu-ra au-xi-liar com-pues-ta por
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 1097--1098
+Underfull \hbox (badness 1527) in paragraph at lines 1098--1099
 \OT1/cmr/m/n/10 me-dian-te el mar-co de car-pin-ter^^S^^Pa, que a su vez
  []
 
 
-Underfull \hbox (badness 3240) in paragraph at lines 1099--1100
+Underfull \hbox (badness 3240) in paragraph at lines 1100--1101
 \OT1/cmr/m/n/10 co-rrec-ta-men-te en el mis-mo plano y se pue-dan
  []
 
-<Imagenes/Tema 2. Cerramientos Ligeros. Muro Cortina.png, id=550, 833.36343pt x 614.295pt>
+<Imagenes/Tema 2. Cerramientos Ligeros. Muro Cortina.png, id=380, 833.36343pt x 614.295pt>
 File: Imagenes/Tema 2. Cerramientos Ligeros. Muro Cortina.png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos Ligeros. Muro Cortina.png>
-Package pdftex.def Info: Imagenes/Tema 2. Cerramientos Ligeros. Muro Cortina.png  used on input line 1103.
+Package pdftex.def Info: Imagenes/Tema 2. Cerramientos Ligeros. Muro Cortina.png  used on input line 1104.
 (pdftex.def)             Requested size: 236.84843pt x 174.5791pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 4739) in paragraph at lines 1108--1109
+Underfull \hbox (badness 4739) in paragraph at lines 1109--1110
 []\OT1/cmr/m/n/10 En la fi-gu-ra []2.44[] se mues-tran los de-ta-lles
  []
 
 
 
 
-Underfull \hbox (badness 4328) in paragraph at lines 1121--1122
+Underfull \hbox (badness 4328) in paragraph at lines 1122--1123
 []\OT1/cmr/m/n/10 Protecci^^Son y Aca-ba-do: De-pen-dien-do de las
  []
 
 
-Underfull \hbox (badness 5622) in paragraph at lines 1121--1122
+Underfull \hbox (badness 5622) in paragraph at lines 1122--1123
 \OT1/cmr/m/n/10 ca-rac-ter^^S^^Psti-cas de la ca-pa im-permea-ble, en
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1124--1125
+Underfull \hbox (badness 10000) in paragraph at lines 1125--1126
 \OT1/cmr/m/n/10 esen-cia-les siem-pre y cuan-do se tra-ta de
  []
 
 
-Underfull \hbox (badness 3579) in paragraph at lines 1124--1125
+Underfull \hbox (badness 3579) in paragraph at lines 1125--1126
 \OT1/cmr/m/n/10 acon-di-cio-nar un es-pa-cio in-te-rior. Aun-que si
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 1124--1125
+Underfull \hbox (badness 1253) in paragraph at lines 1125--1126
 \OT1/cmr/m/n/10 lo que se rea-li-za es un sim-ple co-ber-ti-zo sin
  []
 
 
 
-LaTeX Info: Redefining \. on input line 1125.
-LaTeX Info: Redefining \% on input line 1125.
-[32 <./Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich (1).png> <./Imagenes/Tema 2. Cerramientos Ligeros. Muro Cortina.png>]
-Underfull \hbox (badness 1184) in paragraph at lines 1125--1126
+LaTeX Info: Redefining \. on input line 1126.
+LaTeX Info: Redefining \% on input line 1126.
+[24 <./Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich (1).png> <./Imagenes/Tema 2. Cerramientos Ligeros. Muro Cortina.png>]
+Underfull \hbox (badness 1184) in paragraph at lines 1126--1127
 \OT1/cmr/m/n/10 siem-pre se dis-pondr^^Sa en la ca-ra ca-lien-te del
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 1126--1127
+Underfull \hbox (badness 2495) in paragraph at lines 1127--1128
 []\OT1/cmr/m/n/10 Capa o Sist. pa-ra For-ma-ci^^Son de Pen-dien-te.
  []
 
-<Imagenes/Tema 2. Cubiertas. Capas de la cubierta multicapa.png, id=563, 484.05844pt x 170.13562pt>
+<Imagenes/Tema 2. Cubiertas. Capas de la cubierta multicapa.png, id=393, 484.05844pt x 170.13562pt>
 File: Imagenes/Tema 2. Cubiertas. Capas de la cubierta multicapa.png Graphic file (type png)
 <use Imagenes/Tema 2. Cubiertas. Capas de la cubierta multicapa.png>
-Package pdftex.def Info: Imagenes/Tema 2. Cubiertas. Capas de la cubierta multicapa.png  used on input line 1132.
+Package pdftex.def Info: Imagenes/Tema 2. Cubiertas. Capas de la cubierta multicapa.png  used on input line 1133.
 (pdftex.def)             Requested size: 236.84843pt x 83.24776pt.
 
-Underfull \hbox (badness 2213) in paragraph at lines 1139--1140
+Underfull \hbox (badness 2213) in paragraph at lines 1140--1141
 []\OT1/cmr/m/n/10 Atendiendo a los ti-pos de cu-bier-ta, con-vie-ne
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 1142--1143
+Underfull \hbox (badness 1337) in paragraph at lines 1143--1144
 \OT1/cmr/m/n/10 que se pue-den di-se~nar y cons-tru-yen pa-ra la
  []
 
 
-Underfull \hbox (badness 4168) in paragraph at lines 1143--1144
+Underfull \hbox (badness 4168) in paragraph at lines 1144--1145
 \OT1/cmr/m/n/10 t^^S^^Ppi-cas seg^^Sun el n^^Sume-ro de fal-do-nes y su
  []
 
 
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 1150--1151
+Underfull \hbox (badness 1019) in paragraph at lines 1151--1152
 []\OT1/cmr/m/n/10 De ma-te-rial dis-con-ti-nuo: En el que, a par-tir
  []
 
 
-Underfull \hbox (badness 7576) in paragraph at lines 1150--1151
+Underfull \hbox (badness 7576) in paragraph at lines 1151--1152
 \OT1/cmr/m/n/10 de pie-zas in-de-pen-dien-tes, me-dian-te el uso
  []
 
 
-Underfull \hbox (badness 2269) in paragraph at lines 1150--1151
+Underfull \hbox (badness 2269) in paragraph at lines 1151--1152
 \OT1/cmr/m/n/10 de la pen-dien-te y el so-la-pe se con-si-gue la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1155--1156
+Underfull \hbox (badness 10000) in paragraph at lines 1156--1157
 []\OT1/cmr/m/n/10 Dependiendo del sis-te-ma y ma-te-rial
  []
 
 
-Underfull \hbox (badness 5119) in paragraph at lines 1155--1156
+Underfull \hbox (badness 5119) in paragraph at lines 1156--1157
 \OT1/cmr/m/n/10 im-per-mea-bi-li-zan-te, es acon-se-ja-ble una pen-dien-te
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1155--1156
+Underfull \hbox (badness 10000) in paragraph at lines 1156--1157
 \OT1/cmr/m/n/10 m^^S^^Pni-ma y m^^Saxi-ma. Ob-via-men-te, los sis-te-mas
  []
 
 
-Underfull \hbox (badness 7012) in paragraph at lines 1155--1156
+Underfull \hbox (badness 7012) in paragraph at lines 1156--1157
 \OT1/cmr/m/n/10 que las l^^Sami-nas im-permea-bles ad-mi-ten in-clu-so
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 1163--1164
+Underfull \hbox (badness 2932) in paragraph at lines 1164--1165
 []\OT1/cmr/m/n/10 En el do-cu-men-to HS Sa-lu-bri-dad del C^^Sodi-go
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 1163--1164
+Underfull \hbox (badness 1067) in paragraph at lines 1164--1165
 \OT1/cmr/m/n/10 T^^Secni-co, se es-ta-ble-cen pen-dien-tes m^^S^^Pni-mas. En el
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 1167--1168
+Underfull \hbox (badness 1454) in paragraph at lines 1168--1169
 \OT1/cmr/m/n/10 adi-cio-nal. Las so-lu-cio-nes ha-bi-tua-les de pro-tec-ci^^Son
  []
 
 
 
-LaTeX Info: Redefining \. on input line 1168.
-LaTeX Info: Redefining \% on input line 1168.
+LaTeX Info: Redefining \. on input line 1169.
+LaTeX Info: Redefining \% on input line 1169.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
@@ -2816,94 +2517,94 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[33 <./Imagenes/Tema 2. Cubiertas. Capas de la cubierta multicapa.png>]
-Underfull \hbox (badness 1789) in paragraph at lines 1169--1170
+[25 <./Imagenes/Tema 2. Cubiertas. Capas de la cubierta multicapa.png>]
+Underfull \hbox (badness 1789) in paragraph at lines 1170--1171
 \OT1/cmr/m/n/10 uti-li-za-dos, y hay al-gu-na de las pro-pie-da-des que
  []
 
 
-Underfull \hbox (badness 7238) in paragraph at lines 1172--1173
+Underfull \hbox (badness 7238) in paragraph at lines 1173--1174
 []\OT1/cmr/m/n/10 Poliestireno ex-pan-di-do (EPS): Es li-ge-ro y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1173--1174
+Underfull \hbox (badness 10000) in paragraph at lines 1174--1175
 []\OT1/cmr/m/n/10 Poliestireno ex-trui-do (XPS): Tie-ne ma-yor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1174--1175
+Underfull \hbox (badness 10000) in paragraph at lines 1175--1176
 []\OT1/cmr/m/n/10 Lana de ro-ca: Com-bi-na un ex-ce-len-te
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 1174--1175
+Underfull \hbox (badness 1152) in paragraph at lines 1175--1176
 \OT1/cmr/m/n/10 com-por-ta-mien-to fren-te al fue-go con un buen
  []
 
 
-Underfull \hbox (badness 3128) in paragraph at lines 1175--1176
+Underfull \hbox (badness 3128) in paragraph at lines 1176--1177
 []\OT1/cmr/m/n/10 Vidrio ce-lu-lar: Es im-permea-ble al va-por y,
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 1186--1187
+Underfull \hbox (badness 1546) in paragraph at lines 1187--1188
 []\OT1/cmr/m/n/10 L^^Sami-nas se-pa-ra-do-ras: Fa-ci-li-tan el mo-vi-mien-to
  []
 
 
-Underfull \hbox (badness 2469) in paragraph at lines 1187--1188
+Underfull \hbox (badness 2469) in paragraph at lines 1188--1189
 []\OT1/cmr/m/n/10 Barrera de va-por: Pue-de ser de po-li-eti-leno,
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 1188--1189
+Underfull \hbox (badness 1184) in paragraph at lines 1189--1190
 []\OT1/cmr/m/n/10 L^^Sami-na dre-nan-te: Al igual que en mu-ros de
  []
 
 
 
 
-Underfull \hbox (badness 2165) in paragraph at lines 1195--1196
+Underfull \hbox (badness 2165) in paragraph at lines 1196--1197
 \OT1/cmr/m/n/10 en-tre el so-por-te de la co-ber-tu-ra y la ba-se
  []
 
-<Imagenes/Tema 2. Cubierta Fria vs Caliente.png, id=574, 764.8575pt x 488.57532pt>
+<Imagenes/Tema 2. Cubierta Fria vs Caliente.png, id=405, 764.8575pt x 488.57532pt>
 File: Imagenes/Tema 2. Cubierta Fria vs Caliente.png Graphic file (type png)
 <use Imagenes/Tema 2. Cubierta Fria vs Caliente.png>
-Package pdftex.def Info: Imagenes/Tema 2. Cubierta Fria vs Caliente.png  used on input line 1200.
+Package pdftex.def Info: Imagenes/Tema 2. Cubierta Fria vs Caliente.png  used on input line 1201.
 (pdftex.def)             Requested size: 236.84843pt x 151.29277pt.
 
-Underfull \hbox (badness 1502) in paragraph at lines 1210--1211
+Underfull \hbox (badness 1502) in paragraph at lines 1211--1212
 []\OT1/cmr/m/n/10 Fald^^Son: Cons-ti-tu-ye ca-da plano que de-fi-ne la
  []
 
-<Imagenes/Tema 2. Designacion de elementos de la cubierta.png, id=575, 787.44188pt x 469.00218pt>
+<Imagenes/Tema 2. Designacion de elementos de la cubierta.png, id=406, 787.44188pt x 469.00218pt>
 File: Imagenes/Tema 2. Designacion de elementos de la cubierta.png Graphic file (type png)
 <use Imagenes/Tema 2. Designacion de elementos de la cubierta.png>
-Package pdftex.def Info: Imagenes/Tema 2. Designacion de elementos de la cubierta.png  used on input line 1216.
+Package pdftex.def Info: Imagenes/Tema 2. Designacion de elementos de la cubierta.png  used on input line 1217.
 (pdftex.def)             Requested size: 236.84843pt x 141.06671pt.
 
-Underfull \hbox (badness 2951) in paragraph at lines 1221--1221
+Underfull \hbox (badness 2951) in paragraph at lines 1222--1222
 |\OT1/cmr/bx/n/10 Organizaci^^Son Cons-truc-ti-va de la Cu-bier-ta.
  []
 
 
 
-LaTeX Info: Redefining \. on input line 1224.
-LaTeX Info: Redefining \% on input line 1224.
-[34 <./Imagenes/Tema 2. Cubierta Fria vs Caliente.png> <./Imagenes/Tema 2. Designacion de elementos de la cubierta.png>]
-Underfull \hbox (badness 1297) in paragraph at lines 1225--1226
+LaTeX Info: Redefining \. on input line 1225.
+LaTeX Info: Redefining \% on input line 1225.
+[26 <./Imagenes/Tema 2. Cubierta Fria vs Caliente.png> <./Imagenes/Tema 2. Designacion de elementos de la cubierta.png>]
+Underfull \hbox (badness 1297) in paragraph at lines 1226--1227
 \OT1/cmr/m/n/10 es rea-li-zar una se-gun-da ho-ja apo-ya-da so-bre una
  []
 
 
-Underfull \hbox (badness 6876) in paragraph at lines 1227--1228
+Underfull \hbox (badness 6876) in paragraph at lines 1228--1229
 []\OT1/cmr/m/n/10 Cuando la sub-es-truc-tu-ra prin-ci-pal ya tie-ne
  []
 
 
-Underfull \hbox (badness 2253) in paragraph at lines 1231--1232
+Underfull \hbox (badness 2253) in paragraph at lines 1232--1233
 []\OT1/cmr/m/n/10 Mediante cat^^Salo-gos, los fa-bri-can-tes de cha-pas
  []
 
@@ -2912,113 +2613,113 @@ Underfull \vbox (badness 2671) has occurred while \output is active []
 
 
 
-<Imagenes/Tema 2. Cubierta Plana. Composicion.png, id=585, 511.9125pt x 521.69907pt>
+<Imagenes/Tema 2. Cubierta Plana. Composicion.png, id=416, 511.9125pt x 521.69907pt>
 File: Imagenes/Tema 2. Cubierta Plana. Composicion.png Graphic file (type png)
 <use Imagenes/Tema 2. Cubierta Plana. Composicion.png>
-Package pdftex.def Info: Imagenes/Tema 2. Cubierta Plana. Composicion.png  used on input line 1243.
+Package pdftex.def Info: Imagenes/Tema 2. Cubierta Plana. Composicion.png  used on input line 1244.
 (pdftex.def)             Requested size: 177.63632pt x 181.02919pt.
 
-Underfull \hbox (badness 3679) in paragraph at lines 1250--1251
+Underfull \hbox (badness 3679) in paragraph at lines 1251--1252
 \OT1/cmr/m/n/10 cons-trui-do con lo que se nos ocu-rra (una
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 1250--1251
+Underfull \hbox (badness 3029) in paragraph at lines 1251--1252
 \OT1/cmr/m/n/10 y cha-pa co-la-bo-ran-te, etc.) so-bre el que se
  []
 
 
-Underfull \hbox (badness 7433) in paragraph at lines 1250--1251
+Underfull \hbox (badness 7433) in paragraph at lines 1251--1252
 \OT1/cmr/m/n/10 (FP). So-bre la pen-dien-te de hor-mig^^Son y
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 1250--1251
+Underfull \hbox (badness 1163) in paragraph at lines 1251--1252
 \OT1/cmr/m/n/10 pre-via-men-te al ais-la-mien-to t^^Sermi-co, se co-lo-ca
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 1250--1251
+Underfull \hbox (badness 2158) in paragraph at lines 1251--1252
 \OT1/cmr/m/n/10 ca-lien-te. So-bre la ca-pa de ais-la-mien-to (AT)
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 1250--1251
+Underfull \hbox (badness 1132) in paragraph at lines 1251--1252
 \OT1/cmr/m/n/10 ya que la l^^Sami-na im-permea-ble ele-gi-da no es
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 1250--1251
+Underfull \hbox (badness 2828) in paragraph at lines 1251--1252
 \OT1/cmr/m/n/10 adhe-ri-da. Es-ta ca-pa per-mi-te que la l^^Sami-na
  []
 
 
-Underfull \hbox (badness 3078) in paragraph at lines 1250--1251
+Underfull \hbox (badness 3078) in paragraph at lines 1251--1252
 \OT1/cmr/m/n/10 im-permea-ble des-can-se y di-la-te li-bre-men-te y
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 1250--1251
+Underfull \hbox (badness 2245) in paragraph at lines 1251--1252
 \OT1/cmr/m/n/10 no su-fra des-ga-rros de mo-vi-mien-to. So-bre la
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 1251--1252
+Underfull \hbox (badness 4048) in paragraph at lines 1252--1253
 []\OT1/cmr/m/n/10 Ejemplo 2 (fi-gu-ra []2.49b[]): Se pre-sen-ta una
  []
 
 
-Underfull \hbox (badness 3769) in paragraph at lines 1251--1252
+Underfull \hbox (badness 3769) in paragraph at lines 1252--1253
 \OT1/cmr/m/n/10 so-lu-ci^^Son pa-ra un co-ber-ti-zo sin pa-re-des, ya
  []
 
 
-Underfull \hbox (badness 1694) in paragraph at lines 1251--1252
+Underfull \hbox (badness 1694) in paragraph at lines 1252--1253
 \OT1/cmr/m/n/10 que no in-clu-ye ais-la-mien-to t^^Sermi-co. Adem^^Sas,
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 1251--1252
+Underfull \hbox (badness 2460) in paragraph at lines 1252--1253
 \OT1/cmr/m/n/10 la im-per-mea-bi-li-za-ci^^Son ele-gi-da es una l^^Sami-na
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 1251--1252
+Underfull \hbox (badness 1072) in paragraph at lines 1252--1253
 \OT1/cmr/m/n/10 una im-pri-ma-ci^^Son. Tam-po-co ne-ce-si-tar^^Sa ba-rre-ra
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 1251--1252
+Underfull \hbox (badness 1354) in paragraph at lines 1252--1253
 \OT1/cmr/m/n/10 de va-por por tan-to. Por otra par-te, es una
  []
 
-<Imagenes/Tema 2. Cubierta Plana. Ejemplo 1.png, id=588, 284.56313pt x 193.47281pt>
+<Imagenes/Tema 2. Cubierta Plana. Ejemplo 1.png, id=419, 284.56313pt x 193.47281pt>
 File: Imagenes/Tema 2. Cubierta Plana. Ejemplo 1.png Graphic file (type png)
 <use Imagenes/Tema 2. Cubierta Plana. Ejemplo 1.png>
-Package pdftex.def Info: Imagenes/Tema 2. Cubierta Plana. Ejemplo 1.png  used on input line 1258.
+Package pdftex.def Info: Imagenes/Tema 2. Cubierta Plana. Ejemplo 1.png  used on input line 1259.
 (pdftex.def)             Requested size: 113.68623pt x 77.29623pt.
 
-Underfull \hbox (badness 4673) in paragraph at lines 1259--1259
+Underfull \hbox (badness 4673) in paragraph at lines 1260--1260
 []\OT1/cmr/m/n/9 (a) |Ejem-plo 1. Cu-bier-ta
  []
 
-<Imagenes/Tema 2. Cubierta Plana. Ejemplo 2.png, id=589, 289.83281pt x 181.42781pt>
+<Imagenes/Tema 2. Cubierta Plana. Ejemplo 2.png, id=420, 289.83281pt x 181.42781pt>
 File: Imagenes/Tema 2. Cubierta Plana. Ejemplo 2.png Graphic file (type png)
 <use Imagenes/Tema 2. Cubierta Plana. Ejemplo 2.png>
-Package pdftex.def Info: Imagenes/Tema 2. Cubierta Plana. Ejemplo 2.png  used on input line 1265.
+Package pdftex.def Info: Imagenes/Tema 2. Cubierta Plana. Ejemplo 2.png  used on input line 1266.
 (pdftex.def)             Requested size: 113.68623pt x 71.1635pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Imagenes/Tema 2. Cubierta Invertida. Composicion.png, id=590, 779.16093pt x 392.21532pt>
+<Imagenes/Tema 2. Cubierta Invertida. Composicion.png, id=421, 779.16093pt x 392.21532pt>
 File: Imagenes/Tema 2. Cubierta Invertida. Composicion.png Graphic file (type png)
 <use Imagenes/Tema 2. Cubierta Invertida. Composicion.png>
-Package pdftex.def Info: Imagenes/Tema 2. Cubierta Invertida. Composicion.png  used on input line 1276.
+Package pdftex.def Info: Imagenes/Tema 2. Cubierta Invertida. Composicion.png  used on input line 1277.
 (pdftex.def)             Requested size: 177.63632pt x 89.41763pt.
 
 
-LaTeX Info: Redefining \. on input line 1279.
-LaTeX Info: Redefining \% on input line 1279.
+LaTeX Info: Redefining \. on input line 1280.
+LaTeX Info: Redefining \% on input line 1280.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
@@ -3026,403 +2727,73 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[35 <./Imagenes/Tema 2. Cubierta Plana. Composicion.png>]
-Underfull \hbox (badness 1789) in paragraph at lines 1284--1285
+[27 <./Imagenes/Tema 2. Cubierta Plana. Composicion.png>]
+Underfull \hbox (badness 1789) in paragraph at lines 1285--1286
 \OT1/cmr/m/n/10 so-bre so-por-tes y apo-ya-das di-rec-ta-men-te so-bre el
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1286--1287
+Underfull \hbox (badness 10000) in paragraph at lines 1287--1288
 []\OT1/cmr/m/n/10 Los ele-men-tos t^^Sermi-cos pier-den pro-pie-da-des
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 1286--1287
+Underfull \hbox (badness 2608) in paragraph at lines 1287--1288
 \OT1/cmr/m/n/10 ais-lan-tes con la hu-me-dad, adem^^Sas de su-frir un
  []
 
 
-Underfull \hbox (badness 6461) in paragraph at lines 1286--1287
+Underfull \hbox (badness 6461) in paragraph at lines 1287--1288
 \OT1/cmr/m/n/10 con-tras-tes t^^Sermi-cos. Igual-men-te, aho-ra no ser^^Sa
  []
 
-<Imagenes/Tema 2. Cubierta Invertida. Ejemplos.png, id=598, 1014.79124pt x 173.89969pt>
+<Imagenes/Tema 2. Cubierta Invertida. Ejemplos.png, id=429, 1014.79124pt x 173.89969pt>
 File: Imagenes/Tema 2. Cubierta Invertida. Ejemplos.png Graphic file (type png)
 <use Imagenes/Tema 2. Cubierta Invertida. Ejemplos.png>
-Package pdftex.def Info: Imagenes/Tema 2. Cubierta Invertida. Ejemplos.png  used on input line 1290.
+Package pdftex.def Info: Imagenes/Tema 2. Cubierta Invertida. Ejemplos.png  used on input line 1291.
 (pdftex.def)             Requested size: 236.84843pt x 40.5878pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Imagenes/Tema 2. Cubierta Deck. Composicion.png, id=599, 660.96938pt x 442.65375pt>
+<Imagenes/Tema 2. Cubierta Deck. Composicion.png, id=430, 660.96938pt x 442.65375pt>
 File: Imagenes/Tema 2. Cubierta Deck. Composicion.png Graphic file (type png)
 <use Imagenes/Tema 2. Cubierta Deck. Composicion.png>
-Package pdftex.def Info: Imagenes/Tema 2. Cubierta Deck. Composicion.png  used on input line 1299.
+Package pdftex.def Info: Imagenes/Tema 2. Cubierta Deck. Composicion.png  used on input line 1300.
 (pdftex.def)             Requested size: 177.63632pt x 118.96425pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 1304--1305
+Underfull \hbox (badness 1189) in paragraph at lines 1305--1306
 []\OT1/cmr/m/n/10 La cu-bier-ta deck est^^Sa di-se~nada prin-ci-pal-men-te
  []
 
 
-Underfull \hbox (badness 3536) in paragraph at lines 1304--1305
+Underfull \hbox (badness 3536) in paragraph at lines 1305--1306
 \OT1/cmr/m/n/10 li-ge-re-za y gran fa-ci-li-dad cons-truc-ti-va. En es-tas
  []
 
 
 
-<Imagenes/Tema 2. Cubierta Deck. Ejemplos.png, id=600, 987.69pt x 119.69719pt>
+<Imagenes/Tema 2. Cubierta Deck. Ejemplos.png, id=431, 987.69pt x 119.69719pt>
 File: Imagenes/Tema 2. Cubierta Deck. Ejemplos.png Graphic file (type png)
 <use Imagenes/Tema 2. Cubierta Deck. Ejemplos.png>
-Package pdftex.def Info: Imagenes/Tema 2. Cubierta Deck. Ejemplos.png  used on input line 1308.
+Package pdftex.def Info: Imagenes/Tema 2. Cubierta Deck. Ejemplos.png  used on input line 1309.
 (pdftex.def)             Requested size: 236.84843pt x 28.70233pt.
-<Imagenes/Tema 2. Ejemplo Cubierta Deck.png, id=602, 1022.31938pt x 764.8575pt>
+<Imagenes/Tema 2. Ejemplo Cubierta Deck.png, id=433, 1022.31938pt x 764.8575pt>
 File: Imagenes/Tema 2. Ejemplo Cubierta Deck.png Graphic file (type png)
 <use Imagenes/Tema 2. Ejemplo Cubierta Deck.png>
-Package pdftex.def Info: Imagenes/Tema 2. Ejemplo Cubierta Deck.png  used on input line 1317.
+Package pdftex.def Info: Imagenes/Tema 2. Ejemplo Cubierta Deck.png  used on input line 1318.
 (pdftex.def)             Requested size: 236.84843pt x 177.1973pt.
 )
 
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
-[36 <./Imagenes/Tema 2. Cubierta Plana. Ejemplo 1.png> <./Imagenes/Tema 2. Cubierta Plana. Ejemplo 2.png> <./Imagenes/Tema 2. Cubierta Invertida. Composicion.png> <./Imagenes/Tema 2. Cubierta Invertida. Ejemplos.png> <./Imagenes/Tema 2. Cubierta Deck. Composicion.png> <./Imagenes/Tema 2. Cubierta Deck. Ejemplos.png> <./Imagenes/Tema 2. Ejemplo Cubierta Deck.png>]
-\openout2 = `"Capitulos/Tema 3. Plantas industriales.aux"'.
-
- (./Capitulos/Tema 3. Plantas industriales.tex
-Cap\'{\i }tulo 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--3
-|[]\OT1/cmr/bx/n/14.4 Proyectos de plan-tas
- []
-
-
-Underfull \hbox (badness 5667) in paragraph at lines 5--6
-[]\OT1/cmr/m/n/10 Se co-no-ce co-mo com-ple-jo in-dus-trial a una
- []
-
-
-Underfull \hbox (badness 4072) in paragraph at lines 5--6
-\OT1/cmr/m/n/10 ins-ta-la-ci^^Son in-dus-trial vo-lu-mi-no-sa cons-ti-tui-da por
- []
-
-
-Underfull \hbox (badness 1874) in paragraph at lines 7--8
-\OT1/cmr/m/n/10 au-xi-lia-res que tie-nen co-mo fun-ci^^Son sa-tis-fa-cer las
- []
-
-
-Underfull \hbox (badness 6173) in paragraph at lines 19--19
-|[]\OT1/cmr/bx/n/14.4 Ingenier^^S^^Pa: Im-plan-ta-ci^^Son y
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 23--24
-\OT1/cmr/m/n/10 con-di-cio-nan-tes por pro-ce-so, pro-duc-to, ac-ti-vi-da-des,
- []
-
-
-
-
-Underfull \hbox (badness 4366) in paragraph at lines 29--30
-[]\OT1/cmr/m/n/10 Requisitos de mon-ta-je y man-te-ni-mien-to de
- []
-
-
-Underfull \hbox (badness 2990) in paragraph at lines 52--53
-[]\OT1/cmr/m/n/10 Consigue una me-jor adap-ta-ci^^Son a con-tex-tos
- []
-
-
-
-[37
-
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 59--61
-\OT1/cmr/m/n/10 y pro-gra-mas de con-trol. Co-mu-ni-can con
- []
-
-
-Underfull \hbox (badness 4543) in paragraph at lines 59--61
-\OT1/cmr/m/n/10 otros dis-po-si-ti-vos, tar-je-tas I/O, tar-je-tas de
- []
-
-
-Underfull \hbox (badness 2846) in paragraph at lines 59--61
-\OT1/cmr/m/n/10 co-mu-ni-ca-cio-nes, etc. Pue-den ser re-dun-dan-tes
- []
-
-
-Underfull \hbox (badness 1412) in paragraph at lines 63--65
-\OT1/cmr/m/n/10 Mues-tran las pan-ta-llas de ope-ra-ci^^Son, gr^^Safi-cos
- []
-
-
-Underfull \hbox (badness 2941) in paragraph at lines 63--65
-\OT1/cmr/m/n/10 ge-ne-ra-les, pan-ta-llas de fun-cio-nes est^^Sandar y
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-[]\OT1/cmr/m/n/10 Comunicaciones al ex-te-rior (In-tra-net,
- []
-
-
-Underfull \hbox (badness 1939) in paragraph at lines 77--78
-\OT1/cmr/m/n/10 uti-li-za-do en las plan-tas in-dus-tria-les. Cal-cu-lan la
- []
-
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--89
-|[]\OT1/cmr/bx/n/14.4 Construcci^^Son: ac-ti-vi-da-des
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--89
-\OT1/cmr/bx/n/14.4 pre-vias, com-pras y
- []
-
-
-Underfull \hbox (badness 3460) in paragraph at lines 93--94
-[]\OT1/cmr/m/n/10 Todos los tra-ba-jos se rea-li-zan pa-ra fa-ci-li-tar
- []
-
-
-Underfull \hbox (badness 4279) in paragraph at lines 93--94
-\OT1/cmr/m/n/10 la cons-truc-ci^^Son y la pues-ta en mar-cha de la
- []
-
-
-Underfull \hbox (badness 1442) in paragraph at lines 97--98
-[]\OT1/cmr/m/n/10 Consiste en cons-truir un pro-gra-ma glo-bal del
- []
-
-
-Underfull \hbox (badness 1694) in paragraph at lines 103--104
-\OT1/cmr/m/n/10 del pro-yec-to por to-das las ^^Sareas im-pli-ca-das.
- []
-
-
-
-LaTeX Info: Redefining \. on input line 110.
-LaTeX Info: Redefining \% on input line 110.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.07225pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
-
-[38]
-Underfull \hbox (badness 2608) in paragraph at lines 111--112
-[]\OT1/cmr/m/n/10 Holgura: tiem-po que se pue-de re-tra-sar una
- []
-
-
-Underfull \hbox (badness 2221) in paragraph at lines 115--115
-|\OT1/cmr/bx/n/12 Compras de ma-te-ria-les y equi-pos -
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
-[]\OT1/cmr/m/n/10 Compras: Con-di-cio-nes Co-mer-cia-les
- []
-
-
-
-
-Underfull \hbox (badness 1769) in paragraph at lines 148--149
-[]\OT1/cmr/m/n/10 Contratista prin-ci-pal: asu-me con-trac-tual-men-te
- []
-
-
-Underfull \hbox (badness 5756) in paragraph at lines 148--149
-\OT1/cmr/m/n/10 an-te el pro-mo-tor, con me-dios hu-ma-nos y
- []
-
-
-Underfull \hbox (badness 1215) in paragraph at lines 149--150
-\OT1/cmr/m/n/10 asu-me con-trac-tual-men-te an-te el con-tra-tis-ta y
- []
-
-
-Underfull \hbox (badness 5893) in paragraph at lines 158--159
-[]\OT1/cmr/m/n/10 Precio Fi-jo con In-cen-ti-vos: se ofre-cen
- []
-
-
-Underfull \hbox (badness 5490) in paragraph at lines 164--165
-[]\OT1/cmr/m/n/10 Costo M^^Sas Ho-no-ra-rios In-cen-ti-va-dos: se
- []
-
-<Imagenes/Tema 3. Tipos de Contratos.png, id=646, 775.39688pt x 482.55281pt>
-File: Imagenes/Tema 3. Tipos de Contratos.png Graphic file (type png)
-<use Imagenes/Tema 3. Tipos de Contratos.png>
-Package pdftex.def Info: Imagenes/Tema 3. Tipos de Contratos.png  used on input line 172.
-(pdftex.def)             Requested size: 236.84843pt x 147.3956pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-LaTeX Info: Redefining \. on input line 178.
-LaTeX Info: Redefining \% on input line 178.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.07225pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
-
-[39]
-Underfull \hbox (badness 3701) in paragraph at lines 182--183
-[]\OT1/cmr/m/n/10 Lista de pre-cios uni-ta-rios - de tra-ba-jos /
- []
-
-
-Underfull \hbox (badness 2894) in paragraph at lines 186--186
-|[]\OT1/cmr/bx/n/14.4 Modularizaci^^Son de plan-tas.
- []
-
-
-Underfull \hbox (badness 1831) in paragraph at lines 188--189
-[]\OT1/cmr/m/n/10 M^^Sodu-lo: uni-dad es-truc-tu-ral mon-ta-da fue-ra de
- []
-
-
-Underfull \hbox (badness 1360) in paragraph at lines 188--189
-\OT1/cmr/m/n/10 la plan-ta que in-clu-ye equi-pos, tu-ber^^S^^Pas, ban-de-jas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
-[]\OT1/cmr/m/n/10 Estructura pre-montada: uni-dad es-truc-tu-ral
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
-[]\OT1/cmr/m/n/10 Edificios mo-du-la-res pre-fa-bri-ca-dos: edi-fi-cios
- []
-
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
-[]\OT1/cmr/m/n/10 Calidad: me-jo-res con-di-cio-nes de tra-ba-jo
- []
-
-
-Underfull \hbox (badness 5022) in paragraph at lines 207--208
-[]\OT1/cmr/m/n/10 Mayor cos-te. In-cre-men-to en ho-ras del
- []
-
-
-Underfull \hbox (badness 5862) in paragraph at lines 208--209
-[]\OT1/cmr/m/n/10 C^^Salcu-los es-truc-tu-ra-les m^^Sas com-ple-jos -
- []
-
-
-Underfull \hbox (badness 1107) in paragraph at lines 211--212
-[]\OT1/cmr/m/n/10 Acero es-truc-tu-ral: 10-20$ $% de in-cre-men-to por
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 211--212
-\OT1/cmr/m/n/10 c^^Salcu-lo con nue-vas car-gas, y por ele-men-tos
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
-|\OT1/cmr/bx/n/12 Dise~no, Mon-ta-je y Ope-ra-ci^^Son:
- []
-
-<Imagenes/Tema 3. Cimentaciones Aerogeneradores.png, id=667, 702.37407pt x 459.96844pt>
-File: Imagenes/Tema 3. Cimentaciones Aerogeneradores.png Graphic file (type png)
-<use Imagenes/Tema 3. Cimentaciones Aerogeneradores.png>
-Package pdftex.def Info: Imagenes/Tema 3. Cimentaciones Aerogeneradores.png  used on input line 231.
-(pdftex.def)             Requested size: 236.84843pt x 155.1028pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
-[]\OT1/cmr/m/n/10 Condiciones f^^S^^Psi-cas m^^Sas exi-gen-tes
- []
-
-
-
-LaTeX Info: Redefining \. on input line 244.
-LaTeX Info: Redefining \% on input line 244.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.07225pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
-
-[40 <./Imagenes/Tema 3. Tipos de Contratos.png>]
-Underfull \hbox (badness 3250) in paragraph at lines 261--262
-\OT1/cmr/m/n/10 fa-ti-ga a la cual se en-cuen-tra so-me-ti-do un
- []
-
-
-
-
-Underfull \hbox (badness 2181) in paragraph at lines 263--264
-\OT1/cmr/m/n/10 ubi-ca-ci^^Son le-jos de lu-ga-res ha-bi-ta-dos per-mi-te
- []
-
-
-Underfull \hbox (badness 4378) in paragraph at lines 263--264
-\OT1/cmr/m/n/10 sua-vi-zar las res-tric-cio-nes im-pues-tas por las
- []
-
-
-Underfull \hbox (badness 5490) in paragraph at lines 263--264
-\OT1/cmr/m/n/10 au-to-ri-da-des am-bien-ta-les en re-la-ci^^Son con la
- []
-
-
-Underfull \hbox (badness 1796) in paragraph at lines 270--271
-\OT1/cmr/m/n/10 de un par-que e^^Soli-co, en el mar re-pre-sen-tan
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 272--273
-[]\OT1/cmr/m/n/10 El au-men-to de los cos-tes y di-fi-cul-ta-des de
- []
-
-
-
-LaTeX Info: Redefining \. on input line 274.
-LaTeX Info: Redefining \% on input line 274.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.07225pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
-
-[41 <./Imagenes/Tema 3. Cimentaciones Aerogeneradores.png>])
-
-
-
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
-[42
-
-]) (./main.aux
-LaTeX Info: Redefining \sptext on input line 12.
-LaTeX Info: Redefining \. on input line 12.
-LaTeX Info: Redefining \% on input line 12.
- (./Capitulos/Tema 1. Urbanismo industrial.aux) (./Capitulos/Tema 2. Edificación industrial.aux) (./Capitulos/Tema 3. Plantas industriales.aux))
+[28 <./Imagenes/Tema 2. Cubierta Plana. Ejemplo 1.png> <./Imagenes/Tema 2. Cubierta Plana. Ejemplo 2.png> <./Imagenes/Tema 2. Cubierta Invertida. Composicion.png> <./Imagenes/Tema 2. Cubierta Invertida. Ejemplos.png> <./Imagenes/Tema 2. Cubierta Deck. Composicion.png> <./Imagenes/Tema 2. Cubierta Deck. Ejemplos.png> <./Imagenes/Tema 2. Ejemplo Cubierta Deck.png>]) (./main.aux (./Capitulos/Tema 2. Edificación industrial.aux)
+LaTeX Info: Redefining \sptext on input line 13.
+LaTeX Info: Redefining \. on input line 13.
+LaTeX Info: Redefining \% on input line 13.
+)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
@@ -3432,24 +2803,24 @@ L3 programming layer <2024-09-10>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2DEE0C9CF18FD4813F98D0DA7312459D;6397.
+(rerunfilecheck)             Checksum: 693D44913C6C634CC36869A9B27344F9;2159.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22526 strings out of 473578
- 415937 string characters out of 5732242
- 1259889 words of memory out of 5000000
- 44933 multiletter control sequences out of 15000+600000
- 564516 words of font info for 57 fonts, out of 8000000 for 9000
+ 22282 strings out of 473578
+ 410229 string characters out of 5732242
+ 1252700 words of memory out of 5000000
+ 44816 multiletter control sequences out of 15000+600000
+ 561134 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,13n,81p,1266b,2336s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (42 pages, 12745151 bytes).
+ 66i,13n,81p,1266b,1848s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (28 pages, 12209518 bytes).
 PDF statistics:
- 795 PDF objects out of 1000 (max. 8388607)
- 587 compressed objects within 6 object streams
- 227 named destinations out of 1000 (max. 500000)
- 613 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 512 PDF objects out of 1000 (max. 8388607)
+ 332 compressed objects within 4 object streams
+ 131 named destinations out of 1000 (max. 500000)
+ 443 words of extra memory for PDF output out of 10000 (max. 10000000)
 

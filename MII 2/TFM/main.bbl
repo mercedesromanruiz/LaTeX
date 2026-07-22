@@ -19,6 +19,26 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
+    \entry{infineon2020evalm1im828a}{manual}{}{}
+      \list{location}{1}{%
+        {81726 Munich, Germany}%
+      }
+      \list{organization}{1}{%
+        {Infineon Technologies AG}%
+      }
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{EVAL-M1-IM828-A User Guide: Modular Application Design Kit (MADK) of IM828-XCC}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.infineon.com/assets/row/public/documents/60/44/infineon-ug-2020-27-eval-m1-im828-a-usermanual-en.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.infineon.com/assets/row/public/documents/60/44/infineon-ug-2020-27-eval-m1-im828-a-usermanual-en.pdf
+      \endverb
+    \endentry
     \entry{MOSFET_esquema}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=472d46cb829018f9dbd65fb8479a49bb}{%
