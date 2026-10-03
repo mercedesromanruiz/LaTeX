@@ -1,114 +1,130 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.9)  2 JUL 2026 19:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.23)  25 JUL 2026 13:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **"c:/Users/merce/Documents/GitHub/LaTeX/MII 2/Complejos Industriales/main.tex"
 (c:/Users/merce/Documents/GitHub/LaTeX/MII 2/Complejos Industriales/main.tex
-LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-09-10>
-(c:/texlive/2024/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2024/02/08 v1.4n Standard LaTeX document class
-(c:/texlive/2024/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-06-18>
+(c:/texlive/2026/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(c:/texlive/2026/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count194
-\c@chapter=\count195
-\c@section=\count196
-\c@subsection=\count197
-\c@subsubsection=\count198
-\c@paragraph=\count199
-\c@subparagraph=\count266
-\c@figure=\count267
-\c@table=\count268
+\c@part=\count276
+\c@chapter=\count277
+\c@section=\count278
+\c@subsection=\count279
+\c@subsubsection=\count280
+\c@paragraph=\count281
+\c@subparagraph=\count282
+\c@figure=\count283
+\c@table=\count284
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\bibindent=\dimen141
-) (c:/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2024/10/05 v24.11 The Babel package
-\babel@savecnt=\count269
-\U@D=\dimen142
-\l@unhyphenated=\language89
- (c:/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
+\bibindent=\dimen150
+) (c:/texlive/2026/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2026/06/14 v26.9 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+\babel@savecnt=\count285
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2084.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2086.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2088.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2089.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2090.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2092.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2117.
+\U@D=\dimen151
+\l@unhyphenated=\language91
+ (c:/texlive/2026/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count270
- (c:/texlive/2024/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+\bbl@dirlevel=\count286
+ (c:/texlive/2026/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex)
+Package babel Info: Importing font and identification data for 'spanish'
+(babel)             from babel-es.ini. Reported on input line 4380.
+ (c:/texlive/2026/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks17
-\es@quotdepth=\count271
+\es@quotdepth=\count287
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
 Package babel Info: Making > an active character on input line 722.
-)) (c:/texlive/2024/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
-Package babel Info: Importing font and identification data for spanish
-(babel)             from babel-es.ini. Reported on input line 11.
-) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+))
+LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) on input line 3.
+LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1) on input line 3.
+ (c:/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2026-05-17 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2026-05-17 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
-) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2026-05-17 v1.4h Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
- (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+ (c:/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen143
-\Gin@req@width=\dimen144
-) (c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
- (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
+) (c:/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+ (c:/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+ (c:/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count272
-\Gm@cntv=\count273
-\c@Gm@tempcnt=\count274
-\Gm@bindingoffset=\dimen145
-\Gm@wd@mp=\dimen146
-\Gm@odd@mp=\dimen147
-\Gm@even@mp=\dimen148
-\Gm@layoutwidth=\dimen149
-\Gm@layoutheight=\dimen150
-\Gm@layouthoffset=\dimen151
-\Gm@layoutvoffset=\dimen152
+\Gm@cnth=\count288
+\Gm@cntv=\count289
+\c@Gm@tempcnt=\count290
+\Gm@bindingoffset=\dimen154
+\Gm@wd@mp=\dimen155
+\Gm@odd@mp=\dimen156
+\Gm@even@mp=\dimen157
+\Gm@layoutwidth=\dimen158
+\Gm@layoutheight=\dimen159
+\Gm@layouthoffset=\dimen160
+\Gm@layoutvoffset=\dimen161
 \Gm@dimlist=\toks19
-) (c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count275
+\c@float@type=\count291
 \float@exts=\toks20
-\float@box=\box52
+\float@box=\box53
 \@float@everytoks=\toks21
-\@floatcapt=\box53
-) (c:/texlive/2024/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+\@floatcapt=\box54
+) (c:/texlive/2026/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
-\langwohyphens=\language90
+\langwohyphens=\language92
 LaTeX Info: Redefining \_ on input line 43.
-) (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and footers
+) (c:/texlive/2026/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@headwidth=\skip51
-\f@nch@O@elh=\skip52
-\f@nch@O@erh=\skip53
-\f@nch@O@olh=\skip54
-\f@nch@O@orh=\skip55
-\f@nch@O@elf=\skip56
-\f@nch@O@erf=\skip57
-\f@nch@O@olf=\skip58
-\f@nch@O@orf=\skip59
-) (c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+\f@nch@offset@elh=\skip52
+\f@nch@offset@erh=\skip53
+\f@nch@offset@olh=\skip54
+\f@nch@offset@orh=\skip55
+\f@nch@offset@elf=\skip56
+\f@nch@offset@erf=\skip57
+\f@nch@offset@olf=\skip58
+\f@nch@offset@orf=\skip59
+\f@nch@height=\skip60
+\f@nch@footalignment=\skip61
+\f@nch@widthL=\skip62
+\f@nch@widthC=\skip63
+\f@nch@widthR=\skip64
+\@temptokenb=\toks22
+) (c:/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+ (c:/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -118,290 +134,290 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (c:/texlive/2024/texmf-dist/tex/latex/colortbl/colortbl.sty
-Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
- (c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
-Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
-\col@sep=\dimen153
-\ar@mcellbox=\box54
-\extrarowheight=\dimen154
-\NC@list=\toks22
-\extratabsurround=\skip60
-\backup@length=\skip61
-\ar@cellbox=\box55
+) (c:/texlive/2026/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2026/05/01 v1.0l Color table columns (DPC)
+ (c:/texlive/2026/texmf-dist/tex/latex/tools/array.sty
+Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
+\col@sep=\dimen162
+\ar@mcellbox=\box55
+\extrarowheight=\dimen163
+\NC@list=\toks23
+\extratabsurround=\skip65
+\backup@length=\skip66
+\ar@cellbox=\box56
 )
-\everycr=\toks23
-\minrowclearance=\skip62
-\rownum=\count276
-) (c:/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip63
-\multirow@cntb=\count277
-\multirow@dima=\skip64
-\bigstrutjot=\dimen155
-) (c:/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty
+new hooks used!!
+\minrowclearance=\skip67
+\rownum=\count292
+) (c:/texlive/2026/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip68
+\multirow@cntb=\count293
+\multirow@dima=\skip69
+\bigstrutjot=\dimen164
+) (c:/texlive/2026/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
-\TX@col@width=\dimen156
-\TX@old@table=\dimen157
-\TX@old@col=\dimen158
-\TX@target=\dimen159
-\TX@delta=\dimen160
-\TX@cols=\count278
+\TX@col@width=\dimen165
+\TX@old@table=\dimen166
+\TX@old@col=\dimen167
+\TX@target=\dimen168
+\TX@delta=\dimen169
+\TX@cols=\count294
 \TX@ftn=\toks24
-) (c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+ (c:/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen161
-\captionmargin=\dimen162
-\caption@leftmargin=\dimen163
-\caption@rightmargin=\dimen164
-\caption@width=\dimen165
-\caption@indent=\dimen166
-\caption@parindent=\dimen167
-\caption@hangindent=\dimen168
+\caption@tempdima=\dimen170
+\captionmargin=\dimen171
+\caption@leftmargin=\dimen172
+\caption@rightmargin=\dimen173
+\caption@width=\dimen174
+\caption@indent=\dimen175
+\caption@parindent=\dimen176
+\caption@hangindent=\dimen177
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count279
-\c@continuedfloat=\count280
+\c@caption@flags=\count295
+\c@continuedfloat=\count296
 Package caption Info: float package is loaded.
-) (c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count281
+\c@subfigure=\count297
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count282
-) (c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.sty
-Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
- (c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count283
+\c@subtable=\count298
+) (c:/texlive/2026/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2026-05-19 v5.2p context-sensitive quotations (JAW)
+ (c:/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count299
 )
-\csq@reset=\count284
-\csq@gtype=\count285
-\csq@glevel=\count286
-\csq@qlevel=\count287
-\csq@maxlvl=\count288
-\csq@tshold=\count289
+\csq@reset=\count300
+\csq@gtype=\count301
+\csq@glevel=\count302
+\csq@qlevel=\count303
+\csq@maxlvl=\count304
+\csq@tshold=\count305
 \csq@ltx@everypar=\toks25
- (c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.def
-File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+ (c:/texlive/2026/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2026-05-19 v5.2p csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
- (c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.cfg
+ (c:/texlive/2026/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
-)) (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
- (c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+)) (c:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+ (c:/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+ (c:/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+) (c:/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+ (c:/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
+)) (c:/texlive/2026/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count290
- (c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
+\lrq@indent=\count306
+ (c:/texlive/2026/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+)) (c:/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-) (c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count291
-\c@listtotal=\count292
-\c@listcount=\count293
-\c@liststart=\count294
-\c@liststop=\count295
-\c@citecount=\count296
-\c@citetotal=\count297
-\c@multicitecount=\count298
-\c@multicitetotal=\count299
-\c@instcount=\count300
-\c@maxnames=\count301
-\c@minnames=\count302
-\c@maxitems=\count303
-\c@minitems=\count304
-\c@citecounter=\count305
-\c@maxcitecounter=\count306
-\c@savedcitecounter=\count307
-\c@uniquelist=\count308
-\c@uniquename=\count309
-\c@refsection=\count310
-\c@refsegment=\count311
-\c@maxextratitle=\count312
-\c@maxextratitleyear=\count313
-\c@maxextraname=\count314
-\c@maxextradate=\count315
-\c@maxextraalpha=\count316
-\c@abbrvpenalty=\count317
-\c@highnamepenalty=\count318
-\c@lownamepenalty=\count319
-\c@maxparens=\count320
-\c@parenlevel=\count321
-\blx@tempcnta=\count322
-\blx@tempcntb=\count323
-\blx@tempcntc=\count324
-\c@blx@maxsection=\count325
-\blx@maxsegment@0=\count326
-\blx@notetype=\count327
-\blx@parenlevel@text=\count328
-\blx@parenlevel@foot=\count329
-\blx@sectionciteorder@0=\count330
-\blx@sectionciteorderinternal@0=\count331
-\blx@entrysetcounter=\count332
-\blx@biblioinstance=\count333
-\labelnumberwidth=\skip65
-\labelalphawidth=\skip66
-\biblabelsep=\skip67
-\bibitemsep=\skip68
-\bibnamesep=\skip69
-\bibinitsep=\skip70
-\bibparsep=\skip71
-\bibhang=\skip72
+\c@tabx@nest=\count307
+\c@listtotal=\count308
+\c@listcount=\count309
+\c@liststart=\count310
+\c@liststop=\count311
+\c@citecount=\count312
+\c@citetotal=\count313
+\c@multicitecount=\count314
+\c@multicitetotal=\count315
+\c@instcount=\count316
+\c@maxnames=\count317
+\c@minnames=\count318
+\c@maxitems=\count319
+\c@minitems=\count320
+\c@citecounter=\count321
+\c@maxcitecounter=\count322
+\c@savedcitecounter=\count323
+\c@uniquelist=\count324
+\c@uniquename=\count325
+\c@refsection=\count326
+\c@refsegment=\count327
+\c@maxextratitle=\count328
+\c@maxextratitleyear=\count329
+\c@maxextraname=\count330
+\c@maxextradate=\count331
+\c@maxextraalpha=\count332
+\c@abbrvpenalty=\count333
+\c@highnamepenalty=\count334
+\c@lownamepenalty=\count335
+\c@maxparens=\count336
+\c@parenlevel=\count337
+\blx@tempcnta=\count338
+\blx@tempcntb=\count339
+\blx@tempcntc=\count340
+\c@blx@maxsection=\count341
+\blx@maxsegment@0=\count342
+\blx@notetype=\count343
+\blx@parenlevel@text=\count344
+\blx@parenlevel@foot=\count345
+\blx@sectionciteorder@0=\count346
+\blx@sectionciteorderinternal@0=\count347
+\blx@entrysetcounter=\count348
+\blx@biblioinstance=\count349
+\labelnumberwidth=\skip70
+\labelalphawidth=\skip71
+\biblabelsep=\skip72
+\bibitemsep=\skip73
+\bibnamesep=\skip74
+\bibinitsep=\skip75
+\bibparsep=\skip76
+\bibhang=\skip77
 \blx@bcfin=\read3
 \blx@bcfout=\write3
-\blx@langwohyphens=\language91
-\c@mincomprange=\count334
-\c@maxcomprange=\count335
-\c@mincompwidth=\count336
+\blx@langwohyphens=\language93
+\c@mincomprange=\count350
+\c@maxcomprange=\count351
+\c@mincompwidth=\count352
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count337
-\c@savedafterword=\count338
-\c@annotator=\count339
-\c@savedannotator=\count340
-\c@author=\count341
-\c@savedauthor=\count342
-\c@bookauthor=\count343
-\c@savedbookauthor=\count344
-\c@commentator=\count345
-\c@savedcommentator=\count346
-\c@editor=\count347
-\c@savededitor=\count348
-\c@editora=\count349
-\c@savededitora=\count350
-\c@editorb=\count351
-\c@savededitorb=\count352
-\c@editorc=\count353
-\c@savededitorc=\count354
-\c@foreword=\count355
-\c@savedforeword=\count356
-\c@holder=\count357
-\c@savedholder=\count358
-\c@introduction=\count359
-\c@savedintroduction=\count360
-\c@namea=\count361
-\c@savednamea=\count362
-\c@nameb=\count363
-\c@savednameb=\count364
-\c@namec=\count365
-\c@savednamec=\count366
-\c@translator=\count367
-\c@savedtranslator=\count368
-\c@shortauthor=\count369
-\c@savedshortauthor=\count370
-\c@shorteditor=\count371
-\c@savedshorteditor=\count372
-\c@labelname=\count373
-\c@savedlabelname=\count374
-\c@institution=\count375
-\c@savedinstitution=\count376
-\c@lista=\count377
-\c@savedlista=\count378
-\c@listb=\count379
-\c@savedlistb=\count380
-\c@listc=\count381
-\c@savedlistc=\count382
-\c@listd=\count383
-\c@savedlistd=\count384
-\c@liste=\count385
-\c@savedliste=\count386
-\c@listf=\count387
-\c@savedlistf=\count388
-\c@location=\count389
-\c@savedlocation=\count390
-\c@organization=\count391
-\c@savedorganization=\count392
-\c@origlocation=\count393
-\c@savedoriglocation=\count394
-\c@origpublisher=\count395
-\c@savedorigpublisher=\count396
-\c@publisher=\count397
-\c@savedpublisher=\count398
-\c@language=\count399
-\c@savedlanguage=\count400
-\c@origlanguage=\count401
-\c@savedoriglanguage=\count402
-\c@pageref=\count403
-\c@savedpageref=\count404
-\shorthandwidth=\skip73
-\shortjournalwidth=\skip74
-\shortserieswidth=\skip75
-\shorttitlewidth=\skip76
-\shortauthorwidth=\skip77
-\shorteditorwidth=\skip78
-\locallabelnumberwidth=\skip79
-\locallabelalphawidth=\skip80
-\localshorthandwidth=\skip81
-\localshortjournalwidth=\skip82
-\localshortserieswidth=\skip83
-\localshorttitlewidth=\skip84
-\localshortauthorwidth=\skip85
-\localshorteditorwidth=\skip86
+\c@afterword=\count353
+\c@savedafterword=\count354
+\c@annotator=\count355
+\c@savedannotator=\count356
+\c@author=\count357
+\c@savedauthor=\count358
+\c@bookauthor=\count359
+\c@savedbookauthor=\count360
+\c@commentator=\count361
+\c@savedcommentator=\count362
+\c@editor=\count363
+\c@savededitor=\count364
+\c@editora=\count365
+\c@savededitora=\count366
+\c@editorb=\count367
+\c@savededitorb=\count368
+\c@editorc=\count369
+\c@savededitorc=\count370
+\c@foreword=\count371
+\c@savedforeword=\count372
+\c@holder=\count373
+\c@savedholder=\count374
+\c@introduction=\count375
+\c@savedintroduction=\count376
+\c@namea=\count377
+\c@savednamea=\count378
+\c@nameb=\count379
+\c@savednameb=\count380
+\c@namec=\count381
+\c@savednamec=\count382
+\c@translator=\count383
+\c@savedtranslator=\count384
+\c@shortauthor=\count385
+\c@savedshortauthor=\count386
+\c@shorteditor=\count387
+\c@savedshorteditor=\count388
+\c@labelname=\count389
+\c@savedlabelname=\count390
+\c@institution=\count391
+\c@savedinstitution=\count392
+\c@lista=\count393
+\c@savedlista=\count394
+\c@listb=\count395
+\c@savedlistb=\count396
+\c@listc=\count397
+\c@savedlistc=\count398
+\c@listd=\count399
+\c@savedlistd=\count400
+\c@liste=\count401
+\c@savedliste=\count402
+\c@listf=\count403
+\c@savedlistf=\count404
+\c@location=\count405
+\c@savedlocation=\count406
+\c@organization=\count407
+\c@savedorganization=\count408
+\c@origlocation=\count409
+\c@savedoriglocation=\count410
+\c@origpublisher=\count411
+\c@savedorigpublisher=\count412
+\c@publisher=\count413
+\c@savedpublisher=\count414
+\c@language=\count415
+\c@savedlanguage=\count416
+\c@origlanguage=\count417
+\c@savedoriglanguage=\count418
+\c@pageref=\count419
+\c@savedpageref=\count420
+\shorthandwidth=\skip78
+\shortjournalwidth=\skip79
+\shortserieswidth=\skip80
+\shorttitlewidth=\skip81
+\shortauthorwidth=\skip82
+\shorteditorwidth=\skip83
+\locallabelnumberwidth=\skip84
+\locallabelalphawidth=\skip85
+\localshorthandwidth=\skip86
+\localshortjournalwidth=\skip87
+\localshortserieswidth=\skip88
+\localshorttitlewidth=\skip89
+\localshortauthorwidth=\skip90
+\localshorteditorwidth=\skip91
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count405
-\c@textcitetotal=\count406
-\c@textcitemaxnames=\count407
-\c@biburlbigbreakpenalty=\count408
-\c@biburlbreakpenalty=\count409
-\c@biburlnumpenalty=\count410
-\c@biburlucpenalty=\count411
-\c@biburllcpenalty=\count412
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count421
+\c@textcitetotal=\count422
+\c@textcitemaxnames=\count423
+\c@biburlbigbreakpenalty=\count424
+\c@biburlbreakpenalty=\count425
+\c@biburlnumpenalty=\count426
+\c@biburlucpenalty=\count427
+\c@biburllcpenalty=\count428
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count413
+\c@smartand=\count429
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count414
-\c@bbx:relatedtotal=\count415
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count430
+\c@bbx:relatedtotal=\count431
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -416,179 +432,170 @@ Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
- (c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-09-10 L3 programming layer (loader) 
- (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count416
-\l__pdf_internal_box=\box56
+ (c:/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2026-06-18 L3 programming layer (loader) 
+ (c:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count432
 ))
 Package biblatex Info: ... and expl3
-(biblatex)             2024-09-10 L3 programming layer (loader) 
+(biblatex)             2026-06-18 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2024-08-16 L3 Experimental document command parser
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (c:/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2025-10-09 L3 Experimental document command parser
 )
-Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
-)) (c:/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2023/10/27 v2.16 Sectioning titles
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+)) (c:/texlive/2026/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box57
-\beforetitleunit=\skip87
-\aftertitleunit=\skip88
-\ttl@plus=\dimen169
-\ttl@minus=\dimen170
+\beforetitleunit=\skip92
+\aftertitleunit=\skip93
+\ttl@plus=\dimen178
+\ttl@minus=\dimen179
 \ttl@toksa=\toks26
-\titlewidth=\dimen171
-\titlewidthlast=\dimen172
-\titlewidthfirst=\dimen173
-) (c:/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2024-07-10 v7.01j Hypertext links for LaTeX
- (c:/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+\titlewidth=\dimen180
+\titlewidthlast=\dimen181
+\titlewidthfirst=\dimen182
+) (c:/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2026-06-17 v7.01r Hypertext links for LaTeX
+ (c:/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (c:/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (c:/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (c:/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (c:/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
- (c:/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+ (c:/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (c:/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+) (c:/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count417
-) (c:/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
+\c@section@level=\count433
+) (c:/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-\@linkdim=\dimen174
-\Hy@linkcounter=\count418
-\Hy@pagecounter=\count419
- (c:/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
+\@linkdim=\dimen183
+\Hy@linkcounter=\count434
+\Hy@pagecounter=\count435
+ (c:/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2026-06-17 v7.01r Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (c:/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (c:/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count420
- (c:/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
+\Hy@SavedSpaceFactor=\count436
+ (c:/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2026-06-17 v7.01r Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4157.
-Package hyperref Info: Link nesting OFF on input line 4162.
-Package hyperref Info: Hyper index ON on input line 4165.
-Package hyperref Info: Plain pages OFF on input line 4172.
-Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Hyper figures OFF on input line 4199.
+Package hyperref Info: Link nesting OFF on input line 4204.
+Package hyperref Info: Hyper index ON on input line 4207.
+Package hyperref Info: Plain pages OFF on input line 4214.
+Package hyperref Info: Backreferencing OFF on input line 4219.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count421
-LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen175
- (c:/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
+Package hyperref Info: Bookmarks ON on input line 4466.
+\c@Hy@tempcnt=\count437
+LaTeX Info: Redefining \url on input line 4805.
+\XeTeXLinkMargin=\dimen184
+ (c:/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (c:/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+ (c:/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count422
-\Field@Width=\dimen176
-\Fld@charsize=\dimen177
-Package hyperref Info: Hyper figures OFF on input line 6042.
-Package hyperref Info: Link nesting OFF on input line 6047.
-Package hyperref Info: Hyper index ON on input line 6050.
-Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
-Package hyperref Info: Link coloring with OCG OFF on input line 6067.
-Package hyperref Info: PDF/A mode OFF on input line 6072.
- (c:/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
-)
-\Hy@abspage=\count423
-\c@Item=\count424
-\c@Hfootnote=\count425
+\Fld@menulength=\count438
+\Field@Width=\dimen185
+\Fld@charsize=\dimen186
+Package hyperref Info: Hyper figures OFF on input line 6091.
+Package hyperref Info: Link nesting OFF on input line 6096.
+Package hyperref Info: Hyper index ON on input line 6099.
+Package hyperref Info: backreferencing OFF on input line 6106.
+Package hyperref Info: Link coloring OFF on input line 6111.
+Package hyperref Info: Link coloring with OCG OFF on input line 6116.
+Package hyperref Info: PDF/A mode OFF on input line 6121.
+\Hy@abspage=\count439
+\c@Item=\count440
+\c@Hfootnote=\count441
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (c:/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2024-07-10 v7.01j Hyperref driver for pdfTeX
- (c:/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
-with kernel methods
-)
-\Fld@listcount=\count426
-\c@bookmark@seq@number=\count427
- (c:/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (c:/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+ (c:/texlive/2026/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2026-06-17 v7.01r Hyperref driver for pdfTeX
+\Fld@listcount=\count442
+\c@bookmark@seq@number=\count443
+ (c:/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+ (c:/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
-\Hy@SectionHShift=\skip89
-) (c:/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
+\Hy@SectionHShift=\skip94
+) (c:/texlive/2026/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen178
-\lightrulewidth=\dimen179
-\cmidrulewidth=\dimen180
-\belowrulesep=\dimen181
-\belowbottomsep=\dimen182
-\aboverulesep=\dimen183
-\abovetopsep=\dimen184
-\cmidrulesep=\dimen185
-\cmidrulekern=\dimen186
-\defaultaddspace=\dimen187
-\@cmidla=\count428
-\@cmidlb=\count429
-\@aboverulesep=\dimen188
-\@belowrulesep=\dimen189
-\@thisruleclass=\count430
-\@lastruleclass=\count431
-\@thisrulewidth=\dimen190
-) (c:/texlive/2024/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2024/08/20 v0.6b Insert pages of external PDF documents (AM)
- (c:/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count432
-\calc@Bcount=\count433
-\calc@Adimen=\dimen191
-\calc@Bdimen=\dimen192
-\calc@Askip=\skip90
-\calc@Bskip=\skip91
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count434
-\calc@Cskip=\skip92
-) (c:/texlive/2024/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen193
-\ESO@tempdimb=\dimen194
+\heavyrulewidth=\dimen187
+\lightrulewidth=\dimen188
+\cmidrulewidth=\dimen189
+\belowrulesep=\dimen190
+\belowbottomsep=\dimen191
+\aboverulesep=\dimen192
+\abovetopsep=\dimen193
+\cmidrulesep=\dimen194
+\cmidrulekern=\dimen195
+\defaultaddspace=\dimen196
+\@cmidla=\count444
+\@cmidlb=\count445
+\@aboverulesep=\dimen197
+\@belowrulesep=\dimen198
+\@thisruleclass=\count446
+\@lastruleclass=\count447
+\@thisrulewidth=\dimen199
+) (c:/texlive/2026/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2026/03/30 v0.6h Insert pages of external PDF documents (AM)
+ (c:/texlive/2026/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count448
+\calc@Bcount=\count449
+\calc@Adimen=\dimen256
+\calc@Bdimen=\dimen257
+\calc@Askip=\skip95
+\calc@Bskip=\skip96
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count450
+\calc@Cskip=\skip97
+) (c:/texlive/2026/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2026/05/31 v3.0e eso-pic (RN)
+\ESO@tempdima=\dimen258
+\ESO@tempdimb=\dimen259
 )
-\AM@pagewidth=\dimen195
-\AM@pageheight=\dimen196
-\AM@fboxrule=\dimen197
- (c:/texlive/2024/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2024/08/20 v0.6b Pdfpages driver for pdfTeX (AM)
+\AM@pagewidth=\dimen260
+\AM@pageheight=\dimen261
+\AM@fboxrule=\dimen262
+ (c:/texlive/2026/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2026/03/30 v0.6h Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count435
+\pdfpages@includegraphics@status=\count451
 \AM@pagebox=\box58
 \AM@global@opts=\toks27
-\AM@pagecnt=\count436
+\AM@pagecnt=\count452
 \AM@toc@title=\toks28
 \AM@lof@heading=\toks29
-\c@AM@survey=\count437
+\c@AM@survey=\count453
 \AM@templatesizebox=\box59
-) (c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
-Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
- (c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
-Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/lscape.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2025-06-23 v0.14 Display of landscape pages in PDF
+ (c:/texlive/2026/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2025-06-23 v0.14 Display of landscape pages in PDF (HO)
+ (c:/texlive/2026/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
@@ -597,10 +604,12 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
- (./main.aux (./Capitulos/Tema 2. Edificación industrial.aux)
+ (./main.aux (./Capitulos/Tema 1. Urbanismo industrial.aux)
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
-)
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 13.
+ (./Capitulos/Tema 2. Edificación industrial.aux) (./Capitulos/Tema 3. Plantas industriales.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -623,23 +632,23 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
 LaTeX Font Info:    ... okay on input line 34.
 LaTeX Info: Redefining \. on input line 34.
 LaTeX Info: Redefining \% on input line 34.
- (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count438
-\scratchdimen=\dimen198
+\scratchcounter=\count454
+\scratchdimen=\dimen263
 \scratchbox=\box60
-\nofMPsegments=\count439
-\nofMParguments=\count440
+\nofMPsegments=\count455
+\nofMParguments=\count456
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count441
-\MPscratchDim=\dimen199
-\MPnumerator=\count442
-\makeMPintoPDFobject=\count443
+\MPscratchCnt=\count457
+\MPscratchDim=\dimen264
+\MPnumerator=\count458
+\makeMPintoPDFobject=\count459
 \everyMPtoPDFconversion=\toks31
-) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+ (c:/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 *geometry* driver: auto-detecting
@@ -681,8 +690,8 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
-(c:/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
-File: spanish.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+(c:/texlive/2026/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+File: spanish.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -700,18 +709,268 @@ Package hyperref Info: Link coloring OFF on input line 34.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-\c@subsubsubsection=\count444
+Package babel Info: Main language set to 'spanish'.
+\c@subsubsubsection=\count460
  (./Documentos/Cuerpo.tex
+\openout2 = `"Capitulos/Tema 1. Urbanismo industrial.aux"'.
+
+ (./Capitulos/Tema 1. Urbanismo industrial.tex
+Cap\'{\i }tulo 1.
+
+Underfull \hbox (badness 6792) in paragraph at lines 10--11
+[]\OT1/cmr/m/n/10 ``Parque In-dus-trial'' o ``Pol^^S^^Pgono In-dus-trial'':
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 12--13
+\OT1/cmr/m/n/10 y me-dia-nas em-pre-sas, ya que en-tre los ser-vi-cios
+ []
+
+
+Underfull \hbox (badness 4403) in paragraph at lines 12--13
+\OT1/cmr/m/n/10 a la in-fra-es-truc-tu-ra t^^Secni-ca o de equi-pa-mien-to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+\OT1/cmr/m/n/10 (abas-te-ci-mien-to de energ^^S^^Pa, agua, es-ta-cio-nes
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 12--13
+\OT1/cmr/m/n/10 dis-po-ner de ser-vi-cios em-pre-sa-ria-les co-mu-nes que
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+[]\OT1/cmr/m/n/10 Presencia de ins-ti-tu-cio-nes de-di-ca-das a la
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 28--29
+[]\OT1/cmr/m/n/10 Las nor-mas de pla-nea-mien-to es-truc-tu-ran-tes o
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 31.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 31.
+
+Underfull \hbox (badness 1122) in paragraph at lines 35--38
+[]\OT1/cmr/m/n/10 Retranqueo. Con-cep-to: son las dis-tan-cias que
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 35--38
+\OT1/cmr/m/n/10 or-de-nan-zas sue-len es-ta-ble-cer unos re-tran-queos
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 43--46
+[]\OT1/cmr/m/n/10 Altura m^^Saxi-ma. La al-tu-ra m^^Saxi-ma, co-mo ya
+ []
+
+
+Underfull \hbox (badness 3199) in paragraph at lines 43--46
+\OT1/cmr/m/n/10 que im-po-ne to-da or-de-nan-za si bien, en el
+ []
+
+
+Underfull \hbox (badness 1077) in paragraph at lines 43--46
+\OT1/cmr/m/n/10 ca-so de la in-dus-tria (en el que di-cha al-tu-ra
+ []
+
+
+Underfull \hbox (badness 5374) in paragraph at lines 43--46
+\OT1/cmr/m/n/10 m^^Saxi-ma sue-le li-mi-tar-se bas-tan-te -10 a 15
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 43--46
+\OT1/cmr/m/n/10 po-si-bi-li-dad de ex-cep-cio-nes por ei-gen-cias del
+ []
+
+[1{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+[]\OT1/cmr/m/n/10 Licencia de Pri-me-ra Ocu-pa-ci^^Son (LPO)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+[]\OT1/cmr/m/n/10 Licencia de Fun-cio-na-mien-to (Ayun-ta-mien-to
+ []
+
+
+Underfull \hbox (badness 3954) in paragraph at lines 57--58
+[]\OT1/cmr/m/n/10 Autorizaciones Fi-na-les (Con-se-jer^^S^^Pas + otros:
+ []
+
+
+Underfull \hbox (badness 2384) in paragraph at lines 62--63
+[]\OT1/cmr/m/n/10 Obras que ha-yan de rea-li-zar-se con car^^Sacter
+ []
+
+
+Underfull \hbox (badness 4217) in paragraph at lines 66--67
+[]\OT1/cmr/m/n/10 El uso del vue-lo so-bre las edi-fi-ca-cio-nes e
+ []
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 67--68
+[]\OT1/cmr/m/n/10 La mo-di-fi-ca-ci^^Son del uso de los edi-fi-cios e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+[]\OT1/cmr/m/n/10 Las ins-ta-la-cio-nes sub-terr^^Saneas de-di-ca-das
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+\OT1/cmr/m/n/10 a apar-ca-mien-tos, ac-ti-vi-da-des in-dus-tria-les,
+ []
+
+
+Underfull \hbox (badness 7558) in paragraph at lines 78--79
+[]\OT1/cmr/m/n/10 Licencia de pri-me-ra ocu-pa-ci^^Son (c^^Sedu-la de
+ []
+
+
+Underfull \hbox (badness 7869) in paragraph at lines 81--83
+\OT1/cmr/m/n/10 au-to-ri-za-cio-nes sa-ni-ta-rias, in-dus-tria, te-rra-zas,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+\OT1/cmr/m/n/10 las li-cen-cias de-no-mi-na-das ECU's (En-ti-dad
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 94--95
+[]\OT1/cmr/m/n/10 Otras en-ti-da-des o par-ti-cu-la-res (re-cla-ma-cio-nes,
+ []
+
+LaTeX Info: Redefining \. on input line 103.
+LaTeX Info: Redefining \% on input line 103.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 103.
+[2]
+Underfull \hbox (badness 1748) in paragraph at lines 105--106
+\OT1/cmr/m/n/10 tie-nen una li-mi-ta-da in-fluen-cia en el en-torno
+ []
+
+
+Underfull \hbox (badness 4120) in paragraph at lines 105--106
+\OT1/cmr/m/n/10 de-cla-ra-ci^^Son sus-cri-ta por t^^Secni-co com-pe-ten-te,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
+[]\OT1/cmr/m/n/10 Actuaciones co-mu-ni-ca-das: Aque-llas que no
+ []
+
+
+Underfull \hbox (badness 3780) in paragraph at lines 106--108
+\OT1/cmr/m/n/10 no re-quei-ren unas con-di-cio-nes de se-gu-ri-dad
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 117--118
+[]\OT1/cmr/m/n/10 Plan Ge-ne-ral de Or-de-na-ci^^Son Ur-ba-na del
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+[]\OT1/cmr/m/n/10 Arquitectura:Volumen, edi-fi-ca-bi-li-dad,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+[]\OT1/cmr/m/n/10 Instalaciones: Jus-ti-fi-ca-ci^^Son Me-dio
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+\OT1/cmr/m/n/10 Am-bien-te, rui-dos, aco-me-ti-da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+[]\OT1/cmr/m/n/10 Informe pre-cep-ti-vo (Edi-fi-cios BIC
+ []
+
+
+Underfull \hbox (badness 8094) in paragraph at lines 143--144
+\OT1/cmr/m/n/10 en Ma-drid a trav^^Ses de la Co-mi-si^^Son
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+[]\OT1/cmr/m/n/10 Subsanaci^^Son de re-que-ri-mien-tos (Po-si-ble
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+[]\OT1/cmr/m/n/10 Mediante Cer-ti-fi-ca-do de Con-for-mi-dad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+[]\OT1/cmr/m/n/10 Visado del pro-yec-to; es ne-ce-sa-ria la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+\OT1/cmr/m/n/10 Cer-ti-fi-ca-ci^^Son Energ^^Seti-ca del pro-yec-to
+ []
+
+
+Underfull \hbox (badness 6412) in paragraph at lines 162--165
+[]\OT1/cmr/m/n/10 Legalizaciones Du-ran-te la eje-cu-ci^^Son de las
+ []
+
+LaTeX Info: Redefining \. on input line 172.
+LaTeX Info: Redefining \% on input line 172.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[3{c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Underfull \hbox (badness 2735) in paragraph at lines 221--222
+[]\OT1/cmr/m/n/10 La red de abas-te-ci-mien-to es el con-jun-to de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
+[]\OT1/cmr/m/n/10 Suministro efec-ti-vo. Sis-te-ma com-ple-to que
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 235--236
+\OT1/cmr/m/n/10 ga-ran-ti-ce su-mi-nis-tro, in-clu-so en con-di-cio-nes
+ []
+
+)
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [4]
 \openout2 = `"Capitulos/Tema 2. Edificación industrial.aux"'.
 
  (./Capitulos/Tema 2. Edificación industrial.tex
 Cap\'{\i }tulo 2.
-<Imagenes/Tema 2. Componentes.png, id=60, 340.27126pt x 231.86626pt>
+<Imagenes/Tema 2. Componentes.png, id=182, 340.27126pt x 231.86626pt>
 File: Imagenes/Tema 2. Componentes.png Graphic file (type png)
 <use Imagenes/Tema 2. Componentes.png>
 Package pdftex.def Info: Imagenes/Tema 2. Componentes.png  used on input line 9.
 (pdftex.def)             Requested size: 236.84843pt x 161.39246pt.
-<Imagenes/Tema 2. Diseño Estructural.png, id=63, 2280.52pt x 1889.0575pt>
+<Imagenes/Tema 2. Diseño Estructural.png, id=185, 2280.52pt x 1889.0575pt>
 File: Imagenes/Tema 2. Diseño Estructural.png Graphic file (type png)
 <use Imagenes/Tema 2. Diseño Estructural.png>
 Package pdftex.def Info: Imagenes/Tema 2. Diseño Estructural.png  used on input line 28.
@@ -725,8 +984,6 @@ Underfull \hbox (badness 1454) in paragraph at lines 33--34
  []
 
 
-
-
 Underfull \hbox (badness 2495) in paragraph at lines 37--38
 []\OT1/cmr/m/n/10 El p^^Sorti-co es el com-po-nen-te es-truc-tu-ral m^^Sas
  []
@@ -734,9 +991,8 @@ Underfull \hbox (badness 2495) in paragraph at lines 37--38
 
 Underfull \vbox (badness 1253) has occurred while \output is active []
 
+ [5
 
-
-[1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
@@ -765,12 +1021,12 @@ Underfull \hbox (badness 7869) in paragraph at lines 47--48
 \OT1/cmr/m/n/10 des-pre-cia-ble. Ser^^Sa por tan-to ne-ce-sa-rio apor-tar
  []
 
-<Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros.png, id=76, 353.06906pt x 244.66406pt>
+<Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros.png, id=195, 353.06906pt x 244.66406pt>
 File: Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros.png Graphic file (type png)
 <use Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros.png>
 Package pdftex.def Info: Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros.png  used on input line 53.
 (pdftex.def)             Requested size: 113.68623pt x 78.77942pt.
-<Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros (1).png, id=77, 357.58594pt x 252.19218pt>
+<Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros (1).png, id=196, 357.58594pt x 252.19218pt>
 File: Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros (1).png Graphic file (type png)
 <use Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros (1).png>
 Package pdftex.def Info: Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros (1).png  used on input line 60.
@@ -805,20 +1061,18 @@ Underfull \hbox (badness 4726) in paragraph at lines 68--69
 \OT1/cmr/m/n/10 se trans-mi-ten a es-tos n^^Sucleos r^^S^^Pgi-dos, tam-bi^^Sen
  []
 
-<Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas.png, id=79, 663.98062pt x 456.20438pt>
+<Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas.png, id=198, 663.98062pt x 456.20438pt>
 File: Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas.png Graphic file (type png)
 <use Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas.png>
 Package pdftex.def Info: Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas.png  used on input line 74.
 (pdftex.def)             Requested size: 113.68623pt x 78.1106pt.
-<Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas (1).png, id=80, 638.385pt x 447.92343pt>
+<Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas (1).png, id=199, 638.385pt x 447.92343pt>
 File: Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas (1).png Graphic file (type png)
 <use Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas (1).png>
 Package pdftex.def Info: Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas (1).png  used on input line 81.
 (pdftex.def)             Requested size: 113.68623pt x 79.76155pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 
 
 Underfull \hbox (badness 3407) in paragraph at lines 95--96
@@ -835,21 +1089,19 @@ Underfull \hbox (badness 1831) in paragraph at lines 95--96
 \OT1/cmr/m/n/10 te-rreno, es-te tien-de a man-te-ner-se es-ta-ble en un
  []
 
-<Imagenes/Tema 2. Angulo de Rozamiento Interno.png, id=82, 451.6875pt x 120.45pt>
+<Imagenes/Tema 2. Angulo de Rozamiento Interno.png, id=201, 451.6875pt x 120.45pt>
 File: Imagenes/Tema 2. Angulo de Rozamiento Interno.png Graphic file (type png)
 <use Imagenes/Tema 2. Angulo de Rozamiento Interno.png>
 Package pdftex.def Info: Imagenes/Tema 2. Angulo de Rozamiento Interno.png  used on input line 99.
 (pdftex.def)             Requested size: 236.84843pt x 63.15999pt.
-<Imagenes/Tema 2. Elementos de Contención.png, id=83, 455.45157pt x 268.00125pt>
+<Imagenes/Tema 2. Elementos de Contención.png, id=202, 455.45157pt x 268.00125pt>
 File: Imagenes/Tema 2. Elementos de Contención.png Graphic file (type png)
 <use Imagenes/Tema 2. Elementos de Contención.png>
 Package pdftex.def Info: Imagenes/Tema 2. Elementos de Contención.png  used on input line 107.
 (pdftex.def)             Requested size: 236.84843pt x 139.36961pt.
-
-
 LaTeX Info: Redefining \. on input line 114.
 LaTeX Info: Redefining \% on input line 114.
-[2 <./Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros.png> <./Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros (1).png> <./Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas.png> <./Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas (1).png> <./Imagenes/Tema 2. Angulo de Rozamiento Interno.png> <./Imagenes/Tema 2. Elementos de Contención.png>]
+[6 <./Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros.png> <./Imagenes/Tema 2. Estabilidad Lateral. Carga Testeros (1).png> <./Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas.png> <./Imagenes/Tema 2. Estabilidad Lateral. Carga Fachadas (1).png> <./Imagenes/Tema 2. Angulo de Rozamiento Interno.png> <./Imagenes/Tema 2. Elementos de Contención.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 140--141
 []\OT1/cmr/m/n/10 Son aque-llas que por su geo-metr^^S^^Pa o
  []
@@ -880,8 +1132,6 @@ Underfull \hbox (badness 1314) in paragraph at lines 144--145
  []
 
 
-
-
 Underfull \hbox (badness 1052) in paragraph at lines 148--149
 \OT1/cmr/m/n/10 im-por-tan-te con el mu-ro de con-ten-ci^^Son es que la
  []
@@ -901,19 +1151,17 @@ Underfull \hbox (badness 1248) in paragraph at lines 163--164
 \OT1/cmr/m/n/10 su-per-es-truc-tu-ra al te-rreno, de ma-ne-ra que no se
  []
 
-
-
 LaTeX Info: Redefining \. on input line 164.
 LaTeX Info: Redefining \% on input line 164.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[3]
-<Imagenes/Tema 2. Tipos de Cimentaciones.png, id=104, 672.26157pt x 636.87938pt>
+[7]
+<Imagenes/Tema 2. Tipos de Cimentaciones.png, id=223, 672.26157pt x 636.87938pt>
 File: Imagenes/Tema 2. Tipos de Cimentaciones.png Graphic file (type png)
 <use Imagenes/Tema 2. Tipos de Cimentaciones.png>
 Package pdftex.def Info: Imagenes/Tema 2. Tipos de Cimentaciones.png  used on input line 167.
@@ -923,15 +1171,13 @@ Underfull \hbox (badness 2326) in paragraph at lines 182--183
 \OT1/cmr/m/n/10 su-per-fi-cia-les con-ti-nuas co-mo son las lo-sas o los
  []
 
-<Imagenes/Tema 2. Tipos de Zapatas.png, id=105, 777.65532pt x 622.57594pt>
+<Imagenes/Tema 2. Tipos de Zapatas.png, id=224, 777.65532pt x 622.57594pt>
 File: Imagenes/Tema 2. Tipos de Zapatas.png Graphic file (type png)
 <use Imagenes/Tema 2. Tipos de Zapatas.png>
 Package pdftex.def Info: Imagenes/Tema 2. Tipos de Zapatas.png  used on input line 186.
 (pdftex.def)             Requested size: 236.84843pt x 189.61464pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 
 
 Underfull \hbox (badness 3375) in paragraph at lines 209--210
@@ -953,16 +1199,14 @@ Underfull \hbox (badness 1742) in paragraph at lines 210--211
 \OT1/cmr/m/n/10 de-bi-das al sis-mo, evi-tan-do el des-pla-za-mien-to
  []
 
-
-
 LaTeX Info: Redefining \. on input line 211.
 LaTeX Info: Redefining \% on input line 211.
-[4{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Imagenes/Tema 2. Tipos de Cimentaciones.png> <./Imagenes/Tema 2. Tipos de Zapatas.png>]
+[8 <./Imagenes/Tema 2. Tipos de Cimentaciones.png> <./Imagenes/Tema 2. Tipos de Zapatas.png>]
 Underfull \hbox (badness 1990) in paragraph at lines 215--216
 []\OT1/cmr/m/n/10 Cuando no po-da-mos uti-li-zar una ci-men-ta-ci^^Son
  []
 
-<Imagenes/Tema 2. Pilotes.png, id=121, 999.735pt x 422.32782pt>
+<Imagenes/Tema 2. Pilotes.png, id=239, 999.735pt x 422.32782pt>
 File: Imagenes/Tema 2. Pilotes.png Graphic file (type png)
 <use Imagenes/Tema 2. Pilotes.png>
 Package pdftex.def Info: Imagenes/Tema 2. Pilotes.png  used on input line 223.
@@ -981,8 +1225,6 @@ Underfull \hbox (badness 2310) in paragraph at lines 229--230
 Underfull \hbox (badness 3209) in paragraph at lines 230--231
 []\OT1/cmr/m/n/10 Por su cons-truc-ci^^Son: Pue-den ser in si-tu o
  []
-
-
 
 
 Underfull \hbox (badness 7504) in paragraph at lines 239--240
@@ -1009,22 +1251,16 @@ Underfull \hbox (badness 1735) in paragraph at lines 251--252
 \OT1/cmr/m/n/10 trans-ver-sa-les pa-ra re-sis-tir el enor-me es-fuer-zo
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 256.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 256.
-
-
 LaTeX Info: Redefining \. on input line 264.
 LaTeX Info: Redefining \% on input line 264.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[5 <./Imagenes/Tema 2. Pilotes.png>]
+[9 <./Imagenes/Tema 2. Pilotes.png>]
 Underfull \hbox (badness 2401) in paragraph at lines 327--328
 \OT1/cmr/m/n/10 cons-truc-ci^^Son de las es-truc-tu-ras de ace-ro son la
  []
@@ -1044,24 +1280,20 @@ Underfull \hbox (badness 1286) in paragraph at lines 327--328
 \OT1/cmr/m/n/10 es de obli-ga-do cum-pli-mien-to en Es-pa~na, es muy
  []
 
-
-
-
-
 LaTeX Info: Redefining \. on input line 328.
 LaTeX Info: Redefining \% on input line 328.
-[6]
-<Imagenes/Tema 2. Clases UNE EN I0025 Acero.png, id=136, 459.96844pt x 301.125pt>
+[10]
+<Imagenes/Tema 2. Clases UNE EN I0025 Acero.png, id=253, 459.96844pt x 301.125pt>
 File: Imagenes/Tema 2. Clases UNE EN I0025 Acero.png Graphic file (type png)
 <use Imagenes/Tema 2. Clases UNE EN I0025 Acero.png>
 Package pdftex.def Info: Imagenes/Tema 2. Clases UNE EN I0025 Acero.png  used on input line 331.
 (pdftex.def)             Requested size: 236.84843pt x 155.06042pt.
-<Imagenes/Tema 2. Acero. Elementos laminados en caliente.png, id=138, 527.72156pt x 356.0803pt>
+<Imagenes/Tema 2. Acero. Elementos laminados en caliente.png, id=255, 527.72156pt x 356.0803pt>
 File: Imagenes/Tema 2. Acero. Elementos laminados en caliente.png Graphic file (type png)
 <use Imagenes/Tema 2. Acero. Elementos laminados en caliente.png>
 Package pdftex.def Info: Imagenes/Tema 2. Acero. Elementos laminados en caliente.png  used on input line 345.
 (pdftex.def)             Requested size: 236.84843pt x 159.81085pt.
-<Imagenes/Tema 2. Acero. Elementos laminados en caliente (1).png, id=139, 490.08093pt x 329.73187pt>
+<Imagenes/Tema 2. Acero. Elementos laminados en caliente (1).png, id=256, 490.08093pt x 329.73187pt>
 File: Imagenes/Tema 2. Acero. Elementos laminados en caliente (1).png Graphic file (type png)
 <use Imagenes/Tema 2. Acero. Elementos laminados en caliente (1).png>
 Package pdftex.def Info: Imagenes/Tema 2. Acero. Elementos laminados en caliente (1).png  used on input line 350.
@@ -1070,9 +1302,7 @@ Package pdftex.def Info: Imagenes/Tema 2. Acero. Elementos laminados en caliente
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-
-<Imagenes/Tema 2. Acero. Elementos conformados en frio.png, id=141, 475.7775pt x 337.26pt>
+<Imagenes/Tema 2. Acero. Elementos conformados en frio.png, id=258, 475.7775pt x 337.26pt>
 File: Imagenes/Tema 2. Acero. Elementos conformados en frio.png Graphic file (type png)
 <use Imagenes/Tema 2. Acero. Elementos conformados en frio.png>
 Package pdftex.def Info: Imagenes/Tema 2. Acero. Elementos conformados en frio.png  used on input line 368.
@@ -1110,18 +1340,16 @@ Underfull \hbox (badness 1024) in paragraph at lines 375--376
 \OT1/cmr/m/n/10 mu-cho cui-da-do con las co-rro-sio-nes y las po-si-bles
  []
 
-
-
 LaTeX Info: Redefining \. on input line 377.
 LaTeX Info: Redefining \% on input line 377.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[7 <./Imagenes/Tema 2. Clases UNE EN I0025 Acero.png> <./Imagenes/Tema 2. Acero. Elementos laminados en caliente.png> <./Imagenes/Tema 2. Acero. Elementos laminados en caliente (1).png>]
+[11 <./Imagenes/Tema 2. Clases UNE EN I0025 Acero.png> <./Imagenes/Tema 2. Acero. Elementos laminados en caliente.png> <./Imagenes/Tema 2. Acero. Elementos laminados en caliente (1).png>]
 Underfull \hbox (badness 2065) in paragraph at lines 381--382
 []\OT1/cmr/m/n/10 La in-fluen-cia de es-te ci-clo t^^Sermi-co so-bre las
  []
@@ -1141,12 +1369,12 @@ Underfull \hbox (badness 3039) in paragraph at lines 381--382
 \OT1/cmr/m/n/10 in-flu-yen-te en los ace-ros con ba-jo con-te-ni-do en
  []
 
-<Imagenes/Tema 2. Acero. Union Soldada (1).png, id=152, 227.34938pt x 212.29312pt>
+<Imagenes/Tema 2. Acero. Union Soldada (1).png, id=268, 227.34938pt x 212.29312pt>
 File: Imagenes/Tema 2. Acero. Union Soldada (1).png Graphic file (type png)
 <use Imagenes/Tema 2. Acero. Union Soldada (1).png>
 Package pdftex.def Info: Imagenes/Tema 2. Acero. Union Soldada (1).png  used on input line 387.
 (pdftex.def)             Requested size: 113.68623pt x 106.15926pt.
-<Imagenes/Tema 2. Acero. Union Soldada (2).png, id=153, 233.37187pt x 225.09094pt>
+<Imagenes/Tema 2. Acero. Union Soldada (2).png, id=269, 233.37187pt x 225.09094pt>
 File: Imagenes/Tema 2. Acero. Union Soldada (2).png Graphic file (type png)
 <use Imagenes/Tema 2. Acero. Union Soldada (2).png>
 Package pdftex.def Info: Imagenes/Tema 2. Acero. Union Soldada (2).png  used on input line 394.
@@ -1162,8 +1390,6 @@ Underfull \hbox (badness 1033) in paragraph at lines 405--406
  []
 
 
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 409--410
 []\OT1/cmr/m/n/10 Los so-por-tes fun-cio-nar^^San ge-ne-ral-men-te a
  []
@@ -1173,7 +1399,7 @@ Underfull \hbox (badness 1755) in paragraph at lines 409--410
 \OT1/cmr/m/n/10 fle-xo-com-pre-si^^Son, pe-ro son los efec-tos del pan-deo
  []
 
-<Imagenes/Tema 2. Acero. Soportes.png, id=155, 999.735pt x 601.4972pt>
+<Imagenes/Tema 2. Acero. Soportes.png, id=271, 999.735pt x 601.4972pt>
 File: Imagenes/Tema 2. Acero. Soportes.png Graphic file (type png)
 <use Imagenes/Tema 2. Acero. Soportes.png>
 Package pdftex.def Info: Imagenes/Tema 2. Acero. Soportes.png  used on input line 413.
@@ -1183,29 +1409,25 @@ Underfull \hbox (badness 4886) in paragraph at lines 420--421
 []\OT1/cmr/m/n/10 Para sal-var las lu-ces de nues-tra es-truc-tu-ra
  []
 
-
-
 LaTeX Info: Redefining \. on input line 423.
 LaTeX Info: Redefining \% on input line 423.
-[8 <./Imagenes/Tema 2. Acero. Elementos conformados en frio.png> <./Imagenes/Tema 2. Acero. Union Soldada (1).png> <./Imagenes/Tema 2. Acero. Union Soldada (2).png> <./Imagenes/Tema 2. Acero. Soportes.png>]
-<Imagenes/Tema 2. Vigas Boyd.png, id=169, 718.93594pt x 200.24812pt>
+[12 <./Imagenes/Tema 2. Acero. Elementos conformados en frio.png> <./Imagenes/Tema 2. Acero. Union Soldada (1).png> <./Imagenes/Tema 2. Acero. Union Soldada (2).png> <./Imagenes/Tema 2. Acero. Soportes.png>]
+<Imagenes/Tema 2. Vigas Boyd.png, id=285, 718.93594pt x 200.24812pt>
 File: Imagenes/Tema 2. Vigas Boyd.png Graphic file (type png)
 <use Imagenes/Tema 2. Vigas Boyd.png>
 Package pdftex.def Info: Imagenes/Tema 2. Vigas Boyd.png  used on input line 426.
 (pdftex.def)             Requested size: 236.84843pt x 65.96902pt.
-<Imagenes/Tema 2. Cerchas y celosias.png, id=171, 630.85687pt x 493.845pt>
+<Imagenes/Tema 2. Cerchas y celosias.png, id=287, 630.85687pt x 493.845pt>
 File: Imagenes/Tema 2. Cerchas y celosias.png Graphic file (type png)
 <use Imagenes/Tema 2. Cerchas y celosias.png>
 Package pdftex.def Info: Imagenes/Tema 2. Cerchas y celosias.png  used on input line 439.
 (pdftex.def)             Requested size: 236.84843pt x 185.40994pt.
-
-
-<Imagenes/Tema 2. Nudos. Articulacion.png, id=174, 900.36375pt x 405.01312pt>
+<Imagenes/Tema 2. Nudos. Articulacion.png, id=290, 900.36375pt x 405.01312pt>
 File: Imagenes/Tema 2. Nudos. Articulacion.png Graphic file (type png)
 <use Imagenes/Tema 2. Nudos. Articulacion.png>
 Package pdftex.def Info: Imagenes/Tema 2. Nudos. Articulacion.png  used on input line 454.
 (pdftex.def)             Requested size: 113.68623pt x 51.13945pt.
-<Imagenes/Tema 2. Nudos. Rigida.png, id=175, 923.70094pt x 487.8225pt>
+<Imagenes/Tema 2. Nudos. Rigida.png, id=291, 923.70094pt x 487.8225pt>
 File: Imagenes/Tema 2. Nudos. Rigida.png Graphic file (type png)
 <use Imagenes/Tema 2. Nudos. Rigida.png>
 Package pdftex.def Info: Imagenes/Tema 2. Nudos. Rigida.png  used on input line 461.
@@ -1215,23 +1437,21 @@ Underfull \hbox (badness 2027) in paragraph at lines 449--467
 \OT1/cmr/m/n/10 uni^^Son es ne-ce-sa-rio ri-gi-di-zar el al-ma del so-por-te
  []
 
-<Imagenes/Tema 2. Cimentaciones.png, id=177, 874.01532pt x 417.05812pt>
+<Imagenes/Tema 2. Cimentaciones.png, id=293, 874.01532pt x 417.05812pt>
 File: Imagenes/Tema 2. Cimentaciones.png Graphic file (type png)
 <use Imagenes/Tema 2. Cimentaciones.png>
 Package pdftex.def Info: Imagenes/Tema 2. Cimentaciones.png  used on input line 474.
 (pdftex.def)             Requested size: 236.84843pt x 113.01448pt.
-
-
 LaTeX Info: Redefining \. on input line 482.
 LaTeX Info: Redefining \% on input line 482.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[9 <./Imagenes/Tema 2. Vigas Boyd.png> <./Imagenes/Tema 2. Cerchas y celosias.png> <./Imagenes/Tema 2. Nudos. Articulacion.png> <./Imagenes/Tema 2. Nudos. Rigida.png> <./Imagenes/Tema 2. Cimentaciones.png>]
+[13 <./Imagenes/Tema 2. Vigas Boyd.png> <./Imagenes/Tema 2. Cerchas y celosias.png> <./Imagenes/Tema 2. Nudos. Articulacion.png> <./Imagenes/Tema 2. Nudos. Rigida.png> <./Imagenes/Tema 2. Cimentaciones.png>]
 Underfull \hbox (badness 1253) in paragraph at lines 483--484
 []\OT1/cmr/m/n/10 La for-ma de la sec-ci^^Son tam-bi^^Sen in-fluen-cia su
  []
@@ -1301,13 +1521,9 @@ Underfull \hbox (badness 4531) in paragraph at lines 545--546
 \OT1/cmr/m/n/10 agua-cemento de la mez-cla. El com-por-ta-mien-to
  []
 
-
-
-
-
 LaTeX Info: Redefining \. on input line 546.
 LaTeX Info: Redefining \% on input line 546.
-[10]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 547--548
 []\OT1/cmr/m/n/10 Durante el pro-ce-so de cons-truc-ci^^Son, la
  []
@@ -1342,9 +1558,7 @@ Underfull \hbox (badness 1762) in paragraph at lines 559--560
 \OT1/cmr/m/n/10 so-me-ti-das a es-fuer-zos de fle-xi^^Son, ser^^Sa por tan-to
  []
 
-
-
-<Imagenes/Tema 2. Hormigon. Barras Corrugadas de Acero.png, id=199, 429.85594pt x 176.15813pt>
+<Imagenes/Tema 2. Hormigon. Barras Corrugadas de Acero.png, id=314, 429.85594pt x 176.15813pt>
 File: Imagenes/Tema 2. Hormigon. Barras Corrugadas de Acero.png Graphic file (type png)
 <use Imagenes/Tema 2. Hormigon. Barras Corrugadas de Acero.png>
 Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Barras Corrugadas de Acero.png  used on input line 563.
@@ -1364,7 +1578,7 @@ Underfull \hbox (badness 2671) in paragraph at lines 580--581
 \OT1/cmr/m/n/10 en ma-sa, ar-ma-do o pre-ten-sa-do), se-gui-do de su
  []
 
-<Imagenes/Tema 2. Hormigon. Designacion.png, id=201, 830.35219pt x 600.74437pt>
+<Imagenes/Tema 2. Hormigon. Designacion.png, id=316, 830.35219pt x 600.74437pt>
 File: Imagenes/Tema 2. Hormigon. Designacion.png Graphic file (type png)
 <use Imagenes/Tema 2. Hormigon. Designacion.png>
 Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Designacion.png  used on input line 584.
@@ -1372,19 +1586,17 @@ Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Designacion.png  used on inp
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-
 LaTeX Info: Redefining \. on input line 591.
 LaTeX Info: Redefining \% on input line 591.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[11 <./Imagenes/Tema 2. Hormigon. Barras Corrugadas de Acero.png>]
-<Imagenes/Tema 2. Hormigon. Tipos de Acero Soldable.png, id=213, 687.31781pt x 359.84438pt>
+[15 <./Imagenes/Tema 2. Hormigon. Barras Corrugadas de Acero.png>]
+<Imagenes/Tema 2. Hormigon. Tipos de Acero Soldable.png, id=329, 687.31781pt x 359.84438pt>
 File: Imagenes/Tema 2. Hormigon. Tipos de Acero Soldable.png Graphic file (type png)
 <use Imagenes/Tema 2. Hormigon. Tipos de Acero Soldable.png>
 Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Tipos de Acero Soldable.png  used on input line 594.
@@ -1399,14 +1611,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 605--606
 []\OT1/cmr/m/n/10 Los pri-me-ros ele-men-tos que te-ne-mos que
  []
 
-
-
-<Imagenes/Tema 2. Hormigon. Terminacion en cabeza.png, id=215, 951.555pt x 413.29407pt>
+<Imagenes/Tema 2. Hormigon. Terminacion en cabeza.png, id=331, 951.555pt x 413.29407pt>
 File: Imagenes/Tema 2. Hormigon. Terminacion en cabeza.png Graphic file (type png)
 <use Imagenes/Tema 2. Hormigon. Terminacion en cabeza.png>
 Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Terminacion en cabeza.png  used on input line 611.
 (pdftex.def)             Requested size: 236.84843pt x 102.8692pt.
-<Imagenes/Tema 2. Hormigon. Terminacion en base.png, id=217, 668.4975pt x 489.32813pt>
+<Imagenes/Tema 2. Hormigon. Terminacion en base.png, id=333, 668.4975pt x 489.32813pt>
 File: Imagenes/Tema 2. Hormigon. Terminacion en base.png Graphic file (type png)
 <use Imagenes/Tema 2. Hormigon. Terminacion en base.png>
 Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Terminacion en base.png  used on input line 621.
@@ -1416,7 +1626,7 @@ Underfull \hbox (badness 3199) in paragraph at lines 626--627
 []\OT1/cmr/m/n/10 En pi-la-res pre-fa-bri-ca-dos es tam-bi^^Sen ha-bi-tual
  []
 
-<Imagenes/Tema 2. Hormigon. Mensulas.png, id=219, 525.46312pt x 200.24812pt>
+<Imagenes/Tema 2. Hormigon. Mensulas.png, id=335, 525.46312pt x 200.24812pt>
 File: Imagenes/Tema 2. Hormigon. Mensulas.png Graphic file (type png)
 <use Imagenes/Tema 2. Hormigon. Mensulas.png>
 Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Mensulas.png  used on input line 630.
@@ -1424,11 +1634,9 @@ Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Mensulas.png  used on input 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-
 LaTeX Info: Redefining \. on input line 636.
 LaTeX Info: Redefining \% on input line 636.
-[12 <./Imagenes/Tema 2. Hormigon. Designacion.png> <./Imagenes/Tema 2. Hormigon. Tipos de Acero Soldable.png> <./Imagenes/Tema 2. Hormigon. Terminacion en cabeza.png> <./Imagenes/Tema 2. Hormigon. Terminacion en base.png>]
+[16 <./Imagenes/Tema 2. Hormigon. Designacion.png> <./Imagenes/Tema 2. Hormigon. Tipos de Acero Soldable.png> <./Imagenes/Tema 2. Hormigon. Terminacion en cabeza.png> <./Imagenes/Tema 2. Hormigon. Terminacion en base.png>]
 Underfull \hbox (badness 1297) in paragraph at lines 641--642
 \OT1/cmr/m/n/10 la vi-ga no des-cal-ce del apo-yo, se sue-le co-nec-tar
  []
@@ -1443,7 +1651,7 @@ Underfull \hbox (badness 1062) in paragraph at lines 643--644
 \OT1/cmr/m/n/10 en es-te ti-po de na-ves es el de za-pa-ta con c^^Saliz
  []
 
-<Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con caliz ranurado.png, id=233, 946.28531pt x 566.115pt>
+<Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con caliz ranurado.png, id=349, 946.28531pt x 566.115pt>
 File: Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con caliz ranurado.png Graphic file (type png)
 <use Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con caliz ranurado.png>
 Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con caliz ranurado.png  used on input line 647.
@@ -1461,7 +1669,7 @@ Underfull \hbox (badness 6047) in paragraph at lines 652--653
 \OT1/cmr/m/n/10 en la ci-men-ta-ci^^Son du-ran-te el hor-mi-go-na-do. A
  []
 
-<Imagenes/Tema 2. Hormigon. Empotramiento con vainas corrugadas.png, id=235, 902.6222pt x 513.41812pt>
+<Imagenes/Tema 2. Hormigon. Empotramiento con vainas corrugadas.png, id=351, 902.6222pt x 513.41812pt>
 File: Imagenes/Tema 2. Hormigon. Empotramiento con vainas corrugadas.png Graphic file (type png)
 <use Imagenes/Tema 2. Hormigon. Empotramiento con vainas corrugadas.png>
 Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Empotramiento con vainas corrugadas.png  used on input line 656.
@@ -1469,26 +1677,22 @@ Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Empotramiento con vainas cor
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-
-<Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con anclajes roscados.png, id=237, 866.48718pt x 545.03625pt>
+<Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con anclajes roscados.png, id=353, 866.48718pt x 545.03625pt>
 File: Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con anclajes roscados.png Graphic file (type png)
 <use Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con anclajes roscados.png>
 Package pdftex.def Info: Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con anclajes roscados.png  used on input line 665.
 (pdftex.def)             Requested size: 236.84843pt x 148.97476pt.
-
-
 LaTeX Info: Redefining \. on input line 673.
 LaTeX Info: Redefining \% on input line 673.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[13 <./Imagenes/Tema 2. Hormigon. Mensulas.png> <./Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con caliz ranurado.png> <./Imagenes/Tema 2. Hormigon. Empotramiento con vainas corrugadas.png> <./Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con anclajes roscados.png>]
-<Imagenes/Tema 2. Forjados. Tipologias.png, id=250, 849.92531pt x 548.80031pt>
+[17 <./Imagenes/Tema 2. Hormigon. Mensulas.png> <./Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con caliz ranurado.png> <./Imagenes/Tema 2. Hormigon. Empotramiento con vainas corrugadas.png> <./Imagenes/Tema 2. Hormigon. Nudos. Empotramiento con anclajes roscados.png>]
+<Imagenes/Tema 2. Forjados. Tipologias.png, id=365, 849.92531pt x 548.80031pt>
 File: Imagenes/Tema 2. Forjados. Tipologias.png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Tipologias.png>
 Package pdftex.def Info: Imagenes/Tema 2. Forjados. Tipologias.png  used on input line 680.
@@ -1502,8 +1706,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 685--686
 Underfull \hbox (badness 1642) in paragraph at lines 698--699
 \OT1/cmr/m/n/10 una po-si-ci^^Son co-rrec-ta y que se cum-plen los
  []
-
-
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 702--703
@@ -1525,12 +1727,12 @@ Underfull \hbox (badness 1515) in paragraph at lines 718--719
 \OT1/cmr/m/n/10 hor-mig^^Son, el for-ja-do que-dar^^Sa co-mo una lo-sa
  []
 
-<Imagenes/Tema 2. Forjados. Proceso Constructivo (0).png, id=252, 742.27313pt x 528.47438pt>
+<Imagenes/Tema 2. Forjados. Proceso Constructivo (0).png, id=367, 742.27313pt x 528.47438pt>
 File: Imagenes/Tema 2. Forjados. Proceso Constructivo (0).png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Proceso Constructivo (0).png>
 Package pdftex.def Info: Imagenes/Tema 2. Forjados. Proceso Constructivo (0).png  used on input line 726.
 (pdftex.def)             Requested size: 113.68623pt x 80.93695pt.
-<Imagenes/Tema 2. Forjados. Proceso Constructivo (1).png, id=253, 741.52031pt x 528.47438pt>
+<Imagenes/Tema 2. Forjados. Proceso Constructivo (1).png, id=368, 741.52031pt x 528.47438pt>
 File: Imagenes/Tema 2. Forjados. Proceso Constructivo (1).png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Proceso Constructivo (1).png>
 Package pdftex.def Info: Imagenes/Tema 2. Forjados. Proceso Constructivo (1).png  used on input line 732.
@@ -1540,27 +1742,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 733--733
 []\OT1/cmr/m/n/9 (b) |Co-lo-ca-ci^^Son del
  []
 
-<Imagenes/Tema 2. Forjados. Proceso Constructivo (2).png, id=254, 774.64406pt x 541.27219pt>
+<Imagenes/Tema 2. Forjados. Proceso Constructivo (2).png, id=369, 774.64406pt x 541.27219pt>
 File: Imagenes/Tema 2. Forjados. Proceso Constructivo (2).png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Proceso Constructivo (2).png>
 Package pdftex.def Info: Imagenes/Tema 2. Forjados. Proceso Constructivo (2).png  used on input line 737.
 (pdftex.def)             Requested size: 113.68623pt x 79.43639pt.
-<Imagenes/Tema 2. Forjados. Proceso Constructivo (3).png, id=255, 737.75626pt x 536.0025pt>
+<Imagenes/Tema 2. Forjados. Proceso Constructivo (3).png, id=370, 737.75626pt x 536.0025pt>
 File: Imagenes/Tema 2. Forjados. Proceso Constructivo (3).png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Proceso Constructivo (3).png>
 Package pdftex.def Info: Imagenes/Tema 2. Forjados. Proceso Constructivo (3).png  used on input line 743.
 (pdftex.def)             Requested size: 113.68623pt x 82.59698pt.
-<Imagenes/Tema 2. Forjados. Proceso Constructivo (4).png, id=256, 740.7675pt x 539.76656pt>
+<Imagenes/Tema 2. Forjados. Proceso Constructivo (4).png, id=371, 740.7675pt x 539.76656pt>
 File: Imagenes/Tema 2. Forjados. Proceso Constructivo (4).png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Proceso Constructivo (4).png>
 Package pdftex.def Info: Imagenes/Tema 2. Forjados. Proceso Constructivo (4).png  used on input line 748.
 (pdftex.def)             Requested size: 113.68623pt x 82.8311pt.
-<Imagenes/Tema 2. Forjados. Proceso Constructivo (5).png, id=257, 736.25063pt x 532.99126pt>
+<Imagenes/Tema 2. Forjados. Proceso Constructivo (5).png, id=372, 736.25063pt x 532.99126pt>
 File: Imagenes/Tema 2. Forjados. Proceso Constructivo (5).png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Proceso Constructivo (5).png>
 Package pdftex.def Info: Imagenes/Tema 2. Forjados. Proceso Constructivo (5).png  used on input line 754.
 (pdftex.def)             Requested size: 113.68623pt x 82.29561pt.
-<Imagenes/Tema 2. Forjados. Proceso Constructivo (6).png, id=258, 749.80125pt x 551.81157pt>
+<Imagenes/Tema 2. Forjados. Proceso Constructivo (6).png, id=373, 749.80125pt x 551.81157pt>
 File: Imagenes/Tema 2. Forjados. Proceso Constructivo (6).png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Proceso Constructivo (6).png>
 Package pdftex.def Info: Imagenes/Tema 2. Forjados. Proceso Constructivo (6).png  used on input line 759.
@@ -1583,12 +1785,10 @@ Underfull \hbox (badness 1728) in paragraph at lines 768--769
 \OT1/cmr/m/n/10 cons-truc-cio-nes in-dus-tria-les es el for-ja-do con lo-sa
  []
 
-
-
 LaTeX Info: Redefining \. on input line 771.
 LaTeX Info: Redefining \% on input line 771.
-[14 <./Imagenes/Tema 2. Forjados. Tipologias.png>]
-<Imagenes/Tema 2. Forjados. Losa Alveolar.png, id=274, 751.30687pt x 350.05782pt>
+[18 <./Imagenes/Tema 2. Forjados. Tipologias.png>]
+<Imagenes/Tema 2. Forjados. Losa Alveolar.png, id=389, 751.30687pt x 350.05782pt>
 File: Imagenes/Tema 2. Forjados. Losa Alveolar.png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Losa Alveolar.png>
 Package pdftex.def Info: Imagenes/Tema 2. Forjados. Losa Alveolar.png  used on input line 774.
@@ -1597,7 +1797,7 @@ Package pdftex.def Info: Imagenes/Tema 2. Forjados. Losa Alveolar.png  used on i
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Imagenes/Tema 2. Forjados. Vigas para forjados.png, id=276, 548.80031pt x 461.47406pt>
+<Imagenes/Tema 2. Forjados. Vigas para forjados.png, id=391, 548.80031pt x 461.47406pt>
 File: Imagenes/Tema 2. Forjados. Vigas para forjados.png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Vigas para forjados.png>
 Package pdftex.def Info: Imagenes/Tema 2. Forjados. Vigas para forjados.png  used on input line 783.
@@ -1618,13 +1818,12 @@ Underfull \hbox (badness 1024) in paragraph at lines 788--789
 
 Underfull \vbox (badness 5893) has occurred while \output is active []
 
-
-
-<Imagenes/Tema 2. Forjados. Apoyos.png, id=278, 430.60875pt x 475.7775pt>
+<Imagenes/Tema 2. Forjados. Apoyos.png, id=393, 430.60875pt x 475.7775pt>
 File: Imagenes/Tema 2. Forjados. Apoyos.png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Apoyos.png>
 Package pdftex.def Info: Imagenes/Tema 2. Forjados. Apoyos.png  used on input line 792.
 (pdftex.def)             Requested size: 236.84843pt x 261.7002pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1638,19 +1837,17 @@ Underfull \hbox (badness 2221) in paragraph at lines 803--804
 \OT1/cmr/m/n/10 Una vez hor-mi-go-na-do, es-tos per-nos re-sis-tir^^San el
  []
 
-
-
 LaTeX Info: Redefining \. on input line 805.
 LaTeX Info: Redefining \% on input line 805.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[15 <./Imagenes/Tema 2. Forjados. Proceso Constructivo (0).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (1).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (2).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (3).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (4).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (5).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (6).png> <./Imagenes/Tema 2. Forjados. Losa Alveolar.png> <./Imagenes/Tema 2. Forjados. Vigas para forjados.png>]
-<Imagenes/Tema 2. Forjados. Forjado de chapa colaborante.png, id=297, 802.49812pt x 440.39531pt>
+[19 <./Imagenes/Tema 2. Forjados. Proceso Constructivo (0).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (1).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (2).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (3).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (4).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (5).png> <./Imagenes/Tema 2. Forjados. Proceso Constructivo (6).png> <./Imagenes/Tema 2. Forjados. Losa Alveolar.png> <./Imagenes/Tema 2. Forjados. Vigas para forjados.png>]
+<Imagenes/Tema 2. Forjados. Forjado de chapa colaborante.png, id=413, 802.49812pt x 440.39531pt>
 File: Imagenes/Tema 2. Forjados. Forjado de chapa colaborante.png Graphic file (type png)
 <use Imagenes/Tema 2. Forjados. Forjado de chapa colaborante.png>
 Package pdftex.def Info: Imagenes/Tema 2. Forjados. Forjado de chapa colaborante.png  used on input line 809.
@@ -1664,8 +1861,6 @@ Underfull \hbox (badness 1675) in paragraph at lines 818--819
 Underfull \hbox (badness 3364) in paragraph at lines 818--819
 \OT1/cmr/m/n/10 con el tiem-po tam-bi^^Sen se fue-ron di-fe-ren-cian-do,
  []
-
-
 
 
 Underfull \hbox (badness 1496) in paragraph at lines 820--821
@@ -1697,11 +1892,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 845--846
 \OT1/cmr/m/n/10 in-cor-po-ran-do pos-te-rior-men-te otras fun-cio-nes
  []
 
-
-
 LaTeX Info: Redefining \. on input line 846.
 LaTeX Info: Redefining \% on input line 846.
-[16 <./Imagenes/Tema 2. Forjados. Apoyos.png> <./Imagenes/Tema 2. Forjados. Forjado de chapa colaborante.png>]
+[20 <./Imagenes/Tema 2. Forjados. Apoyos.png> <./Imagenes/Tema 2. Forjados. Forjado de chapa colaborante.png>]
 Underfull \hbox (badness 1527) in paragraph at lines 847--847
 |\OT1/cmr/bx/n/10 Conceptos Pre-li-mi-na-res de la F^^S^^Psi-ca de la
  []
@@ -1797,8 +1990,6 @@ Underfull \hbox (badness 1609) in paragraph at lines 868--869
  []
 
 
-
-
 Underfull \hbox (badness 3417) in paragraph at lines 870--871
 \OT1/cmr/m/n/10 si-tu^^Sando-las siem-pre en la ca-ra ca-lien-te del
  []
@@ -1818,18 +2009,16 @@ Underfull \hbox (badness 2359) in paragraph at lines 889--890
 []\OT1/cmr/m/n/10 La ma-la ven-ti-la-ci^^Son en los edi-fi-cios es una
  []
 
-
-
 LaTeX Info: Redefining \. on input line 896.
 LaTeX Info: Redefining \% on input line 896.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[17]
+[21]
 Underfull \hbox (badness 2662) in paragraph at lines 897--898
 \OT1/cmr/m/n/10 se en-cuen-tra su-je-ta a fuer-tes di-fe-ren-cias de
  []
@@ -1868,8 +2057,6 @@ Underfull \hbox (badness 1281) in paragraph at lines 912--913
 Underfull \hbox (badness 1132) in paragraph at lines 912--913
 \OT1/cmr/m/n/10 de la cons-truc-ci^^Son del ce-rra-mien-to pue-de ser
  []
-
-
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 914--915
@@ -1961,11 +2148,9 @@ Underfull \hbox (badness 8113) in paragraph at lines 924--925
 \OT1/cmr/m/n/10 o ga-nan-cias de ca-lor y evi-tar pro-ble-mas
  []
 
-
-
 LaTeX Info: Redefining \. on input line 925.
 LaTeX Info: Redefining \% on input line 925.
-[18]
+[22]
 Underfull \hbox (badness 5460) in paragraph at lines 926--927
 []\OT1/cmr/m/n/10 Seg^^Sun la exi-gen-cia b^^Sasi-ca HS1 (Pro-tec-ci^^Son
  []
@@ -2029,8 +2214,6 @@ Underfull \hbox (badness 1184) in paragraph at lines 930--931
 Underfull \hbox (badness 3861) in paragraph at lines 930--931
 \OT1/cmr/m/n/10 el uso nor-mal de ellos. De for-ma que se
  []
-
-
 
 
 Underfull \hbox (badness 1616) in paragraph at lines 938--939
@@ -2107,24 +2290,22 @@ Underfull \hbox (badness 2443) in paragraph at lines 947--948
 \OT1/cmr/m/n/10 ^^S^^Pnti-ma-men-te li-ga-da al di-se~no del pro-yec-tis-ta
  []
 
-
-
 LaTeX Info: Redefining \. on input line 948.
 LaTeX Info: Redefining \% on input line 948.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[19]
+[23]
 Underfull \hbox (badness 1014) in paragraph at lines 948--949
 \OT1/cmr/m/n/10 pa-ra su trans-por-te y co-lo-ca-ci^^Son me-dian-te un
  []
 
 
-LaTeX Warning: Reference `fig: Cerramientos. Elementos del Sistema Cerramiento Prefabricado' on page 20 undefined on input line 950.
+LaTeX Warning: Reference `fig: Cerramientos. Elementos del Sistema Cerramiento Prefabricado' on page 24 undefined on input line 950.
 
 
 Underfull \hbox (badness 1005) in paragraph at lines 950--951
@@ -2136,7 +2317,7 @@ Underfull \hbox (badness 1681) in paragraph at lines 956--957
 \OT1/cmr/m/n/10 po-de-mos ob-te-ner com-po-nen-tes de ce-rra-mien-to de
  []
 
-<Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Homogeneo. Sin aislamiento termico.png, id=325, 826.58812pt x 526.21594pt>
+<Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Homogeneo. Sin aislamiento termico.png, id=440, 826.58812pt x 526.21594pt>
 File: Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Homogeneo. Sin aislamiento termico.png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Homogeneo. Sin aislamiento termico.png>
 Package pdftex.def Info: Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Homogeneo. Sin aislamiento termico.png  used on input line 962.
@@ -2154,9 +2335,7 @@ Underfull \hbox (badness 1448) in paragraph at lines 967--968
 \OT1/cmr/m/n/10 pa-ne-les tie-nen un ar-ma-do de ace-ro. Uno de los
  []
 
-
-
-<Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico y puente termico.png, id=327, 824.32968pt x 553.31718pt>
+<Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico y puente termico.png, id=442, 824.32968pt x 553.31718pt>
 File: Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico y puente termico.png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico y puente termico.png>
 Package pdftex.def Info: Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico y puente termico.png  used on input line 971.
@@ -2166,7 +2345,7 @@ Underfull \hbox (badness 3861) in paragraph at lines 972--972
 []\OT1/cmr/m/n/10 Figura 2.35: |Pa-nel Pre-fa-fri-ca-do de Hor-mig^^Son -
  []
 
-<Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico sin puente termico.png, id=329, 829.59938pt x 584.93532pt>
+<Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico sin puente termico.png, id=444, 829.59938pt x 584.93532pt>
 File: Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico sin puente termico.png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico sin puente termico.png>
 Package pdftex.def Info: Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico sin puente termico.png  used on input line 981.
@@ -2184,12 +2363,10 @@ Underfull \hbox (badness 1337) in paragraph at lines 989--990
 \OT1/cmr/m/n/10 se rea-li-za con pa-ne-les ver-ti-ca-les de hor-mig^^Son, lo
  []
 
-
-
 LaTeX Info: Redefining \. on input line 990.
 LaTeX Info: Redefining \% on input line 990.
-[20 <./Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Homogeneo. Sin aislamiento termico.png> <./Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico y puente termico.png>]
-<Imagenes/Tema 2. Cerramientos. Fijacion Paneles Verticales.png, id=340, 844.65562pt x 606.76688pt>
+[24 <./Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Homogeneo. Sin aislamiento termico.png> <./Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico y puente termico.png>]
+<Imagenes/Tema 2. Cerramientos. Fijacion Paneles Verticales.png, id=455, 844.65562pt x 606.76688pt>
 File: Imagenes/Tema 2. Cerramientos. Fijacion Paneles Verticales.png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos. Fijacion Paneles Verticales.png>
 Package pdftex.def Info: Imagenes/Tema 2. Cerramientos. Fijacion Paneles Verticales.png  used on input line 993.
@@ -2199,19 +2376,17 @@ Underfull \hbox (badness 1147) in paragraph at lines 998--999
 \OT1/cmr/m/n/10 o de hor-mig^^Son. En el ca-so de la fi-gu-ra []2.39[] se
  []
 
-
-
-<Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales.png, id=343, 857.45343pt x 603.75563pt>
+<Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales.png, id=458, 857.45343pt x 603.75563pt>
 File: Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales.png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales.png>
 Package pdftex.def Info: Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales.png  used on input line 1002.
 (pdftex.def)             Requested size: 236.84843pt x 166.7657pt.
-<Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales (1).png, id=344, 816.04875pt x 566.115pt>
+<Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales (1).png, id=459, 816.04875pt x 566.115pt>
 File: Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales (1).png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales (1).png>
 Package pdftex.def Info: Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales (1).png  used on input line 1009.
 (pdftex.def)             Requested size: 236.84843pt x 164.30736pt.
-<Imagenes/Tema 2. Cerramientos Pesados. Junta.png, id=345, 792.71156pt x 540.51938pt>
+<Imagenes/Tema 2. Cerramientos Pesados. Junta.png, id=460, 792.71156pt x 540.51938pt>
 File: Imagenes/Tema 2. Cerramientos Pesados. Junta.png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos Pesados. Junta.png>
 Package pdftex.def Info: Imagenes/Tema 2. Cerramientos Pesados. Junta.png  used on input line 1019.
@@ -2239,19 +2414,17 @@ Underfull \hbox (badness 1107) in paragraph at lines 1024--1025
 \OT1/cmr/m/n/10 im-per-mea-bi-li-za-ci^^Son du-ran-te to-da su vi-da ^^Sutil. Su
  []
 
-
-
 LaTeX Info: Redefining \. on input line 1027.
 LaTeX Info: Redefining \% on input line 1027.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[21 <./Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico sin puente termico.png> <./Imagenes/Tema 2. Cerramientos. Fijacion Paneles Verticales.png> <./Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales.png> <./Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales (1).png>]
-<Imagenes/Tema 2. Cerramientos Pesados. Fijacion.png, id=360, 722.7pt x 450.9347pt>
+[25 <./Imagenes/Tema 2. Cerramientos. Paneles Prefabricados de Hormigon. Sandwich. Con aislamiento termico sin puente termico.png> <./Imagenes/Tema 2. Cerramientos. Fijacion Paneles Verticales.png> <./Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales.png> <./Imagenes/Tema 2. Cerramientos. Fijacion Paneles Horizontales (1).png>]
+<Imagenes/Tema 2. Cerramientos Pesados. Fijacion.png, id=475, 722.7pt x 450.9347pt>
 File: Imagenes/Tema 2. Cerramientos Pesados. Fijacion.png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos Pesados. Fijacion.png>
 Package pdftex.def Info: Imagenes/Tema 2. Cerramientos Pesados. Fijacion.png  used on input line 1034.
@@ -2259,8 +2432,6 @@ Package pdftex.def Info: Imagenes/Tema 2. Cerramientos Pesados. Fijacion.png  us
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 
 
 Underfull \hbox (badness 1748) in paragraph at lines 1047--1048
@@ -2292,11 +2463,9 @@ Underfull \hbox (badness 1609) in paragraph at lines 1055--1056
 \OT1/cmr/m/n/10 o ver-ti-ca-les con o sin sub-es-truc-tu-ra, seg^^Sun sean
  []
 
-
-
 LaTeX Info: Redefining \. on input line 1056.
 LaTeX Info: Redefining \% on input line 1056.
-[22 <./Imagenes/Tema 2. Cerramientos Pesados. Junta.png> <./Imagenes/Tema 2. Cerramientos Pesados. Fijacion.png>]
+[26 <./Imagenes/Tema 2. Cerramientos Pesados. Junta.png> <./Imagenes/Tema 2. Cerramientos Pesados. Fijacion.png>]
 Underfull \hbox (badness 2088) in paragraph at lines 1057--1058
 []\OT1/cmr/m/n/10 Los pa-ne-les uni-ca-pa est^^San for-ma-dos por una
  []
@@ -2332,30 +2501,26 @@ Underfull \hbox (badness 1629) in paragraph at lines 1068--1069
  []
 
 
-
-
 Underfull \hbox (badness 6526) in paragraph at lines 1074--1075
 \OT1/cmr/m/n/10 o au-to-ta-la-dran-tes que in-cor-po-ran aran-de-las de
  []
 
-<Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich.png, id=370, 824.32968pt x 535.2497pt>
+<Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich.png, id=485, 824.32968pt x 535.2497pt>
 File: Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich.png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich.png>
 Package pdftex.def Info: Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich.png  used on input line 1078.
 (pdftex.def)             Requested size: 236.84843pt x 153.78917pt.
-
-
 LaTeX Info: Redefining \. on input line 1086.
 LaTeX Info: Redefining \% on input line 1086.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[23 <./Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich.png>]
-<Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich (1).png, id=379, 829.59938pt x 606.01407pt>
+[27 <./Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich.png>]
+<Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich (1).png, id=494, 829.59938pt x 606.01407pt>
 File: Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich (1).png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich (1).png>
 Package pdftex.def Info: Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich (1).png  used on input line 1089.
@@ -2380,7 +2545,7 @@ Underfull \hbox (badness 3240) in paragraph at lines 1100--1101
 \OT1/cmr/m/n/10 co-rrec-ta-men-te en el mis-mo plano y se pue-dan
  []
 
-<Imagenes/Tema 2. Cerramientos Ligeros. Muro Cortina.png, id=380, 833.36343pt x 614.295pt>
+<Imagenes/Tema 2. Cerramientos Ligeros. Muro Cortina.png, id=495, 833.36343pt x 614.295pt>
 File: Imagenes/Tema 2. Cerramientos Ligeros. Muro Cortina.png Graphic file (type png)
 <use Imagenes/Tema 2. Cerramientos Ligeros. Muro Cortina.png>
 Package pdftex.def Info: Imagenes/Tema 2. Cerramientos Ligeros. Muro Cortina.png  used on input line 1104.
@@ -2392,8 +2557,6 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \hbox (badness 4739) in paragraph at lines 1109--1110
 []\OT1/cmr/m/n/10 En la fi-gu-ra []2.44[] se mues-tran los de-ta-lles
  []
-
-
 
 
 Underfull \hbox (badness 4328) in paragraph at lines 1122--1123
@@ -2420,11 +2583,9 @@ Underfull \hbox (badness 1253) in paragraph at lines 1125--1126
 \OT1/cmr/m/n/10 lo que se rea-li-za es un sim-ple co-ber-ti-zo sin
  []
 
-
-
 LaTeX Info: Redefining \. on input line 1126.
 LaTeX Info: Redefining \% on input line 1126.
-[24 <./Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich (1).png> <./Imagenes/Tema 2. Cerramientos Ligeros. Muro Cortina.png>]
+[28 <./Imagenes/Tema 2. Cerramientos Ligeros. Paneles Sandwich (1).png> <./Imagenes/Tema 2. Cerramientos Ligeros. Muro Cortina.png>]
 Underfull \hbox (badness 1184) in paragraph at lines 1126--1127
 \OT1/cmr/m/n/10 siem-pre se dis-pondr^^Sa en la ca-ra ca-lien-te del
  []
@@ -2434,7 +2595,7 @@ Underfull \hbox (badness 2495) in paragraph at lines 1127--1128
 []\OT1/cmr/m/n/10 Capa o Sist. pa-ra For-ma-ci^^Son de Pen-dien-te.
  []
 
-<Imagenes/Tema 2. Cubiertas. Capas de la cubierta multicapa.png, id=393, 484.05844pt x 170.13562pt>
+<Imagenes/Tema 2. Cubiertas. Capas de la cubierta multicapa.png, id=509, 484.05844pt x 170.13562pt>
 File: Imagenes/Tema 2. Cubiertas. Capas de la cubierta multicapa.png Graphic file (type png)
 <use Imagenes/Tema 2. Cubiertas. Capas de la cubierta multicapa.png>
 Package pdftex.def Info: Imagenes/Tema 2. Cubiertas. Capas de la cubierta multicapa.png  used on input line 1133.
@@ -2453,8 +2614,6 @@ Underfull \hbox (badness 1337) in paragraph at lines 1143--1144
 Underfull \hbox (badness 4168) in paragraph at lines 1144--1145
 \OT1/cmr/m/n/10 t^^S^^Ppi-cas seg^^Sun el n^^Sume-ro de fal-do-nes y su
  []
-
-
 
 
 Underfull \hbox (badness 1019) in paragraph at lines 1151--1152
@@ -2506,18 +2665,16 @@ Underfull \hbox (badness 1454) in paragraph at lines 1168--1169
 \OT1/cmr/m/n/10 adi-cio-nal. Las so-lu-cio-nes ha-bi-tua-les de pro-tec-ci^^Son
  []
 
-
-
 LaTeX Info: Redefining \. on input line 1169.
 LaTeX Info: Redefining \% on input line 1169.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[25 <./Imagenes/Tema 2. Cubiertas. Capas de la cubierta multicapa.png>]
+[29 <./Imagenes/Tema 2. Cubiertas. Capas de la cubierta multicapa.png>]
 Underfull \hbox (badness 1789) in paragraph at lines 1170--1171
 \OT1/cmr/m/n/10 uti-li-za-dos, y hay al-gu-na de las pro-pie-da-des que
  []
@@ -2563,13 +2720,11 @@ Underfull \hbox (badness 1184) in paragraph at lines 1189--1190
  []
 
 
-
-
 Underfull \hbox (badness 2165) in paragraph at lines 1196--1197
 \OT1/cmr/m/n/10 en-tre el so-por-te de la co-ber-tu-ra y la ba-se
  []
 
-<Imagenes/Tema 2. Cubierta Fria vs Caliente.png, id=405, 764.8575pt x 488.57532pt>
+<Imagenes/Tema 2. Cubierta Fria vs Caliente.png, id=520, 764.8575pt x 488.57532pt>
 File: Imagenes/Tema 2. Cubierta Fria vs Caliente.png Graphic file (type png)
 <use Imagenes/Tema 2. Cubierta Fria vs Caliente.png>
 Package pdftex.def Info: Imagenes/Tema 2. Cubierta Fria vs Caliente.png  used on input line 1201.
@@ -2579,7 +2734,7 @@ Underfull \hbox (badness 1502) in paragraph at lines 1211--1212
 []\OT1/cmr/m/n/10 Fald^^Son: Cons-ti-tu-ye ca-da plano que de-fi-ne la
  []
 
-<Imagenes/Tema 2. Designacion de elementos de la cubierta.png, id=406, 787.44188pt x 469.00218pt>
+<Imagenes/Tema 2. Designacion de elementos de la cubierta.png, id=521, 787.44188pt x 469.00218pt>
 File: Imagenes/Tema 2. Designacion de elementos de la cubierta.png Graphic file (type png)
 <use Imagenes/Tema 2. Designacion de elementos de la cubierta.png>
 Package pdftex.def Info: Imagenes/Tema 2. Designacion de elementos de la cubierta.png  used on input line 1217.
@@ -2589,11 +2744,9 @@ Underfull \hbox (badness 2951) in paragraph at lines 1222--1222
 |\OT1/cmr/bx/n/10 Organizaci^^Son Cons-truc-ti-va de la Cu-bier-ta.
  []
 
-
-
 LaTeX Info: Redefining \. on input line 1225.
 LaTeX Info: Redefining \% on input line 1225.
-[26 <./Imagenes/Tema 2. Cubierta Fria vs Caliente.png> <./Imagenes/Tema 2. Designacion de elementos de la cubierta.png>]
+[30 <./Imagenes/Tema 2. Cubierta Fria vs Caliente.png> <./Imagenes/Tema 2. Designacion de elementos de la cubierta.png>]
 Underfull \hbox (badness 1297) in paragraph at lines 1226--1227
 \OT1/cmr/m/n/10 es rea-li-zar una se-gun-da ho-ja apo-ya-da so-bre una
  []
@@ -2611,9 +2764,7 @@ Underfull \hbox (badness 2253) in paragraph at lines 1232--1233
 
 Underfull \vbox (badness 2671) has occurred while \output is active []
 
-
-
-<Imagenes/Tema 2. Cubierta Plana. Composicion.png, id=416, 511.9125pt x 521.69907pt>
+<Imagenes/Tema 2. Cubierta Plana. Composicion.png, id=531, 511.9125pt x 521.69907pt>
 File: Imagenes/Tema 2. Cubierta Plana. Composicion.png Graphic file (type png)
 <use Imagenes/Tema 2. Cubierta Plana. Composicion.png>
 Package pdftex.def Info: Imagenes/Tema 2. Cubierta Plana. Composicion.png  used on input line 1244.
@@ -2693,7 +2844,7 @@ Underfull \hbox (badness 1354) in paragraph at lines 1252--1253
 \OT1/cmr/m/n/10 de va-por por tan-to. Por otra par-te, es una
  []
 
-<Imagenes/Tema 2. Cubierta Plana. Ejemplo 1.png, id=419, 284.56313pt x 193.47281pt>
+<Imagenes/Tema 2. Cubierta Plana. Ejemplo 1.png, id=534, 284.56313pt x 193.47281pt>
 File: Imagenes/Tema 2. Cubierta Plana. Ejemplo 1.png Graphic file (type png)
 <use Imagenes/Tema 2. Cubierta Plana. Ejemplo 1.png>
 Package pdftex.def Info: Imagenes/Tema 2. Cubierta Plana. Ejemplo 1.png  used on input line 1259.
@@ -2703,7 +2854,7 @@ Underfull \hbox (badness 4673) in paragraph at lines 1260--1260
 []\OT1/cmr/m/n/9 (a) |Ejem-plo 1. Cu-bier-ta
  []
 
-<Imagenes/Tema 2. Cubierta Plana. Ejemplo 2.png, id=420, 289.83281pt x 181.42781pt>
+<Imagenes/Tema 2. Cubierta Plana. Ejemplo 2.png, id=535, 289.83281pt x 181.42781pt>
 File: Imagenes/Tema 2. Cubierta Plana. Ejemplo 2.png Graphic file (type png)
 <use Imagenes/Tema 2. Cubierta Plana. Ejemplo 2.png>
 Package pdftex.def Info: Imagenes/Tema 2. Cubierta Plana. Ejemplo 2.png  used on input line 1266.
@@ -2711,23 +2862,21 @@ Package pdftex.def Info: Imagenes/Tema 2. Cubierta Plana. Ejemplo 2.png  used on
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Imagenes/Tema 2. Cubierta Invertida. Composicion.png, id=421, 779.16093pt x 392.21532pt>
+<Imagenes/Tema 2. Cubierta Invertida. Composicion.png, id=536, 779.16093pt x 392.21532pt>
 File: Imagenes/Tema 2. Cubierta Invertida. Composicion.png Graphic file (type png)
 <use Imagenes/Tema 2. Cubierta Invertida. Composicion.png>
 Package pdftex.def Info: Imagenes/Tema 2. Cubierta Invertida. Composicion.png  used on input line 1277.
 (pdftex.def)             Requested size: 177.63632pt x 89.41763pt.
-
-
 LaTeX Info: Redefining \. on input line 1280.
 LaTeX Info: Redefining \% on input line 1280.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
-[27 <./Imagenes/Tema 2. Cubierta Plana. Composicion.png>]
+[31 <./Imagenes/Tema 2. Cubierta Plana. Composicion.png>]
 Underfull \hbox (badness 1789) in paragraph at lines 1285--1286
 \OT1/cmr/m/n/10 so-bre so-por-tes y apo-ya-das di-rec-ta-men-te so-bre el
  []
@@ -2747,7 +2896,7 @@ Underfull \hbox (badness 6461) in paragraph at lines 1287--1288
 \OT1/cmr/m/n/10 con-tras-tes t^^Sermi-cos. Igual-men-te, aho-ra no ser^^Sa
  []
 
-<Imagenes/Tema 2. Cubierta Invertida. Ejemplos.png, id=429, 1014.79124pt x 173.89969pt>
+<Imagenes/Tema 2. Cubierta Invertida. Ejemplos.png, id=545, 1014.79124pt x 173.89969pt>
 File: Imagenes/Tema 2. Cubierta Invertida. Ejemplos.png Graphic file (type png)
 <use Imagenes/Tema 2. Cubierta Invertida. Ejemplos.png>
 Package pdftex.def Info: Imagenes/Tema 2. Cubierta Invertida. Ejemplos.png  used on input line 1291.
@@ -2755,7 +2904,7 @@ Package pdftex.def Info: Imagenes/Tema 2. Cubierta Invertida. Ejemplos.png  used
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Imagenes/Tema 2. Cubierta Deck. Composicion.png, id=430, 660.96938pt x 442.65375pt>
+<Imagenes/Tema 2. Cubierta Deck. Composicion.png, id=546, 660.96938pt x 442.65375pt>
 File: Imagenes/Tema 2. Cubierta Deck. Composicion.png Graphic file (type png)
 <use Imagenes/Tema 2. Cubierta Deck. Composicion.png>
 Package pdftex.def Info: Imagenes/Tema 2. Cubierta Deck. Composicion.png  used on input line 1300.
@@ -2773,54 +2922,358 @@ Underfull \hbox (badness 3536) in paragraph at lines 1305--1306
 \OT1/cmr/m/n/10 li-ge-re-za y gran fa-ci-li-dad cons-truc-ti-va. En es-tas
  []
 
-
-
-<Imagenes/Tema 2. Cubierta Deck. Ejemplos.png, id=431, 987.69pt x 119.69719pt>
+<Imagenes/Tema 2. Cubierta Deck. Ejemplos.png, id=547, 987.69pt x 119.69719pt>
 File: Imagenes/Tema 2. Cubierta Deck. Ejemplos.png Graphic file (type png)
 <use Imagenes/Tema 2. Cubierta Deck. Ejemplos.png>
 Package pdftex.def Info: Imagenes/Tema 2. Cubierta Deck. Ejemplos.png  used on input line 1309.
 (pdftex.def)             Requested size: 236.84843pt x 28.70233pt.
-<Imagenes/Tema 2. Ejemplo Cubierta Deck.png, id=433, 1022.31938pt x 764.8575pt>
+<Imagenes/Tema 2. Ejemplo Cubierta Deck.png, id=549, 1022.31938pt x 764.8575pt>
 File: Imagenes/Tema 2. Ejemplo Cubierta Deck.png Graphic file (type png)
 <use Imagenes/Tema 2. Ejemplo Cubierta Deck.png>
 Package pdftex.def Info: Imagenes/Tema 2. Ejemplo Cubierta Deck.png  used on input line 1318.
 (pdftex.def)             Requested size: 236.84843pt x 177.1973pt.
 )
-
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
-[28 <./Imagenes/Tema 2. Cubierta Plana. Ejemplo 1.png> <./Imagenes/Tema 2. Cubierta Plana. Ejemplo 2.png> <./Imagenes/Tema 2. Cubierta Invertida. Composicion.png> <./Imagenes/Tema 2. Cubierta Invertida. Ejemplos.png> <./Imagenes/Tema 2. Cubierta Deck. Composicion.png> <./Imagenes/Tema 2. Cubierta Deck. Ejemplos.png> <./Imagenes/Tema 2. Ejemplo Cubierta Deck.png>]) (./main.aux (./Capitulos/Tema 2. Edificación industrial.aux)
+ [32 <./Imagenes/Tema 2. Cubierta Plana. Ejemplo 1.png> <./Imagenes/Tema 2. Cubierta Plana. Ejemplo 2.png> <./Imagenes/Tema 2. Cubierta Invertida. Composicion.png> <./Imagenes/Tema 2. Cubierta Invertida. Ejemplos.png> <./Imagenes/Tema 2. Cubierta Deck. Composicion.png> <./Imagenes/Tema 2. Cubierta Deck. Ejemplos.png> <./Imagenes/Tema 2. Ejemplo Cubierta Deck.png>]
+\openout2 = `"Capitulos/Tema 3. Plantas industriales.aux"'.
+
+ (./Capitulos/Tema 3. Plantas industriales.tex
+Cap\'{\i }tulo 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--3
+|[]\OT1/cmr/bx/n/14.4 Proyectos de plan-tas
+ []
+
+
+Underfull \hbox (badness 5667) in paragraph at lines 5--6
+[]\OT1/cmr/m/n/10 Se co-no-ce co-mo com-ple-jo in-dus-trial a una
+ []
+
+
+Underfull \hbox (badness 4072) in paragraph at lines 5--6
+\OT1/cmr/m/n/10 ins-ta-la-ci^^Son in-dus-trial vo-lu-mi-no-sa cons-ti-tui-da por
+ []
+
+
+Underfull \hbox (badness 1874) in paragraph at lines 7--8
+\OT1/cmr/m/n/10 au-xi-lia-res que tie-nen co-mo fun-ci^^Son sa-tis-fa-cer las
+ []
+
+
+Underfull \hbox (badness 6173) in paragraph at lines 19--19
+|[]\OT1/cmr/bx/n/14.4 Ingenier^^S^^Pa: Im-plan-ta-ci^^Son y
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 23--24
+\OT1/cmr/m/n/10 con-di-cio-nan-tes por pro-ce-so, pro-duc-to, ac-ti-vi-da-des,
+ []
+
+
+Underfull \hbox (badness 4366) in paragraph at lines 29--30
+[]\OT1/cmr/m/n/10 Requisitos de mon-ta-je y man-te-ni-mien-to de
+ []
+
+
+Underfull \hbox (badness 2990) in paragraph at lines 52--53
+[]\OT1/cmr/m/n/10 Consigue una me-jor adap-ta-ci^^Son a con-tex-tos
+ []
+
+[33
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 y pro-gra-mas de con-trol. Co-mu-ni-can con
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 otros dis-po-si-ti-vos, tar-je-tas I/O, tar-je-tas de
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 59--61
+\OT1/cmr/m/n/10 co-mu-ni-ca-cio-nes, etc. Pue-den ser re-dun-dan-tes
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 63--65
+\OT1/cmr/m/n/10 Mues-tran las pan-ta-llas de ope-ra-ci^^Son, gr^^Safi-cos
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 63--65
+\OT1/cmr/m/n/10 ge-ne-ra-les, pan-ta-llas de fun-cio-nes est^^Sandar y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+[]\OT1/cmr/m/n/10 Comunicaciones al ex-te-rior (In-tra-net,
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 77--78
+\OT1/cmr/m/n/10 uti-li-za-do en las plan-tas in-dus-tria-les. Cal-cu-lan la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+|[]\OT1/cmr/bx/n/14.4 Construcci^^Son: ac-ti-vi-da-des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+\OT1/cmr/bx/n/14.4 pre-vias, com-pras y
+ []
+
+
+Underfull \hbox (badness 3460) in paragraph at lines 93--94
+[]\OT1/cmr/m/n/10 Todos los tra-ba-jos se rea-li-zan pa-ra fa-ci-li-tar
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 93--94
+\OT1/cmr/m/n/10 la cons-truc-ci^^Son y la pues-ta en mar-cha de la
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 97--98
+[]\OT1/cmr/m/n/10 Consiste en cons-truir un pro-gra-ma glo-bal del
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 103--104
+\OT1/cmr/m/n/10 del pro-yec-to por to-das las ^^Sareas im-pli-ca-das.
+ []
+
+LaTeX Info: Redefining \. on input line 110.
+LaTeX Info: Redefining \% on input line 110.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[34]
+Underfull \hbox (badness 2608) in paragraph at lines 111--112
+[]\OT1/cmr/m/n/10 Holgura: tiem-po que se pue-de re-tra-sar una
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 115--115
+|\OT1/cmr/bx/n/12 Compras de ma-te-ria-les y equi-pos -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+[]\OT1/cmr/m/n/10 Compras: Con-di-cio-nes Co-mer-cia-les
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 148--149
+[]\OT1/cmr/m/n/10 Contratista prin-ci-pal: asu-me con-trac-tual-men-te
+ []
+
+
+Underfull \hbox (badness 5756) in paragraph at lines 148--149
+\OT1/cmr/m/n/10 an-te el pro-mo-tor, con me-dios hu-ma-nos y
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 149--150
+\OT1/cmr/m/n/10 asu-me con-trac-tual-men-te an-te el con-tra-tis-ta y
+ []
+
+
+Underfull \hbox (badness 5893) in paragraph at lines 158--159
+[]\OT1/cmr/m/n/10 Precio Fi-jo con In-cen-ti-vos: se ofre-cen
+ []
+
+
+Underfull \hbox (badness 5490) in paragraph at lines 164--165
+[]\OT1/cmr/m/n/10 Costo M^^Sas Ho-no-ra-rios In-cen-ti-va-dos: se
+ []
+
+<Imagenes/Tema 3. Tipos de Contratos.png, id=591, 775.39688pt x 482.55281pt>
+File: Imagenes/Tema 3. Tipos de Contratos.png Graphic file (type png)
+<use Imagenes/Tema 3. Tipos de Contratos.png>
+Package pdftex.def Info: Imagenes/Tema 3. Tipos de Contratos.png  used on input line 172.
+(pdftex.def)             Requested size: 236.84843pt x 147.3956pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Info: Redefining \. on input line 178.
+LaTeX Info: Redefining \% on input line 178.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[35]
+Underfull \hbox (badness 3701) in paragraph at lines 182--183
+[]\OT1/cmr/m/n/10 Lista de pre-cios uni-ta-rios - de tra-ba-jos /
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 186--186
+|[]\OT1/cmr/bx/n/14.4 Modularizaci^^Son de plan-tas.
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 188--189
+[]\OT1/cmr/m/n/10 M^^Sodu-lo: uni-dad es-truc-tu-ral mon-ta-da fue-ra de
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 188--189
+\OT1/cmr/m/n/10 la plan-ta que in-clu-ye equi-pos, tu-ber^^S^^Pas, ban-de-jas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+[]\OT1/cmr/m/n/10 Estructura pre-montada: uni-dad es-truc-tu-ral
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+[]\OT1/cmr/m/n/10 Edificios mo-du-la-res pre-fa-bri-ca-dos: edi-fi-cios
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+[]\OT1/cmr/m/n/10 Calidad: me-jo-res con-di-cio-nes de tra-ba-jo
+ []
+
+
+Underfull \hbox (badness 5022) in paragraph at lines 207--208
+[]\OT1/cmr/m/n/10 Mayor cos-te. In-cre-men-to en ho-ras del
+ []
+
+
+Underfull \hbox (badness 5862) in paragraph at lines 208--209
+[]\OT1/cmr/m/n/10 C^^Salcu-los es-truc-tu-ra-les m^^Sas com-ple-jos -
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 211--212
+[]\OT1/cmr/m/n/10 Acero es-truc-tu-ral: 10-20$ $% de in-cre-men-to por
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 211--212
+\OT1/cmr/m/n/10 c^^Salcu-lo con nue-vas car-gas, y por ele-men-tos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+|\OT1/cmr/bx/n/12 Dise~no, Mon-ta-je y Ope-ra-ci^^Son:
+ []
+
+<Imagenes/Tema 3. Cimentaciones Aerogeneradores.png, id=612, 702.37407pt x 459.96844pt>
+File: Imagenes/Tema 3. Cimentaciones Aerogeneradores.png Graphic file (type png)
+<use Imagenes/Tema 3. Cimentaciones Aerogeneradores.png>
+Package pdftex.def Info: Imagenes/Tema 3. Cimentaciones Aerogeneradores.png  used on input line 231.
+(pdftex.def)             Requested size: 236.84843pt x 155.1028pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+[]\OT1/cmr/m/n/10 Condiciones f^^S^^Psi-cas m^^Sas exi-gen-tes
+ []
+
+LaTeX Info: Redefining \. on input line 244.
+LaTeX Info: Redefining \% on input line 244.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[36 <./Imagenes/Tema 3. Tipos de Contratos.png>]
+Underfull \hbox (badness 3250) in paragraph at lines 261--262
+\OT1/cmr/m/n/10 fa-ti-ga a la cual se en-cuen-tra so-me-ti-do un
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 263--264
+\OT1/cmr/m/n/10 ubi-ca-ci^^Son le-jos de lu-ga-res ha-bi-ta-dos per-mi-te
+ []
+
+
+Underfull \hbox (badness 4378) in paragraph at lines 263--264
+\OT1/cmr/m/n/10 sua-vi-zar las res-tric-cio-nes im-pues-tas por las
+ []
+
+
+Underfull \hbox (badness 5490) in paragraph at lines 263--264
+\OT1/cmr/m/n/10 au-to-ri-da-des am-bien-ta-les en re-la-ci^^Son con la
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 270--271
+\OT1/cmr/m/n/10 de un par-que e^^Soli-co, en el mar re-pre-sen-tan
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 272--273
+[]\OT1/cmr/m/n/10 El au-men-to de los cos-tes y di-fi-cul-ta-des de
+ []
+
+LaTeX Info: Redefining \. on input line 274.
+LaTeX Info: Redefining \% on input line 274.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.07225pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.07225pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
+
+[37 <./Imagenes/Tema 3. Cimentaciones Aerogeneradores.png>])
+LaTeX Info: Redefining \. on input line 3.
+LaTeX Info: Redefining \% on input line 3.
+ [38
+
+]) (./main.aux (./Capitulos/Tema 1. Urbanismo industrial.aux)
 LaTeX Info: Redefining \sptext on input line 13.
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
-)
+ (./Capitulos/Tema 2. Edificación industrial.aux) (./Capitulos/Tema 3. Plantas industriales.aux))
  ***********
-LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-09-10>
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-06-18>
  ***********
 
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 693D44913C6C634CC36869A9B27344F9;2159.
+(rerunfilecheck)             Checksum: 2DEE0C9CF18FD4813F98D0DA7312459D;6397.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22282 strings out of 473578
- 410229 string characters out of 5732242
- 1252700 words of memory out of 5000000
- 44816 multiletter control sequences out of 15000+600000
- 561134 words of font info for 46 fonts, out of 8000000 for 9000
+ 22868 strings out of 467168
+ 423155 string characters out of 5413705
+ 1293681 words of memory out of 5000000
+ 51667 multiletter control sequences out of 15000+600000
+ 631132 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,13n,81p,1266b,1848s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (28 pages, 12209518 bytes).
+ 63i,12n,88p,1266b,1854s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (38 pages, 12719956 bytes).
 PDF statistics:
- 512 PDF objects out of 1000 (max. 8388607)
- 332 compressed objects within 4 object streams
- 131 named destinations out of 1000 (max. 500000)
- 443 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 733 PDF objects out of 1000 (max. 8388607)
+ 533 compressed objects within 6 object streams
+ 222 named destinations out of 1000 (max. 500000)
+ 613 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,2 +1,132 @@
 \chapter{Modelado del MOSFET de SiC en Simulink}
 
+Simscape Electrical incluye varios bloques que pueden modelar el mismo tipo de dispositivo semiconductor. Por ejemplo, los bloques MOSFET (Ideal, Switching) y N-Channel MOSFET modelan un transistor de efecto de campo de metal-óxido semiconductor (MOSFET) de canal N. Es importante elegir el bloque con un nivel de detalle suficiente para la aplicación del modelo sin usar más detalle del necesario, ya que los modelos de mayor fidelidad ralentiazan la simulación y son más complejos de paremetrizar.
+
+Se pueden elegir entre bloques que pueden modelar el mismo tipo de dispositivo semiconductor, pero que implementan modelos matemáticos con diferentes niveles de complejidad.
+
+Para el dispositivo estudiado en este proyecto, el MOSFET de SiC, se pueden elegir entre tres niveles de modelado:
+
+\begin{itemize}
+    \item Modelos de nivel 1: modelos de dispositivos de conmutación ideales sin modelo térmico.
+    \item Modelos de nivel 2: modelos ideales de dispositivos de conmutación con pérdidas de conmutación tabuladas y un modelo térmico.
+    \item Modelos de nivel 3: modelos electrotérmicos basados en la física.
+\end{itemize}
+
+\begin{longtable}{|l|p{5.8cm}|p{5.8cm}|}
+    \caption{Objetivos de diseño y suposicioens de modelado correspondientes a los tres niveles de fidelidad. \cite{mathworks_choose_semiconductor}}
+    \label{tab:niveles_fidelidad} \\
+
+    \hline
+    \textbf{Nivel de fidelidad} & \textbf{Objetivos} & \textbf{Supuestos de modelado} \\
+    \hline
+    \endhead % Todo lo anterior se repite al inicio de cada nueva página
+
+    Nivel 1 & 
+    \begin{itemize}
+        \item Diseñar controladores de corriente de bucle interno como patrones PWM o controladores de realimentación.
+        \item Validar el comportamiento del sistema incluyendo otras partes, como el motor, la carga mecánica o una carga eléctrica.
+        \item Evaluar el impacto del patrón PWM de conmutación en los armónicos eléctricos y mecánicos.
+        \item Optimizar sistemas en los que se implementa electrónica de potencia.
+    \end{itemize} & 
+    \begin{itemize}
+        \item Curva I-V en estado encendido lineal por tramos con un número limitado de puntos.
+        \item Sin modelo de carga.
+        \item Promedio de corriente (supuesto opcional pero útil para optimizar sistemas con electrónica de potencia).
+        \item Sin modelo térmico.
+    \end{itemize} \\
+    \hline
+    Nivel 2 & 
+    \begin{itemize}
+        \item Determinar las pérdidas de los dispositivos semiconductores como parte del cálculo de eficiencia general.
+        \item Minimizar las pérdidas de los semiconductores ajustando el patrón PWM.
+        \item Calcular las pérdidas térmicas para la gestión térmica o el diseño del sistema de refrigeración.
+        \item Seleccionar componentes de dispositivos semiconductores fabricados.
+        \item Confirmar que los dispositivos semiconductores operan dentro de su envolvente segura.
+    \end{itemize} & 
+    \begin{itemize}
+        \item Curva I-V en estado encendido tabulada.
+        \item Sin modelo de carga.
+        \item Pérdidas de conmutación tabuladas.
+        \item Modelo térmico de unión y cápsula.
+    \end{itemize} \\
+    \hline
+    Nivel 3 & 
+    \begin{itemize}
+        \item Diseñar circuitos de puerta (\textit{gate drives}).
+        \item Analizar los transitorios del circuito hasta las restricciones temporales del dispositivo (ej. confirmar un tiempo muerto adecuado para evitar la conducción cruzada).
+        \item Diseñar circuitos que utilicen un semiconductor en diversos puntos de operación en estado encendido (ej. amplificadores de RF o convertidores resonantes).
+    \end{itemize} & 
+    \begin{itemize}
+        \item Curva I-V tabulada o modelo no lineal basado en física.
+        \item Modelo de carga tabulado o basado en física.
+        \item Modelo térmico de unión y cápsula.
+    \end{itemize} \\
+    \hline
+\end{longtable}
+
+\begin{longtable}{|p{2.2cm}|p{4.2cm}|p{4.2cm}|p{4.2cm}|}
+    \caption{Bloques que se pueden utilizar en cada nivel de detalle. \cite{mathworks_choose_semiconductor}}
+    \label{tab:mosfet_fidelity} \\ 
+    \hline
+    \textbf{Dispositivo} & \textbf{Nivel 1} & \textbf{Nivel 2} & \textbf{Nivel 3} \\
+    \hline
+    \endhead 
+
+    MOSFET & 
+    \begin{itemize}
+        \item MOSFET (Ideal, Switching) -- Establecer el parámetro \textbf{Modeling option} en \textbf{No thermal port}.
+        \item Ideal Semiconductor Switch.
+    \end{itemize} & 
+    \begin{itemize}
+        \item MOSFET (Ideal, Switching) -- Establecer el parámetro \textbf{Modeling option} en \textbf{Show thermal port}.
+        \item Half-Bridge (Ideal, Switching).
+    \end{itemize} & 
+    \begin{itemize}
+        \item N-Channel MOSFET.
+        \item P-Channel MOSFET.
+        \item N-Channel LDMOS FET.
+        \item P-Channel LDMOS FET.
+    \end{itemize} \\
+    \hline
+\end{longtable}
+
+\section{MOSFET (Ideal, Switching)}
+
+\section{Half-Bridge (Ideal, Switching)}
+
+\section{N-Channel MOSFET}
+
+The N-Channel MOSFET block provides two main modeling options:
+
+Based on threshold voltage — Uses the Shichman-Hodges equation to represent the device. This modeling approach, based on threshold voltage, has the benefits of simple parameterization and simple current-voltage expressions. However, these models have difficulty in accurately capturing transitions across the threshold voltage and lack some important effects, such as velocity saturation. For details, see Threshold-Based Model.
+
+This modeling option provides four ways of parameterizing an N-Channel MOSFET:
+
+\begin{itemize}
+    \item By specifying parameters from a datasheet.
+    \item By specifying equation parameters directly.
+    \item By a 2-D lookup table approximation to the I-V (current-voltage) curve. For details, see Representation by 2-D Lookup Table.
+    \item By a 3-D lookup table approximation to the I-V (current-voltage) curve that includes temperature data. For details, see Representation by 3-D Lookup Table.
+\end{itemize}
+
+Based on surface potential — Uses the surface-potential equation to represent the device. This modeling approach provides a greater level of model fidelity than the simple square-law (threshold-voltage-based) models can provide. The tradeoff is that there are more parameters that require extraction. For details, see Surface-Potential-Based Model.
+
+Together with the thermal port options (see Thermal Port), the block therefore provides you with four choices. To select the desired option, set the Modeling option parameter to either:
+
+\begin{itemize}
+    \item Threshold-based — Basic model, which represents the device using the Shichman-Hodges equation (based on threshold voltage) and does not simulate thermal effects. This is the default.
+    \item Threshold-based with thermal — Model based on threshold voltage and with exposed thermal port.
+    \item Surface-potential-based — Model based on surface potential. This model does not simulate thermal effects.
+    \item Surface-potential-based with thermal — Thermal modeling option of the model based on surface potential.
+\end{itemize}
+
+\section{SPICE NMOS}
+
+\subsection{Infineon SPICE MOSFET model}
+
+SPICE ("Simulation Program with Integrated Circuit Emphasis") simulators are the most commonluúsed technology for analog circuit simulation. Therefore, as de-facto industrial standard, many semiconductor manufacturers develop SPICE models of their products to support circuit design. 
+
+Simscape from MathWorks provides a block diagram environment to model multi-domain systems, including electrical, mechanical, magnetic and thermal aspects. The accompanyng Simscape language expresses the underlying physics using differential equations, associated algebraic constraints, events, and mode charts.
+
+Simscape Electrical is able to import a targeted set of SPICE device models, such as MOSFETs, into equivalent Simscape language implementation.
+

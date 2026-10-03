@@ -1,10 +1,12 @@
 \babel@toc {spanish}{}\relax 
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces \blx@tocontentsinit {0}\cite {Data2024}}}{8}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Estructura MOSFET de canal N \blx@tocontentsinit {0}\cite {MOSFET_esquema}}}{10}{}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Distribución de bandas de energía en los sólidos. \blx@tocontentsinit {0}\cite {Tecnologia_Electronica}}}{10}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Esquema de un transistor MOSFET de canal N \blx@tocontentsinit {0}\cite {Tecnologia_Electronica}}}{11}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces IM828-XCC}}{11}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces EVAL-M1-IM828-A: Diagrama de Bloques \blx@tocontentsinit {0}\cite {infineon2020evalm1im828a}}}{12}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Soluciones con MOSFET CoolSiC de 1200 V \blx@tocontentsinit {0}\cite {infineonAN2017-46}}}{15}{}%
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -1,114 +1,130 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.9)  26 JUN 2026 14:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.23)  25 JUL 2026 13:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **"c:/Users/merce/Documents/GitHub/LaTeX/MII 2/Dirección Financiera/main.tex"
 (c:/Users/merce/Documents/GitHub/LaTeX/MII 2/Dirección Financiera/main.tex
-LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-09-10>
-(c:/texlive/2024/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2024/02/08 v1.4n Standard LaTeX document class
-(c:/texlive/2024/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-06-18>
+(c:/texlive/2026/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(c:/texlive/2026/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count194
-\c@chapter=\count195
-\c@section=\count196
-\c@subsection=\count197
-\c@subsubsection=\count198
-\c@paragraph=\count199
-\c@subparagraph=\count266
-\c@figure=\count267
-\c@table=\count268
+\c@part=\count276
+\c@chapter=\count277
+\c@section=\count278
+\c@subsection=\count279
+\c@subsubsection=\count280
+\c@paragraph=\count281
+\c@subparagraph=\count282
+\c@figure=\count283
+\c@table=\count284
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\bibindent=\dimen141
-) (c:/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2024/10/05 v24.11 The Babel package
-\babel@savecnt=\count269
-\U@D=\dimen142
-\l@unhyphenated=\language89
- (c:/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
+\bibindent=\dimen150
+) (c:/texlive/2026/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2026/06/14 v26.9 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+\babel@savecnt=\count285
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2084.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2086.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2088.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2089.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2090.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2092.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2117.
+\U@D=\dimen151
+\l@unhyphenated=\language91
+ (c:/texlive/2026/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count270
- (c:/texlive/2024/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+\bbl@dirlevel=\count286
+ (c:/texlive/2026/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex)
+Package babel Info: Importing font and identification data for 'spanish'
+(babel)             from babel-es.ini. Reported on input line 4380.
+ (c:/texlive/2026/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks17
-\es@quotdepth=\count271
+\es@quotdepth=\count287
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
 Package babel Info: Making > an active character on input line 722.
-)) (c:/texlive/2024/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
-Package babel Info: Importing font and identification data for spanish
-(babel)             from babel-es.ini. Reported on input line 11.
-) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+))
+LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) on input line 3.
+LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1) on input line 3.
+ (c:/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2026-05-17 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2026-05-17 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
-) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2026-05-17 v1.4h Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
- (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+ (c:/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen143
-\Gin@req@width=\dimen144
-) (c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
- (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
+) (c:/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+ (c:/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+ (c:/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count272
-\Gm@cntv=\count273
-\c@Gm@tempcnt=\count274
-\Gm@bindingoffset=\dimen145
-\Gm@wd@mp=\dimen146
-\Gm@odd@mp=\dimen147
-\Gm@even@mp=\dimen148
-\Gm@layoutwidth=\dimen149
-\Gm@layoutheight=\dimen150
-\Gm@layouthoffset=\dimen151
-\Gm@layoutvoffset=\dimen152
+\Gm@cnth=\count288
+\Gm@cntv=\count289
+\c@Gm@tempcnt=\count290
+\Gm@bindingoffset=\dimen154
+\Gm@wd@mp=\dimen155
+\Gm@odd@mp=\dimen156
+\Gm@even@mp=\dimen157
+\Gm@layoutwidth=\dimen158
+\Gm@layoutheight=\dimen159
+\Gm@layouthoffset=\dimen160
+\Gm@layoutvoffset=\dimen161
 \Gm@dimlist=\toks19
-) (c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count275
+\c@float@type=\count291
 \float@exts=\toks20
-\float@box=\box52
+\float@box=\box53
 \@float@everytoks=\toks21
-\@floatcapt=\box53
-) (c:/texlive/2024/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+\@floatcapt=\box54
+) (c:/texlive/2026/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
-\langwohyphens=\language90
+\langwohyphens=\language92
 LaTeX Info: Redefining \_ on input line 43.
-) (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and footers
+) (c:/texlive/2026/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@headwidth=\skip51
-\f@nch@O@elh=\skip52
-\f@nch@O@erh=\skip53
-\f@nch@O@olh=\skip54
-\f@nch@O@orh=\skip55
-\f@nch@O@elf=\skip56
-\f@nch@O@erf=\skip57
-\f@nch@O@olf=\skip58
-\f@nch@O@orf=\skip59
-) (c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+\f@nch@offset@elh=\skip52
+\f@nch@offset@erh=\skip53
+\f@nch@offset@olh=\skip54
+\f@nch@offset@orh=\skip55
+\f@nch@offset@elf=\skip56
+\f@nch@offset@erf=\skip57
+\f@nch@offset@olf=\skip58
+\f@nch@offset@orf=\skip59
+\f@nch@height=\skip60
+\f@nch@footalignment=\skip61
+\f@nch@widthL=\skip62
+\f@nch@widthC=\skip63
+\f@nch@widthR=\skip64
+\@temptokenb=\toks22
+) (c:/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (c:/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+ (c:/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -118,290 +134,290 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (c:/texlive/2024/texmf-dist/tex/latex/colortbl/colortbl.sty
-Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
- (c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
-Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
-\col@sep=\dimen153
-\ar@mcellbox=\box54
-\extrarowheight=\dimen154
-\NC@list=\toks22
-\extratabsurround=\skip60
-\backup@length=\skip61
-\ar@cellbox=\box55
+) (c:/texlive/2026/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2026/05/01 v1.0l Color table columns (DPC)
+ (c:/texlive/2026/texmf-dist/tex/latex/tools/array.sty
+Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
+\col@sep=\dimen162
+\ar@mcellbox=\box55
+\extrarowheight=\dimen163
+\NC@list=\toks23
+\extratabsurround=\skip65
+\backup@length=\skip66
+\ar@cellbox=\box56
 )
-\everycr=\toks23
-\minrowclearance=\skip62
-\rownum=\count276
-) (c:/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip63
-\multirow@cntb=\count277
-\multirow@dima=\skip64
-\bigstrutjot=\dimen155
-) (c:/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty
+new hooks used!!
+\minrowclearance=\skip67
+\rownum=\count292
+) (c:/texlive/2026/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip68
+\multirow@cntb=\count293
+\multirow@dima=\skip69
+\bigstrutjot=\dimen164
+) (c:/texlive/2026/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
-\TX@col@width=\dimen156
-\TX@old@table=\dimen157
-\TX@old@col=\dimen158
-\TX@target=\dimen159
-\TX@delta=\dimen160
-\TX@cols=\count278
+\TX@col@width=\dimen165
+\TX@old@table=\dimen166
+\TX@old@col=\dimen167
+\TX@target=\dimen168
+\TX@delta=\dimen169
+\TX@cols=\count294
 \TX@ftn=\toks24
-) (c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+ (c:/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen161
-\captionmargin=\dimen162
-\caption@leftmargin=\dimen163
-\caption@rightmargin=\dimen164
-\caption@width=\dimen165
-\caption@indent=\dimen166
-\caption@parindent=\dimen167
-\caption@hangindent=\dimen168
+\caption@tempdima=\dimen170
+\captionmargin=\dimen171
+\caption@leftmargin=\dimen172
+\caption@rightmargin=\dimen173
+\caption@width=\dimen174
+\caption@indent=\dimen175
+\caption@parindent=\dimen176
+\caption@hangindent=\dimen177
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count279
-\c@continuedfloat=\count280
+\c@caption@flags=\count295
+\c@continuedfloat=\count296
 Package caption Info: float package is loaded.
-) (c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count281
+\c@subfigure=\count297
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count282
-) (c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.sty
-Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
- (c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count283
+\c@subtable=\count298
+) (c:/texlive/2026/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2026-05-19 v5.2p context-sensitive quotations (JAW)
+ (c:/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count299
 )
-\csq@reset=\count284
-\csq@gtype=\count285
-\csq@glevel=\count286
-\csq@qlevel=\count287
-\csq@maxlvl=\count288
-\csq@tshold=\count289
+\csq@reset=\count300
+\csq@gtype=\count301
+\csq@glevel=\count302
+\csq@qlevel=\count303
+\csq@maxlvl=\count304
+\csq@tshold=\count305
 \csq@ltx@everypar=\toks25
- (c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.def
-File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+ (c:/texlive/2026/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2026-05-19 v5.2p csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
- (c:/texlive/2024/texmf-dist/tex/latex/csquotes/csquotes.cfg
+ (c:/texlive/2026/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
-)) (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
- (c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+)) (c:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+ (c:/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+ (c:/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+) (c:/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+ (c:/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
+)) (c:/texlive/2026/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count290
- (c:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
+\lrq@indent=\count306
+ (c:/texlive/2026/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+)) (c:/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-) (c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count291
-\c@listtotal=\count292
-\c@listcount=\count293
-\c@liststart=\count294
-\c@liststop=\count295
-\c@citecount=\count296
-\c@citetotal=\count297
-\c@multicitecount=\count298
-\c@multicitetotal=\count299
-\c@instcount=\count300
-\c@maxnames=\count301
-\c@minnames=\count302
-\c@maxitems=\count303
-\c@minitems=\count304
-\c@citecounter=\count305
-\c@maxcitecounter=\count306
-\c@savedcitecounter=\count307
-\c@uniquelist=\count308
-\c@uniquename=\count309
-\c@refsection=\count310
-\c@refsegment=\count311
-\c@maxextratitle=\count312
-\c@maxextratitleyear=\count313
-\c@maxextraname=\count314
-\c@maxextradate=\count315
-\c@maxextraalpha=\count316
-\c@abbrvpenalty=\count317
-\c@highnamepenalty=\count318
-\c@lownamepenalty=\count319
-\c@maxparens=\count320
-\c@parenlevel=\count321
-\blx@tempcnta=\count322
-\blx@tempcntb=\count323
-\blx@tempcntc=\count324
-\c@blx@maxsection=\count325
-\blx@maxsegment@0=\count326
-\blx@notetype=\count327
-\blx@parenlevel@text=\count328
-\blx@parenlevel@foot=\count329
-\blx@sectionciteorder@0=\count330
-\blx@sectionciteorderinternal@0=\count331
-\blx@entrysetcounter=\count332
-\blx@biblioinstance=\count333
-\labelnumberwidth=\skip65
-\labelalphawidth=\skip66
-\biblabelsep=\skip67
-\bibitemsep=\skip68
-\bibnamesep=\skip69
-\bibinitsep=\skip70
-\bibparsep=\skip71
-\bibhang=\skip72
+\c@tabx@nest=\count307
+\c@listtotal=\count308
+\c@listcount=\count309
+\c@liststart=\count310
+\c@liststop=\count311
+\c@citecount=\count312
+\c@citetotal=\count313
+\c@multicitecount=\count314
+\c@multicitetotal=\count315
+\c@instcount=\count316
+\c@maxnames=\count317
+\c@minnames=\count318
+\c@maxitems=\count319
+\c@minitems=\count320
+\c@citecounter=\count321
+\c@maxcitecounter=\count322
+\c@savedcitecounter=\count323
+\c@uniquelist=\count324
+\c@uniquename=\count325
+\c@refsection=\count326
+\c@refsegment=\count327
+\c@maxextratitle=\count328
+\c@maxextratitleyear=\count329
+\c@maxextraname=\count330
+\c@maxextradate=\count331
+\c@maxextraalpha=\count332
+\c@abbrvpenalty=\count333
+\c@highnamepenalty=\count334
+\c@lownamepenalty=\count335
+\c@maxparens=\count336
+\c@parenlevel=\count337
+\blx@tempcnta=\count338
+\blx@tempcntb=\count339
+\blx@tempcntc=\count340
+\c@blx@maxsection=\count341
+\blx@maxsegment@0=\count342
+\blx@notetype=\count343
+\blx@parenlevel@text=\count344
+\blx@parenlevel@foot=\count345
+\blx@sectionciteorder@0=\count346
+\blx@sectionciteorderinternal@0=\count347
+\blx@entrysetcounter=\count348
+\blx@biblioinstance=\count349
+\labelnumberwidth=\skip70
+\labelalphawidth=\skip71
+\biblabelsep=\skip72
+\bibitemsep=\skip73
+\bibnamesep=\skip74
+\bibinitsep=\skip75
+\bibparsep=\skip76
+\bibhang=\skip77
 \blx@bcfin=\read3
 \blx@bcfout=\write3
-\blx@langwohyphens=\language91
-\c@mincomprange=\count334
-\c@maxcomprange=\count335
-\c@mincompwidth=\count336
+\blx@langwohyphens=\language93
+\c@mincomprange=\count350
+\c@maxcomprange=\count351
+\c@mincompwidth=\count352
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count337
-\c@savedafterword=\count338
-\c@annotator=\count339
-\c@savedannotator=\count340
-\c@author=\count341
-\c@savedauthor=\count342
-\c@bookauthor=\count343
-\c@savedbookauthor=\count344
-\c@commentator=\count345
-\c@savedcommentator=\count346
-\c@editor=\count347
-\c@savededitor=\count348
-\c@editora=\count349
-\c@savededitora=\count350
-\c@editorb=\count351
-\c@savededitorb=\count352
-\c@editorc=\count353
-\c@savededitorc=\count354
-\c@foreword=\count355
-\c@savedforeword=\count356
-\c@holder=\count357
-\c@savedholder=\count358
-\c@introduction=\count359
-\c@savedintroduction=\count360
-\c@namea=\count361
-\c@savednamea=\count362
-\c@nameb=\count363
-\c@savednameb=\count364
-\c@namec=\count365
-\c@savednamec=\count366
-\c@translator=\count367
-\c@savedtranslator=\count368
-\c@shortauthor=\count369
-\c@savedshortauthor=\count370
-\c@shorteditor=\count371
-\c@savedshorteditor=\count372
-\c@labelname=\count373
-\c@savedlabelname=\count374
-\c@institution=\count375
-\c@savedinstitution=\count376
-\c@lista=\count377
-\c@savedlista=\count378
-\c@listb=\count379
-\c@savedlistb=\count380
-\c@listc=\count381
-\c@savedlistc=\count382
-\c@listd=\count383
-\c@savedlistd=\count384
-\c@liste=\count385
-\c@savedliste=\count386
-\c@listf=\count387
-\c@savedlistf=\count388
-\c@location=\count389
-\c@savedlocation=\count390
-\c@organization=\count391
-\c@savedorganization=\count392
-\c@origlocation=\count393
-\c@savedoriglocation=\count394
-\c@origpublisher=\count395
-\c@savedorigpublisher=\count396
-\c@publisher=\count397
-\c@savedpublisher=\count398
-\c@language=\count399
-\c@savedlanguage=\count400
-\c@origlanguage=\count401
-\c@savedoriglanguage=\count402
-\c@pageref=\count403
-\c@savedpageref=\count404
-\shorthandwidth=\skip73
-\shortjournalwidth=\skip74
-\shortserieswidth=\skip75
-\shorttitlewidth=\skip76
-\shortauthorwidth=\skip77
-\shorteditorwidth=\skip78
-\locallabelnumberwidth=\skip79
-\locallabelalphawidth=\skip80
-\localshorthandwidth=\skip81
-\localshortjournalwidth=\skip82
-\localshortserieswidth=\skip83
-\localshorttitlewidth=\skip84
-\localshortauthorwidth=\skip85
-\localshorteditorwidth=\skip86
+\c@afterword=\count353
+\c@savedafterword=\count354
+\c@annotator=\count355
+\c@savedannotator=\count356
+\c@author=\count357
+\c@savedauthor=\count358
+\c@bookauthor=\count359
+\c@savedbookauthor=\count360
+\c@commentator=\count361
+\c@savedcommentator=\count362
+\c@editor=\count363
+\c@savededitor=\count364
+\c@editora=\count365
+\c@savededitora=\count366
+\c@editorb=\count367
+\c@savededitorb=\count368
+\c@editorc=\count369
+\c@savededitorc=\count370
+\c@foreword=\count371
+\c@savedforeword=\count372
+\c@holder=\count373
+\c@savedholder=\count374
+\c@introduction=\count375
+\c@savedintroduction=\count376
+\c@namea=\count377
+\c@savednamea=\count378
+\c@nameb=\count379
+\c@savednameb=\count380
+\c@namec=\count381
+\c@savednamec=\count382
+\c@translator=\count383
+\c@savedtranslator=\count384
+\c@shortauthor=\count385
+\c@savedshortauthor=\count386
+\c@shorteditor=\count387
+\c@savedshorteditor=\count388
+\c@labelname=\count389
+\c@savedlabelname=\count390
+\c@institution=\count391
+\c@savedinstitution=\count392
+\c@lista=\count393
+\c@savedlista=\count394
+\c@listb=\count395
+\c@savedlistb=\count396
+\c@listc=\count397
+\c@savedlistc=\count398
+\c@listd=\count399
+\c@savedlistd=\count400
+\c@liste=\count401
+\c@savedliste=\count402
+\c@listf=\count403
+\c@savedlistf=\count404
+\c@location=\count405
+\c@savedlocation=\count406
+\c@organization=\count407
+\c@savedorganization=\count408
+\c@origlocation=\count409
+\c@savedoriglocation=\count410
+\c@origpublisher=\count411
+\c@savedorigpublisher=\count412
+\c@publisher=\count413
+\c@savedpublisher=\count414
+\c@language=\count415
+\c@savedlanguage=\count416
+\c@origlanguage=\count417
+\c@savedoriglanguage=\count418
+\c@pageref=\count419
+\c@savedpageref=\count420
+\shorthandwidth=\skip78
+\shortjournalwidth=\skip79
+\shortserieswidth=\skip80
+\shorttitlewidth=\skip81
+\shortauthorwidth=\skip82
+\shorteditorwidth=\skip83
+\locallabelnumberwidth=\skip84
+\locallabelalphawidth=\skip85
+\localshorthandwidth=\skip86
+\localshortjournalwidth=\skip87
+\localshortserieswidth=\skip88
+\localshorttitlewidth=\skip89
+\localshortauthorwidth=\skip90
+\localshorteditorwidth=\skip91
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count405
-\c@textcitetotal=\count406
-\c@textcitemaxnames=\count407
-\c@biburlbigbreakpenalty=\count408
-\c@biburlbreakpenalty=\count409
-\c@biburlnumpenalty=\count410
-\c@biburlucpenalty=\count411
-\c@biburllcpenalty=\count412
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count421
+\c@textcitetotal=\count422
+\c@textcitemaxnames=\count423
+\c@biburlbigbreakpenalty=\count424
+\c@biburlbreakpenalty=\count425
+\c@biburlnumpenalty=\count426
+\c@biburlucpenalty=\count427
+\c@biburllcpenalty=\count428
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count413
+\c@smartand=\count429
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count414
-\c@bbx:relatedtotal=\count415
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count430
+\c@bbx:relatedtotal=\count431
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -416,26 +432,25 @@ Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
- (c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-09-10 L3 programming layer (loader) 
- (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count416
-\l__pdf_internal_box=\box56
+ (c:/texlive/2026/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2026-06-18 L3 programming layer (loader) 
+ (c:/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count432
 ))
 Package biblatex Info: ... and expl3
-(biblatex)             2024-09-10 L3 programming layer (loader) 
+(biblatex)             2026-06-18 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
- (c:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2024-08-16 L3 Experimental document command parser
+ (c:/texlive/2026/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (c:/texlive/2026/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2025-10-09 L3 Experimental document command parser
 )
-Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -444,6 +459,8 @@ Package csquotes Info: Redefining alias 'default' -> 'spanish'.
  (./main.aux
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 9.
  (./Capitulos/Tema 1. Introducción.aux) (./Capitulos/Tema 2. La Cuenta de Resultados.aux) (./Capitulos/Tema 3. El Balance.aux) (./Capitulos/Tema 4. Los Ratios Financieros.aux) (./Capitulos/Tema 5. Financiación Tradicional.aux) (./Capitulos/Tema 6. Coste de Oportunidad.aux) (./Capitulos/TEST1.aux) (./Capitulos/TEST2.aux))
 \openout1 = `main.aux'.
 
@@ -463,23 +480,23 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
- (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count417
-\scratchdimen=\dimen169
+\scratchcounter=\count433
+\scratchdimen=\dimen178
 \scratchbox=\box57
-\nofMPsegments=\count418
-\nofMParguments=\count419
+\nofMPsegments=\count434
+\nofMParguments=\count435
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count420
-\MPscratchDim=\dimen170
-\MPnumerator=\count421
-\makeMPintoPDFobject=\count422
+\MPscratchCnt=\count436
+\MPscratchDim=\dimen179
+\MPnumerator=\count437
+\makeMPintoPDFobject=\count438
 \everyMPtoPDFconversion=\toks27
-) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (c:/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+ (c:/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 *geometry* driver: auto-detecting
@@ -520,8 +537,8 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'spanish'...
 Package biblatex Info: ... file 'spanish.lbx' found.
-(c:/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
-File: spanish.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+(c:/texlive/2026/texmf-dist/tex/latex/biblatex/lbx/spanish.lbx
+File: spanish.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -534,27 +551,15 @@ Package biblatex Info: ... file 'main.bbl' not found.
 No file main.bbl.
 Package biblatex Info: Reference section=0 on input line 23.
 Package biblatex Info: Reference segment=0 on input line 23.
-(./Documentos/Portada.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 1.
-
-
-[1
+Package babel Info: Main language set to 'spanish'.
+(./Documentos/Portada.tex [1
 
 
 
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./Documentos/Cuerpo.tex
+{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./Documentos/Cuerpo.tex
 \openout2 = `"Capitulos/Tema 1. Introducción.aux"'.
 
- (./Capitulos/Tema 1. Introducción.tex
-
-
-
-[2
+ (./Capitulos/Tema 1. Introducción.tex [2
 
 
 
@@ -616,8 +621,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
  []
 
 
-
-
 Underfull \hbox (badness 2181) in paragraph at lines 22--23
 []\OT1/cmr/m/n/10 La PEF ob-je-ti-vo (+,+). Sin nin-gu-na du-da,
  []
@@ -636,8 +639,6 @@ Underfull \hbox (badness 1527) in paragraph at lines 24--25
 Underfull \hbox (badness 3179) in paragraph at lines 24--25
 \OT1/cmr/m/n/10 tie-nen ^^Sexi-to pe-ro con cre-cien-tes di-fi-cul-ta-des
  []
-
-
 
 [3 <./Imagenes/Las trayectorias economico financieras de la empresa.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 28--28
@@ -695,8 +696,6 @@ Underfull \hbox (badness 6016) in paragraph at lines 43--44
  []
 
 
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
 []\OT1/cmr/m/n/10 Activo: Bie-nes, de-re-chos y otros re-cur-sos
  []
@@ -751,16 +750,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
 []\OT1/cmr/m/n/10 Que sea pro-ba-ble que cual-quier be-ne-fi-cio
  []
 
-
-
 LaTeX Info: Redefining \. on input line 65.
 LaTeX Info: Redefining \% on input line 65.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 65.
 [4]
 Underfull \hbox (badness 1533) in paragraph at lines 84--86
 \OT1/cmr/m/n/10 tra-di-cio-nal-men-te en el mo-de-lo con-ta-ble de-bi-do a
  []
-
-
 
 
 Underfull \hbox (badness 1092) in paragraph at lines 108--109
@@ -791,15 +788,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 127.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 127.
-
-
 LaTeX Info: Redefining \. on input line 128.
 LaTeX Info: Redefining \% on input line 128.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
 [5]
@@ -826,8 +821,6 @@ Underfull \hbox (badness 3375) in paragraph at lines 156--157
 Underfull \hbox (badness 1852) in paragraph at lines 156--157
 \OT1/cmr/m/n/10 ex-te-rior, tal co-mo la ob-ten-ci^^Son de bie-nes o
  []
-
-
 
 
 Underfull \hbox (badness 6141) in paragraph at lines 157--161
@@ -890,10 +883,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--176
  []
 
 )
-
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-[6]
+ [6]
 \openout2 = `"Capitulos/Tema 2. La Cuenta de Resultados.aux"'.
 
  (./Capitulos/Tema 2. La Cuenta de Resultados.tex
@@ -924,8 +916,6 @@ Underfull \hbox (badness 1132) in paragraph at lines 27--28
  []
 
 
-
-
 Underfull \hbox (badness 3098) in paragraph at lines 29--30
 []\OT1/cmr/m/n/10 El re-co-no-ci-mien-to de los gas-tos pue-de es-tar
  []
@@ -934,8 +924,6 @@ Underfull \hbox (badness 3098) in paragraph at lines 29--30
 Underfull \hbox (badness 4060) in paragraph at lines 51--51
  \OT1/cmr/bx/n/10 M^^Seto-dos uti-li-za-dos pa-ra la va-lo-ra-ci^^Son de
  []
-
-
 
 [7
 
@@ -963,8 +951,6 @@ Underfull \hbox (badness 2680) in paragraph at lines 77--78
  []
 
 
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 92--93
 \OT1/cmr/m/n/10 pro-duc-ti-va de la em-pre-sa se man-tie-ne
  []
@@ -980,20 +966,17 @@ Underfull \hbox (badness 1147) in paragraph at lines 100--101
  []
 
 )
-
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
-[8]
-
-
-
+ [8]
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
 [9
@@ -1002,12 +985,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout2 = `"Capitulos/Tema 3. El Balance.aux"'.
 
  (./Capitulos/Tema 3. El Balance.tex
-
-
-
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-[10
+ [10
 
 
 
@@ -1023,8 +1003,6 @@ Underfull \hbox (badness 1038) in paragraph at lines 22--23
 Underfull \hbox (badness 1275) in paragraph at lines 24--25
 []\OT1/cmr/m/n/10 valoraci^^Son al cie-rre, que exi-ge re-co-no-cer una
  []
-
-
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
@@ -1061,8 +1039,6 @@ Underfull \hbox (badness 1043) in paragraph at lines 52--55
 \OT1/cmr/m/n/10 em-pre-sa. Se ana-li-zan su de-te-rio-ro cuan-do exis-tan
  []
 
-
-
 [11]
 Underfull \hbox (badness 5374) in paragraph at lines 58--59
  \OT1/cmr/bx/n/10 Va-lo-ra-ci^^Son ini-cial.[] \OT1/cmr/m/n/10 Al va-lor ra-zo-na-ble de la
@@ -1082,8 +1058,6 @@ Underfull \hbox (badness 1038) in paragraph at lines 62--63
 Underfull \hbox (badness 7047) in paragraph at lines 64--65
 []\OT1/cmr/m/n/10 Al cie-rre del ejer-ci-cio de-ber^^San ha-cer-se las
  []
-
-
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 89--90
@@ -1125,8 +1099,6 @@ Underfull \hbox (badness 1997) in paragraph at lines 108--109
  \OT1/cmr/bx/n/10 Re-ser-vas[] \OT1/cmr/m/n/10 Son cuen-tas de Pa-tri-mo-nio Ne-to que
  []
 
-
-
 LaTeX Info: Redefining \. on input line 111.
 LaTeX Info: Redefining \% on input line 111.
 [12]
@@ -1143,8 +1115,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--123
 Underfull \hbox (badness 4048) in paragraph at lines 140--141
 []\OT1/cmr/m/n/10 Representan una deu-da u obli-ga-ci^^Son por el
  []
-
-
 
 
 Underfull \hbox (badness 1629) in paragraph at lines 142--143
@@ -1191,15 +1161,13 @@ Underfull \hbox (badness 2134) in paragraph at lines 170--171
 []\OT1/cmr/m/n/10 Las pro-vi-sio-nes son pa-si-vos en el que exis-te
  []
 
-
-
 LaTeX Info: Redefining \. on input line 174.
 LaTeX Info: Redefining \% on input line 174.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
 [13]
@@ -1231,8 +1199,6 @@ Underfull \hbox (badness 2903) in paragraph at lines 200--201
 Underfull \hbox (badness 2865) in paragraph at lines 201--201
 []\OT1/cmr/bx/n/12 Las Ne-ce-si-da-des Ope-ra-ti-vas de
  []
-
-
 
 
 Underfull \hbox (badness 2119) in paragraph at lines 204--205
@@ -1274,8 +1240,6 @@ Underfull \hbox (badness 1067) in paragraph at lines 228--229
 []\OT1/cmr/m/n/10 Todo el ac-ti-vo cir-cu-lan-te est^^Sa fi-nan-cia-do con
  []
 
-
-
 LaTeX Info: Redefining \. on input line 235.
 LaTeX Info: Redefining \% on input line 235.
 [14]
@@ -1284,16 +1248,14 @@ Underfull \hbox (badness 6300) in paragraph at lines 242--243
  []
 
 )
-
-
-
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
 [15
@@ -1302,12 +1264,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout2 = `"Capitulos/Tema 4. Los Ratios Financieros.aux"'.
 
  (./Capitulos/Tema 4. Los Ratios Financieros.tex
-
-
-
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-[16
+ [16
 
 
 
@@ -1345,13 +1304,9 @@ Underfull \hbox (badness 2418) in paragraph at lines 21--22
  []
 
 
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 42--42
 []\OT1/cmr/bx/n/14.4 Ratios de Ren-ta-bi-li-dad
  []
-
-
 
 [17]
 Underfull \hbox (badness 6842) in paragraph at lines 50--51
@@ -1374,8 +1329,6 @@ Underfull \hbox (badness 1484) in paragraph at lines 70--71
  []
 
 
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 87--87
 []\OT1/cmr/bx/n/14.4 Retorno so-bre el Ca-pi-tal
  []
@@ -1390,15 +1343,13 @@ Underfull \hbox (badness 3907) in paragraph at lines 104--105
 \OT1/cmr/m/n/10 inal-te-ra-da cual-quie-ra que sea es-truc-tu-ra de
  []
 
-
-
 LaTeX Info: Redefining \. on input line 105.
 LaTeX Info: Redefining \% on input line 105.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
 [18]
@@ -1443,32 +1394,28 @@ Package pdftex.def Info: Imagenes/Ratios de endeudamiento (2).png  used on input
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
-
-
-
 LaTeX Info: Redefining \. on input line 4.
 LaTeX Info: Redefining \% on input line 4.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
 [19 <./Imagenes/Ratios de liquidez.png> <./Imagenes/Ratios de rotacion de activos.png> <./Imagenes/Ratios de endeudamiento (1).png> <./Imagenes/Ratios de endeudamiento (2).png>]
 \openout2 = `"Capitulos/Tema 5. Financiación Tradicional.aux"'.
 
  (./Capitulos/Tema 5. Financiación Tradicional.tex
-
-
-
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
 [20
@@ -1509,8 +1456,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--38
  []
 
 
-
-
 Underfull \hbox (badness 1286) in paragraph at lines 45--46
 \OT1/cmr/m/n/10 que va-ya uti-liz^^Sando-lo ir^^Sa ago-tan-do di-cho cr^^Sedi-to,
  []
@@ -1525,9 +1470,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 []\OT1/cmr/m/n/10 Es un sis-te-ma de fi-nan-cia-ci^^Son en-fo-ca-do
  []
 
-
-
-[21{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+[21{c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 Underfull \hbox (badness 3189) in paragraph at lines 71--72
 []\OT1/cmr/m/n/10 Puede te-ner va-rias co-mi-sio-nes: de aper-tu-ra,
  []
@@ -1536,8 +1479,6 @@ Underfull \hbox (badness 3189) in paragraph at lines 71--72
 Underfull \hbox (badness 10000) in paragraph at lines 71--72
 \OT1/cmr/m/n/10 de can-ce-la-ci^^Son an-ti-ci-pa-da, de amor-ti-za-ci^^Son
  []
-
-
 
 
 Underfull \hbox (badness 1968) in paragraph at lines 106--107
@@ -1559,15 +1500,13 @@ Underfull \hbox (badness 5504) in paragraph at lines 114--115
 []\OT1/cmr/m/n/10 El Ren-ting lo pue-den uti-li-zar em-pre-sas y
  []
 
-
-
 LaTeX Info: Redefining \. on input line 118.
 LaTeX Info: Redefining \% on input line 118.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
 [22]
@@ -1586,37 +1525,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--140
  []
 
 
-
-
 Underfull \hbox (badness 1082) in paragraph at lines 141--142
 []\OT1/cmr/m/n/10 Acciones res-ca-ta-bles: otor-gan el de-re-cho a la
  []
 
 )
-
 LaTeX Info: Redefining \. on input line 5.
 LaTeX Info: Redefining \% on input line 5.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
 [23]
 \openout2 = `"Capitulos/Tema 6. Coste de Oportunidad.aux"'.
 
  (./Capitulos/Tema 6. Coste de Oportunidad.tex
-
-
-
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
 [24
@@ -1642,24 +1577,17 @@ Underfull \hbox (badness 1931) in paragraph at lines 13--14
  []
 
 
-
-
 Underfull \hbox (badness 1117) in paragraph at lines 30--31
 \OT1/cmr/m/n/10 des-cuen-to que se uti-li-za pa-ra ana-li-zar in-ver-sio-nes
  []
 
-)
-
-[25]
+) [25]
 \openout2 = `Capitulos/TEST1.aux'.
 
  (./Capitulos/TEST1.tex
-
-
-
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-[26
+ [26
 
 
 
@@ -1700,8 +1628,6 @@ Underfull \hbox (badness 1546) in paragraph at lines 25--26
  []
 
 
-
-
 Underfull \hbox (badness 4036) in paragraph at lines 36--37
 []\OT1/cmr/m/n/10 Si una em-pre-sa pres-ta un ser-vi-cio en
  []
@@ -1721,8 +1647,6 @@ Underfull \hbox (badness 3954) in paragraph at lines 42--43
 \OT1/cmr/m/n/10 tan-to del prin-ci-pio de pru-den-cia co-mo
  []
 
-
-
 [27]
 Underfull \hbox (badness 1748) in paragraph at lines 53--54
 []\OT1/cmr/m/n/10 Una em-pre-sa ven-de mer-canc^^S^^Pas en di-ciem-bre
@@ -1732,8 +1656,6 @@ Underfull \hbox (badness 1748) in paragraph at lines 53--54
 Underfull \hbox (badness 2818) in paragraph at lines 77--78
 []\OT1/cmr/m/n/10 Si, siem-pre que la em-pre-sa in-cu-rra en
  []
-
-
 
 
 Underfull \hbox (badness 1210) in paragraph at lines 88--89
@@ -1760,8 +1682,6 @@ Underfull \hbox (badness 1205) in paragraph at lines 109--110
 \OT1/cmr/m/n/10 los ac-cio-nis-tas. ?`Qu^^Se efec-to pro-du-ce so-bre el
  []
 
-
-
 LaTeX Info: Redefining \. on input line 117.
 LaTeX Info: Redefining \% on input line 117.
 [28]
@@ -1785,16 +1705,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--129
  []
 
 )
-
-
-
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.07225pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.07225pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.07225pt}.
 
 [29
@@ -1803,21 +1721,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout2 = `Capitulos/TEST2.aux'.
 
  (./Capitulos/TEST2.tex
-
-
-
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-[30
+ [30
 
 
 
 
-])
-
-
-
-[31
+]) [31
 
 ]) (./main.aux
 LaTeX Info: Redefining \sptext on input line 9.
@@ -1825,23 +1736,23 @@ LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
  (./Capitulos/Tema 1. Introducción.aux) (./Capitulos/Tema 2. La Cuenta de Resultados.aux) (./Capitulos/Tema 3. El Balance.aux) (./Capitulos/Tema 4. Los Ratios Financieros.aux) (./Capitulos/Tema 5. Financiación Tradicional.aux) (./Capitulos/Tema 6. Coste de Oportunidad.aux) (./Capitulos/TEST1.aux) (./Capitulos/TEST2.aux))
  ***********
-LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-09-10>
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-06-18>
  ***********
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14540 strings out of 473578
- 274251 string characters out of 5732242
- 1145734 words of memory out of 5000000
- 37248 multiletter control sequences out of 15000+600000
- 564217 words of font info for 56 fonts, out of 8000000 for 9000
+ 14892 strings out of 467168
+ 281073 string characters out of 5413705
+ 1177731 words of memory out of 5000000
+ 43973 multiletter control sequences out of 15000+600000
+ 631431 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,12n,81p,1249b,1822s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (31 pages, 594253 bytes).
+ 62i,12n,83p,1249b,1824s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (31 pages, 594203 bytes).
 PDF statistics:
  182 PDF objects out of 1000 (max. 8388607)
  111 compressed objects within 2 object streams

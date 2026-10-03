@@ -89,7 +89,7 @@
 \contentsline {subsubsection}{Métodos de Runge-Kutta de orden 2}{55}{}%
 \contentsline {subsubsection}{Método de punto medio}{55}{}%
 \contentsline {subsubsection}{Méotodo modificado de Euler}{55}{}%
-\contentsline {subsubsection}{Métodos de Runge-Kutta de orden superior}{56}{}%
+\contentsline {subsubsection}{Métodos de Runge-Kutta de orden superior}{55}{}%
 \contentsline {subsubsection}{Runge-Kutta de orden 4}{56}{}%
 \contentsline {subsection}{\numberline {2.5}Analisis de métodos de un paso}{56}{}%
 \contentsline {section}{\numberline {3}Ecuaciones Stiff}{56}{}%

@@ -19,51 +19,339 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
-    \entry{infineon2020evalm1im828a}{manual}{}{}
+    \entry{Tecnologia_Electronica}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=0acf2a100583e5708ee3b665921e1ba1}{%
+           family={Bandera\bibnamedelima Rubio},
+           familyi={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ced16c0d0be569ecbd326e82f37e5121}{%
+           family={Rodríguez\bibnamedelima Fernández},
+           familyi={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Juan\bibnamedelima Antonio},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=0bcd5bb8e1b324f489486e839fe5f024}{%
+           family={Sánchez\bibnamedelima Pacheco},
+           familyi={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod}}}%
+      }
       \list{location}{1}{%
-        {81726 Munich, Germany}%
+        {Málaga}%
       }
-      \list{organization}{1}{%
-        {Infineon Technologies AG}%
+      \list{publisher}{1}{%
+        {Universidad de Málaga (UMA)}%
       }
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{labeltitlesource}{title}
-      \field{month}{11}
-      \field{title}{EVAL-M1-IM828-A User Guide: Modular Application Design Kit (MADK) of IM828-XCC}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://www.infineon.com/assets/row/public/documents/60/44/infineon-ug-2020-27-eval-m1-im828-a-usermanual-en.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.infineon.com/assets/row/public/documents/60/44/infineon-ug-2020-27-eval-m1-im828-a-usermanual-en.pdf
-      \endverb
-    \endentry
-    \entry{MOSFET_esquema}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=472d46cb829018f9dbd65fb8479a49bb}{%
-           family={Jason},
-           familyi={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{472d46cb829018f9dbd65fb8479a49bb}
-      \strng{fullhash}{472d46cb829018f9dbd65fb8479a49bb}
-      \strng{fullhashraw}{472d46cb829018f9dbd65fb8479a49bb}
-      \strng{bibnamehash}{472d46cb829018f9dbd65fb8479a49bb}
-      \strng{authorbibnamehash}{472d46cb829018f9dbd65fb8479a49bb}
-      \strng{authornamehash}{472d46cb829018f9dbd65fb8479a49bb}
-      \strng{authorfullhash}{472d46cb829018f9dbd65fb8479a49bb}
-      \strng{authorfullhashraw}{472d46cb829018f9dbd65fb8479a49bb}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \strng{namehash}{5329896dff0410754257dbd374080716}
+      \strng{fullhash}{5329896dff0410754257dbd374080716}
+      \strng{fullhashraw}{5329896dff0410754257dbd374080716}
+      \strng{bibnamehash}{5329896dff0410754257dbd374080716}
+      \strng{authorbibnamehash}{5329896dff0410754257dbd374080716}
+      \strng{authornamehash}{5329896dff0410754257dbd374080716}
+      \strng{authorfullhash}{5329896dff0410754257dbd374080716}
+      \strng{authorfullhashraw}{5329896dff0410754257dbd374080716}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Comprender el principio de funcionamiento de Mosfet}
+      \field{isbn}{84-7496-951-4}
+      \field{title}{Tecnología electrónica: materiales y técnicas de fabricación}
+      \field{year}{2002}
+    \endentry
+    \entry{5316106}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=05694d0c858ee219eae7bb764b27b7f6}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=68cf3f104d068cc00ec8c7dae4d239ca}{%
+           family={Boroyevich},
+           familyi={B\bibinitperiod},
+           given={Dushan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=10d752372f3676e6676976263a6d1e6b}{%
+           family={Burgos},
+           familyi={B\bibinitperiod},
+           given={Rolando},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2978d68bc76fa357e581aaebe7de7933}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Fred},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad748450552a4328a746e7cd7653ae70}
+      \strng{fullhash}{5b3d40cd74388a8912a8e842068a70b0}
+      \strng{fullhashraw}{5b3d40cd74388a8912a8e842068a70b0}
+      \strng{bibnamehash}{ad748450552a4328a746e7cd7653ae70}
+      \strng{authorbibnamehash}{ad748450552a4328a746e7cd7653ae70}
+      \strng{authornamehash}{ad748450552a4328a746e7cd7653ae70}
+      \strng{authorfullhash}{5b3d40cd74388a8912a8e842068a70b0}
+      \strng{authorfullhashraw}{5b3d40cd74388a8912a8e842068a70b0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2009 IEEE Energy Conversion Congress and Exposition}
+      \field{title}{Characterization and modeling of 1.2 kv, 20 A SiC MOSFETs}
+      \field{year}{2009}
+      \field{pages}{1480\bibrangedash 1487}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ECCE.2009.5316106
+      \endverb
+      \keyw{Silicon carbide;MOSFETs;Temperature;Circuit testing;Leakage current;Diodes;Packaging;Immune system;Power system modeling;Capacitance;Silicon carbide;power MOSFET;modeling}
+    \endentry
+    \entry{Data2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=13d6c65c9a6cf59b8ee8b6db054b75dc}{%
+           family={Data},
+           familyi={D\bibinitperiod},
+           given={Our\bibnamedelima World},
+           giveni={O\bibinitperiod\bibinitdelim W\bibinitperiod},
+           prefix={in},
+           prefixi={i\bibinitperiod}}}%
+      }
+      \strng{namehash}{13d6c65c9a6cf59b8ee8b6db054b75dc}
+      \strng{fullhash}{13d6c65c9a6cf59b8ee8b6db054b75dc}
+      \strng{fullhashraw}{13d6c65c9a6cf59b8ee8b6db054b75dc}
+      \strng{bibnamehash}{13d6c65c9a6cf59b8ee8b6db054b75dc}
+      \strng{authorbibnamehash}{13d6c65c9a6cf59b8ee8b6db054b75dc}
+      \strng{authornamehash}{13d6c65c9a6cf59b8ee8b6db054b75dc}
+      \strng{authorfullhash}{13d6c65c9a6cf59b8ee8b6db054b75dc}
+      \strng{authorfullhashraw}{13d6c65c9a6cf59b8ee8b6db054b75dc}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Research and data to make progress against the world’s largest problems.}
+      \field{journaltitle}{https://ourworldindata.org/}
+      \field{title}{OWID Homepage}
+      \field{year}{2024}
+    \endentry
+    \entry{infineonAN2017-46}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=8aea662ff77fef4f35191d192d1b1114}{%
+           family={{Infineon Technologies AG}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Infineon Technologies AG}%
+      }
+      \strng{namehash}{8aea662ff77fef4f35191d192d1b1114}
+      \strng{fullhash}{8aea662ff77fef4f35191d192d1b1114}
+      \strng{fullhashraw}{8aea662ff77fef4f35191d192d1b1114}
+      \strng{bibnamehash}{8aea662ff77fef4f35191d192d1b1114}
+      \strng{authorbibnamehash}{8aea662ff77fef4f35191d192d1b1114}
+      \strng{authornamehash}{8aea662ff77fef4f35191d192d1b1114}
+      \strng{authorfullhash}{8aea662ff77fef4f35191d192d1b1114}
+      \strng{authorfullhashraw}{8aea662ff77fef4f35191d192d1b1114}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{note}{Revision 1.2}
+      \field{number}{AN2017-46}
+      \field{title}{{1200 V CoolSiC\texttrademark{} MOSFET: Trench Technology Essentials}}
+      \field{type}{Application Note}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 29}
+      \range{pages}{29}
       \verb{urlraw}
-      \verb https://www.ic-components.es/blog/understand-the-working-principle-of-mosfet.jsp
+      \verb https://www.infineon.com/assets/row/public/documents/cross-divisions/42/infineon-coolsic-mosfet-1200v-sic-trench-power-device-applicationnotes-en.pdf
       \endverb
       \verb{url}
-      \verb https://www.ic-components.es/blog/understand-the-working-principle-of-mosfet.jsp
+      \verb https://www.infineon.com/assets/row/public/documents/cross-divisions/42/infineon-coolsic-mosfet-1200v-sic-trench-power-device-applicationnotes-en.pdf
       \endverb
+    \endentry
+    \entry{11269412}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=39758ac6113aa60ab5af397427ba8b1d}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kihyun},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1f16d1a4bae5893e6423675dd7152553}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jinhyeok},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e0b54af4603400a558447400bafd9a9a}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Soohyuk},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5aab607a6631a470706234435246cf9f}{%
+           family={Baek},
+           familyi={B\bibinitperiod},
+           given={Mi-ran},
+           giveni={M\bibinithyphendelim r\bibinitperiod}}}%
+        {{hash=6265e841bed9fdd6d831d555c97216b3}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Bokkeun},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{1308e00203bb74e8f06b2db67fbc380e}
+      \strng{fullhash}{1bf2065bc6b448a8adfbe1ed6fb6676a}
+      \strng{fullhashraw}{1bf2065bc6b448a8adfbe1ed6fb6676a}
+      \strng{bibnamehash}{1308e00203bb74e8f06b2db67fbc380e}
+      \strng{authorbibnamehash}{1308e00203bb74e8f06b2db67fbc380e}
+      \strng{authornamehash}{1308e00203bb74e8f06b2db67fbc380e}
+      \strng{authorfullhash}{1bf2065bc6b448a8adfbe1ed6fb6676a}
+      \strng{authorfullhashraw}{1bf2065bc6b448a8adfbe1ed6fb6676a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{PCIM Asia Shanghai Conference 2025; International Exhibition and Conference for Power Electronics, Intelligent Motion, Renewable Energy and Energy Management}
+      \field{title}{New 1200 V SiC MOSFET-based CIPOS(exp TM) Maxi Intelligent Power Module for High-Efficiency Motor Drives}
+      \field{year}{2025}
+      \field{pages}{147\bibrangedash 152}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.30420/566583024
+      \endverb
+    \endentry
+    \entry{11630585}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=86d8cd66cb62928ca1ec636d8cd2e11c}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=b99355672d0c0bf5e5f4e981eb276bfe}{%
+           family={Gong},
+           familyi={G\bibinitperiod},
+           given={Jiakun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1ce351bc7ce70594e26e4979602e7401}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Yuxi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f9d7da3ee54d98d9a5b89c572cd4d028}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Mingrui},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5918631c2d1cdd4eaddbfc27a01281ae}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a029d468e799f30930cdcb2ddd1b0376}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yulei},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d8d8ac427678420c4f983c87b3ab7bd4}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{284665cdb8fdaad5646c78846ea3b2ae}
+      \strng{fullhash}{128b6ef1e81a160b58fea2d00131b9a8}
+      \strng{fullhashraw}{128b6ef1e81a160b58fea2d00131b9a8}
+      \strng{bibnamehash}{284665cdb8fdaad5646c78846ea3b2ae}
+      \strng{authorbibnamehash}{284665cdb8fdaad5646c78846ea3b2ae}
+      \strng{authornamehash}{284665cdb8fdaad5646c78846ea3b2ae}
+      \strng{authorfullhash}{128b6ef1e81a160b58fea2d00131b9a8}
+      \strng{authorfullhashraw}{128b6ef1e81a160b58fea2d00131b9a8}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Power Electronics}
+      \field{number}{12}
+      \field{title}{Deep Vertical Integration With Embedded Gate Driver and Rogowski Coil Toward SiC Intelligent Power Module}
+      \field{volume}{41}
+      \field{year}{2026}
+      \field{pages}{20883\bibrangedash 20888}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/TPEL.2026.3718750
+      \endverb
+      \keyw{Silicon carbide;Current;Modules (abstract algebra);Protection;Gate drivers;Circuits;Coils;Packaging;Design methodology;Voltage;Embedded gate driver;integrated Rogowski coil current sensor (RCCS);silicon carbide (SiC) intelligent power module (IPM);vertical integration packaging}
+    \endentry
+    \entry{mathworks_choose_semiconductor}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=2d2b0d998977e6379aad61f1b56ac3c1}{%
+           family={{MathWorks}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {The MathWorks, Inc.}%
+      }
+      \strng{namehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{fullhash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{fullhashraw}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{bibnamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authorbibnamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authornamehash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authorfullhash}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \strng{authorfullhashraw}{2d2b0d998977e6379aad61f1b56ac3c1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://es.mathworks.com/help/sps/ug/choose-right-semiconductor-block.html}}
+      \field{title}{Choose Blocks to Model Semiconductor Devices}
+    \endentry
+    \entry{10457945}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=86793b667263a6540a0d803712c3d205}{%
+           family={Mohammed},
+           familyi={M\bibinitperiod},
+           given={Nabil},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a45829a5ab44522a6327548072e959e2}{%
+           family={Udawatte},
+           familyi={U\bibinitperiod},
+           given={Harith},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a959d47f7d9ac51c39435e8fe19bfdb1}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Weihua},
+           giveni={W\bibinitperiod}}}%
+        {{hash=ea30d5939f5f47931d8aa048992b0265}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=56e409727f4a316fa671125bc467a85f}{%
+           family={Bahrani},
+           familyi={B\bibinitperiod},
+           given={Behrooz},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{bef1d37622cf14b1909475a0e81ecc8c}
+      \strng{fullhash}{d901f59469042270b3ff81b86ceed668}
+      \strng{fullhashraw}{d901f59469042270b3ff81b86ceed668}
+      \strng{bibnamehash}{bef1d37622cf14b1909475a0e81ecc8c}
+      \strng{authorbibnamehash}{bef1d37622cf14b1909475a0e81ecc8c}
+      \strng{authornamehash}{bef1d37622cf14b1909475a0e81ecc8c}
+      \strng{authorfullhash}{d901f59469042270b3ff81b86ceed668}
+      \strng{authorfullhashraw}{d901f59469042270b3ff81b86ceed668}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Open Journal of the Industrial Electronics Society}
+      \field{title}{Grid-Forming Inverters: A Comparative Study of Different Control Strategies in Frequency and Time Domains}
+      \field{volume}{5}
+      \field{year}{2024}
+      \field{pages}{185\bibrangedash 214}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1109/OJIES.2024.3371985
+      \endverb
+      \keyw{Inverters;Power system stability;Synchronous generators;Stability analysis;Impedance;Frequency control;Voltage control;Power grids;Grid forming;Droop control;grid disturbance;grid-forming inverters (GFMIs);small signal;stability analysis;strong grid;virtual synchronous generator (VSG);weak grid}
     \endentry
   \enddatalist
 \endrefsection

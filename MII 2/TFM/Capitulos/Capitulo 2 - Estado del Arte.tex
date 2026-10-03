@@ -2,34 +2,111 @@
 
 \section{Evolución de los Inversores}
 
+Los cambios en el sistema eléctrico actual se basan en el uso de recursos basados en inversores (IBRs, por sus siglas en inglés), debido al reemplazo de los generadores síncronos basados en combustibles fósiles por fuentes de energía renovables como la solar o eólica. Cada vez más, estos IBRs asumen un papel fundamental para garantizar la estabilidad y fiabilidad de la red. En este contexto, las estrategias de control de los IBRs resultan críticas para facilitar una integración fluida de las energías renovables.
+
+En la actualidad, la mayoría de los IBRs operan en modo seguidor de red (\textit{Grid-Following} o GFL), basándose en técnicas de sincronización con la red como el uso del lazo de seguimiento de fase (PLL, por sus siglas en inglés). Este modo de operación está diseñado para seguir la tensión de la red e inyectando la corriente necesaria, lo que hace que se comporten como fuentes de corriente. Esta característica los distingue de los generadores síncronos, los cuales actúan como fuentes de tensión a una frecuencia constante. Debido a la gran dependencia que tienen estos inversores en su lazo de sincronización, ante condiciones de red débil se observa un comportamiento no deseado, caracterizado por oscilaciones de baja frecuencia que pueden derivar en inestabilidad. Debido a que su falta de capacidad de soportar la red, se están desarrollando inversores formadores de red (\textit{Grid-Forming} o GFMIs) como una solución para proporcionar regulación de tensión y frencuencia en sistemas que no cuentan con generadores síncronos. A diferencia de los GFLIs, los GFMIs emulan el comportamiento de una fuente de tensión. 
+
+Se prevé que los inversores formadores de red desempeñen un papel protagonista en los sitemas eléctricos futuros. En contraste con sus homólogos seguidores de red, que utilizan lazos de seguimiento de fase para su sincronización con la red necesitando estar conectados a una red robusta, GFMIs utilizan principalmente conceptos de sincronización basados en el control de potencia para establecer la tensión. Por lo tanto, no solo son capaces de operar en redes débiles, sino que también proporcionan servicios auxiliares crtíticos como pueden ser soporte de tensión, frecuencia e inercia. \cite{10457945}
+
+% The transformation of current power systems is being driven by the rise of IBRs, as renewable energy sources such as solar and wind are being utilized to replace traditional fossil-fuel-based synchronous generators, thereby contributing to emissions reduction. The pivotal role in ensuring the stability and reliability of the grid is increasingly being taken on by these IBRs. In this context, control technologies for IBRs are seen to play a critical role in facilitating the seamless integration of renewable energy sources, thereby significantly impacting grid stability.
+
+% Currently, the majority of IBRs are operated in the GFL mode, relying on grid synchronization techniques, such as the utilization of the PLL. This mode is designed to have the grid voltage followed and current injected as necessary, resulting in a current-source-like behavior exhibited by GFLIs. This feature distinguishes GFLIs from synchronous generators, which are acted upon as voltage sources at a fixed frequency. Due to the high dependence of GFLIs on the PLL, undesirable performance in terms of low-frequency oscillation that may even lead to eventual instability is observed in the GFL mode under weak grid conditions, which are anticipated in future power networks. Therefore, their capability to strengthen the grid in a future IBR-dominated power system is limited. As a result, GFMIs are being developed and commercially deployed as an emerging solution to provide voltage and frequency regulation in a power system without synchronous generators. Unlike GFLIs, voltage-source behavior is emulated by GFMIs, with their primary objective being the maintenance of the internal voltage phasor. Consequently, GFMIs are well suited for the delivery of ancillary services to the grid, akin to synchronous generators, even in weak grid scenarios.
+
+% Grid-forming inverters (GFMIs) are anticipated to play a leading role in future power systems. In contrast to their counterpart grid-following inverters, which employ phase-locked loops for synchronization with the grid voltage and rely on stable grid connections, GFMIs primarily employ the power-based synchronization concept to form the voltage. Hence, they can not only stably operate in regions of the grid characterized by low strength but also provide critical ancillary services to power systems, including voltage, frequency, and inertia support. \cite{10457945}
+
+%%%%%%
+
+Por otro lado, la creciente demanda de vehículos eléctricos han impulsado el desarrollo de inversores de potencia compactos, eficientes y confiables. Semiconductores de banda ancha como el carburo de silicio (SiC) y el nitruro de galio (GaN). Estos materiales ofrecen ventaja
+
+The rapid development of wide-bandgap semiconductors, such as silicon carbide (SiC) and gallium nitride, has unlocked power devices to achieve faster switching speed, lower losses, and excellent high-temperature endurance, thereby improving the efficiency and power density of power converters . To fully exploit the advantages of SiC devices and improve the density and functionality of power converters, intelligent power modules (IPMs) have attracted increasing attention . By integrating power semiconductor devices, gate drivers, and auxiliary functionalities, such as current sensing, junction-temperature monitoring, and fault diagnosis within a single packaging, IPMs reduce peripheral circuit complexity, improve usability and system reliability, and facilitate compact, intelligent power converter designs. \cite{11630585}
+
+En este contexto, los módulos de potencia de carburo de silicio (SiC) han surgido como una solución prometedora para mejorar el rendimiento de los inversores en aplicaciones de tracción eléctrica. Los transistores MOSFET de SiC ofrecen ventajas significativas sobre los dispositivos basados en silicio tradicionales, incluyendo menores pérdidas de conmutación, mayor eficiencia y capacidad para operar a frecuencias más altas. \cite{11269412}
+
 \section{Tecnologías de Semiconductores}
 
+% Libro Tecnología Electrónica (PACHECO)
+
+Según la teoría de las bandas de energía de los sólidos, los materiales pueden clasificarse en aislantes, semiconductores y conductores en función de la cantidad de energía que debe recibir un electrón para saltar el intervalo entre la banda de valencia y la de conducción, conocido como banda prohibida. En los aislantes, este intervalo es grande, mientras que en los semiconductores es relativamente estrecho. En conductores como el cobre, las bandas de conducción y de valencia se solapan. (Figura \ref{fig: Distribucion de bandas de energia en los solidos.})
+
+Desde el punto de vista eléctrico, el parámetro que determina tal clasificación es la conductividad, que indica el grado o la facilidad con la que los materiales permiten el paso de un flujo de portadores bajo un campo eléctrico externo. La inversa de la conductividad es la resistividad, una propiedad intrínseca de los materiales e independiente de factores como su geometría externa.
+
+El verdadero interés de los semiconductores reside en que se puede modificar su resistividad de manera controlada entre márgenes muy amplios. Esta característica depende de la estructura y del enlace atómico. El germanio y el silicio son dos de los materiales semiconductores más importantes, los cuales poseen cuatro electrones de valencia en su última capa.
+
+\begin{figure}
+    \centering
+    \includegraphics[width = 0.5  \textwidth]{Imagenes/Distribucion de bandas de energia en los solidos.png}
+    \caption{Distribución de bandas de energía en los sólidos. \cite{Tecnologia_Electronica}}
+    \label{fig: Distribucion de bandas de energia en los solidos.}
+\end{figure}
 
 \subsection{Transistor MOSFET}
 
-Un transistor de efecto de campo semiconductor de óxido de óxido metálico o MOSFET es un tipo especial de transistor que funciona como un interruptor o una puerta para la electricidad.Puede activar o desactivar el flujo de corriente utilizando un pequeño voltaje.MOSFET tiene tres partes principales: la puerta, el drenaje y la fuente.
+% Libro Tecnología Electrónica (PACHECO)
 
-MOSFET utiliza un pequeño voltaje en la puerta para controlar el flujo de corriente.A diferencia de otros interruptores, usa muy poca potencia.Esto lo hace rápido, eficiente y perfecto para circuitos donde el ahorro de energía es importante.Encontrará MOSFET en casi todas partes en la electrónica moderna porque son pequeños, confiables y hacen el trabajo en silencio detrás de escena.
+El MOSFET pertenece a la familia de transistores de efecto de campo que completan el JFET (FET de unión) y el MESFET (metal-semiconductor). Otros términos con los que se conoce al MOSFET son IGFET, MISFET o MOST. La tecnología MOSFET se divide en N-MOS (canal N) y C-MOS (canales p y n complementarios en el mismo substrato), estando la tecnología P-MOS en desuso dada la escasa movilidad de los semiconducores tipo p. El transistor MOSFET se basa en la conducción de portadores mayoritarios por un canal, controlada por un electrodo aislado llamado puerta. 
 
-Este trabajo se ha centrado especialmente en los , los llamados transistores de efecto campo metal-óxido-semiconductor (MOSFET).
+Los parámetros importantes del MOSFET son:
+\begin{itemize}
+    \item Longitud del canal (L)
+    \item Ancho del canal (Z)
+    \item Espesor de óxido (d)
+    \item Profundidad de la unión ($r_j$)
+    \item Dopaje del semiconductor (ND)
+\end{itemize}
 
-Un MOSFET funciona usando voltaje en la puerta para controlar el flujo de corriente entre la fuente y el drenaje.Cuando aplica voltaje a la puerta, afecta el área debajo del semiconductor.Este cambio permite o bloquea el flujo de corriente a través del dispositivo.
+El electrodo puerta será una capacidad metal-óxido-semiconductor (MOS) que se supondrá en el resto del apartado como ideal. La estructura del dispositivo se puede ver en la Figura \ref{fig: Esquema MOSFET}.
 
-En MOSFET de canal N, un voltaje positivo en la puerta crea una ruta para que los electrones se muevan, lo que permite que la corriente fluya.Cuanto más voltaje aplique, más fácil es que la corriente pase.
-
-En el canal P MOSFET, el proceso se invierte.Aplica un voltaje negativo para permitir el flujo de corriente atrayendo cargas positivas (agujeros).
-
-En ambos tipos, la puerta actúa como una señal de control: no permite que la corriente fluya en ella, sino que influye en si la corriente puede moverse a través del dispositivo.Esto hace que el MOSFET sea eficiente y rápido para cambiar en circuitos electrónicos.
-
-Cuenta con tres terminales, llamados drenador (D), fuente (S) y puerta (G)
-
-\begin{figure}
-    \label{figure: Esquema MOSFET}
+\begin{figure}  
     \centering
     \includegraphics[width = 0.5  \textwidth]{Imagenes/MOSFET Canal N Esquema.png}
-    \caption{Estructura MOSFET de canal N \cite{MOSFET_esquema}}
+    \caption{Esquema de un transistor MOSFET de canal N \cite{Tecnologia_Electronica}}
+    \label{fig: Esquema MOSFET}
 \end{figure}
+
+A continuación se analiza el comportamiento del MOSFET en diferentes regiones de funcionamiento. El voltaje en surtidor será tomado como tensión de referencia, en drenador se aplica una tensión positiva y la de la puerta se varía según convenga.
+
+\subsubsection{Región de corte}
+
+En esta región, la tensión de puerta es menor que la tensión umbral. No se crea canal, y la corriente que circula entre derandor y fuente, $I_D$, se puede estudiar como la de un transistor bipolar lateral (n+ - p - n+)
+
+\begin{equation}
+    I_D = e ^ {\frac{q (V_G - V_T)}{K \cdot T}}
+\end{equation}
+
+donde $q$ es la carga del electrón, $K$ es la constante de Boltzmann, $T$ es la temperatura en grados Kelvin, $V_G$ la tensión de puerta y $V_T$ la tensión umbral. 
+
+\subsubsection{Región lineal}
+
+Cuando la tensión de puerta es mayor al umbral, se crea un canal tipo n entre fuente y drenador. Por este canal puede ahora circular la corriente $I_D$ de mayoritarios (electrones). Mientras que la tensión en drenador. $V_D$, sea mucho menor que ($V_G - V_T$), o sea, la tensión en drenador tenga un valor pequeño, se cumplirá que:
+
+\begin{equation}
+    I_D \approx \frac{Z}{L} \mu_n C_O (V_G - V_T) V_D
+\end{equation}
+
+Conforme aumenta $V_D$, el campo eléctrico se hace más fuerte cerca del denador, y el estrechamiento del canal también es más intenso en esta zona. Llega un momento en el que el canal se estrangula ($V_D = V_{Dsat}$), y entonces se dice que el drenador se ha saturado. En esta situación $I_D$ alcanza un valor de saturación, $I_{DSS}$, prácticamente constante aunque se varíe $V_D$.
+
+\subsubsection{Región de saturación}
+
+Si, una vez estrangulado el canal, se sigue aumentando $V_D$, la corriente de drenador alzanzada con $V_D$ será:
+
+\begin{equation}
+    I_{Dsat} = \frac{Z}{L} \mu_n C_O (V_G - V_T)^2 / 2
+\end{equation}
+
+que se mantendrá prácticamente constante, pese al aumento de $V_D$.
+
+La frecuencia de transición se define como aquella para la cual se cumple que $i_D (out) / i_G (in)$ es igual a uno en pequeña señal. Para valores de $v_D$ menores de $v_{Dsat}$ será:
+
+\begin{equation}
+    f_T = \frac{\mu_n V_D}{2 \pi L^2}
+\end{equation}
 
 \section{El MOSFET de SiC}
 
+Silicon carbide (SiC) MOSFET has become one of the new wide badgap devices which is promising to substitute silicon (Si) devices in the high voltage, high-speed applications due to its higher breakdown voltage, lower on-state resistance, and better high-temperature operation capability. \cite{5316106}
+
+
 \section{Módulos Inteligentes de Potencia (IPM)}
+
+By integrating power semiconductor devices, gate drivers, and auxiliary functionalities such as current sensing, juntion-temperature monitoring, and fault diagnosis withing a single packaging, IPMs reduce peripheral circuit complexity, improve usability and reliability, and facilitate compact, intelligent power converter designs. \cite{11630585}
+
