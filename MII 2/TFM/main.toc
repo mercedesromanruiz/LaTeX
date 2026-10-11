@@ -6,12 +6,12 @@
 \contentsline {chapter}{\numberline {2}Estado del Arte}{9}{}%
 \contentsline {section}{\numberline {2.1}Evolución de los Inversores}{9}{}%
 \contentsline {section}{\numberline {2.2}Tecnologías de Semiconductores}{10}{}%
-\contentsline {subsection}{\numberline {2.2.1}Transistor MOSFET}{11}{}%
-\contentsline {subsubsection}{Región de corte}{11}{}%
+\contentsline {subsection}{\numberline {2.2.1}Transistor MOSFET}{10}{}%
+\contentsline {subsubsection}{Región de corte}{12}{}%
 \contentsline {subsubsection}{Región lineal}{12}{}%
 \contentsline {subsubsection}{Región de saturación}{12}{}%
 \contentsline {section}{\numberline {2.3}El MOSFET de SiC}{12}{}%
-\contentsline {section}{\numberline {2.4}Módulos Inteligentes de Potencia (IPM)}{13}{}%
+\contentsline {section}{\numberline {2.4}Módulos Inteligentes de Potencia (IPM)}{14}{}%
 \contentsline {chapter}{\numberline {3}Entorno de Simulación y Objeto de Estudio}{15}{}%
 \contentsline {section}{\numberline {3.1}1200 V CoolSiC MOSFET}{15}{}%
 \contentsline {section}{\numberline {3.2}Especificaciones y parámetros del Módulo IM828-XCC}{16}{}%

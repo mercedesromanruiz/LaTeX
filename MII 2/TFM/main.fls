@@ -296,6 +296,11 @@ INPUT ./Imagenes/MOSFET Canal N Esquema.png
 INPUT ./Imagenes/MOSFET Canal N Esquema.png
 INPUT ./Imagenes/MOSFET Canal N Esquema.png
 INPUT ./Imagenes/MOSFET Canal N Esquema.png
+INPUT ./Imagenes/WBG semiconductor applications.jpg
+INPUT ./Imagenes/WBG semiconductor applications.jpg
+INPUT ./Imagenes/WBG semiconductor applications.jpg
+INPUT ./Imagenes/WBG semiconductor applications.jpg
+INPUT ./Imagenes/WBG semiconductor applications.jpg
 INPUT ./Capitulos/Capitulo 3 - Entorno de Simulación y Objeto de Estudio.tex
 INPUT ./Capitulos/Capitulo 3 - Entorno de Simulación y Objeto de Estudio.tex
 INPUT Capitulos/Capitulo 3 - Entorno de Simulación y Objeto de Estudio.tex
@@ -324,9 +329,6 @@ INPUT ./Documentos/Bibliografia.tex
 INPUT Documentos/Bibliografia.tex
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/jknappen/ec/tcti1200.tfm
-INPUT ./Documentos/Apendices.tex
-INPUT ./Documentos/Apendices.tex
-INPUT Documentos/Apendices.tex
 INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT main.aux
 INPUT ./Documentos/Indices.aux

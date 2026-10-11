@@ -59,50 +59,42 @@
       \field{title}{Tecnología electrónica: materiales y técnicas de fabricación}
       \field{year}{2002}
     \endentry
-    \entry{5316106}{inproceedings}{}{}
-      \name{author}{4}{}{%
-        {{hash=05694d0c858ee219eae7bb764b27b7f6}{%
+    \entry{10089509}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=952aaac66e4b677a62107a592a90d034}{%
            family={Chen},
            familyi={C\bibinitperiod},
-           given={Zheng},
+           given={Zibo},
            giveni={Z\bibinitperiod}}}%
-        {{hash=68cf3f104d068cc00ec8c7dae4d239ca}{%
-           family={Boroyevich},
-           familyi={B\bibinitperiod},
-           given={Dushan},
-           giveni={D\bibinitperiod}}}%
-        {{hash=10d752372f3676e6676976263a6d1e6b}{%
-           family={Burgos},
-           familyi={B\bibinitperiod},
-           given={Rolando},
-           giveni={R\bibinitperiod}}}%
-        {{hash=2978d68bc76fa357e581aaebe7de7933}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Fred},
-           giveni={F\bibinitperiod}}}%
+        {{hash=09a39827f2dedcd73b65820f467d8e6d}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Alex\bibnamedelima Q.},
+           giveni={A\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
       }
-      \strng{namehash}{ad748450552a4328a746e7cd7653ae70}
-      \strng{fullhash}{5b3d40cd74388a8912a8e842068a70b0}
-      \strng{fullhashraw}{5b3d40cd74388a8912a8e842068a70b0}
-      \strng{bibnamehash}{ad748450552a4328a746e7cd7653ae70}
-      \strng{authorbibnamehash}{ad748450552a4328a746e7cd7653ae70}
-      \strng{authornamehash}{ad748450552a4328a746e7cd7653ae70}
-      \strng{authorfullhash}{5b3d40cd74388a8912a8e842068a70b0}
-      \strng{authorfullhashraw}{5b3d40cd74388a8912a8e842068a70b0}
+      \strng{namehash}{7a8de14c7c5e481dbf03e4233ae65b4b}
+      \strng{fullhash}{7a8de14c7c5e481dbf03e4233ae65b4b}
+      \strng{fullhashraw}{7a8de14c7c5e481dbf03e4233ae65b4b}
+      \strng{bibnamehash}{7a8de14c7c5e481dbf03e4233ae65b4b}
+      \strng{authorbibnamehash}{7a8de14c7c5e481dbf03e4233ae65b4b}
+      \strng{authornamehash}{7a8de14c7c5e481dbf03e4233ae65b4b}
+      \strng{authorfullhash}{7a8de14c7c5e481dbf03e4233ae65b4b}
+      \strng{authorfullhashraw}{7a8de14c7c5e481dbf03e4233ae65b4b}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2009 IEEE Energy Conversion Congress and Exposition}
-      \field{title}{Characterization and modeling of 1.2 kv, 20 A SiC MOSFETs}
-      \field{year}{2009}
-      \field{pages}{1480\bibrangedash 1487}
-      \range{pages}{8}
+      \field{journaltitle}{IEEE Transactions on Power Electronics}
+      \field{number}{8}
+      \field{title}{High Performance SiC Power Module Based on Repackaging of Discrete SiC Devices}
+      \field{volume}{38}
+      \field{year}{2023}
+      \field{pages}{9306\bibrangedash 9310}
+      \range{pages}{5}
       \verb{doi}
-      \verb 10.1109/ECCE.2009.5316106
+      \verb 10.1109/TPEL.2023.3263466
       \endverb
-      \keyw{Silicon carbide;MOSFETs;Temperature;Circuit testing;Leakage current;Diodes;Packaging;Immune system;Power system modeling;Capacitance;Silicon carbide;power MOSFET;modeling}
+      \keyw{Silicon carbide;Multichip modules;Inductance;Packaging;Capacitors;Switches;Costs;Discrete SiC device;intelligent power module;packaging;SiC power module}
     \endentry
     \entry{Data2024}{misc}{}{}
       \name{author}{1}{}{%
@@ -203,6 +195,7 @@
       \strng{authornamehash}{1308e00203bb74e8f06b2db67fbc380e}
       \strng{authorfullhash}{1bf2065bc6b448a8adfbe1ed6fb6676a}
       \strng{authorfullhashraw}{1bf2065bc6b448a8adfbe1ed6fb6676a}
+      \field{extraname}{1}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
@@ -215,6 +208,52 @@
       \verb{doi}
       \verb 10.30420/566583024
       \endverb
+    \endentry
+    \entry{8507961}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=25a149376bf42f50c6f714272a37847a}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Minsub},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5cec8a420d7c6f4c065c1e192ec0f80e}{%
+           family={Baek},
+           familyi={B\bibinitperiod},
+           given={Miran},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f75fc4080a29c8b6dbac8907ac1a4313}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Junbae},
+           giveni={J\bibinitperiod}}}%
+        {{hash=742bd03d75eb45a80e891ecc2c641ad5}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Daewoong},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{902e614421d3c39569ec8a524b7d1e3d}
+      \strng{fullhash}{c2d7d0d31a4f1c8361bcc74a9ef7ed46}
+      \strng{fullhashraw}{c2d7d0d31a4f1c8361bcc74a9ef7ed46}
+      \strng{bibnamehash}{902e614421d3c39569ec8a524b7d1e3d}
+      \strng{authorbibnamehash}{902e614421d3c39569ec8a524b7d1e3d}
+      \strng{authornamehash}{902e614421d3c39569ec8a524b7d1e3d}
+      \strng{authorfullhash}{c2d7d0d31a4f1c8361bcc74a9ef7ed46}
+      \strng{authorfullhashraw}{c2d7d0d31a4f1c8361bcc74a9ef7ed46}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 International Power Electronics Conference (IPEC-Niigata 2018 -ECCE Asia)}
+      \field{title}{A New Smallest 1200V Intelligent Power Module for Three Phase Motor Drives}
+      \field{year}{2018}
+      \field{pages}{1141\bibrangedash 1144}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.23919/IPEC.2018.8507961
+      \endverb
+      \keyw{Pins;Circuit faults;Gate drivers;Integrated circuits;Temperature measurement;Inverters;Space vector pulse width modulation;Infineon;CIPOS™;IPM;Three phase Motor drives;Inverter}
     \endentry
     \entry{11630585}{article}{}{}
       \name{author}{7}{}{%
@@ -352,6 +391,107 @@
       \verb 10.1109/OJIES.2024.3371985
       \endverb
       \keyw{Inverters;Power system stability;Synchronous generators;Stability analysis;Impedance;Frequency control;Voltage control;Power grids;Grid forming;Droop control;grid disturbance;grid-forming inverters (GFMIs);small signal;stability analysis;strong grid;virtual synchronous generator (VSG);weak grid}
+    \endentry
+    \entry{11648147}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f5f3cacfd4317f2f2053423ad235c623}{%
+           family={Zarbil},
+           familyi={Z\bibinitperiod},
+           given={Mohammad\bibnamedelima Shadnam},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=488683505c8e4d47b3f356c16612c596}{%
+           family={Patra},
+           familyi={P\bibinitperiod},
+           given={Sandipan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2d75126fdbb28e21737a0fe977a7f582}{%
+           family={Khadem},
+           familyi={K\bibinitperiod},
+           given={Shafi},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{85a3ad4fe73974bf53fbf9aac2e7aba2}
+      \strng{fullhash}{85a3ad4fe73974bf53fbf9aac2e7aba2}
+      \strng{fullhashraw}{85a3ad4fe73974bf53fbf9aac2e7aba2}
+      \strng{bibnamehash}{85a3ad4fe73974bf53fbf9aac2e7aba2}
+      \strng{authorbibnamehash}{85a3ad4fe73974bf53fbf9aac2e7aba2}
+      \strng{authornamehash}{85a3ad4fe73974bf53fbf9aac2e7aba2}
+      \strng{authorfullhash}{85a3ad4fe73974bf53fbf9aac2e7aba2}
+      \strng{authorfullhashraw}{85a3ad4fe73974bf53fbf9aac2e7aba2}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Wide-Bandgap Power Electronics for Next-Generation EV Fast Charging: A Review From Device Physics to System-Level Architectures, Performance, and Challenges}
+      \field{volume}{14}
+      \field{year}{2026}
+      \field{pages}{128917\bibrangedash 128946}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2026.3722781
+      \endverb
+      \keyw{Silicon carbide;Switches;Converters;Generative adversarial networks;Fast charging;Silicon;Topology;Reviews;Current;Electric vehicle charging;Electric vehicle;fast charging;wide band-gap devices;power electronics converter;high power-high efficiency}
+    \endentry
+    \entry{10567643}{inproceedings}{}{}
+      \name{author}{7}{}{%
+        {{hash=fcdb4c7704baa79893b29d652aecc77f}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=1b3e08beb27ce5428c627f3510b4e0e5}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Shuang},
+           giveni={S\bibinitperiod}}}%
+        {{hash=847054c4727f2e705b77fc57fafeec01}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Siyuan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=22844d6d74c71710e13629ef285a9604}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Zhiqing},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=15a649d7d54f366dc356f96e4b27f42f}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Nan},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e1cd0c524a0ad01a0602ecfc89788b8e}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Shaolin},
+           giveni={S\bibinitperiod}}}%
+        {{hash=126e1019413ef3f8787cbd33bd330389}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Lijian},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc2231f638bf9e15f5f05a52530a5365}
+      \strng{fullhash}{12fab450592780bee7bd576a0663a5d4}
+      \strng{fullhashraw}{12fab450592780bee7bd576a0663a5d4}
+      \strng{bibnamehash}{dc2231f638bf9e15f5f05a52530a5365}
+      \strng{authorbibnamehash}{dc2231f638bf9e15f5f05a52530a5365}
+      \strng{authornamehash}{dc2231f638bf9e15f5f05a52530a5365}
+      \strng{authorfullhash}{12fab450592780bee7bd576a0663a5d4}
+      \strng{authorfullhashraw}{12fab450592780bee7bd576a0663a5d4}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2024 IEEE 10th International Power Electronics and Motion Control Conference (IPEMC2024-ECCE Asia)}
+      \field{title}{The High-Voltage Intelligent Power Module with Series-Connected Silicon Carbide MOSFETs}
+      \field{year}{2024}
+      \field{pages}{2236\bibrangedash 2241}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IPEMC-ECCEAsia60879.2024.10567643
+      \endverb
+      \keyw{MOSFET;Costs;Silicon carbide;Multichip modules;Switches;High-voltage techniques;Logic gates;gate driver;Power Module;Series-Connected}
     \endentry
   \enddatalist
 \endrefsection

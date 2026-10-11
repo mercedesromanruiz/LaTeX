@@ -1,16 +1,16 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[168] biber-MSWIN64:342> INFO - === 
-[249] Biber.pm:421> INFO - Reading 'main.bcf'
-[423] Biber.pm:1002> INFO - Found 8 citekeys in bib section 0
-[440] Biber.pm:4487> INFO - Processing section 0
-[454] Biber.pm:4678> INFO - Looking for bibtex file 'bibliografia.bib' for section 0
-[499] bibtex.pm:1713> INFO - LaTeX decoding ...
-[513] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografia.bib'
-[612] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[612] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[612] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
-[625] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[632] bbl.pm:779> INFO - Output to main.bbl
-[632] Biber.pm:132> WARN - Duplicate entry key: '11630585' in file 'bibliografia.bib', skipping ...
-[632] Biber.pm:134> INFO - WARNINGS: 1
+[111] biber-MSWIN64:342> INFO - === 
+[154] Biber.pm:421> INFO - Reading 'main.bcf'
+[270] Biber.pm:1002> INFO - Found 11 citekeys in bib section 0
+[284] Biber.pm:4487> INFO - Processing section 0
+[295] Biber.pm:4678> INFO - Looking for bibtex file 'bibliografia.bib' for section 0
+[368] bibtex.pm:1713> INFO - LaTeX decoding ...
+[395] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografia.bib'
+[501] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[501] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[501] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[517] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[524] bbl.pm:779> INFO - Output to main.bbl
+[524] Biber.pm:132> WARN - Duplicate entry key: '11630585' in file 'bibliografia.bib', skipping ...
+[525] Biber.pm:134> INFO - WARNINGS: 1
