@@ -218,29 +218,7 @@ INPUT Documentos/Resumen.tex
 INPUT ./Documentos/Agradecimientos.tex
 INPUT ./Documentos/Agradecimientos.tex
 INPUT Documentos/Agradecimientos.tex
-INPUT ./Documentos/Terminos.tex
-INPUT ./Documentos/Terminos.tex
-INPUT Documentos/Terminos.tex
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT ./Documentos/Acronimos.tex
-INPUT ./Documentos/Acronimos.tex
-INPUT Documentos/Acronimos.tex
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
-OUTPUT main.pdf
-INPUT c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT ./Documentos/Indices.tex
-INPUT ./Documentos/Indices.tex
-OUTPUT Documentos/Indices.aux
-INPUT ./Documentos/Indices.tex
-INPUT ./Documentos/Indices.tex
-INPUT Documentos/Indices.tex
-INPUT ./main.toc
-INPUT ./main.toc
-INPUT main.toc
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -252,6 +230,29 @@ INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+OUTPUT main.pdf
+INPUT c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./Documentos/Terminos.tex
+INPUT ./Documentos/Terminos.tex
+INPUT Documentos/Terminos.tex
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./Documentos/Acronimos.tex
+INPUT ./Documentos/Acronimos.tex
+INPUT Documentos/Acronimos.tex
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ./Documentos/Indices.tex
+INPUT ./Documentos/Indices.tex
+OUTPUT Documentos/Indices.aux
+INPUT ./Documentos/Indices.tex
+INPUT ./Documentos/Indices.tex
+INPUT Documentos/Indices.tex
+INPUT ./main.toc
+INPUT ./main.toc
+INPUT main.toc
 OUTPUT main.toc
 INPUT ./main.lof
 INPUT ./main.lof
@@ -283,7 +284,6 @@ INPUT ./Imagenes/car-sales.png
 INPUT ./Capitulos/Capitulo 2 - Estado del Arte.tex
 INPUT ./Capitulos/Capitulo 2 - Estado del Arte.tex
 INPUT Capitulos/Capitulo 2 - Estado del Arte.tex
-INPUT c:/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT ./Imagenes/Distribucion de bandas de energia en los solidos.png
 INPUT ./Imagenes/Distribucion de bandas de energia en los solidos.png
 INPUT ./Imagenes/Distribucion de bandas de energia en los solidos.png
@@ -309,12 +309,27 @@ INPUT ./Imagenes/Solutions using 1200 V CoolSiC MOSFET.png
 INPUT ./Imagenes/Solutions using 1200 V CoolSiC MOSFET.png
 INPUT ./Imagenes/Solutions using 1200 V CoolSiC MOSFET.png
 INPUT ./Imagenes/Solutions using 1200 V CoolSiC MOSFET.png
+INPUT ./Imagenes/IM828-XCC Internal Electrical Schematic.png
+INPUT ./Imagenes/IM828-XCC Internal Electrical Schematic.png
+INPUT ./Imagenes/IM828-XCC Internal Electrical Schematic.png
+INPUT ./Imagenes/IM828-XCC Internal Electrical Schematic.png
+INPUT ./Imagenes/IM828-XCC Internal Electrical Schematic.png
 INPUT ./Capitulos/Capitulo 4 - Modelado del MOSFET de SiC en Simulink.tex
 INPUT ./Capitulos/Capitulo 4 - Modelado del MOSFET de SiC en Simulink.tex
 INPUT Capitulos/Capitulo 4 - Modelado del MOSFET de SiC en Simulink.tex
 INPUT ./Capitulos/Capitulo 5 - Validación y Comparativa de Resultados.tex
 INPUT ./Capitulos/Capitulo 5 - Validación y Comparativa de Resultados.tex
 INPUT Capitulos/Capitulo 5 - Validación y Comparativa de Resultados.tex
+INPUT ./Imagenes/Validacion Estatica Mejorada - R_DS(on) frente a T_j.png
+INPUT ./Imagenes/Validacion Estatica Mejorada - R_DS(on) frente a T_j.png
+INPUT ./Imagenes/Validacion Estatica Mejorada - R_DS(on) frente a T_j.png
+INPUT ./Imagenes/Validacion Estatica Mejorada - R_DS(on) frente a T_j.png
+INPUT ./Imagenes/Validacion Estatica Mejorada - R_DS(on) frente a T_j.png
+INPUT ./Imagenes/Validacion Estatica Mejorada - Typical transfer characteristics (VDS = 20).png
+INPUT ./Imagenes/Validacion Estatica Mejorada - Typical transfer characteristics (VDS = 20).png
+INPUT ./Imagenes/Validacion Estatica Mejorada - Typical transfer characteristics (VDS = 20).png
+INPUT ./Imagenes/Validacion Estatica Mejorada - Typical transfer characteristics (VDS = 20).png
+INPUT ./Imagenes/Validacion Estatica Mejorada - Typical transfer characteristics (VDS = 20).png
 INPUT ./Capitulos/Capitulo 6 - Responsabilidad Profesional y Sostenibilidad.tex
 INPUT ./Capitulos/Capitulo 6 - Responsabilidad Profesional y Sostenibilidad.tex
 INPUT Capitulos/Capitulo 6 - Responsabilidad Profesional y Sostenibilidad.tex

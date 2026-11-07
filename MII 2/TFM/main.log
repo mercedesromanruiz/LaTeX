@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.23)  11 OCT 2026 11:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.7.23)  7 NOV 2026 09:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -720,37 +720,24 @@ Package biblatex Info: ... file 'main.bbl' found.
 Package biblatex Info: Reference section=0 on input line 6.
 Package biblatex Info: Reference segment=0 on input line 6.
 Package babel Info: Main language set to 'spanish'.
- (./Documentos/DeclaracionOriginalidad.tex) (./Documentos/Resumen.tex) (./Documentos/Agradecimientos.tex) (./Documentos/Terminos.tex
+ (./Documentos/DeclaracionOriginalidad.tex) (./Documentos/Resumen.tex) (./Documentos/Agradecimientos.tex
+Overfull \hbox (30.0pt too wide) in paragraph at lines 5--14
+[][] 
+ []
+
+[1
+
+
+{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 2.
+(Font)              size <20.74> substituted on input line 21.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 2.
+(Font)              size <20.74> substituted on input line 21.
 
-) (./Documentos/Acronimos.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[1{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[2
-
-])
+[2]) (./Documentos/Terminos.tex) (./Documentos/Acronimos.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -767,6 +754,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4
+
+])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6
 
 ]
 \openout2 = `Documentos/Indices.aux'.
@@ -868,12 +873,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Cap\'{\i }tulo 1.
-<Imagenes/electricity-mix.png, id=37, 3412.75pt x 2959.055pt>
+<Imagenes/electricity-mix.png, id=44, 3412.75pt x 2959.055pt>
 File: Imagenes/electricity-mix.png Graphic file (type png)
 <use Imagenes/electricity-mix.png>
 Package pdftex.def Info: Imagenes/electricity-mix.png  used on input line 9.
 (pdftex.def)             Requested size: 204.85846pt x 177.5808pt.
-<Imagenes/car-sales.png, id=39, 3412.75pt x 2409.0pt>
+<Imagenes/car-sales.png, id=46, 3412.75pt x 2409.0pt>
 File: Imagenes/car-sales.png Graphic file (type png)
 <use Imagenes/car-sales.png>
 Package pdftex.def Info: Imagenes/car-sales.png  used on input line 15.
@@ -913,7 +918,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [9
 
 ]
-<Imagenes/Distribucion de bandas de energia en los solidos.png, id=54, 708.39656pt x 350.81062pt>
+<Imagenes/Distribucion de bandas de energia en los solidos.png, id=60, 708.39656pt x 350.81062pt>
 File: Imagenes/Distribucion de bandas de energia en los solidos.png Graphic file (type png)
 <use Imagenes/Distribucion de bandas de energia en los solidos.png>
 Package pdftex.def Info: Imagenes/Distribucion de bandas de energia en los solidos.png  used on input line 29.
@@ -929,7 +934,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10]
-<Imagenes/MOSFET Canal N Esquema.png, id=58, 548.0475pt x 436.63126pt>
+<Imagenes/MOSFET Canal N Esquema.png, id=64, 548.0475pt x 436.63126pt>
 File: Imagenes/MOSFET Canal N Esquema.png Graphic file (type png)
 <use Imagenes/MOSFET Canal N Esquema.png>
 Package pdftex.def Info: Imagenes/MOSFET Canal N Esquema.png  used on input line 53.
@@ -954,7 +959,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12]
-<Imagenes/WBG semiconductor applications.jpg, id=74, 2330.7075pt x 1830.84pt>
+<Imagenes/WBG semiconductor applications.jpg, id=80, 2330.7075pt x 1830.84pt>
 File: Imagenes/WBG semiconductor applications.jpg Graphic file (type jpg)
 <use Imagenes/WBG semiconductor applications.jpg>
 Package pdftex.def Info: Imagenes/WBG semiconductor applications.jpg  used on input line 106.
@@ -983,13 +988,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [14]
 Cap\'{\i }tulo 3.
-<Imagenes/Solutions using 1200 V CoolSiC MOSFET.png, id=81, 946.28531pt x 220.57407pt>
+<Imagenes/Solutions using 1200 V CoolSiC MOSFET.png, id=88, 946.28531pt x 220.57407pt>
 File: Imagenes/Solutions using 1200 V CoolSiC MOSFET.png Graphic file (type png)
 <use Imagenes/Solutions using 1200 V CoolSiC MOSFET.png>
 Package pdftex.def Info: Imagenes/Solutions using 1200 V CoolSiC MOSFET.png  used on input line 16.
 (pdftex.def)             Requested size: 341.43307pt x 79.58498pt.
+<Imagenes/IM828-XCC Internal Electrical Schematic.png, id=89, 496.85625pt x 529.22719pt>
+File: Imagenes/IM828-XCC Internal Electrical Schematic.png Graphic file (type png)
+<use Imagenes/IM828-XCC Internal Electrical Schematic.png>
+Package pdftex.def Info: Imagenes/IM828-XCC Internal Electrical Schematic.png  used on input line 23.
+(pdftex.def)             Requested size: 341.43307pt x 363.68129pt.
 
-Overfull \hbox (2.4297pt too wide) in paragraph at lines 22--22
+Overfull \hbox (2.4297pt too wide) in paragraph at lines 29--29
 |[]\OT1/cmr/bx/n/17.28 Especificaciones y par^^Same-tros del M^^Sodu-lo IM828-
  []
 
@@ -1017,7 +1027,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16]
+[16 <./Imagenes/IM828-XCC Internal Electrical Schematic.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18
+
+]
 Cap\'{\i }tulo 4.
 
 Overfull \hbox (16.25522pt too wide) in alignment at lines 15--22
@@ -1111,9 +1142,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[17
-
-]
+[19]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1121,7 +1150,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18]
+[20]
 Overfull \hbox (3.02629pt too wide) in paragraph at lines 71--71
 []|\OT1/cmr/bx/n/12 Dispositivo| 
  []
@@ -1207,29 +1236,6 @@ Overfull \hbox (15.85626pt too wide) in alignment at lines 73--91
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[19]
-LaTeX Info: Redefining \. on input line 128.
-LaTeX Info: Redefining \% on input line 128.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[20]) (./Capitulos/Capitulo 5 - Validación y Comparativa de Resultados.tex
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
@@ -1237,6 +1243,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [21]
+
+LaTeX Warning: Reference `anexo: tratamiento datos' on page 22 undefined on input line 111.
+
+
+LaTeX Warning: Reference `figure: Block Parameters: N-Channel MOSFET' on page 22 undefined on input line 111.
+
+) (./Capitulos/Capitulo 5 - Validación y Comparativa de Resultados.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
@@ -1247,11 +1262,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22
-
-]
-Cap\'{\i }tulo 5.
-) (./Capitulos/Capitulo 6 - Responsabilidad Profesional y Sostenibilidad.tex
+[22]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1260,6 +1271,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [23]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1270,6 +1284,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [24
 
 ]
+Cap\'{\i }tulo 5.
+<Imagenes/Validacion Estatica Mejorada - R_DS(on) frente a T_j.png, id=123, 452.892pt x 328.5876pt>
+File: Imagenes/Validacion Estatica Mejorada - R_DS(on) frente a T_j.png Graphic file (type png)
+<use Imagenes/Validacion Estatica Mejorada - R_DS(on) frente a T_j.png>
+Package pdftex.def Info: Imagenes/Validacion Estatica Mejorada - R_DS(on) frente a T_j.png  used on input line 5.
+(pdftex.def)             Requested size: 341.43307pt x 247.72864pt.
+<Imagenes/Validacion Estatica Mejorada - Typical transfer characteristics (VDS = 20).png, id=124, 444.7014pt x 325.6968pt>
+File: Imagenes/Validacion Estatica Mejorada - Typical transfer characteristics (VDS = 20).png Graphic file (type png)
+<use Imagenes/Validacion Estatica Mejorada - Typical transfer characteristics (VDS = 20).png>
+Package pdftex.def Info: Imagenes/Validacion Estatica Mejorada - Typical transfer characteristics (VDS = 20).png  used on input line 12.
+(pdftex.def)             Requested size: 341.43307pt x 250.0667pt.
+) (./Capitulos/Capitulo 6 - Responsabilidad Profesional y Sostenibilidad.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26 <./Imagenes/Validacion Estatica Mejorada - R_DS(on) frente a T_j.png (PNG copy)> <./Imagenes/Validacion Estatica Mejorada - Typical transfer characteristics (VDS = 20).png (PNG copy)>]
 Cap\'{\i }tulo 6.
 ) (./Capitulos/Capitulo 7 - Gestión del Proyecto.tex
 
@@ -1279,30 +1321,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25]
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[26
+[27
 
 ]
-Cap\'{\i }tulo 7.
-) (./Capitulos/Capitulo 8 - Conclusiones y Líneas Futuras.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[27]
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
@@ -1316,8 +1337,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [28
 
 ]
-Cap\'{\i }tulo 8.
-))
+Cap\'{\i }tulo 7.
+) (./Capitulos/Capitulo 8 - Conclusiones y Líneas Futuras.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1325,7 +1346,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[29] (./Documentos/Bibliografia.tex)
+[29]
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1336,34 +1360,52 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [30
 
 ]
+Cap\'{\i }tulo 8.
+))
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[31] (./Documentos/Bibliografia.tex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[32
+
+]
 Overfull \hbox (13.23245pt too wide) in paragraph at lines 22--22
 []\OT1/cmr/m/n/12 MathWorks. \OT1/cmr/m/it/12 Choo-se Blocks to Mo-del Se-mi-con-duc-tor De-vi-ces\OT1/cmr/m/n/12 . $\OT1/cmtt/m/n/12 https : / / es . mathworks .
  []
 
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33{c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 Overfull \hbox (11.3783pt too wide) in paragraph at lines 22--22
 []\OT1/cmr/m/n/12 Zheng Zhang et al. ``The High-Voltage In-te-lli-gent Po-wer Mo-du-le with Series-Connected
  []
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[31{c:/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[32] (./main.aux
+[34] (./main.aux
 LaTeX Info: Redefining \sptext on input line 11.
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
@@ -1378,6 +1420,9 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.74pt have occurred.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1385,18 +1430,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18449 strings out of 467168
- 339443 string characters out of 5413705
- 1296849 words of memory out of 5000000
- 47425 multiletter control sequences out of 15000+600000
+ 18479 strings out of 467168
+ 341632 string characters out of 5413705
+ 1297250 words of memory out of 5000000
+ 47455 multiletter control sequences out of 15000+600000
  635355 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  88i,12n,134p,1328b,3157s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (36 pages, 2716189 bytes).
+Output written on main.pdf (40 pages, 2869794 bytes).
 PDF statistics:
- 203 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
+ 222 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

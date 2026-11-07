@@ -2399,6 +2399,10 @@
     <bcf:citekey order="31" intorder="1">mathworks_choose_semiconductor</bcf:citekey>
     <bcf:citekey order="32" intorder="1">mathworks_choose_semiconductor</bcf:citekey>
     <bcf:citekey order="33" intorder="1">mathworks_choose_semiconductor</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">MathWorks_NChannelMOSFET</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">MathWorks_NChannelMOSFET</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">infineonAN2017-46</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">MathWorks_GraphDataExtractor</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

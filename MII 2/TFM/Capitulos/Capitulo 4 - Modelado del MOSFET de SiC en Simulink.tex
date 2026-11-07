@@ -90,43 +90,26 @@ Para el dispositivo estudiado en este proyecto, el MOSFET de SiC, se pueden eleg
     \hline
 \end{longtable}
 
-\section{MOSFET (Ideal, Switching)}
-
-\section{Half-Bridge (Ideal, Switching)}
+\section{MOSFET (Ideal, Switching) with Thermal Port}
 
 \section{N-Channel MOSFET}
 
-The N-Channel MOSFET block provides two main modeling options:
+Uno de los modelos desarrollados para el MOSFET de SiC se basa en el bloque \textit{N-Channel MOSFET} de la librería \textit{Semiconductors \& Converters} de Simscape Electrical~\cite{MathWorks_NChannelMOSFET}. Este bloque ofrece dos opciones principales de modelado. La primera emplea la ecuación de Shichman-Hodges para representar el dispositivo. Este enfoque, basado en la tensión umbral, presenta la ventaja de una parametrización y unas expresiones corriente-tensión sencillas, aunque tiene dificultades para reproducir con precisión las transiciones en torno a la tensión umbral y no incluye algunos efectos importantes, como la saturación de velocidad. La segunda emplea la ecuación del potencial de superficie para representar el dispositivo, a cambio de requerir la extracción de un mayor número de parámetros. Ambas opciones pueden combinarse con un puerto térmico, que permite simular los efectos del calor generado y de la temperatura del dispositivo, por lo que el bloque ofrece cuatro variantes de modelado.
 
-Based on threshold voltage — Uses the Shichman-Hodges equation to represent the device. This modeling approach, based on threshold voltage, has the benefits of simple parameterization and simple current-voltage expressions. However, these models have difficulty in accurately capturing transitions across the threshold voltage and lack some important effects, such as velocity saturation. For details, see Threshold-Based Model.
+El modelo basado en la tensión umbral admite cuatro formas de parametrización: a partir de los datos de la hoja de datos, mediante los parámetros de sus ecuaciones, mediante una tabla de búsqueda bidimensional, en la que la corriente de drenador se tabula en función de las tensiones puerta-fuente y drenador-fuente, o mediante una tabla de búsqueda tridimensional, que incluye además la temperatura.
 
-This modeling option provides four ways of parameterizing an N-Channel MOSFET:
+Las capacidades del dispositivo se definen mediante un modelo de carga, en el que pueden introducirse como valores constantes o tabuladas en función de la tensión drenador-fuente a partir de las gráficas de la hoja de datos. Estas capacidades se relacionan con las capacidades de entrada ($C_{iss}$), de salida ($C_{oss}$) y de transferencia inversa ($C_{rss}$) mediante las siguientes expresiones:
 
-\begin{itemize}
-    \item By specifying parameters from a datasheet.
-    \item By specifying equation parameters directly.
-    \item By a 2-D lookup table approximation to the I-V (current-voltage) curve. For details, see Representation by 2-D Lookup Table.
-    \item By a 3-D lookup table approximation to the I-V (current-voltage) curve that includes temperature data. For details, see Representation by 3-D Lookup Table.
-\end{itemize}
+\begin{equation}
+    C_{GD} = C_{rss}, \qquad C_{GS} = C_{iss} - C_{rss}, \qquad C_{DS} = C_{oss} - C_{rss}
+\end{equation}
 
-Based on surface potential — Uses the surface-potential equation to represent the device. This modeling approach provides a greater level of model fidelity than the simple square-law (threshold-voltage-based) models can provide. The tradeoff is that there are more parameters that require extraction. For details, see Surface-Potential-Based Model.
+Por último, el bloque modela el diodo de cuerpo como un diodo exponencial ideal o como un diodo tabulado. En la opción tabulada, el diodo se define mediante su curva tensión-corriente en polarización directa. El bloque calcula la corriente interpolando entre los puntos de la tabla y, fuera del rango de esta, la prolonga linealmente a partir del último punto. Además, permite especificar una conductancia en estado de bloqueo, aunque no modela la ruptura inversa~\cite{MathWorks_NChannelMOSFET}.
 
-Together with the thermal port options (see Thermal Port), the block therefore provides you with four choices. To select the desired option, set the Modeling option parameter to either:
+Los datos necesarios para parametrizar el bloque se han obtenido de las curvas características que proporciona el fabricante en la nota de aplicación~\cite{infineonAN2017-46}. Las características de salida definen la corriente de drenador, las curvas de capacidad el modelo de carga y las curvas de corriente inversa el diodo de cuerpo. Para este último se ha empleado la curva correspondiente a $V_{GS} = 0$~V, ya que el diodo de cuerpo solo conduce con el MOSFET apagado y esta es la tensión de apagado del dispositivo.
 
-\begin{itemize}
-    \item Threshold-based — Basic model, which represents the device using the Shichman-Hodges equation (based on threshold voltage) and does not simulate thermal effects. This is the default.
-    \item Threshold-based with thermal — Model based on threshold voltage and with exposed thermal port.
-    \item Surface-potential-based — Model based on surface potential. This model does not simulate thermal effects.
-    \item Surface-potential-based with thermal — Thermal modeling option of the model based on surface potential.
-\end{itemize}
+La extracción de los datos se ha realizado con la aplicación \textit{Graph Data Extractor}, introducida en Simscape en la versión R2024a~\cite{MathWorks_GraphDataExtractor}. Esta herramienta permite calibrar los ejes de una gráfica de la hoja de datos, seleccionar y editar los puntos de cada curva y exportarlos como archivos de datos de MATLAB. Los puntos se han exportado en formato \textit{Scattered}, en el que cada curva conserva sus propios pares de valores de abscisa y ordenada, sin interpolarlos sobre una rejilla común. Después, estos datos se han tratado en MATLAB para darles el formato tabulado que requiere el bloque. El código empleado se recoge en el Anexo~\ref{anexo: tratamiento datos}. La Figura~\ref{figure: Block Parameters: N-Channel MOSFET} muestra los parámetros del bloque una vez introducidos los datos obtenidos.
 
 \section{SPICE NMOS}
 
 \subsection{Infineon SPICE MOSFET model}
-
-SPICE ("Simulation Program with Integrated Circuit Emphasis") simulators are the most commonluúsed technology for analog circuit simulation. Therefore, as de-facto industrial standard, many semiconductor manufacturers develop SPICE models of their products to support circuit design. 
-
-Simscape from MathWorks provides a block diagram environment to model multi-domain systems, including electrical, mechanical, magnetic and thermal aspects. The accompanyng Simscape language expresses the underlying physics using differential equations, associated algebraic constraints, events, and mode charts.
-
-Simscape Electrical is able to import a targeted set of SPICE device models, such as MOSFETs, into equivalent Simscape language implementation.
-

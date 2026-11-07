@@ -14,21 +14,20 @@
 \contentsline {section}{\numberline {2.4}Módulos Inteligentes de Potencia (IPM)}{14}{}%
 \contentsline {chapter}{\numberline {3}Entorno de Simulación y Objeto de Estudio}{15}{}%
 \contentsline {section}{\numberline {3.1}1200 V CoolSiC MOSFET}{15}{}%
-\contentsline {section}{\numberline {3.2}Especificaciones y parámetros del Módulo IM828-XCC}{16}{}%
-\contentsline {section}{\numberline {3.3}Software de simulación: Simulink}{16}{}%
-\contentsline {chapter}{\numberline {4}Modelado del MOSFET de SiC en Simulink}{17}{}%
-\contentsline {section}{\numberline {4.1}MOSFET (Ideal, Switching)}{20}{}%
-\contentsline {section}{\numberline {4.2}Half-Bridge (Ideal, Switching)}{20}{}%
-\contentsline {section}{\numberline {4.3}N-Channel MOSFET}{20}{}%
-\contentsline {section}{\numberline {4.4}SPICE NMOS}{21}{}%
-\contentsline {subsection}{\numberline {4.4.1}Infineon SPICE MOSFET model}{21}{}%
-\contentsline {chapter}{\numberline {5}Validación y Comparativa de Resultados}{23}{}%
-\contentsline {chapter}{\numberline {6}Responsabilidad Profesional y Sostenibilidad}{25}{}%
-\contentsline {section}{\numberline {6.1}Evolución de impactos (social, económico y medioambiental)}{25}{}%
-\contentsline {section}{\numberline {6.2}Análisis de aspectos legales y éticos}{25}{}%
-\contentsline {section}{\numberline {6.3}Contribución a los Objetivos de Desarrollo Sostenible (ODS)}{25}{}%
-\contentsline {chapter}{\numberline {7}Gestión del Proyecto}{27}{}%
-\contentsline {section}{\numberline {7.1}Planificación temporal (Diagrama de Gantt)}{27}{}%
-\contentsline {section}{\numberline {7.2}Presupuesto y evaluación de costes de ingeniería}{27}{}%
-\contentsline {chapter}{\numberline {8}Conclusiones y Líneas Futuras}{29}{}%
-\contentsline {chapter}{Bibliografía}{30}{}%
+\contentsline {section}{\numberline {3.2}Especificaciones y parámetros del Módulo IM828-XCC}{17}{}%
+\contentsline {section}{\numberline {3.3}Software de simulación: Simulink}{17}{}%
+\contentsline {chapter}{\numberline {4}Modelado del MOSFET de SiC en Simulink}{19}{}%
+\contentsline {section}{\numberline {4.1}MOSFET (Ideal, Switching) with Thermal Port}{21}{}%
+\contentsline {section}{\numberline {4.2}N-Channel MOSFET}{21}{}%
+\contentsline {section}{\numberline {4.3}SPICE NMOS}{23}{}%
+\contentsline {subsection}{\numberline {4.3.1}Infineon SPICE MOSFET model}{23}{}%
+\contentsline {chapter}{\numberline {5}Validación y Comparativa de Resultados}{25}{}%
+\contentsline {chapter}{\numberline {6}Responsabilidad Profesional y Sostenibilidad}{27}{}%
+\contentsline {section}{\numberline {6.1}Evolución de impactos (social, económico y medioambiental)}{27}{}%
+\contentsline {section}{\numberline {6.2}Análisis de aspectos legales y éticos}{27}{}%
+\contentsline {section}{\numberline {6.3}Contribución a los Objetivos de Desarrollo Sostenible (ODS)}{27}{}%
+\contentsline {chapter}{\numberline {7}Gestión del Proyecto}{29}{}%
+\contentsline {section}{\numberline {7.1}Planificación temporal (Diagrama de Gantt)}{29}{}%
+\contentsline {section}{\numberline {7.2}Presupuesto y evaluación de costes de ingeniería}{29}{}%
+\contentsline {chapter}{\numberline {8}Conclusiones y Líneas Futuras}{31}{}%
+\contentsline {chapter}{Bibliografía}{32}{}%

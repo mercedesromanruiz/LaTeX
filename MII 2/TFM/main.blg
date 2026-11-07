@@ -1,16 +1,14 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[111] biber-MSWIN64:342> INFO - === 
-[154] Biber.pm:421> INFO - Reading 'main.bcf'
-[270] Biber.pm:1002> INFO - Found 11 citekeys in bib section 0
-[284] Biber.pm:4487> INFO - Processing section 0
-[295] Biber.pm:4678> INFO - Looking for bibtex file 'bibliografia.bib' for section 0
-[368] bibtex.pm:1713> INFO - LaTeX decoding ...
-[395] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografia.bib'
-[501] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[501] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[501] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
-[517] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[524] bbl.pm:779> INFO - Output to main.bbl
-[524] Biber.pm:132> WARN - Duplicate entry key: '11630585' in file 'bibliografia.bib', skipping ...
-[525] Biber.pm:134> INFO - WARNINGS: 1
+[99] biber-MSWIN64:342> INFO - === 
+[132] Biber.pm:421> INFO - Reading 'main.bcf'
+[234] Biber.pm:1002> INFO - Found 13 citekeys in bib section 0
+[247] Biber.pm:4487> INFO - Processing section 0
+[260] Biber.pm:4678> INFO - Looking for bibtex file 'bibliografia.bib' for section 0
+[310] bibtex.pm:1713> INFO - LaTeX decoding ...
+[347] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografia.bib'
+[466] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[466] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[466] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[483] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[492] bbl.pm:779> INFO - Output to main.bbl

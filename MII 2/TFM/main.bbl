@@ -392,6 +392,52 @@
       \endverb
       \keyw{Inverters;Power system stability;Synchronous generators;Stability analysis;Impedance;Frequency control;Voltage control;Power grids;Grid forming;Droop control;grid disturbance;grid-forming inverters (GFMIs);small signal;stability analysis;strong grid;virtual synchronous generator (VSG);weak grid}
     \endentry
+    \entry{MathWorks_GraphDataExtractor}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f7e77d254db6886d60f16d8cc7d84ee7}{%
+           family={{The MathWorks, Inc.}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \strng{fullhash}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \strng{fullhashraw}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \strng{bibnamehash}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \strng{authorbibnamehash}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \strng{authornamehash}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \strng{authorfullhash}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \strng{authorfullhashraw}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.mathworks.com/help/simscape/ref/graphdataextractor.html}}
+      \field{note}{Accedido: 12 de octubre de 2026}
+      \field{title}{{Graph Data Extractor}: Simscape Documentation}
+    \endentry
+    \entry{MathWorks_NChannelMOSFET}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f7e77d254db6886d60f16d8cc7d84ee7}{%
+           family={{The MathWorks, Inc.}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \strng{fullhash}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \strng{fullhashraw}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \strng{bibnamehash}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \strng{authorbibnamehash}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \strng{authornamehash}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \strng{authorfullhash}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \strng{authorfullhashraw}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.mathworks.com/help/sps/ref/nchannelmosfet.html}}
+      \field{note}{Accedido: 12 de octubre de 2026}
+      \field{title}{{N-Channel MOSFET}: Simscape Electrical Documentation}
+    \endentry
     \entry{11648147}{article}{}{}
       \name{author}{3}{}{%
         {{hash=f5f3cacfd4317f2f2053423ad235c623}{%
