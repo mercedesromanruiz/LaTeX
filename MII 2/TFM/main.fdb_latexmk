@@ -1,15 +1,15 @@
 # Fdb version 4
-["biber main"] 1793041931.65446 "main.bcf" "main.bbl" "main" 1794041465.67904 0
+["biber main"] 1793041931.65446 "main.bcf" "main.bbl" "main" 1794139893.25961 0
   "bibliografia.bib" 1791828068 14948 386ac9929dd2fcdf6580b9d0807f6268 ""
-  "main.bcf" 1794041465 110694 dc2cbeb6a9285a5c3e38ff86ca965129 "pdflatex"
+  "main.bcf" 1794139892 110694 dc2cbeb6a9285a5c3e38ff86ca965129 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1794041461.70041 "c:/Users/merce/Documents/GitHub/LaTeX/MII 2/TFM/main.tex" "main.pdf" "main" 1794041465.68009 0
+["pdflatex"] 1794139888.60178 "c:/Users/merce/Documents/GitHub/LaTeX/MII 2/TFM/main.tex" "main.pdf" "main" 1794139893.26066 0
   "Capitulos/Capitulo 1 - Introduccion.tex" 1791396295 1963 289566df641d95a0b09913486f0c76af ""
   "Capitulos/Capitulo 2 - Estado del Arte.tex" 1791397066 15509 94a7e4996d44521e636fdc0df5af4649 ""
-  "Capitulos/Capitulo 3 - Entorno de Simulación y Objeto de Estudio.tex" 1791718685 1790 55077fa08e48775ab37d93fdec8b71b1 ""
+  "Capitulos/Capitulo 3 - Entorno de Simulación y Objeto de Estudio.tex" 1794139886 2223 99f2ffca9e45283bda4b9bcea0957db1 ""
   "Capitulos/Capitulo 4 - Modelado del MOSFET de SiC en Simulink.tex" 1794041454 9065 cc9381d2559b4291aeeece2bc3a981ee ""
   "Capitulos/Capitulo 5 - Validación y Comparativa de Resultados.tex" 1793734035 534 3de30bcf0f4d1471d0deb7c526c71531 ""
   "Capitulos/Capitulo 6 - Responsabilidad Profesional y Sostenibilidad.tex" 1784976896 253 aa7045f89bebb7168b7f69632a5d1b9b ""
@@ -20,7 +20,7 @@
   "Documentos/Bibliografia.tex" 1784730477 67 a099c9267d67a5fc87c53ee57cbeb489 ""
   "Documentos/Cuerpo.tex" 1791710958 535 c3865bb0b44010f61e87fa2d5e79da80 ""
   "Documentos/DeclaracionOriginalidad.tex" 1784730477 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "Documentos/Indices.aux" 1794041463 3934 e82efe34f5cc8daffdf4a6ecb9969b3a "pdflatex"
+  "Documentos/Indices.aux" 1794139891 3934 e82efe34f5cc8daffdf4a6ecb9969b3a "pdflatex"
   "Documentos/Indices.tex" 1784730477 129 ad3a8183d0cc5371a2af6d44fb51c94a ""
   "Documentos/Resumen.tex" 1784730477 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Documentos/Terminos.tex" 1784730477 184 53ae3dcfa5af69348c5162cbf47519da ""
@@ -158,13 +158,13 @@
   "c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1784821207 5619402 ad1310ccf7f36101ef3e8f014a173c46 ""
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1784821465 3656533 773d87b1cbe476f9946ea1deef910b9e ""
   "c:/texlive/2026/texmf.cnf" 1784821165 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1794041465 11791 f284a715c669ac4393e07c8eb9984edc "pdflatex"
+  "main.aux" 1794139892 11791 f284a715c669ac4393e07c8eb9984edc "pdflatex"
   "main.bbl" 1793041933 24760 aba1569c6f94e0916a287c2c0846d085 "biber main"
-  "main.lof" 1794041465 1231 9942c4c24ba01839dae97615a16b0941 "pdflatex"
-  "main.lot" 1794041465 818 ae07ea0540caffa5b556bdae15c9c9db "pdflatex"
-  "main.run.xml" 1794041465 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
+  "main.lof" 1794139892 1231 9942c4c24ba01839dae97615a16b0941 "pdflatex"
+  "main.lot" 1794139892 818 ae07ea0540caffa5b556bdae15c9c9db "pdflatex"
+  "main.run.xml" 1794139892 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
   "main.tex" 1791710939 585 9ec7a9da6c6cf75e6f844cca402f9009 ""
-  "main.toc" 1794041465 2546 155fca83f6e7868103c5c1698c796f95 "pdflatex"
+  "main.toc" 1794139892 2546 155fca83f6e7868103c5c1698c796f95 "pdflatex"
   (generated)
   "Documentos/Indices.aux"
   "main.aux"
