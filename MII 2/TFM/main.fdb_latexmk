@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1793041931.65446 "main.bcf" "main.bbl" "main" 1794139893.25961 0
+["biber main"] 1793041931.65446 "main.bcf" "main.bbl" "main" 1794423315.8995 0
   "bibliografia.bib" 1791828068 14948 386ac9929dd2fcdf6580b9d0807f6268 ""
-  "main.bcf" 1794139892 110694 dc2cbeb6a9285a5c3e38ff86ca965129 "pdflatex"
+  "main.bcf" 1794423315 110694 dc2cbeb6a9285a5c3e38ff86ca965129 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1794139888.60178 "c:/Users/merce/Documents/GitHub/LaTeX/MII 2/TFM/main.tex" "main.pdf" "main" 1794139893.26066 0
+["pdflatex"] 1794423311.72211 "c:/Users/merce/Documents/GitHub/LaTeX/MII 2/TFM/main.tex" "main.pdf" "main" 1794423315.90054 0
   "Capitulos/Capitulo 1 - Introduccion.tex" 1791396295 1963 289566df641d95a0b09913486f0c76af ""
   "Capitulos/Capitulo 2 - Estado del Arte.tex" 1791397066 15509 94a7e4996d44521e636fdc0df5af4649 ""
   "Capitulos/Capitulo 3 - Entorno de Simulación y Objeto de Estudio.tex" 1794139886 2223 99f2ffca9e45283bda4b9bcea0957db1 ""
@@ -20,7 +20,7 @@
   "Documentos/Bibliografia.tex" 1784730477 67 a099c9267d67a5fc87c53ee57cbeb489 ""
   "Documentos/Cuerpo.tex" 1791710958 535 c3865bb0b44010f61e87fa2d5e79da80 ""
   "Documentos/DeclaracionOriginalidad.tex" 1784730477 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "Documentos/Indices.aux" 1794139891 3934 e82efe34f5cc8daffdf4a6ecb9969b3a "pdflatex"
+  "Documentos/Indices.aux" 1794423313 3934 e82efe34f5cc8daffdf4a6ecb9969b3a "pdflatex"
   "Documentos/Indices.tex" 1784730477 129 ad3a8183d0cc5371a2af6d44fb51c94a ""
   "Documentos/Resumen.tex" 1784730477 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Documentos/Terminos.tex" 1784730477 184 53ae3dcfa5af69348c5162cbf47519da ""
@@ -28,8 +28,8 @@
   "Imagenes/IM828-XCC Internal Electrical Schematic.png" 1791713152 90412 ae8968d1f61168fd944ab21adf55e907 ""
   "Imagenes/MOSFET Canal N Esquema.png" 1788523271 158685 a1b3134c622a7fd81db4024e3e5b6d98 ""
   "Imagenes/Solutions using 1200 V CoolSiC MOSFET.png" 1785265734 182425 197b307ef9bb9ab1eac80c54910280d1 ""
-  "Imagenes/Validacion Estatica Mejorada - R_DS(on) frente a T_j.png" 1793733238 42600 2f9cd4f68f3b41f9978c91c011e41968 ""
-  "Imagenes/Validacion Estatica Mejorada - Typical transfer characteristics (VDS = 20).png" 1793643832 48922 b9c3dd80e58d1e4a737f8183ba1a698d ""
+  "Imagenes/Validacion Estatica Mejorada - R_DS(on) frente a T_j.png" 1794423228 51164 dafed07eab4c0ae405534f6365c8ed34 ""
+  "Imagenes/Validacion Estatica Mejorada - Typical transfer characteristics (VDS = 20).png" 1794423310 58438 3b61395c292b28b10ad84f44ed48446e ""
   "Imagenes/WBG semiconductor applications.jpg" 1791225369 1402674 6b1feca8b182af94c8f8bfe5fbe99e1b ""
   "Imagenes/car-sales.png" 1790763898 403098 90ff5b9128f7f2bfe99609bc24414e0e ""
   "Imagenes/electricity-mix.png" 1790763893 965124 2107a9731a0d6d9874c6d1e6507bd462 ""
@@ -158,13 +158,13 @@
   "c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1784821207 5619402 ad1310ccf7f36101ef3e8f014a173c46 ""
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1784821465 3656533 773d87b1cbe476f9946ea1deef910b9e ""
   "c:/texlive/2026/texmf.cnf" 1784821165 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1794139892 11791 f284a715c669ac4393e07c8eb9984edc "pdflatex"
+  "main.aux" 1794423315 11791 f284a715c669ac4393e07c8eb9984edc "pdflatex"
   "main.bbl" 1793041933 24760 aba1569c6f94e0916a287c2c0846d085 "biber main"
-  "main.lof" 1794139892 1231 9942c4c24ba01839dae97615a16b0941 "pdflatex"
-  "main.lot" 1794139892 818 ae07ea0540caffa5b556bdae15c9c9db "pdflatex"
-  "main.run.xml" 1794139892 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
+  "main.lof" 1794423315 1231 9942c4c24ba01839dae97615a16b0941 "pdflatex"
+  "main.lot" 1794423315 818 ae07ea0540caffa5b556bdae15c9c9db "pdflatex"
+  "main.run.xml" 1794423315 2307 531e499b1a7f4d649f9e350d9af93e36 "pdflatex"
   "main.tex" 1791710939 585 9ec7a9da6c6cf75e6f844cca402f9009 ""
-  "main.toc" 1794139892 2546 155fca83f6e7868103c5c1698c796f95 "pdflatex"
+  "main.toc" 1794423315 2546 155fca83f6e7868103c5c1698c796f95 "pdflatex"
   (generated)
   "Documentos/Indices.aux"
   "main.aux"
